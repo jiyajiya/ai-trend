@@ -35,3 +35,15 @@ npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/st
 
 ## 한 줄 실행(수동)
 세션에서: "ai-trend 수집 실행" → 위 1→2→3을 순서대로 수행.
+
+## 4. 로컬 스케줄 (매일 아침)
+
+watch 스킬이 로컬 yt-dlp를 쓰므로 클라우드 cron이 아닌 **로컬 cron**을 사용한다.
+매일 08:00 실행 예시(crontab):
+
+```cron
+0 8 * * * /bin/bash /Users/minjijung/projects/ai-project/ai-trend/pipeline/run.sh >> /tmp/ai-trend.log 2>&1
+```
+
+등록: `crontab -e` 후 위 줄 추가. 로그는 `/tmp/ai-trend.log`에서 확인.
+주의: `claude -p` 헤드리스 세션이 로그인된 상태여야 summarize 단계가 동작한다.
