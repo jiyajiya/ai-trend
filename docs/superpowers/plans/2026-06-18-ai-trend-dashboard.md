@@ -17,6 +17,9 @@
 - **데이터 디렉터리**: 런타임 산출물은 모두 `data/`에 둔다. `data/*.json`은 git에서 무시한다(샘플 제외).
 - **아이템 식별자**: `id`는 항상 `makeId(url)`로 생성한 16자 hex.
 - **소스 타입 enum**: `sourceType`은 `youtube | news | paper | repo | model` 중 하나.
+- **UI 디자인 출처(확정)**: 뷰어는 `docs/design/HANDOFF.md` + `docs/design/dashboard-v2.dc.html`(확정본)의 hifi 디자인을 픽셀 단위로 따른다. 색/타이포/간격/인터랙션 토큰은 그 문서가 기준이며, 임의로 바꾸지 않는다.
+- **view 타입 매핑**: 파이프라인 `sourceType`을 뷰어 표시 타입(`news | blog | video | sns | paper`)으로 매핑한다(`web/adapt.mjs`). 4개 컬럼(뉴스/영상/소셜·블로그/논문)은 `data/feed.json`에서, 트렌딩 strip(Top 5)은 `data/trending.json`(repo/model, score 내림차순)에서 온다.
+- **카테고리(cats)**: summarize 단계가 각 아이템에 `cats`(다음 중 0개 이상: `LLM`, `에이전트`, `멀티모달`, `하드웨어`, `정책/규제`, `오픈소스`)를 부여한다. 카테고리 탭의 `전체`는 필터 미적용을 의미한다.
 
 ---
 
@@ -43,8 +46,12 @@ ai-trend/
     RUNBOOK.md                  # summarize 단계(에이전트) 절차 + 프롬프트 + 계약
   web/
     index.html
-    app.js
-    style.css                   # 최소 골격 (디자인 추후 교체)
+    app.js                      # 렌더링/필터/북마크/다크모드 (디자인 포팅)
+    adapt.mjs                   # 파이프라인 아이템 → 뷰어 Item 매핑 (테스트 대상)
+    style.css                   # docs/design 토큰 기반 스타일
+  docs/design/                  # 확정 디자인 핸드오프 (레퍼런스)
+    HANDOFF.md
+    dashboard-v2.dc.html
   data/
     feed.sample.json            # 뷰어 개발용 샘플 (git 포함)
   test/
@@ -56,6 +63,7 @@ ai-trend/
     sources-youtube.test.mjs
     fetch.test.mjs
     merge.test.mjs
+    adapt.test.mjs
     fixtures/
       rss-sample.xml
       atom-arxiv.xml
@@ -1123,11 +1131,11 @@ git commit -m "feat: merge(dedupe/cap/state)"
 
 **Files:**
 - Create: `pipeline/RUNBOOK.md`
-- Create: `data/feed.sample.json` (뷰어 개발용 샘플 — Task 10에서 사용)
+- Create: `data/feed.sample.json` (뷰어 개발용 샘플 — Task 11에서 사용)
 
 **Interfaces:**
 - Consumes: `data/raw.json` (Task 7 산출), `watch` 스킬, `geeknews-search` 스킬
-- Produces: `data/summarized.json` — RawItem에 `summaryKo`/`tags`/`entities`/`summaryStatus` 추가한 배열. merge(Task 8)가 소비.
+- Produces: `data/summarized.json` — RawItem에 `summaryKo`/`tags`/`entities`/`cats`/`summaryStatus` 추가한 배열. merge(Task 8)가 소비.
 
 > 이 태스크는 에이전트가 구독 세션에서 수행하는 단계라 단위 테스트 대신 **수동 스모크 검증**으로 확인한다.
 
@@ -1151,6 +1159,7 @@ npm run fetch     # sources.json 읽어 data/raw.json 생성
 - `summaryKo`: 한국어 2~3문장 요약. 무엇이 새로운지/왜 중요한지 중심.
 - `tags`: 기술 키워드 1~4개 (예: "LLM", "Diffusion", "RAG").
 - `entities`: 등장한 회사/제품/모델명 0~5개 (예: "OpenAI", "GPT-5").
+- `cats`: 카테고리 0개 이상. 다음 고정 목록에서만 고른다 — `LLM`, `에이전트`, `멀티모달`, `하드웨어`, `정책/규제`, `오픈소스`. (카테고리 탭 필터의 기준값)
 - `summaryStatus`: `ok` | `fallback` | `skipped`.
 
 소스 타입별 요약 입력:
@@ -1187,6 +1196,7 @@ npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/st
     "summaryKo": "한 회사가 텍스트·이미지·오디오를 함께 처리하는 새 모델을 공개했다. 추론 속도와 비용이 크게 개선되어 실서비스 적용이 쉬워졌다.",
     "tags": ["Multimodal", "LLM"],
     "entities": ["ExampleAI"],
+    "cats": ["멀티모달", "LLM"],
     "summaryStatus": "ok"
   },
   {
@@ -1200,6 +1210,7 @@ npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/st
     "summaryKo": "이번 주 출시된 주요 AI 도구들을 정리한 영상이다. 코딩 보조와 영상 생성 도구의 업데이트가 핵심으로 다뤄진다.",
     "tags": ["AI Tools", "Video"],
     "entities": [],
+    "cats": [],
     "summaryStatus": "fallback"
   }
 ]
@@ -1207,7 +1218,7 @@ npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/st
 
 - [ ] **Step 3: 수동 스모크 검증**
 
-세션에서 `data/raw.json`을 1~2개 아이템으로 직접 만들어 두고, RUNBOOK의 summarize 규칙대로 `data/summarized.json`을 생성한 뒤 형식이 계약과 맞는지 눈으로 확인한다(필드 5종 존재, `summaryStatus` enum).
+세션에서 `data/raw.json`을 1~2개 아이템으로 직접 만들어 두고, RUNBOOK의 summarize 규칙대로 `data/summarized.json`을 생성한 뒤 형식이 계약과 맞는지 눈으로 확인한다(추가 필드 6종 `summaryKo`/`tags`/`entities`/`cats`/`summaryStatus` 존재, `cats`는 고정 목록에서만, `summaryStatus` enum).
 
 - [ ] **Step 4: 커밋**
 
@@ -1218,18 +1229,165 @@ git commit -m "docs: summarize 런북 + 뷰어 샘플 데이터"
 
 ---
 
-### Task 10: 정적 대시보드 뷰어 (기능 골격)
+### Task 10: 뷰어 데이터 어댑터 (`web/adapt.mjs`)
+
+**Files:**
+- Create: `web/adapt.mjs`
+- Test: `test/adapt.test.mjs`
+
+**Interfaces:**
+- Consumes: 파이프라인 아이템(feed/trending.json 요소)
+- Produces (Task 11이 사용):
+  - `viewType(item): 'news'|'blog'|'video'|'sns'|'paper'|'repo'|'model'`
+  - `relativeTime(iso: string, nowMs: number): string` — "n분 전/n시간 전/n일 전", 파싱 불가 시 `''`
+  - `toViewItem(item, nowMs): ViewItem` — `{ id, type, title, summary, source, time, tagText, metric, cats, score, status, url }`
+  - `groupColumns(viewItems): { news, video, snsblog, paper }` — 4개 컬럼용 그룹(`sns`+`blog`→`snsblog`, `repo`/`model`은 컬럼에서 제외 → 트렌딩 strip 전용)
+
+- [ ] **Step 1: 실패하는 테스트 작성 — `test/adapt.test.mjs`**
+
+```js
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { viewType, relativeTime, toViewItem, groupColumns } from '../web/adapt.mjs';
+
+test('viewType: sourceType과 source로 표시 타입을 정한다', () => {
+  assert.equal(viewType({ sourceType: 'youtube' }), 'video');
+  assert.equal(viewType({ sourceType: 'paper' }), 'paper');
+  assert.equal(viewType({ sourceType: 'repo' }), 'repo');
+  assert.equal(viewType({ sourceType: 'model' }), 'model');
+  assert.equal(viewType({ sourceType: 'news', source: 'GeekNews' }), 'sns');
+  assert.equal(viewType({ sourceType: 'news', source: 'AWS ML Blog' }), 'blog');
+  assert.equal(viewType({ sourceType: 'news', source: 'The Verge AI' }), 'news');
+});
+
+test('relativeTime: 경과 시간을 한국어로 만든다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  assert.equal(relativeTime('2026-06-18T11:30:00Z', now), '30분 전');
+  assert.equal(relativeTime('2026-06-18T09:00:00Z', now), '3시간 전');
+  assert.equal(relativeTime('2026-06-16T12:00:00Z', now), '2일 전');
+  assert.equal(relativeTime('not-a-date', now), '');
+});
+
+test('toViewItem: 파이프라인 아이템을 ViewItem으로 매핑한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({
+    id: 'x1', sourceType: 'news', source: 'The Verge AI', title: 'T',
+    url: 'https://x/1', summaryKo: '요약', tags: ['LLM', 'RAG'],
+    cats: ['LLM'], score: 5, publishedAt: '2026-06-18T11:00:00Z',
+    fetchedAt: '2026-06-18T11:00:00Z', summaryStatus: 'ok',
+  }, now);
+  assert.equal(v.type, 'news');
+  assert.equal(v.summary, '요약');
+  assert.equal(v.tagText, '#LLM  #RAG');
+  assert.equal(v.time, '1시간 전');
+  assert.deepEqual(v.cats, ['LLM']);
+  assert.equal(v.url, 'https://x/1');
+});
+
+test('groupColumns: sns/blog는 한 컬럼, repo/model은 제외', () => {
+  const items = [
+    { type: 'news' }, { type: 'video' }, { type: 'paper' },
+    { type: 'sns' }, { type: 'blog' }, { type: 'repo' }, { type: 'model' },
+  ];
+  const c = groupColumns(items);
+  assert.equal(c.news.length, 1);
+  assert.equal(c.video.length, 1);
+  assert.equal(c.paper.length, 1);
+  assert.equal(c.snsblog.length, 2);
+});
+```
+
+- [ ] **Step 2: 테스트 실행 → 실패 확인**
+
+Run: `node --test test/adapt.test.mjs`
+Expected: FAIL — `Cannot find module '../web/adapt.mjs'`
+
+- [ ] **Step 3: `web/adapt.mjs` 구현**
+
+```js
+const BLOG = new Set(['AWS ML Blog', 'Databricks', 'Roboflow', 'NAVER D2', 'Comet ML', 'Salesforce']);
+const SNS = new Set(['GeekNews', 'Hacker News']);
+
+export function viewType(item) {
+  switch (item.sourceType) {
+    case 'youtube': return 'video';
+    case 'paper': return 'paper';
+    case 'repo': return 'repo';
+    case 'model': return 'model';
+    default:
+      if (SNS.has(item.source)) return 'sns';
+      if (BLOG.has(item.source)) return 'blog';
+      return 'news';
+  }
+}
+
+export function relativeTime(iso, nowMs) {
+  const t = Date.parse(iso);
+  if (Number.isNaN(t)) return '';
+  const sec = Math.max(0, Math.floor((nowMs - t) / 1000));
+  if (sec < 3600) return `${Math.max(1, Math.floor(sec / 60))}분 전`;
+  if (sec < 86400) return `${Math.floor(sec / 3600)}시간 전`;
+  return `${Math.floor(sec / 86400)}일 전`;
+}
+
+export function toViewItem(item, nowMs) {
+  return {
+    id: item.id,
+    type: viewType(item),
+    title: item.title,
+    summary: item.summaryKo || '',
+    source: item.source,
+    url: item.url,
+    time: relativeTime(item.fetchedAt || item.publishedAt, nowMs),
+    tagText: (item.tags || []).map((t) => `#${t}`).join('  '),
+    metric: item.metric || (item.score != null ? String(item.score) : ''),
+    cats: item.cats || [],
+    score: item.score || 0,
+    status: item.summaryStatus || 'ok',
+  };
+}
+
+export function groupColumns(viewItems) {
+  const col = { news: [], video: [], snsblog: [], paper: [] };
+  for (const i of viewItems) {
+    if (i.type === 'video') col.video.push(i);
+    else if (i.type === 'paper') col.paper.push(i);
+    else if (i.type === 'sns' || i.type === 'blog') col.snsblog.push(i);
+    else if (i.type === 'repo' || i.type === 'model') continue; // 트렌딩 strip 전용
+    else col.news.push(i);
+  }
+  return col;
+}
+```
+
+- [ ] **Step 4: 테스트 재실행 → 통과 확인**
+
+Run: `node --test test/adapt.test.mjs`
+Expected: PASS (4 tests)
+
+- [ ] **Step 5: 커밋**
+
+```bash
+git add web/adapt.mjs test/adapt.test.mjs
+git commit -m "feat: 뷰어 데이터 어댑터(adapt.mjs)"
+```
+
+---
+
+### Task 11: 확정 디자인 포팅 — Source Board 뷰어
 
 **Files:**
 - Create: `web/index.html`, `web/app.js`, `web/style.css`
 
 **Interfaces:**
-- Consumes: `data/feed.json`, `data/trending.json` (없으면 `data/feed.sample.json` 폴백)
-- Produces: 브라우저에서 피드/트렌딩 탭, sourceType·tag 필터, 카드 렌더링.
+- Consumes: `data/feed.json`(컬럼) + `data/trending.json`(strip), 없으면 `data/feed.sample.json` 폴백. `web/adapt.mjs`(Task 10).
+- Produces: `docs/design/dashboard-v2.dc.html` + `docs/design/HANDOFF.md`의 hifi 디자인을 그대로 재현한 정적 대시보드.
 
-> 디자인/스타일은 사용자가 추후 제공한다. 여기서는 **기능 골격 + 최소 CSS**만 만든다. 단위 테스트 대신 브라우저 수동 검증.
+> **디자인 출처(확정)**: 픽셀/토큰은 `docs/design/HANDOFF.md`와 `docs/design/dashboard-v2.dc.html`이 기준이다. 아래 코드는 데이터 바인딩·상태 로직의 골격이며, 색/간격/폰트 토큰은 HANDOFF 표를 그대로 적용한다. 단위 테스트 대신 브라우저 수동 검증(체크리스트).
+>
+> **repo/model 트렌딩 배지**: HANDOFF는 5개 타입 색만 정의한다. 트렌딩 strip에 오는 `repo`/`model`은 순위 번호/배지를 ACCENT(`oklch(0.55 0.2 285)`)로 표시한다(핸드오프 확장, 최소 처리).
 
-- [ ] **Step 1: `web/index.html` 작성**
+- [ ] **Step 1: `web/index.html` 작성 (폰트 + 마운트 지점)**
 
 ```html
 <!doctype html>
@@ -1237,128 +1395,257 @@ git commit -m "docs: summarize 런북 + 뷰어 샘플 데이터"
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI 트렌드</title>
+  <title>에이트렌드 · AI Trend Board</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header>
-    <h1>AI 트렌드</h1>
-    <nav id="tabs">
-      <button data-tab="feed" class="active">피드</button>
-      <button data-tab="trending">트렌딩</button>
-    </nav>
-  </header>
-  <section id="filters">
-    <select id="typeFilter"><option value="">전체 타입</option></select>
-    <select id="tagFilter"><option value="">전체 태그</option></select>
-  </section>
-  <main id="list"></main>
+  <div class="dash" id="dash" data-theme="light">
+    <header class="bar">
+      <div class="brand">
+        <div class="logo">▲</div>
+        <div class="wordmark">에이트렌드</div>
+        <div class="badge-board">BOARD</div>
+      </div>
+      <nav class="cats" id="cats"></nav>
+      <div class="search">
+        <span class="search-ic">⌕</span>
+        <input id="q" placeholder="검색…" />
+      </div>
+      <button class="darktoggle" id="darktoggle"></button>
+    </header>
+    <section class="trending">
+      <div class="section-label">실시간 트렌딩</div>
+      <div class="trending-grid" id="trending"></div>
+    </section>
+    <main class="columns" id="columns"></main>
+  </div>
   <script type="module" src="./app.js"></script>
 </body>
 </html>
 ```
 
-- [ ] **Step 2: `web/app.js` 작성**
+- [ ] **Step 2: `web/style.css` 작성 (HANDOFF 토큰 적용)**
 
-```js
-const state = { tab: 'feed', type: '', tag: '', feed: [], trending: [] };
-
-async function load(path, fallback) {
-  try {
-    const res = await fetch(path, { cache: 'no-store' });
-    if (!res.ok) throw new Error(res.status);
-    return await res.json();
-  } catch {
-    return fallback;
-  }
-}
-
-function current() {
-  const items = state.tab === 'feed' ? state.feed : state.trending;
-  return items.filter(
-    (i) => (!state.type || i.sourceType === state.type) &&
-           (!state.tag || (i.tags || []).includes(state.tag)),
-  );
-}
-
-function fillFilters() {
-  const items = state.tab === 'feed' ? state.feed : state.trending;
-  const types = [...new Set(items.map((i) => i.sourceType))].sort();
-  const tags = [...new Set(items.flatMap((i) => i.tags || []))].sort();
-  document.getElementById('typeFilter').innerHTML =
-    '<option value="">전체 타입</option>' + types.map((t) => `<option>${t}</option>`).join('');
-  document.getElementById('tagFilter').innerHTML =
-    '<option value="">전체 태그</option>' + tags.map((t) => `<option>${t}</option>`).join('');
-}
-
-function card(i) {
-  const tags = (i.tags || []).map((t) => `<span class="tag">${t}</span>`).join('');
-  const score = i.score != null ? `<span class="score">★ ${i.score}</span>` : '';
-  const flag = i.summaryStatus && i.summaryStatus !== 'ok' ? `<span class="flag">${i.summaryStatus}</span>` : '';
-  return `<article class="card">
-    <div class="meta"><span class="src">${i.source}</span> ${score} ${flag}</div>
-    <a class="title" href="${i.url}" target="_blank" rel="noopener">${i.title}</a>
-    <p class="summary">${i.summaryKo || ''}</p>
-    <div class="tags">${tags}</div>
-    <time>${i.publishedAt || ''}</time>
-  </article>`;
-}
-
-function render() {
-  document.querySelectorAll('#tabs button').forEach((b) =>
-    b.classList.toggle('active', b.dataset.tab === state.tab));
-  document.getElementById('list').innerHTML = current().map(card).join('') || '<p>항목이 없습니다.</p>';
-}
-
-document.getElementById('tabs').addEventListener('click', (e) => {
-  if (!e.target.dataset.tab) return;
-  state.tab = e.target.dataset.tab;
-  state.type = ''; state.tag = '';
-  fillFilters(); render();
-});
-document.getElementById('typeFilter').addEventListener('change', (e) => { state.type = e.target.value; render(); });
-document.getElementById('tagFilter').addEventListener('change', (e) => { state.tag = e.target.value; render(); });
-
-state.feed = await load('../data/feed.json', await load('../data/feed.sample.json', []));
-state.trending = await load('../data/trending.json', []);
-fillFilters();
-render();
-```
-
-- [ ] **Step 3: `web/style.css` 작성 (최소 골격)**
+> HANDOFF "Design Tokens" 표를 그대로 옮긴다. 핵심 토큰을 변수로 정의하고, top bar·칩·트렌딩 그리드(`repeat(5,1fr)`)·컬럼 그리드(`repeat(4,1fr)`)·카드·다크 오버라이드를 작성한다. 픽셀 값은 HANDOFF "Layout"/"컴포넌트" 절을 따른다.
 
 ```css
-:root { font-family: system-ui, sans-serif; color: #1a1a1a; }
-body { margin: 0; max-width: 760px; margin: 0 auto; padding: 16px; }
-header { display: flex; align-items: baseline; justify-content: space-between; }
-#tabs button { font: inherit; padding: 6px 12px; border: 1px solid #ccc; background: #fff; cursor: pointer; }
-#tabs button.active { background: #1a1a1a; color: #fff; }
-#filters { display: flex; gap: 8px; margin: 12px 0; }
-.card { border: 1px solid #eee; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
-.card .meta { font-size: 12px; color: #666; display: flex; gap: 8px; }
-.card .title { display: block; font-weight: 600; margin: 6px 0; color: #0b5; text-decoration: none; }
-.card .summary { margin: 6px 0; line-height: 1.5; }
-.tag { font-size: 12px; background: #f0f0f0; border-radius: 4px; padding: 2px 6px; margin-right: 4px; }
-.flag { color: #b50; }
-time { font-size: 12px; color: #999; }
+:root {
+  --accent: oklch(0.55 0.2 285);
+  --accent-tint: oklch(0.95 0.045 285);
+  --c-news: oklch(0.55 0.16 250); --t-news: oklch(0.96 0.03 250);
+  --c-blog: oklch(0.52 0.13 155); --t-blog: oklch(0.96 0.035 155);
+  --c-video: oklch(0.57 0.19 28); --t-video: oklch(0.96 0.04 28);
+  --c-sns: oklch(0.55 0.17 330); --t-sns: oklch(0.96 0.035 330);
+  --c-paper: oklch(0.54 0.11 95); --t-paper: oklch(0.96 0.04 95);
+  --page: #fbfbf9; --surface: #fff; --chip: #f4f4f2; --border: #ececea;
+  --text: #16161a; --title: #22222a; --muted: #7a786f; --meta: #b0aea6;
+  --mono: 'JetBrains Mono', monospace;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #e7e5df; font-family: 'Pretendard', -apple-system, sans-serif; }
+.dash { max-width: 1320px; margin: 0 auto; }
+[data-page], .dash { background: var(--page); }
+.dash { border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,.09); overflow: hidden; }
+
+.bar { display: flex; align-items: center; gap: 18px; padding: 16px 28px; background: var(--surface); border-bottom: 1px solid var(--border); }
+.brand { display: flex; align-items: center; gap: 11px; }
+.logo { width: 27px; height: 27px; border-radius: 7px; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font: 700 14px/1 var(--mono); }
+.wordmark { font-size: 18px; font-weight: 800; color: var(--text); letter-spacing: -.01em; }
+.badge-board { font: 500 10px/1 var(--mono); color: #b6b4ac; letter-spacing: .1em; }
+.cats { display: flex; gap: 4px; margin-left: 6px; flex-wrap: wrap; }
+.chip { padding: 8px 14px; border: none; border-radius: 999px; cursor: pointer; font-family: inherit; font-size: 13px; white-space: nowrap; background: var(--chip); color: var(--text); font-weight: 500; }
+.chip.active { background: var(--accent); color: #fff; font-weight: 700; }
+.search { margin-left: auto; width: 260px; display: flex; align-items: center; gap: 9px; padding: 9px 14px; background: var(--chip); border: 1px solid var(--border); border-radius: 9px; }
+.search-ic { color: #a8a69e; font-size: 14px; }
+.search input { border: none; background: transparent; outline: none; width: 100%; font-family: inherit; font-size: 14px; color: inherit; }
+.darktoggle { display: flex; align-items: center; gap: 7px; padding: 8px 13px; background: var(--chip); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600; font-family: inherit; color: inherit; }
+
+.trending { padding: 20px 28px; border-bottom: 1px solid var(--border); }
+.section-label { font: 600 12px/1 var(--mono); color: #8a887f; letter-spacing: .04em; margin-bottom: 14px; }
+.trending-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.trend-card { background: var(--surface); border: 1px solid var(--border); border-radius: 11px; padding: 15px 16px; }
+.trend-rank { font: 700 20px/1 var(--mono); color: var(--accent); }
+.trend-title { font-size: 13.5px; line-height: 1.4; font-weight: 700; color: var(--title); margin: 8px 0; text-wrap: pretty; }
+.trend-metric { font: 500 11px/1 var(--mono); color: var(--meta); }
+
+.columns { display: grid; grid-template-columns: repeat(4, 1fr); align-items: start; }
+.col { padding: 20px 18px; }
+.col:not(:last-child) { border-right: 1px solid var(--border); }
+.col-head { display: flex; align-items: center; gap: 9px; margin-bottom: 14px; }
+.col-dot { width: 10px; height: 10px; border-radius: 50%; }
+.col-name { font-size: 14px; font-weight: 800; color: var(--title); }
+.col-count { margin-left: auto; font: 500 11px/1 var(--mono); color: var(--meta); }
+.col-card { background: var(--surface); border: 1px solid var(--border); border-radius: 9px; padding: 13px 14px; display: flex; gap: 11px; margin-bottom: 12px; transition: transform .14s ease, box-shadow .14s ease; }
+.col-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.07); }
+.col-bar { width: 3px; border-radius: 3px; flex: none; }
+.cc-body { flex: 1; min-width: 0; }
+.cc-titlerow { display: flex; gap: 8px; align-items: start; }
+.cc-title { font-size: 14px; line-height: 1.4; font-weight: 700; color: var(--title); text-decoration: none; flex: 1; }
+.cc-bookmark { border: none; background: none; cursor: pointer; font-size: 16px; color: oklch(0.72 0 0); }
+.cc-bookmark.on { color: var(--accent); }
+.cc-summary { font-size: 12px; line-height: 1.5; color: var(--muted); margin: 6px 0; }
+.cc-meta { font: 500 11px/1 var(--mono); color: var(--meta); }
+.cc-flag { color: #b50; }
+.empty { padding: 60px 28px; text-align: center; font-size: 15px; color: #a8a69e; }
+
+.dash[data-theme="dark"] { background: #101014; }
+.dash[data-theme="dark"] .bar { background: #16161b; border-color: #27272e; }
+.dash[data-theme="dark"] .trend-card,
+.dash[data-theme="dark"] .col-card { background: #1a1a20; border-color: #2a2a31; }
+.dash[data-theme="dark"] .wordmark,
+.dash[data-theme="dark"] .col-name,
+.dash[data-theme="dark"] .cc-title,
+.dash[data-theme="dark"] .trend-title { color: #f3f3f5; }
+.dash[data-theme="dark"] .cc-summary { color: #9a9aa3; }
+.dash[data-theme="dark"] .chip { background: #26262d; color: #cfcfd6; }
+.dash[data-theme="dark"] .chip.active { background: var(--accent); color: #fff; }
+.dash[data-theme="dark"] .search { background: #22222a; border-color: #2f2f37; }
+.dash[data-theme="dark"] .col:not(:last-child) { border-color: #2a2a31; }
+
+@media (max-width: 960px) {
+  .trending-grid { grid-template-columns: 1fr; }
+  .columns { grid-template-columns: 1fr; }
+  .col:not(:last-child) { border-right: none; border-bottom: 1px solid var(--border); }
+  .search { width: 100%; }
+}
 ```
 
-- [ ] **Step 4: 브라우저 수동 검증**
+- [ ] **Step 3: `web/app.js` 작성 (상태/필터/북마크/다크 + 렌더)**
 
-Run: `python3 -m http.server 8080`
-브라우저에서 `http://localhost:8080/web/`를 연다. (`data/feed.json`이 없으면 샘플로 폴백)
-확인: 피드/트렌딩 탭 전환, 타입·태그 필터 동작, 카드에 source·제목·요약·태그 표시.
+```js
+import { toViewItem, groupColumns } from './adapt.mjs';
+
+const CATS = ['전체', 'LLM', '에이전트', '멀티모달', '하드웨어', '정책/규제', '오픈소스'];
+const COLORS = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
+  sns: 'var(--c-sns)', paper: 'var(--c-paper)', repo: 'var(--accent)', model: 'var(--accent)' };
+const COLDEFS = [
+  ['뉴스', 'news', 'var(--c-news)'],
+  ['영상', 'video', 'var(--c-video)'],
+  ['소셜 · 블로그', 'snsblog', 'var(--c-sns)'],
+  ['논문', 'paper', 'var(--c-paper)'],
+];
+
+const state = { cat: '전체', q: '', dark: load('dark') === '1',
+  bm: JSON.parse(localStorage.getItem('bm') || '{}'), feed: [], trending: [] };
+
+function load(k) { return localStorage.getItem(k); }
+async function getJson(path, fallback) {
+  try { const r = await fetch(path, { cache: 'no-store' }); if (!r.ok) throw 0; return await r.json(); }
+  catch { return fallback; }
+}
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
+
+function matches(i) {
+  const okCat = state.cat === '전체' || (i.cats || []).includes(state.cat);
+  const q = state.q.trim().toLowerCase();
+  const okQ = !q || `${i.title} ${i.summary} ${i.source} ${i.tagText}`.toLowerCase().includes(q);
+  return okCat && okQ;
+}
+
+function renderCats() {
+  document.getElementById('cats').innerHTML = CATS.map((c) =>
+    `<button class="chip${c === state.cat ? ' active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
+}
+
+function renderTrending() {
+  const items = state.trending.filter(matches).sort((a, b) => b.score - a.score).slice(0, 5);
+  document.getElementById('trending').innerHTML = items.map((i, n) => `
+    <div class="trend-card">
+      <div class="trend-rank" style="color:${COLORS[i.type] || 'var(--accent)'}">${String(n + 1).padStart(2, '0')}</div>
+      <div class="trend-title">${esc(i.title)}</div>
+      <div class="trend-metric">${esc(i.source)} · ${esc(i.metric)}</div>
+    </div>`).join('') || '<div class="empty">트렌딩 항목이 없습니다.</div>';
+}
+
+function colCard(i) {
+  const on = state.bm[i.id] ? ' on' : '';
+  const star = state.bm[i.id] ? '★' : '☆';
+  const flag = i.status !== 'ok' ? `<span class="cc-flag">${esc(i.status)}</span> ` : '';
+  return `<div class="col-card">
+    <div class="col-bar" style="background:${COLORS[i.type]}"></div>
+    <div class="cc-body">
+      <div class="cc-titlerow">
+        <a class="cc-title" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+        <button class="cc-bookmark${on}" data-bm="${esc(i.id)}">${star}</button>
+      </div>
+      <div class="cc-summary">${esc(i.summary)}</div>
+      <div class="cc-meta">${flag}${esc(i.source)} · ${esc(i.time)} · ${esc(i.tagText)}</div>
+    </div>
+  </div>`;
+}
+
+function renderColumns() {
+  const cols = groupColumns(state.feed.filter(matches));
+  const html = COLDEFS.map(([label, key, color]) => {
+    const items = cols[key] || [];
+    const cards = items.map(colCard).join('') || '<div class="empty">검색 결과가 없습니다.</div>';
+    return `<section class="col">
+      <div class="col-head"><span class="col-dot" style="background:${color}"></span>
+        <span class="col-name">${label}</span><span class="col-count">${items.length}</span></div>
+      ${cards}
+    </section>`;
+  }).join('');
+  document.getElementById('columns').innerHTML = html;
+}
+
+function renderDark() {
+  document.getElementById('dash').dataset.theme = state.dark ? 'dark' : 'light';
+  document.getElementById('darktoggle').innerHTML =
+    `<span style="width:13px;height:13px;border-radius:50%;background:${state.dark ? '#f3f3f5' : '#16161a'}"></span>${state.dark ? 'Light' : 'Dark'}`;
+}
+
+function renderAll() { renderCats(); renderTrending(); renderColumns(); }
+
+document.getElementById('cats').addEventListener('click', (e) => {
+  const c = e.target.dataset.cat; if (!c) return; state.cat = c; renderAll();
+});
+document.getElementById('q').addEventListener('input', (e) => { state.q = e.target.value; renderTrending(); renderColumns(); });
+document.getElementById('darktoggle').addEventListener('click', () => {
+  state.dark = !state.dark; localStorage.setItem('dark', state.dark ? '1' : '0'); renderDark();
+});
+document.getElementById('columns').addEventListener('click', (e) => {
+  const id = e.target.dataset.bm; if (!id) return;
+  state.bm[id] = !state.bm[id]; localStorage.setItem('bm', JSON.stringify(state.bm)); renderColumns();
+});
+
+const now = Date.now();
+const rawFeed = await getJson('../data/feed.json', await getJson('../data/feed.sample.json', []));
+const rawTrend = await getJson('../data/trending.json', []);
+state.feed = rawFeed.map((i) => toViewItem(i, now));
+state.trending = rawTrend.map((i) => toViewItem(i, now));
+renderDark();
+renderAll();
+```
+
+- [ ] **Step 4: 브라우저 수동 검증 (체크리스트)**
+
+Run: `python3 -m http.server 8080` → `http://localhost:8080/web/` 열기. (`data/feed.json` 없으면 샘플 폴백)
+
+`docs/design/dashboard-v2.dc.html`을 나란히 띄워 비교하며 확인:
+- [ ] top bar: 로고(▲)+워드마크+BOARD, 카테고리 칩 7개, 우측 검색(260px), 다크 토글
+- [ ] 트렌딩 strip: 5열 그리드, 순위 `01`~`05`, 소스 컬러 순위 번호
+- [ ] 컬럼: 뉴스/영상/소셜·블로그/논문 4열, 헤더 점·카운트, 카드 좌측 컬러 바
+- [ ] 카테고리 칩 클릭 → 컬럼/트렌딩 필터(전체는 미적용)
+- [ ] 검색 입력 → title+summary+source+tagText 부분일치 필터
+- [ ] 북마크 ☆↔★ 토글, 새로고침 후 유지(localStorage)
+- [ ] 다크 토글 → 색 일괄 전환, 새로고침 후 유지
+- [ ] 카드 호버 시 살짝 떠오름(translateY -2px)
+- [ ] 빈 결과 시 "검색 결과가 없습니다."
+- [ ] 폭 960px 이하에서 컬럼/트렌딩 1열 스택
 
 - [ ] **Step 5: 커밋**
 
 ```bash
 git add web/index.html web/app.js web/style.css
-git commit -m "feat: 정적 대시보드 뷰어(기능 골격)"
+git commit -m "feat: 확정 디자인 포팅 — Source Board 뷰어"
 ```
 
 ---
 
-### Task 11: 엔드투엔드 실행 + 로컬 스케줄 배선
+### Task 12: 엔드투엔드 실행 + 로컬 스케줄 배선
 
 **Files:**
 - Create: `pipeline/run.sh` (수동/cron 공용 실행 래퍼)
@@ -1431,8 +1718,8 @@ git commit -m "feat: E2E 실행 래퍼 + 로컬 스케줄 안내"
 
 ## Self-Review
 
-**Spec coverage (설계 문서 대비):**
-- 목적/개인용/API비용0/로컬스케줄 → Task 9 런북·Task 11 ✅
+**Spec coverage (설계 문서 + 확정 디자인 대비):**
+- 목적/개인용/API비용0/로컬스케줄 → Task 9 런북·Task 12 ✅
 - fetch+summarize 분리 → Task 7(fetch)·Task 9(summarize)·Task 8(merge) ✅
 - 소스 4종(YouTube/뉴스·블로그·GeekNews/GitHub·HF/arXiv) → Task 3·4·5·6 ✅
 - GeekNews 추가 → sources.json(Task 1) + 런북 geeknews-search 언급(Task 9) ✅
@@ -1441,12 +1728,16 @@ git commit -m "feat: E2E 실행 래퍼 + 로컬 스케줄 안내"
 - rate limit 캡(perRunCap) → Task 1 설정 + Task 3·6 적용 ✅
 - 소스별 격리 → Task 3·4·5·6 try/catch ✅
 - YouTube 폴백(summaryStatus) → Task 9 런북 + Task 8 처리 ✅
-- 뷰어(탭/필터/카드, 디자인 추후) → Task 10 ✅
 - 시드 영상 2개 → sources.json(Task 1) + Task 6 ✅
+- **확정 디자인(Source Board)**: 데이터 어댑터 → Task 10, 트렌딩 strip + 4컬럼 + 카테고리·검색·북마크·다크모드 포팅 → Task 11 ✅
+- **카테고리(cats) 분류**: summarize 계약(Task 9) → merge 통과(Task 8, spread) → 카테고리 탭 필터(Task 11) ✅
+- **view 타입 매핑(news|blog|video|sns|paper)**: Task 10 `viewType` ✅
 
-**Placeholder scan:** "TBD/TODO/적절히 처리" 없음. 모든 코드 단계에 실제 코드 포함. ✅
+**Placeholder scan:** "TBD/TODO/적절히 처리" 없음. 모든 코드 단계에 실제 코드 포함. 디자인 포팅(Task 11)의 픽셀 토큰은 커밋된 `docs/design/`를 기준으로 하며 vague하지 않음. ✅
 
 **Type consistency:**
 - RawItem 필드(id/sourceType/source/title/url/publishedAt/rawText[/videoId/score/thumbnail/lang])가 어댑터→fetch→merge에서 일관. ✅
-- `summaryStatus` enum(`ok|fallback|skipped`)이 런북·merge·뷰어에서 일관. ✅
-- `makeId`/`readJson`/`writeJson`/`parseFeed`/`collectRaw`/`mergeFeed`/`fetchRssSources`/`fetchArxiv`/`fetchGithub`/`fetchHuggingface`/`fetchYoutube` 시그니처가 정의처와 호출처 일치. ✅
+- summarize 추가 필드(summaryKo/tags/entities/cats/summaryStatus)가 런북(Task 9)·merge spread(Task 8)·adapt(Task 10) 간 일관. ✅
+- `summaryStatus` enum(`ok|fallback|skipped`)이 런북·merge·adapt(`status`)에서 일관. ✅
+- ViewItem 필드(id/type/title/summary/source/url/time/tagText/metric/cats/score/status)가 `toViewItem`(Task 10) 정의와 `app.js`(Task 11) 사용처 일치. ✅
+- `makeId`/`readJson`/`writeJson`/`parseFeed`/`collectRaw`/`mergeFeed`/`fetchRssSources`/`fetchArxiv`/`fetchGithub`/`fetchHuggingface`/`fetchYoutube`/`viewType`/`relativeTime`/`toViewItem`/`groupColumns` 시그니처가 정의처와 호출처 일치. ✅

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *{ box-sizing:border-box; }
+  body{ margin:0; }
+  .dash[data-theme="dark"] [data-page]{ background:#101014 !important; }
+  .dash[data-theme="dark"] [data-bar]{ background:#16161b !important; border-color:#27272e !important; }
+  .dash[data-theme="dark"] [data-surface]{ background:#1a1a20 !important; border-color:#2a2a31 !important; }
+  .dash[data-theme="dark"] [data-text]{ color:#f3f3f5 !important; }
+  .dash[data-theme="dark"] [data-muted]{ color:#9a9aa3 !important; }
+  .dash[data-theme="dark"] [data-border]{ border-color:#2a2a31 !important; }
+  .dash[data-theme="dark"] [data-chip]{ background:#26262d !important; color:#cfcfd6 !important; }
+  .dash[data-theme="dark"] [data-thumb]{ background:repeating-linear-gradient(135deg,#222228 0 11px,#1c1c22 11px 22px) !important; color:#55555f !important; }
+  .dash[data-theme="dark"] [data-input]{ background:#22222a !important; border-color:#2f2f37 !important; color:#f3f3f5 !important; }
+</style>
+</helmet>
+
+<div class="dash" data-theme="{{ themeAttr }}" style="width:max-content; min-width:100%; min-height:100vh; box-sizing:border-box; padding:48px; background:#e7e5df; font-family:'Pretendard',-apple-system,sans-serif;">
+  <div style="margin-bottom:30px;">
+    <div style="font:600 12px/1 'JetBrains Mono'; letter-spacing:.12em; color:#a09e96; text-transform:uppercase;">AI Trend Dashboard</div>
+    <div style="margin-top:8px; font-size:15px; color:#75736b; max-width:760px;">최신 AI · 테크 트렌드를 기사 · 영상 · SNS · 논문까지 한곳에서. 검색 · 필터 · 북마크 · 다크모드가 실제로 동작합니다 — 세 가지 시안을 비교해 보세요.</div>
+  </div>
+
+  <div style="display:flex; gap:48px; align-items:flex-start;">
+
+    <!-- ===================== 시안 A : 에디토리얼 피드 ===================== -->
+    <div style="flex:none; width:1280px;">
+      <div style="font:600 12px/1 'JetBrains Mono'; color:#8a887f; margin-bottom:12px; letter-spacing:.04em;">시안 A · 에디토리얼 피드 (데스크탑)</div>
+      <div data-page style="background:#fbfbf9; border-radius:3px; box-shadow:0 1px 3px rgba(0,0,0,.09); overflow:hidden;">
+
+        <!-- top bar -->
+        <div data-bar data-border style="display:flex; align-items:center; gap:20px; padding:16px 26px; background:#ffffff; border-bottom:1px solid #ececea;">
+          <div style="display:flex; align-items:center; gap:11px; flex:none;">
+            <div style="width:26px; height:26px; border-radius:7px; background:{{ ACCENT }}; display:flex; align-items:center; justify-content:center; color:#fff; font:700 14px/1 'JetBrains Mono';">A</div>
+            <div data-text style="font-size:18px; font-weight:800; color:#16161a; letter-spacing:-.01em;">에이트렌드</div>
+            <div style="font:500 10px/1 'JetBrains Mono'; color:#b6b4ac; letter-spacing:.1em; padding-top:2px;">DASHBOARD</div>
+          </div>
+          <div style="flex:1; display:flex; align-items:center; gap:10px; max-width:440px; margin:0 auto;">
+            <div data-input data-border style="flex:1; display:flex; align-items:center; gap:9px; padding:9px 14px; background:#f4f4f2; border:1px solid #ececea; border-radius:9px;">
+              <span data-muted style="color:#a8a69e; font-size:14px;">⌕</span>
+              <input value="{{ q }}" onInput="{{ onQ }}" placeholder="키워드, 소스, 태그 검색…" style="border:none; background:transparent; outline:none; width:100%; font-family:'Pretendard',sans-serif; font-size:14px; color:inherit;"/>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; flex:none;">
+            <div data-muted style="font:500 12px/1 'JetBrains Mono'; color:#a8a69e;">2026.06.18</div>
+            <button onClick="{{ toggleDark }}" data-chip data-border style="display:flex; align-items:center; gap:7px; padding:7px 13px; background:#f4f4f2; border:1px solid #ececea; border-radius:999px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:13px; font-weight:600; color:inherit;">
+              <span style="width:13px; height:13px; border-radius:50%; background:{{ darkDotBg }}; display:inline-block;"></span>{{ darkLabel }}
+            </button>
+          </div>
+        </div>
+
+        <!-- body: sidebar / main / rail -->
+        <div style="display:flex; align-items:stretch;">
+
+          <!-- sidebar -->
+          <aside data-border style="flex:none; width:222px; padding:22px 18px; border-right:1px solid #ececea;">
+            <div data-muted style="font:600 11px/1 'JetBrains Mono'; letter-spacing:.1em; color:#a8a69e; text-transform:uppercase; margin-bottom:12px;">카테고리</div>
+            <div style="display:flex; flex-direction:column; gap:3px;">
+              <sc-for list="{{ catObjs }}" as="c" hint-placeholder-count="7">
+                <button onClick="{{ c.onClick }}" data-text style="display:flex; align-items:center; justify-content:space-between; gap:8px; padding:9px 12px; border:none; border-radius:8px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:14px; text-align:left; color:{{ c.acol }}; background:{{ c.abg }}; font-weight:{{ c.aw }};">
+                  <span style="white-space:nowrap;">{{ c.name }}</span>
+                  <span style="font:500 11px/1 'JetBrains Mono'; opacity:.7;">{{ c.count }}</span>
+                </button>
+              </sc-for>
+            </div>
+            <div data-border style="height:1px; background:#ececea; margin:20px 2px;"></div>
+            <div data-muted style="font:600 11px/1 'JetBrains Mono'; letter-spacing:.1em; color:#a8a69e; text-transform:uppercase; margin-bottom:12px;">소스</div>
+            <div style="display:flex; flex-direction:column; gap:3px;">
+              <sc-for list="{{ srcObjs }}" as="s" hint-placeholder-count="5">
+                <button onClick="{{ s.onClick }}" data-text style="display:flex; align-items:center; gap:10px; padding:9px 12px; border:none; border-radius:8px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:14px; text-align:left; color:{{ s.acol }}; background:{{ s.abg }}; font-weight:{{ s.aw }};">
+                  <span style="width:9px; height:9px; border-radius:50%; background:{{ s.color }}; flex:none;"></span>
+                  <span style="flex:1; white-space:nowrap;">{{ s.label }}</span>
+                  <span style="font:500 11px/1 'JetBrains Mono'; opacity:.6;">{{ s.count }}</span>
+                </button>
+              </sc-for>
+            </div>
+            <div data-surface data-border style="margin-top:20px; padding:14px; background:#f6f6f4; border:1px solid #ececea; border-radius:10px;">
+              <div data-muted style="font:600 11px/1 'JetBrains Mono'; color:#a8a69e; letter-spacing:.06em;">저장됨</div>
+              <div data-text style="font-size:26px; font-weight:800; color:#16161a; margin-top:5px;">{{ savedCount }}<span data-muted style="font-size:13px; font-weight:500; color:#a8a69e; margin-left:4px;">건</span></div>
+            </div>
+          </aside>
+
+          <!-- main -->
+          <main style="flex:1; padding:24px 26px; min-width:0;">
+            <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:18px;">
+              <div data-text style="font-size:20px; font-weight:800; color:#16161a;">최신 피드</div>
+              <div data-muted style="font:500 12px/1 'JetBrains Mono'; color:#a8a69e;">{{ feedCount }} RESULTS</div>
+            </div>
+
+            <sc-if value="{{ hero }}" hint-placeholder-val="{{ true }}">
+              <article data-surface data-border style="display:flex; gap:0; background:#fff; border:1px solid #ececea; border-radius:14px; overflow:hidden; margin-bottom:18px;">
+                <div data-thumb style="flex:none; width:300px; align-self:stretch; min-height:200px; background:repeating-linear-gradient(135deg,#f0f0ed 0 11px,#f7f7f4 11px 22px); display:flex; align-items:center; justify-content:center; color:#bdbcb4; font:500 12px/1 'JetBrains Mono'; position:relative;">
+                  <span style="position:absolute; top:14px; left:14px; padding:4px 10px; border-radius:999px; font:600 11px/1 'JetBrains Mono'; color:{{ hero.typeColor }}; background:{{ hero.typeTint }};">{{ hero.typeLabel }}</span>
+                  {{ hero.thumbLabel }}
+                </div>
+                <div style="flex:1; padding:24px 26px; display:flex; flex-direction:column; min-width:0;">
+                  <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                    <span style="font:600 10px/1 'JetBrains Mono'; letter-spacing:.1em; color:{{ ACCENT }};">▲ TRENDING NOW</span>
+                    <span data-muted style="font:500 12px/1 'JetBrains Mono'; color:#a8a69e;">{{ hero.time }}</span>
+                  </div>
+                  <h2 data-text style="margin:0; font-size:25px; line-height:1.28; font-weight:800; color:#16161a; letter-spacing:-.01em; text-wrap:pretty;">{{ hero.title }}</h2>
+                  <p data-muted style="margin:12px 0 0; font-size:15px; line-height:1.6; color:#6b6961; max-width:520px;">{{ hero.summary }}</p>
+                  <div style="margin-top:auto; padding-top:18px; display:flex; align-items:center; gap:14px;">
+                    <span data-text style="font-size:13px; font-weight:600; color:#3a3a40;">{{ hero.source }}</span>
+                    <span data-muted style="font:500 12px/1 'JetBrains Mono'; color:#a8a69e;">{{ hero.metric }}</span>
+                    <span data-chip style="margin-left:auto; font:500 12px/1 'JetBrains Mono'; color:#9a988f; background:#f4f4f2; padding:5px 10px; border-radius:6px;">{{ hero.tagText }}</span>
+                    <button onClick="{{ hero.onBm }}" style="border:none; background:transparent; cursor:pointer; font-size:20px; line-height:1; color:{{ hero.bmColor }};">{{ hero.bmGlyph }}</button>
+                  </div>
+                </div>
+              </article>
+            </sc-if>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:18px;">
+              <sc-for list="{{ grid }}" as="it" hint-placeholder-count="6">
+                <article data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:12px; overflow:hidden; display:flex; flex-direction:column; transition:transform .15s ease, box-shadow .15s ease;" style-hover="transform:translateY(-3px); box-shadow:0 8px 22px rgba(0,0,0,.08);">
+                  <div data-thumb style="height:130px; background:repeating-linear-gradient(135deg,#f0f0ed 0 11px,#f7f7f4 11px 22px); display:flex; align-items:center; justify-content:center; color:#bdbcb4; font:500 11px/1 'JetBrains Mono'; position:relative;">
+                    <span style="position:absolute; top:11px; left:11px; padding:3px 9px; border-radius:999px; font:600 10px/1 'JetBrains Mono'; color:{{ it.typeColor }}; background:{{ it.typeTint }};">{{ it.typeLabel }}</span>
+                    <button onClick="{{ it.onBm }}" style="position:absolute; top:7px; right:9px; border:none; background:transparent; cursor:pointer; font-size:17px; line-height:1; color:{{ it.bmColor }};">{{ it.bmGlyph }}</button>
+                    {{ it.thumbLabel }}
+                  </div>
+                  <div style="padding:15px 16px 16px; display:flex; flex-direction:column; flex:1;">
+                    <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e; margin-bottom:8px;">{{ it.time }}</div>
+                    <h3 data-text style="margin:0; font-size:16px; line-height:1.4; font-weight:700; color:#16161a; letter-spacing:-.005em; text-wrap:pretty;">{{ it.title }}</h3>
+                    <p data-muted style="margin:8px 0 0; font-size:13.5px; line-height:1.55; color:#7a786f;">{{ it.summary }}</p>
+                    <div style="margin-top:auto; padding-top:14px; display:flex; align-items:center; gap:10px;">
+                      <span data-text style="font-size:12.5px; font-weight:600; color:#46464c;">{{ it.source }}</span>
+                      <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#b0aea6; margin-left:auto;">{{ it.metric }}</span>
+                    </div>
+                  </div>
+                </article>
+              </sc-for>
+            </div>
+
+            <sc-if value="{{ hasFeed }}" hint-placeholder-val="{{ false }}">
+              <div style="height:0;"></div>
+            </sc-if>
+          </main>
+
+          <!-- right rail -->
+          <aside data-border style="flex:none; width:286px; padding:24px 22px; border-left:1px solid #ececea;">
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:16px;">
+              <span style="font-size:16px; color:{{ ACCENT }};">▲</span>
+              <div data-text style="font-size:16px; font-weight:800; color:#16161a;">트렌딩 랭킹</div>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:2px;">
+              <sc-for list="{{ trending }}" as="t" hint-placeholder-count="5">
+                <div data-border style="display:flex; gap:13px; padding:13px 6px; border-bottom:1px solid #f0f0ed;">
+                  <div style="font:700 17px/1.1 'JetBrains Mono'; color:{{ t.typeColor }}; flex:none; width:24px;">{{ t.rankStr }}</div>
+                  <div style="min-width:0;">
+                    <div data-text style="font-size:13.5px; line-height:1.4; font-weight:700; color:#22222a; text-wrap:pretty;">{{ t.title }}</div>
+                    <div style="display:flex; align-items:center; gap:8px; margin-top:6px;">
+                      <span style="width:7px; height:7px; border-radius:50%; background:{{ t.typeColor }};"></span>
+                      <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e;">{{ t.source }}</span>
+                      <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#c0beb6; margin-left:auto;">{{ t.metric }}</span>
+                    </div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 시안 B : 소스별 보드 ===================== -->
+    <div style="flex:none; width:1280px;">
+      <div style="font:600 12px/1 'JetBrains Mono'; color:#8a887f; margin-bottom:12px; letter-spacing:.04em;">시안 B · 소스별 보드 (데스크탑)</div>
+      <div data-page style="background:#fbfbf9; border-radius:3px; box-shadow:0 1px 3px rgba(0,0,0,.09); overflow:hidden;">
+
+        <div data-bar data-border style="display:flex; align-items:center; gap:20px; padding:16px 28px; background:#ffffff; border-bottom:1px solid #ececea;">
+          <div style="display:flex; align-items:center; gap:11px; flex:none;">
+            <div style="width:26px; height:26px; border-radius:7px; background:#16161a; display:flex; align-items:center; justify-content:center; color:#fff; font:700 14px/1 'JetBrains Mono';">B</div>
+            <div data-text style="font-size:18px; font-weight:800; color:#16161a;">에이트렌드</div>
+            <div style="font:500 10px/1 'JetBrains Mono'; color:#b6b4ac; letter-spacing:.1em; padding-top:2px;">BOARD</div>
+          </div>
+          <nav style="display:flex; gap:4px; margin-left:8px;">
+            <sc-for list="{{ catObjs }}" as="c" hint-placeholder-count="7">
+              <button onClick="{{ c.onClick }}" data-text data-chip style="padding:7px 13px; border:none; border-radius:999px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:13px; color:{{ c.acol }}; background:{{ c.abg }}; font-weight:{{ c.aw }};">{{ c.name }}</button>
+            </sc-for>
+          </nav>
+          <button onClick="{{ toggleDark }}" data-chip data-border style="margin-left:auto; display:flex; align-items:center; gap:7px; padding:7px 13px; background:#f4f4f2; border:1px solid #ececea; border-radius:999px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:13px; font-weight:600; color:inherit; flex:none;">
+            <span style="width:13px; height:13px; border-radius:50%; background:{{ darkDotBg }};"></span>{{ darkLabel }}
+          </button>
+        </div>
+
+        <!-- trending strip -->
+        <div data-border style="padding:20px 28px; border-bottom:1px solid #ececea;">
+          <div data-muted style="font:600 11px/1 'JetBrains Mono'; letter-spacing:.1em; color:#a8a69e; text-transform:uppercase; margin-bottom:14px;">▲ 지금 가장 뜨거운</div>
+          <div style="display:grid; grid-template-columns:repeat(5,1fr); gap:14px;">
+            <sc-for list="{{ trending }}" as="t" hint-placeholder-count="5">
+              <div data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:11px; padding:15px 16px;">
+                <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:9px;">
+                  <span style="font:700 20px/1 'JetBrains Mono'; color:{{ t.typeColor }};">{{ t.rankStr }}</span>
+                  <span style="padding:3px 8px; border-radius:999px; font:600 10px/1 'JetBrains Mono'; color:{{ t.typeColor }}; background:{{ t.typeTint }};">{{ t.typeLabel }}</span>
+                </div>
+                <div data-text style="font-size:13.5px; line-height:1.4; font-weight:700; color:#22222a; text-wrap:pretty;">{{ t.title }}</div>
+                <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#b0aea6; margin-top:9px;">{{ t.metric }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <!-- source columns -->
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:0;">
+          <!-- col news -->
+          <section data-border style="padding:20px 18px; border-right:1px solid #ececea;">
+            <div style="display:flex; align-items:center; gap:9px; margin-bottom:14px;">
+              <span style="width:10px; height:10px; border-radius:50%; background:oklch(0.55 0.16 250);"></span>
+              <div data-text style="font-size:14px; font-weight:800; color:#16161a;">뉴스</div>
+              <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#b0aea6; margin-left:auto;">{{ colNews.length }}</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:11px;">
+              <sc-for list="{{ colNews }}" as="it" hint-placeholder-count="3">
+                <div data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:9px; padding:13px 14px; display:flex; gap:11px;">
+                  <div style="width:3px; border-radius:3px; background:{{ it.typeColor }}; flex:none;"></div>
+                  <div style="min-width:0;">
+                    <div data-text style="font-size:14px; line-height:1.4; font-weight:700; color:#22222a; text-wrap:pretty;">{{ it.title }}</div>
+                    <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e; margin-top:7px;">{{ it.source }} · {{ it.time }}</div>
+                    <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#c0beb6; margin-top:5px;">{{ it.tagText }}</div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+          <!-- col video -->
+          <section data-border style="padding:20px 18px; border-right:1px solid #ececea;">
+            <div style="display:flex; align-items:center; gap:9px; margin-bottom:14px;">
+              <span style="width:10px; height:10px; border-radius:50%; background:oklch(0.57 0.19 28);"></span>
+              <div data-text style="font-size:14px; font-weight:800; color:#16161a;">영상</div>
+              <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#b0aea6; margin-left:auto;">{{ colVideo.length }}</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:11px;">
+              <sc-for list="{{ colVideo }}" as="it" hint-placeholder-count="2">
+                <div data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:9px; overflow:hidden;">
+                  <div data-thumb style="height:96px; background:repeating-linear-gradient(135deg,#f0f0ed 0 11px,#f7f7f4 11px 22px); display:flex; align-items:center; justify-content:center; color:#bdbcb4; font:500 10px/1 'JetBrains Mono';">{{ it.thumbLabel }}</div>
+                  <div style="padding:12px 13px;">
+                    <div data-text style="font-size:14px; line-height:1.4; font-weight:700; color:#22222a; text-wrap:pretty;">{{ it.title }}</div>
+                    <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e; margin-top:7px;">{{ it.source }} · {{ it.metric }}</div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+          <!-- col social -->
+          <section data-border style="padding:20px 18px; border-right:1px solid #ececea;">
+            <div style="display:flex; align-items:center; gap:9px; margin-bottom:14px;">
+              <span style="width:10px; height:10px; border-radius:50%; background:oklch(0.55 0.17 330);"></span>
+              <div data-text style="font-size:14px; font-weight:800; color:#16161a;">소셜 · 블로그</div>
+              <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#b0aea6; margin-left:auto;">{{ colSocial.length }}</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:11px;">
+              <sc-for list="{{ colSocial }}" as="it" hint-placeholder-count="3">
+                <div data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:9px; padding:13px 14px; display:flex; gap:11px;">
+                  <div style="width:3px; border-radius:3px; background:{{ it.typeColor }}; flex:none;"></div>
+                  <div style="min-width:0;">
+                    <span style="display:inline-block; padding:2px 8px; border-radius:999px; font:600 10px/1 'JetBrains Mono'; color:{{ it.typeColor }}; background:{{ it.typeTint }}; margin-bottom:8px;">{{ it.typeLabel }}</span>
+                    <div data-text style="font-size:14px; line-height:1.4; font-weight:700; color:#22222a; text-wrap:pretty;">{{ it.title }}</div>
+                    <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e; margin-top:7px;">{{ it.source }} · {{ it.time }}</div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+          <!-- col paper -->
+          <section style="padding:20px 18px;">
+            <div style="display:flex; align-items:center; gap:9px; margin-bottom:14px;">
+              <span style="width:10px; height:10px; border-radius:50%; background:oklch(0.54 0.11 95);"></span>
+              <div data-text style="font-size:14px; font-weight:800; color:#16161a;">논문</div>
+              <span data-muted style="font:500 11px/1 'JetBrains Mono'; color:#b0aea6; margin-left:auto;">{{ colPaper.length }}</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:11px;">
+              <sc-for list="{{ colPaper }}" as="it" hint-placeholder-count="2">
+                <div data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:9px; padding:13px 14px; display:flex; gap:11px;">
+                  <div style="width:3px; border-radius:3px; background:{{ it.typeColor }}; flex:none;"></div>
+                  <div style="min-width:0;">
+                    <div data-text style="font-size:14px; line-height:1.4; font-weight:700; color:#22222a; text-wrap:pretty;">{{ it.title }}</div>
+                    <div data-muted style="font:400 12px/1.5 'Pretendard'; color:#7a786f; margin-top:7px;">{{ it.summary }}</div>
+                    <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e; margin-top:8px;">{{ it.source }} · {{ it.metric }}</div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== 모바일 반응형 ===================== -->
+    <div style="flex:none; width:390px;">
+      <div style="font:600 12px/1 'JetBrains Mono'; color:#8a887f; margin-bottom:12px; letter-spacing:.04em;">모바일 · 반응형</div>
+      <div data-page style="background:#fbfbf9; border-radius:30px; box-shadow:0 1px 3px rgba(0,0,0,.09); overflow:hidden; border:8px solid #15151a;">
+
+        <div data-bar data-border style="padding:16px 18px 12px; background:#ffffff; border-bottom:1px solid #ececea;">
+          <div style="display:flex; align-items:center; gap:9px; margin-bottom:13px;">
+            <div style="width:24px; height:24px; border-radius:6px; background:{{ ACCENT }}; display:flex; align-items:center; justify-content:center; color:#fff; font:700 13px/1 'JetBrains Mono';">A</div>
+            <div data-text style="font-size:17px; font-weight:800; color:#16161a;">에이트렌드</div>
+            <button onClick="{{ toggleDark }}" data-chip data-border style="margin-left:auto; display:flex; align-items:center; gap:6px; padding:6px 11px; background:#f4f4f2; border:1px solid #ececea; border-radius:999px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:12px; font-weight:600; color:inherit;">
+              <span style="width:11px; height:11px; border-radius:50%; background:{{ darkDotBg }};"></span>{{ darkLabel }}
+            </button>
+          </div>
+          <div data-input data-border style="display:flex; align-items:center; gap:8px; padding:9px 13px; background:#f4f4f2; border:1px solid #ececea; border-radius:9px;">
+            <span data-muted style="color:#a8a69e; font-size:14px;">⌕</span>
+            <input value="{{ q }}" onInput="{{ onQ }}" placeholder="검색…" style="border:none; background:transparent; outline:none; width:100%; font-family:'Pretendard',sans-serif; font-size:14px; color:inherit;"/>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:7px; padding:13px 18px; overflow-x:auto;">
+          <sc-for list="{{ catObjs }}" as="c" hint-placeholder-count="7">
+            <button onClick="{{ c.onClick }}" data-text data-chip style="flex:none; padding:7px 14px; border:none; border-radius:999px; cursor:pointer; font-family:'Pretendard',sans-serif; font-size:13px; white-space:nowrap; color:{{ c.acol }}; background:{{ c.abg }}; font-weight:{{ c.aw }};">{{ c.name }}</button>
+          </sc-for>
+        </div>
+
+        <div style="padding:4px 18px 24px; display:flex; flex-direction:column; gap:14px;">
+          <sc-for list="{{ grid }}" as="it" hint-placeholder-count="5">
+            <article data-surface data-border style="background:#fff; border:1px solid #ececea; border-radius:13px; overflow:hidden;">
+              <div data-thumb style="height:150px; background:repeating-linear-gradient(135deg,#f0f0ed 0 11px,#f7f7f4 11px 22px); display:flex; align-items:center; justify-content:center; color:#bdbcb4; font:500 11px/1 'JetBrains Mono'; position:relative;">
+                <span style="position:absolute; top:12px; left:12px; padding:3px 9px; border-radius:999px; font:600 10px/1 'JetBrains Mono'; color:{{ it.typeColor }}; background:{{ it.typeTint }};">{{ it.typeLabel }}</span>
+                <button onClick="{{ it.onBm }}" style="position:absolute; top:8px; right:10px; border:none; background:transparent; cursor:pointer; font-size:18px; line-height:1; color:{{ it.bmColor }};">{{ it.bmGlyph }}</button>
+                {{ it.thumbLabel }}
+              </div>
+              <div style="padding:15px 16px 16px;">
+                <div data-muted style="font:500 11px/1 'JetBrains Mono'; color:#a8a69e; margin-bottom:8px;">{{ it.source }} · {{ it.time }}</div>
+                <h3 data-text style="margin:0; font-size:16.5px; line-height:1.4; font-weight:700; color:#16161a; text-wrap:pretty;">{{ it.title }}</h3>
+                <p data-muted style="margin:8px 0 0; font-size:14px; line-height:1.55; color:#7a786f;">{{ it.summary }}</p>
+              </div>
+            </article>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { dark:false, q:'', cat:'전체', src:null, bm:{} };
+
+  renderVals() {
+    const ACCENT = 'oklch(0.55 0.2 285)';
+    const ACCENT_TINT = 'oklch(0.95 0.045 285)';
+    const T = {
+      news:  { label:'뉴스',  color:'oklch(0.55 0.16 250)', tint:'oklch(0.96 0.03 250)' },
+      blog:  { label:'블로그', color:'oklch(0.52 0.13 155)', tint:'oklch(0.96 0.035 155)' },
+      video: { label:'영상',  color:'oklch(0.57 0.19 28)',  tint:'oklch(0.96 0.04 28)' },
+      sns:   { label:'SNS',   color:'oklch(0.55 0.17 330)', tint:'oklch(0.96 0.035 330)' },
+      paper: { label:'논문',  color:'oklch(0.54 0.11 95)',  tint:'oklch(0.96 0.04 95)' },
+    };
+    const raw = [
+      {id:'i1', type:'video', title:'OpenAI, GPT-5 실시간 음성 데모 전격 공개', summary:'지연 230ms의 자연스러운 대화형 음성 모델, 감정 인식까지 시연했다.', source:'유튜브 · OpenAI', time:'2시간 전', tagText:'#GPT5  #음성AI', metric:'42만 회', cats:['LLM','멀티모달'], score:98},
+      {id:'i2', type:'news', title:'구글 제미나이 3.0, 멀티모달 벤치마크 1위 탈환', summary:'장문 영상 이해와 코드 추론에서 경쟁 모델을 큰 폭으로 앞섰다.', source:'The Verge', time:'4시간 전', tagText:'#Gemini  #벤치마크', metric:'1.8k', cats:['LLM','멀티모달'], score:95},
+      {id:'i3', type:'paper', title:'에이전트형 LLM의 장기 추론 능력 측정 벤치마크', summary:'200단계 이상 도구 사용 과제에서 모델 신뢰도가 급감하는 현상을 관찰.', source:'arXiv', time:'6시간 전', tagText:'#에이전트  #추론', metric:'인용 34', cats:['에이전트','LLM'], score:72},
+      {id:'i4', type:'sns', title:'"Context Engineering이 Prompt를 대체한다"', summary:'카파시: 모델 성능의 병목은 이제 맥락 설계에 있다고 강조했다.', source:'X · @karpathy', time:'8시간 전', tagText:'#컨텍스트  #LLMOps', metric:'8.9k 좋아요', cats:['에이전트'], score:90},
+      {id:'i5', type:'blog', title:'Claude 컴퓨터 사용 기능, 실전 자동화 적용기', summary:'반복 업무 12종을 에이전트에 위임한 4주간의 실측 기록.', source:'Anthropic', time:'10시간 전', tagText:'#Claude  #자동화', metric:'1.1k', cats:['에이전트'], score:68},
+      {id:'i6', type:'news', title:"엔비디아, 차세대 추론 칩 'Rubin' 양산 일정 발표", summary:'추론 효율 3배·전력 40% 절감, 2026년 4분기 공급 예정.', source:'연합뉴스', time:'12시간 전', tagText:'#엔비디아  #반도체', metric:'2.3k', cats:['하드웨어'], score:88},
+      {id:'i7', type:'video', title:'1시간 만에 만드는 프로덕션 RAG 파이프라인', summary:'임베딩·재랭킹·평가까지 오픈소스 스택만으로 끝내기.', source:'YouTube · AI Engineer', time:'14시간 전', tagText:'#RAG  #실습', metric:'17만 회', cats:['LLM','오픈소스'], score:60},
+      {id:'i8', type:'blog', title:'온디바이스 LLM, 2026년 모바일의 기본이 되다', summary:'7B 모델이 플래그십에서 실시간 동작, 프라이버시 이점이 부각된다.', source:'모듈로 블로그', time:'18시간 전', tagText:'#온디바이스  #모바일', metric:'940', cats:['하드웨어','LLM'], score:55},
+      {id:'i9', type:'news', title:'EU AI법 본격 시행… 국내 기업 대응 가이드', summary:'고위험 분류 기준과 문서화 의무, 과징금 규모를 정리했다.', source:'한국경제', time:'1일 전', tagText:'#규제  #EU', metric:'1.5k', cats:['정책/규제'], score:80},
+      {id:'i10', type:'paper', title:'확산 모델 기반 코드 생성이 자기회귀를 넘다', summary:'병렬 디코딩으로 지연을 1/5로, 정확도는 동등 수준 유지.', source:'arXiv', time:'1일 전', tagText:'#확산모델  #코드생성', metric:'인용 21', cats:['LLM','오픈소스'], score:58},
+    ];
+
+    const items = raw.map((it,i)=>({
+      ...it, idx:i,
+      typeLabel:T[it.type].label, typeColor:T[it.type].color, typeTint:T[it.type].tint,
+      thumbLabel:'['+T[it.type].label+' thumbnail]',
+      bmActive: !!this.state.bm[it.id],
+      bmGlyph: this.state.bm[it.id] ? '★' : '☆',
+      bmColor: this.state.bm[it.id] ? ACCENT : 'oklch(0.6 0 0)',
+      onBm: ()=> this.setState(s=>({ bm:{ ...s.bm, [it.id]: !s.bm[it.id] } })),
+    }));
+
+    const q = this.state.q.trim().toLowerCase();
+    const cat = this.state.cat;
+    const src = this.state.src;
+    const feed = items.filter(it=>{
+      const okCat = cat==='전체' || it.cats.includes(cat);
+      const okSrc = !src || it.type===src;
+      const okQ = !q || (it.title+it.summary+it.source+it.tagText).toLowerCase().includes(q);
+      return okCat && okSrc && okQ;
+    });
+    const hero = feed[0] || null;
+    const grid = feed.slice(1);
+    const hasFeed = feed.length>0;
+
+    const trending = items.slice().sort((a,b)=>b.score-a.score).slice(0,5)
+      .map((it,i)=>({ ...it, rankStr:String(i+1).padStart(2,'0') }));
+
+    const CATS = ['전체','LLM','에이전트','멀티모달','하드웨어','정책/규제','오픈소스'];
+    const catObjs = CATS.map(name=>{
+      const active = name===cat;
+      const count = name==='전체' ? items.length : items.filter(it=>it.cats.includes(name)).length;
+      return { name, count, active,
+        onClick: ()=> this.setState({ cat:name }),
+        abg: active ? ACCENT : 'transparent',
+        acol: active ? '#ffffff' : 'inherit',
+        aw: active ? '700' : '500' };
+    });
+
+    const SRC = [['news','뉴스'],['blog','블로그'],['video','영상'],['sns','SNS'],['paper','논문']];
+    const srcObjs = SRC.map(([key,label])=>{
+      const active = src===key;
+      return { key, label, color:T[key].color,
+        count: items.filter(it=>it.type===key).length, active,
+        onClick: ()=> this.setState(s=>({ src: s.src===key ? null : key })),
+        abg: active ? T[key].tint : 'transparent',
+        acol: active ? T[key].color : 'inherit',
+        aw: active ? '700' : '500' };
+    });
+
+    const colNews   = items.filter(it=>it.type==='news');
+    const colVideo  = items.filter(it=>it.type==='video');
+    const colSocial = items.filter(it=>it.type==='sns'||it.type==='blog');
+    const colPaper  = items.filter(it=>it.type==='paper');
+
+    const savedCount = Object.values(this.state.bm).filter(Boolean).length;
+
+    return {
+      themeAttr: this.state.dark ? 'dark' : 'light',
+      darkLabel: this.state.dark ? 'Light' : 'Dark',
+      darkDotBg: this.state.dark ? '#f3f3f5' : '#16161a',
+      toggleDark: ()=> this.setState(s=>({ dark:!s.dark })),
+      q: this.state.q,
+      onQ: (e)=> this.setState({ q:e.target.value }),
+      items, hero, grid, hasFeed, trending,
+      catObjs, srcObjs,
+      colNews, colVideo, colSocial, colPaper,
+      savedCount, feedCount: feed.length,
+      ACCENT, ACCENT_TINT,
+    };
+  }
+}
+</script>
+</body>
+</html>
