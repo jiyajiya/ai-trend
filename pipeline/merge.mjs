@@ -42,7 +42,11 @@ export function mergeFeed({ summarized, existingFeed, existingTrending, state, n
   });
 
   feed.sort(byPublishedDesc);
-  trending.sort((a, b) => (b.score || 0) - (a.score || 0));
+  trending.sort((a, b) => {
+    const ra = a.rank ?? Infinity, rb = b.rank ?? Infinity;
+    if (ra !== rb) return ra - rb;            // lower rank first (rank 1 = top)
+    return (b.score || 0) - (a.score || 0);   // tiebreak: higher score first
+  });
 
   return {
     feed: feed.slice(0, FEED_MAX),
