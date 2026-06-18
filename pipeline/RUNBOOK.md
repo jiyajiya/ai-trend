@@ -28,6 +28,18 @@ npm run fetch     # sources.json 읽어 data/raw.json 생성
 
 요약이 불가능한 아이템은 `summaryStatus: skipped`로 두면 merge가 제외한다.
 
+### 2a. 소스별 보강 가이드 (추가)
+
+**Hacker News**
+- `rawText`가 URL + 메타데이터만 담긴 경우(본문 없음) → `url`을 WebFetch로 원문 일부(첫 1,000자 내외)를 받아 요약 입력에 추가한다.
+- 회당 처리 상한: `perRunCap`건(현재 8건). 나머지는 `summaryStatus: fallback`으로 제목만 요약.
+- 원문이 영상(YouTube 링크) 또는 PDF인 경우: WebFetch 시도 없이 fallback 허용.
+
+**YouTube**
+- 영문 자막 fetch 실패(HTTP 429 등) 시 → 한국어 자동자막(auto-generated)으로 재시도.
+- 한국어 자막도 실패 시 → 제목 + 설명 텍스트 기반 요약(`summaryStatus: fallback`).
+- 회당 채널별 신규 영상 처리 상한: `perChannel`(현재 3)건. 채널 수 × perChannel이 실질 상한.
+
 ## 3. merge (스크립트)
 ```bash
 npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/state
