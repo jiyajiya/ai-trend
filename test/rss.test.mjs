@@ -28,6 +28,18 @@ test('Atom entry를 파싱한다(link href + summary)', () => {
   assert.equal(items[0].summary, 'Atom summary');
 });
 
+test('Atom entry with single-quoted href를 파싱한다', () => {
+  const xml = `<feed><entry>
+    <title>T</title>
+    <link rel='alternate' href='https://ok/1'/>
+    <published>2026-06-18T00:00:00Z</published>
+    <summary>s</summary>
+  </entry></feed>`;
+  const items = parseFeed(xml);
+  assert.equal(items.length, 1);
+  assert.equal(items[0].link, 'https://ok/1');
+});
+
 test('null/empty input을 처리한다', () => {
   assert.deepEqual(parseFeed(null), []);
   assert.deepEqual(parseFeed(undefined), []);
