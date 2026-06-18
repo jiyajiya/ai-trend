@@ -17,5 +17,12 @@ test('arXiv Atom을 paper RawItem으로 변환한다', async () => {
   assert.match(items[0].rawText, /large language models/);
   // 쿼리에 카테고리/정렬/개수가 포함되는지
   assert.match(calledUrl, /cat:cs\.AI/);
+  assert.match(calledUrl, /cat:cs\.LG/);
   assert.match(calledUrl, /max_results=5/);
+});
+
+test('network 오류 시 빈 배열을 반환한다', async () => {
+  const deps = { fetchText: async () => { throw new Error('network'); } };
+  const items = await fetchArxiv({ categories: ['cs.AI'], maxResults: 5 }, deps);
+  assert.equal(items.length, 0);
 });
