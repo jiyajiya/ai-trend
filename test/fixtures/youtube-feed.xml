@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015">
+  <title>Test Channel</title>
   <entry>
     <yt:videoId>abc123XYZ</yt:videoId>
     <title>How AI Agents Work</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=abc123XYZ"/>
     <published>2026-06-17T12:00:00Z</published>
+    <author><name>Test Channel</name></author>
   </entry>
 </feed>

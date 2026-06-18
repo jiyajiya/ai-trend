@@ -31,9 +31,12 @@ test('GitHub은 쿼리 간 중복 repo를 제거한다', async () => {
 
 test('HuggingFace 모델을 model RawItem으로 변환한다', async () => {
   const fakeResp = [
-    { id: 'meta/llama', likes: 999, pipeline_tag: 'text-generation' },
+    { id: 'meta/llama', likes: 999, pipeline_tag: 'text-generation', tags: ['text-generation', 'transformers', 'llama'] },
   ];
-  const deps = { fetchJson: async () => fakeResp };
+  const deps = { fetchJson: async (url) => {
+    assert.match(url, /full=true/, 'API URL should contain full=true');
+    return fakeResp;
+  } };
   const items = await fetchHuggingface({ limit: 10 }, deps);
   assert.equal(items.length, 1);
   assert.equal(items[0].sourceType, 'model');
@@ -41,6 +44,8 @@ test('HuggingFace 모델을 model RawItem으로 변환한다', async () => {
   assert.equal(items[0].title, 'meta/llama');
   assert.equal(items[0].url, 'https://huggingface.co/meta/llama');
   assert.equal(items[0].score, 999);
+  assert.match(items[0].rawText, /text-generation/, 'rawText should contain pipeline_tag');
+  assert.match(items[0].rawText, /transformers/, 'rawText should contain at least one tag');
 });
 
 test('GitHub 요청 실패시 빈 배열을 반환한다', async () => {

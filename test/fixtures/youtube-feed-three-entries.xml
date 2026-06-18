@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015">
+  <title>Three Entry Channel</title>
+  <entry>
+    <yt:videoId>vid001AAA</yt:videoId>
+    <title>First Video</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=vid001AAA"/>
+    <published>2026-06-17T12:00:00Z</published>
+    <author><name>Three Entry Channel</name></author>
+  </entry>
+  <entry>
+    <yt:videoId>vid002BBB</yt:videoId>
+    <title>Second Video</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=vid002BBB"/>
+    <published>2026-06-16T12:00:00Z</published>
+    <author><name>Three Entry Channel</name></author>
+  </entry>
+  <entry>
+    <yt:videoId>vid003CCC</yt:videoId>
+    <title>Third Video</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=vid003CCC"/>
+    <published>2026-06-15T12:00:00Z</published>
+    <author><name>Three Entry Channel</name></author>
+  </entry>
+</feed>

@@ -1,28 +1,34 @@
 {
-  "perRunCap": 10,
+  "perRunCap": 8,
   "news": [
-    { "source": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
-    { "source": "Ars Technica AI", "url": "https://arstechnica.com/ai/feed/" },
-    { "source": "Hacker News", "url": "https://hnrss.org/newest?q=AI+OR+LLM&count=20" },
-    { "source": "AWS ML Blog", "url": "https://aws.amazon.com/blogs/machine-learning/feed/" },
-    { "source": "GeekNews", "url": "https://news.hada.io/rss/news" }
+    {"source":"The Verge AI","url":"https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"source":"Ars Technica AI","url":"https://arstechnica.com/ai/feed/"},
+    {"source":"Wired AI","url":"https://www.wired.com/feed/tag/ai/latest/rss"},
+    {"source":"Hacker News","url":"https://hnrss.org/newest?q=AI+OR+LLM&count=20"},
+    {"source":"GeekNews","url":"https://news.hada.io/rss/news"},
+    {"source":"AWS ML Blog","url":"https://aws.amazon.com/blogs/machine-learning/feed/"},
+    {"source":"Databricks","url":"https://www.databricks.com/feed"},
+    {"source":"Roboflow","url":"https://blog.roboflow.com/rss/"},
+    {"source":"Salesforce","url":"https://engineering.salesforce.com/feed/"},
+    {"source":"OpenAI","url":"https://openai.com/news/rss.xml"},
+    {"source":"Google AI","url":"https://blog.google/innovation-and-ai/technology/ai/rss/"},
+    {"source":"MIT Tech Review AI","url":"https://www.technologyreview.com/topic/artificial-intelligence/feed"}
   ],
-  "arxiv": {
-    "categories": ["cs.AI", "cs.LG", "cs.CL"],
-    "maxResults": 10
-  },
-  "github": {
-    "queries": ["topic:llm", "topic:generative-ai"],
-    "perQuery": 5
-  },
-  "huggingface": {
-    "limit": 10
-  },
+  "arxiv": {"categories":["cs.AI","cs.LG","cs.CL"],"maxResults":10},
+  "github": {"queries":["topic:llm","topic:generative-ai"],"perQuery":5},
+  "huggingface": {"limit":10},
   "youtube": {
-    "channels": [],
-    "seedVideos": [
-      "https://youtu.be/mMgCEJEAm54",
-      "https://youtu.be/5q5ZUpwgj4E"
-    ]
+    "perChannel": 3,
+    "channels": [
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCNrehnUq7Il-J7HQxrzp7CA",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCbHmDkgh2oHWcN7e28QnIFw",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCF1V8u4OtxVZ-POm2IRuGbQ",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCbY9xX3_jW5c2fjlZVBI4cg",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCelfWQr9sXVMTvBzviPGlFw",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCdEov4L0bpJ_h6W3sJxkfUA",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"
+    ],
+    "seedVideos": ["https://youtu.be/mMgCEJEAm54","https://youtu.be/5q5ZUpwgj4E"]
   }
 }
