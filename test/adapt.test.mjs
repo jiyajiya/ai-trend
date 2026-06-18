@@ -75,6 +75,24 @@ test('toViewItem: data: URL은 #으로 교체한다 (XSS 방어)', () => {
   assert.equal(v.url, '#');
 });
 
+test('toViewItem: rank가 있으면 ViewItem에 rank를 포함한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({
+    id: 'r1', sourceType: 'repo', source: 'GitHub', title: 't',
+    url: 'https://g/r', rank: 2, score: 5,
+  }, now);
+  assert.equal(v.rank, 2);
+});
+
+test('toViewItem: rank가 없으면 Infinity를 기본값으로 설정한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({
+    id: 'r2', sourceType: 'model', source: 'HuggingFace', title: 't',
+    url: 'https://hf/m', score: 10,
+  }, now);
+  assert.ok(!Number.isFinite(v.rank));
+});
+
 test('groupColumns: sns/blog는 한 컬럼, repo/model은 제외', () => {
   const items = [
     { type: 'news' }, { type: 'video' }, { type: 'paper' },
