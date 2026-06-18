@@ -32,7 +32,7 @@ export async function fetchGithub(config, deps) {
 }
 
 export async function fetchHuggingface(config, deps) {
-  const url = `https://huggingface.co/api/models?sort=likes&direction=-1&limit=${config.limit}`;
+  const url = `https://huggingface.co/api/models?sort=likes&direction=-1&limit=${config.limit}&full=true`;
   try {
     const json = await deps.fetchJson(url);
     return (json || []).map((m) => ({
@@ -42,7 +42,7 @@ export async function fetchHuggingface(config, deps) {
       title: m.id,
       url: `https://huggingface.co/${m.id}`,
       publishedAt: m.createdAt || '',
-      rawText: m.pipeline_tag || '',
+      rawText: [m.pipeline_tag, (m.tags || []).slice(0, 8).join(', ')].filter(Boolean).join(' | '),
       score: m.likes || 0,
     }));
   } catch (err) {
