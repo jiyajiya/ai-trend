@@ -45,6 +45,7 @@ test('repo/model은 trending으로 분류한다', () => {
   assert.equal(r.feed.length, 0);
   assert.equal(r.trending.length, 1);
   assert.equal(r.trending[0].sourceType, 'repo');
+  assert.ok(!r.state.seen.includes('r1'), 'trending id must not be added to seen');
 });
 
 test('feed는 publishedAt 내림차순으로 정렬된다', () => {
@@ -161,6 +162,22 @@ test('trending: 임시 빈 fetch여도 신선한 기존 항목은 유지된다',
   });
   assert.equal(r.trending.length, 1);
   assert.equal(r.trending[0].id, 'keep');
+});
+
+test('trending: 정확히 7일 경계는 보존된다 (<=)', () => {
+  const sevenDaysAgo = '2026-06-11T08:00:00Z';
+  const nowAt = '2026-06-18T08:00:00Z';
+  const r = mergeFeed({
+    summarized: [],
+    existingFeed: [],
+    existingTrending: [{
+      id: 'edge', sourceType: 'repo', score: 3,
+      fetchedAt: sevenDaysAgo, summaryStatus: 'ok',
+      title: 'e', url: 'https://g/e', summaryKo: '', tags: [], entities: [],
+    }],
+    state: { seen: [], lastRunAt: null }, now: nowAt,
+  });
+  assert.ok(r.trending.some(item => item.id === 'edge'), 'edge item (7d exactly) should be kept');
 });
 
 test('feed 동작 유지: seen에 있는 news id는 feed에서 제외되며 trending에도 들어가지 않는다', () => {
