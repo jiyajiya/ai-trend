@@ -13,9 +13,8 @@ export function extractVideoId(url) {
 async function fetchChannel(channelUrl, deps, perRunCap) {
   const out = [];
   const xml = await deps.fetchText(channelUrl);
-  const videoIds = [...xml.matchAll(/<yt:videoId>([\w-]+)<\/yt:videoId>/g)].map((m) => m[1]);
   const entries = parseFeed(xml).slice(0, perRunCap);
-  entries.forEach((e, i) => {
+  entries.forEach((e) => {
     if (!e.link) return;
     out.push({
       id: makeId(e.link),
@@ -24,8 +23,8 @@ async function fetchChannel(channelUrl, deps, perRunCap) {
       title: e.title,
       url: e.link,
       publishedAt: e.published,
-      rawText: e.summary,
-      videoId: videoIds[i] || extractVideoId(e.link),
+      rawText: e.summary || e.title || '',
+      videoId: extractVideoId(e.link) || '',
     });
   });
   return out;
