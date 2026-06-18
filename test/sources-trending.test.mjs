@@ -31,10 +31,40 @@ test('GitHub은 쿼리 간 중복 repo를 제거한다', async () => {
   const fakeResp = {
     items: [{ full_name: 'a/b', html_url: 'https://github.com/a/b', description: '', stargazers_count: 1 }],
   };
-  const deps = { fetchJson: async () => fakeResp };
+  const deps = { fetchJson: async () => fakeResp, now: Date.parse('2026-06-18T00:00:00Z') };
   const items = await fetchGithub({ queries: ['topic:llm', 'topic:ai'], perQuery: 5 }, deps);
   assert.equal(items.length, 1); // 두 쿼리가 같은 repo를 반환해도 1개
   assert.equal(items[0].rank, 1);
+});
+
+test('GitHub 결과를 별수 내림차순으로 정렬한 후 rank를 할당한다', async () => {
+  let callCount = 0;
+  const deps = {
+    fetchJson: async () => {
+      // 첫 번째 쿼리: 별수 5000개 repo
+      // 두 번째 쿼리: 별수 100개 repo
+      if (callCount === 0) {
+        callCount++;
+        return {
+          items: [{ full_name: 'popular/llm', html_url: 'https://github.com/popular/llm', description: 'Popular LLM', stargazers_count: 5000, language: 'Python' }],
+        };
+      } else {
+        return {
+          items: [{ full_name: 'low/ai', html_url: 'https://github.com/low/ai', description: 'Low stars AI', stargazers_count: 100, language: 'Python' }],
+        };
+      }
+    },
+    now: Date.parse('2026-06-18T00:00:00Z'),
+  };
+  const items = await fetchGithub({ queries: ['topic:llm', 'topic:ai'], perQuery: 5 }, deps);
+  assert.equal(items.length, 2);
+  // Highest stargazers should be rank 1
+  assert.equal(items[0].title, 'popular/llm');
+  assert.equal(items[0].score, 5000);
+  assert.equal(items[0].rank, 1);
+  assert.equal(items[1].title, 'low/ai');
+  assert.equal(items[1].score, 100);
+  assert.equal(items[1].rank, 2);
 });
 
 test('HuggingFace 모델을 model RawItem으로 변환한다', async () => {
@@ -61,7 +91,7 @@ test('HuggingFace 모델을 model RawItem으로 변환한다', async () => {
 });
 
 test('GitHub 요청 실패시 빈 배열을 반환한다', async () => {
-  const deps = { fetchJson: async () => { throw new Error('rate limit'); } };
+  const deps = { fetchJson: async () => { throw new Error('rate limit'); }, now: Date.parse('2026-06-18T00:00:00Z') };
   const items = await fetchGithub({ queries: ['topic:llm'], perQuery: 5 }, deps);
   assert.equal(items.length, 0);
 });

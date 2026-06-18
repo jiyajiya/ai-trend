@@ -32,7 +32,12 @@ export async function fetchGithub(config, deps) {
       console.error(`[github] "${q}" 실패: ${err.message}`);
     }
   }
-  return out.map((item, i) => ({ ...item, rank: i + 1 }));
+  // Sort by stargazers_count (score) descending, then assign rank
+  out.sort((a, b) => (b.score || 0) - (a.score || 0));
+  out.forEach((item, i) => {
+    item.rank = i + 1;
+  });
+  return out;
 }
 
 export async function fetchHuggingface(config, deps) {
