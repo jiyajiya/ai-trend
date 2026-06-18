@@ -27,3 +27,20 @@ test('Atom entry를 파싱한다(link href + summary)', () => {
   assert.equal(items[0].published, '2026-06-17T00:00:00Z');
   assert.equal(items[0].summary, 'Atom summary');
 });
+
+test('null/empty input을 처리한다', () => {
+  assert.deepEqual(parseFeed(null), []);
+  assert.deepEqual(parseFeed(undefined), []);
+  assert.deepEqual(parseFeed(''), []);
+});
+
+test('tag prefix 오버매치를 피한다', () => {
+  const xml = `<feed><item>
+    <title>Test</title>
+    <linkurl>junk</linkurl>
+    <link>https://ok/1</link>
+  </item></feed>`;
+  const items = parseFeed(xml);
+  assert.equal(items.length, 1);
+  assert.equal(items[0].link, 'https://ok/1', 'linkurl should not corrupt link extraction');
+});
