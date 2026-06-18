@@ -2,7 +2,7 @@ import { parseFeed } from '../../lib/rss.mjs';
 import { makeId } from '../../lib/id.mjs';
 
 export async function fetchArxiv(config, deps) {
-  const cats = config.categories.map((c) => `cat:${c}`).join('+OR+');
+  const cats = (config.categories || []).map((c) => `cat:${c}`).join('+OR+');
   const url =
     `http://export.arxiv.org/api/query?search_query=${cats}` +
     `&sortBy=submittedDate&sortOrder=descending&max_results=${config.maxResults}`;

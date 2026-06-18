@@ -3,7 +3,7 @@ import { makeId } from '../../lib/id.mjs';
 export async function fetchGithub(config, deps) {
   const seen = new Set();
   const out = [];
-  for (const q of config.queries) {
+  for (const q of (config.queries || [])) {
     const url =
       `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}` +
       `&sort=stars&order=desc&per_page=${config.perQuery}`;

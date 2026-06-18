@@ -25,13 +25,14 @@ export function relativeTime(iso, nowMs) {
 }
 
 export function toViewItem(item, nowMs) {
+  const safeUrl = /^https?:\/\//i.test(item.url || '') ? item.url : '#';
   return {
     id: item.id,
     type: viewType(item),
     title: item.title,
     summary: item.summaryKo || '',
     source: item.source,
-    url: item.url,
+    url: safeUrl,
     time: relativeTime(item.fetchedAt || item.publishedAt, nowMs),
     tagText: (item.tags || []).map((t) => `#${t}`).join('  '),
     metric: item.metric || (item.score != null ? String(item.score) : ''),

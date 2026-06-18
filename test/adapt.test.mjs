@@ -57,6 +57,24 @@ test('toViewItem: 선택적 필드 기본값을 올바르게 설정한다', () =
   assert.equal(v.score, 0);
 });
 
+test('toViewItem: javascript: URL은 #으로 교체한다 (XSS 방어)', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({ id: 'x', sourceType: 'news', source: 'X', title: 't', url: 'javascript:alert(1)' }, now);
+  assert.equal(v.url, '#');
+});
+
+test('toViewItem: https: URL은 그대로 통과한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({ id: 'x', sourceType: 'news', source: 'X', title: 't', url: 'https://ok/1' }, now);
+  assert.equal(v.url, 'https://ok/1');
+});
+
+test('toViewItem: data: URL은 #으로 교체한다 (XSS 방어)', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({ id: 'x', sourceType: 'news', source: 'X', title: 't', url: 'data:text/html,<script>alert(1)</script>' }, now);
+  assert.equal(v.url, '#');
+});
+
 test('groupColumns: sns/blog는 한 컬럼, repo/model은 제외', () => {
   const items = [
     { type: 'news' }, { type: 'video' }, { type: 'paper' },
