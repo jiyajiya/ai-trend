@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015">
+  <title>Two Entry Channel</title>
   <entry>
     <yt:videoId>entry1VideoId123</yt:videoId>
     <title>First Entry Title</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=entry1VideoId123"/>
     <published>2026-06-17T12:00:00Z</published>
     <summary>First entry summary</summary>
+    <author><name>Two Entry Channel</name></author>
   </entry>
   <entry>
     <yt:videoId>entry2VideoId456</yt:videoId>
@@ -13,5 +15,6 @@
     <link rel="alternate" href="https://www.youtube.com/watch?v=entry2VideoId456"/>
     <published>2026-06-16T12:00:00Z</published>
     <summary>Second entry summary</summary>
+    <author><name>Two Entry Channel</name></author>
   </entry>
 </feed>

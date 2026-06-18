@@ -10,16 +10,36 @@ export function extractVideoId(url) {
   return '';
 }
 
-async function fetchChannel(channelUrl, deps, perRunCap) {
+// 피드 XML에서 채널명(feed-level <title>) 추출 — <entry> 이전의 첫 <title>
+function channelName(xml) {
+  const beforeEntry = xml.split(/<entry[\s>]/i)[0];
+  const m = beforeEntry.match(/<title[^>]*>([^<]+)<\/title>/i);
+  return m ? m[1].trim() : 'YouTube';
+}
+
+// 각 <entry> 블록에서 <author><name> 값을 순서대로 반환
+function entryAuthorNames(xml) {
+  const entries = xml.match(/<entry[\s>][\s\S]*?<\/entry>/gi) || [];
+  return entries.map((block) => {
+    const authorBlock = block.match(/<author[\s>][\s\S]*?<\/author>/i);
+    if (!authorBlock) return null;
+    const name = authorBlock[0].match(/<name[^>]*>([^<]+)<\/name>/i);
+    return name ? name[1].trim() : null;
+  });
+}
+
+async function fetchChannel(channelUrl, deps, cap) {
   const out = [];
   const xml = await deps.fetchText(channelUrl);
-  const entries = parseFeed(xml).slice(0, perRunCap);
-  entries.forEach((e) => {
+  const feedTitle = channelName(xml);
+  const authorNames = entryAuthorNames(xml);
+  const entries = parseFeed(xml).slice(0, cap);
+  entries.forEach((e, i) => {
     if (!e.link) return;
     out.push({
       id: makeId(e.link),
       sourceType: 'youtube',
-      source: 'YouTube',
+      source: authorNames[i] || feedTitle,
       title: e.title,
       url: e.link,
       publishedAt: e.published,
@@ -48,9 +68,10 @@ async function fetchSeed(videoUrl, deps) {
 
 export async function fetchYoutube(config, deps, perRunCap) {
   const out = [];
+  const channelCap = config.perChannel ?? perRunCap;
   for (const ch of config.channels || []) {
     try {
-      out.push(...(await fetchChannel(ch, deps, perRunCap)));
+      out.push(...(await fetchChannel(ch, deps, channelCap)));
     } catch (err) {
       console.error(`[youtube] 채널 ${ch} 실패: ${err.message}`);
     }
