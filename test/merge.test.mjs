@@ -64,8 +64,8 @@ test('feed는 publishedAt 내림차순으로 정렬된다', () => {
 test('trending은 score 내림차순으로 정렬된다', () => {
   const r = mergeFeed({
     summarized: [
-      base({ id: 'r1', sourceType: 'repo', url: 'https://g/r1', score: 5 }),
-      base({ id: 'r2', sourceType: 'repo', url: 'https://g/r2', score: 10 }),
+      base({ id: 'r1', sourceType: 'repo', url: 'https://g/r1', score: 5, rank: 1 }),
+      base({ id: 'r2', sourceType: 'repo', url: 'https://g/r2', score: 10, rank: 1 }),
     ],
     existingFeed: [], existingTrending: [],
     state: { seen: [], lastRunAt: null }, now: 'now',
@@ -178,6 +178,38 @@ test('trending: 정확히 7일 경계는 보존된다 (<=)', () => {
     state: { seen: [], lastRunAt: null }, now: nowAt,
   });
   assert.ok(r.trending.some(item => item.id === 'edge'), 'edge item (7d exactly) should be kept');
+});
+
+test('trending: rank 기반 정렬 — repo/model 공정 인터리브', () => {
+  const r = mergeFeed({
+    summarized: [
+      base({ id: 'repo-rank1', sourceType: 'repo', url: 'https://g/r1', score: 50000, rank: 1, summaryStatus: 'ok' }),
+      base({ id: 'repo-rank2', sourceType: 'repo', url: 'https://g/r2', score: 40000, rank: 2, summaryStatus: 'ok' }),
+      base({ id: 'model-rank1', sourceType: 'model', url: 'https://hf/m1', score: 1396, rank: 1, summaryStatus: 'ok' }),
+      base({ id: 'model-rank2', sourceType: 'model', url: 'https://hf/m2', score: 1100, rank: 2, summaryStatus: 'ok' }),
+    ],
+    existingFeed: [], existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: NOW,
+  });
+  const ids = r.trending.map(t => t.id);
+  assert.equal(ids[0], 'repo-rank1',  'rank1 tier: repo first (score 50000 > 1396)');
+  assert.equal(ids[1], 'model-rank1', 'rank1 tier: model second');
+  assert.equal(ids[2], 'repo-rank2',  'rank2 tier: repo first (score 40000 > 1100)');
+  assert.equal(ids[3], 'model-rank2', 'rank2 tier: model second');
+});
+
+test('trending: rank 없는 항목은 ranked 항목 뒤로 밀린다', () => {
+  const r = mergeFeed({
+    summarized: [
+      base({ id: 'no-rank', sourceType: 'repo', url: 'https://g/old', score: 99999, summaryStatus: 'ok' }),
+      base({ id: 'has-rank', sourceType: 'repo', url: 'https://g/new', score: 1, rank: 1, summaryStatus: 'ok' }),
+    ],
+    existingFeed: [], existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: NOW,
+  });
+  const ids = r.trending.map(t => t.id);
+  assert.equal(ids[0], 'has-rank', 'ranked item comes first despite lower score');
+  assert.equal(ids[1], 'no-rank',  'unranked item sorts last via ?? Infinity');
 });
 
 test('feed 동작 유지: seen에 있는 news id는 feed에서 제외되며 trending에도 들어가지 않는다', () => {

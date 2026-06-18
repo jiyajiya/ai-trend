@@ -15,7 +15,7 @@
     {"source":"MIT Tech Review AI","url":"https://www.technologyreview.com/topic/artificial-intelligence/feed"}
   ],
   "arxiv": {"categories":["cs.AI","cs.LG","cs.CL"],"maxResults":10},
-  "github": {"queries":["topic:llm","topic:generative-ai"],"perQuery":5},
+  "github": {"queries":["topic:llm","topic:generative-ai","topic:ai-agents"],"createdWithinDays":60,"perQuery":5},
   "huggingface": {"limit":10},
   "youtube": {
     "perChannel": 3,
