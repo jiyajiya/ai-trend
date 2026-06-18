@@ -20,7 +20,7 @@ body { margin: 0; background: #e7e5df; font-family: 'Pretendard', -apple-system,
 .brand { display: flex; align-items: center; gap: 11px; }
 .logo { width: 27px; height: 27px; border-radius: 7px; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font: 700 14px/1 var(--mono); }
 .wordmark { font-size: 18px; font-weight: 800; color: var(--text); letter-spacing: -.01em; }
-.badge-board { font: 500 10px/1 var(--mono); color: #b6b4ac; letter-spacing: .1em; }
+.badge-board { font: 500 10px/1 var(--mono); color: var(--meta); letter-spacing: .1em; }
 .cats { display: flex; gap: 4px; margin-left: 6px; flex-wrap: wrap; }
 .chip { padding: 8px 14px; border: none; border-radius: 999px; cursor: pointer; font-family: inherit; font-size: 13px; white-space: nowrap; background: var(--chip); color: var(--text); font-weight: 500; }
 .chip.active { background: var(--accent); color: #fff; font-weight: 700; }
@@ -30,10 +30,12 @@ body { margin: 0; background: #e7e5df; font-family: 'Pretendard', -apple-system,
 .darktoggle { display: flex; align-items: center; gap: 7px; padding: 8px 13px; background: var(--chip); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600; font-family: inherit; color: inherit; }
 
 .trending { padding: 20px 28px; border-bottom: 1px solid var(--border); }
-.section-label { font: 600 12px/1 var(--mono); color: #8a887f; letter-spacing: .04em; margin-bottom: 14px; }
+.section-label { font: 600 12px/1 var(--mono); color: var(--meta); letter-spacing: .04em; margin-bottom: 14px; }
 .trending-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
 .trend-card { background: var(--surface); border: 1px solid var(--border); border-radius: 11px; padding: 15px 16px; }
+.trend-top { display: flex; align-items: center; justify-content: space-between; }
 .trend-rank { font: 700 20px/1 var(--mono); color: var(--accent); }
+.type-badge { font: 600 10px/1 'JetBrains Mono'; padding: 3px 8px; border-radius: 999px; }
 .trend-title { font-size: 13.5px; line-height: 1.4; font-weight: 700; color: var(--title); margin: 8px 0; text-wrap: pretty; }
 .trend-metric { font: 500 11px/1 var(--mono); color: var(--meta); }
 

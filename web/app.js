@@ -3,6 +3,9 @@ import { toViewItem, groupColumns } from './adapt.mjs';
 const CATS = ['전체', 'LLM', '에이전트', '멀티모달', '하드웨어', '정책/규제', '오픈소스'];
 const COLORS = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
   sns: 'var(--c-sns)', paper: 'var(--c-paper)', repo: 'var(--accent)', model: 'var(--accent)' };
+const TINTS = { news: 'var(--t-news)', blog: 'var(--t-blog)', video: 'var(--t-video)',
+  sns: 'var(--t-sns)', paper: 'var(--t-paper)', repo: 'var(--accent-tint)', model: 'var(--accent-tint)' };
+const TYPE_LABELS = { news: '뉴스', blog: '블로그', video: '영상', sns: '소셜', paper: '논문', repo: 'Repo', model: 'Model' };
 const COLDEFS = [
   ['뉴스', 'news', 'var(--c-news)'],
   ['영상', 'video', 'var(--c-video)'],
@@ -36,7 +39,10 @@ function renderTrending() {
   const items = state.trending.filter(matches).sort((a, b) => b.score - a.score).slice(0, 5);
   document.getElementById('trending').innerHTML = items.map((i, n) => `
     <div class="trend-card">
-      <div class="trend-rank" style="color:${COLORS[i.type] || 'var(--accent)'}">${String(n + 1).padStart(2, '0')}</div>
+      <div class="trend-top">
+        <div class="trend-rank" style="color:${COLORS[i.type] || 'var(--accent)'}">${String(n + 1).padStart(2, '0')}</div>
+        <span class="type-badge" style="color:${esc(COLORS[i.type] || 'var(--accent)')};background:${esc(TINTS[i.type] || 'var(--accent-tint)')}">${esc(TYPE_LABELS[i.type] || i.type)}</span>
+      </div>
       <div class="trend-title">${esc(i.title)}</div>
       <div class="trend-metric">${esc(i.source)} · ${esc(i.metric)}</div>
     </div>`).join('') || '<div class="empty">트렌딩 항목이 없습니다.</div>';
@@ -47,7 +53,7 @@ function colCard(i) {
   const star = state.bm[i.id] ? '★' : '☆';
   const flag = i.status !== 'ok' ? `<span class="cc-flag">${esc(i.status)}</span> ` : '';
   return `<div class="col-card">
-    <div class="col-bar" style="background:${COLORS[i.type]}"></div>
+    <div class="col-bar" style="background:${COLORS[i.type] || 'var(--accent)'}"></div>
     <div class="cc-body">
       <div class="cc-titlerow">
         <a class="cc-title" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
@@ -94,7 +100,7 @@ document.getElementById('columns').addEventListener('click', (e) => {
 });
 
 const now = Date.now();
-const rawFeed = await getJson('../data/feed.json', await getJson('../data/feed.sample.json', []));
+const rawFeed = (await getJson('../data/feed.json', null)) ?? (await getJson('../data/feed.sample.json', []));
 const rawTrend = await getJson('../data/trending.json', []);
 state.feed = rawFeed.map((i) => toViewItem(i, now));
 state.trending = rawTrend.map((i) => toViewItem(i, now));
