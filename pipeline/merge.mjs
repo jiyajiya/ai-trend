@@ -2,7 +2,10 @@ import { fileURLToPath } from 'node:url';
 import { readJson, writeJson } from '../lib/jsonfile.mjs';
 
 const FEED_MAX = 200;
-const byPublishedDesc = (a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt));
+const byPublishedDesc = (a, b) => {
+  const x = String(a.publishedAt), y = String(b.publishedAt);
+  return x < y ? 1 : x > y ? -1 : 0; // 내림차순(desc)
+};
 
 export function mergeFeed({ summarized, existingFeed, existingTrending, state, now }) {
   const seen = new Set(state.seen || []);

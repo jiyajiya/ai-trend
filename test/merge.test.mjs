@@ -59,3 +59,55 @@ test('feed는 publishedAt 내림차순으로 정렬된다', () => {
   assert.equal(r.feed[0].id, 'b');
   assert.equal(r.feed[1].id, 'a');
 });
+
+test('trending은 score 내림차순으로 정렬된다', () => {
+  const r = mergeFeed({
+    summarized: [
+      base({ id: 'r1', sourceType: 'repo', url: 'https://g/r1', score: 5 }),
+      base({ id: 'r2', sourceType: 'repo', url: 'https://g/r2', score: 10 }),
+    ],
+    existingFeed: [], existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: 'now',
+  });
+  assert.equal(r.trending[0].score, 10);
+  assert.equal(r.trending[1].score, 5);
+  assert.ok(r.trending[0].score >= r.trending[1].score);
+});
+
+test('extra 필드들이 preserved된다', () => {
+  const r = mergeFeed({
+    summarized: [base({ id: 'n1', cats: ['LLM'], score: 7 })],
+    existingFeed: [], existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: 'now',
+  });
+  assert.equal(r.feed.length, 1);
+  assert.deepEqual(r.feed[0].cats, ['LLM']);
+  assert.equal(r.feed[0].score, 7);
+});
+
+test('기존 feed 아이템들이 보존된다', () => {
+  const existingItem = base({ id: 'existing1', url: 'https://x/existing' });
+  const r = mergeFeed({
+    summarized: [base({ id: 'new1', url: 'https://x/new' })],
+    existingFeed: [existingItem],
+    existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: 'now',
+  });
+  assert.equal(r.feed.length, 2);
+  assert.ok(r.feed.some(item => item.id === 'existing1'));
+  assert.ok(r.feed.some(item => item.id === 'new1'));
+});
+
+test('feed는 200개 cap이 적용된다', () => {
+  const existingFeed = [];
+  for (let i = 0; i < 200; i++) {
+    existingFeed.push(base({ id: `existing${i}`, url: `https://x/existing${i}` }));
+  }
+  const r = mergeFeed({
+    summarized: [base({ id: 'new1', url: 'https://x/new' })],
+    existingFeed,
+    existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: 'now',
+  });
+  assert.equal(r.feed.length, 200);
+});
