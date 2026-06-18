@@ -17,6 +17,7 @@ export function viewType(item) {
 export function relativeTime(iso, nowMs) {
   const t = Date.parse(iso);
   if (Number.isNaN(t)) return '';
+  if (t > nowMs) return '방금 전';
   const sec = Math.max(0, Math.floor((nowMs - t) / 1000));
   if (sec < 3600) return `${Math.max(1, Math.floor(sec / 60))}분 전`;
   if (sec < 86400) return `${Math.floor(sec / 3600)}시간 전`;

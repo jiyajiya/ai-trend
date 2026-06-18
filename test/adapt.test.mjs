@@ -20,6 +20,16 @@ test('relativeTime: 경과 시간을 한국어로 만든다', () => {
   assert.equal(relativeTime('not-a-date', now), '');
 });
 
+test('relativeTime: 미래 타임스탐프는 방금 전으로 표시한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  assert.equal(relativeTime('2026-06-18T12:00:30Z', now), '방금 전');
+});
+
+test('relativeTime: 1분 미만 과거는 1분 전으로 표시한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  assert.equal(relativeTime('2026-06-18T11:59:45Z', now), '1분 전');
+});
+
 test('toViewItem: 파이프라인 아이템을 ViewItem으로 매핑한다', () => {
   const now = Date.parse('2026-06-18T12:00:00Z');
   const v = toViewItem({
@@ -34,6 +44,17 @@ test('toViewItem: 파이프라인 아이템을 ViewItem으로 매핑한다', () 
   assert.equal(v.time, '1시간 전');
   assert.deepEqual(v.cats, ['LLM']);
   assert.equal(v.url, 'https://x/1');
+});
+
+test('toViewItem: 선택적 필드 기본값을 올바르게 설정한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const v = toViewItem({
+    id: 'd1', sourceType: 'news', source: 'X', title: 't', url: 'u',
+  }, now);
+  assert.equal(v.tagText, '');
+  assert.deepEqual(v.cats, []);
+  assert.equal(v.status, 'ok');
+  assert.equal(v.score, 0);
 });
 
 test('groupColumns: sns/blog는 한 컬럼, repo/model은 제외', () => {
