@@ -42,3 +42,15 @@ test('HuggingFace 모델을 model RawItem으로 변환한다', async () => {
   assert.equal(items[0].url, 'https://huggingface.co/meta/llama');
   assert.equal(items[0].score, 999);
 });
+
+test('GitHub 요청 실패시 빈 배열을 반환한다', async () => {
+  const deps = { fetchJson: async () => { throw new Error('rate limit'); } };
+  const items = await fetchGithub({ queries: ['topic:llm'], perQuery: 5 }, deps);
+  assert.equal(items.length, 0);
+});
+
+test('HuggingFace 요청 실패시 빈 배열을 반환한다', async () => {
+  const deps = { fetchJson: async () => { throw new Error('500'); } };
+  const items = await fetchHuggingface({ limit: 10 }, deps);
+  assert.equal(items.length, 0);
+});
