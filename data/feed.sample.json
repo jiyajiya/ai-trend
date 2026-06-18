@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sample0001",
+    "sourceType": "news",
+    "source": "The Verge AI",
+    "title": "예시: 새 멀티모달 모델 공개",
+    "url": "https://example.com/a",
+    "publishedAt": "2026-06-18",
+    "fetchedAt": "2026-06-18T08:00:00Z",
+    "summaryKo": "한 회사가 텍스트·이미지·오디오를 함께 처리하는 새 모델을 공개했다. 추론 속도와 비용이 크게 개선되어 실서비스 적용이 쉬워졌다.",
+    "tags": ["Multimodal", "LLM"],
+    "entities": ["ExampleAI"],
+    "cats": ["멀티모달", "LLM"],
+    "summaryStatus": "ok"
+  },
+  {
+    "id": "sample0002",
+    "sourceType": "youtube",
+    "source": "Matt Wolfe",
+    "title": "예시: 이번 주 AI 도구 총정리",
+    "url": "https://youtu.be/mMgCEJEAm54",
+    "publishedAt": "2026-06-17",
+    "fetchedAt": "2026-06-18T08:00:00Z",
+    "summaryKo": "이번 주 출시된 주요 AI 도구들을 정리한 영상이다. 코딩 보조와 영상 생성 도구의 업데이트가 핵심으로 다뤄진다.",
+    "tags": ["AI Tools", "Video"],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "fallback"
+  }
+]
