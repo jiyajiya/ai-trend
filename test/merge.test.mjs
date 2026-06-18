@@ -111,3 +111,65 @@ test('feed는 200개 cap이 적용된다', () => {
   });
   assert.equal(r.feed.length, 200);
 });
+
+// ── 트렌딩 신선도 관련 테스트 (최종 리뷰 #2) ──────────────────────────
+
+const NOW = '2026-06-18T08:00:00Z';
+
+test('trending: 동일 id 재수집 시 최신 score로 교체된다', () => {
+  const r = mergeFeed({
+    summarized: [base({ id: 'r1', sourceType: 'repo', url: 'https://g/r', score: 50 })],
+    existingFeed: [],
+    existingTrending: [{ id: 'r1', sourceType: 'repo', url: 'https://g/r', score: 10, fetchedAt: NOW }],
+    state: { seen: [], lastRunAt: null }, now: NOW,
+  });
+  assert.equal(r.trending.length, 1);
+  assert.equal(r.trending[0].id, 'r1');
+  assert.equal(r.trending[0].score, 50);
+});
+
+test('trending: seen에 있는 id도 trending에 포함된다 (seen 비게이팅)', () => {
+  const r = mergeFeed({
+    summarized: [base({ id: 'r1', sourceType: 'repo', url: 'https://g/r', score: 5 })],
+    existingFeed: [],
+    existingTrending: [],
+    state: { seen: ['r1'], lastRunAt: null }, now: NOW,
+  });
+  assert.equal(r.trending.length, 1);
+  assert.equal(r.trending[0].id, 'r1');
+});
+
+test('trending: fetchedAt이 7일 초과된 항목은 만료된다', () => {
+  const eightDaysAgo = new Date(Date.parse(NOW) - 8 * 24 * 60 * 60 * 1000).toISOString();
+  const r = mergeFeed({
+    summarized: [base({ id: 'new', sourceType: 'repo', url: 'https://g/new', score: 5 })],
+    existingFeed: [],
+    existingTrending: [{ id: 'old', sourceType: 'repo', url: 'https://g/old', score: 999, fetchedAt: eightDaysAgo }],
+    state: { seen: [], lastRunAt: null }, now: NOW,
+  });
+  assert.ok(!r.trending.some(item => item.id === 'old'), 'old item (8d) should be expired');
+  assert.ok(r.trending.some(item => item.id === 'new'), 'new item should be present');
+});
+
+test('trending: 임시 빈 fetch여도 신선한 기존 항목은 유지된다', () => {
+  const oneDayAgo = new Date(Date.parse(NOW) - 1 * 24 * 60 * 60 * 1000).toISOString();
+  const r = mergeFeed({
+    summarized: [],
+    existingFeed: [],
+    existingTrending: [{ id: 'keep', sourceType: 'repo', url: 'https://g/keep', score: 7, fetchedAt: oneDayAgo }],
+    state: { seen: [], lastRunAt: null }, now: NOW,
+  });
+  assert.equal(r.trending.length, 1);
+  assert.equal(r.trending[0].id, 'keep');
+});
+
+test('feed 동작 유지: seen에 있는 news id는 feed에서 제외되며 trending에도 들어가지 않는다', () => {
+  const r = mergeFeed({
+    summarized: [base({ id: 'n1', sourceType: 'news' })],
+    existingFeed: [],
+    existingTrending: [],
+    state: { seen: ['n1'], lastRunAt: null }, now: NOW,
+  });
+  assert.equal(r.feed.length, 0);
+  assert.equal(r.trending.length, 0);
+});
