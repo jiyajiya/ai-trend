@@ -38,6 +38,7 @@ export function toViewItem(item, nowMs) {
     metric: item.metric || (item.score != null ? String(item.score) : ''),
     cats: item.cats || [],
     score: item.score || 0,
+    rank: item.rank ?? Infinity,
     status: item.summaryStatus || 'ok',
   };
 }

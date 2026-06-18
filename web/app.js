@@ -36,7 +36,7 @@ function renderCats() {
 }
 
 function renderTrending() {
-  const items = state.trending.filter(matches).sort((a, b) => b.score - a.score).slice(0, 5);
+  const items = state.trending.filter(matches).sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || (b.score - a.score)).slice(0, 5);
   document.getElementById('trending').innerHTML = items.map((i, n) => `
     <div class="trend-card">
       <div class="trend-top">
