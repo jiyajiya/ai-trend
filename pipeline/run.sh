@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ai-trend 자동 수집 파이프라인: fetch → summarize(claude) → merge → GitHub Pages 게시(push)
-# launchd(매일 09:00/16:00) 또는 수동 실행. 부분 실패해도 가능한 결과는 게시하도록 set -e 미사용.
+# launchd(매일 09:00) 또는 수동 실행. 부분 실패해도 가능한 결과는 게시하도록 set -e 미사용.
 set -uo pipefail
 
 # launchd는 최소 환경으로 실행되므로 도구 경로를 명시한다.
