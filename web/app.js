@@ -1,17 +1,19 @@
 import { toViewItem, groupColumns } from './adapt.mjs';
 
 const FEEDS = [
-  { key: 'news', label: '뉴스', dot: 'var(--c-news)', sub: '주요 AI 뉴스와 연구를 넓은 화면에서 한 편씩 읽어보세요' },
   { key: 'video', label: '영상', dot: 'var(--c-video)', sub: 'AI 채널 영상을 한국어 요약으로 한 편씩 훑어보세요' },
   { key: 'snsblog', label: '소셜 · 블로그', dot: 'var(--c-sns)', sub: '커뮤니티·블로그의 실사용 반응과 새로운 도구' },
-  { key: 'trending', label: '트렌딩', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포와 HuggingFace 모델' },
+  { key: 'news', label: '뉴스', dot: 'var(--c-news)', sub: '주요 AI 뉴스와 연구를 넓은 화면에서 한 편씩 읽어보세요' },
+  { key: 'repo', label: 'GitHub', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포 (최근 생성·스타순)' },
+  { key: 'model', label: 'HuggingFace', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
 ];
 const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티모달', '기업·정책'];
 const BAR = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
   sns: 'var(--c-sns)', repo: 'var(--accent)', model: 'var(--c-paper)' };
 
-const state = { feed: 'news', cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
-  bm: JSON.parse(localStorage.getItem('bm') || '{}'), data: { news: [], video: [], snsblog: [], trending: [] } };
+const state = { feed: 'video', cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
+  bm: JSON.parse(localStorage.getItem('bm') || '{}'),
+  data: { video: [], snsblog: [], news: [], repo: [], model: [] } };
 
 async function getJson(path, fallback) {
   try { const r = await fetch(path, { cache: 'no-store' }); if (!r.ok) throw 0; return await r.json(); }
@@ -109,7 +111,9 @@ const cols = groupColumns(rawFeed.map((i) => toViewItem(i, now)));
 state.data.news = cols.news ?? [];
 state.data.video = cols.video ?? [];
 state.data.snsblog = cols.snsblog ?? [];
-state.data.trending = rawTrend.map((i) => toViewItem(i, now))
+const trending = rawTrend.map((i) => toViewItem(i, now))
   .sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || ((b.score ?? 0) - (a.score ?? 0)));
+state.data.repo = trending.filter((i) => i.type === 'repo');
+state.data.model = trending.filter((i) => i.type === 'model');
 renderDark();
 renderAll();
