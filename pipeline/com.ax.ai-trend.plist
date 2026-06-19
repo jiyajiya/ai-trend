@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  ai-trend 자동 수집 (매일 09:00, 16:00)
+  설치: cp pipeline/com.ax.ai-trend.plist ~/Library/LaunchAgents/
+        launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ax.ai-trend.plist
+  해제: launchctl bootout gui/$(id -u)/com.ax.ai-trend
+  노트북이 예약 시각에 잠들어 있으면 깨어날 때 놓친 작업을 1회 실행한다.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ax.ai-trend</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/minjijung/projects/ai-project/ai-trend/pipeline/run.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/minjijung/projects/ai-project/ai-trend</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HOME</key>
+    <string>/Users/minjijung</string>
+    <key>PATH</key>
+    <string>/Users/minjijung/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/cmux.app/Contents/Resources/bin</string>
+  </dict>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>16</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/ai-trend.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/ai-trend.log</string>
+</dict>
+</plist>

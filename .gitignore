@@ -1,5 +1,9 @@
 node_modules/
 package-lock.json
-data/*.json
-!data/feed.sample.json
 .gstack/
+
+# 파이프라인 중간 산출물 (커밋 안 함) — raw*/summarized* 의 모든 배치 파일 포함
+data/raw*.json
+data/summarized*.json
+data/state.json
+# 게시 대상(추적): data/feed.json · data/trending.json · data/feed.sample.json

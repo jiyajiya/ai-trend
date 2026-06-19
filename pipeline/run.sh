@@ -1,16 +1,35 @@
 #!/usr/bin/env bash
-set -euo pipefail
-cd "$(dirname "$0")/.."
+# ai-trend 자동 수집 파이프라인: fetch → summarize(claude) → merge → GitHub Pages 게시(push)
+# launchd(매일 09:00/16:00) 또는 수동 실행. 부분 실패해도 가능한 결과는 게시하도록 set -e 미사용.
+set -uo pipefail
 
-echo "[1/3] fetch"
-npm run --silent fetch
+# launchd는 최소 환경으로 실행되므로 도구 경로를 명시한다.
+export PATH="/Users/minjijung/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/cmux.app/Contents/Resources/bin:$PATH"
 
-echo "[2/3] summarize (에이전트 세션)"
-# 헤드리스 세션이 RUNBOOK의 summarize 단계를 수행해 data/summarized.json을 만든다.
-# 대화형 세션에서 수동 실행 시 이 단계는 사람이 '요약 실행'으로 트리거한다.
-claude -p "pipeline/RUNBOOK.md의 summarize 단계를 수행해 data/raw.json을 읽고 data/summarized.json을 작성해줘. 작업이 끝나면 파일만 남기고 종료." || {
-  echo "summarize 자동 단계 실패/건너뜀 — data/summarized.json을 수동으로 생성하세요."; }
+cd "$(cd "$(dirname "$0")" && pwd)/.."
+ts() { date "+%Y-%m-%d %H:%M:%S"; }
+echo "===== ai-trend run @ $(ts) ====="
 
-echo "[3/3] merge"
-npm run --silent merge
-echo "완료. web/ 에서 결과 확인."
+echo "[1/4] fetch"
+npm run --silent fetch || echo "[warn] fetch 실패"
+
+echo "[2/4] summarize (claude -p, 헤드리스)"
+claude -p "ai-trend 수집 파이프라인의 summarize 단계를 수행하라. pipeline/RUNBOOK.md 규칙을 따른다.
+- data/raw.json 을 읽고, data/state.json 의 seen 목록에 없는 '새 항목'만 처리한다.
+- 각 항목에 summaryKo(한국어 2~3문장)·tags·entities·cats·summaryStatus 를 채워 data/summarized.json(배열)으로 저장한다.
+- sourceType 이 youtube 이면 watch 스킬로 자막 요약(실패 시 title 기반 fallback), 그 외는 rawText 기반 요약.
+- cats 는 고정목록(LLM·모델 / 에이전트 / 코딩·개발 / 멀티모달 / 기업·정책)에서만 고른다.
+- 끝나면 data/summarized.json 파일만 남기고 종료한다." \
+  --dangerously-skip-permissions || echo "[warn] summarize 실패 — 이전 data로 진행"
+
+echo "[3/4] merge"
+npm run --silent merge || echo "[warn] merge 실패"
+
+echo "[4/4] publish (git push → GitHub Pages)"
+git add data/feed.json data/trending.json 2>/dev/null || true
+if git diff --cached --quiet; then
+  echo "변경 없음 — push 생략"
+else
+  git commit -q -m "data: 자동 수집 $(date +%Y-%m-%dT%H:%M)" && git push -q && echo "push 완료" || echo "[warn] commit/push 실패(원격/인증 확인)"
+fi
+echo "===== done @ $(ts) ====="

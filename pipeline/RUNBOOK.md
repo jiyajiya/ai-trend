@@ -53,14 +53,24 @@ npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/st
 ## 한 줄 실행(수동)
 세션에서: "ai-trend 수집 실행" → 위 1→2→3을 순서대로 수행.
 
-## 4. 로컬 스케줄 (매일 아침)
+## 4. 로컬 스케줄 (launchd, 매일 09:00 · 16:00)
 
-watch 스킬이 로컬 yt-dlp를 쓰므로 클라우드 cron이 아닌 **로컬 cron**을 사용한다.
-매일 08:00 실행 예시(crontab):
+watch 스킬이 로컬 yt-dlp를 쓰므로 클라우드가 아닌 **로컬 launchd**로 돌린다.
+cron보다 launchd가 나은 점: 노트북이 예약 시각에 잠들어 있어도 **깨어날 때 놓친 작업을 실행**한다.
 
-```cron
-0 8 * * * /bin/bash /Users/minjijung/projects/ai-project/ai-trend/pipeline/run.sh >> /tmp/ai-trend.log 2>&1
+설치:
+```bash
+cp pipeline/com.ax.ai-trend.plist ~/Library/LaunchAgents/
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ax.ai-trend.plist
+launchctl print gui/$(id -u)/com.ax.ai-trend | grep state   # 등록 확인
 ```
+해제: `launchctl bootout gui/$(id -u)/com.ax.ai-trend`
+즉시 1회 테스트: `launchctl kickstart -k gui/$(id -u)/com.ax.ai-trend`
+로그: `/tmp/ai-trend.log`
 
-등록: `crontab -e` 후 위 줄 추가. 로그는 `/tmp/ai-trend.log`에서 확인.
-주의: `claude -p` 헤드리스 세션이 로그인된 상태여야 summarize 단계가 동작한다.
+`pipeline/run.sh`가 fetch → `claude -p`(summarize, `--dangerously-skip-permissions`) → merge →
+`git push`(data/feed.json·trending.json) 까지 수행 → **GitHub Pages 자동 갱신**.
+
+주의:
+- `claude` CLI가 로그인된 상태여야 summarize가 동작한다(헤드리스).
+- git push가 비대화형으로 되려면 원격이 HTTPS + `gh auth setup-git`(자격증명 헬퍼) 상태여야 한다.

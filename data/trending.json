@@ -1,0 +1,624 @@
+[
+  {
+    "id": "d8ff876dfb1eadf0",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
+    "publishedAt": "2026-04-28T04:25:20Z",
+    "rawText": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+    "score": 67055,
+    "lang": "TypeScript",
+    "rank": 1,
+    "summaryKo": "로컬 우선 오픈소스 AI 디자인 도구로, Claude Code·Codex·Cursor 등 17개 이상의 CLI와 연동해 웹/데스크톱/모바일 프로토타입·슬라이드·영상 등을 생성·내보낼 수 있는 네이티브 데스크톱 앱이다.",
+    "tags": [
+      "design",
+      "local-first",
+      "prototyping",
+      "multi-cli"
+    ],
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Qwen",
+      "Kimi"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "aeaa2391b8159c2b",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "publishedAt": "2026-06-10T07:24:02.000Z",
+    "rawText": "text-generation | gguf, gemma4, coding, code, reasoning, thinking, llama.cpp, local-llm",
+    "score": 1398,
+    "rank": 1,
+    "summaryKo": "Gemma4 기반 12B 코딩 특화 GGUF 모델로, 로컬 실행(llama.cpp)에 최적화된 추론·코드 생성 모델이다.",
+    "tags": [
+      "coding",
+      "GGUF",
+      "local-LLM",
+      "reasoning"
+    ],
+    "entities": [
+      "Gemma4"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "38c3408d933af173",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "publishedAt": "2026-06-12T00:52:37Z",
+    "rawText": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "score": 33839,
+    "lang": "JavaScript",
+    "rank": 2,
+    "summaryKo": "AI 에이전트가 불필요한 코드를 작성하지 않도록 '게으른 시니어 개발자'처럼 최소한의 코드만 생성하게 유도하는 도구이다.",
+    "tags": [
+      "AI agent",
+      "code generation",
+      "minimalism"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "9ec90332da9eec1d",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "zai-org/GLM-5.2",
+    "url": "https://huggingface.co/zai-org/GLM-5.2",
+    "publishedAt": "2026-06-16T07:39:20.000Z",
+    "rawText": "text-generation | transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763",
+    "score": 1108,
+    "rank": 2,
+    "summaryKo": "영어와 중국어를 지원하는 MoE 기반 대화형 텍스트 생성 모델로, GLM 아키텍처의 최신 버전이다.",
+    "tags": [
+      "MoE",
+      "text-generation",
+      "multilingual",
+      "conversational"
+    ],
+    "entities": [
+      "GLM-5.2"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "b5590ec052a4f771",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "publishedAt": "2026-04-21T08:27:02Z",
+    "rawText": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "score": 23036,
+    "lang": "Go",
+    "rank": 3,
+    "summaryKo": "터미널에서 실행하는 DeepSeek 기반 AI 코딩 에이전트로, 프리픽스 캐시 안정성을 중심으로 설계해 장시간 실행에 최적화되어 있다.",
+    "tags": [
+      "coding agent",
+      "terminal",
+      "DeepSeek",
+      "prefix-cache"
+    ],
+    "entities": [
+      "DeepSeek"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "06645d3950f1ca05",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "MiniMaxAI/MiniMax-M3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+    "publishedAt": "2026-06-02T07:49:31.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal, moe, agent, coding",
+    "score": 916,
+    "rank": 3,
+    "summaryKo": "MiniMax의 MoE 기반 멀티모달 모델로, 이미지-텍스트 입출력을 지원하며 에이전트 및 코딩 태스크에 특화되어 있다.",
+    "tags": [
+      "multimodal",
+      "MoE",
+      "agent",
+      "coding"
+    ],
+    "entities": [
+      "MiniMax-M3",
+      "MiniMaxAI"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "bb9f0adb0966586b",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "XiaomiMiMo/MiMo-Code",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "publishedAt": "2026-06-10T11:52:41Z",
+    "rawText": "MiMo Code: Where Models and Agents Co-Evolve",
+    "score": 9681,
+    "lang": "TypeScript",
+    "rank": 4,
+    "summaryKo": "Xiaomi MiMo의 코딩 특화 프로젝트로, 모델과 에이전트가 함께 진화하는 방식으로 코드 생성 능력을 향상시키는 것을 목표로 한다.",
+    "tags": [
+      "coding",
+      "model-agent",
+      "co-evolution"
+    ],
+    "entities": [
+      "MiMo",
+      "Xiaomi"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "9c6b3767dab8df03",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "moonshotai/Kimi-K2.7-Code",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+    "publishedAt": "2026-06-11T07:51:47.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, kimi_k25, image-feature-extraction, compressed-tensors, image-text-to-text, conversational, custom_code",
+    "score": 818,
+    "rank": 4,
+    "summaryKo": "Moonshot AI의 Kimi 시리즈 코딩 특화 모델로, 이미지-텍스트 처리 및 압축 텐서를 활용한 경량화 대화형 모델이다.",
+    "tags": [
+      "coding",
+      "image-text",
+      "compressed-tensors",
+      "conversational"
+    ],
+    "entities": [
+      "Kimi-K2.7",
+      "Moonshot AI"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "100adeb9b2f158ec",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "nexu-io/html-anything",
+    "url": "https://github.com/nexu-io/html-anything",
+    "publishedAt": "2026-05-11T09:40:38Z",
+    "rawText": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
+    "score": 6958,
+    "lang": "HTML",
+    "rank": 5,
+    "summaryKo": "로컬 AI 에이전트가 HTML을 직접 작성해주는 에이전트형 HTML 편집기로, 잡지·슬라이드·포스터 등 9가지 서피스를 지원하며 API 키 없이 다양한 CLI와 연동된다.",
+    "tags": [
+      "HTML editor",
+      "agentic",
+      "no-api-key",
+      "publishing"
+    ],
+    "entities": [
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "Gemini",
+      "Qwen"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "4e16b83b003a111a",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "google/diffusiongemma-26B-A4B-it",
+    "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+    "publishedAt": "2026-06-09T12:40:12.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, diffusion_gemma, image-text-to-text, conversational, license:apache-2.0, endpoints_compatible, region:us",
+    "score": 579,
+    "rank": 5,
+    "summaryKo": "Google의 Diffusion 기반 Gemma 26B 멀티모달 모델로, 이미지-텍스트 입출력을 지원하는 Apache 2.0 라이선스 대화형 모델이다.",
+    "tags": [
+      "diffusion",
+      "multimodal",
+      "image-text",
+      "Gemma"
+    ],
+    "entities": [
+      "DiffusionGemma",
+      "Google"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "05a74004d0aa7653",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "earthtojake/text-to-cad",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "publishedAt": "2026-04-22T01:09:45Z",
+    "rawText": "A collection of agent skills for CAD, robotics and hardware design",
+    "score": 6609,
+    "lang": "JavaScript",
+    "rank": 6,
+    "summaryKo": "CAD·로보틱스·하드웨어 설계를 위한 AI 에이전트 스킬 모음으로, 텍스트 입력으로 하드웨어 설계를 자동화한다.",
+    "tags": [
+      "CAD",
+      "robotics",
+      "hardware",
+      "agent skills"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "47804a16621af879",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "WeiboAI/VibeThinker-3B",
+    "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+    "publishedAt": "2026-06-12T11:43:29.000Z",
+    "rawText": "text-generation | transformers, safetensors, qwen2, text-generation, math, code, reasoning, gpqa",
+    "score": 339,
+    "rank": 6,
+    "summaryKo": "Weibo AI가 공개한 3B 규모의 수학·코딩·추론 특화 텍스트 생성 모델로, Qwen2 아키텍처 기반이다.",
+    "tags": [
+      "reasoning",
+      "math",
+      "coding",
+      "small-model"
+    ],
+    "entities": [
+      "VibeThinker",
+      "WeiboAI"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "c45bf202eddbb676",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "opensquilla/opensquilla",
+    "url": "https://github.com/opensquilla/opensquilla",
+    "publishedAt": "2026-05-06T17:43:05Z",
+    "rawText": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+    "score": 4326,
+    "lang": "Python",
+    "rank": 7,
+    "summaryKo": "동일한 토큰 예산으로 더 높은 지능 밀도를 달성하는 토큰 효율 최적화 AI 에이전트 프레임워크이다.",
+    "tags": [
+      "token efficiency",
+      "AI agent",
+      "optimization"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "575d0ade6c3be1d5",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "prefeitura-rio/Rio-3.5-Open-397B",
+    "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
+    "publishedAt": "2026-06-11T03:04:32.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5_moe, image-text-to-text, conversational, pt, en, base_model:Qwen/Qwen3.5-397B-A17B",
+    "score": 307,
+    "rank": 7,
+    "summaryKo": "리우데자네이루 시청이 공개한 Qwen3.5 기반 397B MoE 멀티모달 모델로, 포르투갈어와 영어 대화를 지원한다.",
+    "tags": [
+      "MoE",
+      "multilingual",
+      "image-text",
+      "Portuguese"
+    ],
+    "entities": [
+      "Rio-3.5",
+      "Qwen3.5"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "c53347638b893177",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "omnigent-ai/omnigent",
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "publishedAt": "2026-06-11T12:18:13Z",
+    "rawText": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+    "score": 3660,
+    "lang": "Python",
+    "rank": 8,
+    "summaryKo": "Claude Code·Codex·Cursor 등 다양한 AI 에이전트를 코드 재작성 없이 교체·오케스트레이션할 수 있는 오픈소스 메타 하네스 프레임워크이다.",
+    "tags": [
+      "orchestration",
+      "meta-harness",
+      "multi-agent",
+      "sandboxing"
+    ],
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "59b8a8cfdd3db7b2",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "nvidia/LocateAnything-3B",
+    "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+    "publishedAt": "2026-03-02T20:05:49.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, locateanything, image-feature-extraction, nvidia, eagle, vision, object-detection",
+    "score": 285,
+    "rank": 8,
+    "summaryKo": "NVIDIA가 공개한 3B 비전 모델로, 이미지 내 임의 객체의 위치를 탐지·추출하는 범용 객체 검출 특화 모델이다.",
+    "tags": [
+      "object detection",
+      "vision",
+      "image-feature-extraction",
+      "NVIDIA"
+    ],
+    "entities": [
+      "LocateAnything",
+      "NVIDIA"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "3bb844ba1fd62c09",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "WenyuChiou/awesome-agentic-ai-zh",
+    "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+    "publishedAt": "2026-05-04T22:18:51Z",
+    "rawText": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+    "score": 2915,
+    "lang": "Python",
+    "rank": 9,
+    "summaryKo": "LLM 기초부터 멀티에이전트 시스템까지 아우르는 3개 국어(번체·영어·간체) AI 에이전트 학습 로드맵으로, 240개 이상의 큐레이션 리소스를 제공한다.",
+    "tags": [
+      "learning roadmap",
+      "multi-agent",
+      "LLM",
+      "multilingual"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "9efb5c2f1a1d2da2",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
+    "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
+    "publishedAt": "2026-06-11T23:28:10.000Z",
+    "rawText": "image-text-to-text | transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth",
+    "score": 236,
+    "rank": 9,
+    "summaryKo": "Qwen 기반 27B 코딩 특화 멀티모달 GGUF 모델로, llama.cpp 및 unsloth와 호환되어 로컬 비전·텍스트 생성에 활용된다.",
+    "tags": [
+      "coding",
+      "GGUF",
+      "multimodal",
+      "local-LLM"
+    ],
+    "entities": [
+      "Qwopus3.6"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "1213b1fe393ba1d0",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "EvoLinkAI/GPT-Image-2-Seedance2-Workflow",
+    "url": "https://github.com/EvoLinkAI/GPT-Image-2-Seedance2-Workflow",
+    "publishedAt": "2026-04-23T08:29:07Z",
+    "rawText": "GPT-image-2 and seedance2 workflows and prompt templates  to produce high-quality AI videos.",
+    "score": 558,
+    "lang": "Python",
+    "rank": 10,
+    "summaryKo": "GPT-image-2와 Seedance2를 조합한 워크플로우 및 프롬프트 템플릿으로 고품질 AI 영상을 생성하는 파이프라인이다.",
+    "tags": [
+      "image-to-video",
+      "workflow",
+      "prompt templates",
+      "AI video"
+    ],
+    "entities": [
+      "GPT-image-2",
+      "Seedance2"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "bc159a7cfec7bda3",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "publishedAt": "2026-04-17T00:15:26.000Z",
+    "rawText": "image-text-to-text | gguf, uncensored, qwen3.6, moe, vision, multimodal, image-text-to-text, en",
+    "score": 226,
+    "rank": 10,
+    "summaryKo": "Qwen3.6 기반 35B MoE 멀티모달 GGUF 모델로, 검열 제거(uncensored) 파인튜닝을 적용한 비전·텍스트 생성 모델이다.",
+    "tags": [
+      "uncensored",
+      "MoE",
+      "multimodal",
+      "GGUF"
+    ],
+    "entities": [
+      "Qwen3.6"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "60a076ee36d2b3f6",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "NirDiamant/Agent_Memory_Techniques",
+    "url": "https://github.com/NirDiamant/Agent_Memory_Techniques",
+    "publishedAt": "2026-05-05T21:08:23Z",
+    "rawText": "Agent memory for LLMs: 30 runnable Jupyter notebooks covering conversation buffers, vector stores, knowledge graphs, episodic and semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo benchmarks, and production patterns.",
+    "score": 531,
+    "lang": "Jupyter Notebook",
+    "rank": 11,
+    "summaryKo": "LLM 에이전트 메모리 기법을 다루는 30개의 실행 가능한 Jupyter 노트북 모음으로, 대화 버퍼·벡터 스토어·지식 그래프·에피소딕 메모리 등 다양한 패턴을 실습할 수 있다.",
+    "tags": [
+      "agent memory",
+      "LLM",
+      "vector store",
+      "knowledge graph"
+    ],
+    "entities": [
+      "MemGPT",
+      "Mem0",
+      "Letta",
+      "Zep",
+      "Graphiti"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  },
+  {
+    "id": "84d0bed60df95acc",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "kadevin/ilab-gpt-conjure",
+    "url": "https://github.com/kadevin/ilab-gpt-conjure",
+    "publishedAt": "2026-06-08T08:20:30Z",
+    "rawText": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-compatible API support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management.",
+    "score": 494,
+    "lang": "Python",
+    "rank": 12,
+    "summaryKo": "GPT-image-2를 위한 AI 이미지 생성 WebUI 워크벤치로, Codex Responses 및 OpenAI 호환 API를 지원하며 멀티태스크 병렬 처리와 로컬 큐 관리를 제공한다.",
+    "tags": [
+      "image generation",
+      "WebUI",
+      "GPT-image-2",
+      "OpenAI API"
+    ],
+    "entities": [
+      "GPT-image-2",
+      "Codex",
+      "OpenAI"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-18T09:42:44.187Z"
+  }
+]
