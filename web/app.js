@@ -1,6 +1,6 @@
 import { toViewItem, groupColumns } from './adapt.mjs';
 
-const CATS = ['전체', 'LLM', '에이전트', '멀티모달', '하드웨어', '정책/규제', '오픈소스'];
+const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티모달', '기업·정책'];
 const COLORS = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
   sns: 'var(--c-sns)', paper: 'var(--c-paper)', repo: 'var(--accent)', model: 'var(--accent)' };
 const TINTS = { news: 'var(--t-news)', blog: 'var(--t-blog)', video: 'var(--t-video)',
@@ -37,14 +37,14 @@ function renderCats() {
 function renderTrending() {
   const items = state.trending.filter(matches).sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || (b.score - a.score)).slice(0, 5);
   document.getElementById('trending').innerHTML = items.map((i, n) => `
-    <div class="trend-card">
+    <a class="trend-card" href="${esc(i.url)}" target="_blank" rel="noopener">
       <div class="trend-top">
         <div class="trend-rank" style="color:${COLORS[i.type] || 'var(--accent)'}">${String(n + 1).padStart(2, '0')}</div>
         <span class="type-badge" style="color:${esc(COLORS[i.type] || 'var(--accent)')};background:${esc(TINTS[i.type] || 'var(--accent-tint)')}">${esc(TYPE_LABELS[i.type] || i.type)}</span>
       </div>
       <div class="trend-title">${esc(i.title)}</div>
       <div class="trend-metric">${esc(i.source)} · ${esc(i.metric)}</div>
-    </div>`).join('') || '<div class="empty">트렌딩 항목이 없습니다.</div>';
+    </a>`).join('') || '<div class="empty">트렌딩 항목이 없습니다.</div>';
 }
 
 function colCard(i) {
