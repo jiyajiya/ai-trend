@@ -10,6 +10,7 @@ const COLDEFS = [
   ['뉴스', 'news', 'var(--c-news)'],
   ['영상', 'video', 'var(--c-video)'],
   ['소셜 · 블로그', 'snsblog', 'var(--c-sns)'],
+  ['트렌딩', 'trending', 'var(--accent)'],
 ];
 
 const state = { cat: '전체', q: '', dark: load('dark') === '1',
@@ -59,15 +60,17 @@ function colCard(i) {
         <button class="cc-bookmark${on}" data-bm="${esc(i.id)}">${star}</button>
       </div>
       <div class="cc-summary">${esc(i.summary)}</div>
-      <div class="cc-meta">${flag}${esc(i.source)} · ${esc(i.time)} · ${esc(i.tagText)}</div>
+      <div class="cc-meta">${flag}${esc(i.source)}${i.time ? ' · ' + esc(i.time) : ''}${i.metric ? ' · ' + esc(i.metric) : ''}${i.tagText ? ' · ' + esc(i.tagText) : ''}</div>
     </div>
   </div>`;
 }
 
 function renderColumns() {
   const cols = groupColumns(state.feed.filter(matches));
+  const trendingItems = state.trending.filter(matches)
+    .sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || (b.score - a.score));
   const html = COLDEFS.map(([label, key, color]) => {
-    const items = cols[key] || [];
+    const items = key === 'trending' ? trendingItems : (cols[key] || []);
     const cards = items.map(colCard).join('') || '<div class="empty">검색 결과가 없습니다.</div>';
     return `<section class="col">
       <div class="col-head"><span class="col-dot" style="background:${color}"></span>

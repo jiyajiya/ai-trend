@@ -40,7 +40,7 @@ body { margin: 0; background: #e7e5df; font-family: 'Pretendard', -apple-system,
 .trend-title { font-size: 13.5px; line-height: 1.4; font-weight: 700; color: var(--title); margin: 8px 0; text-wrap: pretty; }
 .trend-metric { font: 500 11px/1 var(--mono); color: var(--meta); }
 
-.columns { display: grid; grid-template-columns: repeat(3, 1fr); align-items: start; }
+.columns { display: grid; grid-template-columns: repeat(4, 1fr); align-items: start; }
 .col { padding: 20px 18px; }
 .col:not(:last-child) { border-right: 1px solid var(--border); }
 .col-head { display: flex; align-items: center; gap: 9px; margin-bottom: 14px; }
