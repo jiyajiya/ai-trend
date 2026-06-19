@@ -1,5 +1,5 @@
-const BLOG = new Set(['AWS ML Blog', 'Databricks', 'Roboflow', 'NAVER D2', 'Comet ML', 'Salesforce', '요즘IT']);
-const SNS = new Set(['GeekNews', 'Hacker News']);
+const BLOG = new Set(['Towards Data Science', 'Medium AI Roadmap', '요즘IT']);
+const SNS = new Set(['Hacker News', 'GeekNews', 'r/MachineLearning', 'r/LocalLLaMA']);
 
 export function viewType(item) {
   switch (item.sourceType) {

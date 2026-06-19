@@ -1,18 +1,21 @@
 {
   "perRunCap": 8,
   "news": [
-    {"source":"The Verge AI","url":"https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
-    {"source":"Ars Technica AI","url":"https://arstechnica.com/ai/feed/"},
-    {"source":"Wired AI","url":"https://www.wired.com/feed/tag/ai/latest/rss"},
+    {"source":"OpenAI","url":"https://openai.com/news/rss.xml"},
+    {"source":"Google AI","url":"https://blog.google/innovation-and-ai/technology/ai/rss/"},
+    {"source":"Anthropic News","url":"https://rsshub.bestblogs.dev/anthropic/news"},
+    {"source":"Anthropic Eng","url":"https://rsshub.bestblogs.dev/anthropic/engineering"},
+    {"source":"NVIDIA AI Blog","url":"https://blogs.nvidia.com/feed/"},
+    {"source":"MIT Tech Review AI","url":"https://www.technologyreview.com/topic/artificial-intelligence/feed"},
+    {"source":"AI Trends","url":"https://www.aitrends.com/feed/"},
     {"source":"Hacker News","url":"https://hnrss.org/newest?q=AI+OR+LLM&count=20"},
     {"source":"GeekNews","url":"https://news.hada.io/rss/news"},
     {"source":"요즘IT","url":"https://yozm.wishket.com/magazine/feed/"},
-    {"source":"Databricks","url":"https://www.databricks.com/feed"},
-    {"source":"OpenAI","url":"https://openai.com/news/rss.xml"},
-    {"source":"Google AI","url":"https://blog.google/innovation-and-ai/technology/ai/rss/"},
-    {"source":"MIT Tech Review AI","url":"https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+    {"source":"r/MachineLearning","url":"https://www.reddit.com/r/MachineLearning/.rss"},
+    {"source":"r/LocalLLaMA","url":"https://www.reddit.com/r/LocalLLaMA/.rss"},
+    {"source":"Towards Data Science","url":"https://towardsdatascience.com/feed"},
+    {"source":"Medium AI Roadmap","url":"https://medium.com/feed/ai-roadmap-institute"}
   ],
-  "arxiv": {"categories":["cs.AI","cs.LG","cs.CL"],"maxResults":10},
   "github": {"queries":["topic:llm","topic:generative-ai","topic:ai-agents"],"createdWithinDays":60,"perQuery":5},
   "huggingface": {"limit":10},
   "youtube": {

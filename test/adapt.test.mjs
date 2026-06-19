@@ -8,8 +8,10 @@ test('viewType: sourceType과 source로 표시 타입을 정한다', () => {
   assert.equal(viewType({ sourceType: 'repo' }), 'repo');
   assert.equal(viewType({ sourceType: 'model' }), 'model');
   assert.equal(viewType({ sourceType: 'news', source: 'GeekNews' }), 'sns');
-  assert.equal(viewType({ sourceType: 'news', source: 'AWS ML Blog' }), 'blog');
-  assert.equal(viewType({ sourceType: 'news', source: 'The Verge AI' }), 'news');
+  assert.equal(viewType({ sourceType: 'news', source: 'r/LocalLLaMA' }), 'sns');
+  assert.equal(viewType({ sourceType: 'news', source: 'Towards Data Science' }), 'blog');
+  assert.equal(viewType({ sourceType: 'news', source: '요즘IT' }), 'blog');
+  assert.equal(viewType({ sourceType: 'news', source: 'OpenAI' }), 'news');
 });
 
 test('relativeTime: 경과 시간을 한국어로 만든다', () => {
