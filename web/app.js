@@ -2,12 +2,13 @@ import { toViewItem, groupColumns } from './adapt.mjs';
 
 const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티모달', '기업·정책'];
 const COLORS = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
-  sns: 'var(--c-sns)', paper: 'var(--c-paper)', repo: 'var(--accent)', model: 'var(--accent)' };
+  sns: 'var(--c-sns)', repo: 'var(--accent)', model: 'var(--c-paper)' };
 const COLDEFS = [
   ['뉴스', 'news', 'var(--c-news)'],
   ['영상', 'video', 'var(--c-video)'],
   ['소셜 · 블로그', 'snsblog', 'var(--c-sns)'],
-  ['트렌딩', 'trending', 'var(--accent)'],
+  ['GitHub', 'repo', 'var(--accent)'],
+  ['HuggingFace', 'model', 'var(--c-paper)'],
 ];
 
 const state = { cat: '전체', q: '', dark: load('dark') === '1',
@@ -51,10 +52,11 @@ function colCard(i) {
 
 function renderColumns() {
   const cols = groupColumns(state.feed.filter(matches));
-  const trendingItems = state.trending.filter(matches)
-    .sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || (b.score - a.score));
+  const trending = state.trending.filter(matches);
+  const trendBy = (type) => trending.filter((i) => i.type === type).sort((a, b) => (b.score || 0) - (a.score || 0));
+  const special = { repo: trendBy('repo'), model: trendBy('model') };
   const html = COLDEFS.map(([label, key, color]) => {
-    const items = key === 'trending' ? trendingItems : (cols[key] || []);
+    const items = special[key] || cols[key] || [];
     const cards = items.map(colCard).join('') || '<div class="empty">검색 결과가 없습니다.</div>';
     return `<section class="col">
       <div class="col-head"><span class="col-dot" style="background:${color}"></span>

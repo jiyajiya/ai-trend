@@ -30,7 +30,7 @@ body { margin: 0; background: #e7e5df; font-family: 'Pretendard', -apple-system,
 .darktoggle { display: flex; align-items: center; gap: 7px; padding: 8px 13px; background: var(--chip); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600; font-family: inherit; color: inherit; }
 
 
-.columns { display: grid; grid-template-columns: repeat(4, 1fr); align-items: start; }
+.columns { display: grid; grid-template-columns: repeat(5, 1fr); align-items: start; }
 .col { padding: 20px 18px; }
 .col:not(:last-child) { border-right: 1px solid var(--border); }
 .col-head { display: flex; align-items: center; gap: 9px; margin-bottom: 14px; }
