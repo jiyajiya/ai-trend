@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { viewType, relativeTime, toViewItem, groupColumns } from '../web/adapt.mjs';
+import { viewType, relativeTime, toViewItem, groupColumns, normalizeAnalysis } from '../web/adapt.mjs';
 
 test('viewType: sourceType과 source로 표시 타입을 정한다', () => {
   assert.equal(viewType({ sourceType: 'youtube' }), 'video');
@@ -104,4 +104,51 @@ test('groupColumns: sns/blog는 한 컬럼, repo/model/paper는 컬럼 제외', 
   assert.equal(c.video.length, 1);
   assert.equal(c.snsblog.length, 2);
   assert.ok(!('paper' in c));
+});
+
+test('normalizeAnalysis: 정상 객체를 그대로 정규화한다', () => {
+  const out = normalizeAnalysis({
+    points: ['p1', 'p2'],
+    sections: [{ heading: 'h', body: 'b' }],
+    quotes: ['q1'],
+  });
+  assert.deepEqual(out, {
+    points: ['p1', 'p2'],
+    sections: [{ heading: 'h', body: 'b' }],
+    quotes: ['q1'],
+  });
+});
+
+test('normalizeAnalysis: 누락 필드는 빈 배열로 보정한다', () => {
+  const out = normalizeAnalysis({ points: ['only'] });
+  assert.deepEqual(out, { points: ['only'], sections: [], quotes: [] });
+});
+
+test('normalizeAnalysis: sections 항목의 heading/body 누락을 빈 문자열로 보정한다', () => {
+  const out = normalizeAnalysis({ points: ['p'], sections: [{ heading: 'h' }, {}] });
+  assert.deepEqual(out.sections, [{ heading: 'h', body: '' }, { heading: '', body: '' }]);
+});
+
+test('normalizeAnalysis: 비배열/누락/빈 points는 null', () => {
+  assert.equal(normalizeAnalysis(undefined), null);
+  assert.equal(normalizeAnalysis(null), null);
+  assert.equal(normalizeAnalysis({ points: 'x' }), null);
+  assert.equal(normalizeAnalysis({ points: [] }), null);
+  assert.equal(normalizeAnalysis({ sections: [{ heading: 'h', body: 'b' }] }), null);
+});
+
+test('toViewItem: analysis를 정규화해 전달한다', () => {
+  const now = Date.parse('2026-06-18T12:00:00Z');
+  const withA = toViewItem({
+    id: 'a1', sourceType: 'youtube', source: 'Jay', title: 'T', url: 'https://x/1',
+    summaryKo: 's', analysis: { points: ['p'], sections: [{ heading: 'h', body: 'b' }] },
+    publishedAt: '2026-06-18T11:00:00Z', fetchedAt: '2026-06-18T11:00:00Z',
+  }, now);
+  assert.deepEqual(withA.analysis, { points: ['p'], sections: [{ heading: 'h', body: 'b' }], quotes: [] });
+
+  const without = toViewItem({
+    id: 'a2', sourceType: 'news', source: 'OpenAI', title: 'T', url: 'https://x/2',
+    summaryKo: 's', publishedAt: '2026-06-18T11:00:00Z', fetchedAt: '2026-06-18T11:00:00Z',
+  }, now);
+  assert.equal(without.analysis, null);
 });
