@@ -1,6 +1,17 @@
 const BLOG = new Set(['Towards Data Science', 'Medium AI Roadmap', '요즘IT']);
 const SNS = new Set(['Hacker News', 'GeekNews', 'r/MachineLearning', 'r/LocalLLaMA', 'Threads']);
 
+export function normalizeAnalysis(raw) {
+  if (!raw || typeof raw !== 'object') return null;
+  const points = Array.isArray(raw.points) ? raw.points.filter((p) => typeof p === 'string' && p.trim()) : [];
+  if (points.length === 0) return null;
+  const sections = (Array.isArray(raw.sections) ? raw.sections : [])
+    .filter((s) => s && typeof s === 'object')
+    .map((s) => ({ heading: typeof s.heading === 'string' ? s.heading : '', body: typeof s.body === 'string' ? s.body : '' }));
+  const quotes = (Array.isArray(raw.quotes) ? raw.quotes : []).filter((q) => typeof q === 'string' && q.trim());
+  return { points, sections, quotes };
+}
+
 export function viewType(item) {
   switch (item.sourceType) {
     case 'youtube': return 'video';
@@ -39,6 +50,7 @@ export function toViewItem(item, nowMs) {
     score: item.score || 0,
     rank: item.rank ?? Infinity,
     status: item.summaryStatus || 'ok',
+    analysis: normalizeAnalysis(item.analysis),
   };
 }
 

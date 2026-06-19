@@ -22,13 +22,20 @@ npm run fetch     # sources.json 읽어 data/raw.json 생성
   - `멀티모달`: 이미지/영상/음성 생성·비전·디퓨전
   - `기업·정책`: 기업 도입·자동화·파트너십·정책·규제·AI 안전
 - `summaryStatus`: `ok` | `fallback` | `skipped`.
+- `analysis`: 상세 분석(구조화 객체). 대상은 **영상·뉴스·블로그**만(SNS·repo·model 제외).
+  - `points`: 핵심 포인트 3~6개(한국어, 각 한 문장).
+  - `sections`: 챕터/주제별 정리 2~5개. 각 `{ "heading": "...", "body": "2~4문장" }`.
+  - `quotes`: 주목할 인용·수치 0~3개(없으면 빈 배열 또는 생략).
+  - 생성 불가/대상 아님이면 `analysis` 필드를 생략한다. (웹 우측 상세 분석 패널이 이 필드를 렌더한다.)
 
 소스 타입별 요약 입력:
 - `news` / `paper`: `rawText`(요약/초록)를 읽고 요약. 부족하면 `url`을 WebFetch로 보강.
+  - 본문이 충분하면 `analysis`도 생성(블로그 포함). 빈약하면 `analysis` 생략.
 - `repo` / `model`: `rawText`(description) + `title`로 한 줄 요약. `tags`에 주제 반영.
 - `youtube`:
   1) `watch` 스킬로 `url`(또는 `videoId`) 영상의 자막 트랜스크립트를 받아 요약 → `summaryStatus: ok`.
   2) 자막이 없거나 watch 실패 시 `rawText`(제목/설명)만으로 요약 → `summaryStatus: fallback`.
+  3) `summaryKo`를 만든 같은 트랜스크립트로 `analysis`(points/sections/quotes)도 생성해 채운다(fallback이면 생략).
 - `source`가 `GeekNews`인 경우 `geeknews-search` 스킬로 본문을 보강할 수 있다(이미 한국어).
 
 요약이 불가능한 아이템은 `summaryStatus: skipped`로 두면 merge가 제외한다.
