@@ -19,7 +19,7 @@
 | 저장 형태 | **구조화 객체** (마크다운 문자열 아님 — 파서 불필요·테스트 용이) |
 | 화면 배치 | **3번째 우측 컬럼 패널** (모바일은 전체 오버레이) |
 | 적용 범위 | `viewType` 기준 **video · news · blog** (SNS 제외: Hacker News·GeekNews·Reddit·Threads) |
-| 기존 데이터 | **백필** — 기존 영상 24건 + 뉴스/블로그 항목에 `analysis` 채움 |
+| 기존 데이터 | **백필** — 기존 영상 24건에 `analysis` 채움 (뉴스/블로그는 신규 수집분부터 적용) |
 
 ## 데이터 모델 — 새 필드 `analysis`
 
@@ -51,7 +51,7 @@
 
 생성 분량 가이드: `points` 3~6개, `sections` 2~5개(각 2~4문장), `quotes` 0~3개. 한국어.
 
-`pipeline/merge.mjs`는 `analysis`를 **그대로 통과·보존**한다. (기존 항목 병합 시 새로 들어온 `analysis`가 있으면 갱신, 없으면 기존 값 유지.)
+`pipeline/merge.mjs`는 **신규 항목**의 `analysis`를 그대로 통과·보존한다(현재 `feed.push({ ...item })` 스프레드로 이미 동작 — 코드 변경 불필요). 단 merge는 이미 수집된(`seen`) 항목은 건너뛰므로, **기존 항목 백필은 merge가 아닌 전용 패치 스크립트**(`pipeline/apply-analysis.mjs`)로 id 매칭하여 `feed.json`을 직접 갱신한다.
 
 ## UI 변경 (`web/`)
 
@@ -91,23 +91,24 @@
 
 ## 백필 (1회성)
 
-기존 `data/feed.json`의 대상 항목(영상 24 + 뉴스/블로그)에 `analysis`를 채운다.
+기존 `data/feed.json`의 **영상 24건**에 `analysis`를 채운다. (뉴스/블로그는 신규 수집분부터 적용 — 백필 대상 아님.)
 
-- 영상: `url`/`videoId`로 `watch` 재실행 → `analysis` 생성.
-- 뉴스/블로그: 저장된 `rawText` 사용(필요 시 `url` 보강).
-- SNS 항목은 제외.
-- 결과를 정상 파이프라인(summarize → merge)으로 반영하고 push하여 GitHub Pages 갱신.
+- 영상: `url`/`videoId`로 `watch` 재실행 → `analysis` 생성. 결과를 `{ "<id>": <analysis> }` 맵(`data/analysis-backfill.json`)으로 모은다.
+- 전용 스크립트 `pipeline/apply-analysis.mjs`가 맵을 읽어 `data/feed.json`의 해당 id 항목에 `analysis`를 in-place로 추가하고 다시 쓴다(merge 우회).
+- 결과를 commit·push하여 GitHub Pages 갱신.
 - 백필은 사용량·시간을 소모하므로 **한 번만** 실행. 이후에는 신규 항목이 정상 파이프라인에서 `analysis`를 얻는다.
 
 ## 테스트 (`test/`)
 
 - `adapt.mjs` 분석 정규화: `analysis` 정상 / 없음 / 일부 필드 누락 / 비배열 입력 케이스.
-- `merge.mjs`: 병합 시 `analysis` 보존(신규 있으면 갱신, 없으면 기존 유지) 확인.
+- `merge.mjs`: 신규 항목의 `analysis`가 `feed`로 그대로 통과되는지 확인(코드 변경 없음, 회귀 가드).
+- `apply-analysis.mjs`: id 맵을 받아 기존 `feed` 항목에 `analysis`를 붙이고, 매칭 안 되는 id는 무시하는지.
 - 뷰어 어댑터: `toViewItem`이 `analysis`를 정규화해 전달하는지.
 
 ## 영향 범위 / 리스크
 
-- 수정 파일: `pipeline/RUNBOOK.md`, `pipeline/merge.mjs`, `web/adapt.mjs`, `web/app.js`, `web/style.css`, `test/*`.
+- 수정 파일: `pipeline/RUNBOOK.md`, `web/adapt.mjs`, `web/app.js`, `web/index.html`, `web/style.css`, `test/*`.
+- 신규 파일: `pipeline/apply-analysis.mjs`(백필 패치 스크립트). `merge.mjs`는 변경 없음.
 - 데이터: `data/feed.json`(백필로 `analysis` 추가) — 게시 데이터 용량 증가(항목당 수백 byte~1KB).
 - 리스크:
   - 백필이 사용량/시간을 소모(영상 watch 재실행 24건).
