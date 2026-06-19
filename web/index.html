@@ -10,21 +10,38 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <div class="dash" id="dash" data-theme="light">
-    <header class="bar">
+  <div class="app" id="app" data-theme="light">
+    <aside class="sidebar">
       <div class="brand">
-        <div class="logo">▲</div>
-        <div class="wordmark">AX 개발팀 - AI 트렌드</div>
-        <div class="badge-board">BOARD</div>
+        <div class="logo">∞</div>
+        <div class="brand-text">
+          <div class="brand-team">AX 개발팀</div>
+          <div class="brand-name">AI 트렌드</div>
+        </div>
       </div>
-      <nav class="cats" id="cats"></nav>
-      <div class="search">
-        <span class="search-ic">⌕</span>
-        <input id="q" placeholder="검색…" />
-      </div>
+
+      <div class="nav-label">FEED</div>
+      <nav class="feed-nav" id="feeds"></nav>
+
+      <div class="nav-label">CATEGORY</div>
+      <div class="cats" id="cats"></div>
+
       <button class="darktoggle" id="darktoggle"></button>
-    </header>
-    <main class="columns" id="columns"></main>
+    </aside>
+
+    <main class="main">
+      <header class="main-head">
+        <div class="head-left">
+          <h1 class="head-title"><span id="feedTitle">뉴스</span><span class="head-count" id="feedCount">0</span></h1>
+          <p class="head-sub" id="feedSub"></p>
+        </div>
+        <div class="search">
+          <span class="search-ic">⌕</span>
+          <input id="q" placeholder="제목·내용·태그 검색" />
+        </div>
+      </header>
+      <div class="reader" id="reader"></div>
+    </main>
   </div>
   <script type="module" src="./app.js"></script>
 </body>
