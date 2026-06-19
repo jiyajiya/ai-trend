@@ -1,10 +1,9 @@
-const BLOG = new Set(['AWS ML Blog', 'Databricks', 'Roboflow', 'NAVER D2', 'Comet ML', 'Salesforce', '요즘IT']);
-const SNS = new Set(['GeekNews', 'Hacker News']);
+const BLOG = new Set(['Towards Data Science', 'Medium AI Roadmap', '요즘IT']);
+const SNS = new Set(['Hacker News', 'GeekNews', 'r/MachineLearning', 'r/LocalLLaMA']);
 
 export function viewType(item) {
   switch (item.sourceType) {
     case 'youtube': return 'video';
-    case 'paper': return 'paper';
     case 'repo': return 'repo';
     case 'model': return 'model';
     default:
@@ -44,10 +43,9 @@ export function toViewItem(item, nowMs) {
 }
 
 export function groupColumns(viewItems) {
-  const col = { news: [], video: [], snsblog: [], paper: [] };
+  const col = { news: [], video: [], snsblog: [] };
   for (const i of viewItems) {
     if (i.type === 'video') col.video.push(i);
-    else if (i.type === 'paper') col.paper.push(i);
     else if (i.type === 'sns' || i.type === 'blog') col.snsblog.push(i);
     else if (i.type === 'repo' || i.type === 'model') continue; // 트렌딩 strip 전용
     else col.news.push(i);

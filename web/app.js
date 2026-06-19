@@ -10,7 +10,6 @@ const COLDEFS = [
   ['뉴스', 'news', 'var(--c-news)'],
   ['영상', 'video', 'var(--c-video)'],
   ['소셜 · 블로그', 'snsblog', 'var(--c-sns)'],
-  ['논문', 'paper', 'var(--c-paper)'],
 ];
 
 const state = { cat: '전체', q: '', dark: load('dark') === '1',
