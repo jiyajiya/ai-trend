@@ -1,5 +1,5 @@
 const BLOG = new Set(['Towards Data Science', 'Medium AI Roadmap', '요즘IT']);
-const SNS = new Set(['Hacker News', 'GeekNews', 'r/MachineLearning', 'r/LocalLLaMA']);
+const SNS = new Set(['Hacker News', 'GeekNews', 'r/MachineLearning', 'r/LocalLLaMA', 'Threads']);
 
 export function viewType(item) {
   switch (item.sourceType) {

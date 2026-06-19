@@ -6,6 +6,7 @@ const FEEDS = [
   { key: 'news', label: '뉴스', dot: 'var(--c-news)', sub: '주요 AI 뉴스와 연구를 넓은 화면에서 한 편씩 읽어보세요' },
   { key: 'repo', label: 'GitHub', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포 (최근 생성·스타순)' },
   { key: 'model', label: 'HuggingFace', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
+  { key: 'bookmark', label: '⭐ 북마크', dot: 'var(--accent)', sub: '★ 저장한 항목만 모아보기' },
 ];
 const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티모달', '기업·정책'];
 const BAR = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
@@ -27,7 +28,13 @@ function matches(i) {
   const okQ = !q || `${i.title} ${i.summary} ${i.source} ${i.tagText}`.toLowerCase().includes(q);
   return okCat && okQ;
 }
-const visible = (key) => state.data[key].filter(matches);
+function allItems() {
+  return [...state.data.video, ...state.data.snsblog, ...state.data.news, ...state.data.repo, ...state.data.model];
+}
+function visible(key) {
+  const arr = key === 'bookmark' ? allItems().filter((i) => state.bm[i.id]) : (state.data[key] ?? []);
+  return arr.filter(matches);
+}
 
 function renderFeeds() {
   document.getElementById('feeds').innerHTML = FEEDS.map((f) => {
@@ -101,7 +108,8 @@ document.getElementById('darktoggle').addEventListener('click', () => {
 });
 document.getElementById('reader').addEventListener('click', (e) => {
   const id = e.target.dataset.bm; if (!id) return;
-  state.bm[id] = !state.bm[id]; localStorage.setItem('bm', JSON.stringify(state.bm)); renderMain();
+  state.bm[id] = !state.bm[id]; localStorage.setItem('bm', JSON.stringify(state.bm));
+  renderAll();   // ⭐ 북마크 카운트 + (북마크 피드면) 목록 즉시 갱신
 });
 
 const now = Date.now();

@@ -14,7 +14,8 @@
     {"source":"요즘IT","url":"https://yozm.wishket.com/magazine/feed/"},
     {"source":"r/MachineLearning","url":"https://www.reddit.com/r/MachineLearning/.rss"},
     {"source":"r/LocalLLaMA","url":"https://www.reddit.com/r/LocalLLaMA/.rss"},
-    {"source":"Towards Data Science","url":"https://towardsdatascience.com/feed"}
+    {"source":"Towards Data Science","url":"https://towardsdatascience.com/feed"},
+    {"source":"Threads","url":"https://rsshub.bestblogs.dev/threads/choi.openai"}
   ],
   "github": {"queries":["topic:llm","topic:generative-ai","topic:ai-agents"],"createdWithinDays":60,"perQuery":5},
   "huggingface": {"limit":10},
@@ -27,7 +28,8 @@
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCzVC0uLYSZa780yJaGD8sxQ",
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCRJ0Q5MheESq1JOrVQYECEQ",
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCYYxayhOPmXVCXjnMgUt3iQ",
-      "https://www.youtube.com/feeds/videos.xml?channel_id=UCDLlMjELbrJdETmSiAB68AA"
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCDLlMjELbrJdETmSiAB68AA",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCFmYIak2sRBXt2M3ep6U3QA"
     ],
     "seedVideos": []
   }
