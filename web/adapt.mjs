@@ -1,4 +1,4 @@
-const BLOG = new Set(['AWS ML Blog', 'Databricks', 'Roboflow', 'NAVER D2', 'Comet ML', 'Salesforce']);
+const BLOG = new Set(['AWS ML Blog', 'Databricks', 'Roboflow', 'NAVER D2', 'Comet ML', 'Salesforce', '요즘IT']);
 const SNS = new Set(['GeekNews', 'Hacker News']);
 
 export function viewType(item) {
