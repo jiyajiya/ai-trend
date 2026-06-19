@@ -31,7 +31,7 @@ function renderFeeds() {
   document.getElementById('feeds').innerHTML = FEEDS.map((f) => {
     const n = visible(f.key).length;
     const active = f.key === state.feed ? ' active' : '';
-    return `<button class="feed-item${active}" data-feed="${f.key}">
+    return `<button class="feed-item${active}" data-feed="${esc(f.key)}">
       <span class="feed-dot" style="background:${f.dot}"></span>
       <span class="feed-name">${esc(f.label)}</span>
       <span class="feed-count">${n}</span>
@@ -106,10 +106,10 @@ const now = Date.now();
 const rawFeed = (await getJson('../data/feed.json', null)) ?? (await getJson('../data/feed.sample.json', []));
 const rawTrend = await getJson('../data/trending.json', []);
 const cols = groupColumns(rawFeed.map((i) => toViewItem(i, now)));
-state.data.news = cols.news;
-state.data.video = cols.video;
-state.data.snsblog = cols.snsblog;
+state.data.news = cols.news ?? [];
+state.data.video = cols.video ?? [];
+state.data.snsblog = cols.snsblog ?? [];
 state.data.trending = rawTrend.map((i) => toViewItem(i, now))
-  .sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || (b.score - a.score));
+  .sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || ((b.score ?? 0) - (a.score ?? 0)));
 renderDark();
 renderAll();
