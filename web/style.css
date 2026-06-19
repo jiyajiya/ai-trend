@@ -32,7 +32,8 @@ body { margin: 0; background: #e7e5df; font-family: 'Pretendard', -apple-system,
 .trending { padding: 20px 28px; border-bottom: 1px solid var(--border); }
 .section-label { font: 600 12px/1 var(--mono); color: var(--meta); letter-spacing: .04em; margin-bottom: 14px; }
 .trending-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
-.trend-card { background: var(--surface); border: 1px solid var(--border); border-radius: 11px; padding: 15px 16px; }
+.trend-card { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 11px; padding: 15px 16px; text-decoration: none; color: inherit; cursor: pointer; transition: transform .14s ease, box-shadow .14s ease; }
+.trend-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.07); }
 .trend-top { display: flex; align-items: center; justify-content: space-between; }
 .trend-rank { font: 700 20px/1 var(--mono); color: var(--accent); }
 .type-badge { font: 600 10px/1 'JetBrains Mono'; padding: 3px 8px; border-radius: 999px; }
