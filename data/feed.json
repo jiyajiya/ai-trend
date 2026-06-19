@@ -1215,6 +1215,186 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "65fc9ff4ae727f3c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The comfortable slow boil of LLM assisted coding",
+    "url": "https://01max.io/blog/a-comfortable-slow-boil/",
+    "publishedAt": "Fri, 19 Jun 2026 05:52:02 +0000",
+    "rawText": "Article URL: https://01max.io/blog/a-comfortable-slow-boil/ Comments URL: https://news.ycombinator.com/item?id=48595253 Points: 1 # Comments: 0",
+    "summaryKo": "LLM 보조 코딩이 개발자의 작업 방식을 서서히, 그러나 근본적으로 바꾸고 있다는 점을 \"천천히 끓는 물\" 비유로 짚은 글이다. 편리함에 익숙해지는 사이 개발 역량과 코드 이해도가 조용히 약화될 수 있다는 경계심을 제기한다.",
+    "tags": [
+      "LLM",
+      "바이브코딩",
+      "코딩"
+    ],
+    "entities": [],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "0ad9b5ceb57820a0",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Generative AI Is Having Its Herbalife Moment",
+    "url": "https://www.whatwelo.st/p/generative-ai-is-having-its-herbalife",
+    "publishedAt": "Fri, 19 Jun 2026 05:37:51 +0000",
+    "rawText": "Article URL: https://www.whatwelo.st/p/generative-ai-is-having-its-herbalife Comments URL: https://news.ycombinator.com/item?id=48595144 Points: 2 # Comments: 0",
+    "summaryKo": "Replit 같은 \"바이브코딩\" 스타트업이 경제적으로 취약한 젊은 층을 다단계(MLM) 유사 마케팅으로 공략한다고 비판하는 글이다. 실제 컴퓨팅 비용과 낮은 성공 확률을 숨긴 채 손쉬운 앱 수익화의 꿈을 판다는 점을 허벌라이프에 비유한다.",
+    "tags": [
+      "생성형AI",
+      "바이브코딩"
+    ],
+    "entities": [
+      "Replit"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "4088114639a153f9",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "It Is Trivially Easy to Use Reddit to Manipulate AI Search",
+    "url": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
+    "publishedAt": "Fri, 19 Jun 2026 05:26:28 +0000",
+    "rawText": "Article URL: https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/ Comments URL: https://news.ycombinator.com/item?id=48595077 Points: 5 # Comments: 0",
+    "summaryKo": "Cornell 연구진에 따르면 Reddit에 13단어 수준의 짧은 글만 올려도 AI 검색 결과를 손쉽게 조작할 수 있다. ChatGPT·Google AI 검색 등 딥리서치 에이전트가 질의의 약 절반에서 Reddit 글을 인용하기 때문에, 질의와 유사한 홍보 문구를 심으면 그대로 답변에 반영될 수 있다.",
+    "tags": [
+      "AI검색",
+      "RAG",
+      "보안"
+    ],
+    "entities": [
+      "Reddit",
+      "ChatGPT",
+      "Cornell"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "ae54838d0af03c64",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI helped diagnose 18 children whose rare diseases had stumped doctors",
+    "url": "https://www.nbcnews.com/tech/innovation/ai-boston-childrens-hospital-diagnose-rare-diseases-kids-openai-rcna350387",
+    "publishedAt": "Fri, 19 Jun 2026 05:12:23 +0000",
+    "rawText": "Article URL: https://www.nbcnews.com/tech/innovation/ai-boston-childrens-hospital-diagnose-rare-diseases-kids-openai-rcna350387 Comments URL: https://news.ycombinator.com/item?id=48594991 Points: 4 # Comments: 0",
+    "summaryKo": "보스턴 아동병원이 OpenAI 기술을 활용해 의사들도 진단에 어려움을 겪던 18명 아동의 희귀질환을 밝혀냈다는 소식이다. AI가 임상 의료, 특히 희귀질환 진단 영역에서 실질적 보조 도구로 쓰일 가능성을 보여준 사례다.",
+    "tags": [
+      "의료AI",
+      "진단",
+      "희귀질환"
+    ],
+    "entities": [
+      "OpenAI",
+      "Boston Children’s Hospital"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "fcdac4401714eb5a",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "White House talks with Anthropic shift to setting AI security rules",
+    "url": "https://www.politico.com/news/2026/06/18/white-house-talks-with-anthropic-shift-to-setting-ai-security-rules-00967758",
+    "publishedAt": "Fri, 19 Jun 2026 04:54:19 +0000",
+    "rawText": "Article URL: https://www.politico.com/news/2026/06/18/white-house-talks-with-anthropic-shift-to-setting-ai-security-rules-00967758 Comments URL: https://news.ycombinator.com/item?id=48594897 Points: 5 # Comments: 1",
+    "summaryKo": "백악관과 Anthropic의 논의 초점이 AI 보안 규칙 수립 쪽으로 이동하고 있다는 보도다. 미국 정부가 선도 AI 기업과 협의해 AI 안전·보안 관련 정책 틀을 잡으려는 움직임으로 읽힌다.",
+    "tags": [
+      "AI정책",
+      "AI보안",
+      "규제"
+    ],
+    "entities": [
+      "White House",
+      "Anthropic"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "98ceda96e66bc305",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI DevKit – The control plane for AI coding agents",
+    "url": "https://ai-devkit.com/",
+    "publishedAt": "Fri, 19 Jun 2026 04:53:07 +0000",
+    "rawText": "Article URL: https://ai-devkit.com/ Comments URL: https://news.ycombinator.com/item?id=48594889 Points: 2 # Comments: 0",
+    "summaryKo": "AI DevKit는 다양한 AI 코딩 에이전트를 한곳에서 관리·제어하는 \"컨트롤 플레인\"을 표방하는 도구다. 여러 코딩 에이전트의 운영을 통합 관리하려는 개발 인프라형 제품으로 보인다.",
+    "tags": [
+      "코딩에이전트",
+      "개발도구"
+    ],
+    "entities": [
+      "AI DevKit"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "3f6d183e0c138bc8",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Why do politicians want AI to go faster?",
+    "url": "https://www.irishtimes.com/technology/big-tech/2026/04/02/why-do-politicians-want-ai-to-go-faster/",
+    "publishedAt": "Fri, 19 Jun 2026 04:42:03 +0000",
+    "rawText": "Article URL: https://www.irishtimes.com/technology/big-tech/2026/04/02/why-do-politicians-want-ai-to-go-faster/ Comments URL: https://news.ycombinator.com/item?id=48594829 Points: 3 # Comments: 1",
+    "summaryKo": "정치인들이 생산성·경제 성장을 이유로 AI 가속을 밀어붙이지만, 미국 유권자의 60%는 AI가 너무 빠르게 발전한다고 본다는 점을 지적한 글이다. 방향성 없는 급속한 기술 변화가 사회 적응 능력을 앞질러 장기적 피해를 낳을 수 있다고 경고한다.",
+    "tags": [
+      "AI정책",
+      "규제"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
+    "id": "afff43ed1f2efefb",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: A/B testing LLM silence with one system-prompt toggle",
+    "url": "https://twitter.com/RayanPal_/status/2067816563995189631",
+    "publishedAt": "Fri, 19 Jun 2026 04:33:16 +0000",
+    "rawText": "Article URL: https://twitter.com/RayanPal_/status/2067816563995189631 Comments URL: https://news.ycombinator.com/item?id=48594797 Points: 9 # Comments: 0",
+    "summaryKo": "시스템 프롬프트 토글 하나로 LLM이 \"침묵\"하도록 만드는 옵션을 A/B 테스트한 Show HN 프로젝트다. 불필요한 응답을 줄이는 프롬프트 설계가 사용자 경험에 미치는 영향을 실험적으로 검증하려는 시도다.",
+    "tags": [
+      "LLM",
+      "프롬프트",
+      "A/B테스트"
+    ],
+    "entities": [],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
+  },
+  {
     "id": "13b50c9aa3ac22b7",
     "sourceType": "news",
     "source": "Hacker News",
@@ -1462,6 +1642,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "00c4850441661dad",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: lily-svelte — Svelte 5 컴포넌트 라이브러리",
+    "url": "https://news.hada.io/topic?id=30633",
+    "publishedAt": "2026-06-19T14:31:17+09:00",
+    "rawText": "Svelte 5 + Tailwind v4 쓰시는 분들을 위한 컴포넌트 라이브러리입니다. shadcn처럼 CLI로 컴포넌트 소스를 프로젝트에 바로 복사해주는 방식이라, 코드를 직접 수정하기 편합니다. 디자인은 둥글고 차분한 스타일 하나로 통일했어요 npx lily-svelte@latest init",
+    "summaryKo": "Svelte 5 + Tailwind v4 사용자를 위한 컴포넌트 라이브러리 lily-svelte를 소개하는 Show GN 글이다. shadcn처럼 CLI로 컴포넌트 소스를 프로젝트에 직접 복사해 수정이 쉽고, 둥글고 차분한 단일 디자인 스타일로 통일했다.",
+    "tags": [
+      "Svelte",
+      "컴포넌트",
+      "프론트엔드"
+    ],
+    "entities": [
+      "lily-svelte",
+      "Svelte 5",
+      "Tailwind"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T06:09:07.075Z"
   },
   {
     "id": "91531f8982f06df0",
