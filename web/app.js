@@ -142,14 +142,14 @@ document.getElementById('reader').addEventListener('click', (e) => {
     state.bm[bm] = !state.bm[bm]; localStorage.setItem('bm', JSON.stringify(state.bm));
     renderAll(); return;
   }
+  if (e.target.closest('a')) return;  // 제목 링크 클릭은 원문으로(패널 토글 안 함)
   const card = e.target.closest('[data-card]'); if (!card) return;
   const id = card.dataset.card;
   state.selectedId = state.selectedId === id ? null : id;  // 재클릭 시 닫기
   renderAll();
 });
 document.getElementById('panelClose').addEventListener('click', () => {
-  state.selectedId = null; renderPanel();
-  document.querySelectorAll('.rcard.selected').forEach((el) => el.classList.remove('selected'));
+  state.selectedId = null; renderAll();
 });
 
 const now = Date.now();
