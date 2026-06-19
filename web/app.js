@@ -13,7 +13,7 @@ const BAR = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-vide
   sns: 'var(--c-sns)', repo: 'var(--accent)', model: 'var(--c-paper)' };
 
 const state = { feed: 'video', cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
-  bm: JSON.parse(localStorage.getItem('bm') || '{}'),
+  bm: JSON.parse(localStorage.getItem('bm') || '{}'), selectedId: null,
   data: { video: [], snsblog: [], news: [], repo: [], model: [] } };
 
 async function getJson(path, fallback) {
@@ -63,7 +63,8 @@ function rcard(i) {
   const star = state.bm[i.id] ? '★' : '☆';
   const flag = i.status !== 'ok' ? `<span class="rc-flag">${esc(i.status)}</span>` : '';
   const metric = i.metric ? `<span class="rc-sep">·</span><span class="rc-time">${esc(i.metric)}</span>` : '';
-  return `<article class="rcard" style="--bar:${BAR[i.type] || 'var(--accent)'}">
+  const sel = state.selectedId === i.id ? ' selected' : '';
+  return `<article class="rcard${sel}" data-card="${esc(i.id)}" style="--bar:${BAR[i.type] || 'var(--accent)'}">
     <div class="rc-titlerow">
       <a class="rc-title" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
       <button class="rc-bookmark${on}" data-bm="${esc(i.id)}">${star}</button>
@@ -79,9 +80,38 @@ function rcard(i) {
   </article>`;
 }
 
+function analysisHtml(a) {
+  const points = a.points.length
+    ? `<div class="panel-h">핵심 포인트</div><ul class="panel-points">${a.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>`
+    : '';
+  const sections = a.sections.length
+    ? `<div class="panel-h">상세 정리</div>${a.sections.map((s) =>
+        `<div class="panel-sec"><p class="panel-sec-h">${esc(s.heading)}</p><p class="panel-sec-b">${esc(s.body)}</p></div>`).join('')}`
+    : '';
+  const quotes = a.quotes.length
+    ? `<div class="panel-h">인용·수치</div>${a.quotes.map((q) => `<p class="panel-quote">${esc(q)}</p>`).join('')}`
+    : '';
+  return points + sections + quotes;
+}
+
+function renderPanel() {
+  const panel = document.getElementById('panel');
+  const body = document.getElementById('panelBody');
+  const item = state.selectedId ? allItems().find((i) => i.id === state.selectedId) : null;
+  if (!item) { panel.dataset.open = 'false'; body.innerHTML = ''; return; }
+  panel.dataset.open = 'true';
+  const meta = `<div class="panel-meta">${esc(item.source)}${item.time ? ` · ${esc(item.time)}` : ''}`
+    + ` · <a href="${esc(item.url)}" target="_blank" rel="noopener">원문 보기 ↗</a></div>`;
+  const content = item.analysis
+    ? analysisHtml(item.analysis)
+    : `<div class="panel-empty">상세 분석이 아직 없습니다.<br><br>${esc(item.summary)}</div>`;
+  body.innerHTML = `<h2 class="panel-title">${esc(item.title)}</h2>${meta}${content}`;
+}
+
 function renderMain() {
   const feed = FEEDS.find((f) => f.key === state.feed);
   const items = visible(state.feed);
+  if (state.selectedId && !items.some((i) => i.id === state.selectedId)) state.selectedId = null;
   document.getElementById('feedTitle').textContent = feed.label;
   document.getElementById('feedCount').textContent = items.length;
   document.getElementById('feedSub').textContent = feed.sub;
@@ -93,7 +123,7 @@ function renderDark() {
   document.getElementById('darktoggle').textContent = state.dark ? '☀ 라이트 모드' : '☾ 다크 모드';
 }
 
-function renderAll() { renderFeeds(); renderCats(); renderMain(); }
+function renderAll() { renderFeeds(); renderCats(); renderMain(); renderPanel(); }
 
 document.getElementById('feeds').addEventListener('click', (e) => {
   const f = e.target.closest('[data-feed]'); if (!f) return;
@@ -107,9 +137,19 @@ document.getElementById('darktoggle').addEventListener('click', () => {
   state.dark = !state.dark; localStorage.setItem('dark', state.dark ? '1' : '0'); renderDark();
 });
 document.getElementById('reader').addEventListener('click', (e) => {
-  const id = e.target.dataset.bm; if (!id) return;
-  state.bm[id] = !state.bm[id]; localStorage.setItem('bm', JSON.stringify(state.bm));
-  renderAll();   // ⭐ 북마크 카운트 + (북마크 피드면) 목록 즉시 갱신
+  const bm = e.target.dataset.bm;
+  if (bm) {  // ⭐ 북마크: 패널 열지 않음
+    state.bm[bm] = !state.bm[bm]; localStorage.setItem('bm', JSON.stringify(state.bm));
+    renderAll(); return;
+  }
+  const card = e.target.closest('[data-card]'); if (!card) return;
+  const id = card.dataset.card;
+  state.selectedId = state.selectedId === id ? null : id;  // 재클릭 시 닫기
+  renderAll();
+});
+document.getElementById('panelClose').addEventListener('click', () => {
+  state.selectedId = null; renderPanel();
+  document.querySelectorAll('.rcard.selected').forEach((el) => el.classList.remove('selected'));
 });
 
 const now = Date.now();

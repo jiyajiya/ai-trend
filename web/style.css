@@ -104,4 +104,23 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
   .reader { max-width: none; }
   .rcard { padding: 20px 18px; }
   .rc-title { font-size: 18px; }
+  .panel[data-open="true"] { position: fixed; inset: 0; z-index: 50; flex: none; }
 }
+
+.panel { flex: 0 0 400px; min-width: 0; border-left: 1px solid var(--border); overflow-y: auto; background: var(--surface); }
+.panel[data-open="false"] { display: none; }
+.panel-close { position: sticky; top: 8px; float: right; margin: 8px; border: 0; background: transparent; font-size: 22px; line-height: 1; cursor: pointer; color: var(--muted); }
+.panel-body { padding: 24px 28px; }
+.panel-title { font-size: 18px; font-weight: 700; margin: 0 0 6px; color: var(--title); }
+.panel-meta { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+.panel-meta a { color: var(--accent); text-decoration: none; }
+.panel-h { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 20px 0 8px; }
+.panel-points { margin: 0; padding-left: 18px; }
+.panel-points li { margin: 6px 0; line-height: 1.5; color: var(--text); }
+.panel-sec { margin: 14px 0; }
+.panel-sec-h { font-weight: 600; margin: 0 0 4px; color: var(--title); }
+.panel-sec-b { margin: 0; line-height: 1.6; color: var(--text); }
+.panel-quote { border-left: 3px solid var(--accent); padding: 4px 12px; margin: 8px 0; color: var(--muted); font-style: italic; }
+.panel-empty { color: var(--muted); line-height: 1.6; }
+.rcard { cursor: pointer; }
+.rcard.selected { outline: 2px solid var(--accent); }
