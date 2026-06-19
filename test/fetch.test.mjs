@@ -60,3 +60,10 @@ test('freshOnly: maxAgeDays 없으면 전부 유지', () => {
   const items = [{ url: 'a', publishedAt: '2000-01-01' }];
   assert.equal(freshOnly(items, undefined, Date.parse('2026-06-18T00:00:00Z')).length, 1);
 });
+
+test('freshOnly: 정확히 maxAgeDays 경계 항목은 유지(>=)', () => {
+  const now = Date.parse('2026-06-18T00:00:00Z');
+  const cutoffMs = now - 90 * 86400000;
+  const items = [{ url: 'boundary', publishedAt: new Date(cutoffMs).toISOString() }];
+  assert.equal(freshOnly(items, 90, now).length, 1);
+});
