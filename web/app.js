@@ -4,9 +4,9 @@ const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티
 const COLORS = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
   sns: 'var(--c-sns)', repo: 'var(--accent)', model: 'var(--c-paper)' };
 const COLDEFS = [
-  ['뉴스', 'news', 'var(--c-news)'],
   ['영상', 'video', 'var(--c-video)'],
   ['소셜 · 블로그', 'snsblog', 'var(--c-sns)'],
+  ['뉴스', 'news', 'var(--c-news)'],
   ['GitHub', 'repo', 'var(--accent)'],
   ['HuggingFace', 'model', 'var(--c-paper)'],
 ];
