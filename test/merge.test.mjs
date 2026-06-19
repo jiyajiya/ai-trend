@@ -222,3 +222,19 @@ test('feed 동작 유지: seen에 있는 news id는 feed에서 제외되며 tren
   assert.equal(r.feed.length, 0);
   assert.equal(r.trending.length, 0);
 });
+
+test('mergeFeed: 신규 피드 항목의 analysis를 그대로 보존한다', () => {
+  const analysis = { points: ['p'], sections: [{ heading: 'h', body: 'b' }], quotes: [] };
+  const r = mergeFeed({
+    summarized: [{
+      id: 'n1', sourceType: 'youtube', source: 'Jay', title: 'T',
+      url: 'https://x/1', publishedAt: '2026-06-18T11:00:00Z',
+      summaryKo: 's', analysis,
+    }],
+    existingFeed: [],
+    existingTrending: [],
+    state: { seen: [], lastRunAt: null },
+    now: '2026-06-19T00:00:00Z',
+  });
+  assert.deepEqual(r.feed[0].analysis, analysis);
+});
