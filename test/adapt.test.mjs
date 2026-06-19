@@ -4,7 +4,6 @@ import { viewType, relativeTime, toViewItem, groupColumns } from '../web/adapt.m
 
 test('viewType: sourceType과 source로 표시 타입을 정한다', () => {
   assert.equal(viewType({ sourceType: 'youtube' }), 'video');
-  assert.equal(viewType({ sourceType: 'paper' }), 'paper');
   assert.equal(viewType({ sourceType: 'repo' }), 'repo');
   assert.equal(viewType({ sourceType: 'model' }), 'model');
   assert.equal(viewType({ sourceType: 'news', source: 'GeekNews' }), 'sns');
@@ -95,14 +94,14 @@ test('toViewItem: rank가 없으면 Infinity를 기본값으로 설정한다', (
   assert.ok(!Number.isFinite(v.rank));
 });
 
-test('groupColumns: sns/blog는 한 컬럼, repo/model은 제외', () => {
+test('groupColumns: sns/blog는 한 컬럼, repo/model/paper는 컬럼 제외', () => {
   const items = [
-    { type: 'news' }, { type: 'video' }, { type: 'paper' },
+    { type: 'news' }, { type: 'video' },
     { type: 'sns' }, { type: 'blog' }, { type: 'repo' }, { type: 'model' },
   ];
   const c = groupColumns(items);
   assert.equal(c.news.length, 1);
   assert.equal(c.video.length, 1);
-  assert.equal(c.paper.length, 1);
   assert.equal(c.snsblog.length, 2);
+  assert.ok(!('paper' in c));
 });
