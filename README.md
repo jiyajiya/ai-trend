@@ -16,6 +16,7 @@ AI 관련 트렌드(영상·소셜/블로그·뉴스·약사·GitHub·HuggingFac
 - **① 좌측 사이드바**: 브랜드 · 메뉴(FEED 매체별 / 분야 / 보기) · CATEGORY 주제 필터 · 검색 · 다크모드
 - **② 중앙 리더**: 선택한 피드를 넓은 카드로 한 편씩 — 제목·한국어 요약·출처·시간·태그·북마크(★)
 - **③ 우측 상세 분석 패널**: 카드를 클릭하면 핵심 포인트·상세 정리·인용을 표시(영상은 자막 기반 분석)
+- **🏆 추천 모델(분야 메뉴)**: LMSYS Arena · Artificial Analysis · LLM Stats · Vellum 등 주요 리더보드를 종합한 **영역별 추천 모델**(종합지능·추론·코딩·수학·시각·이미지생성·오픈웨이트·가성비). 약사·전문(💊)/개발자(⚙️) 타깃 배지, 지표 설명·출처·기준일을 하단에 명시. **매일 웹검색으로 자동 갱신**(`data/leaderboard.json`).
 
 ### 카테고리
 `전체` · `LLM·모델` · `에이전트` · `코딩·개발` · `멀티모달` · `기업·정책`
@@ -31,6 +32,8 @@ sources.json ──▶ [fetch]  pipeline/fetch.mjs        ──▶ data/raw.jso
                   (RSS·GitHub·HuggingFace·YouTube, 순수 Node, LLM 없음)
 data/raw.json ─▶ [summarize]  claude -p (RUNBOOK)   ──▶ data/summarized.json
                   (한국어 요약·태그·카테고리, YouTube는 watch 스킬 자막 요약)
+              ─▶ [leaderboard]  claude -p (LEADERBOARD) ─▶ data/leaderboard.json
+                  (주요 리더보드 웹검색 종합, 영역별 추천 모델, 매일 갱신)
               ─▶ [merge]  pipeline/merge.mjs         ──▶ data/feed.json · trending.json
                   (중복 제거·트렌딩 7일 만료·rank)
 web/ (index.html · app.js · adapt.mjs · style.css) ─▶ data/*.json 을 읽어 렌더

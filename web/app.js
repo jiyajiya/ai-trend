@@ -8,6 +8,7 @@ const FEEDS = [
   { key: 'repo', label: 'GitHub', group: 'media', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포 (최근 생성·스타순)' },
   { key: 'model', label: 'HuggingFace', group: 'media', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
   { key: 'pharma', label: '약사', group: 'domain', dot: 'var(--c-blog)', sub: '약업·약사 분야의 AI 관련 소식' },
+  { key: 'leaderboard', label: '🏆 추천 모델', group: 'domain', dot: 'var(--accent)', sub: '주요 리더보드 종합 — 영역별 추천 모델 (매일 갱신)' },
   { key: 'bookmark', label: '⭐ 북마크', group: 'view', dot: 'var(--accent)', sub: '★ 저장한 항목만 모아보기' },
 ];
 const FEED_GROUPS = [
@@ -27,7 +28,7 @@ function feedFromUrl() {
 }
 
 const state = { feed: feedFromUrl(), cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
-  bm: JSON.parse(localStorage.getItem('bm') || '{}'), selectedId: null,
+  bm: JSON.parse(localStorage.getItem('bm') || '{}'), selectedId: null, lb: null,
   data: { video: [], snsblog: [], news: [], repo: [], model: [], pharma: [] } };
 
 async function getJson(path, fallback) {
@@ -52,7 +53,7 @@ function visible(key) {
 
 function renderFeeds() {
   const itemHtml = (f) => {
-    const n = visible(f.key).length;
+    const n = f.key === 'leaderboard' ? (state.lb?.categories?.length ?? 0) : visible(f.key).length;
     const active = f.key === state.feed ? ' active' : '';
     return `<button class="feed-item${active}" data-feed="${esc(f.key)}">
       <span class="feed-dot" style="background:${f.dot}"></span>
@@ -127,13 +128,111 @@ function renderPanel() {
   body.innerHTML = `<h2 class="panel-title">${esc(item.title)}</h2>${meta}${content}`;
 }
 
+// ── Leaderboard (영역별 추천 모델) ──────────────────────────────────────
+// 카드 피드와 데이터 성격이 달라(랭킹 테이블) 별도 렌더 경로를 쓴다.
+const safeHttpUrl = (u) => (/^https?:\/\//i.test(u || '') ? u : '#');
+const AUD = {
+  pharma: { label: '💊 약사·전문', cls: 'lb-aud-pharma' },
+  dev: { label: '⚙️ 개발자', cls: 'lb-aud-dev' },
+  all: { label: '공통', cls: 'lb-aud-all' },
+};
+const audBadge = (a) => {
+  const m = AUD[a] || AUD.all;
+  return `<span class="lb-aud ${m.cls}">${esc(m.label)}</span>`;
+};
+
+function renderLeaderboard(lb) {
+  if (!lb || !Array.isArray(lb.categories) || !lb.categories.length) {
+    return '<div class="empty">리더보드 데이터가 아직 없습니다.</div>';
+  }
+  const head = `<div class="lb-intro">
+    ${lb.windowLabel ? `<div class="lb-window">${esc(lb.windowLabel)}</div>` : ''}
+    ${lb.intro ? `<p class="lb-introtext">${esc(lb.intro)}</p>` : ''}
+  </div>`;
+
+  const useCases = Array.isArray(lb.useCases) && lb.useCases.length ? `
+    <section class="lb-section">
+      <h2 class="lb-h2">📌 실무 추천 조합</h2>
+      <div class="lb-table-wrap"><table class="lb-table">
+        <thead><tr><th>용도</th><th>추천 모델</th><th>대상</th></tr></thead>
+        <tbody>${lb.useCases.map((u) => `<tr>
+          <td class="lb-use">${esc(u.use)}</td>
+          <td>${esc(u.models)}</td>
+          <td>${audBadge(u.audience)}</td>
+        </tr>`).join('')}</tbody>
+      </table></div>
+    </section>` : '';
+
+  const cats = `
+    <section class="lb-section">
+      <h2 class="lb-h2">영역별 추천 모델</h2>
+      ${lb.categories.map((c) => `
+        <div class="lb-cat">
+          <div class="lb-cat-head">
+            <div class="lb-cat-titles">
+              <span class="lb-cat-title">${esc(c.title)}</span>
+              ${c.subtitle ? `<span class="lb-cat-sub">${esc(c.subtitle)}</span>` : ''}
+            </div>
+            ${audBadge(c.audience)}
+          </div>
+          ${c.metric ? `<div class="lb-cat-metric">기준: ${esc(c.metric)}</div>` : ''}
+          ${c.note ? `<p class="lb-cat-note">${esc(c.note)}</p>` : ''}
+          <div class="lb-table-wrap"><table class="lb-table lb-rank">
+            <thead><tr><th>순위</th><th>모델</th><th>근거</th></tr></thead>
+            <tbody>${(c.ranks || []).map((r) => `<tr class="${r.rank === 1 ? 'lb-top' : ''}">
+              <td class="lb-rank-n">${esc(r.rank)}</td>
+              <td class="lb-model">${esc(r.model)}${r.score ? `<span class="lb-score">${esc(r.score)}</span>` : ''}</td>
+              <td class="lb-basis">${esc(r.basis)}${r.source ? `<span class="lb-src">${esc(r.source)}</span>` : ''}</td>
+            </tr>`).join('')}</tbody>
+          </table></div>
+        </div>`).join('')}
+    </section>`;
+
+  const metrics = Array.isArray(lb.metrics) && lb.metrics.length ? `
+    <section class="lb-section">
+      <h2 class="lb-h2">📊 지표 이해하기</h2>
+      <div class="lb-table-wrap"><table class="lb-table">
+        <thead><tr><th>지표</th><th>뜻</th><th>중요 영역</th></tr></thead>
+        <tbody>${lb.metrics.map((m) => `<tr>
+          <td class="lb-metric-name">${esc(m.name)}${m.detail ? `<span class="lb-metric-detail">${esc(m.detail)}</span>` : ''}</td>
+          <td>${esc(m.meaning)}</td>
+          <td class="lb-metric-area">${esc(m.area)}</td>
+        </tr>`).join('')}</tbody>
+      </table></div>
+    </section>` : '';
+
+  const sources = Array.isArray(lb.sources) && lb.sources.length ? `
+    <section class="lb-section">
+      <h2 class="lb-h2">🔗 출처 · 순위 판별 근거</h2>
+      <p class="lb-note">각 영역은 표기된 출처 리더보드의 <strong>공개 점수</strong>(벤치마크 정답률 · Arena Elo · 가격)를 그대로 인용해 높은 순으로 정렬했습니다. 점수가 같으면 출처의 세부 순위를 따릅니다. 수치는 리더보드 업데이트 주기에 따라 달라질 수 있으니, 아래 <strong>기준일</strong>을 함께 확인하세요.</p>
+      <div class="lb-table-wrap"><table class="lb-table">
+        <thead><tr><th>리더보드</th><th>링크</th><th>최근 업데이트</th></tr></thead>
+        <tbody>${lb.sources.map((s) => `<tr>
+          <td>${esc(s.name)}</td>
+          <td><a href="${esc(safeHttpUrl(s.url))}" target="_blank" rel="noopener">${esc((s.url || '').replace(/^https?:\/\//, ''))} ↗</a></td>
+          <td class="lb-updated">${esc(s.updated || '')}</td>
+        </tr>`).join('')}</tbody>
+      </table></div>
+    </section>` : '';
+
+  const foot = lb.asOf ? `<div class="lb-foot">기준일: ${esc(lb.asOf)}</div>` : '';
+
+  return head + useCases + cats + metrics + sources + foot;
+}
+
 function renderMain() {
   const feed = FEEDS.find((f) => f.key === state.feed);
+  document.getElementById('feedTitle').textContent = feed.label;
+  document.getElementById('feedSub').textContent = feed.sub;
+  if (state.feed === 'leaderboard') {
+    state.selectedId = null;  // 리더보드는 우측 분석 패널을 쓰지 않는다
+    document.getElementById('feedCount').textContent = state.lb?.categories?.length ?? 0;
+    document.getElementById('reader').innerHTML = renderLeaderboard(state.lb);
+    return;
+  }
   const items = visible(state.feed);
   if (state.selectedId && !items.some((i) => i.id === state.selectedId)) state.selectedId = null;
-  document.getElementById('feedTitle').textContent = feed.label;
   document.getElementById('feedCount').textContent = items.length;
-  document.getElementById('feedSub').textContent = feed.sub;
   document.getElementById('reader').innerHTML = items.map(rcard).join('') || '<div class="empty">표시할 항목이 없습니다.</div>';
 }
 
@@ -192,5 +291,6 @@ const trending = rawTrend.map((i) => toViewItem(i, now))
   .sort((a, b) => ((a.rank ?? Infinity) - (b.rank ?? Infinity)) || ((b.score ?? 0) - (a.score ?? 0)));
 state.data.repo = trending.filter((i) => i.type === 'repo');
 state.data.model = trending.filter((i) => i.type === 'model');
+state.lb = await getJson('../data/leaderboard.json', null);
 renderDark();
 renderAll();

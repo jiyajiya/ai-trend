@@ -52,13 +52,19 @@ npm run fetch     # sources.json 읽어 data/raw.json 생성
 - 한국어 자막도 실패 시 → 제목 + 설명 텍스트 기반 요약(`summaryStatus: fallback`).
 - 회당 채널별 신규 영상 처리 상한: `perChannel`(현재 3)건. 채널 수 × perChannel이 실질 상한.
 
+## 2c. leaderboard (에이전트)
+
+`data/leaderboard.json`(🏆 추천 모델 메뉴)을 매일 웹검색으로 갱신한다. fetch/merge와 독립된
+스텝으로, 규칙은 [`pipeline/LEADERBOARD.md`](./LEADERBOARD.md) 참고. 출처에서 확인 못한
+수치는 이전 값을 유지(추정 금지)해 공신력을 보존한다.
+
 ## 3. merge (스크립트)
 ```bash
 npm run merge     # data/summarized.json + 기존 데이터 → feed/trending/state
 ```
 
 ## 한 줄 실행(수동)
-세션에서: "ai-trend 수집 실행" → 위 1→2→3을 순서대로 수행.
+세션에서: "ai-trend 수집 실행" → 위 1→2(+2c)→3을 순서대로 수행.
 
 ## 4. 로컬 스케줄 (launchd, 매일 09:00)
 
@@ -75,8 +81,8 @@ launchctl print gui/$(id -u)/com.ax.ai-trend | grep state   # 등록 확인
 즉시 1회 테스트: `launchctl kickstart -k gui/$(id -u)/com.ax.ai-trend`
 로그: `/tmp/ai-trend.log`
 
-`pipeline/run.sh`가 fetch → `claude -p`(summarize, `--dangerously-skip-permissions`) → merge →
-`git push`(data/feed.json·trending.json) 까지 수행 → **GitHub Pages 자동 갱신**.
+`pipeline/run.sh`가 fetch → `claude -p`(summarize) → `claude -p`(leaderboard, 웹검색) → merge →
+`git push`(data/feed.json·trending.json·leaderboard.json) 까지 수행 → **GitHub Pages 자동 갱신**.
 
 주의:
 - `claude` CLI가 로그인된 상태여야 summarize가 동작한다(헤드리스).

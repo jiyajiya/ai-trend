@@ -133,3 +133,73 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
 .panel-empty { color: var(--muted); line-height: 1.6; }
 .rcard { cursor: pointer; }
 .rcard.selected { outline: 2px solid var(--accent); }
+
+/* ── Leaderboard (🏆 영역별 추천 모델) ─────────────────────────────────── */
+.lb-intro { margin-bottom: 8px; }
+.lb-window { font: 600 12px/1 var(--mono); color: var(--accent); letter-spacing: .02em; margin-bottom: 8px; }
+.lb-introtext { margin: 0; font-size: 14.5px; line-height: 1.7; color: var(--muted); text-wrap: pretty; }
+
+.lb-section { margin-top: 30px; }
+.lb-h2 { font-size: 17px; font-weight: 800; color: var(--title); letter-spacing: -.01em; margin: 0 0 14px; }
+
+/* 가로 스크롤 허용 — 좁은 화면에서 표가 깨지지 않게 */
+.lb-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.lb-table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+.lb-table thead th { text-align: left; font: 600 12px/1.4 var(--mono); color: var(--meta);
+  letter-spacing: .04em; padding: 11px 14px; background: var(--chip); white-space: nowrap; }
+.lb-table td { padding: 12px 14px; border-top: 1px solid var(--border); color: var(--text);
+  line-height: 1.55; vertical-align: top; }
+.lb-table tbody tr:first-child td { border-top: none; }
+
+/* 실무 추천 조합 */
+.lb-use { font-weight: 700; color: var(--title); white-space: nowrap; }
+
+/* 대상 배지 */
+.lb-aud { display: inline-block; font: 600 11px/1 var(--mono); padding: 5px 9px; border-radius: 999px; white-space: nowrap; }
+.lb-aud-pharma { background: oklch(0.95 0.06 155); color: oklch(0.42 0.13 155); }
+.lb-aud-dev { background: var(--accent-tint); color: var(--accent); }
+.lb-aud-all { background: var(--chip); color: var(--muted); }
+
+/* 영역 카드 */
+.lb-cat { background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 20px 22px; margin-bottom: 16px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+.lb-cat-head { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+.lb-cat-titles { flex: 1; min-width: 0; display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+.lb-cat-title { font-size: 17px; font-weight: 800; color: var(--title); letter-spacing: -.01em; }
+.lb-cat-sub { font: 500 12px/1 var(--mono); color: var(--meta); }
+.lb-cat-metric { font: 500 12px/1.4 var(--mono); color: var(--accent); margin: 6px 0 0; }
+.lb-cat-note { margin: 8px 0 14px; font-size: 13.5px; line-height: 1.6; color: var(--muted); text-wrap: pretty; }
+
+/* 랭킹 표 */
+.lb-rank { font-size: 14px; }
+.lb-rank-n { font: 700 14px/1 var(--mono); color: var(--meta); width: 40px; text-align: center; }
+.lb-rank tr.lb-top .lb-rank-n { color: var(--accent); }
+.lb-rank tr.lb-top td { background: var(--accent-tint); }
+.lb-model { font-weight: 700; color: var(--title); }
+.lb-score { display: block; margin-top: 3px; font: 500 11.5px/1 var(--mono); color: var(--muted); }
+.lb-basis { color: var(--muted); font-size: 13.5px; }
+.lb-src { display: inline-block; margin-left: 8px; font: 500 10.5px/1 var(--mono); color: var(--meta);
+  background: var(--chip); padding: 3px 6px; border-radius: 6px; vertical-align: middle; }
+
+/* 지표 설명 */
+.lb-metric-name { font-weight: 700; color: var(--title); min-width: 150px; }
+.lb-metric-detail { display: block; margin-top: 5px; font-size: 12.5px; line-height: 1.55; font-weight: 400; color: var(--muted); }
+.lb-metric-area { color: var(--muted); white-space: nowrap; }
+
+/* 출처 · 근거 */
+.lb-note { font-size: 13.5px; line-height: 1.7; color: var(--muted); margin: 0 0 14px; text-wrap: pretty; }
+.lb-note strong { color: var(--text); font-weight: 700; }
+.lb-table a { color: var(--accent); text-decoration: none; word-break: break-all; }
+.lb-updated { color: var(--meta); font: 500 12.5px/1.4 var(--mono); white-space: nowrap; }
+
+.lb-foot { margin: 26px 0 8px; font: 500 12px/1 var(--mono); color: var(--meta); }
+
+.app[data-theme="dark"] .lb-cat { box-shadow: none; }
+.app[data-theme="dark"] .lb-aud-pharma { background: oklch(0.32 0.06 155); color: oklch(0.82 0.12 155); }
+.app[data-theme="dark"] .lb-rank tr.lb-top td { background: #221f33; }
+
+@media (max-width: 900px) {
+  .lb-table { font-size: 13px; }
+  .lb-cat { padding: 16px 14px; }
+}

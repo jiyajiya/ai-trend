@@ -1,0 +1,140 @@
+{
+  "asOf": "2026-06-22",
+  "windowLabel": "2026년 6월 17~21일 기준",
+  "updatedAt": "2026-06-22T00:00:00Z",
+  "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다. 약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
+  "categories": [
+    {
+      "key": "general",
+      "title": "종합지능",
+      "subtitle": "General Intelligence",
+      "audience": "all",
+      "metric": "Artificial Analysis Intelligence Index",
+      "note": "13개 벤치마크를 종합한 단일 점수 — 모델을 한 숫자로 빠르게 비교할 때.",
+      "ranks": [
+        { "rank": 1, "model": "Claude Fable 5", "score": "Index 60", "basis": "Artificial Analysis Intelligence Index 60 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "Claude Opus 4.8", "score": "Index 56", "basis": "Intelligence Index 56, LMSYS Arena Elo ~1510", "source": "artificialanalysis" },
+        { "rank": 3, "model": "GPT-5.5", "score": "Index 55", "basis": "Intelligence Index 55, LMSYS Arena Elo ~1510", "source": "artificialanalysis" }
+      ]
+    },
+    {
+      "key": "reasoning",
+      "title": "추론 · 전문지식",
+      "subtitle": "Reasoning / GPQA Diamond",
+      "audience": "pharma",
+      "metric": "GPQA Diamond",
+      "note": "대학원 수준 과학·전문 추론 — 약학·의학·화학·생물 등 전문 분야 정확도.",
+      "ranks": [
+        { "rank": 1, "model": "Claude Mythos Preview", "score": "94.6%", "basis": "GPQA Diamond 94.6%", "source": "llm-stats" },
+        { "rank": 2, "model": "Claude Opus 4.7", "score": "94.7%", "basis": "GPQA Diamond 94.7%", "source": "vellum" },
+        { "rank": 3, "model": "Claude Fable 5", "score": "94.1%", "basis": "GPQA Diamond 94.1%", "source": "vellum" },
+        { "rank": 4, "model": "GPT 5.1", "score": "88.1%", "basis": "GPQA Diamond 88.1%", "source": "siliconflow" }
+      ]
+    },
+    {
+      "key": "coding",
+      "title": "코딩",
+      "subtitle": "Coding / SWE-bench",
+      "audience": "dev",
+      "metric": "SWE-bench Verified",
+      "note": "실제 GitHub 이슈(버그 수정·기능 추가) 해결률 — 개발·자동화 실력의 핵심.",
+      "ranks": [
+        { "rank": 1, "model": "Claude Fable 5", "score": "95.5%", "basis": "SWE-bench 95.5% 1위", "source": "vellum" },
+        { "rank": 2, "model": "Claude Opus 4.8", "score": "88.6%", "basis": "SWE-bench 88.6%, LMSYS Coding 리더보드 1위", "source": "vellum" },
+        { "rank": 3, "model": "GPT-5.5", "score": "—", "basis": "Coding Arena 상위권(strongest)", "source": "llm-stats" }
+      ]
+    },
+    {
+      "key": "math",
+      "title": "수학",
+      "subtitle": "Mathematics / AIME 2025–2026",
+      "audience": "dev",
+      "metric": "AIME",
+      "note": "고교~대학 초 수준 수학 — 계산·통계·시뮬레이션 정확도.",
+      "ranks": [
+        { "rank": 1, "model": "Gemini 3 Pro", "score": "100%", "basis": "AIME 2025 100%", "source": "vellum" },
+        { "rank": 2, "model": "GPT 5.2", "score": "100%", "basis": "AIME 2025 100%", "source": "vellum" },
+        { "rank": 3, "model": "GPT-5", "score": "100%", "basis": "AIME 2026 100%", "source": "siliconflow" },
+        { "rank": 4, "model": "Claude Opus 4.6", "score": "99.8%", "basis": "AIME 2025 99.8%", "source": "vellum" }
+      ]
+    },
+    {
+      "key": "vision",
+      "title": "멀티모달 · 시각",
+      "subtitle": "Vision",
+      "audience": "all",
+      "metric": "LMSYS Vision Arena",
+      "note": "이미지 이해 능력 — 사진·차트·도표 분석.",
+      "ranks": [
+        { "rank": 1, "model": "Gemini 3.1 Pro Preview", "score": "1위", "basis": "LMSYS Vision Arena 1위", "source": "localaimaster" },
+        { "rank": 2, "model": "GPT-5.5", "score": "상위권", "basis": "Vision Arena 상위권", "source": "toolcenter" },
+        { "rank": 3, "model": "Claude Opus 4.7", "score": "상위권", "basis": "Vision Arena 상위권", "source": "toolcenter" }
+      ]
+    },
+    {
+      "key": "image",
+      "title": "텍스트-이미지 생성",
+      "subtitle": "Text-to-Image",
+      "audience": "pharma",
+      "metric": "Text-to-Image Elo (Arena)",
+      "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
+      "ranks": [
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1339", "basis": "Elo 1339, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "GPT Image 1.5 (high)", "score": "Elo 1265", "basis": "Elo 1265", "source": "artificialanalysis" },
+        { "rank": 3, "model": "Nano Banana 2", "score": "Elo 1255", "basis": "Elo 1255, Gemini 3.1 Flash Image", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1230", "basis": "오픈웨이트 1위, Elo 1230", "source": "artificialanalysis" }
+      ]
+    },
+    {
+      "key": "openweight",
+      "title": "오픈웨이트",
+      "subtitle": "Open-Weight",
+      "audience": "dev",
+      "metric": "Intelligence Index / 오픈웨이트 순위",
+      "note": "가중치 공개 — API 비용 없이 로컬·자체서버 구동, 보안·파인튜닝.",
+      "ranks": [
+        { "rank": 1, "model": "GLM-5.2", "score": "Index 51", "basis": "Intelligence Index 51, 오픈웨이트 1위", "source": "youtube" },
+        { "rank": 2, "model": "MiniMax M3", "score": "Index 44", "basis": "오픈웨이트 2위, Intelligence Index 44", "source": "artificialanalysis" },
+        { "rank": 3, "model": "DeepSeek V4 Pro", "score": "Index 44", "basis": "Intelligence Index 44", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Qwen 3.7 Max", "score": "Elo 1488", "basis": "LMSYS Arena Elo 1488", "source": "localaimaster" }
+      ]
+    },
+    {
+      "key": "price",
+      "title": "가성비",
+      "subtitle": "Lowest Price API",
+      "audience": "all",
+      "metric": "1M 토큰당 가격",
+      "note": "최저가 API — 대규모 쿼리·장기 운영 비용 절감.",
+      "ranks": [
+        { "rank": 1, "model": "MiniMax M3", "score": "$0.60/M", "basis": "최저가 API", "source": "aitoolsera" },
+        { "rank": 2, "model": "Claude Haiku 4.5", "score": "—", "basis": "가격 기준 상위권", "source": "ailab" }
+      ]
+    }
+  ],
+  "useCases": [
+    { "use": "상담 · 복약지도", "models": "Claude Opus 4.8, Claude Fable 5", "audience": "pharma" },
+    { "use": "이미지 생성 (카드뉴스 · 썸네일)", "models": "GPT Image 2", "audience": "pharma" },
+    { "use": "코딩 · 자동화", "models": "Claude Fable 5, Claude Opus 4.8", "audience": "dev" },
+    { "use": "오픈소스 (로컬 구동)", "models": "GLM-5.2, MiniMax M3", "audience": "dev" },
+    { "use": "트렌드 조사", "models": "Perplexity, ChatGPT 검색", "audience": "all" }
+  ],
+  "metrics": [
+    { "name": "Intelligence Index", "meaning": "종합 지능 (13개 벤치마크)", "area": "전체 모델 선택", "detail": "136개 모델을 ARC-AGI-2·HLE·SWE-bench·GPQA·MMLU·Math 등 13개 벤치마크로 종합한 단일 점수. 한 숫자로 빠르게 비교 가능." },
+    { "name": "SWE-bench", "meaning": "코딩 · 엔지니어링", "area": "개발, 자동화", "detail": "실제 GitHub 이슈(버그 수정·기능 추가)를 해결하는 비율. 95.5% = 100문제 중 95.5개 성공. 개발·에이전트 실력의 핵심 지표." },
+    { "name": "GPQA Diamond", "meaning": "고급 과학 · 전문 지식", "area": "의학, 약학, 연구", "detail": "구글 검색만으로 못 푸는 대학원 수준 과학·전문 추론 문제. 약학·의학·화학·생물 등 전문 분야 정확도 판단에 핵심." },
+    { "name": "AIME", "meaning": "수학 문제 해결", "area": "계산, 통계, 공학", "detail": "고교~대학 초 수준 수학(대수·미적분·기하). 계산·통계·시뮬레이션 정확도 지표." },
+    { "name": "LMSYS Elo", "meaning": "사용자 대결 경험", "area": "챗봇, 대화형 AI", "detail": "익명 1:1 블라인드 대결 승패로 산출하는 체스식 Elo. 1500+ = 최상위권(frontier). 실사용 경험을 가장 잘 반영." },
+    { "name": "Text-to-Image Elo", "meaning": "이미지 품질", "area": "카드뉴스, 썸네일", "detail": "두 생성 이미지를 사람이 비교한 승패 Elo. 품질·텍스트 정확성·일관성 평가. 1200+ = 최상위권." },
+    { "name": "Vision / Coding Arena", "meaning": "이미지 이해 / 코딩", "area": "멀티모달, 개발", "detail": "Vision Arena=이미지 이해 대결, Coding Arena=코딩 문제 해결 대결. 특정 작업 최적 모델 선택용." },
+    { "name": "Open-Weight", "meaning": "로컬 사용 가능", "area": "기업 내부, 온디바이스", "detail": "가중치가 공개돼 다운로드해 로컬/자체서버에서 구동. API 비용 없이 보안·파인튜닝에 유리." },
+    { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
+  ],
+  "sources": [
+    { "name": "LMSYS Chatbot Arena", "url": "https://lmarena.ai", "updated": "2026년 6월" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 6월 15~17일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 4월 20일 이후" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 6월 21일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "수시" }
+  ]
+}
