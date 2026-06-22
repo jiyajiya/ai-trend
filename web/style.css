@@ -10,7 +10,8 @@
   --page: #f7f7f5; --surface: #fff; --chip: #f1f1ef; --border: #ececea;
   --text: #16161a; --title: #1c1c22; --muted: #6f6e68; --meta: #a8a69e;
   --mono: 'JetBrains Mono', monospace;
-  --reader-w: 900px;
+  --feed-w: 720px;       /* 피드 컬럼 고정폭 */
+  --panel-text-w: 640px; /* 패널 본문 줄길이 상한(가독성) */
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pretendard', -apple-system, sans-serif; }
@@ -49,8 +50,10 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
   font-family: inherit; font-size: 13.5px; font-weight: 600; color: var(--text); }
 
 /* ── Main ──────────────────────────────────────────────────────────────── */
-.main { flex: 1; min-width: 0; padding: 34px 40px 60px; }
-.main-head { display: flex; align-items: flex-start; gap: 24px; margin-bottom: 26px; max-width: var(--reader-w); margin-inline: auto; }
+.main { flex: none; width: var(--feed-w); padding: 34px 40px 60px; }
+/* 패널이 닫혀 있으면 피드를 남는 공간 중앙에 배치(좌측 빈 거터 제거) */
+.app:not(:has(.panel[data-open="true"])) .main { margin-inline: auto; }
+.main-head { display: flex; align-items: flex-start; gap: 24px; margin-bottom: 26px; }
 .head-left { flex: 1; min-width: 0; }
 .head-title { display: flex; align-items: center; gap: 11px; margin: 0; font-size: 27px; font-weight: 800; color: var(--title); letter-spacing: -.02em; }
 .head-count { font: 600 14px/1 var(--mono); color: var(--meta); }
@@ -61,7 +64,7 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
 .search input { border: none; background: transparent; outline: none; width: 100%; font-family: inherit; font-size: 14px; color: inherit; }
 
 /* ── Reader (one wide column of large cards) ───────────────────────────── */
-.reader { max-width: var(--reader-w); margin-inline: auto; display: flex; flex-direction: column; gap: 18px; }
+.reader { display: flex; flex-direction: column; gap: 18px; }
 .rcard { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
   padding: 26px 30px 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04); overflow: hidden;
   transition: box-shadow .15s ease, transform .15s ease; }
@@ -99,8 +102,8 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
   .feed-item { width: auto; }
   .feed-item .feed-count { display: none; }
   .darktoggle { margin: 0 0 0 auto; width: auto; }
-  .main { padding: 22px 18px 40px; }
-  .main-head { flex-direction: column; gap: 14px; max-width: none; }
+  .main { width: auto; margin-inline: 0; padding: 22px 18px 40px; }
+  .main-head { flex-direction: column; gap: 14px; }
   .search { width: 100%; }
   .reader { max-width: none; }
   .rcard { padding: 20px 18px; }
@@ -108,10 +111,12 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
   .panel[data-open="true"] { position: fixed; inset: 0; z-index: 50; flex: none; }
 }
 
-.panel { flex: 0 0 400px; min-width: 0; border-left: 1px solid var(--border); overflow-y: auto; background: var(--surface); }
+.panel { flex: 1 1 auto; min-width: 0; border-left: 1px solid var(--border); overflow-y: auto; background: var(--surface); }
 .panel[data-open="false"] { display: none; }
 .panel-close { position: sticky; top: 8px; float: right; margin: 8px; border: 0; background: transparent; font-size: 22px; line-height: 1; cursor: pointer; color: var(--muted); }
 .panel-body { padding: 24px 28px; }
+/* 넓은 모니터에서도 본문 줄길이 제한(가독성). 표·코드·이미지 등 넓은 블록은 개별적으로 max-width:none 으로 해제 */
+.panel-body > * { max-width: var(--panel-text-w); }
 .panel-title { font-size: 18px; font-weight: 700; margin: 0 0 6px; color: var(--title); }
 .panel-meta { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
 .panel-meta a { color: var(--accent); text-decoration: none; }
