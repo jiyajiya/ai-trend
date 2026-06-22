@@ -224,7 +224,14 @@ function renderMain() {
   const feed = FEEDS.find((f) => f.key === state.feed);
   document.getElementById('feedTitle').textContent = feed.label;
   document.getElementById('feedSub').textContent = feed.sub;
-  if (state.feed === 'leaderboard') {
+  // 검색·CATEGORY 필터는 카드 피드 전용 — 추천 모델 뷰에선 동작하지 않으므로 숨긴다
+  const isLb = state.feed === 'leaderboard';
+  document.querySelector('.search').style.display = isLb ? 'none' : '';
+  document.getElementById('cats').style.display = isLb ? 'none' : '';
+  document.getElementById('catsLabel').style.display = isLb ? 'none' : '';
+  // 추천 모델은 우측 상세 패널이 없으므로 본문을 넓게 펼친다(좁은 컬럼+빈 거터 방지)
+  document.getElementById('app').dataset.view = isLb ? 'leaderboard' : 'feed';
+  if (isLb) {
     state.selectedId = null;  // 리더보드는 우측 분석 패널을 쓰지 않는다
     document.getElementById('feedCount').textContent = state.lb?.categories?.length ?? 0;
     document.getElementById('reader').innerHTML = renderLeaderboard(state.lb);

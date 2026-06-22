@@ -135,6 +135,9 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
 .rcard.selected { outline: 2px solid var(--accent); }
 
 /* ── Leaderboard (🏆 영역별 추천 모델) ─────────────────────────────────── */
+/* 우측 상세 패널이 없는 단독 페이지 — 720px 고정 대신 넓은 폭으로 채운다 */
+.app[data-view="leaderboard"] .main { width: min(1040px, 100%); }
+
 .lb-intro { margin-bottom: 8px; }
 .lb-window { font: 600 12px/1 var(--mono); color: var(--accent); letter-spacing: .02em; margin-bottom: 8px; }
 .lb-introtext { margin: 0; font-size: 14.5px; line-height: 1.7; color: var(--muted); text-wrap: pretty; }
