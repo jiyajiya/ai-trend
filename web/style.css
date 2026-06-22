@@ -10,6 +10,7 @@
   --page: #f7f7f5; --surface: #fff; --chip: #f1f1ef; --border: #ececea;
   --text: #16161a; --title: #1c1c22; --muted: #6f6e68; --meta: #a8a69e;
   --mono: 'JetBrains Mono', monospace;
+  --reader-w: 900px;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pretendard', -apple-system, sans-serif; }
@@ -49,7 +50,7 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
 
 /* ── Main ──────────────────────────────────────────────────────────────── */
 .main { flex: 1; min-width: 0; padding: 34px 40px 60px; }
-.main-head { display: flex; align-items: flex-start; gap: 24px; margin-bottom: 26px; }
+.main-head { display: flex; align-items: flex-start; gap: 24px; margin-bottom: 26px; max-width: var(--reader-w); margin-inline: auto; }
 .head-left { flex: 1; min-width: 0; }
 .head-title { display: flex; align-items: center; gap: 11px; margin: 0; font-size: 27px; font-weight: 800; color: var(--title); letter-spacing: -.02em; }
 .head-count { font: 600 14px/1 var(--mono); color: var(--meta); }
@@ -60,7 +61,7 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
 .search input { border: none; background: transparent; outline: none; width: 100%; font-family: inherit; font-size: 14px; color: inherit; }
 
 /* ── Reader (one wide column of large cards) ───────────────────────────── */
-.reader { max-width: 900px; display: flex; flex-direction: column; gap: 18px; }
+.reader { max-width: var(--reader-w); margin-inline: auto; display: flex; flex-direction: column; gap: 18px; }
 .rcard { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
   padding: 26px 30px 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04); overflow: hidden;
   transition: box-shadow .15s ease, transform .15s ease; }
@@ -99,7 +100,7 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
   .feed-item .feed-count { display: none; }
   .darktoggle { margin: 0 0 0 auto; width: auto; }
   .main { padding: 22px 18px 40px; }
-  .main-head { flex-direction: column; gap: 14px; }
+  .main-head { flex-direction: column; gap: 14px; max-width: none; }
   .search { width: 100%; }
   .reader { max-width: none; }
   .rcard { padding: 20px 18px; }
