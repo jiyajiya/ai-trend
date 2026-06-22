@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { matchesAi, fetchPharma, parseDailypharm } from '../pipeline/sources/pharma.mjs';
+import { matchesAi, fetchPharma, parseDailypharm, parseKpanet } from '../pipeline/sources/pharma.mjs';
 
 test('matchesAi: 키워드가 제목/요약에 있으면 true (대소문자 무시)', () => {
   const kw = ['AI', '인공지능', 'LLM'];
@@ -72,6 +72,38 @@ test('fetchPharma: scrape 소스에서 AI 항목만 pharma로 수집한다', asy
   assert.deepEqual(out.map((i) => i.title), ['바텍, AI 역량평가 신설', '디지털헬스 솔루션 도입']);
   assert.equal(out[0].sourceType, 'pharma');
   assert.equal(out[0].source, '데일리팜');
+});
+
+// 대한약사회 boardListList.cm 조각: onclick에 boardSeq, text-clamp에 제목
+const KPANET_HTML = `<table><tbody>
+  <tr><td class='only-desk'>229</td>
+    <td class='left' onclick="fnCountUpHistCnt('225155','kpakgw', 'N', '229' )">
+      <a href="javascript:void(0)"><div class='text-clamp'> 대한약사회, '미래약사 AI 역량 강화 교육' 개최 </div></a></td>
+    <td class='regDate'>2026-06-16</td></tr>
+  <tr><td class='only-desk'>228</td>
+    <td class='left' onclick="fnCountUpHistCnt('224880','kpakgw', 'N', '228' )">
+      <a href="javascript:void(0)"><div class='text-clamp'> 근무약사 대상 실무 특강 개최 </div></a></td>
+    <td class='regDate'>2026-05-27</td></tr>
+</tbody></table>`;
+
+test('parseKpanet: boardSeq+제목을 뽑고 보기 URL을 만든다', () => {
+  const rows = parseKpanet(KPANET_HTML, '1002020000');
+  assert.equal(rows.length, 2);
+  assert.equal(rows[0].title, "대한약사회, '미래약사 AI 역량 강화 교육' 개최");
+  assert.equal(rows[0].url, 'https://www.kpanet.or.kr/board.cm?menuCd=1002020000&boardSeq=225155');
+});
+
+test('fetchPharma: kpanet POST 소스에서 AI 항목만 수집한다', async () => {
+  const deps = { fetchText: async () => '', postForm: async () => KPANET_HTML };
+  const cfg = {
+    aiKeywords: ['AI'],
+    scrape: [{ source: '대한약사회', parser: 'kpanet', menuCd: '1002020000', endpoint: 'https://k/list', body: 'x=1' }],
+  };
+  const out = await fetchPharma(cfg, deps, 10);
+  assert.equal(out.length, 1); // 'AI 역량 강화 교육'만, '근무약사 실무 특강'은 제외
+  assert.equal(out[0].source, '대한약사회');
+  assert.equal(out[0].sourceType, 'pharma');
+  assert.match(out[0].url, /boardSeq=225155/);
 });
 
 test('fetchPharma: scrape 실패해도 RSS 결과는 보존한다', async () => {

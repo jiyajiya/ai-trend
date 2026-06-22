@@ -21,6 +21,19 @@ export async function fetchTextBrowser(url, referer) {
   return res.text();
 }
 
+// JS로 목록을 POST 로드하는 사이트(대한약사회 boardListList.cm 등)용 폼 POST.
+export async function postForm(url, body, referer) {
+  const headers = {
+    ...BROWSER_HEADERS,
+    'X-Requested-With': 'XMLHttpRequest',
+    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  };
+  if (referer) headers.Referer = referer;
+  const res = await fetch(url, { method: 'POST', headers, body });
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);
+  return res.text();
+}
+
 export async function fetchJson(url) {
   const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
   if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);

@@ -22,7 +22,8 @@
       {"source":"약사공론","url":"https://www.kpanews.co.kr/rss/allArticle.xml"}
     ],
     "scrape": [
-      {"source":"데일리팜","parser":"dailypharm","referer":"https://www.dailypharm.com/","url":"https://www.dailypharm.com/user/news/search?dropBarMode=search&searchOption=any&searchKeyword=AI"}
+      {"source":"데일리팜","parser":"dailypharm","referer":"https://www.dailypharm.com/","url":"https://www.dailypharm.com/user/news/search?dropBarMode=search&searchOption=any&searchKeyword=AI"},
+      {"source":"대한약사회","parser":"kpanet","menuCd":"1002020000","endpoint":"https://www.kpanet.or.kr/boardListList.cm","referer":"https://www.kpanet.or.kr/boardListTab.cm?menuCd=1002020000","body":"nPageNow=1&searchCondition=2&searchKeyword=ai&menuCd=1002020000&menuUrl=&nNumPerPage=10&secretAccept=no&sortNm=regDt&sortType=DESC&div=&count1=&count2="}
     ]
   },
   "github": {"queries":["topic:llm","topic:generative-ai","topic:ai-agents"],"createdWithinDays":60,"perQuery":5},

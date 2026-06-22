@@ -38,7 +38,28 @@ export function parseDailypharm(html) {
   return out;
 }
 
-const PARSERS = { dailypharm: parseDailypharm };
+// 대한약사회 boardListList.cm 응답(HTML 조각)에서 게시글 제목+보기링크를 추출한다.
+// 각 행: onclick="fnCountUpHistCnt('<boardSeq>', ...)" + <div class='text-clamp'>제목.
+// 보기 URL은 /board.cm?menuCd=<menuCd>&boardSeq=<seq> 형태.
+export function parseKpanet(html, menuCd) {
+  const re = /fnCountUpHistCnt\(\s*.(\d+).[^)]*\)"[\s\S]{0,150}?text-clamp.[^>]*>\s*([^<]{4,})/g;
+  const out = [];
+  const seen = new Set();
+  let m;
+  while ((m = re.exec(html))) {
+    const seq = m[1];
+    const title = m[2].trim();
+    if (seen.has(seq)) continue;
+    seen.add(seq);
+    out.push({ url: `https://www.kpanet.or.kr/board.cm?menuCd=${menuCd}&boardSeq=${seq}`, title });
+  }
+  return out;
+}
+
+const PARSERS = {
+  dailypharm: (html) => parseDailypharm(html),
+  kpanet: (html, site) => parseKpanet(html, site.menuCd),
+};
 
 export async function fetchPharma(pharma, deps, perRunCap) {
   const keywords = pharma.aiKeywords || [];
@@ -72,8 +93,11 @@ export async function fetchPharma(pharma, deps, perRunCap) {
     const parse = PARSERS[site.parser];
     if (!parse) { console.error(`[pharma] 알 수 없는 parser: ${site.parser}`); continue; }
     try {
-      const html = await deps.fetchTextBrowser(site.url, site.referer);
-      const rows = parse(html)
+      // body가 있으면 POST(JS 목록 로드), 없으면 GET(서버렌더 HTML).
+      const html = site.body
+        ? await deps.postForm(site.endpoint, site.body, site.referer)
+        : await deps.fetchTextBrowser(site.url, site.referer);
+      const rows = parse(html, site)
         .filter((r) => matchesAi(r.title, keywords))
         .slice(0, perRunCap);
       for (const r of rows) {
