@@ -13,7 +13,14 @@ const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티
 const BAR = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
   sns: 'var(--c-sns)', pharma: 'var(--c-blog)', repo: 'var(--accent)', model: 'var(--c-paper)' };
 
-const state = { feed: 'video', cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
+// 활성 메뉴를 URL(?feed=)로 유지 — 새로고침·뒤로가기에도 같은 피드를 보여준다.
+const FEED_KEYS = new Set(FEEDS.map((f) => f.key));
+function feedFromUrl() {
+  const f = new URLSearchParams(location.search).get('feed');
+  return FEED_KEYS.has(f) ? f : 'video';
+}
+
+const state = { feed: feedFromUrl(), cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
   bm: JSON.parse(localStorage.getItem('bm') || '{}'), selectedId: null,
   data: { video: [], snsblog: [], news: [], repo: [], model: [], pharma: [] } };
 
@@ -128,7 +135,16 @@ function renderAll() { renderFeeds(); renderCats(); renderMain(); renderPanel();
 
 document.getElementById('feeds').addEventListener('click', (e) => {
   const f = e.target.closest('[data-feed]'); if (!f) return;
-  state.feed = f.dataset.feed; renderAll();
+  state.feed = f.dataset.feed;
+  state.selectedId = null;  // 메뉴 바뀌면 상세 패널 닫기
+  history.pushState(null, '', `${location.pathname}?feed=${encodeURIComponent(state.feed)}`);
+  renderAll();
+});
+// 뒤로/앞으로: URL의 feed로 동기화
+window.addEventListener('popstate', () => {
+  state.feed = feedFromUrl();
+  state.selectedId = null;
+  renderAll();
 });
 document.getElementById('cats').addEventListener('click', (e) => {
   const c = e.target.dataset.cat; if (!c) return; state.cat = c; renderAll();
