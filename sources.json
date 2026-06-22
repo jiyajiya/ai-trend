@@ -29,7 +29,8 @@
   "github": {"queries":["topic:llm","topic:generative-ai","topic:ai-agents"],"createdWithinDays":60,"perQuery":5},
   "huggingface": {"limit":10},
   "youtube": {
-    "perChannel": 3,
+    "perChannel": 5,
+    "maxAgeDays": 30,
     "channels": [
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCBlTB7GyNQLqZMDRFEZ_cSg",
       "https://www.youtube.com/feeds/videos.xml?channel_id=UC_ZZ1ovxr1zGweITk4eUTfw",

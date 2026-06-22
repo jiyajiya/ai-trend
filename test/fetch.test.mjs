@@ -44,6 +44,21 @@ test('collectRaw는 maxAgeDays 초과 뉴스 항목을 제외한다', async () =
   assert.ok(!urls.includes('https://x/old'));   // 2024-01-01 → 90일 초과로 제외
 });
 
+test('collectRaw: 영상은 youtube.maxAgeDays(30일)로 별도 필터한다', async () => {
+  const ytXml = `<feed><title>Chan</title>
+    <entry><title>OldVid</title><link rel="alternate" href="https://youtu.be/old"/><published>2026-05-01T00:00:00+00:00</published></entry>
+    <entry><title>NewVid</title><link rel="alternate" href="https://youtu.be/new"/><published>2026-06-15T00:00:00+00:00</published></entry>
+  </feed>`;
+  const sources = { perRunCap: 10, maxAgeDays: 90, news: [],
+    github: { queries: [], perQuery: 0 }, huggingface: { limit: 0 },
+    youtube: { perChannel: 5, maxAgeDays: 30, channels: ['https://yt/chan'], seedVideos: [] } };
+  const deps = { now: Date.parse('2026-06-18T00:00:00Z'), fetchText: async () => ytXml, fetchJson: async () => ({}) };
+  const items = await collectRaw(sources, deps);
+  const urls = items.map((i) => i.url);
+  assert.ok(urls.includes('https://youtu.be/new'));     // 3일 전 → 유지
+  assert.ok(!urls.includes('https://youtu.be/old'));    // 48일 전 → 30일 초과로 제외
+});
+
 test('freshOnly: 날짜 없거나 파싱불가 항목은 유지(보수적)', () => {
   const now = Date.parse('2026-06-18T00:00:00Z');
   const items = [

@@ -26,7 +26,8 @@ export async function collectRaw(sources, deps) {
       .then((pharma) => freshOnly(pharma, sources.maxAgeDays, nowMs)),
     fetchGithub(sources.github || { queries: [], perQuery: 0 }, deps),
     fetchHuggingface(sources.huggingface || { limit: 0 }, deps),
-    fetchYoutube(sources.youtube || { channels: [], seedVideos: [] }, deps, cap),
+    fetchYoutube(sources.youtube || { channels: [], seedVideos: [] }, deps, cap)
+      .then((vids) => freshOnly(vids, sources.youtube?.maxAgeDays ?? sources.maxAgeDays, nowMs)),
   ]);
   return groups.flat();
 }
