@@ -1010,6 +1010,442 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "c32171008fef614c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: ANMA, boundary contracts for cheaper AI coding agents",
+    "url": "https://github.com/anma-labs/anma",
+    "publishedAt": "Sun, 21 Jun 2026 23:41:02 +0000",
+    "rawText": "I built ANMA because I noticed that cheaper models would often ignore architecture rules. So I did several benchmarks using \"Claude Haiku 4.5\" with and without ANMA; without ANMA it ignored the \"rules\" 13 out of 19 runs, with ANMA, 0 out of 20 runs.What is \"ANMA\"? YAML contracts with CLAUDE.md, hooks, and CI checksWhat about stronger/expensive models? They followed the architecture rules.The question is, would cheaper models with stronger rules be the best affordable default for coding? Comments URL: https://news.ycombinator.com/item?id=48623765 Points: 1 # Comments: 0",
+    "summaryKo": "ANMA는 저렴한(약한) 코딩 모델이 아키텍처 규칙을 무시하는 문제를 막기 위한 '경계 계약(boundary contract)' 도구로, CLAUDE.md·훅·CI 체크와 결합한 YAML 계약을 사용한다. Claude Haiku 4.5로 벤치마크한 결과 ANMA 없이는 19회 중 13회 규칙을 어겼지만 ANMA 적용 시 20회 중 0회로 규칙 위반이 사라졌다고 보고한다. 강한 모델은 원래 규칙을 잘 따르므로, 값싼 모델로도 안정적인 에이전트 코딩을 가능하게 하려는 시도다.",
+    "tags": [
+      "코딩에이전트",
+      "아키텍처 가드레일",
+      "YAML 계약",
+      "CI"
+    ],
+    "entities": [
+      "ANMA",
+      "Claude Haiku 4.5",
+      "CLAUDE.md"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "값싼 모델은 아키텍처 규칙을 자주 무시하는데, ANMA는 이를 강제하기 위한 경계 계약 시스템이다.",
+        "ANMA는 CLAUDE.md, 훅(hooks), CI 체크와 결합된 YAML 계약 형태로 동작한다.",
+        "Claude Haiku 4.5 벤치마크에서 ANMA 미적용 시 19회 중 13회 규칙 위반, 적용 시 20회 중 0회로 위반이 사라졌다.",
+        "강하고 비싼 모델은 ANMA 없이도 아키텍처 규칙을 잘 따랐다.",
+        "값싼 모델로도 규칙 준수가 보장되면 에이전트 코딩 비용을 낮출 수 있다는 것이 핵심 동기다."
+      ],
+      "sections": [
+        {
+          "heading": "문제의식과 접근",
+          "body": "제작자는 저렴한 모델이 아키텍처 '규칙'을 자주 무시하는 현상을 관찰하고 ANMA를 만들었다. ANMA는 YAML 계약을 CLAUDE.md·훅·CI 검사와 묶어 모델이 코드 경계를 벗어나지 않도록 강제한다."
+        },
+        {
+          "heading": "벤치마크 결과",
+          "body": "Claude Haiku 4.5로 측정했을 때 ANMA가 없으면 19회 중 13회 규칙을 어겼지만, ANMA를 적용하면 20회 중 0회로 위반이 사라졌다. 반면 더 강하고 비싼 모델들은 원래부터 규칙을 잘 지켜, ANMA의 가치는 값싼 모델을 안정적으로 쓰는 데 있다."
+        }
+      ],
+      "quotes": [
+        "without ANMA it ignored the rules 13 out of 19 runs, with ANMA, 0 out of 20 runs"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "09158002dc85725c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: AI Colours",
+    "url": "https://github.com/pilotpirxie/ai-colours",
+    "publishedAt": "Sun, 21 Jun 2026 23:40:55 +0000",
+    "rawText": "Article URL: https://github.com/pilotpirxie/ai-colours Comments URL: https://news.ycombinator.com/item?id=48623764 Points: 1 # Comments: 0",
+    "summaryKo": "AI Colours는 주요 AI 기업·도구·서비스가 사용하는 색상 팔레트를 정리한 레퍼런스 프로젝트다. Claude, OpenAI, Microsoft Copilot, Meta Llama 등이 공통적으로 흰색·연한 베이지 톤의 중립적 배경을 선호한다는 점을 RGB 값과 CSS 변수로 카탈로그화해 디자이너·개발자에게 참고 자료를 제공한다.",
+    "tags": [
+      "디자인 레퍼런스",
+      "컬러 팔레트",
+      "AI 브랜딩"
+    ],
+    "entities": [
+      "Claude",
+      "OpenAI",
+      "Microsoft Copilot",
+      "Meta Llama"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "be349d211d937c6e",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: PeekAI – Local-first observability for Python AI agents",
+    "url": "https://github.com/oussamaKH63/peekai",
+    "publishedAt": "Sun, 21 Jun 2026 23:38:15 +0000",
+    "rawText": "Article URL: https://github.com/oussamaKH63/peekai Comments URL: https://news.ycombinator.com/item?id=48623745 Points: 1 # Comments: 0",
+    "summaryKo": "PeekAI는 파이썬 AI 에이전트를 위한 로컬 우선(local-first) 관측성 도구로, 모든 LLM 호출·툴 사용·토큰 소비를 클라우드나 계정 없이 추적한다. `peekai.init()` 한 줄로 적용되는 무설정 계측을 제공하며, 모든 트레이스를 로컬 SQLite에 저장하고 CLI와 웹 대시보드로 에이전트 동작을 디버깅·분석할 수 있다.",
+    "tags": [
+      "AI 관측성",
+      "에이전트 디버깅",
+      "로컬 우선",
+      "Python"
+    ],
+    "entities": [
+      "PeekAI",
+      "SQLite"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "d2368bcca1101caa",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Tech Workers Are Fighting Against Silicon Valley's AI Push",
+    "url": "https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/",
+    "publishedAt": "Sun, 21 Jun 2026 23:29:51 +0000",
+    "rawText": "Article URL: https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/ Comments URL: https://news.ycombinator.com/item?id=48623695 Points: 3 # Comments: 0",
+    "summaryKo": "메타·구글·오라클 등 주요 기술기업 노동자들이 AI 주도의 일터 변화에 맞서 조직화·노조 결성에 나서고 있다는 보도다. 침습적 감시, 강제 AI 교육, 자동화를 명분으로 한 해고, 군사 AI 계약 등이 주요 불만이며, 2025년 이후 약 40만 명이 해고되면서 불안정성을 느낀 직원들이 집단적으로 목소리를 내기 시작했다. 외부 사회 이슈보다 고용 안정·근로조건을 직접 겨냥한다는 점에서 과거 활동과 다르다.",
+    "tags": [
+      "테크 노동",
+      "노조",
+      "AI 자동화",
+      "고용"
+    ],
+    "entities": [
+      "Meta",
+      "Google",
+      "Oracle"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "메타·구글·오라클 등 주요 기술기업 노동자들이 AI 주도 변화에 맞서 조직화·노조 결성에 나서고 있다.",
+        "침습적 감시, 강제 AI 교육, 자동화 명분의 해고, 군사 AI 계약 등이 핵심 불만이다.",
+        "2025년 이후 약 40만 명의 기술 인력이 해고되며 직원들이 더 불안정함을 느끼고 있다.",
+        "이번 움직임은 외부 사회 이슈가 아니라 고용 안정·근로조건을 직접 겨냥한다는 점에서 과거 활동과 다르다."
+      ],
+      "sections": [
+        {
+          "heading": "조직화의 배경",
+          "body": "AI 도입으로 인한 감시 강화, 강제 AI 교육, 자동화를 이유로 한 대규모 해고, 군사 AI 계약 참여 등이 기술 노동자들의 불만을 키웠다. 2025년 이후 누적 약 40만 명 해고로 고용 불안이 심화됐다."
+        },
+        {
+          "heading": "과거 활동과의 차이",
+          "body": "과거 테크 노동자 행동주의가 주로 외부 사회·윤리 이슈를 다뤘다면, 이번에는 자신들의 일자리와 근로조건이라는 직접적 이해관계를 중심으로 집단 행동에 나선다는 점이 특징이다."
+        }
+      ],
+      "quotes": []
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "ef64964d2680ff4d",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "China's Z.ai open-sourced a frontier coding model as Washington bans it rival",
+    "url": "https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/",
+    "publishedAt": "Sun, 21 Jun 2026 23:28:26 +0000",
+    "rawText": "Article URL: https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/ Comments URL: https://news.ycombinator.com/item?id=48623686 Points: 3 # Comments: 1",
+    "summaryKo": "중국 Z.ai가 프런티어급 코딩 모델을 오픈소스로 공개했는데, 같은 날 워싱턴이 경쟁하는 미국 모델을 금지했다는 점에서 주목받은 소식이다. 미·중 AI 규제·수출통제 구도 속에서 중국 측이 개방형 전략으로 대응하는 흐름을 보여준다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
+    "tags": [
+      "오픈소스 모델",
+      "코딩 모델",
+      "미중 규제"
+    ],
+    "entities": [
+      "Z.ai",
+      "GLM"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "199470936ff5abef",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI is making answers cheap. Curiosity is priceless",
+    "url": "https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless",
+    "publishedAt": "Sun, 21 Jun 2026 23:20:55 +0000",
+    "rawText": "Article URL: https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless Comments URL: https://news.ycombinator.com/item?id=48623636 Points: 1 # Comments: 0",
+    "summaryKo": "AI가 정답(답변)을 값싸게 만들어 주는 시대에는 오히려 질문을 던지는 호기심이 더 희소하고 값진 역량이 된다고 주장하는 칼럼이다. 정보 접근 비용이 0에 수렴할수록 무엇을 물을지 아는 능력이 차별화 요소가 된다는 논지다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
+    "tags": [
+      "AI와 일",
+      "호기심",
+      "지식노동"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "e89f88706380bd39",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Norway Bans AI for Kids 6-13 in Schools",
+    "url": "https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/",
+    "publishedAt": "Sun, 21 Jun 2026 23:12:29 +0000",
+    "rawText": "Article URL: https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/ Comments URL: https://news.ycombinator.com/item?id=48623568 Points: 2 # Comments: 1",
+    "summaryKo": "노르웨이가 2026년 8월부터 6~13세 아동의 학교 내 생성형 AI 사용을 사실상 전면 금지하고, 14~16세는 제한적 감독 하에만 허용하기로 했다. 어린이가 AI에 의존하면 읽기·쓰기·수학 같은 기초 학습 단계를 건너뛰게 된다는 인지 발달 우려와 데이터 프라이버시(GDPR)·콘텐츠 안전 문제가 배경이다. 2024년 스마트폰 금지 성과에 이어, 다른 나라의 교육 AI 정책 모델이 될 수 있는 조치로 평가된다.",
+    "tags": [
+      "AI 규제",
+      "교육",
+      "아동 보호"
+    ],
+    "entities": [
+      "Norway",
+      "GDPR"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "노르웨이가 2026년 8월부터 6~13세 아동의 학교 내 생성형 AI 사용을 사실상 전면 금지한다.",
+        "14~16세는 제한적·감독 하에서만 허용하고, 더 높은 연령대는 책임 있는 사용을 장려한다.",
+        "어린 학생이 AI에 의존하면 기초 학습의 중요한 단계를 건너뛴다는 인지 발달 우려가 핵심 근거다.",
+        "데이터 프라이버시(GDPR)와 콘텐츠 안전 위험도 정책 배경으로 작용했다.",
+        "2024년 스마트폰 금지로 괴롭힘 감소·성적 향상 성과를 본 데 이어 나온 조치로, 다른 나라의 모델이 될 수 있다."
+      ],
+      "sections": [
+        {
+          "heading": "정책 내용과 연령 구분",
+          "body": "2026년 8월부터 시행되며 6~13세는 사실상 전면 금지, 14~16세는 감독 하 제한 허용, 그 이상 연령은 책임 있는 사용을 권장한다. 요나스 가르 스퇴레 총리는 어린이가 AI를 쓰면 교육의 중요한 단계를 건너뛴다고 강조했다."
+        },
+        {
+          "heading": "배경과 파급",
+          "body": "인지 발달 우려와 더불어 GDPR 하의 데이터 프라이버시, 콘텐츠 안전 위험이 정책 동기로 작용했다. 2024년 스마트폰 금지로 괴롭힘이 줄고 학업 성취가 개선된 경험이 토대가 됐으며, 노르웨이를 기술 규제의 선도국으로 자리매김시키는 조치로 평가된다."
+        }
+      ],
+      "quotes": [
+        "young children skip important steps in their education when using AI tools"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "dbcad87e828f0151",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Fast-tracked power plants fuel AI boom, with little public scrutiny",
+    "url": "https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/",
+    "publishedAt": "Sun, 21 Jun 2026 23:11:06 +0000",
+    "rawText": "Article URL: https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/ Comments URL: https://news.ycombinator.com/item?id=48623560 Points: 2 # Comments: 0",
+    "summaryKo": "AI 붐에 따른 데이터센터 전력 수요를 맞추기 위해 발전소 건설이 충분한 공적 검토 없이 빠르게 승인(패스트트랙)되고 있다는 로이터 보도다. 전력 인프라 확장이 환경·지역사회 영향에 대한 투명성 부족 속에 진행되는 점을 지적한다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
+    "tags": [
+      "AI 인프라",
+      "전력",
+      "데이터센터",
+      "규제"
+    ],
+    "entities": [
+      "Reuters"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4c4175b8f8ff1313",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 노벨 생리의학상 수상자이자 스탠퍼드 대학교 교수인 토마스 쥐트호...",
+    "url": "https://www.threads.com/t/DZ3ZcOejoT1",
+    "publishedAt": "Sun, 21 Jun 2026 23:00:05 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>노벨 생리의학상 수상자이자 스탠퍼드 대학교 교수인 토마스 쥐트호프(Thomas Südhof)는 기술적 진보가 바이오 경제와 의료 혁신을 이끄는 핵심 동력이라고 강조했습니다. 그는 “인공지능은 생물학 혁신을 이끄는 주요 구성 요소”라고 말하며, AI가 생물학 연구의 패러다임을 바꾸고 있음을 확언했습니다. 특히 AI의 고성능 연산 처리를 위해서는 데이터가 필수적인데, 현재 과학계는 과거에 없던 새로운 방식으로 방대한 고품질 데이터를 확보하고 있습니다. 쥐트호프 교수는 이러한 데이터와 AI 기술의 결합이 질병의 근본적인 원인을 이해하고 새로운 실험을 수행하는 방식을 완전히 바꿀 것으로 분석했습니다. 나아가 인류의 건강과 웰빙을 위협하는 현대 의학의 거대한 난제들을 해결함으로써 바이오 분야의 기술적 특이점을 앞당기고 관련 산업 생태계 전반에 폭발적인 경제적 가치를 창출할 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/726987354_1353327280019920_8888916150237270022_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkyNDcxNzQ5MTEyOTg0NDk4MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=42AWjA79DlMQ7kNvwEobmMJ&amp;_nc_oc=AdrxtQhtojzupRAlXHx1KdbFYlKD-0Gz9cK7eXG4iQOeUmJsNSUU4yN1aibDbjS70Tg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-TnKpX5PC9TQo4ppijO_dIcPmb7HK2TLgcByXW6r3pUQ&amp;oe=6A3E4477\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQNhmhZCQMMIPN3w4K4w5jJV40DtKGkKs1n7-yV8Gos9RKlouAi-u394lF8Iu5BcDCSmqN37NOsVfpDnJ0AWG48DKr7WZb5IkSg49uA.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=zrJF6zQECQ4Q7kNvwHOz9it&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzI5NzEwNzExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=70b7130b76467266&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wMDQyRDUxMEVENzU5MjYzMTkwNTcyOTM2RTcxMUU4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVCNEMwNDM1RDUyMTYwMTU2QzQwMjlGNUQyQTAwMDkyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAmoTEzZTtPxUCKAJDMywXQFg3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-oRRKwhI_-KuKkBw6sbIhzL8xVnADqerDGD4JUajjnYg&amp;oe=6A3A6E7C\"></video></p>",
+    "summaryKo": "노벨 생리의학상 수상자이자 스탠퍼드 교수인 토마스 쥐트호프가 기술 진보가 바이오 경제와 의료 혁신을 이끄는 핵심 동력이라고 강조한 내용을 전하는 SNS 글이다. 그는 '인공지능은 생물학 혁신을 이끄는 주요 구성 요소'라며 AI가 생물학 연구의 패러다임을 바꾸고 있다고 확언했다.",
+    "tags": [
+      "AI 바이오",
+      "과학 혁신"
+    ],
+    "entities": [
+      "Thomas Südhof",
+      "Stanford"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4a975b89e4a0f0fb",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "publishedAt": "Sun, 21 Jun 2026 23:00:00 GMT",
+    "rawText": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "summaryKo": "삼성전자가 전 세계 임직원에게 ChatGPT Enterprise와 Codex를 배포한다고 OpenAI가 발표했다. 이는 OpenAI의 기업용 AI 도입 사례 중 최대 규모 중 하나로, 대기업 업무 전반과 개발 워크플로우에 생성형 AI가 본격 도입되는 흐름을 보여준다.",
+    "tags": [
+      "ChatGPT Enterprise",
+      "Codex",
+      "엔터프라이즈 AI"
+    ],
+    "entities": [
+      "OpenAI",
+      "Samsung Electronics",
+      "ChatGPT",
+      "Codex"
+    ],
+    "cats": [
+      "기업·정책",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "c510d2ca559b00e2",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Tool Calling, Explained: How AI Agents Decide What to Do Next",
+    "url": "https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/",
+    "publishedAt": "Sun, 21 Jun 2026 17:00:00 +0000",
+    "rawText": "Understanding ow LLMs interact with the world around them, from returning data to taking action The post Tool Calling, Explained: How AI Agents Decide What to Do Next appeared first on Towards Data Science.",
+    "summaryKo": "LLM이 외부 세계와 상호작용하는 핵심 메커니즘인 '툴 콜링(tool calling)'을 설명하는 글이다. 모델이 단순히 데이터를 반환하는 것을 넘어 어떤 도구를 호출해 다음 행동을 결정하는지, AI 에이전트의 동작 원리를 풀어낸다.",
+    "tags": [
+      "툴 콜링",
+      "에이전트",
+      "LLM"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "e2c1c48cc4df4dcd",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section",
+    "url": "https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/",
+    "publishedAt": "Sun, 21 Jun 2026 15:00:00 +0000",
+    "rawText": "Enterprise Document Intelligence [Vol.1 #5septies] - When a PDF prints a contents page but exposes no outline, two ways to turn it back into structure, plus the page-alignment step everyone forgets The post Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section appeared first on Towards Data Science.",
+    "summaryKo": "PDF가 목차 페이지는 인쇄해 두었지만 실제 아웃라인(북마크) 구조는 노출하지 않는 경우, 이를 다시 구조화해 RAG가 섹션 단위로 범위를 좁힐 수 있게 만드는 방법을 다룬 엔터프라이즈 문서 처리 글이다. 목차를 구조로 되돌리는 두 가지 방식과 흔히 놓치는 페이지 정렬 단계를 설명한다.",
+    "tags": [
+      "RAG",
+      "문서 처리",
+      "PDF"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "0c68355e5be136d8",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 ...",
+    "url": "https://www.threads.com/t/DZ2brnkjMTU",
+    "publishedAt": "Sun, 21 Jun 2026 14:00:25 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 “모든 사람이 가상 인공지능 팀을 이끄는 보스(Boss)가 될 것”이라고 강조했습니다. 마치 거물 기업가나 정치인이 개인 보좌진을 거느리는 것처럼, 모든 개인이 스마트폰이나 스마트 글래스를 통해 일상적인 업무를 돕고 문제를 해결해 주는 지능형 에이전트 스태프를 두게 된다는 설명입니다. 얀 르쿤은 이러한 에이전트 생태계의 고도화가 인간의 생산성을 극대화하여 미래 기술 경제의 패러다임을 바꿀 것으로 분석했습니다. 나아가 기술적 과제가 아직 남아있지만, 기하급수적인 성능 발전을 통해 가사 로봇의 대중화와 완전 자율주행차의 상용화 역시 10년 안에 충분히 실현될 수 있을 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/727927770_1777628849888953_4257281916246475068_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyNDQ0NTg2OTk4MjQwMTc0OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=GPirA3LAzqQQ7kNvwG2FGQq&amp;_nc_oc=AdqSHFiOuFI6_g62nEZOhNNy3lRbcTuv6nONF9iuO_Z5AjwsolYYlPrAq9RJLzUwdfQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-Rc_mYhoitXqB8i7ECrhCmOqmze1vZbQUwMLwHn9s7cA&amp;oe=6A3E5CC7\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQPuQqoGBg87PK8XlEGjr-y0dpVQs0g5U7lgHYvrsRZ8zgzKSrkXxE0cIhqSquRBfzG9cU0P8LbmgNWRRfXqt49-ZAD-1AoT9TBLlh4.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=QwIWWsp6rP8Q7kNvwEGzQRC&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzI5NjQzNjMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=379870881e90582d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EQzQwM0EyQzRBRDY4RTNCNERFMUQ3MTcyOTQwNUE5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNDNDBDMzBGQzFBOTVGQjk2NEMwQkJGMENFNzFBREFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAxuTGm5TtPxUCKAJDMywXQFSeuFHrhR8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-GlPTTDTMpapT4Lr3cdPIFxuL7lP82WXDZCr4LGMebCg&amp;oe=6A3A753A\"></video></p>",
+    "summaryKo": "얀 르쿤이 10년 뒤 미래 사회를 예측하며 '모든 사람이 가상 AI 팀을 이끄는 보스가 될 것'이라고 강조한 내용을 전하는 SNS 글이다. 거물 기업가나 정치인이 보좌진을 거느리듯, 모든 개인이 스마트폰·스마트글래스를 통해 일상 업무를 돕는 지능형 에이전트 팀을 거느리게 된다는 전망이다.",
+    "tags": [
+      "AI 미래 전망",
+      "에이전트",
+      "얀 르쿤"
+    ],
+    "entities": [
+      "Yann LeCun"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4b220d043d4a772c",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "What Are the Possibilities to Build Date Tables in Self-Service Environments?",
+    "url": "https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/",
+    "publishedAt": "Sun, 21 Jun 2026 13:00:00 +0000",
+    "rawText": "For years, I created date tables with DAX code whenever I didn’t have a way to create them upstream of the data flow. Now I've realised there's another way to do it. Let’s see what the alternatives are and how they compare. The post What Are the Possibilities to Build Date Tables in Self-Service Environments? appeared first on Towards Data Science.",
+    "summaryKo": "셀프서비스 BI 환경에서 날짜 테이블(date table)을 만드는 여러 방법을 비교한 글이다. 그동안 DAX 코드로 날짜 테이블을 만들어 왔지만, 데이터 흐름 상류에서 만들 수 없을 때 쓸 수 있는 다른 대안들을 살펴보고 장단점을 비교한다.",
+    "tags": [
+      "데이터 엔지니어링",
+      "BI",
+      "DAX"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "d222da6b8a11b35e",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 한번 보면 다시 보지 않을 수 없는 순간. AI 혁명을 만든 연구르...",
+    "url": "https://www.threads.com/t/DZ2J0sfjwOx",
+    "publishedAt": "Sun, 21 Jun 2026 11:24:22 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>한번 보면 다시 보지 않을 수 없는 순간. AI 혁명을 만든 연구를 세상에 무료로 내놓은 사람이, 그 연구 위에 만들어진 회사가 \"AI 연구자는 쓸 수 없다\"는 조항을 다는 것을 목격했습니다. :</p><p><img src=\"https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/727457582_17972983596112832_5486089333086633313_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkyNDM2NzMyODkwNTQ2MjcwNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=VFfSpQ38k60Q7kNvwFZCTqt&amp;_nc_oc=Adq7lZdqgq97cUWup1DZ49CxZzKlf0K-8McwxZl1EdH5XTvbMwqnwJMB88UmuUKIEPU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af_Wa1BtqALYLXNzu9gg3Zr95ImHw4VOPm0rVSbrBPNe9A&amp;oe=6A3E42A6\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "AI 혁명을 만든 연구를 세상에 무료로 공개했던 사람이, 그 연구 위에 세워진 회사가 'AI 연구자는 쓸 수 없다'는 조항을 다는 것을 목격했다는 비판을 담은 SNS 글이다. 개방형 연구의 성과가 폐쇄적 이용 조건으로 되돌아오는 아이러니를 지적한다.",
+    "tags": [
+      "AI 윤리",
+      "오픈 연구",
+      "라이선스"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "479978963fd37a3b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 채찍 없이도 돌아가는 통제사회가 온다. 스카이넷이 인류와 총을 ᄃ...",
+    "url": "https://www.threads.com/t/DZ1vUHrD-66",
+    "publishedAt": "Sun, 21 Jun 2026 07:32:44 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>채찍 없이도 돌아가는 통제사회가 온다. 스카이넷이 인류와 총을 들고 싸우는 그림보다, 채찍 없이 조용히 돌아가는 사회가 훨씬 더 현실적이고 무섭습니다. 감시로 누구인지 알아내고, 기본소득과 편의로 저항할 이유 자체를 없애는 사회요. 그런 사회를 떠올릴 때 제 머릿속에 자꾸 남는 게 하나 있습니다. 국가가 끌 수 없는 돈, 비트코인입니다. 지금은 주식과 AI에 가려 조용하지만, 이 이야기를 한 번 적어두고 싶었습니다. 🧵</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/726838399_17972949798112832_4109524390430418850_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzkyNDI1MDc0MTEzNzQ2OTExNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=NDNUWff8kOcQ7kNvwEAMOmg&amp;_nc_oc=AdodxYCIAbaYXMNDK3X7k0xKKRtiFGCgfqbRfIGV4Zt4scSMY_R51fC357bKtkGtorI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-cUipQZdFMaHSCS2VzPcR6WIwf6acJfoXyY1LlK-Mxhg&amp;oe=6A3E53A6\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "스카이넷이 인류와 총을 들고 싸우는 그림보다, 채찍 없이 조용히 돌아가는 통제사회가 훨씬 현실적이고 무섭다고 경고하는 SNS 글이다. 감시로 개인을 식별하고 기본소득·편의로 저항할 이유 자체를 없애는 사회를 우려하며, 국가가 끌 수 없는 돈 같은 장치의 필요성을 시사한다.",
+    "tags": [
+      "AI 감시",
+      "통제사회",
+      "AI 안전"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
     "id": "4a1a2edfc53fbcf8",
     "sourceType": "news",
     "source": "OpenAI",
@@ -1032,6 +1468,66 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "a410d6d9dd993232",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture",
+    "url": "https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/",
+    "publishedAt": "Sat, 20 Jun 2026 17:00:00 +0000",
+    "rawText": "What data teams need to build with AI to make self-healing data architecture a practical reality The post 7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture appeared first on Towards Data Science.",
+    "summaryKo": "데이터 팀이 '자가 치유형(self-healing) 데이터 아키텍처'를 현실로 만들기 위해 AI로 무엇을 구축해야 하는지, 그리고 그 사이를 가로막는 7가지 핵심 장벽을 짚은 글이다. 자동 복구되는 데이터 파이프라인을 실용적으로 구현하기 위한 조건을 논의한다.",
+    "tags": [
+      "데이터 아키텍처",
+      "자동화",
+      "AI"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "8b009509f1e605dc",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All",
+    "url": "https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/",
+    "publishedAt": "Sat, 20 Jun 2026 15:00:00 +0000",
+    "rawText": "Enterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered job The post Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All appeared first on Towards Data Science.",
+    "summaryKo": "PDF 안의 이미지를 모두 비싸게 분석하지 않고도 RAG에서 검색 가능하게 만드는 방법을 다룬 엔터프라이즈 문서 처리 글이다. 이미지 위치를 알려주는 image_df를 활용하되, 정말 중요한 이미지만 비용 순으로 선별해 검색용 텍스트로 변환하는 접근을 설명한다.",
+    "tags": [
+      "RAG",
+      "문서 처리",
+      "PDF",
+      "비용 최적화"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "5f91c7a91247ca5b",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement",
+    "url": "https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/",
+    "publishedAt": "Sat, 20 Jun 2026 13:00:00 +0000",
+    "rawText": "Five surfaces collapsed into one declarative layer. Here's the full story of Materialized Lake Views in Microsoft Fabric - from syntax to the new GA capabilities The post Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement appeared first on Towards Data Science.",
+    "summaryKo": "Microsoft Fabric의 Materialized Lake Views를 문법부터 새 GA 기능까지 정리한 글이다. 다섯 개의 분리된 표면을 하나의 선언적 계층으로 합쳐, 메달리온 아키텍처를 SELECT 문 수준으로 단순화하는 방식을 소개한다.",
+    "tags": [
+      "Microsoft Fabric",
+      "데이터 레이크",
+      "Materialized View"
+    ],
+    "entities": [
+      "Microsoft Fabric"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
   },
   {
     "id": "9fa759b72385cdec",
@@ -2355,6 +2851,413 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "7800ad6e783cdb25",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show HN: TownSquare, 웹사이트를 위한 작은 존재감 레이어",
+    "url": "https://news.hada.io/topic?id=30699",
+    "publishedAt": "2026-06-22T06:38:52+09:00",
+    "rawText": "콘텐츠만 보이던 웹사이트에 방문자 존재감을 얹어, 같은 페이지에 있는 사람들이 서로를 보고 짧게 대화할 수 있게 함 계정이나 알고리듬 없이 현재 접속 중인 사람만 드러내는 방식이라, 복잡한 소셜 기능보다 즉시성에 초점을 둠 설치는 </bo...",
+    "summaryKo": "TownSquare는 콘텐츠만 보이던 웹사이트에 '방문자 존재감' 레이어를 얹어, 같은 페이지에 있는 사람들이 서로를 보고 짧게 대화할 수 있게 해주는 도구다. 계정이나 알고리즘 없이 현재 접속 중인 사람만 드러내는 방식으로 복잡한 소셜 기능보다 즉시성에 초점을 둔다.",
+    "tags": [
+      "웹",
+      "실시간 프레즌스",
+      "소셜"
+    ],
+    "entities": [
+      "TownSquare"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "174e60b74598ab53",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Linux의 epoll과 io_uring 비교",
+    "url": "https://news.hada.io/topic?id=30698",
+    "publishedAt": "2026-06-22T06:35:52+09:00",
+    "rawText": "TinyGate 리버스 프록시는 워커 기반 구조에서 epoll로 바꾸며 성능을 끌어올렸지만, 이후 한계를 만나 io_uring으로 다시 작성됨 epoll은 I/O가 가능한 시점을 알려주는 준비 상태 모델이라 epoll_wait 뒤에 read()/...",
+    "summaryKo": "리버스 프록시 TinyGate가 워커 기반 구조에서 epoll로 성능을 높였다가 한계에 부딪혀 io_uring으로 재작성한 경험을 바탕으로 두 리눅스 I/O 모델을 비교한 글이다. epoll은 I/O 가능 시점을 알려주는 준비 상태 모델인 반면 io_uring은 완료 기반 비동기 모델로, 성능 한계 돌파 과정을 설명한다.",
+    "tags": [
+      "Linux",
+      "epoll",
+      "io_uring",
+      "비동기 I/O"
+    ],
+    "entities": [
+      "TinyGate",
+      "Linux"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "94c0c37c5049f43d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "아이들을 생각하라: 모든 인터넷 트래픽에 Real ID를 강제하는 방법(2023)",
+    "url": "https://news.hada.io/topic?id=30697",
+    "publishedAt": "2026-06-22T04:35:36+09:00",
+    "rawText": "성인 인증을 명분으로 한 신분증·문서 업로드 요구가 중앙화 상업 데이터베이스로 이어지면, 성인 사이트를 넘어 인터넷 전반의 실명 추적으로 확장될 수 있음 이미 ICRA PICS와 RTA Header 같은 저마찰 대안이 있었고, RTA는 웹페이지나 HTTP 헤...",
+    "summaryKo": "성인 인증을 명분으로 한 신분증·문서 업로드 요구가 중앙화된 상업 데이터베이스로 이어지면, 성인 사이트를 넘어 인터넷 전반의 실명 추적으로 확장될 수 있다고 경고하는 글(2023)이다. 이미 ICRA PICS나 RTA 헤더 같은 저마찰 대안이 있었음을 들어 'Real ID' 강제의 위험성을 지적한다.",
+    "tags": [
+      "프라이버시",
+      "실명 인증",
+      "인터넷 규제"
+    ],
+    "entities": [
+      "RTA",
+      "ICRA PICS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "150ef9dcd6035491",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Linux, 6년·360개 이상 패치 끝에 strncpy API 제거",
+    "url": "https://news.hada.io/topic?id=30696",
+    "publishedAt": "2026-06-22T03:33:59+09:00",
+    "rawText": "Linux 7.2에서 커널 내부의 strncpy API 사용처가 사라지며, 오래전부터 폐기 예정이던 문자열 복사 인터페이스가 최종 제거됨 strncpy()는 지정한 바이트 수만큼 복사하지만 NUL 종료 동작이 직관적이지 않아, 커널에서 수년간 버그의 원인으로 남아 있었음 ...",
+    "summaryKo": "Linux 커널에서 오래전부터 폐기 예정이던 strncpy API 사용처가 6년·360개 이상의 패치 끝에 모두 제거됐다. strncpy는 NUL 종료 동작이 직관적이지 않아 수년간 버그의 원인이 되어 왔으며, 이번에 커널 내부에서 최종 제거됐다.",
+    "tags": [
+      "Linux",
+      "커널",
+      "C",
+      "보안"
+    ],
+    "entities": [
+      "Linux"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "5eace7f3fe99074d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "DOS 게임 F-15 Strike Eagle II 리버싱 프로젝트, DOS 테스트 파일럿 모집",
+    "url": "https://news.hada.io/topic?id=30695",
+    "publishedAt": "2026-06-22T02:45:54+09:00",
+    "rawText": "1989년 게임 F-15 Strike Eagle II의 원본 바이너리를 리버스 엔지니어링해 C 소스 코드를 재구성하는 프로젝트가 실제 플레이 테스트 단계에 들어감 egame, end를 포함한 모든 실행 파일의 코드와 데이터를 C로 옮겼고, 대부분의 어셈블리 전용 코드에는...",
+    "summaryKo": "1989년 게임 F-15 Strike Eagle II의 원본 바이너리를 리버스 엔지니어링해 C 소스 코드로 재구성하는 프로젝트가 실제 플레이 테스트 단계에 진입했다. 모든 실행 파일의 코드·데이터를 C로 옮겼고, DOS 환경에서 테스트할 파일럿(테스터)을 모집한다.",
+    "tags": [
+      "리버스 엔지니어링",
+      "레트로 게임",
+      "DOS"
+    ],
+    "entities": [
+      "F-15 Strike Eagle II"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "c02dc174c1f13a74",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "SMPTE, 표준 라이브러리 무료 공개",
+    "url": "https://news.hada.io/topic?id=30694",
+    "publishedAt": "2026-06-22T02:42:54+09:00",
+    "rawText": "미디어 기술 표준을 다루는 SMPTE가 전체 Standards 카탈로그를 무료로 열어, 기존 문서와 향후 릴리스를 전 세계에서 직접 접근할 수 있게 함 공개 범위는 published SMPTE Standards, Recommended Practices, Engineering Guidelines, Registered Disclosure Documents(RD...",
+    "summaryKo": "미디어 기술 표준 단체 SMPTE가 전체 표준 카탈로그를 무료로 공개해, 기존 문서와 향후 릴리스를 전 세계에서 직접 접근할 수 있게 했다. 공개 범위는 published Standards, Recommended Practices, Engineering Guidelines, Registered Disclosure Documents 등을 포함한다.",
+    "tags": [
+      "표준",
+      "미디어 기술",
+      "오픈 액세스"
+    ],
+    "entities": [
+      "SMPTE"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "fca2375b3130a464",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "도서관에서 재봉틀을 빌리는 핀란드 모델",
+    "url": "https://news.hada.io/topic?id=30693",
+    "publishedAt": "2026-06-22T02:39:54+09:00",
+    "rawText": "핀란드 공공도서관은 책 대출을 넘어 시민이 공간·도구·디지털 서비스를 함께 쓰는 공공 커뮤니티 서비스 센터로 확장되고 있음 인구 560만 명의 핀란드는 700개 넘는 도서관에서 팟캐스트 스튜디오, 3D 프린팅, 테니스 라켓, 수영장 이용권, 재봉틀까지 제공함",
+    "summaryKo": "핀란드 공공도서관이 책 대출을 넘어 공간·도구·디지털 서비스를 함께 쓰는 공공 커뮤니티 센터로 확장되고 있다는 소개다. 인구 560만 명의 핀란드는 700개 넘는 도서관에서 팟캐스트 스튜디오, 3D 프린팅, 테니스 라켓, 수영장 이용권, 재봉틀까지 제공한다.",
+    "tags": [
+      "공공도서관",
+      "핀란드",
+      "커뮤니티"
+    ],
+    "entities": [
+      "Finland"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "eded32424ec56fa6",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "느린 호흡은 뇌 기능과 위험 행동을 조절함",
+    "url": "https://news.hada.io/topic?id=30692",
+    "publishedAt": "2026-06-22T01:40:07+09:00",
+    "rawText": "의도적으로 날숨을 길게 하는 호흡은 위험 선택 과제에서 도박 수락을 늘렸고, 손실보다 보상 정보에 대한 민감도를 더 크게 높임 건강한 성인 최종 행동 표본 41명을 대상으로 자연 호흡과 2:8초 들숨/날숨 조건을 참가자 내 설계로 비교함 fMRI와 생리 ...",
+    "summaryKo": "의도적으로 날숨을 길게 하는 호흡이 위험 선택 과제에서 도박 수락을 늘렸고, 손실보다 보상 정보에 대한 민감도를 더 크게 높였다는 연구다. 건강한 성인 41명을 대상으로 자연 호흡과 2:8초 들숨/날숨 조건을 비교했으며 fMRI와 생리 측정을 함께 활용했다.",
+    "tags": [
+      "신경과학",
+      "호흡",
+      "의사결정"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "b650a39004ea4c4a",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "클로드 코드에서 Opus 대신 GLM 5.2 쓰는게 답이네요 | 오픈웨이트 SOTA 모델",
+    "url": "https://www.youtube.com/watch?v=yB16BT1IMag",
+    "publishedAt": "2026-06-20T17:24:09+00:00",
+    "rawText": "클로드 코드에서 Opus 대신 GLM 5.2 쓰는게 답이네요 | 오픈웨이트 SOTA 모델",
+    "videoId": "yB16BT1IMag",
+    "summaryKo": "오픈웨이트 SOTA 모델인 GLM 5.2를 클로드 코드 하네스에 붙여 Opus 4.8과 동일한 프롬프트로 비교 테스트한 영상이다. 프론트엔드 디자인과 대부분의 일상 코딩 작업에서는 Opus와 구분이 안 될 정도로 잘하지만, API 연동·대규모 코드베이스 같은 복잡하거나 장기 작업에서는 정확도가 다소 떨어지고 작업 시간·토큰 소모도 더 컸다. 그럼에도 출력 토큰 기준 약 6배 저렴한 비용과 MIT 라이선스 오픈웨이트라는 점에서 벤더 종속을 피할 수 있어 주목할 만하다는 결론이다.",
+    "tags": [
+      "오픈웨이트",
+      "코딩에이전트",
+      "LLM벤치마크",
+      "양자화"
+    ],
+    "entities": [
+      "GLM 5.2",
+      "Claude Code",
+      "Opus 4.8",
+      "Z.ai",
+      "LMArena"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "동일한 클로드 코드 하네스에서 같은 프롬프트로 GLM 5.2와 Opus 4.8을 직접 비교했다.",
+        "랜딩페이지·SVG 스피너·3D·게임 등 프론트엔드/디자인 작업에서는 두 모델 품질이 거의 구분되지 않았다.",
+        "외부 API 연동, ER 다이어그램 FK 체인 등 복잡·디테일 작업에서는 Opus 4.8이 더 나은 결과를 보였다.",
+        "대부분 작업에서 GLM 5.2가 Opus 4.8보다 시간이 약 2배 더 걸리고 토큰도 더 많이 소모했다.",
+        "GLM 5.2는 LMArena 에이전트 아레나 12위·웹개발 랭킹에서 Opus를 앞서며 현존 오픈웨이트 중 최고 성능으로 평가된다.",
+        "MIT 라이선스 오픈웨이트라 벤더 종속을 피하고 로컬·사내 인프라 운용이 가능하다는 점이 핵심 가치다."
+      ],
+      "sections": [
+        {
+          "heading": "실작업 비교 결과",
+          "body": "기후 대시보드, SVG 로딩 스피너, ER 다이어그램, 3D 시뮬레이션, 마인크래프트 게임 등 다양한 원샷 작업을 두 모델에 동일하게 시켰다. 프론트엔드 디자인 영역은 GLM 5.2가 Opus 4.8과 거의 동등하며 마우스 인터랙션/애니메이션은 오히려 GLM이 더 잘 넣기도 했다. 다만 외부 API 연동 렌더링 실패, FK 체인 미표시 등 복잡하고 디테일한 부분에서는 Opus가 우위였고, 이런 이슈는 후속 프롬프트로 보완 가능했다."
+        },
+        {
+          "heading": "비용과 오픈웨이트의 의미",
+          "body": "GLM 5.2는 입력 1.4달러·출력 4.4달러로 Opus 4.8(입력 5달러·출력 25달러) 대비 출력 기준 약 6배 저렴하며, Z.ai 코딩 플랜은 월 약 16달러대다. 오픈웨이트는 학습 데이터까지 공개하는 오픈소스와 달리 가중치만 공개하지만 MIT 라이선스로 상업적 활용이 자유롭다. 수출 통제로 접근이 막힐 수 있는 상황에서 벤더/정부 결정에 좌우되지 않고 직접 서빙·파인튜닝·사내 인프라 구축이 가능하다는 점이 강조된다."
+        }
+      ],
+      "quotes": [
+        "기후 대시보드 작업: Opus 4.8은 5분 3초·85,400토큰, GLM 5.2는 9분 24초·99,000토큰",
+        "SVG 스피너: Opus 4.8은 2분 34초·68,000토큰, GLM 5.2는 6분 55초·83,000토큰",
+        "출력 토큰 기준 GLM 5.2가 Opus 4.8보다 약 6배 저렴"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "c57cb7bed5a003e2",
+    "sourceType": "youtube",
+    "source": "Jay Choi | 인디해커 라이프",
+    "title": "AI가 영상 편집을 완전히 바꿨습니다",
+    "url": "https://www.youtube.com/watch?v=0xKjf_719No",
+    "publishedAt": "2026-06-20T10:00:16+00:00",
+    "rawText": "AI가 영상 편집을 완전히 바꿨습니다",
+    "videoId": "0xKjf_719No",
+    "summaryKo": "인디 유튜버 Jay Choi가 자신의 영상 제작에 AI를 어떻게 활용하는지 처음부터 끝까지 공개한 영상이다. 기획·촬영은 자동화 불가능하다고 보고 편집 단계(컷편집·화면편집·자막)만 AI로 '효율화'하는 접근을 강조하며, 핵심은 도구가 아니라 명확한 지시·빠른 반복·직접 해보기라고 말한다. 특히 Remotion(React 코드로 모션그래픽 생성)과 Claude Code, CLAUDE.md 커스터마이징을 통한 자료화면 제작, Vrew의 SRT 자동 자막 워크플로우를 구체적으로 시연한다.",
+    "tags": [
+      "AI 영상편집",
+      "모션그래픽 자동화",
+      "워크플로우 효율화",
+      "자동 자막"
+    ],
+    "entities": [
+      "Remotion",
+      "Claude Code",
+      "CapCut",
+      "Vrew",
+      "CLAUDE.md"
+    ],
+    "cats": [
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "현재 영상 포맷은 100% 자동화가 불가능하며, AI는 약 50%만 적절히 쓰는 '자동화가 아닌 효율화'가 목표라고 강조한다.",
+        "제작 과정을 기획·촬영·편집 세 단계로 보고, 기획과 촬영은 사람 손이 필수라 자동화 대상이 아니라고 본다.",
+        "편집은 컷편집·화면편집·자막으로 나뉘며, 직접 만든 도구의 기능으로 무음 구간을 감지해 단축키 1·2·3으로 호흡을 살리는 반자동 컷편집을 한다.",
+        "화면편집의 모션그래픽은 React 코드 기반 무료 도구 Remotion에 공식 AI 스킬을 붙여 Claude로 생성하고, CLAUDE.md에 배경·정렬·색상·3D·트랜지션 지침을 누적해 품질을 끌어올린다.",
+        "배경을 덮는 모션그래픽과 촬영 영상 위에 올리는 오버레이 모션그래픽을 상황에 따라 구분해 쓰고, 전체 워크플로우를 CLAUDE.md에 슬래시 명령으로 세팅해 재사용한다.",
+        "자막은 컷편집 완료 후 오디오를 추출해 Vrew로 타임스탬프 포함 SRT를 만들고, Claude로 대본 기반 교정 후 CapCut에 다시 넣는 워크플로우를 따른다."
+      ],
+      "sections": [
+        {
+          "heading": "자동화가 아닌 효율화",
+          "body": "발표자는 통째로 찍어내는 자동화 포맷은 자신과 맞지 않고 '인간적인 영상'이 아니라고 본다. 그래서 AI로 100%를 대치하지 않고 필요한 곳에만 50% 정도 적용하는 효율화를 택했으며, 이것만으로도 제작 시간을 크게 줄일 수 있다고 말한다."
+        },
+        {
+          "heading": "컷편집: 자체 도구의 반자동 방식",
+          "body": "기존의 무음 감지 자동 컷은 끊는 타이밍을 정하기가 까다롭고 일률적으로 자르면 호흡이 사라져 부자연스럽다고 지적한다. 그래서 무음 구간으로 자동 이동한 뒤 단축키로 남길 시간을 직접 정하는 반자동 방식을 만들었고, 완전 자동과 수작업 사이가 현재로선 최적이라고 평가한다. 결과는 JSON으로 내보내 Claude Code를 통해 CapCut에서 이어서 작업한다."
+        },
+        {
+          "heading": "Remotion + Claude로 만드는 자료화면",
+          "body": "Remotion 설치 후 공식 AI 스킬을 추가하면 Claude가 바로 모션그래픽을 만들 수 있지만, 관건은 커스터마이징과 의도 설명이다. CLAUDE.md에 배경 이미지 사용·중앙 정렬·색상·공식 3D/트랜지션 스킬 강제 사용 등 지침을 하나씩 누적해야 원하는 결과에 가까워지며, 한 번에 되는 게 아니라 계속 만들고 다듬어야 한다고 강조한다."
+        },
+        {
+          "heading": "자막 워크플로우",
+          "body": "컷편집이 끝난 영상의 오디오를 추출해 음성인식 품질이 좋은 Vrew로 SRT를 생성한다. 타임스탬프가 들어가므로 컷편집 완료가 전제다. SRT와 원본 대본을 Claude에 올려 교정한 뒤 CapCut 자막에 넣고 스타일만 잡으면 끝난다."
+        }
+      ],
+      "quotes": [
+        "중요한 건 도구가 아니라 어떻게 쓰느냐예요. 똑같은 도구를 써도 누구는 30분 만에 끝내고 누구는 하루 종일 헤매죠.",
+        "결국 차이를 만드는 건 세 가지예요. 명확한 지시, 빠른 반복, 그리고 직접 해 보는 것.",
+        "오늘 보여 드릴 건 자동화가 아니라 효율화입니다."
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "510325ad4afe3e78",
+    "sourceType": "youtube",
+    "source": "김효율의 AI 개발단",
+    "title": "자신 있게 말씀드립니다 현 시점 AX는 이 영상으로 종결합니다",
+    "url": "https://www.youtube.com/watch?v=9q1WG0tbzvs",
+    "publishedAt": "2026-06-20T04:20:18+00:00",
+    "rawText": "자신 있게 말씀드립니다 현 시점 AX는 이 영상으로 종결합니다",
+    "videoId": "9q1WG0tbzvs",
+    "summaryKo": "옵시디언(Obsidian)을 에이전트의 외부 메모리이자 위키 시스템으로 활용해 코덱스, 클로드 코드, 헤르메스 등 여러 에이전트가 같은 맥락을 공유하며 일하는 AI 네이티브 업무 환경 구축법을 소개한다. 원본 데이터(로우)·에이전트 산출물(위키)·대화(컨버세이션)로 맥락을 분류·링크하고, 크론잡으로 지식을 쌓아 스킬과 하네스를 자동 생성하는 '에이전틱 엔지니어링' 구조를 제시한다. 이를 ERP/MCP로 클라우드화해 이메일·노션·캘린더·텔레그램·슬랙과 연동한 기업 AX 전환 사례까지 다룬다.",
+    "tags": [
+      "에이전틱 엔지니어링",
+      "Obsidian 위키",
+      "에이전트 메모리",
+      "기업 AX"
+    ],
+    "entities": [
+      "Obsidian",
+      "Claude Code",
+      "Codex",
+      "Hermes",
+      "Notion"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "맥락 저장은 수동(옵시디언 저장 커맨드)과 자동(리서치 루프 3시간 간격 저장)으로 원하는 시점에 이뤄진다.",
+        "데이터는 원본 문서·계약서·이미지는 '로우', 에이전트 산출물·결정·개념·절차는 '위키', 대화·핸드오버·세션은 '컨버세이션'으로 구분된다.",
+        "새 세션이나 새 채팅 시작 시 옵시디언 참조 호출로 초기 1회 읽기를 시켜야 에이전트가 맥락을 가져온다.",
+        "유사 내용은 링크 규칙으로 연결되어 옵시디언 그래프에 선으로 표시되며, 맥락 확장과 지식의 복리 누적을 만든다.",
+        "사람이 직접 기록한 도메인 지식을 옵시디언에 넣으면 에이전트가 두 개의 메모리를 갖는 더 뾰족한 도메인 전문가가 된다.",
+        "에이전트가 크론잡으로 지식을 쌓고 분류해 스킬을 만들고, 스킬들이 링크되어 하네스를 이루며 업무 발전 속도를 가속한다고 본다."
+      ],
+      "sections": [
+        {
+          "heading": "옵시디언 위키 시스템의 작동 원리",
+          "body": "이전 영상에 대한 시청자 질문(저장 시점, 로우/위키 구분, 자동 반영 여부, 유사성 연결)에 답하는 형식으로 진행된다. 맥락은 수동·자동으로 원할 때 저장하고, 데이터 성격에 따라 로우·위키·컨버세이션으로 나뉜다. 새 세션에서는 참조 호출로 1회 읽기를 해야 맥락이 반영되며, 유사 내용은 링크로 연결돼 그래프에서 시각적으로 확인된다."
+        },
+        {
+          "heading": "사람과 에이전트가 공유하는 도메인 지식 레이어",
+          "body": "이 레이어를 통해 코덱스, 클로드 코드, 헤르메스가 각각 따로 일하면서도 같은 맥락을 공유한다. 발표자는 사람이 직접 기록한 도메인 지식을 함께 넣으면 일일이 설명할 필요가 없어진다고 본다. 디자이너 예시로 레퍼런스 수집→해체→UX/디자인 시스템 이해→규칙 파악→라이브러리화→스킬 생성의 단계마다 스킬이 강해지는, 사람의 학습 과정과 유사한 구조를 제시한다."
+        },
+        {
+          "heading": "ERP/MCP 기반 기업 AX 전환",
+          "body": "로컬 옵시디언을 벗어나 클라우드화하기 위해 MCP 구조를 내장하고 ERP에 이메일·노션·데이터·구글 캘린더를 연동했다. 에이전트 자체 생성, 텔레그램/슬랙 게이트웨이를 통한 외부 업무 지시, 명함·문서 OCR 자동 분류, 주간·월간·연간 성과 자동 정리 등을 구현했다. AX 도입을 희망하는 중소기업·대표의 연락을 요청하며 마무리한다."
+        }
+      ],
+      "quotes": [
+        "맥락 저장 시점은 제가 원할 때입니다. 리서치된 데이터를 세 시간 간격으로 옵시디언에 저장하도록 추가 루프를 설정해 뒀습니다.",
+        "이 유사성 연결을 통해서 맥락은 더 확장이 되고 지식은 복리로 쌓이게 되는 구조입니다.",
+        "저는 이 지점이 에이전틱 엔지니어링의 중심이 될 거라고 생각합니다."
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "141015dc6f2f80f6",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "상위 1% 클로드코드 사용자는 프롬프트 대신 루프를 씁니다",
+    "url": "https://www.youtube.com/watch?v=sm7NCaXEESE",
+    "publishedAt": "2026-06-20T03:00:09+00:00",
+    "rawText": "상위 1% 클로드코드 사용자는 프롬프트 대신 루프를 씁니다",
+    "videoId": "sm7NCaXEESE",
+    "summaryKo": "클로드 코드(Claude Code) 상위 사용자들은 매번 프롬프트를 입력하는 대신 '루프(Loop)' 기능으로 반복 업무를 자동화한다는 점을 소개하는 실습 영상이다. '루프 엔지니어링' 개념을 바탕으로 클로드.md(작업 규칙)·루프.md(루프 장부)·위클리 리포트(실행 이력) 세 문서를 만들어, 고객 피드백 분류와 아웃바운드 리드 메일 초안 작성을 30분/60분 주기로 자동 실행하는 워크플로우를 구축한다. 루프·/loop·크론/루틴스의 차이와 토큰 소모·세션 의존·외부 발송 가드레일 같은 주의점도 함께 설명한다.",
+    "tags": [
+      "루프 엔지니어링",
+      "업무 자동화",
+      "워크플로우",
+      "에이전트 스케줄링"
+    ],
+    "entities": [
+      "Claude Code",
+      "Anthropic",
+      "Boris Cherny",
+      "Google Workspace CLI",
+      "VS Code"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "클로드 코드 고급 사용자는 매번 프롬프트를 치는 대신 루프를 걸어 AI가 다음 일감을 스스로 잡아 처리하게 하며, 이를 '루프 엔지니어링'이라 부른다.",
+        "루프는 정해진 간격마다 같은 작업을 재실행하는 기능으로, 단계별로 넘겨야 하는 업무나 실시간으로 데이터가 쌓이는 업무에 적합하다.",
+        "루프(/loop), 조건 충족까지 멈추지 않는 기능, PC가 꺼져도 도는 크론/루틴스(AI 직원형 스케줄링)는 용도가 서로 달라 프로젝트에 맞게 골라 써야 한다.",
+        "클로드.md(작업 규칙)·루프.md(루프 장부)·위클리 루프 리포트(실행 이력) 세 문서로 루프를 관리하면 비활성화돼도 손쉽게 재등록할 수 있다.",
+        "실습에서는 Google Workspace CLI를 연동해 구글 시트 업데이트와 Gmail 초안 작성을 자동화하고, 고객 피드백 분류(60분)와 아웃바운드 리드 후속 메일(30분) 두 루프를 등록한다.",
+        "루프는 세션이 살아있는 동안만 동작하고 토큰을 더 빨리 소모하므로, 외부 발송 같은 민감 작업은 초안까지만 만들고 사람이 검토 후 보내도록 가드레일을 둬야 한다."
+      ],
+      "sections": [
+        {
+          "heading": "루프 엔지니어링 개념과 유사 기능 비교",
+          "body": "클로드 코드 개발자가 프롬프트 대신 루프를 건다고 공개적으로 언급한 데서 출발해, 반복 업무를 루프에 맡기는 방식을 소개한다. 루프(정해진 간격마다 재실행), 조건 충족까지 멈추지 않는 기능, PC가 꺼져도 독립 실행되는 크론/루틴스를 비교하며 각각의 적합한 용도를 구분한다. 단순 주기적 알림용보다는 진행 중인 일감을 다음 단계로 이어가는 데 루프가 적합하다고 강조한다."
+        },
+        {
+          "heading": "세 문서 기반 루프 셋업 실습",
+          "body": "VS 코드 터미널에서 클로드 코드를 실행하고 오토 모드로 전환한 뒤, 회사 맥락·제품 정보·고객 피드백/아웃바운드 리드 시트를 준비한다. Google Workspace CLI를 연동해 엑셀을 구글 시트로 변환하고 Gmail 초안 작성을 가능하게 한다. 이어 클로드.md(작업 규칙), 루프.md(루프 장부와 프롬프트 원문), 위클리 루프 리포트(실행 이력) 세 운영 문서를 생성한다."
+        },
+        {
+          "heading": "루프 실행·자동 등록과 주의점",
+          "body": "루프.md에서 활성 상태인 루프만 읽어 실행하면 시트의 답변 초안·FAQ 후보가 채워지고 Gmail 임시보관함에 메일 초안이 생성된다. /loop 명령으로 아웃바운드 30분·피드백 60분 주기로 자동 등록하면 매 실행마다 리포트에 이력이 쌓인다. 다만 루프는 세션 생존 동안만 동작하고 일정 기간 후 비활성화, 토큰 소모 증가, 모니터링 약화 위험이 있어 외부 발송은 초안까지만 만들고 사람이 최종 검토하도록 권장한다."
+        }
+      ],
+      "quotes": [
+        "루프 엔지니어링의 핵심은 반복 작업은 루프에 맡기고 우리는 루프 설계와 모니터링에 집중하는 것",
+        "루프는 일정 기간이 지나면 자동으로 비활성화된다",
+        "아웃바운드 팔로업 30분 단위, 피드백 트리아지 60분 단위로 실행"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
   },
   {
     "id": "5f72ae798af33d3b",
@@ -4622,5 +5525,80 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "aa17a2d8191210c9",
+    "sourceType": "news",
+    "source": "요즘IT",
+    "title": "오픈AI 사장·딥마인드 CEO·클로드 코드 창시자가 말하는 5가지 미래",
+    "url": "https://yozm.wishket.com/magazine/detail/3812",
+    "publishedAt": "",
+    "rawText": "미래를 가장 먼저 사는 사람들은 최고 모델을 직접 만들고 먼저 써보는 이들이고, 그들의 말은 우리의 3~6개월 뒤일 가능성이 높습니다. 세콰이어 캐피탈이 개최한 AI Ascent 2026에서 오픈AI 그렉 브록먼, 딥마인드 데미스 허사비스, 클로드 코드를 만든 보리스 체르니를 연달아 인터뷰한 자리에서, 직급도 회사도 다른 세 사람이 비슷한 말을 합니다. 코딩은 이미 해결됐고 실행 비용은 낮아졌다는 것, 격차는 기술이 아니라 조직에서 난다는 것, 살아남는 개인은 도메인을 아는 제너럴리스트이고 AGI도 먼 미래는 아니라는 것. 세 인터뷰에 공통으로 흐른 메시지를 5가지로 정리했습니다.",
+    "summaryKo": "세콰이어 캐피탈의 AI Ascent 2026에서 OpenAI 그렉 브록먼, 딥마인드 데미스 허사비스, 클로드 코드를 만든 보리스 체르니를 연달아 인터뷰한 내용을 5가지 메시지로 정리한 글이다. 코딩은 이미 해결됐고 실행 비용은 낮아졌으며, 격차는 기술이 아니라 조직에서 나고, 살아남는 개인은 도메인을 아는 제너럴리스트이며 AGI도 먼 미래가 아니라는 공통된 전망을 전한다.",
+    "tags": [
+      "AI 미래 전망",
+      "AGI",
+      "조직 역량"
+    ],
+    "entities": [
+      "OpenAI",
+      "DeepMind",
+      "Greg Brockman",
+      "Demis Hassabis",
+      "Boris Cherny"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "세 인터뷰에 공통된 메시지로 '코딩은 이미 해결됐고 실행 비용이 낮아졌다'를 꼽는다.",
+        "경쟁의 격차는 기술 자체가 아니라 조직의 역량·실행에서 난다고 본다.",
+        "살아남는 개인상으로 도메인을 아는 제너럴리스트를 제시한다.",
+        "AGI도 먼 미래가 아니라는 데 세 사람의 전망이 모인다.",
+        "최고 모델을 먼저 만들고 써보는 사람들의 말이 우리의 3~6개월 뒤를 보여줄 수 있다고 전제한다."
+      ],
+      "sections": [
+        {
+          "heading": "공통된 미래 전망",
+          "body": "그렉 브록먼, 데미스 허사비스, 보리스 체르니는 직급도 회사도 다르지만 비슷한 메시지를 낸다. 코딩 문제는 사실상 풀렸고 실행 비용이 급감했으며, 진짜 차이는 기술이 아니라 조직에서 발생한다는 것이다."
+        },
+        {
+          "heading": "개인과 AGI",
+          "body": "이 시대에 살아남는 개인은 특정 도메인을 깊이 알면서도 폭넓게 다루는 제너럴리스트로 정의된다. 또한 세 사람 모두 AGI가 먼 미래의 일이 아니라고 보며, 최첨단을 먼저 쓰는 이들의 관점이 향후 3~6개월의 흐름을 미리 보여준다고 본다."
+        }
+      ],
+      "quotes": [
+        "코딩은 이미 해결됐고 실행 비용은 낮아졌다",
+        "격차는 기술이 아니라 조직에서 난다"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "1770262eb77e259f",
+    "sourceType": "news",
+    "source": "요즘IT",
+    "title": "AI는 어떤 사이트를 인용할까?",
+    "url": "https://yozm.wishket.com/magazine/detail/3810",
+    "publishedAt": "",
+    "rawText": "SEO 플랫폼은 작은 아이디어에서 시작됐다. 그 처음은 GPT와 나눈 대화였다. 당시 나는 외부 도움 없이 내가 가진 기술력만으로 시작하고 싶었다. 20년 넘게 웹을 해왔지만, 풀스택이라 해도 잘하는 영역과 부족한 영역이 분명히 나뉘어 있었다. 그런 고민 속에서 GPT는 법률, 성형, 피부, 탈모 같은 고관여 업종의 리드 생성을 추천했다. 나는 AI 검색 환경이 사이트를 어떻게 평가하는지 운영자의 시각으로 깊이 들여다보기 시작했다. 이 글은 두 달 동안 SEO 플랫폼을 직접 운영하면서 목격한 검색 구조의 변화에 대한 기록이다.",
+    "summaryKo": "20년 넘게 웹을 다룬 개발자가 두 달간 SEO 플랫폼을 직접 운영하며 'AI 검색 환경이 어떤 사이트를 인용하는가'를 운영자 시각으로 관찰한 기록이다. 법률·성형·피부·탈모 같은 고관여 업종의 리드 생성을 사례로, AI 검색이 사이트를 평가하는 구조의 변화를 들여다본다.",
+    "tags": [
+      "SEO",
+      "AI 검색",
+      "GEO",
+      "리드 생성"
+    ],
+    "entities": [
+      "GPT"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
   }
 ]
