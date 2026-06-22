@@ -6,7 +6,7 @@
       "name": "claude-video · /watch",
       "tagline": "Claude가 영상 내용을 요약·분석해주는 스킬",
       "audience": "all",
-      "summary": "영상 URL(YouTube·Vimeo·X·TikTok 등 yt-dlp 지원 사이트)이나 로컬 파일(.mp4/.mov/.mkv/.webm)을 주면, URL은 yt-dlp로 내려받고 ffmpeg로 프레임을 뽑은 뒤, 자막(없으면 Whisper API)으로 타임스탬프 대본을 만들어 Claude가 영상 내용을 요약·분석·질의응답할 수 있게 해줍니다.",
+      "summary": "영상 URL(YouTube·Vimeo·X·TikTok 등 yt-dlp 지원 사이트)이나 로컬 파일(.mp4/.mov/.mkv/.webm)을 입력받습니다.\nURL은 yt-dlp로 내려받고 ffmpeg로 프레임을 뽑은 뒤, 자막(없으면 Whisper API)으로 타임스탬프 대본을 만듭니다.\n이를 바탕으로 Claude가 영상 내용을 요약·분석·질의응답할 수 있게 해줍니다.",
       "homepage": "https://github.com/bradautomates/claude-video",
       "install": [
         { "desc": "마켓플레이스 등록 — Claude Code 프롬프트에 입력", "code": "/plugin marketplace add bradautomates/claude-video" },
@@ -18,10 +18,10 @@
         { "desc": "특정 구간만 집중(프레임 더 촘촘하게)", "code": "/watch URL --start 2:15 --end 2:45" }
       ],
       "tips": [
-        "ffmpeg·yt-dlp는 최초 /watch 실행 시 (macOS는 Homebrew로) 자동 설치되어 별도 준비가 필요 없습니다. 자동 설치가 안 되면 brew install ffmpeg yt-dlp 로 직접 설치하세요.",
+        "ffmpeg·yt-dlp는 최초 /watch 실행 시 (macOS는 Homebrew로) 자동 설치되어 별도 준비가 필요 없습니다.\n자동 설치가 안 되면 brew install ffmpeg yt-dlp 로 직접 설치하세요.",
         "10분 이하 영상에서 정확도가 가장 좋습니다(프레임 수가 길이에 반비례).",
         "긴 영상은 --start/--end 로 관심 구간만 분석하면 토큰을 아끼면서 더 정확합니다.",
-        "유튜브 자막이 있으면 Whisper 키 없이도 동작합니다. 자막 없는 영상엔 GROQ_API_KEY 또는 OPENAI_API_KEY가 필요합니다.",
+        "유튜브 자막이 있으면 Whisper 키 없이도 동작합니다.\n자막 없는 영상엔 GROQ_API_KEY 또는 OPENAI_API_KEY가 필요합니다.",
         "프레임·오디오는 임시 폴더에만 저장되고, 영상 자체는 외부로 업로드되지 않습니다(자막 없을 때 추출 오디오만 Whisper로 전송)."
       ]
     }

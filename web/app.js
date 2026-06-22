@@ -37,6 +37,8 @@ async function getJson(path, fallback) {
   catch { return fallback; }
 }
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// 본문 산문(intro·summary·팁 등)에서 작성자가 넣은 줄바꿈(\n)을 <br>로 렌더 — 긴 문장·여러 문장을 보기 좋게 끊을 때
+const escLines = (s) => esc(s).replace(/\n/g, '<br>');
 
 function matches(i) {
   const okCat = state.cat === '전체' || (i.cats || []).includes(state.cat);
@@ -150,7 +152,7 @@ function renderLeaderboard(lb) {
   }
   const head = `<div class="lb-intro">
     ${lb.windowLabel ? `<div class="lb-window">${esc(lb.windowLabel)}</div>` : ''}
-    ${lb.intro ? `<p class="lb-introtext">${esc(lb.intro)}</p>` : ''}
+    ${lb.intro ? `<p class="lb-introtext">${escLines(lb.intro)}</p>` : ''}
   </div>`;
 
   const useCases = Array.isArray(lb.useCases) && lb.useCases.length ? `
@@ -207,7 +209,7 @@ function renderLeaderboard(lb) {
   const sources = Array.isArray(lb.sources) && lb.sources.length ? `
     <section class="lb-section">
       <h2 class="lb-h2">🔗 출처 · 순위 판별 근거</h2>
-      <p class="lb-note">각 영역은 표기된 출처 리더보드의 <strong>공개 점수</strong>(벤치마크 정답률 · Arena Elo · 가격)를 그대로 인용해 높은 순으로 정렬했습니다. 점수가 같으면 출처의 세부 순위를 따릅니다. 수치는 리더보드 업데이트 주기에 따라 달라질 수 있으니, 아래 <strong>기준일</strong>을 함께 확인하세요.</p>
+      <p class="lb-note">각 영역은 표기된 출처 리더보드의 <strong>공개 점수</strong>(벤치마크 정답률 · Arena Elo · 가격)를 그대로 인용해 높은 순으로 정렬했습니다.<br>점수가 같으면 출처의 세부 순위를 따릅니다.<br>수치는 리더보드 업데이트 주기에 따라 달라질 수 있으니, 아래 <strong>기준일</strong>을 함께 확인하세요.</p>
       <div class="lb-table-wrap"><table class="lb-table">
         <thead><tr><th>리더보드</th><th>링크</th><th>최근 업데이트</th></tr></thead>
         <tbody>${lb.sources.map((s) => `<tr>
@@ -255,7 +257,7 @@ function renderSkills(sk) {
     const tips = Array.isArray(s.tips) && s.tips.length ? `
       <div class="sk-block">
         <h3 class="sk-h3">팁</h3>
-        <ul class="sk-tips">${s.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>
+        <ul class="sk-tips">${s.tips.map((t) => `<li>${escLines(t)}</li>`).join('')}</ul>
       </div>` : '';
     return `
       <article class="sk-card">
@@ -266,7 +268,7 @@ function renderSkills(sk) {
           </div>
           ${audBadge(s.audience)}
         </div>
-        ${s.summary ? `<p class="sk-summary">${esc(s.summary)}</p>` : ''}
+        ${s.summary ? `<p class="sk-summary">${escLines(s.summary)}</p>` : ''}
         ${homeLink}
         ${install}
         ${usage}
