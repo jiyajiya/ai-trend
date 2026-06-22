@@ -9,6 +9,7 @@ const FEEDS = [
   { key: 'model', label: 'HuggingFace', group: 'media', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
   { key: 'pharma', label: '약사', group: 'domain', dot: 'var(--c-blog)', sub: '약업·약사 분야의 AI 관련 소식' },
   { key: 'leaderboard', label: '🏆 추천 모델', group: 'domain', dot: 'var(--accent)', sub: '주요 리더보드 종합 — 영역별 추천 모델 (매일 갱신)' },
+  { key: 'skills', label: '🧰 추천 스킬', group: 'view', dot: 'var(--accent)', sub: 'AX 개발팀이 쓰는 Claude Code 스킬 — 설치법과 사용법' },
   { key: 'bookmark', label: '⭐ 북마크', group: 'view', dot: 'var(--accent)', sub: '★ 저장한 항목만 모아보기' },
 ];
 const FEED_GROUPS = [
@@ -28,7 +29,7 @@ function feedFromUrl() {
 }
 
 const state = { feed: feedFromUrl(), cat: '전체', q: '', dark: localStorage.getItem('dark') === '1',
-  bm: JSON.parse(localStorage.getItem('bm') || '{}'), selectedId: null, lb: null,
+  bm: JSON.parse(localStorage.getItem('bm') || '{}'), selectedId: null, lb: null, sk: null,
   data: { video: [], snsblog: [], news: [], repo: [], model: [], pharma: [] } };
 
 async function getJson(path, fallback) {
@@ -53,7 +54,9 @@ function visible(key) {
 
 function renderFeeds() {
   const itemHtml = (f) => {
-    const n = f.key === 'leaderboard' ? (state.lb?.categories?.length ?? 0) : visible(f.key).length;
+    const n = f.key === 'leaderboard' ? (state.lb?.categories?.length ?? 0)
+      : f.key === 'skills' ? (state.sk?.skills?.length ?? 0)
+      : visible(f.key).length;
     const active = f.key === state.feed ? ' active' : '';
     return `<button class="feed-item${active}" data-feed="${esc(f.key)}">
       <span class="feed-dot" style="background:${f.dot}"></span>
@@ -220,21 +223,81 @@ function renderLeaderboard(lb) {
   return head + useCases + cats + metrics + sources + foot;
 }
 
+// ── Skills (🧰 추천 스킬) ────────────────────────────────────────────────
+// 리더보드와 같은 전용 렌더 경로 — 데이터(JSON) 주도로 스킬 가이드를 펼친다.
+function renderSkills(sk) {
+  if (!sk || !Array.isArray(sk.skills) || !sk.skills.length) {
+    return '<div class="empty">추천 스킬 데이터가 아직 없습니다.</div>';
+  }
+  const steps = (list) => (Array.isArray(list) ? list : []).map((s) => `
+    <li class="sk-step">
+      ${s.desc ? `<p class="sk-step-desc">${esc(s.desc)}</p>` : ''}
+      ${s.code ? `<pre class="sk-code"><code>${esc(s.code)}</code></pre>` : ''}
+    </li>`).join('');
+
+  const head = sk.intro ? `<div class="sk-intro"><p class="sk-introtext">${esc(sk.intro)}</p></div>` : '';
+
+  const cards = sk.skills.map((s) => {
+    const home = safeHttpUrl(s.homepage);
+    const homeLink = home !== '#'
+      ? `<a class="sk-home" href="${esc(home)}" target="_blank" rel="noopener">${esc((s.homepage || '').replace(/^https?:\/\//, ''))} ↗</a>`
+      : '';
+    const install = Array.isArray(s.install) && s.install.length ? `
+      <div class="sk-block">
+        <h3 class="sk-h3">플러그인 추가 방법</h3>
+        <ol class="sk-steps">${steps(s.install)}</ol>
+      </div>` : '';
+    const usage = Array.isArray(s.usage) && s.usage.length ? `
+      <div class="sk-block">
+        <h3 class="sk-h3">사용법</h3>
+        <ol class="sk-steps">${steps(s.usage)}</ol>
+      </div>` : '';
+    const tips = Array.isArray(s.tips) && s.tips.length ? `
+      <div class="sk-block">
+        <h3 class="sk-h3">팁</h3>
+        <ul class="sk-tips">${s.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>
+      </div>` : '';
+    return `
+      <article class="sk-card">
+        <div class="sk-card-head">
+          <div class="sk-card-titles">
+            <span class="sk-name">${esc(s.name)}</span>
+            ${s.tagline ? `<span class="sk-tagline">${esc(s.tagline)}</span>` : ''}
+          </div>
+          ${audBadge(s.audience)}
+        </div>
+        ${s.summary ? `<p class="sk-summary">${esc(s.summary)}</p>` : ''}
+        ${homeLink}
+        ${install}
+        ${usage}
+        ${tips}
+      </article>`;
+  }).join('');
+
+  return head + `<section class="sk-section">${cards}</section>`;
+}
+
 function renderMain() {
   const feed = FEEDS.find((f) => f.key === state.feed);
   document.getElementById('feedTitle').textContent = feed.label;
   document.getElementById('feedSub').textContent = feed.sub;
-  // 검색·CATEGORY 필터는 카드 피드 전용 — 추천 모델 뷰에선 동작하지 않으므로 숨긴다
-  const isLb = state.feed === 'leaderboard';
-  document.querySelector('.search').style.display = isLb ? 'none' : '';
-  document.getElementById('cats').style.display = isLb ? 'none' : '';
-  document.getElementById('catsLabel').style.display = isLb ? 'none' : '';
-  // 추천 모델은 우측 상세 패널이 없으므로 본문을 넓게 펼친다(좁은 컬럼+빈 거터 방지)
-  document.getElementById('app').dataset.view = isLb ? 'leaderboard' : 'feed';
-  if (isLb) {
-    state.selectedId = null;  // 리더보드는 우측 분석 패널을 쓰지 않는다
+  // 검색·CATEGORY 필터는 카드 피드 전용 — 와이드 뷰(추천 모델·추천 스킬)에선 동작하지 않으므로 숨긴다
+  const isWide = state.feed === 'leaderboard' || state.feed === 'skills';
+  document.querySelector('.search').style.display = isWide ? 'none' : '';
+  document.getElementById('cats').style.display = isWide ? 'none' : '';
+  document.getElementById('catsLabel').style.display = isWide ? 'none' : '';
+  // 와이드 뷰는 우측 상세 패널이 없으므로 본문을 넓게 펼친다(좁은 컬럼+빈 거터 방지)
+  // dataset.view 값은 'leaderboard'로 통일해 기존 와이드 CSS 규칙을 그대로 재사용한다
+  document.getElementById('app').dataset.view = isWide ? 'leaderboard' : 'feed';
+  if (isWide) state.selectedId = null;  // 와이드 뷰는 우측 분석 패널을 쓰지 않는다
+  if (state.feed === 'leaderboard') {
     document.getElementById('feedCount').textContent = state.lb?.categories?.length ?? 0;
     document.getElementById('reader').innerHTML = renderLeaderboard(state.lb);
+    return;
+  }
+  if (state.feed === 'skills') {
+    document.getElementById('feedCount').textContent = state.sk?.skills?.length ?? 0;
+    document.getElementById('reader').innerHTML = renderSkills(state.sk);
     return;
   }
   const items = visible(state.feed);
@@ -299,5 +362,6 @@ const trending = rawTrend.map((i) => toViewItem(i, now))
 state.data.repo = trending.filter((i) => i.type === 'repo');
 state.data.model = trending.filter((i) => i.type === 'model');
 state.lb = await getJson('../data/leaderboard.json', null);
+state.sk = await getJson('../data/skills.json', null);
 renderDark();
 renderAll();
