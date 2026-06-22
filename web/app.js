@@ -1,13 +1,19 @@
 import { toViewItem, groupColumns } from './adapt.mjs';
 
+// group: 'media'(매체) | 'domain'(분야) | 'view'(보기) — 분류 축이 다른 메뉴를 섹션으로 분리
 const FEEDS = [
-  { key: 'video', label: '영상', dot: 'var(--c-video)', sub: 'AI 채널 영상을 한국어 요약으로 한 편씩 훑어보세요' },
-  { key: 'snsblog', label: '소셜 · 블로그', dot: 'var(--c-sns)', sub: '커뮤니티·블로그의 실사용 반응과 새로운 도구' },
-  { key: 'pharma', label: '약사', dot: 'var(--c-blog)', sub: '약업·약사 분야의 AI 관련 소식' },
-  { key: 'news', label: '뉴스', dot: 'var(--c-news)', sub: '주요 AI 뉴스와 연구를 넓은 화면에서 한 편씩 읽어보세요' },
-  { key: 'repo', label: 'GitHub', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포 (최근 생성·스타순)' },
-  { key: 'model', label: 'HuggingFace', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
-  { key: 'bookmark', label: '⭐ 북마크', dot: 'var(--accent)', sub: '★ 저장한 항목만 모아보기' },
+  { key: 'video', label: '영상', group: 'media', dot: 'var(--c-video)', sub: 'AI 채널 영상을 한국어 요약으로 한 편씩 훑어보세요' },
+  { key: 'snsblog', label: '소셜 · 블로그', group: 'media', dot: 'var(--c-sns)', sub: '커뮤니티·블로그의 실사용 반응과 새로운 도구' },
+  { key: 'news', label: '뉴스', group: 'media', dot: 'var(--c-news)', sub: '주요 AI 뉴스와 연구를 넓은 화면에서 한 편씩 읽어보세요' },
+  { key: 'repo', label: 'GitHub', group: 'media', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포 (최근 생성·스타순)' },
+  { key: 'model', label: 'HuggingFace', group: 'media', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
+  { key: 'pharma', label: '약사', group: 'domain', dot: 'var(--c-blog)', sub: '약업·약사 분야의 AI 관련 소식' },
+  { key: 'bookmark', label: '⭐ 북마크', group: 'view', dot: 'var(--accent)', sub: '★ 저장한 항목만 모아보기' },
+];
+const FEED_GROUPS = [
+  { key: 'media', label: 'FEED' },
+  { key: 'domain', label: '분야' },
+  { key: 'view', label: '보기' },
 ];
 const CATS = ['전체', 'LLM·모델', '에이전트', '코딩·개발', '멀티모달', '기업·정책'];
 const BAR = { news: 'var(--c-news)', blog: 'var(--c-blog)', video: 'var(--c-video)',
@@ -45,7 +51,7 @@ function visible(key) {
 }
 
 function renderFeeds() {
-  document.getElementById('feeds').innerHTML = FEEDS.map((f) => {
+  const itemHtml = (f) => {
     const n = visible(f.key).length;
     const active = f.key === state.feed ? ' active' : '';
     return `<button class="feed-item${active}" data-feed="${esc(f.key)}">
@@ -53,6 +59,11 @@ function renderFeeds() {
       <span class="feed-name">${esc(f.label)}</span>
       <span class="feed-count">${n}</span>
     </button>`;
+  };
+  document.getElementById('feeds').innerHTML = FEED_GROUPS.map((g) => {
+    const items = FEEDS.filter((f) => f.group === g.key);
+    if (!items.length) return '';
+    return `<div class="nav-label feed-group-label">${esc(g.label)}</div>${items.map(itemHtml).join('')}`;
   }).join('');
 }
 
