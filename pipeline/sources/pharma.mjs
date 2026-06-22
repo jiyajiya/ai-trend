@@ -17,9 +17,34 @@ export function matchesAi(text, keywords) {
   });
 }
 
+// 데일리팜 검색/뉴스 목록 HTML에서 기사 제목+링크를 추출한다.
+// 구조: 기사 링크(/user/news/{id})가 먼저 나오고 그 뒤에 .lin_title 제목이 온다.
+// 제목마다 "가장 가까운 앞쪽 기사 링크"를 짝지어 안정적으로 묶는다.
+export function parseDailypharm(html) {
+  const links = [...html.matchAll(/href="(https:\/\/www\.dailypharm\.com\/user\/news\/(\d+))"/g)]
+    .map((m) => ({ pos: m.index, url: m[1] }));
+  const titles = [...html.matchAll(/class="lin_title"[^>]*>\s*([^<]{4,})/g)]
+    .map((m) => ({ pos: m.index, title: m[1].trim() }));
+  const out = [];
+  const seen = new Set();
+  for (const t of titles) {
+    let best = null;
+    for (const l of links) if (l.pos < t.pos && (!best || l.pos > best.pos)) best = l;
+    if (best && !seen.has(best.url)) {
+      seen.add(best.url);
+      out.push({ url: best.url, title: t.title });
+    }
+  }
+  return out;
+}
+
+const PARSERS = { dailypharm: parseDailypharm };
+
 export async function fetchPharma(pharma, deps, perRunCap) {
   const keywords = pharma.aiKeywords || [];
   const out = [];
+
+  // 1) RSS 소스(전체 피드 → AI 키워드 필터)
   for (const feed of pharma.rss || []) {
     try {
       const xml = await deps.fetchText(feed.url);
@@ -41,5 +66,31 @@ export async function fetchPharma(pharma, deps, perRunCap) {
       console.error(`[pharma] ${feed.source} 실패: ${err.message}`);
     }
   }
+
+  // 2) 스크레이프 소스(서버렌더 목록 HTML → 제목/링크 추출 → AI 키워드 필터)
+  for (const site of pharma.scrape || []) {
+    const parse = PARSERS[site.parser];
+    if (!parse) { console.error(`[pharma] 알 수 없는 parser: ${site.parser}`); continue; }
+    try {
+      const html = await deps.fetchTextBrowser(site.url, site.referer);
+      const rows = parse(html)
+        .filter((r) => matchesAi(r.title, keywords))
+        .slice(0, perRunCap);
+      for (const r of rows) {
+        out.push({
+          id: makeId(r.url),
+          sourceType: 'pharma',
+          source: site.source,
+          title: r.title,
+          url: r.url,
+          publishedAt: '',
+          rawText: r.title,
+        });
+      }
+    } catch (err) {
+      console.error(`[pharma] ${site.source} 실패: ${err.message}`);
+    }
+  }
+
   return out;
 }

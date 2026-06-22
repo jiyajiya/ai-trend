@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { matchesAi, fetchPharma } from '../pipeline/sources/pharma.mjs';
+import { matchesAi, fetchPharma, parseDailypharm } from '../pipeline/sources/pharma.mjs';
 
 test('matchesAi: 키워드가 제목/요약에 있으면 true (대소문자 무시)', () => {
   const kw = ['AI', '인공지능', 'LLM'];
@@ -45,4 +45,46 @@ test('fetchPharma: fetch 실패해도 throw하지 않고 빈 배열', async () =
   const cfg = { aiKeywords: ['AI'], rss: [{ source: '약사공론', url: 'https://k/rss' }] };
   const out = await fetchPharma(cfg, deps, 10);
   assert.deepEqual(out, []);
+});
+
+// 데일리팜 목록 구조: 링크가 먼저, 그 뒤(이미지 박스 등 사이)에 .lin_title 제목
+const DP_HTML = `<ul class="act_list_sty2">
+  <li><a href="https://www.dailypharm.com/user/news/100"><div class="img_box"><img src="x.jpg"></div><div class="lin_title">바텍, AI 역량평가 신설</div></a></li>
+  <li><a href="https://www.dailypharm.com/user/news/101"><div class="img_box"><img src="y.jpg"></div><div class="lin_title">경동제약 ESG 플리마켓</div></a></li>
+  <li><a href="https://www.dailypharm.com/user/news/102"><div class="lin_title">디지털헬스 솔루션 도입</div></a></li>
+</ul>`;
+
+test('parseDailypharm: 제목을 가장 가까운 앞쪽 기사 링크와 짝짓는다', () => {
+  const rows = parseDailypharm(DP_HTML);
+  assert.equal(rows.length, 3);
+  assert.deepEqual(rows[0], { url: 'https://www.dailypharm.com/user/news/100', title: '바텍, AI 역량평가 신설' });
+  assert.equal(rows[2].title, '디지털헬스 솔루션 도입');
+});
+
+test('fetchPharma: scrape 소스에서 AI 항목만 pharma로 수집한다', async () => {
+  const deps = { fetchText: async () => '', fetchTextBrowser: async () => DP_HTML };
+  const cfg = {
+    aiKeywords: ['AI', '디지털헬스'],
+    scrape: [{ source: '데일리팜', parser: 'dailypharm', url: 'https://d/search' }],
+  };
+  const out = await fetchPharma(cfg, deps, 10);
+  assert.equal(out.length, 2); // 바텍(AI), 디지털헬스 — 경동제약 제외
+  assert.deepEqual(out.map((i) => i.title), ['바텍, AI 역량평가 신설', '디지털헬스 솔루션 도입']);
+  assert.equal(out[0].sourceType, 'pharma');
+  assert.equal(out[0].source, '데일리팜');
+});
+
+test('fetchPharma: scrape 실패해도 RSS 결과는 보존한다', async () => {
+  const deps = {
+    fetchText: async () => `<rss><item><title>AI 약국 도입</title><link>https://k/1</link></item></rss>`,
+    fetchTextBrowser: async () => { throw new Error('HTTP 403'); },
+  };
+  const cfg = {
+    aiKeywords: ['AI'],
+    rss: [{ source: '약사공론', url: 'https://k/rss' }],
+    scrape: [{ source: '데일리팜', parser: 'dailypharm', url: 'https://d/search' }],
+  };
+  const out = await fetchPharma(cfg, deps, 10);
+  assert.equal(out.length, 1);
+  assert.equal(out[0].source, '약사공론');
 });
