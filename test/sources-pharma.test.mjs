@@ -47,18 +47,19 @@ test('fetchPharma: fetch 실패해도 throw하지 않고 빈 배열', async () =
   assert.deepEqual(out, []);
 });
 
-// 데일리팜 목록 구조: 링크가 먼저, 그 뒤(이미지 박스 등 사이)에 .lin_title 제목
+// 데일리팜 목록 구조: 링크 → .lin_title 제목 → .lin_data 안 첫 div에 날짜
 const DP_HTML = `<ul class="act_list_sty2">
-  <li><a href="https://www.dailypharm.com/user/news/100"><div class="img_box"><img src="x.jpg"></div><div class="lin_title">바텍, AI 역량평가 신설</div></a></li>
-  <li><a href="https://www.dailypharm.com/user/news/101"><div class="img_box"><img src="y.jpg"></div><div class="lin_title">경동제약 ESG 플리마켓</div></a></li>
-  <li><a href="https://www.dailypharm.com/user/news/102"><div class="lin_title">디지털헬스 솔루션 도입</div></a></li>
+  <li><a href="https://www.dailypharm.com/user/news/100"><div class="img_box"><img src="x.jpg"></div><div class="lin_title">바텍, AI 역량평가 신설</div></a><div class="lin_data"><div>2026-06-20 10:00:00</div><div>기자</div></div></li>
+  <li><a href="https://www.dailypharm.com/user/news/101"><div class="img_box"><img src="y.jpg"></div><div class="lin_title">경동제약 ESG 플리마켓</div></a><div class="lin_data"><div>2026-06-19 09:00:00</div><div>기자</div></div></li>
+  <li><a href="https://www.dailypharm.com/user/news/102"><div class="lin_title">디지털헬스 솔루션 도입</div></a><div class="lin_data"><div>2026-06-18 08:00:00</div><div>기자</div></div></li>
 </ul>`;
 
-test('parseDailypharm: 제목을 가장 가까운 앞쪽 기사 링크와 짝짓는다', () => {
+test('parseDailypharm: 제목+링크+발행일을 짝짓는다', () => {
   const rows = parseDailypharm(DP_HTML);
   assert.equal(rows.length, 3);
-  assert.deepEqual(rows[0], { url: 'https://www.dailypharm.com/user/news/100', title: '바텍, AI 역량평가 신설' });
+  assert.deepEqual(rows[0], { url: 'https://www.dailypharm.com/user/news/100', title: '바텍, AI 역량평가 신설', publishedAt: '2026-06-20' });
   assert.equal(rows[2].title, '디지털헬스 솔루션 도입');
+  assert.equal(rows[2].publishedAt, '2026-06-18');
 });
 
 test('fetchPharma: scrape 소스에서 AI 항목만 pharma로 수집한다', async () => {
@@ -86,11 +87,13 @@ const KPANET_HTML = `<table><tbody>
     <td class='regDate'>2026-05-27</td></tr>
 </tbody></table>`;
 
-test('parseKpanet: boardSeq+제목을 뽑고 보기 URL을 만든다', () => {
+test('parseKpanet: boardSeq+제목+발행일을 뽑고 보기 URL을 만든다', () => {
   const rows = parseKpanet(KPANET_HTML, '1002020000');
   assert.equal(rows.length, 2);
   assert.equal(rows[0].title, "대한약사회, '미래약사 AI 역량 강화 교육' 개최");
   assert.equal(rows[0].url, 'https://www.kpanet.or.kr/board.cm?menuCd=1002020000&boardSeq=225155');
+  assert.equal(rows[0].publishedAt, '2026-06-16');
+  assert.equal(rows[1].publishedAt, '2026-05-27');
 });
 
 test('fetchPharma: kpanet POST 소스에서 AI 항목만 수집한다', async () => {

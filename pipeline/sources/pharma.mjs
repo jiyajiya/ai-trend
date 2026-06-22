@@ -25,14 +25,19 @@ export function parseDailypharm(html) {
     .map((m) => ({ pos: m.index, url: m[1] }));
   const titles = [...html.matchAll(/class="lin_title"[^>]*>\s*([^<]{4,})/g)]
     .map((m) => ({ pos: m.index, title: m[1].trim() }));
+  // 날짜: 제목 뒤 .lin_data 첫 <div>YYYY-MM-DD ...
+  const dates = [...html.matchAll(/class="lin_data"[\s\S]{0,120}?<div>\s*(20\d\d-\d\d-\d\d)/g)]
+    .map((m) => ({ pos: m.index, date: m[1] }));
   const out = [];
   const seen = new Set();
   for (const t of titles) {
-    let best = null;
-    for (const l of links) if (l.pos < t.pos && (!best || l.pos > best.pos)) best = l;
-    if (best && !seen.has(best.url)) {
-      seen.add(best.url);
-      out.push({ url: best.url, title: t.title });
+    let link = null;
+    for (const l of links) if (l.pos < t.pos && (!link || l.pos > link.pos)) link = l;
+    let date = null;
+    for (const d of dates) if (d.pos > t.pos && (!date || d.pos < date.pos)) date = d;
+    if (link && !seen.has(link.url)) {
+      seen.add(link.url);
+      out.push({ url: link.url, title: t.title, publishedAt: date ? date.date : '' });
     }
   }
   return out;
@@ -42,17 +47,21 @@ export function parseDailypharm(html) {
 // 각 행: onclick="fnCountUpHistCnt('<boardSeq>', ...)" + <div class='text-clamp'>제목.
 // 보기 URL은 /board.cm?menuCd=<menuCd>&boardSeq=<seq> 형태.
 export function parseKpanet(html, menuCd) {
-  const re = /fnCountUpHistCnt\(\s*.(\d+).[^)]*\)"[\s\S]{0,150}?text-clamp.[^>]*>\s*([^<]{4,})/g;
+  // 행 순서대로 seq+제목, 그리고 regDate(YYYY-MM-DD)를 같은 순서로 추출해 인덱스로 짝짓는다.
+  const rows = [...html.matchAll(/fnCountUpHistCnt\(\s*.(\d+).[^)]*\)"[\s\S]{0,150}?text-clamp.[^>]*>\s*([^<]{4,})/g)];
+  const dates = [...html.matchAll(/regDate.[^>]*>\s*(20\d\d-\d\d-\d\d)/g)].map((m) => m[1]);
   const out = [];
   const seen = new Set();
-  let m;
-  while ((m = re.exec(html))) {
+  rows.forEach((m, i) => {
     const seq = m[1];
-    const title = m[2].trim();
-    if (seen.has(seq)) continue;
+    if (seen.has(seq)) return;
     seen.add(seq);
-    out.push({ url: `https://www.kpanet.or.kr/board.cm?menuCd=${menuCd}&boardSeq=${seq}`, title });
-  }
+    out.push({
+      url: `https://www.kpanet.or.kr/board.cm?menuCd=${menuCd}&boardSeq=${seq}`,
+      title: m[2].trim(),
+      publishedAt: dates[i] || '',
+    });
+  });
   return out;
 }
 
@@ -107,7 +116,7 @@ export async function fetchPharma(pharma, deps, perRunCap) {
           source: site.source,
           title: r.title,
           url: r.url,
-          publishedAt: '',
+          publishedAt: r.publishedAt || '',
           rawText: r.title,
         });
       }
