@@ -1,5 +1,6 @@
 import { fileURLToPath } from 'node:url';
 import { fetchRssSources } from './sources/rss.mjs';
+import { fetchPharma } from './sources/pharma.mjs';
 import { fetchGithub, fetchHuggingface } from './sources/trending.mjs';
 import { fetchYoutube } from './sources/youtube.mjs';
 import { readJson, writeJson } from '../lib/jsonfile.mjs';
@@ -21,6 +22,8 @@ export async function collectRaw(sources, deps) {
   const groups = await Promise.all([
     fetchRssSources(sources.news || [], deps, cap)
       .then((news) => freshOnly(news, sources.maxAgeDays, nowMs)),
+    fetchPharma(sources.pharma || { rss: [], aiKeywords: [] }, deps, cap)
+      .then((pharma) => freshOnly(pharma, sources.maxAgeDays, nowMs)),
     fetchGithub(sources.github || { queries: [], perQuery: 0 }, deps),
     fetchHuggingface(sources.huggingface || { limit: 0 }, deps),
     fetchYoutube(sources.youtube || { channels: [], seedVideos: [] }, deps, cap),

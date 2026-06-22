@@ -8,7 +8,7 @@ test('viewType: sourceType과 source로 표시 타입을 정한다', () => {
   assert.equal(viewType({ sourceType: 'model' }), 'model');
   assert.equal(viewType({ sourceType: 'news', source: 'GeekNews' }), 'sns');
   assert.equal(viewType({ sourceType: 'news', source: 'r/LocalLLaMA' }), 'sns');
-  assert.equal(viewType({ sourceType: 'news', source: 'Towards Data Science' }), 'blog');
+  assert.equal(viewType({ sourceType: 'pharma', source: '약사공론' }), 'pharma');
   assert.equal(viewType({ sourceType: 'news', source: '요즘IT' }), 'blog');
   assert.equal(viewType({ sourceType: 'news', source: 'OpenAI' }), 'news');
 });
@@ -98,11 +98,13 @@ test('groupColumns: sns/blog는 한 컬럼, repo/model/paper는 컬럼 제외', 
   const items = [
     { type: 'news' }, { type: 'video' },
     { type: 'sns' }, { type: 'blog' }, { type: 'repo' }, { type: 'model' },
+    { type: 'pharma' },
   ];
   const c = groupColumns(items);
   assert.equal(c.news.length, 1);
   assert.equal(c.video.length, 1);
   assert.equal(c.snsblog.length, 2);
+  assert.equal(c.pharma.length, 1);
   assert.ok(!('paper' in c));
 });
 
