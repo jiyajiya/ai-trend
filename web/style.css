@@ -16,11 +16,13 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pretendard', -apple-system, sans-serif; }
 
-.app { display: flex; min-height: 100vh; background: var(--page); }
+/* 앱 셸: 뷰포트에 고정하고 각 칸이 독립 스크롤 (사이드바·패널 고정, 피드만 스크롤) */
+.app { display: flex; height: 100vh; overflow: hidden; background: var(--page); }
 
 /* ── Sidebar ───────────────────────────────────────────────────────────── */
 .sidebar { width: 264px; flex: none; display: flex; flex-direction: column; gap: 6px;
-  padding: 22px 18px; background: var(--surface); border-right: 1px solid var(--border); }
+  padding: 22px 18px; background: var(--surface); border-right: 1px solid var(--border);
+  overflow-y: auto; }
 .brand { display: flex; align-items: center; gap: 12px; padding: 4px 6px 14px; }
 .logo { width: 40px; height: 40px; flex: none; border-radius: 11px; color: #fff; font-size: 20px;
   display: flex; align-items: center; justify-content: center;
@@ -50,7 +52,7 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
   font-family: inherit; font-size: 13.5px; font-weight: 600; color: var(--text); }
 
 /* ── Main ──────────────────────────────────────────────────────────────── */
-.main { flex: none; width: var(--feed-w); padding: 34px 40px 60px; }
+.main { flex: none; width: var(--feed-w); padding: 34px 40px 60px; overflow-y: auto; }
 /* 패널이 닫혀 있으면 피드를 남는 공간 중앙에 배치(좌측 빈 거터 제거) */
 .app:not(:has(.panel[data-open="true"])) .main { margin-inline: auto; }
 .main-head { display: flex; align-items: flex-start; gap: 24px; margin-bottom: 26px; }
@@ -94,7 +96,8 @@ body { margin: 0; background: var(--page); color: var(--text); font-family: 'Pre
 
 /* ── Responsive ────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .app { flex-direction: column; }
+  .app { flex-direction: column; height: auto; overflow: visible; }
+  .sidebar, .main { overflow: visible; }
   .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 10px; border-right: none; border-bottom: 1px solid var(--border); }
   .brand { padding: 0; }
   .nav-label { display: none; }
