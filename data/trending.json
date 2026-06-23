@@ -1,118 +1,5 @@
 [
   {
-    "id": "d8ff876dfb1eadf0",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "nexu-io/open-design",
-    "url": "https://github.com/nexu-io/open-design",
-    "publishedAt": "2026-04-28T04:25:20Z",
-    "rawText": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-    "score": 68586,
-    "lang": "TypeScript",
-    "rank": 1,
-    "summaryKo": "open-design은 로컬 우선·오픈소스로 만든 'Claude Design' 대안 네이티브 데스크톱 앱이다. 259개 이상의 스킬과 142개 이상의 디자인 시스템을 갖추고 웹·데스크톱·모바일 프로토타입, 슬라이드·이미지·영상을 샌드박스 미리보기와 HTML/PDF/PPTX/MP4 내보내기로 제작하며 Claude Code·Codex·Cursor 등과 연동된다.",
-    "tags": [
-      "디자인 도구",
-      "오픈소스",
-      "로컬 우선",
-      "코딩에이전트"
-    ],
-    "entities": [
-      "open-design",
-      "Claude Code",
-      "Codex",
-      "Cursor"
-    ],
-    "cats": [
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "aeaa2391b8159c2b",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-    "publishedAt": "2026-06-10T07:24:02.000Z",
-    "rawText": "text-generation | gguf, gemma4, coding, code, reasoning, thinking, llama.cpp, local-llm",
-    "score": 1692,
-    "rank": 1,
-    "summaryKo": "gemma-4-12B-coder-fable5-composer2.5 GGUF는 코딩·추론에 특화한 Gemma 4 12B 기반 커뮤니티 파인튜닝 모델의 양자화(GGUF) 버전이다. llama.cpp로 로컬에서 구동할 수 있는 로컬 LLM 형태로 제공된다.",
-    "tags": [
-      "Gemma 4",
-      "코딩 모델",
-      "GGUF",
-      "로컬 LLM"
-    ],
-    "entities": [
-      "Gemma 4",
-      "llama.cpp"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "38c3408d933af173",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "DietrichGebert/ponytail",
-    "url": "https://github.com/DietrichGebert/ponytail",
-    "publishedAt": "2026-06-12T00:52:37Z",
-    "rawText": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "score": 45966,
-    "lang": "JavaScript",
-    "rank": 2,
-    "summaryKo": "ponytail은 AI 에이전트가 '방 안에서 가장 게으른 시니어 개발자'처럼 생각하게 만드는 도구다. '가장 좋은 코드는 작성하지 않은 코드'라는 철학으로, 에이전트가 불필요한 코드를 줄이고 최소한으로 문제를 해결하도록 유도한다.",
-    "tags": [
-      "코딩에이전트",
-      "미니멀리즘",
-      "개발 철학"
-    ],
-    "entities": [
-      "ponytail"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "9ec90332da9eec1d",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "zai-org/GLM-5.2",
-    "url": "https://huggingface.co/zai-org/GLM-5.2",
-    "publishedAt": "2026-06-16T07:39:20.000Z",
-    "rawText": "text-generation | transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763",
-    "score": 1677,
-    "rank": 2,
-    "summaryKo": "Z.ai(zai-org)가 공개한 GLM-5.2는 글로벌 MoE 구조(glm_moe_dsa)의 텍스트 생성·대화형 프런티어 모델로 영어·중국어를 지원한다. 오픈웨이트로 공개돼 코딩·에이전트 영역에서 상용 모델 대안으로 주목받는다.",
-    "tags": [
-      "GLM-5.2",
-      "MoE",
-      "오픈웨이트",
-      "LLM"
-    ],
-    "entities": [
-      "GLM-5.2",
-      "Z.ai"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
     "id": "b5590ec052a4f771",
     "sourceType": "repo",
     "source": "GitHub",
@@ -138,206 +25,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-19T08:19:20.460Z"
-  },
-  {
-    "id": "bb9f0adb0966586b",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "XiaomiMiMo/MiMo-Code",
-    "url": "https://github.com/XiaomiMiMo/MiMo-Code",
-    "publishedAt": "2026-06-10T11:52:41Z",
-    "rawText": "MiMo Code: Where Models and Agents Co-Evolve",
-    "score": 10180,
-    "lang": "TypeScript",
-    "rank": 3,
-    "summaryKo": "샤오미가 공개한 MiMo-Code는 '모델과 에이전트가 함께 진화한다(Co-Evolve)'를 표방하는 코딩 프로젝트다. 모델과 에이전트를 분리하지 않고 상호 발전시키는 방향을 제시한다.",
-    "tags": [
-      "코딩에이전트",
-      "모델",
-      "샤오미"
-    ],
-    "entities": [
-      "MiMo-Code",
-      "Xiaomi"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "47804a16621af879",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "WeiboAI/VibeThinker-3B",
-    "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
-    "publishedAt": "2026-06-12T11:43:29.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen2, text-generation, math, code, reasoning, gpqa",
-    "score": 544,
-    "rank": 3,
-    "summaryKo": "WeiboAI의 VibeThinker-3B는 수학·코드·추론에 특화한 30억 파라미터 규모의 소형 모델이다. Qwen2 기반으로 GPQA 등 추론 벤치마크를 겨냥해, 작은 크기에도 강한 사고 능력을 노린다.",
-    "tags": [
-      "소형 모델",
-      "추론",
-      "수학",
-      "코드"
-    ],
-    "entities": [
-      "VibeThinker-3B",
-      "WeiboAI",
-      "Qwen2"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "100adeb9b2f158ec",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "nexu-io/html-anything",
-    "url": "https://github.com/nexu-io/html-anything",
-    "publishedAt": "2026-05-11T09:40:38Z",
-    "rawText": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-    "score": 7074,
-    "lang": "HTML",
-    "rank": 4,
-    "summaryKo": "html-anything은 로컬 AI 에이전트가 HTML을 직접 작성해 바로 배포할 수 있게 해주는 '에이전틱 HTML 에디터'다. 75개 스킬과 매거진·덱·포스터·트윗·프로토타입 등 9개 표면을 지원하고, 샌드박스 미리보기와 WeChat/X/HTML/PNG로의 원클릭 내보내기를 제공하며 API 키 없이 Claude Code·Cursor 등과 동작한다.",
-    "tags": [
-      "HTML 에디터",
-      "코딩에이전트",
-      "콘텐츠 제작"
-    ],
-    "entities": [
-      "html-anything",
-      "Claude Code",
-      "Cursor"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "06645d3950f1ca05",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "MiniMaxAI/MiniMax-M3",
-    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-    "publishedAt": "2026-06-02T07:49:31.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal, moe, agent, coding",
-    "score": 529,
-    "rank": 4,
-    "summaryKo": "MiniMaxAI의 MiniMax-M3는 이미지-텍스트 입력을 처리하는 멀티모달 MoE 모델로, 에이전트·코딩 활용을 겨냥한다. 멀티모달과 전문가 혼합(MoE) 구조를 결합해 비전 이해와 도구 사용을 함께 노린다.",
-    "tags": [
-      "멀티모달",
-      "MoE",
-      "에이전트",
-      "코딩"
-    ],
-    "entities": [
-      "MiniMax-M3",
-      "MiniMaxAI"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "c45bf202eddbb676",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "opensquilla/opensquilla",
-    "url": "https://github.com/opensquilla/opensquilla",
-    "publishedAt": "2026-05-06T17:43:05Z",
-    "rawText": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
-    "score": 4514,
-    "lang": "Python",
-    "rank": 5,
-    "summaryKo": "OpenSquilla는 같은 예산으로 더 높은 '지능 밀도'를 내는 것을 목표로 한 토큰 효율적 AI 에이전트다. 제한된 토큰 비용 안에서 더 나은 결과를 내도록 설계됐다.",
-    "tags": [
-      "AI 에이전트",
-      "토큰 효율",
-      "비용 최적화"
-    ],
-    "entities": [
-      "OpenSquilla"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "9c6b3767dab8df03",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "moonshotai/Kimi-K2.7-Code",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-    "publishedAt": "2026-06-11T07:51:47.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, kimi_k25, image-feature-extraction, compressed-tensors, image-text-to-text, conversational, custom_code",
-    "score": 294,
-    "rank": 5,
-    "summaryKo": "Moonshot AI의 Kimi-K2.7-Code는 코딩에 특화한 이미지-텍스트 입력 지원 모델이다. compressed-tensors로 압축돼 제공되며 대화형·커스텀 코드 활용을 지원한다.",
-    "tags": [
-      "코딩 모델",
-      "멀티모달",
-      "Kimi"
-    ],
-    "entities": [
-      "Kimi-K2.7-Code",
-      "Moonshot AI"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "c53347638b893177",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "omnigent-ai/omnigent",
-    "url": "https://github.com/omnigent-ai/omnigent",
-    "publishedAt": "2026-06-11T12:18:13Z",
-    "rawText": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-    "score": 4319,
-    "lang": "Python",
-    "rank": 6,
-    "summaryKo": "Omnigent은 Claude Code·Codex·Cursor·Pi 등 다양한 에이전트를 오케스트레이션하는 오픈소스 AI 에이전트 프레임워크이자 메타 하네스다. 코드 재작성 없이 하네스를 교체하고, 정책·샌드박싱을 강제하며, 어떤 기기에서든 실시간으로 협업할 수 있게 한다.",
-    "tags": [
-      "에이전트 프레임워크",
-      "오케스트레이션",
-      "메타 하네스",
-      "오픈소스"
-    ],
-    "entities": [
-      "Omnigent",
-      "Claude Code",
-      "Codex",
-      "Cursor",
-      "Pi"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
   },
   {
     "id": "83c356e41d1af81a",
@@ -370,141 +57,6 @@
     "fetchedAt": "2026-06-22T00:10:18.877Z"
   },
   {
-    "id": "3bb844ba1fd62c09",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "WenyuChiou/awesome-agentic-ai-zh",
-    "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
-    "publishedAt": "2026-05-04T22:18:51Z",
-    "rawText": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
-    "score": 3126,
-    "lang": "Python",
-    "rank": 7,
-    "summaryKo": "awesome-agentic-ai-zh는 LLM 기초부터 멀티에이전트 시스템까지 다루는 에이전틱 AI 학습 로드맵이다. 번체·영어·간체 3개 언어로 240개 이상의 선별 자료와 실습 예제를 제공한다.",
-    "tags": [
-      "에이전틱 AI",
-      "학습 로드맵",
-      "멀티에이전트"
-    ],
-    "entities": [
-      "awesome-agentic-ai-zh"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "20e564b75524c6e7",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-    "publishedAt": "2026-06-19T00:06:07.000Z",
-    "rawText": "text-generation | gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking",
-    "score": 246,
-    "rank": 7,
-    "summaryKo": "gemma-4-12B-agentic-fable5-composer2.5 GGUF는 에이전트·터미널·툴 사용에 특화한 Gemma 4 12B 기반 파인튜닝 모델의 양자화 버전이다. 코딩과 도구 호출, 추론을 겨냥해 로컬에서 에이전트형 작업을 돌릴 수 있게 한다.",
-    "tags": [
-      "Gemma 4",
-      "에이전트",
-      "툴 사용",
-      "GGUF"
-    ],
-    "entities": [
-      "Gemma 4"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "53f4eadc7b350b99",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Open-Less/openless",
-    "url": "https://github.com/Open-Less/openless",
-    "publishedAt": "2026-04-27T07:25:49Z",
-    "rawText": "Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)",
-    "score": 2452,
-    "lang": "HTML",
-    "rank": 8,
-    "summaryKo": "openless는 단축키를 누른 채 말하고 떼면 AI로 다듬어진 텍스트가 커서 위치에 입력되는 오픈소스 음성 입력 도구다. macOS와 Windows를 지원하며 어떤 앱에서나 사용할 수 있다.",
-    "tags": [
-      "음성 입력",
-      "오픈소스",
-      "생산성"
-    ],
-    "entities": [
-      "openless"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "6d5b48bf1d5e8f91",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "unsloth/GLM-5.2-GGUF",
-    "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
-    "publishedAt": "2026-06-17T00:21:36.000Z",
-    "rawText": "text-generation | gguf, glm_moe_dsa, unsloth, text-generation, en, zh, arxiv:2602.15763, arxiv:2603.12201",
-    "score": 215,
-    "rank": 8,
-    "summaryKo": "unsloth/GLM-5.2-GGUF는 Z.ai의 GLM-5.2를 unsloth가 양자화한 GGUF 배포본으로 영어·중국어를 지원한다. llama.cpp 등으로 로컬 환경에서 GLM-5.2를 더 가볍게 구동할 수 있게 한다.",
-    "tags": [
-      "GLM-5.2",
-      "GGUF",
-      "양자화",
-      "로컬 LLM"
-    ],
-    "entities": [
-      "GLM-5.2",
-      "unsloth",
-      "Z.ai"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "84d0bed60df95acc",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "kadevin/ilab-gpt-conjure",
-    "url": "https://github.com/kadevin/ilab-gpt-conjure",
-    "publishedAt": "2026-06-08T08:20:30Z",
-    "rawText": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-compatible API support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management.",
-    "score": 551,
-    "lang": "JavaScript",
-    "rank": 9,
-    "summaryKo": "ilab-gpt-conjure는 GPT-image-2를 위한 AI 이미지 생성 WebUI 워크벤치다. Codex Responses와 OpenAI 호환 API 연동, 공용 이미지 갤러리, 다양한 칩 단축 인용, 프롬프트 템플릿, 다중 작업 동시 처리와 로컬 큐 관리를 지원한다.",
-    "tags": [
-      "이미지 생성",
-      "WebUI",
-      "GPT-image-2"
-    ],
-    "entities": [
-      "GPT-image-2",
-      "Codex",
-      "OpenAI"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
     "id": "4e16b83b003a111a",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -527,63 +79,6 @@
     "cats": [
       "멀티모달",
       "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "60a076ee36d2b3f6",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "NirDiamant/Agent_Memory_Techniques",
-    "url": "https://github.com/NirDiamant/Agent_Memory_Techniques",
-    "publishedAt": "2026-05-05T21:08:23Z",
-    "rawText": "Agent memory for LLMs: 30 runnable Jupyter notebooks covering conversation buffers, vector stores, knowledge graphs, episodic and semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo benchmarks, and production patterns.",
-    "score": 542,
-    "lang": "Jupyter Notebook",
-    "rank": 10,
-    "summaryKo": "Agent_Memory_Techniques는 LLM 에이전트의 메모리 기법을 실행 가능한 30개 주피터 노트북으로 정리한 자료다. 대화 버퍼·벡터 스토어·지식 그래프·에피소드/시맨틱 메모리와 MemGPT·Mem0·Letta·Zep·Graphiti, LoCoMo 벤치마크, 프로덕션 패턴까지 다룬다.",
-    "tags": [
-      "에이전트 메모리",
-      "RAG",
-      "지식 그래프",
-      "튜토리얼"
-    ],
-    "entities": [
-      "MemGPT",
-      "Mem0",
-      "Letta",
-      "Zep",
-      "Graphiti"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "59b8a8cfdd3db7b2",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "nvidia/LocateAnything-3B",
-    "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-    "publishedAt": "2026-03-02T20:05:49.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, locateanything, image-feature-extraction, nvidia, eagle, vision, object-detection",
-    "score": 210,
-    "rank": 10,
-    "summaryKo": "NVIDIA의 LocateAnything-3B는 객체 탐지(object detection)에 특화한 비전 모델로, 이미지에서 대상을 찾아내는 작업을 겨냥한다. Eagle 계열 비전 구조 기반의 이미지-텍스트 모델로 제공된다.",
-    "tags": [
-      "비전",
-      "객체 탐지",
-      "멀티모달"
-    ],
-    "entities": [
-      "LocateAnything-3B",
-      "NVIDIA"
-    ],
-    "cats": [
-      "멀티모달"
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-22T00:10:18.877Z"
@@ -616,6 +111,457 @@
     "fetchedAt": "2026-06-19T06:09:07.075Z"
   },
   {
+    "id": "d8ff876dfb1eadf0",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
+    "publishedAt": "2026-04-28T04:25:20Z",
+    "rawText": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+    "summaryKo": "Claude Design의 로컬 우선·오픈소스 대안인 'open-design'. 네이티브 데스크톱 앱으로 259+ 스킬과 142+ 디자인 시스템을 갖추고 웹·데스크톱·모바일 프로토타입, 슬라이드, 이미지, 영상을 샌드박스 미리보기와 HTML/PDF/PPTX/MP4 내보내기로 만든다.",
+    "tags": [
+      "오픈소스",
+      "AI디자인",
+      "로컬퍼스트",
+      "프로토타이핑"
+    ],
+    "entities": [
+      "open-design",
+      "Claude Design",
+      "Claude Code"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "aeaa2391b8159c2b",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+    "publishedAt": "2026-06-10T07:24:02.000Z",
+    "rawText": "text-generation | gguf, gemma4, coding, code, reasoning, thinking, llama.cpp, local-llm",
+    "summaryKo": "Gemma 4 12B를 코딩·추론용으로 튜닝한 'gemma-4-12B-coder-fable5-composer2.5-v1'의 GGUF 양자화 버전. llama.cpp로 로컬에서 구동할 수 있는 코드·추론 특화 로컬 LLM이다.",
+    "tags": [
+      "Gemma4",
+      "코딩모델",
+      "GGUF",
+      "로컬LLM"
+    ],
+    "entities": [
+      "Gemma 4",
+      "llama.cpp"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "38c3408d933af173",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "publishedAt": "2026-06-12T00:52:37Z",
+    "rawText": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "summaryKo": "AI 에이전트가 '방에서 가장 게으른 시니어 개발자'처럼 생각하게 만드는 도구 'ponytail'. 가장 좋은 코드는 결코 작성하지 않은 코드라는 철학으로, 에이전트가 불필요한 구현을 줄이도록 유도한다.",
+    "tags": [
+      "AI에이전트",
+      "코딩도구",
+      "미니멀리즘"
+    ],
+    "entities": [
+      "ponytail"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "9ec90332da9eec1d",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "zai-org/GLM-5.2",
+    "url": "https://huggingface.co/zai-org/GLM-5.2",
+    "publishedAt": "2026-06-16T07:39:20.000Z",
+    "rawText": "text-generation | transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763",
+    "summaryKo": "Z.ai의 오픈 가중치 대형언어모델 'GLM-5.2'. glm_moe_dsa 아키텍처 기반의 MoE 텍스트 생성 모델로 영어·중국어 대화를 지원하며 safetensors로 공개됐다.",
+    "tags": [
+      "GLM-5.2",
+      "MoE",
+      "오픈웨이트",
+      "LLM"
+    ],
+    "entities": [
+      "GLM-5.2",
+      "Z.ai"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "bb9f0adb0966586b",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "XiaomiMiMo/MiMo-Code",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "publishedAt": "2026-06-10T11:52:41Z",
+    "rawText": "MiMo Code: Where Models and Agents Co-Evolve",
+    "summaryKo": "샤오미가 공개한 'MiMo-Code'. 모델과 에이전트가 함께 진화(co-evolve)하는 것을 표방하는 코딩 특화 프로젝트다.",
+    "tags": [
+      "코딩모델",
+      "AI에이전트",
+      "샤오미"
+    ],
+    "entities": [
+      "MiMo-Code",
+      "XiaomiMiMo"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "47804a16621af879",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "WeiboAI/VibeThinker-3B",
+    "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+    "publishedAt": "2026-06-12T11:43:29.000Z",
+    "rawText": "text-generation | transformers, safetensors, qwen2, text-generation, math, code, reasoning, gpqa",
+    "summaryKo": "Weibo AI의 'VibeThinker-3B'. Qwen2 계열의 3B 소형 모델로 수학·코드·추론(GPQA)에 특화된 텍스트 생성 모델이다.",
+    "tags": [
+      "VibeThinker",
+      "추론모델",
+      "소형LLM",
+      "수학"
+    ],
+    "entities": [
+      "VibeThinker-3B",
+      "WeiboAI",
+      "Qwen2"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "100adeb9b2f158ec",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "nexu-io/html-anything",
+    "url": "https://github.com/nexu-io/html-anything",
+    "publishedAt": "2026-05-11T09:40:38Z",
+    "rawText": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
+    "summaryKo": "로컬 AI 에이전트가 HTML을 작성하고 사용자는 배포만 하는 에이전트형 HTML 편집기 'html-anything'. 75개 스킬과 9개 서피스(매거진·덱·포스터·트윗·프로토타입·데이터 리포트 등)를 지원하고 샌드박스 미리보기와 위챗/X 등 원클릭 공유, API 키 불필요가 특징이다.",
+    "tags": [
+      "AI에디터",
+      "HTML생성",
+      "오픈소스"
+    ],
+    "entities": [
+      "html-anything",
+      "Claude Code",
+      "Cursor"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "06645d3950f1ca05",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "MiniMaxAI/MiniMax-M3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+    "publishedAt": "2026-06-02T07:49:31.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal, moe, agent, coding",
+    "summaryKo": "MiniMax의 멀티모달 MoE 모델 'MiniMax-M3'. 이미지-텍스트를 입력받는 image-text-to-text 모델로 에이전트·코딩 활용을 겨냥한다.",
+    "tags": [
+      "MiniMax-M3",
+      "멀티모달",
+      "MoE",
+      "에이전트"
+    ],
+    "entities": [
+      "MiniMax-M3",
+      "MiniMaxAI"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "c45bf202eddbb676",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "opensquilla/opensquilla",
+    "url": "https://github.com/opensquilla/opensquilla",
+    "publishedAt": "2026-05-06T17:43:05Z",
+    "rawText": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+    "summaryKo": "동일 예산으로 더 높은 지능 밀도를 내는 토큰 효율적 AI 에이전트 'OpenSquilla'. 같은 비용 안에서 더 똑똑하게 동작하도록 토큰 사용을 최적화하는 것을 목표로 한다.",
+    "tags": [
+      "AI에이전트",
+      "토큰효율",
+      "오픈소스"
+    ],
+    "entities": [
+      "OpenSquilla"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "9c6b3767dab8df03",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "moonshotai/Kimi-K2.7-Code",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+    "publishedAt": "2026-06-11T07:51:47.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, kimi_k25, image-feature-extraction, compressed-tensors, image-text-to-text, conversational, custom_code",
+    "summaryKo": "Moonshot AI의 코딩 특화 모델 'Kimi-K2.7-Code'. kimi_k25 아키텍처 기반의 멀티모달(image-text-to-text) 대화 모델로 compressed-tensors로 공개됐다.",
+    "tags": [
+      "Kimi-K2.7",
+      "코딩모델",
+      "Moonshot"
+    ],
+    "entities": [
+      "Kimi-K2.7-Code",
+      "moonshotai"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "c53347638b893177",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "omnigent-ai/omnigent",
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "publishedAt": "2026-06-11T12:18:13Z",
+    "rawText": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+    "summaryKo": "Claude Code·Codex·Cursor·Pi 등 다양한 에이전트를 오케스트레이션하는 오픈소스 메타-하네스 'Omnigent'. 하네스를 바꿔도 재작성 없이 정책·샌드박싱을 강제하고 어떤 기기에서도 실시간 협업할 수 있게 한다.",
+    "tags": [
+      "에이전트 프레임워크",
+      "메타하네스",
+      "오케스트레이션"
+    ],
+    "entities": [
+      "Omnigent",
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "3bb844ba1fd62c09",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "WenyuChiou/awesome-agentic-ai-zh",
+    "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+    "publishedAt": "2026-05-04T22:18:51Z",
+    "rawText": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+    "summaryKo": "에이전틱 AI를 위한 3개 국어(번체·영어·간체) 학습 로드맵 'awesome-agentic-ai-zh'. LLM 기초부터 멀티에이전트 시스템까지 240여 개 큐레이션 자료와 실습 예제를 담은 중국어권 AI 에이전트 학습 지도다.",
+    "tags": [
+      "에이전트 학습",
+      "큐레이션",
+      "멀티에이전트"
+    ],
+    "entities": [
+      "awesome-agentic-ai-zh"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "20e564b75524c6e7",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+    "publishedAt": "2026-06-19T00:06:07.000Z",
+    "rawText": "text-generation | gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking",
+    "summaryKo": "Gemma 4 12B를 에이전틱·터미널·도구 사용에 맞춰 튜닝한 'gemma-4-12B-agentic-fable5-composer2.5-v2'의 GGUF 버전. 코딩과 도구 호출, 추론에 특화된 로컬 구동용 에이전트 모델이다.",
+    "tags": [
+      "Gemma4",
+      "에이전틱",
+      "도구사용",
+      "GGUF"
+    ],
+    "entities": [
+      "Gemma 4"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "53f4eadc7b350b99",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "Open-Less/openless",
+    "url": "https://github.com/Open-Less/openless",
+    "publishedAt": "2026-04-27T07:25:49Z",
+    "rawText": "Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)",
+    "summaryKo": "단축키를 누른 채 말하고 떼면 AI가 다듬은 텍스트가 커서 위치에 바로 입력되는 오픈소스 음성 입력 도구 'openless'. macOS·Windows에서 어떤 앱에서든 사용할 수 있다.",
+    "tags": [
+      "음성입력",
+      "오픈소스",
+      "생산성"
+    ],
+    "entities": [
+      "openless"
+    ],
+    "cats": [
+      "멀티모달",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "6d5b48bf1d5e8f91",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "unsloth/GLM-5.2-GGUF",
+    "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
+    "publishedAt": "2026-06-17T00:21:36.000Z",
+    "rawText": "text-generation | gguf, glm_moe_dsa, unsloth, text-generation, en, zh, arxiv:2602.15763, arxiv:2603.12201",
+    "summaryKo": "Z.ai의 GLM-5.2를 unsloth가 GGUF로 양자화해 공개한 'GLM-5.2-GGUF'. glm_moe_dsa 기반 MoE 모델을 로컬에서 더 가볍게 구동할 수 있게 한 버전이다.",
+    "tags": [
+      "GLM-5.2",
+      "GGUF",
+      "unsloth",
+      "로컬LLM"
+    ],
+    "entities": [
+      "GLM-5.2",
+      "unsloth"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "84d0bed60df95acc",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "kadevin/ilab-gpt-conjure",
+    "url": "https://github.com/kadevin/ilab-gpt-conjure",
+    "publishedAt": "2026-06-08T08:20:30Z",
+    "rawText": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-compatible API support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management.",
+    "summaryKo": "GPT-image-2를 겨냥한 AI 이미지 생성 WebUI 작업대 'ilab-gpt-conjure'. Codex Responses와 OpenAI 호환 API 연동을 지원하며 공용 갤러리, 다중 칩 빠른 참조, 프롬프트 템플릿, 다중 작업 동시 처리, 로컬 큐 관리를 내장했다.",
+    "tags": [
+      "이미지생성",
+      "WebUI",
+      "GPT-image-2"
+    ],
+    "entities": [
+      "ilab-gpt-conjure",
+      "GPT-image-2",
+      "Codex"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "60a076ee36d2b3f6",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "NirDiamant/Agent_Memory_Techniques",
+    "url": "https://github.com/NirDiamant/Agent_Memory_Techniques",
+    "publishedAt": "2026-05-05T21:08:23Z",
+    "rawText": "Agent memory for LLMs: 30 runnable Jupyter notebooks covering conversation buffers, vector stores, knowledge graphs, episodic and semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo benchmarks, and production patterns.",
+    "summaryKo": "LLM 에이전트 메모리를 다루는 'Agent_Memory_Techniques'. 대화 버퍼, 벡터 스토어, 지식 그래프, 일화·의미 기억, MemGPT·Mem0·Letta·Zep·Graphiti, LoCoMo 벤치마크와 프로덕션 패턴까지 30개의 실행 가능한 주피터 노트북으로 정리했다.",
+    "tags": [
+      "에이전트 메모리",
+      "벡터스토어",
+      "지식그래프",
+      "LLM"
+    ],
+    "entities": [
+      "Agent_Memory_Techniques",
+      "MemGPT",
+      "Mem0",
+      "Letta"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
+    "id": "59b8a8cfdd3db7b2",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "nvidia/LocateAnything-3B",
+    "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+    "publishedAt": "2026-03-02T20:05:49.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, locateanything, image-feature-extraction, nvidia, eagle, vision, object-detection",
+    "summaryKo": "NVIDIA의 비전 모델 'LocateAnything-3B'. Eagle 기반의 이미지-텍스트 모델로 객체 탐지·이미지 특징 추출 등 위치 파악(localization) 비전 과제를 겨냥한 3B 규모 모델이다.",
+    "tags": [
+      "비전모델",
+      "객체탐지",
+      "멀티모달"
+    ],
+    "entities": [
+      "LocateAnything-3B",
+      "NVIDIA"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
+  },
+  {
     "id": "ea2970d8679d2d55",
     "sourceType": "repo",
     "source": "GitHub",
@@ -623,24 +569,21 @@
     "url": "https://github.com/fancyboi999/ai-engineering-from-scratch-zh",
     "publishedAt": "2026-05-26T12:45:07Z",
     "rawText": "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南",
-    "score": 447,
-    "lang": "Python",
-    "rank": 11,
-    "summaryKo": "ai-engineering-from-scratch-zh는 'AI 에이전트 엔지니어가 되는 법'을 표방한 중국어 학습 경로 자료다. 20단계 503개 강의를 중국어로 전량 번역하고 동반 사이트와 애니메이션 강의 영상을 제공하며 AI 공학을 처음부터 익히도록 구성됐다.",
+    "summaryKo": "AI 엔지니어가 되기 위한 학습 경로 'ai-engineering-from-scratch-zh'. 20단계 503개 강의로 제로부터 AI 엔지니어링을 익히도록 구성한 중국어 전량 번역 + 부속 사이트 + 애니메이션 강의 자료다.",
     "tags": [
-      "AI 엔지니어링",
-      "학습 로드맵",
+      "AI엔지니어링",
+      "학습로드맵",
       "에이전트"
     ],
     "entities": [
       "ai-engineering-from-scratch-zh"
     ],
     "cats": [
-      "코딩·개발",
-      "에이전트"
+      "에이전트",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
   },
   {
     "id": "05a74004d0aa7653",
@@ -698,22 +641,22 @@
     "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
     "publishedAt": "2026-04-17T00:15:26.000Z",
     "rawText": "image-text-to-text | gguf, uncensored, qwen3.6, moe, vision, multimodal, image-text-to-text, en",
-    "summaryKo": "Qwen3.6-35B-A3B 기반의 무검열(uncensored) 멀티모달 모델로, 비전과 텍스트를 함께 처리하는 MoE 구조다. GGUF로 배포돼 로컬에서 구동 가능하며 제약을 줄인 응답을 지향한다.",
+    "summaryKo": "Qwen3.6-35B-A3B를 검열 해제(uncensored)로 튜닝한 'Qwen3.6-35B-A3B-Uncensored-Aggressive'의 GGUF 버전. MoE·비전을 갖춘 멀티모달 모델로 로컬 구동을 겨냥한다.",
     "tags": [
-      "LLM",
-      "멀티모달",
+      "Qwen3.6",
+      "uncensored",
       "MoE",
-      "무검열"
+      "멀티모달"
     ],
     "entities": [
-      "Qwen3.6"
+      "Qwen3.6-35B-A3B"
     ],
     "cats": [
       "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-06-21T00:00:34.862Z"
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
   },
   {
     "id": "1213b1fe393ba1d0",
@@ -738,5 +681,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-21T00:00:34.862Z"
+  },
+  {
+    "id": "e941a95934ee511d",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "publishedAt": "2026-05-15T21:52:25.000Z",
+    "rawText": "automatic-speech-recognition | nemo, speech-recognition, cache-aware ASR, automatic-speech-recognition, streaming-asr, multilingual, speech, audio",
+    "summaryKo": "NVIDIA의 스트리밍 음성인식 모델 'nemotron-3.5-asr-streaming-0.6b'. NeMo 기반의 0.6B 캐시 인식(cache-aware) 스트리밍 ASR로 다국어 실시간 음성 전사를 겨냥한다.",
+    "tags": [
+      "ASR",
+      "스트리밍",
+      "음성인식",
+      "Nemotron"
+    ],
+    "entities": [
+      "nemotron-3.5-asr-streaming",
+      "NVIDIA",
+      "NeMo"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-23T00:18:22.436Z"
   }
 ]
