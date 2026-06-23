@@ -8,7 +8,7 @@ const FEEDS = [
   { key: 'repo', label: 'GitHub', group: 'media', dot: 'var(--accent)', sub: '지금 뜨는 GitHub 레포 (최근 생성·스타순)' },
   { key: 'model', label: 'HuggingFace', group: 'media', dot: 'var(--c-paper)', sub: '지금 뜨는 HuggingFace 모델 (trendingScore순)' },
   { key: 'pharma', label: '약사', group: 'domain', dot: 'var(--c-blog)', sub: '약업·약사 분야의 AI 관련 소식' },
-  { key: 'leaderboard', label: '🏆 추천 모델', group: 'domain', dot: 'var(--accent)', sub: '주요 리더보드 종합 — 영역별 추천 모델 (매일 갱신)' },
+  { key: 'leaderboard', label: '🏆 추천 모델', group: 'view', dot: 'var(--accent)', sub: '주요 리더보드 종합 — 영역별 추천 모델 (매일 갱신)' },
   { key: 'skills', label: '🧰 추천 스킬', group: 'view', dot: 'var(--accent)', sub: 'AX 개발팀이 쓰는 Claude Code 스킬 — 설치법과 사용법' },
   { key: 'bookmark', label: '⭐ 북마크', group: 'view', dot: 'var(--accent)', sub: '★ 저장한 항목만 모아보기' },
 ];
