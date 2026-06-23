@@ -17,6 +17,7 @@ AI 관련 트렌드(영상·소셜/블로그·뉴스·약사·GitHub·HuggingFac
 - **② 중앙 리더**: 선택한 피드를 넓은 카드로 한 편씩 — 제목·한국어 요약·출처·시간·태그·북마크(★)
 - **③ 우측 상세 분석 패널**: 카드를 클릭하면 핵심 포인트·상세 정리·인용을 표시(영상은 자막 기반 분석)
 - **🏆 추천 모델(분야 메뉴)**: LMSYS Arena · Artificial Analysis · LLM Stats · Vellum 등 주요 리더보드를 종합한 **영역별 추천 모델**(종합지능·추론·코딩·수학·시각·이미지생성·오픈웨이트·가성비). 약사·전문(💊)/개발자(⚙️) 타깃 배지, 지표 설명·출처·기준일을 하단에 명시. **매일 웹검색으로 자동 갱신**(`data/leaderboard.json`).
+- **🧰 추천 스킬(보기 메뉴)**: AX 개발팀이 실무에서 쓰는 **Claude Code 스킬·플러그인 가이드**. 스킬마다 설치법·사용법·팁과 타깃 배지(💊/⚙️/all)를 카드로 정리. 현재 `claude-video`/`watch`(영상 요약·분석) 수록. 데이터는 `data/skills.json`(**수기 관리** — 파이프라인 자동 갱신 대상 아님).
 
 ### 카테고리
 `전체` · `LLM·모델` · `에이전트` · `코딩·개발` · `멀티모달` · `기업·정책`
@@ -41,6 +42,7 @@ web/ (index.html · app.js · adapt.mjs · style.css) ─▶ data/*.json 을 읽
 
 - 소스 정의: `sources.json` (뉴스/소셜·블로그 RSS, 약사 RSS·스크레이프, GitHub 토픽, HuggingFace, YouTube 채널)
 - 요약 규칙: `pipeline/RUNBOOK.md`
+- 추천 스킬 데이터: `data/skills.json` — 파이프라인 밖에서 **수기 관리**(자동 갱신 대상 아님), `web/`이 직접 읽어 렌더
 - 수집 기간 제한은 메뉴마다 다름(영상 30일 · 뉴스/소셜·블로그/약사 90일 · GitHub 60일). → 「[데이터 소스 · 수집 기준](#데이터-소스--수집-기준--키워드)」 참고
 
 ### 디렉터리
@@ -49,7 +51,7 @@ sources.json              # 소스 정의
 lib/                      # id·jsonfile·rss 파서
 pipeline/                 # fetch.mjs · merge.mjs · sources/* · run.sh · RUNBOOK.md · plist
 web/                      # 대시보드(정적): index.html · app.js · adapt.mjs · style.css
-data/                     # feed.json · trending.json (게시) / raw·summarized·state(로컬 전용)
+data/                     # feed.json · trending.json · leaderboard.json · skills.json (게시) / raw·summarized·state(로컬 전용)
 index.html                # 루트 → /web/ 리다이렉트
 docs/                     # 설계·계획·디자인 핸드오프
 ```
