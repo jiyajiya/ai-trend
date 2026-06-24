@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-06-23",
-  "windowLabel": "2026년 6월 18~22일 기준",
-  "updatedAt": "2026-06-23T00:17:20Z",
+  "asOf": "2026-06-24",
+  "windowLabel": "2026년 6월 18~23일 기준",
+  "updatedAt": "2026-06-24T00:17:53Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -79,11 +79,12 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1338", "basis": "Elo 1338, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "MAI-Image-2.5", "score": "Elo 1278", "basis": "Elo 1278", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT Image 1.5 (high)", "score": "Elo 1265", "basis": "Elo 1265", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Nano Banana 2", "score": "Elo 1255", "basis": "Elo 1255, Gemini 3.1 Flash Image", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1229", "basis": "오픈웨이트 1위, Elo 1229", "source": "artificialanalysis" }
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1339", "basis": "Elo 1339, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "MAI-Image-2.5", "score": "Elo 1276", "basis": "Elo 1276", "source": "artificialanalysis" },
+        { "rank": 3, "model": "GPT Image 1.5 (high)", "score": "Elo 1264", "basis": "Elo 1264", "source": "artificialanalysis" },
+        { "rank": 4, "model": "HiDream-O1-Image-1.5", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
+        { "rank": 5, "model": "Nano Banana 2", "score": "Elo 1254", "basis": "Elo 1254, Gemini 3.1 Flash Image", "source": "artificialanalysis" },
+        { "rank": 6, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1229", "basis": "오픈웨이트 1위, Elo 1229", "source": "artificialanalysis" }
       ]
     },
     {
@@ -108,8 +109,9 @@
       "metric": "1M 토큰당 가격",
       "note": "최저가 API — 대규모 쿼리·장기 운영 비용 절감.",
       "ranks": [
-        { "rank": 1, "model": "MiniMax M3", "score": "$0.60/M", "basis": "최저가 API", "source": "aitoolsera" },
-        { "rank": 2, "model": "Claude Haiku 4.5", "score": "—", "basis": "가격 기준 상위권", "source": "ailab" }
+        { "rank": 1, "model": "DeepSeek V4 Flash", "score": "$0.14/M", "basis": "최저가 API (입력 $0.14 / 출력 $0.28 per 1M)", "source": "pricepertoken" },
+        { "rank": 2, "model": "MiniMax M3", "score": "$0.30/M", "basis": "입력 $0.30 / 출력 $1.20, SWE-bench 80%+ 모델 중 최저가", "source": "pricepertoken" },
+        { "rank": 3, "model": "Claude Haiku 4.5", "score": "—", "basis": "가격 기준 상위권", "source": "ailab" }
       ]
     }
   ],
@@ -133,9 +135,9 @@
   ],
   "sources": [
     { "name": "LMSYS Chatbot Arena", "url": "https://lmarena.ai", "updated": "2026년 6월" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 6월 18~22일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 6월" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 6월 22일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 6월 18~23일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 6월 23일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 6월 23일" },
     { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "수시" }
   ]
 }
