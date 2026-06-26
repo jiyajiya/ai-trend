@@ -1011,6 +1011,175 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "6d4c6dd885dbd35e",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 갤럭시 S25 Ultra CPU에서는 초당 213토큰 이라니.. Liquid AI가 2억 3천만 개(230M) 파...",
+    "url": "https://www.threads.com/t/DaBiaWUkVUK",
+    "publishedAt": "Thu, 25 Jun 2026 21:30:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>갤럭시 S25 Ultra CPU에서는 초당 213토큰 이라니.. Liquid AI가 2억 3천만 개(230M) 파라미터의 소형 언어 모델(SLM) LFM2.5-230M을 공개했습니다. 스마트폰, 로봇, 자동화 기기에서 빠르게 동작하도록 설계됐는데요. 갤럭시 S25 Ultra CPU에서는 초당 213토큰, Raspberry Pi 5에서는 초당 42토큰의 생성 속도를 기록했습니다. 크기가 2배 이상 큰 모델과 비교해도 지시 수행, 데이터 추출, 도구 사용 성능에서 경쟁력을 보인다고 합니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730481114_17973724383112832_1289860433863960316_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzkyNzU3MTY4NjM2MzM1NjU1OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=wWPc-DpOBukQ7kNvwHujVzx&amp;_nc_oc=AdpSaExdNvSIraIYOo5JswIW9eRb2VwOa1kEYODVZ_-MTor2l2UOmQ3DdKa_lcDqFrc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af8UkTLonKYCw60GHVnzrdgTqWShNRH7Te7uG9cYr24Jig&amp;oe=6A439D0E\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/730198599_17973724848112832_6236490153413303159_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkyNzU3MTY4NjQ4MDc5NzQ5NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=zmTdUr2V-yUQ7kNvwFrnwqb&amp;_nc_oc=AdrXNUas4-z8ViFgqJoTF9Oob45p6w5_C81hApEXtlHJMotGumVSofrbgsRxMK61aMU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af9RXZ_NzeVzPS4JKUY8n27OrxF1y-9G764waCT71ieJiQ&amp;oe=6A437B1C\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Liquid AI가 2억 3천만(230M) 파라미터 소형 언어모델 LFM2.5-230M을 공개했다. 갤럭시 S25 울트라 CPU에서 초당 213토큰, 라즈베리파이 5에서 42토큰을 기록하며, 크기가 2배 이상 큰 모델과 견줘도 지시 수행·데이터 추출·도구 사용에서 경쟁력을 보여 스마트폰·로봇 등 온디바이스 활용을 겨냥한다.",
+    "tags": [
+      "SLM",
+      "온디바이스",
+      "추론속도"
+    ],
+    "entities": [
+      "Liquid AI",
+      "LFM2.5-230M",
+      "Galaxy S25 Ultra"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "6cce07dd6a6f3a16",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복적으...",
+    "url": "https://www.threads.com/t/DaBYEzlAma4",
+    "publishedAt": "Thu, 25 Jun 2026 20:00:33 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복적으로 수행하는 작업을 SKILL.md 파일로 정의하면 Copilot이 해당 방식대로 DCF 모델 작성, 결산, 분산 분석 같은 업무를 수행할 수 있습니다. 앞으로는 개발자뿐 아니라 기업도 자신만의 업무 방식을 Skills로 만들어 팀 전체에 배포할 수 있게 됩니다. 개인적으로 이번 업데이트에서 가장 중요한 건 AI가 엑셀을 대신하는 것이 아니라, 회사의 업무 방식 자체를 학습한다는 점입니다. 앞으로는 프롬프트보다 어떤 Skills를 갖고 있느냐가 생산성을 결정하는 요소가 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/728833242_1708516177036375_5986763092005348136_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyNzUyNjIzMzQxOTcwMzk5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=eaHwQCMw5ugQ7kNvwHElhrZ&amp;_nc_oc=AdqoUWZLEV_UXhks4lvYSG-oreuUHxf5t1ZklRIwY8VVZTURCuxsmwatU0Buy6-Oqrs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af_UpHP8mVDhNYBm0R62lM2rwLaXNBpeNdECJdQQ-vRsHw&amp;oe=6A43964D\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPq-dfCO3dFsvOb_63qGfW1GHfvhm02Q9E7Z66KdTBb7bIvn9idaIyrfNZs1KTWAfn7_8BUexRNtVcVWozROb6j9FKRfY26y3MAXA8.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=pdezTli5qeYQ7kNvwHaHT99&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM3MjkwMzMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=63525ae6d97a71d8&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRjQ0RjQ1RTEzRkMzMDAyRUJGN0NGRDhGQjIyRjVBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVFNDg2MzdDQjBGRTE3MTUzOUIyRTg1MzQ2QzREMTlBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAtPbk3MDtPxUCKAJDMywXQEu6PXCj1woYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af_WZtLyfJvoVuETV_LDDixDtbik2qtxrRuFgZZSdJKVNQ&amp;oe=6A3F9D21\"></video></p>",
+    "summaryKo": "마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가해, 반복 업무를 SKILL.md 파일로 정의하면 DCF 모델·결산·분산 분석 같은 작업을 그 방식대로 수행하게 했다. 기업이 자신만의 업무 방식을 Skills로 만들어 팀 전체에 배포할 수 있어, 앞으로는 프롬프트보다 어떤 Skills를 갖느냐가 생산성을 가른다는 평가다.",
+    "tags": [
+      "Copilot",
+      "Skills",
+      "엑셀",
+      "자동화"
+    ],
+    "entities": [
+      "Microsoft",
+      "Copilot",
+      "Excel"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "e652a76dbb4a1015",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 투자하시는 분들은 집중해서 볼 소식입니다. 구글이 Google Finance를 베...",
+    "url": "https://www.threads.com/t/DaBNz75ghSB",
+    "publishedAt": "Thu, 25 Jun 2026 18:30:52 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>투자하시는 분들은 집중해서 볼 소식입니다. 구글이 Google Finance를 베타에서 정식 출시하고 새로운 안드로이드 앱도 공개했습니다. AI가 투자 포트폴리오를 분석하고, 관심 종목을 기반으로 시장 브리핑을 자동 생성해 원하는 시간에 전달해주는 기능이 추가됐습니다. 최근 빅테크들의 방향을 보면 구글은 AI 금융 비서를 만들고, 메타는 Polymarket와 비슷한 예측시장 앱 'Arena'를 개발 중인 것으로 알려졌습니다. AI가 돈과 의사결정이 오가는 영역까지 들어가고 있는 흐름인데요. 앞으로는 어떤 모델을 쓰느냐보다 어떤 분야의 데이터를 연결하고, 어떤 결정을 대신 도와주느냐가 더 중요한 경쟁력이 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/728225709_1060713036629701_5971057173174333900_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzkyNzQ4MTA5MzY1NzMzNDkxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=V2Yq4UP7O1cQ7kNvwGFl7-y&amp;_nc_oc=AdriZ8-gg5rO2uUGEd6I5vmPmpuwEZhOAFC0c6IMtzi1y_ILWb6tny4BxcPzrq-oMcQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af9CA4OVOHP_E5HO7wwgFQ7HuedTqizRg1KDay2t5Mk9OQ&amp;oe=6A438B62\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMl741mReltDjZrPOKW-nghh1rqGHSs2cfxf32QTjG0yZr8jmmZYjTWzpvv9Kyp-iz399Mq4Rv6SQ8Qc1zyK_XQFCgOWiPJNoWj0D4.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=9kn0T7B58UYQ7kNvwFeUQ74&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM3Mjk1MjIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=12c0a9410e8229df&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8zMTQxRUUxNzc3QkM2RkJGMDE2RDVDRURBMkZCMDBCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgOWit-DA7T8VAigCQzMsF0A31T987ZFoGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af94Y-gdk3KJIMi41oC6mX5SEExWRvy9r1FP272USeqmwQ&amp;oe=6A3FB7FE\"></video></p>",
+    "summaryKo": "구글이 Google Finance를 정식 출시하고 안드로이드 앱을 공개하며 AI 포트폴리오 분석과 자동 시장 브리핑 기능을 더했다. 메타도 예측시장 앱 'Arena'를 개발 중인 것으로 알려져, AI가 돈과 의사결정 영역으로 들어가는 흐름과 '어떤 데이터를 연결하느냐'가 경쟁력이 되는 변화를 보여준다.",
+    "tags": [
+      "AI금융",
+      "구글",
+      "예측시장"
+    ],
+    "entities": [
+      "Google",
+      "Google Finance",
+      "Meta",
+      "Arena"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "6777b1035a9be3c5",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 🚨 IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기수...",
+    "url": "https://www.threads.com/t/DaBDefiirNw",
+    "publishedAt": "Thu, 25 Jun 2026 17:00:34 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기술인데, 손톱만 한 칩에 트랜지스터 약 1,000억 개로 2021년 2나노의 두 배입니다. 옆이 아니라 위로 쌓는 '나노스택' 구조로 성능 50%, 전력효율 70%를 끌어올렸습니다. IBM이 직접 양산하지는 않는데요. 설계는 IBM이 쥐어도, 마진은 이걸 수율 좋게 찍어내는 쪽이 가져갑니다. 지금 그 미세공정 마진은 TSMC가 사실상 독식 중이라, 삼성엔 파운드리 추격 기회이자 수율 시험대입니다. 양산은 빨라야 5년 뒤, 2031년경입니다. 결국 누가 먼저 싸게 찍어내느냐의 싸움입니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730734635_17973727401112832_3133309041753873933_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=104&amp;ig_cache_key=MzkyNzQzNTYzOTYzMzEzMDM1Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTI1LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=yT8JPx6Q5TUQ7kNvwGwA8Sj&amp;_nc_oc=AdqMtqsHi1p2llaZdo-NI0GBX1ya8k5YdDc1kLG2nM4UnKuIyDyz6qMwn9WFqstrWa4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=8&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af97jUOmlGn0lcNYOCuObhwbRujqZ_qZT6uLBwj5SLktkw&amp;oe=6A438469\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "IBM이 세계 최초로 0.7나노(7옹스트롬) 칩 기술을 선보이며 1나노 벽을 넘었다. 손톱만 한 칩에 트랜지스터 약 1,000억 개를 '나노스택'(수직 적층) 구조로 담아 성능 50%·전력효율 70%를 끌어올렸으나, 양산은 빨라야 2031년경이며 수율 경쟁에서 TSMC·삼성의 파운드리 싸움이 관건이라는 분석이다.",
+    "tags": [
+      "반도체",
+      "나노공정"
+    ],
+    "entities": [
+      "IBM",
+      "TSMC",
+      "삼성"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "14531ebca9f85c08",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "Our latest Google Finance upgrades, including a new app",
+    "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "publishedAt": "Thu, 25 Jun 2026 16:00:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">The new Google Finance is coming out of beta and launching a new Android app.",
+    "summaryKo": "구글 파이낸스가 베타를 졸업하고 정식 출시되며 새 안드로이드 앱도 공개됐다. AI가 투자 포트폴리오를 분석하고 관심 종목 기반 시장 브리핑을 자동 생성하는 등 빅테크가 금융 의사결정 영역으로 AI를 확장하는 흐름을 보여준다.",
+    "tags": [
+      "AI금융",
+      "구글"
+    ],
+    "entities": [
+      "Google",
+      "Google Finance"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "1ebb304792c71c74",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Repositioning retail for the AI era",
+    "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+    "publishedAt": "Thu, 25 Jun 2026 14:22:59 +0000",
+    "rawText": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and&#8230;",
+    "summaryKo": "MIT 테크리뷰가 AI가 리테일을 바꾸는 핵심은 화려한 가상 피팅이나 챗봇이 아니라 검색 노출·재고·공급망·코드 배포 같은 무대 뒤 의사결정 방식이라고 짚는다. 소비자 눈에 잘 띄지 않는 곳에서 변화가 일어나고 있다는 분석이다.",
+    "tags": [
+      "리테일",
+      "AI전환"
+    ],
+    "entities": [
+      "MIT Technology Review"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "0d65b141093fc432",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+    "publishedAt": "Thu, 25 Jun 2026 13:00:34 +0000",
+    "rawText": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales. They lead the [&#8230;]",
+    "summaryKo": "엔비디아가 스팀 여름 세일에 맞춰 GeForce NOW 멤버십 할인을 함께 진행하며 클라우드 게이밍 혜택을 강조했다. Devolver의 Dark Scrolls 등 신작이 라이브러리에 추가됐다.",
+    "tags": [
+      "클라우드게이밍",
+      "GeForce NOW"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GeForce NOW",
+      "Steam"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
     "id": "efa6761cda1472ce",
     "sourceType": "news",
     "source": "NVIDIA AI Blog",
@@ -3896,6 +4065,360 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "275ed49d98868737",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show HN: Nub - Node.js용 Bun 유사 올인원 툴킷",
+    "url": "https://news.hada.io/topic?id=30832",
+    "publishedAt": "2026-06-26T08:33:34+09:00",
+    "rawText": "Nub은 stock node 위에 Bun과 유사한 개발자 경험을 얹는 Rust 기반 올인원 툴킷으로, 파일·스크립트 실행, 의존성 설치, Node 자체 관리를 하나의 도구로 처리함 새 런타임을 만들지 않고 Node.js를 보강하는 방식이며, vendor-specific API surface와 lock-in이 없다...",
+    "summaryKo": "Nub은 기존 Node.js 위에 Bun 같은 개발자 경험을 얹는 Rust 기반 올인원 툴킷으로, 파일·스크립트 실행, 의존성 설치, Node 버전 관리를 한 도구로 처리한다. 새 런타임을 만들지 않고 Node를 보강하므로 벤더 종속(lock-in)이 없다는 점이 특징이다.",
+    "tags": [
+      "Node.js",
+      "개발도구",
+      "Rust"
+    ],
+    "entities": [
+      "Nub",
+      "Bun",
+      "Node.js"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "240b0d0d4bcb7d2c",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "California AB 2047, 학생·교육자·기업의 3D 프린터 접근 제한 우려",
+    "url": "https://news.hada.io/topic?id=30831",
+    "publishedAt": "2026-06-26T05:36:55+09:00",
+    "rawText": "AB2047은 California에서 3D 프린터에 총기 차단 기술과 주정부 승인 절차를 요구하는 법안으로, Assembly를 통과한 뒤 Senate 단계에서 June 30 Public Safety Committee 표결을 앞두고 있음 2027년부터 2029년까지 California DOJ의 탐지 알고리듬 조사·인증, 제...",
+    "summaryKo": "캘리포니아 AB2047 법안은 3D 프린터에 총기 차단 기술과 주정부 승인 절차를 요구하는 내용으로, 6월 30일 상원 공공안전위 표결을 앞두고 있다. 학생·교육자·기업의 3D 프린터 접근이 제약될 수 있다는 우려가 제기된다.",
+    "tags": [
+      "3D프린팅",
+      "규제"
+    ],
+    "entities": [
+      "California",
+      "AB 2047"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "cccf83d36e97e920",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "테러와의 전쟁은 미국을 독재에 대비시켰다",
+    "url": "https://news.hada.io/topic?id=30830",
+    "publishedAt": "2026-06-26T04:50:39+09:00",
+    "rawText": "9/11 이후의 테러와의 전쟁을 미국 권위주의 흐름의 출발점으로 보고, January 6th로 이어지는 연결선을 문제 삼음 글은 40세 이상 미국인 다수가 공유하는 9/11의 순간 기억에서 논지를 시작함 출근길에 National Public Radio...",
+    "summaryKo": "9/11 이후 '테러와의 전쟁'을 미국 권위주의 흐름의 출발점으로 보고 1월 6일 의사당 사태로 이어지는 연결선을 문제 삼는 칼럼이다. 40세 이상이 공유하는 9/11의 기억에서 논지를 시작한다.",
+    "tags": [
+      "정치",
+      "미국"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "932e8e985e0b1b22",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Slate 전기 트럭, 시작가 $24,950",
+    "url": "https://news.hada.io/topic?id=30829",
+    "publishedAt": "2026-06-26T04:47:39+09:00",
+    "rawText": "시작가 $24,950인 Slate의 Blank Slate는 기본 전기 트럭에 랩핑과 액세서리를 사용자가 더하는 방식으로 차별화함 기본 차체는 2인승 픽업이며, 필요에 따라 5인승 SUV나 Fastback 형태로 구성할 수 있음 Slate는 200개 이상 액세서리를...",
+    "summaryKo": "Slate의 'Blank Slate' 전기 트럭이 시작가 $24,950에 공개됐다. 기본 2인승 픽업 차체에 200여 종 액세서리와 랩핑을 더해 5인승 SUV·패스트백 등으로 사용자가 직접 구성하는 방식이 차별점이다.",
+    "tags": [
+      "전기차"
+    ],
+    "entities": [
+      "Slate"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "142a1b2841abdab6",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Xteink X4 E-Ink 리더",
+    "url": "https://news.hada.io/topic?id=30828",
+    "publishedAt": "2026-06-26T04:44:38+09:00",
+    "rawText": "£40짜리 초소형 e-ink 리더인 Xteink X4는 휴대폰 뒤에 붙일 수 있을 만큼 작지만, 실제 매력은 주머니에 부담 없이 들어가는 77g 휴대성에 있음 기본 펌웨어는 EPUB와 제한적인 표시 설정만 제공하지만, 빠른 페이지 전환과 적은 고스팅 덕분에 하드웨어 ...",
+    "summaryKo": "£40짜리 초소형 e-ink 리더 Xteink X4는 휴대폰 뒤에 붙일 만큼 작고 77g의 휴대성이 강점이다. 기본 펌웨어는 EPUB와 제한적 설정만 지원하지만 빠른 페이지 전환과 적은 고스팅으로 하드웨어 잠재력이 평가된다.",
+    "tags": [
+      "전자기기",
+      "E-Ink"
+    ],
+    "entities": [
+      "Xteink X4"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "b664981abc1a5c60",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Meta, 내부 데이터 유출 뒤 직원 추적 프로그램 중단",
+    "url": "https://news.hada.io/topic?id=30827",
+    "publishedAt": "2026-06-26T03:37:47+09:00",
+    "rawText": "Meta는 직원 컴퓨터 입력을 수집하던 Model Compatibility Initiative(MCI) 데이터가 사내에 과도하게 노출된 뒤 프로그램을 일시 중단함 MCI는 4월 미국 직원 대상으로 도입됐으며, 마우스 움직임·클릭 위치·키 입력·화면 내용 같은 정보를 수집해 직원 반발을 불...",
+    "summaryKo": "메타가 직원 컴퓨터 입력(마우스·클릭·키 입력·화면 내용)을 수집하던 Model Compatibility Initiative(MCI)를 사내 데이터 과다 노출 사고 뒤 일시 중단했다. 4월 미국 직원 대상으로 도입됐으나 직원 반발을 불렀다.",
+    "tags": [
+      "프라이버시",
+      "데이터유출"
+    ],
+    "entities": [
+      "Meta"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "768c85dcd9acd7eb",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "블로깅은 뻔한 것을 말하는 일일 수도 있음",
+    "url": "https://news.hada.io/topic?id=30826",
+    "publishedAt": "2026-06-26T02:34:54+09:00",
+    "rawText": "블로깅은 새롭고 깊은 통찰만이 아니라, 모두가 겪지만 지나치는 명백한 불편을 말로 꺼내는 일이 될 수 있음 John Gruber의 웹사이트 팝업 비판은 웹페이지와 이메일이 먼저 자기 역할을 해야 한다는 기본 원칙을 다시 드러냄 Jim Nielsen은 자기 글이 새...",
+    "summaryKo": "블로깅은 새롭고 깊은 통찰만이 아니라, 모두가 겪지만 지나치는 명백한 불편을 말로 꺼내는 일이 될 수 있다는 에세이다. John Gruber의 팝업 비판처럼 당연한 원칙을 다시 짚는 글의 가치를 옹호한다.",
+    "tags": [
+      "블로깅",
+      "글쓰기"
+    ],
+    "entities": [
+      "John Gruber"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "92164caf682c6bf0",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Krea 2: 오픈 가중치 12B 이미지 모델 기술 보고서",
+    "url": "https://news.hada.io/topic?id=30825",
+    "publishedAt": "2026-06-26T00:50:43+09:00",
+    "rawText": "창의적 탐색(creative exploration) 을 목표로 설계된 파운데이션 이미지 모델 시리즈로, 넓은 미적 다양성과 사용자 제어를 동시에 추구 데이터 큐레이션 원칙, 모델 아키텍처, 다단계 학습 파이프라인, 분산 인프라, 향후 과제를 다루며, 데이터 인프라와 분산 학습 프레임...",
+    "summaryKo": "Krea 2는 창의적 탐색을 목표로 설계된 오픈 가중치 12B 파운데이션 이미지 모델로, 넓은 미적 다양성과 사용자 제어를 동시에 추구한다. 기술 보고서는 데이터 큐레이션 원칙, 아키텍처, 다단계 학습 파이프라인, 분산 인프라를 다룬다.",
+    "tags": [
+      "이미지생성",
+      "디퓨전",
+      "오픈웨이트"
+    ],
+    "entities": [
+      "Krea 2",
+      "Krea"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "e21a0d8c72524764",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "삼성이 만드는 손목 위 생체데이터 시대…약사는 준비됐나",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537465",
+    "publishedAt": "2026-06-26 05:50:00",
+    "rawText": "삼성전자가 갤럭시 워치를 활용한 신약개발 임상시험에 나서면서 의료데이터 활용 시대가 한층 앞당겨지고 있다. 손목 위에서 생성되는 생체데이터가 신약 개발과 맞춤형 의료의 핵심 정보로 활용되는 시대가 현실화하는 가운데 국내에서도 디지털헬스케어법 논의가 본격화되고 있다.다만 의료데이터 활용 확대에 앞서 환자 안전과 보건의료기관 간 안전한 정보 연계, 약사의 전문적 판단이 반영된 정보의 보호 등 제도적 원칙부터 마련해야 한다는 것이 약사사회의 입장이다.삼성전자는 23일 독일 디지털 임상시험 전문기업 알체디스(Alcedis)와 협력해 갤럭시",
+    "summaryKo": "삼성전자가 갤럭시 워치를 활용한 신약개발 임상시험에 나서며 손목 위 생체데이터가 신약 개발·맞춤형 의료의 핵심 정보가 되는 시대가 다가오고 있다. 국내 디지털헬스케어법 논의가 본격화되는 가운데, 약사사회는 환자 안전과 기관 간 안전한 정보 연계, 약사 판단이 반영된 정보 보호 등 제도적 원칙 마련이 선행돼야 한다는 입장이다.",
+    "tags": [
+      "디지털헬스",
+      "생체데이터",
+      "웨어러블"
+    ],
+    "entities": [
+      "삼성전자",
+      "갤럭시 워치",
+      "알체디스"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "52e655ab9f34ee68",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "For ECCV, Springer Metor. How are we supposed to upload the files? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/",
+    "publishedAt": "2026-06-25T23:21:32+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><ol> <li><p>source files + final paper pdf.</p></li> <li><p>ZIP containing the source files and final paper.pdf.</p></li> </ol> <p>Where does the supplemental materiel get uploaded? Because in that email it says include it in a &quot;supplementary_materiel&quot; folder.</p> <p>this is all very confusing. can someone clarify?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/redskydawns\"> /u/redskydawns </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufpwmh/for_eccv_springer_metor_how_are_we_supposed_to/\">[comments]</a></span>",
+    "summaryKo": "ECCV용 Springer Meteor 시스템에서 소스 파일과 최종 PDF, 보충자료를 정확히 어떤 형식(ZIP·폴더 구조)으로 업로드해야 하는지 명확한 설명을 구하는 토론 글이다.",
+    "tags": [
+      "ECCV",
+      "학회"
+    ],
+    "entities": [
+      "ECCV 2026"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "b46dcfe931fa6179",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Kuma: compiling PyTorch models into self-contained WebGPU executables [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ufl9tu/kuma_compiling_pytorch_models_into_selfcontained/",
+    "publishedAt": "2026-06-25T20:17:17+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been experimenting with a compiler/runtime project that I&#39;m not entirely sure is a good idea, so I&#39;d love some feedback from people who&#39;ve worked on deployment systems.</p> <p>The idea is to compile an exported PyTorch model into a self-contained package that contains:</p> <ul> <li>graph</li> <li>binary weights</li> <li>backend kernels (currently WGSL)</li> <li>runtime metadata</li> </ul> <p>A lightweight runtime loads that package and executes it directly in the browser with WebGPU. No Python, no server inference, and no dependency on a heavyweight runtime.</p> <p>Right now the attached demos are just neural video representations because they were easy to test, but the motivation is actually operator networks and scientific ML, where I like the idea of distributing a single portable artifact.</p> <p>The repo is here:<br/> <a href=\"https://github.com/Slater-Victoroff/Kuma\">https://github.com/Slater-Victoroff/Kuma</a></p> <p>I&#39;m mostly looking for architectural feedback.</p> <p>Some questions I&#39;m wrestling with:</p> <ul> <li>Is embedding backend kernels in the artifact a terrible idea?</li> <li>Is this solving a real deployment problem or just reinventing ONNX Runtime?</li> <li>Are there existing systems I should study that take a similar approach?</li> <li>If you were designing a deployment format today, what would you change?</li> </ul> <p>I&#39;d especially appreciate thoughts from people who&#39;ve worked on ONNX, IREE, TVM, ExecuTorch, MLIR, or similar compiler/runtime projects.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/svictoroff\"> /u/svictoroff </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufl9tu/kuma_compiling_pytorch_models_into_selfcontained/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufl9tu/kuma_compiling_pytorch_models_into_selfcontained/\">[comments]</a></span>",
+    "summaryKo": "Kuma는 내보낸 PyTorch 모델을 그래프·이진 가중치·백엔드 커널(WGSL)·런타임 메타데이터를 담은 자족형 패키지로 컴파일해, 파이썬·서버 없이 브라우저에서 WebGPU로 바로 실행하는 컴파일러/런타임 실험이다. 단일 휴대용 아티팩트 배포를 목표로 하며 ONNX Runtime·IREE·TVM 등과의 차별점에 대한 아키텍처 피드백을 구한다.",
+    "tags": [
+      "PyTorch",
+      "WebGPU",
+      "컴파일러",
+      "모델배포"
+    ],
+    "entities": [
+      "Kuma",
+      "PyTorch",
+      "ONNX Runtime"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "42bd97685122c879",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Dev Log on Steam Recommender[P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ufi0gj/dev_log_on_steam_recommenderp/",
+    "publishedAt": "2026-06-25T18:17:46+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufi0gj/dev_log_on_steam_recommenderp/\"> <img src=\"https://preview.redd.it/dh8re9080h9h1.png?width=140&amp;height=106&amp;auto=webp&amp;s=d1b7ecbabc33cf8b483bf9403f8e807c3a8cb1cf\" alt=\"Dev Log on Steam Recommender[P]\" title=\"Dev Log on Steam Recommender[P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Since the steam sale is live I wanted to post a Dev log on my personal project<br/> <a href=\"https://nextsteamgame.com/\">https://nextsteamgame.com/</a> sharing some outcomes from the web traffic and how I changed the project from the great feedback I got!</p> <p>I made a post about a month ago explaining how I made this opensource explainable search engine built around steam reviews to people find new video games, Not through Relevancy but through aspect based similarity.</p> <p>Check out the old post for a better explanation if you want!<br/> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1tb8k3n/steam_recommender_using_similarity_undergraduate/\">https://www.reddit.com/r/MachineLearning/comments/1tb8k3n/steam_recommender_using_similarity_undergraduate/</a></p> <p>I wanted to say thank you to all the people of <a href=\"/r/datascience\">r/datascience</a> and <a href=\"/r/MachineLearning\">r/MachineLearning</a> that gave me feedback and tried out my tool! </p> <p>I improved the UI/UX of the website to make the vectors more clear and controllable, I Implemented a thumbs up and down feature on recommendations to see if users even like the tool.</p> <p>I also wanted to share the after effects of promoting this tool on reddit!</p> <p>from the 2,652 searches I got in the website 913 of them resulted in steam clicks! the games that were discovered were all in a uniform distribution and did not share much of a pattern showing me that the engine did its job in helping people find niche games across all genres!</p> <p>(More images attached to post to see data viz)</p> <p>I wanted to disclose that I made this tool to not make any profit of some kind, but it does use posthog so I can collect diagnostics now.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Expensive-Ad8916\"> /u/Expensive-Ad8916 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1ufi0gj\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufi0gj/dev_log_on_steam_recommenderp/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "스팀 리뷰 기반의 설명가능한 게임 추천 검색엔진 개발 로그다. 관련도가 아닌 '측면(aspect) 유사도'로 게임을 찾아주며, 2,652회 검색 중 913회가 스팀 클릭으로 이어지고 발견된 게임이 장르 전반에 고르게 분포해 니치 게임 탐색에 효과적임을 보였다.",
+    "tags": [
+      "추천시스템",
+      "검색엔진",
+      "유사도"
+    ],
+    "entities": [
+      "Steam"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "a2c77b4d115c168f",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "ECCV 2026 camera-ready deadline: June 27 or June 30? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ufgwhd/eccv_2026_cameraready_deadline_june_27_or_june_30/",
+    "publishedAt": "2026-06-25T17:38:26+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>In the recent Springer/Meteor email, it says:</p> <blockquote> <p>The deadline for the upload of the camera-ready manuscripts and source files is 30 June. This is a hard deadline and will not be extended.</p> </blockquote> <p>However, in the same email, the Meteor submission line for my paper says:</p> <blockquote> <p>submission due: June 27, 2026</p> </blockquote> <p>A previous email from the ECCV Program Chairs also stated that the camera-ready deadline had been extended to 30.06 AoE and that this deadline is final.</p> <p>Does anyone know whether June 27 is just an internal/default Meteor due date, or whether it is the actual deadline for uploading in Meteor? Since the email says there is only one upload and the first upload is final, I want to avoid uploading too early if June 30 is the correct deadline.</p> <p>this is really confusing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/National-Resident244\"> /u/National-Resident244 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufgwhd/eccv_2026_cameraready_deadline_june_27_or_june_30/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufgwhd/eccv_2026_cameraready_deadline_june_27_or_june_30/\">[comments]</a></span>",
+    "summaryKo": "ECCV 2026 카메라레디 마감이 Springer/Meteor 안내에서 6월 27일과 6월 30일로 엇갈려 혼란스럽다는 토론 글이다. 단 한 번의 최종 업로드만 허용되기에 정확한 마감일 확인이 중요하다고 호소한다.",
+    "tags": [
+      "ECCV",
+      "학회"
+    ],
+    "entities": [
+      "ECCV 2026"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "e149c727217728b2",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Optimising LMAPF guidance graphs using Evolutionary algorithms: Advice needed [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ufdzsr/optimising_lmapf_guidance_graphs_using/",
+    "publishedAt": "2026-06-25T15:54:31+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I&#39;m currently working on my dissertation and feel like I could really use some advice from someone who looks at the problem with fresh eyes. I appreciate all input.</p> <p>The Problem:<br/> Multi Agent Path Finding is the problem of finding paths for several agents to their destinations. Lifelong MAPF is the same, but upon task completion an agent is assigned a new task. For my dissertation (and usually in research) agents move on a grid-like graph and time is discrete. Each timestep an agent can move to an adjacent tile or wait. A good LMAPF algorithm creates paths which maximise average jobs completed per timestep.</p> <p>Some LMAPF algorithms can also work on weighted graphs where each edge to an adjacent node (or itself) has its own cost. Such a graph is called guidance graph and the choice of edge weights can influence which paths the LMAPF algorithm creates also impacting throughput.</p> <p>My supervisor wanted to explore whether Evolutionary algorithms can be suitable for finding a guidance graph that improves throughput without changing the underlying LMAPF algorithm. A guidance graph is scenario specific meaning it is optimised for a specific LMAPF algorithm, map, and agent count. </p> <p>My algorithm so far:<br/> So far I&#39;ve implemented a very basic evolutionary algorithm. An initial population of guidance graphs is randomly initialized (Limited to 10 at the moment). Then each candidate is plugged into the LMAPF algorithm for a certain amount of time steps and the completed jobs are counted to create that candidates fitness score. The top (2) candidates are selected and the rest are discarded. The top candidates are used to make a new set of candidates (no crossover). These step are repeated indefinitely. </p> <p>Issues I&#39;ve has so far:<br/> The simulation can use a seed and is deterministic. The seed determines which nodes the jobs appear on. Using the same guidance graph but different seeds yields random fitness scores. The higher the simulation time the lower the coefficient of variation (standard deviation/mean). For 5000 steps the CV is 0.006. Using guidance graphs with the same parent graph and on different seeds should yield throughputs that have a much higher CV than 0.006 in order for the selection of the best candidates to be somewhat reliable. You could make the argument that given enough time statistically speaking the best candidate will tend towards a better guidance graph but if 9/10 of the candidates I create are worse than the best of the last generation then the solution will tend towards getting worse with each generation.<br/> It seems there are so many ingredients for a working evolutionary algorithm that I am missing: I need a mutation strategy that creates solutions with high enough amount of variation but that don&#39;t create better offspring once in a blue moon. Also simulating 5000 time steps takes roughly 30 seconds so 300 seconds for one tiny generation of 10 candidates. If my guidance graph is a 25x25 grid -&gt; 625 tiles -&gt; 3125 weights. If my mutation strategy changes 10 weights at a time it will take years to go through enough iterations to even tough every weight once. If the mutation strategy changes more than 10 weights at a time the change of good changes cancelling out bad ones increases. </p> <p>Mutation strategies I&#39;ve tried are:<br/> 1. Iterate through each weight. Each has a certain chance of getting mutated by a random amount.<br/> 2. Select n amount of tiles. Mutate the 3x3 area around that tile. Each tile gets the same changes.<br/> 3. Create n pair of nodes. Calculate the shortest path connecting the nodes of each pair and lower the weight of the edges along that path in one direction while increasing the weights against the direction. </p> <p>The third method has worked best yet decreasing throughput for low agent counts but increasing throughput for high agent counts by avoiding congestion. However I can&#39;t attribute this &quot;success&quot; at all to the evolutionary algorithm but only to the mutation strategy. The other strategies have only produces worse results than a guidance graph with uniform weights.</p> <p>My supervisor is convinced that there is a way to make this work but I have doubts. Any advice would be very appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Michi122211\"> /u/Michi122211 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufdzsr/optimising_lmapf_guidance_graphs_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ufdzsr/optimising_lmapf_guidance_graphs_using/\">[comments]</a></span>",
+    "summaryKo": "진화 알고리즘으로 Lifelong MAPF(다중 에이전트 경로탐색)의 가이던스 그래프 가중치를 최적화해 처리량을 높이려는 학위연구에서 조언을 구하는 글이다. 시뮬레이션의 낮은 변동계수(CV 0.006)와 거대한 가중치 공간(625타일×~3125 가중치) 때문에 신뢰성 있는 선택과 효과적인 변이 전략 설계가 난항을 겪고 있다.",
+    "tags": [
+      "진화알고리즘",
+      "경로탐색",
+      "최적화"
+    ],
+    "entities": [
+      "LMAPF"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "b9cad40ff6a83e82",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "CALHippo - Mapping neurons and glial cells in the human brain hippocampus in 3D using SOTA segmentation and density estimation models [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1uf8thw/calhippo_mapping_neurons_and_glial_cells_in_the/",
+    "publishedAt": "2026-06-25T12:37:44+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uf8thw/calhippo_mapping_neurons_and_glial_cells_in_the/\"> <img src=\"https://preview.redd.it/m8eyacfmbf9h1.gif?width=640&amp;crop=smart&amp;s=1a9d654de34977e02d4c3b3a30f0f9e2d36a5c35\" alt=\"CALHippo - Mapping neurons and glial cells in the human brain hippocampus in 3D using SOTA segmentation and density estimation models [R]\" title=\"CALHippo - Mapping neurons and glial cells in the human brain hippocampus in 3D using SOTA segmentation and density estimation models [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hello everyone!</p> <p>I&#39;m posting our research work as you might be interested in how we used ML to map part of the brain cells of the human hippocampus :)</p> <p>We used various human brain slices at high resolution (1 micrometer per pixel) and developed a custom segmentation pipeline that uses SoTA whole slice cell segmentation networks, like CellPoseSAM with good zero shot performances. We then refined semi-automatically those annotations and ensembled more finetuned models within the pipeline, adding a merging algorithm and a cell classification for 3 classes (excitatory and inhibitory neurons, and glial cells).</p> <p>But the high-res slices covered only a few parts of the hippocampus with respect to other slices scanned at 20x less the resolution where the cell nuclei are only 1 pixel wide. So we tried to map the high-res annotations we obtained to the low-res corresponding slices, and used a small UNet to supervise a density estimation task for 3 classes. We obtained a network that outputs a density map that can be sampled to obtain a probabilistic map of the cellular positions.</p> <p>Finally, to reconstruct the volume, we stacked together all the low-resolution density maps from all the slices that covered the hippocampus and obtained a point cloud, which you can see in the GIF along the corresponding anatomical CA (Cornus Ammonis) areas.</p> <p>The performances are still limited by the quantity of data and low-resolution slices, but we showed that the results were biologically plausible given previous estimates by other researchers.</p> <p>The paper was accepted at MICCAI 2026 a few weeks ago!</p> <p>Feedback is very welcome, especially on the density-estimation formulation and possible uses of the generated point cloud.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/V_ector\"> /u/V_ector </a> <br/> <span><a href=\"https://i.redd.it/m8eyacfmbf9h1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uf8thw/calhippo_mapping_neurons_and_glial_cells_in_the/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "CALHippo는 SOTA 세그멘테이션과 밀도 추정 모델로 인간 뇌 해마의 뉴런·신경교세포를 3D로 매핑한 연구다. CellPoseSAM 기반 고해상도(1µm) 세포 분할과 UNet 밀도 추정을 결합해 흥분성·억제성 뉴런과 신경교세포 3종의 확률적 위치 지도를 만들었으며 MICCAI 2026에 채택됐다.",
+    "tags": [
+      "의료영상",
+      "세그멘테이션",
+      "뇌과학"
+    ],
+    "entities": [
+      "CALHippo",
+      "CellPoseSAM",
+      "MICCAI 2026"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "b8043dbc63551a2a",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "옵시디언 제 2의 뇌 #ai #obsidian #claudecode",
+    "url": "https://www.youtube.com/shorts/w0XGGXUeWPo",
+    "publishedAt": "2026-06-25T11:43:28+00:00",
+    "rawText": "옵시디언 제 2의 뇌 #ai #obsidian #claudecode",
+    "videoId": "",
+    "summaryKo": "옵시디언(Obsidian)을 '제2의 뇌'로 활용해 AI·클로드 코드(Claude Code) 작업 기록을 누적한 사용자의 지식 그래프를 보여주는 16초짜리 유튜브 쇼츠다. '3개월 전 했던 일이 옵시디언 뇌에 남아 있을 때'라는 문구와 함께 노드가 폭증하는 그래프 뷰로, 작업 맥락과 설계 문서를 옵시디언에 축적해 재활용하는 개인 지식관리(PKM) 방식을 강조한다.",
+    "tags": [
+      "옵시디언",
+      "제2의뇌",
+      "지식관리",
+      "AI워크플로우"
+    ],
+    "entities": [
+      "Obsidian",
+      "Claude Code"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
     "id": "946eb88fafb0d8f7",
     "sourceType": "news",
     "source": "GeekNews",
@@ -3979,6 +4502,163 @@
       "quotes": []
     },
     "fetchedAt": "2026-06-25T00:20:14.632Z"
+  },
+  {
+    "id": "142196252b105c76",
+    "sourceType": "youtube",
+    "source": "실용주의 개발",
+    "title": "손으로 코딩하는 개발자는 살아남을 수 없습니다. 클로드코드 총괄이 밝힌 충격 진실",
+    "url": "https://www.youtube.com/watch?v=HKnfqapwGZ0",
+    "publishedAt": "2026-06-25T00:00:12+00:00",
+    "rawText": "손으로 코딩하는 개발자는 살아남을 수 없습니다. 클로드코드 총괄이 밝힌 충격 진실",
+    "videoId": "HKnfqapwGZ0",
+    "summaryKo": "앤트로픽 클로드 코드 총괄 보리스 체르니가 두 달째 코드를 한 줄도 직접 안 짜고 100% AI에 맡기면서도 매일 PR 20~30개를 배포한다는 사례로 '손코딩 시대'의 종말을 짚는다. 구글은 신규 코드의 75%, 마이크로소프트는 30%를 이미 AI가 작성하며, 핵심은 AI에 단순히 던지는 것이 아니라 팀·프로젝트에 맞는 '하네스(harness)'를 설계해 AI가 스스로 검증·계획·규칙화하게 만드는 데 있다고 주장한다.",
+    "tags": [
+      "AI코딩",
+      "하네스",
+      "클로드코드",
+      "개발생산성"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude Code",
+      "Google",
+      "Microsoft",
+      "보리스 체르니"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "앤트로픽 클로드 코드 총괄 보리스 체르니는 두 달째 코드를 한 줄도 직접 안 짜고 100% AI에 맡기지만 하루 PR 20~30개를 실서비스에 배포한다.",
+        "구글 CEO 순다르 피차이는 신규 코드의 75%를 AI가 작성한다고 밝혔으며, 이는 1년 반 만에 25%→50%→75%로 약 3배 증가한 수치다.",
+        "마이크로소프트도 사티아 나델라가 저장소 코드의 약 30%를 AI가 작성했다고 밝혔다.",
+        "다리오 아모데이는 6~12개월 안에 AI가 소프트웨어 엔지니어 업무를 처음부터 끝까지 수행할 것이라 전망했다.",
+        "AI를 제대로 쓰는 개발자는 대체되는 것이 아니라 오히려 작업량이 폭증하는데, 핵심 조건은 '하네스' 설계다.",
+        "체르니가 공개한 3원칙: AI가 스스로 결과를 검증하게 하기, 코딩 전 계획을 함께 다듬기, 반복 실수를 규칙으로 박아넣기."
+      ],
+      "sections": [
+        {
+          "heading": "빅테크의 코드 작성 방식 전환",
+          "body": "구글은 신규 코드의 75%, 마이크로소프트는 약 30%를 이미 AI가 작성하고 있다. 사람이 한 줄씩 코드를 치는 방식에서 AI가 짜고 사람은 감독하는 방식으로 일하는 방식 자체가 바뀌고 있다. 사람이 직접 코드를 치는 비중이 빠르게 줄고 있다는 데 가장 큰 회사들이 동일하게 목소리를 내고 있다."
+        },
+        {
+          "heading": "하네스가 가르는 두 부류의 개발자",
+          "body": "같은 AI를 써도 개발자는 둘로 갈린다. 그냥 '이거 해줘'라고 던지는('딸깍') 쪽은 오히려 더 느리고 답답해진다. 반면 팀·프로젝트에 맞는 하네스를 설계해 AI가 스스로 짜게 만드는 쪽은 작업량과 속도가 폭증한다. 체르니는 이를 극단까지 밀어붙여 클로드를 병렬로 돌리며 다수 PR을 양산한다."
+        },
+        {
+          "heading": "바로 적용할 수 있는 3원칙",
+          "body": "첫째, AI가 자기 결과를 스스로 확인할 수단(브라우저 확인, 테스트 추가)을 쥐어주면 결과 품질이 2~3배 좋아진다. 둘째, 바로 코딩시키지 말고 먼저 계획을 짜게 한 뒤 함께 다듬으면 구현이 거의 한 번에 끝난다. 셋째, 반복되는 실수는 그때그때 고치는 데서 끝내지 말고 규칙으로 박아넣어 재발을 막는다."
+        }
+      ],
+      "quotes": [
+        "구글 신규 코드의 75%를 AI가 작성 (24년 25% → 작년 가을 50% → 올해 75%)",
+        "체르니: 두 달째 내 코드 100%를 AI가 짜고, 작은 수정도 손대지 않는다",
+        "아모데이: 6개월에서 12개월 안에 AI가 소프트웨어 엔지니어의 일을 처음부터 끝까지 해낼 것"
+      ]
+    },
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "d69ae896168283f3",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "손목 위 생체데이터, 신약 개발 핵심 데이터 된다",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537441",
+    "publishedAt": "2026-06-25 17:53:14",
+    "rawText": "삼성 갤럭시 워치를 통해 수집한 생체 데이터가 신약 개발 임상시험에 활용된다.삼성전자가 데이터 기반 디지털 임상시험 전문 기업 알체디스(Alcedis)와 23일 파트너십을 맺고, 갤럭시 워치로 수집한 생체 데이터를 신약 개발 임상시험에 본격 활용한다.알체디스는 1992년 설립 이후 30년 이상 종양, 심장, 신경 등 다양한 분야의 임상시험을 수행해 온 독일의 디지털 임상시험 전문 기업이다.현재는 글로벌 헬스케어 AI 기업 휴마(Huma) 그룹의 자회사로서 임상 연구의 디지털 전환을 주도하고 있다.임상 연구의 디지털 전환은 갤럭시 워",
+    "summaryKo": "삼성전자가 독일 디지털 임상시험 전문기업 알체디스(Alcedis)와 파트너십을 맺고 갤럭시 워치로 수집한 생체 데이터를 신약 개발 임상시험에 본격 활용한다. 알체디스는 글로벌 헬스케어 AI 기업 휴마(Huma) 그룹 자회사로 임상 연구의 디지털 전환을 주도하고 있다.",
+    "tags": [
+      "디지털임상",
+      "생체데이터",
+      "신약개발"
+    ],
+    "entities": [
+      "삼성전자",
+      "갤럭시 워치",
+      "알체디스",
+      "Huma"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "369f2ab4765c4262",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "K-바이오, BIO USA서 ‘기술’ 넘어 생산·자본·AI 제조까지 전면 확장",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537404",
+    "publishedAt": "2026-06-25 12:00:00",
+    "rawText": "K바이오가 세계 최대 바이오산업 행사인 ‘BIO International Convention 2026(BIO USA 2026)’에서 신약 후보물질 중심의 파트너링을 넘어 생산 거점, 기술이전, 자본시장, 인공지능(AI) 제조혁신까지 확장된 성장 전략을 제시했다.미국 샌디에이고에서 지난 22일부터 25일(현지시간)까지 열린 BIO USA 2026에는 글로벌 제약사와 바이오텍, 투자기관, 연구기관 등이 대거 참여했다. 한국은 개최국인 미국을 제외하고 4년 연속 최대 규모로 참가하며 글로벌 바이오 시장에서 높아진 존재감을 다시 확인했다.",
+    "summaryKo": "K바이오가 세계 최대 바이오 행사 BIO USA 2026에서 신약 후보물질 파트너링을 넘어 생산 거점·기술이전·자본시장·AI 제조혁신까지 확장된 성장 전략을 제시했다. 한국은 개최국 미국을 제외하고 4년 연속 최대 규모로 참가하며 글로벌 바이오 시장에서 높아진 존재감을 재확인했다.",
+    "tags": [
+      "바이오",
+      "BIO USA",
+      "AI제조"
+    ],
+    "entities": [
+      "BIO USA 2026"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "e669495cd3774539",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "류마티스 관절염 세계적 석학 파이어스타인 교수, '페니트리움' 합류",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537413",
+    "publishedAt": "2026-06-25 11:20:14",
+    "rawText": "페니트리움바이오사이언스는 류마티스 관절염 분야의 세계적 권위자인 게리 S. 파이어스타인(Gary S. Firestein) 미국 UC 샌디에이고 의과대학 석좌교수가 회사의 항암 신약후보 '페니트리움(Penetrium)' 임상 프로젝트에 합류한다고 25일 밝혔다.페니트리움은 종양미세환경(Soil)을 정상화하도록 설계된 생성형 AI 기반 항암 신약후보다. 회사는 페니트리움이 1889년 스티븐 파젯(Stephen Paget)이 제시한 '씨앗과 토양(Seed & Soil)' 가설을 임상에서 본격적으로 검증하는 첫 항암 신약후보라고 설명했다.",
+    "summaryKo": "류마티스 관절염 분야 세계적 석학 게리 파이어스타인 UC샌디에이고 석좌교수가 페니트리움바이오사이언스의 항암 신약후보 '페니트리움' 임상에 합류한다. 페니트리움은 종양미세환경을 정상화하도록 설계된 생성형 AI 기반 항암 신약후보로, 1889년 '씨앗과 토양' 가설을 임상에서 본격 검증하는 첫 사례라고 회사는 설명한다.",
+    "tags": [
+      "신약개발",
+      "생성형AI",
+      "항암"
+    ],
+    "entities": [
+      "페니트리움",
+      "게리 파이어스타인",
+      "UC샌디에이고"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "b195c27a049c4805",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "식약처, AI 활용 한약재 진품 판별 기술 도입",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537409",
+    "publishedAt": "2026-06-25 11:06:38",
+    "rawText": "식품의약품안전처가 인공지능(AI)을 활용해 한약재의 진품 여부를 객관적으로 판별하는 기술을 관능검사 현장에 도입했다. 한약재 품질관리 과정에서 전문가 판단을 보조하고 검사 신뢰도를 높이기 위한 조치다.식품의약품안전처(처장 오유경) 식품의약품안전평가원(원장 강석연)은 한약재 진품 여부를 판별할 수 있는 ‘설명가능한 인공지능(eXplainable AI, XAI) 관능검사 시스템’을 구축하고, 6월부터 관능검사의 보조기술로 도입했다고 밝혔다.한약재 관능검사는 기원, 성상, 형태, 색깔, 맛, 냄새, 이물, 건조상태, 포장 등을 종합적으로",
+    "summaryKo": "식약처가 한약재 진품 여부를 객관적으로 판별하는 '설명가능한 인공지능(XAI) 관능검사 시스템'을 구축해 6월부터 관능검사 보조기술로 도입했다. 기원·성상·색깔·냄새 등 전문가 판단을 보조하고 검사 신뢰도를 높이려는 조치다.",
+    "tags": [
+      "XAI",
+      "설명가능AI",
+      "한약재"
+    ],
+    "entities": [
+      "식약처",
+      "식품의약품안전평가원"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
   },
   {
     "id": "55cc134cde26bf31",
@@ -5185,1008 +5865,5 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "eded32424ec56fa6",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "느린 호흡은 뇌 기능과 위험 행동을 조절함",
-    "url": "https://news.hada.io/topic?id=30692",
-    "publishedAt": "2026-06-22T01:40:07+09:00",
-    "rawText": "의도적으로 날숨을 길게 하는 호흡은 위험 선택 과제에서 도박 수락을 늘렸고, 손실보다 보상 정보에 대한 민감도를 더 크게 높임 건강한 성인 최종 행동 표본 41명을 대상으로 자연 호흡과 2:8초 들숨/날숨 조건을 참가자 내 설계로 비교함 fMRI와 생리 ...",
-    "summaryKo": "의도적으로 날숨을 길게 하는 호흡이 위험 선택 과제에서 도박 수락을 늘렸고, 손실보다 보상 정보에 대한 민감도를 더 크게 높였다는 연구다. 건강한 성인 41명을 대상으로 자연 호흡과 2:8초 들숨/날숨 조건을 비교했으며 fMRI와 생리 측정을 함께 활용했다.",
-    "tags": [
-      "신경과학",
-      "호흡",
-      "의사결정"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "0af58262ad72b143",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "백신 넘어 치료제까지…감염병 R&D 정보 체계 구축 시급",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537187",
-    "publishedAt": "2026-06-22 17:46:12",
-    "rawText": "감염병 위기에 선제적으로 대응하기 위해서는 백신뿐만 아니라 치료제 분야까지 포괄하는 국가 차원의 ‘감염병 파이프라인 인텔리전스(Intelligence)’ 구축이 시급하다는 논의가 제기됐다.한국생명기술연구조합(이사장 박미영, 이하 생명연구조합)은 18일 제주대학교 아라컨벤션홀에서 '제4회 감염병과 디지털헬스케어 연구회 세미나'를 개최했다.이번 세미나에서는 '팬데믹 대비를 위한 감염병 파이프라인 인텔리전스 구축 전략'을 주제로 국가 감염병 대응 역량 강화를 위한 정보체계 구축 방안을 논의했다.발제를 맡은 한국생명기술연구조합 남승주 책임",
-    "summaryKo": "감염병 위기에 선제 대응하려면 백신뿐 아니라 치료제까지 포괄하는 국가 차원의 '감염병 파이프라인 인텔리전스' 구축이 시급하다는 논의가 제기됐다. 한국생명기술연구조합이 연 세미나에서 팬데믹 대비를 위한 감염병 정보체계 구축 전략이 다뤄졌다.",
-    "tags": [
-      "감염병대응",
-      "디지털헬스케어",
-      "데이터인프라"
-    ],
-    "entities": [
-      "한국생명기술연구조합"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "백신을 넘어 치료제까지 포괄하는 '감염병 파이프라인 인텔리전스' 구축이 시급하다는 주장이 나왔다.",
-        "한국생명기술연구조합이 제주에서 감염병과 디지털헬스케어 연구회 세미나를 열었다.",
-        "세미나는 팬데믹 대비를 위한 국가 감염병 대응 정보체계 구축 전략을 다뤘다.",
-        "국가 차원의 정보·데이터 인프라가 감염병 대응 역량의 핵심으로 지목됐다."
-      ],
-      "sections": [
-        {
-          "heading": "정보체계 기반의 팬데믹 대비",
-          "body": "감염병 대응을 백신 중심에서 치료제까지 확장하고, 이를 국가 차원의 데이터·정보 체계로 묶자는 제안이다. 디지털헬스케어 관점에서 감염병 R&D 정보를 통합 관리해 위기 시 신속 대응 역량을 확보하자는 취지다."
-        },
-        {
-          "heading": "치료제까지 포괄하는 대응",
-          "body": "기존 감염병 대응이 백신 중심이었다면, 치료제 파이프라인 정보까지 통합해야 변이·신종 감염병에 빠르게 대응할 수 있다. 세미나는 이를 위한 국가 차원의 데이터·정보 인프라 구축을 핵심 과제로 제시했다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "56f37a6a2ec5ef6e",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "디지털헬스케어 정보 활용 \"명확한 기준과 관점 변화 필요하다\"",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537182",
-    "publishedAt": "2026-06-22 15:36:00",
-    "rawText": "디지털헬스케어법 제정과 관련한 논의가 이어지고 있는 가운데 의료데이터 활용을 국가 차원의 연구 인프라 구축과 함께 바이오 안보 관점에서 사안에 접근해야 한다는 제언이 나왔다. 개별 규제 개선만으로는 한계가 있다고 보고 특별법 제정과 명확한 법적 기준 마련을 통해 활성화와 신뢰확보를 동시에 추진해야 한다는 것이다.6월 22일 국회의원회관에서 열린 '디지털 헬스케어 및 보건의료정보 활용 지원에 관한 법률' 제정 공청회'에서 김재선 동국대 법과대학 교수는 주제 발표를 통해 의료데이터 활용과 관련한 법 제도 설계 방향과 주요 쟁점에 대해",
-    "summaryKo": "디지털헬스케어법 제정 공청회에서 의료데이터 활용을 국가 연구 인프라 구축과 함께 '바이오 안보' 관점에서 접근해야 한다는 제언이 나왔다. 김재선 동국대 교수는 개별 규제 개선만으로는 한계가 있어 특별법 제정과 명확한 법적 기준으로 활성화와 신뢰 확보를 동시에 추진해야 한다고 봤다.",
-    "tags": [
-      "디지털헬스케어",
-      "의료데이터",
-      "바이오안보",
-      "규제"
-    ],
-    "entities": [
-      "김재선",
-      "동국대학교"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "의료데이터 활용을 국가 연구 인프라 구축과 함께 바이오 안보 관점에서 봐야 한다는 제언이 나왔다.",
-        "개별 규제 개선만으로는 한계가 있다는 진단이다.",
-        "특별법 제정과 명확한 법적 기준 마련으로 활성화와 신뢰 확보를 동시에 추진해야 한다.",
-        "김재선 동국대 교수가 공청회 주제 발표를 통해 쟁점을 정리했다."
-      ],
-      "sections": [
-        {
-          "heading": "특별법과 명확한 기준의 필요성",
-          "body": "데이터 활용을 둘러싼 산발적 규제 개선은 활성화와 신뢰 확보 모두에서 한계가 있다는 지적이다. 국가 연구 인프라와 바이오 안보 틀 안에서 특별법과 명확한 법적 기준을 세워야 한다는 것이 핵심 제언이다."
-        },
-        {
-          "heading": "바이오 안보 관점",
-          "body": "의료데이터를 단순 활용 자원이 아니라 국가 안보 자산으로 보는 시각이다. 산발적 규제 완화 대신 특별법으로 보호와 활용의 기준을 명확히 해야 산업 활성화와 국민 신뢰를 동시에 달성할 수 있다는 제언이다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "05b306961c8f33ef",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "서울시약, 도매관리약사 연수교육 실시…400여 명 참석",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537180",
-    "publishedAt": "2026-06-22 15:12:16",
-    "rawText": "서울시약사회 교육위원회(부회장 이용화, 위원장 고윤선·김은준)는 지난 18일 서울성모병원 마리아홀에서 '2026년도 의약품 도매업소 관리약사 연수교육'을 개최했다고 밝혔다.이번 교육에는 의약품 도매업소 관리약사 413명이 참석했으며, 참석자들은 약사회 연수교육 4평점을 취득했다.교육 프로그램은 의약품 유통 환경 변화와 약사 직능의 미래 역량 강화를 주제로 구성됐다. 서용구 숙명여자대학교 경영학부 교수는 'AI 시대 의약품 유통시장과 소비권력 변화'를 주제로 강연하며 인공지능 기술 확산에 따른 시장 환경 변화를 설명했다.이어 한동일",
-    "summaryKo": "서울시약사회 교육위원회가 의약품 도매업소 관리약사 연수교육을 열어 413명이 참석했다. 의약품 유통 환경 변화와 약사 직능의 미래 역량을 주제로, 서용구 숙명여대 교수가 'AI 시대 의약품 유통시장과 소비권력 변화'를 강연하며 AI 확산에 따른 시장 변화를 짚었다.",
-    "tags": [
-      "약사연수교육",
-      "AI유통",
-      "의약품유통"
-    ],
-    "entities": [
-      "서울시약사회",
-      "서용구",
-      "숙명여자대학교"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "서울시약사회가 의약품 도매업소 관리약사 연수교육을 개최해 413명이 참석했다.",
-        "교육은 의약품 유통 환경 변화와 약사 직능의 미래 역량 강화를 주제로 구성됐다.",
-        "서용구 숙명여대 교수가 'AI 시대 의약품 유통시장과 소비권력 변화'를 강연했다.",
-        "AI 기술 확산이 의약품 유통 시장 환경을 바꾸고 있다는 점이 강조됐다."
-      ],
-      "sections": [
-        {
-          "heading": "AI가 바꾸는 의약품 유통",
-          "body": "연수교육은 AI 확산이 유통 시장과 소비 권력 구조를 어떻게 바꾸는지에 초점을 맞췄다. 관리약사들에게 변화하는 유통 환경에 대응할 미래 역량의 필요성을 환기하는 자리였다."
-        },
-        {
-          "heading": "관리약사의 미래 역량",
-          "body": "AI가 수요 예측·재고·소비자 접점을 바꾸면서 의약품 유통의 작동 방식도 달라진다. 연수교육은 관리약사들이 이런 변화를 이해하고 직능을 재정의하도록 돕는 데 초점을 맞췄다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "2bb00a579a57c80f",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "SK바이오팜-인실리코 메디슨, AI 신약개발 맞손…CNS 파이프라인 확장",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537169",
-    "publishedAt": "2026-06-22 14:16:35",
-    "rawText": "SK바이오팜은 생성형 인공지능(AI) 기반 신약개발 기업 인실리코 메디슨(Insilico Medicine)과 중추신경계(CNS) 질환 치료제 개발을 위한 공동 연구개발 계약을 체결했다고 밝혔다. 양측은 미국에서 열린 '2026 바이오 인터내셔널 컨벤션' 현장에서 협력 계획을 공개했다.이번 협력은 미충족 의료 수요가 큰 신경면역(Neuroimmune) 분야를 대상으로 새로운 치료 후보물질을 발굴하는 데 초점이 맞춰져 있다. SK바이오팜은 뇌전증 치료제 세노바메이트(미국 제품명 엑스코프리)를 통해 축적한 CNS 연구 경험을 바탕으로 신",
-    "summaryKo": "SK바이오팜이 생성형 AI 기반 신약개발 기업 인실리코 메디슨과 중추신경계(CNS) 질환 치료제 공동 R&D 계약을 체결했다. 미충족 수요가 큰 신경면역 분야에서 새 후보물질을 발굴하며, SK바이오팜은 뇌전증 치료제 세노바메이트로 축적한 CNS 경험을 결합한다.",
-    "tags": [
-      "AI신약개발",
-      "CNS",
-      "신경면역"
-    ],
-    "entities": [
-      "SK바이오팜",
-      "인실리코 메디슨",
-      "세노바메이트"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "SK바이오팜이 생성형 AI 신약개발 기업 인실리코 메디슨과 CNS 치료제 공동 R&D 계약을 맺었다.",
-        "협력은 미충족 의료 수요가 큰 신경면역(Neuroimmune) 분야의 새 후보물질 발굴에 초점을 둔다.",
-        "SK바이오팜은 뇌전증 치료제 세노바메이트로 쌓은 CNS 연구 경험을 활용한다.",
-        "2026 바이오 인터내셔널 컨벤션 현장에서 협력 계획이 공개됐다."
-      ],
-      "sections": [
-        {
-          "heading": "AI와 CNS 신약개발의 결합",
-          "body": "인실리코 메디슨의 생성형 AI 신약 발굴 역량과 SK바이오팜의 CNS 임상·개발 경험을 결합하는 협력이다. 신경면역이라는 난치 영역에서 AI가 후보물질 탐색을 가속하는 국내 제약사의 실제 적용 사례다."
-        },
-        {
-          "heading": "국내 AI 신약개발 확장",
-          "body": "글로벌 AI 신약 기업과 국내 제약사의 협력은 AI 후보물질 발굴이 실제 임상 파이프라인으로 연결되는 흐름을 보여준다. 신경면역 같은 난치 영역을 택했다는 점에서 AI의 강점인 미충족 수요 탐색을 적극 활용한 사례다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "6ed3a5fc39892f58",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "디지털 헬스케어법 공청회…보건의료정보 활용·보호 균형점 찾기",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537162",
-    "publishedAt": "2026-06-22 14:00:00",
-    "rawText": "보건복지부는 6월 22일 국회의원회관에서 더불어민주당 서영석 의원실과 공동으로 '디지털 헬스케어 및 보건의료정보 활용 지원에 관한 법률안' 공청회를 개최한다고 밝혔다.이번 공청회는 제22대 국회에 발의된 법률안을 두고 전문가와 국민이 참여해 주요 쟁점을 논의하고 의견을 수렴하기 위해 마련됐다.보건의료정보는 의료기관에서 환자 진료를 위한 기초자료일 뿐 아니라 인공지능(AI) 기술 발전에 따라 질병 예측과 신약·의료기기 개발 등 미래 의료혁신을 이끄는 핵심 자산으로 주목받고 있다. 반면 환자에게는 가장 민감한 개인정보 중 하나로, 사생",
-    "summaryKo": "보건복지부가 서영석 의원실과 함께 '디지털 헬스케어 및 보건의료정보 활용 지원에 관한 법률안' 공청회를 연다고 밝혔다. 보건의료정보가 AI 발전으로 질병 예측·신약개발의 핵심 자산으로 주목받는 동시에 가장 민감한 개인정보라는 양면성 속에서 활용·보호의 균형점을 모색한다.",
-    "tags": [
-      "디지털헬스케어",
-      "보건의료정보",
-      "개인정보",
-      "AI"
-    ],
-    "entities": [
-      "보건복지부",
-      "서영석"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "보건복지부가 디지털 헬스케어·보건의료정보 활용 지원 법률안 공청회를 개최한다.",
-        "제22대 국회 발의 법안을 두고 전문가·국민이 쟁점을 논의하고 의견을 수렴한다.",
-        "보건의료정보는 AI 발전으로 질병 예측·신약·의료기기 개발의 핵심 자산으로 주목받는다.",
-        "동시에 가장 민감한 개인정보로서 활용과 보호의 균형이 과제다."
-      ],
-      "sections": [
-        {
-          "heading": "활용과 보호의 균형점 찾기",
-          "body": "공청회는 보건의료정보의 산업적·연구적 가치와 개인정보 보호라는 상충 가치를 어떻게 조화시킬지에 초점을 둔다. AI 시대에 데이터 활용의 빗장을 풀되 환자 신뢰를 지키는 제도 설계가 핵심 쟁점이다."
-        },
-        {
-          "heading": "데이터 양면성의 과제",
-          "body": "보건의료정보는 질병 예측·신약개발을 이끄는 핵심 자산이자 가장 민감한 개인정보라는 이중성을 갖는다. 공청회는 이 둘을 어떻게 조화시킬지에 대한 사회적 합의를 만드는 출발점으로, 향후 입법 방향을 가늠하는 자리다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "aedc50ed9c33b8bb",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "\"3일 걸리던 논문 정리, AI로 30분 만에\" 약토피아, 무료 웨비나 개최",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537164",
-    "publishedAt": "2026-06-22 13:57:09",
-    "rawText": "메디컬라이터이자 AI강사로 활동하는 한현지 약사(약토피아 대표)가 오는 25일 밤 9시, 무료 AI 웨비나를 진행한다.'3일을 30분으로 단축시키는 AI활용법'을 주제로 열리는 이번 웨비나는 약사들을 대상으로 Claude 사용법을 공유한다. 강의는 약토피아 대표 한현지 약사와 스탠포드 의대 박사과정을 밟으며 AI연구를 진행하는 김정현 약사가 진행한다.1부에서는 ▲Claude의 특징(챗지피티, 제미나이 비교) ▲Claude로 논문 검색하는 방법 ▲Claude Cowork로 여러 논문 효율적으로 정리하기를 다룬다. 이어 2부는 임상논문",
-    "summaryKo": "메디컬라이터이자 AI강사인 한현지 약사(약토피아 대표)가 약사 대상 무료 AI 웨비나를 연다. '3일을 30분으로 단축시키는 AI 활용법'을 주제로 Claude 사용법을 공유하며, Claude로 논문을 검색하고 Claude Cowork로 여러 논문을 효율적으로 정리하는 방법 등을 다룬다.",
-    "tags": [
-      "AI웨비나",
-      "Claude",
-      "논문정리",
-      "약사"
-    ],
-    "entities": [
-      "약토피아",
-      "한현지",
-      "Claude"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "한현지 약사(약토피아 대표)가 약사 대상 무료 AI 웨비나를 진행한다.",
-        "주제는 '3일을 30분으로 단축시키는 AI 활용법'으로 Claude 사용법을 공유한다.",
-        "1부는 Claude의 특징, Claude로 논문 검색, Claude Cowork로 논문 정리를 다룬다.",
-        "스탠포드 의대 박사과정 김정현 약사가 임상논문 관련 2부를 함께 진행한다."
-      ],
-      "sections": [
-        {
-          "heading": "약사를 위한 Claude 실무 활용",
-          "body": "웨비나는 약사들이 임상·학술 업무에서 Claude를 실제로 어떻게 쓰는지에 초점을 둔다. 논문 검색과 여러 논문의 동시 정리(Claude Cowork) 등 시간을 크게 절약하는 구체적 워크플로를 공유하는 실무형 강의다."
-        },
-        {
-          "heading": "AI 도구의 약사 실무 침투",
-          "body": "이번 웨비나는 AI 도구가 약사의 학술·임상 업무에 구체적으로 어떻게 스며드는지 보여준다. 무료 공개 형식으로 진입 장벽을 낮춰, 비개발 직군인 약사들의 AI 리터러시 확산을 가속하는 흐름의 일부다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "c7fd23355db80bb9",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "AI 시대, 약대생들이 '바이브 코딩'에 빠진 이유",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537158",
-    "publishedAt": "2026-06-22 12:03:00",
-    "rawText": "생성형 AI의 발전으로 프로그래밍 언어를 몰라도 말로 소프트웨어를 구현하는 '바이브 코딩'이 화두가 되며, 약업계에서도 AI 도구를 다루는 디지털 리터러시가 미래 약사의 필수 역량으로 꼽힌다.",
-    "summaryKo": "생성형 AI로 코드를 몰라도 자연어로 소프트웨어를 만드는 '바이브 코딩'이 확산되며, 약업계에서도 AI 도구 활용 역량(디지털 리터러시)이 미래 약사의 필수 역량으로 부상하고 있다. 주요 약학 학술대회도 '디지털 헬스케어 시대 약사의 역할', 'AI를 활용한 약국 경영·복약지도'를 핵심 주제로 다루고 있다.",
-    "tags": [
-      "AI",
-      "바이브코딩",
-      "디지털리터러시"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "생성형 AI로 프로그래밍 언어 없이 자연어만으로 소프트웨어를 구현하는 '바이브 코딩'이 전 산업 화두가 됐다.",
-        "약업계에서도 AI 도구를 다루는 디지털 리터러시가 미래 약사의 필수 역량으로 꼽힌다.",
-        "주요 약학 학술대회가 '디지털 헬스케어 시대 약사의 역할', 'AI 활용 약국 경영·복약지도'를 핵심 주제로 다룬다."
-      ],
-      "sections": [
-        {
-          "heading": "약사에게도 번지는 바이브 코딩",
-          "body": "바이브 코딩은 복잡한 코드 대신 말로 원하는 기능을 만들어내는 방식으로, 비개발 직군에도 진입 장벽을 크게 낮췄다. 약사·약대생에게도 AI를 도구로 활용하는 역량이 진료·경영·교육 전반의 차별화 요소로 인식되기 시작했다."
-        },
-        {
-          "heading": "필수 역량이 된 디지털 리터러시",
-          "body": "학술대회 주제가 AI 활용으로 옮겨가는 흐름은 약사 직능이 AI를 선택이 아닌 기본 역량으로 받아들이고 있음을 보여준다. 약국 경영과 복약지도에서 AI 도구를 얼마나 잘 다루느냐가 경쟁력으로 연결된다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-22T04:28:16.556Z"
-  },
-  {
-    "id": "581d7e972252a097",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "파로스아이바이오-캅스바이오, AI·TPD 결합 메닌 저해제 개발 국책과제 선정",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537159",
-    "publishedAt": "2026-06-22 11:38:52",
-    "rawText": "AI 기반 신약개발 기업 파로스아이바이오가 캅스바이오와 함께 자체 AI 플랫폼과 표적단백질분해(TPD) 기술을 결합한 차세대 메닌 저해제 개발로 국가신약개발사업 과제에 선정됐다.",
-    "summaryKo": "AI 기반 신약개발 기업 파로스아이바이오가 캅스바이오와 손잡고, 자체 AI 플랫폼과 표적단백질분해(TPD) 기술을 결합한 차세대 메닌 저해제 개발로 국가신약개발사업(KDDF) 과제에 선정됐다. 핵심 파이프라인 'PHI-601'을 중심으로 기존 메닌 저해제의 한계인 획득내성 극복을 노린다.",
-    "tags": [
-      "AI신약개발",
-      "TPD",
-      "메닌저해제"
-    ],
-    "entities": [
-      "파로스아이바이오",
-      "캅스바이오",
-      "KDDF"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "AI 신약개발 기업 파로스아이바이오가 캅스바이오와 공동으로 차세대 메닌 저해제 개발에 나선다.",
-        "자체 AI 플랫폼과 표적단백질분해(TPD) 기술을 결합하는 전략이다.",
-        "기존 메닌 저해제의 한계로 지목된 획득내성 극복 가능성을 높이는 것이 목표다.",
-        "국가신약개발사업단(KDDF)의 '신약 기반 확충 연구 과제'에 연구기관으로 선정됐다."
-      ],
-      "sections": [
-        {
-          "heading": "AI×TPD 결합 전략",
-          "body": "파로스아이바이오는 AI 신약개발 플랫폼으로 후보물질을 발굴하고, 여기에 표적단백질을 분해하는 TPD 기술을 더해 기존 저해제가 부딪힌 내성 문제를 풀려 한다. 핵심 파이프라인 'PHI-601'을 중심으로 과제가 진행된다."
-        },
-        {
-          "heading": "국책과제 선정의 의미",
-          "body": "국가신약개발사업 과제 선정은 기술의 공신력과 개발 자금 확보 측면에서 의미가 있다. AI를 신약개발 실무에 접목하는 국내 사례가 정부 지원 단계로 확장되고 있음을 보여준다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-22T04:28:16.556Z"
-  },
-  {
-    "id": "36a35379be87a9d6",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "디지털헬스케어법 공청회 앞두고 '긴장감'",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537102",
-    "publishedAt": "2026-06-22 05:50:00",
-    "rawText": "디지털 헬스케어와 보건의료정보 활용의 법적 기반을 마련하기 위한 공청회가 예정된 가운데 법률안 제정을 둘러싼 이견도 계속되고 있다.",
-    "summaryKo": "디지털 헬스케어와 보건의료정보 활용의 법적 기반을 마련하기 위한 공청회가 22일 국회에서 열린다. 산업 육성을 강조하는 입장과 의료정보 상업화·개인정보 침해를 우려하는 입장이 맞서고 있어 법안 제정까지 진통이 예상된다.",
-    "tags": [
-      "디지털헬스케어",
-      "보건의료데이터",
-      "규제"
-    ],
-    "entities": [
-      "국회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "디지털 헬스케어·보건의료정보 활용의 법적 기반을 마련하기 위한 공청회가 22일 국회에서 열린다.",
-        "보건의료데이터 활용 확대·산업 육성을 강조하는 입장과 상업화·개인정보 침해를 우려하는 입장이 대립한다.",
-        "국회에는 관련 법안이 복수로 발의돼 있어 공청회에서 각계 의견을 수렴한다."
-      ],
-      "sections": [
-        {
-          "heading": "쟁점: 산업 육성 vs 개인정보",
-          "body": "한쪽은 보건의료데이터를 적극 활용해 디지털 헬스케어 산업을 키워야 한다고 보고, 다른 쪽은 의료정보 상업화와 개인정보 침해 위험을 경계한다. 두 입장의 간극이 법안 제정의 핵심 변수다."
-        },
-        {
-          "heading": "약업계 함의",
-          "body": "법적 기반이 마련되면 약국·약사의 보건의료데이터 활용 범위와 디지털 헬스케어 서비스 연계 방식에도 영향을 미친다. 데이터 거버넌스 규칙이 어떻게 정해지는지가 현장 적용을 좌우한다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-22T01:38:03.811Z"
-  },
-  {
-    "id": "ea270023f946b341",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "바텍 네트웍스, 하반기 신입 공채…AI 역량평가 신설",
-    "url": "https://www.dailypharm.com/user/news/339646",
-    "publishedAt": "2026-06-22 00:00:00",
-    "rawText": "바텍 네트웍스가 2026년 하반기 신입사원 공개채용을 실시하며 이번 공채에 AI 역량평가를 신설했다.",
-    "summaryKo": "바텍 네트웍스가 2026년 하반기 11기 신입 공채를 진행하며 채용 전형에 'AI 역량평가'를 새로 도입했다. 연구개발·경영기획·경영지원·고객서비스·품질 등 5개 직군을 뽑고, 기술 경쟁력 강화를 위해 R&D 채용 비중을 확대했다.",
-    "tags": [
-      "AI",
-      "채용",
-      "역량평가"
-    ],
-    "entities": [
-      "바텍 네트웍스"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "바텍 네트웍스가 2026년 하반기 11기 신입사원 공개채용을 실시한다.",
-        "이번 공채 전형에 'AI 역량평가'를 신설한 점이 특징이다.",
-        "채용 직군은 연구개발·경영기획·경영지원·고객서비스·품질 등 5개 분야다.",
-        "기술 경쟁력 강화를 위해 연구개발(R&D) 채용 비중을 확대했다."
-      ],
-      "sections": [
-        {
-          "heading": "채용에 도입된 AI 역량평가",
-          "body": "이번 공채에서 새로 도입된 AI 역량평가는 지원자의 AI 활용·이해 역량을 채용 단계에서 평가하려는 시도로, 의료기기 업계에서도 AI 역량이 인재 선발 기준으로 자리 잡고 있음을 보여준다. 서류 접수는 6월 22일부터 7월 1일까지 채용 홈페이지에서 진행된다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-22T01:56:32.634Z"
-  },
-  {
-    "id": "fefd107608ab4e88",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "경기도약 \"학술대회 만족도 90%...AI 체험존 큰 호응\"",
-    "url": "https://www.dailypharm.com/user/news/339682",
-    "publishedAt": "2026-06-22",
-    "rawText": "경기도약 \"학술대회 만족도 90%...AI 체험존 큰 호응\"",
-    "summaryKo": "경기도약사회 학술대회의 만족도가 90%에 달했고 'AI 체험존'이 큰 호응을 얻었다는 데일리팜 보도다. 약사 학술행사에서 AI 체험 프로그램이 주요 관심사로 부상했음을 보여준다.",
-    "tags": [
-      "약사학술대회",
-      "AI체험존"
-    ],
-    "entities": [
-      "경기도약사회",
-      "데일리팜"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "b5bbbbefadd3e152",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "[ECCV 2026] Paper Decision Appeals Discussion [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/",
-    "publishedAt": "2026-06-21T20:39:17+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>With the release of meta-reviews, ECCV sent out a google form for dissatisfied authors to submit an appeal for the following reasons:</p> <ol> <li>Policy errors, e.g., reviewers or Area Chairs applied a policy that does not exist, or reviewers or Area Chairs applied policies that are not applicable for the contribution type of the paper; </li> <li>Clerical errors, e.g., it is clear from the meta-review that an Area Chair intended to accept a paper but the paper was rejected; and</li> <li>Obvious and major misunderstandings on the side of the reviewers or Area Chairs (historically, these are extremely rare).</li> </ol> <p>Is anyone considering submitting an appeal? I was rejected with 6/4/3 final scores on criteria that policy and <a href=\"https://eccv.ecva.net/Conferences/2026/ACGuidance\">AC</a>/<a href=\"https://eccv.ecva.net/Conferences/2026/ReviewerContributionTypes\">Reviewer</a> guidelines explicitly state my <a href=\"https://eccv.ecva.net/Conferences/2026/AuthorContributionTypes\">contribution type</a> should not be penalized for. Also, according to their policies, if they were to use the criteria in their decision, they have to explicitly disagree with the declared contribution type and state so in the meta review (all three reviewers agreed with the declared contribution type and the AC does not mention changing the paper&#39;s type.)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Muted-Ad4511\"> /u/Muted-Ad4511 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/\">[comments]</a></span>",
-    "summaryKo": "ECCV 2026 메타리뷰 공개 후, 불만족한 저자들이 정책 오류·서기 오류 등 사유로 결정에 이의를 제기할 수 있는 구글 폼이 배포된 데 대한 토론이다. 학회 이의신청 절차와 그 적용 범위를 둘러싼 연구자들의 논의가 오간다.",
-    "tags": [
-      "ECCV2026",
-      "논문심사",
-      "학회"
-    ],
-    "entities": [
-      "ECCV"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "deba37a047888b3f",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "An Update on Matrix Recurrent Units, an Attention Alternative [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
-    "publishedAt": "2026-06-21T19:39:44+00:00",
-    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/\"> <img src=\"https://preview.redd.it/9ebh98q6uo8h1.png?width=140&amp;height=73&amp;auto=webp&amp;s=bc518b767c08ee943f01c04ece6bbeabcae5dbbd\" alt=\"An Update on Matrix Recurrent Units, an Attention Alternative [R]\" title=\"An Update on Matrix Recurrent Units, an Attention Alternative [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I recently revisited my matrix recurrent units algorithm (the MRU), a novel linear-time sequence architecture I created as an alternative to attention. I explain it in depth at the <a href=\"https://github.com/mikayahlevi/mru-lm\">repo</a>, but the gist is the MRU works by transforming the embedding into an input state matrix, cumulatively multiplying the matrices across the sequence dimension to get the output state matrix, and then transforming the matrices back into a vector. In order to make the MRU efficient on DL hardware, I created a parallel scan by utilizing the operation&#39;s associativity.</p> <p><a href=\"https://www.reddit.com/r/MachineLearning/comments/1he8vhw/project_matrix_recurrent_states_a_attention/\">About a year ago, I shared my project on Reddit</a> (I&#39;ve since renamed my account), with good results on the toy dataset shakespeare-char. A commenter asked the steps taken to bound the matrix states and another commenter found that training was inherently unstable when training on more comprehensive datasets. I addressed these by experimenting with different methods to create the input state matrix. Originally, I simply reshaped the input vector into a matrix and added the identity. Since then, I&#39;ve implemented the following methods:</p> <ul> <li>Using the elements of the vector to fill a skew-symmetric matrix and using the matrix exponential or the Cayley Map to generate an orthogonal matrix</li> <li>Filling LDU factors with elements from the vector and using an activation function on D to enforce a determinant of 1.</li> <li>Creating QR, by using the matrix exponential or Cayley map to create orthogonal matrix Q and filling the upper-triangular matrix R.</li> <li>Dividing by a determinant-correcting scalar factor, found by taking the determinant.</li> </ul> <p>I found that these fixes prevented loss spikes with varying tradeoffs. Interestingly, the scalar factor method led to worse results. Dividing the input states should only affect the output states by scaling them, indicating that the unscaled model was &quot;cheating&quot; on the toy dataset by learning a simple scalar decay pattern instead of more complex relationships. Also, using the Cayley Map or matrix exponential to force the input states to be orthogonal surprisingly mostly prevented the model from learning information about the sequence, performing closer to the FFN than the Cayley QR method. The poor performance of orthogonal matrices indicates that the ability to learn shear transformations might be critical for the model. Possibly, rotations enforce dependence on the previous state, whereas shearing allows the model to adjust the state more independently of the previous state.</p> <p><a href=\"https://preview.redd.it/9ebh98q6uo8h1.png?width=2528&amp;format=png&amp;auto=webp&amp;s=03ccef7f9b90762281aba31ab88af0368e273f69\">https://preview.redd.it/9ebh98q6uo8h1.png?width=2528&amp;format=png&amp;auto=webp&amp;s=03ccef7f9b90762281aba31ab88af0368e273f69</a></p> <p><a href=\"https://preview.redd.it/fkkud7q6uo8h1.png?width=2528&amp;format=png&amp;auto=webp&amp;s=5e9a2ef2b0e4319990950f16aa0648adebc2c360\">https://preview.redd.it/fkkud7q6uo8h1.png?width=2528&amp;format=png&amp;auto=webp&amp;s=5e9a2ef2b0e4319990950f16aa0648adebc2c360</a></p> <p>Above are the train loss and validation loss on the shakespeare-char dataset for a small MRU LM, transformer, and FFN, with the embedding, state, key, and value size set to 256. The MRU LM has a single MRU layer and 4 MLPs, the transformer has a single attention layer and 4 MLPs, and the FFN only has 4 MLPs. I only used a single sequence-mixing layer in order to isolate the effect of the MRU.</p> <p>Finally, I moved to a larger dataset, trying to replicate <a href=\"https://huggingface.co/roneneldan/TinyStories-33M\">https://huggingface.co/roneneldan/TinyStories-33M</a> by training a baseline GPT-2 model and a model with attention replaced with the MRU. I ended up quitting the training runs early, but the loss curves seem to already conclusively show that the MRU performs worse on this task. For the creation of the MRU&#39;s input state matrices, I used the method of creating LDU factors, since it has the best performance.</p> <p><a href=\"https://preview.redd.it/p2uh1pyfuo8h1.png?width=2528&amp;format=png&amp;auto=webp&amp;s=d6406574e0275f1aad52e89cca6462fd55116fcd\">https://preview.redd.it/p2uh1pyfuo8h1.png?width=2528&amp;format=png&amp;auto=webp&amp;s=d6406574e0275f1aad52e89cca6462fd55116fcd</a></p> <p>Above is the validation loss for a transformer and a LM using MRU with the same hyperparameters and dimensions as the huggingface model card. <a href=\"https://huggingface.co/roneneldan/TinyStories-33M/discussions/8\">The official TinyStories model was trained for 20 epochs</a>, which corresponds to about 200k steps. In order to compare it to other linear-time models, I also briefly trained a linear transformer, using the algorithm described in <a href=\"https://arxiv.org/abs/2006.16236\">Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention</a>.</p> <p>I think that my research shows that the MRU likely doesn&#39;t work as a direct replacement for attention for generative language modeling, but I&#39;ve already laid the groundwork for this algorithm. The MRU has dramatically different strengths and weaknesses compared to other algorithms such as attention, state space models, traditional RNNs, and fast weight programmers. It performs significantly more cumulative computation along the sequence (as opposed to the computation for each token being independent), is significantly more lightweight and hence faster, but also has a much lower storage capacity. I believe that the MRU&#39;s alternative uses should still be explored.</p> <p>One usage of the MRU could be applying it to query and key vectors of attention. Similar to RoPE, it would rotate chunks of the vectors, but it would be able to rotate chunks in greater than two dimensions and with dynamic and non-commutative angles. This is one of many applications of the algorithm which I will continue to research, and I hope that others are interested in its applications as well. If you&#39;re interested, reach out to me at [<a href=\"mailto:mikayahlevi@gmail.com\">mikayahlevi@gmail.com</a>](mailto:<a href=\"mailto:mikayahlevi@gmail.com\">mikayahlevi@gmail.com</a>), Reddit, GitHub, or any other platform you can find me at.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mikayahlevi\"> /u/mikayahlevi </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/\">[comments]</a></span> </td></tr></table>",
-    "summaryKo": "어텐션 대안으로 제안된 'Matrix Recurrent Units(행렬 순환 유닛)'의 후속 연구 업데이트를 공유하는 글이다. 기존 어텐션을 대체하려는 순환 구조 접근의 개선 결과를 r/MachineLearning에 소개한다.",
-    "tags": [
-      "어텐션 대안",
-      "순환신경망",
-      "아키텍처 연구"
-    ],
-    "entities": [
-      "Matrix Recurrent Units"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "fbab2b11e83432fa",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "AI부터 통합돌봄까지…\"약국 도움되는 교육\" 방점",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537098",
-    "publishedAt": "2026-06-21 17:05:00",
-    "rawText": "20~21일 진행된 '2026 경남약사학술제 & 제52회 팜엑스포'는 강의실 5곳, 총 30개 강의로 구성됐다.",
-    "summaryKo": "2026 경남약사학술제·제52회 팜엑스포가 강의실 5곳·총 30개 강의로 열려 약 1900명의 회원이 참석했다. AI부터 통합돌봄까지 약국 현장에서 바로 활용할 수 있는 실무 중심 연수교육에 초점을 맞췄다.",
-    "tags": [
-      "AI",
-      "약사교육",
-      "연수교육"
-    ],
-    "entities": [
-      "경남약사회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "2026 경남약사학술제·제52회 팜엑스포가 강의실 5곳·총 30개 강의로 진행됐다.",
-        "약 1900명의 회원이 참석해 행사를 마무리했다.",
-        "AI부터 통합돌봄까지 약국 현장에서 바로 쓸 수 있는 실무 강의에 무게를 뒀다.",
-        "강의 수 확대보다 연수교육 본질인 전문성 향상에 초점을 맞췄다고 평가했다."
-      ],
-      "sections": [
-        {
-          "heading": "현장 중심 연수교육",
-          "body": "주최 측은 회원들이 약국 현장에서 곧바로 활용할 수 있는 강의 구성에 가장 공을 들였다고 밝혔다. AI 활용과 통합돌봄 등 변화하는 약국 환경에 대응하는 주제를 다뤄 실무 적용성을 높였다."
-        }
-      ],
-      "quotes": [
-        "회원들이 약국 현장에서 바로 활용할 수 있는 강의를 만드는 데 가장 많은 고민을 했습니다."
-      ]
-    },
-    "fetchedAt": "2026-06-22T01:38:03.811Z"
-  },
-  {
-    "id": "b650a39004ea4c4a",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "클로드 코드에서 Opus 대신 GLM 5.2 쓰는게 답이네요 | 오픈웨이트 SOTA 모델",
-    "url": "https://www.youtube.com/watch?v=yB16BT1IMag",
-    "publishedAt": "2026-06-20T17:24:09+00:00",
-    "rawText": "클로드 코드에서 Opus 대신 GLM 5.2 쓰는게 답이네요 | 오픈웨이트 SOTA 모델",
-    "videoId": "yB16BT1IMag",
-    "summaryKo": "오픈웨이트 SOTA 모델인 GLM 5.2를 클로드 코드 하네스에 붙여 Opus 4.8과 동일한 프롬프트로 비교 테스트한 영상이다. 프론트엔드 디자인과 대부분의 일상 코딩 작업에서는 Opus와 구분이 안 될 정도로 잘하지만, API 연동·대규모 코드베이스 같은 복잡하거나 장기 작업에서는 정확도가 다소 떨어지고 작업 시간·토큰 소모도 더 컸다. 그럼에도 출력 토큰 기준 약 6배 저렴한 비용과 MIT 라이선스 오픈웨이트라는 점에서 벤더 종속을 피할 수 있어 주목할 만하다는 결론이다.",
-    "tags": [
-      "오픈웨이트",
-      "코딩에이전트",
-      "LLM벤치마크",
-      "양자화"
-    ],
-    "entities": [
-      "GLM 5.2",
-      "Claude Code",
-      "Opus 4.8",
-      "Z.ai",
-      "LMArena"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "동일한 클로드 코드 하네스에서 같은 프롬프트로 GLM 5.2와 Opus 4.8을 직접 비교했다.",
-        "랜딩페이지·SVG 스피너·3D·게임 등 프론트엔드/디자인 작업에서는 두 모델 품질이 거의 구분되지 않았다.",
-        "외부 API 연동, ER 다이어그램 FK 체인 등 복잡·디테일 작업에서는 Opus 4.8이 더 나은 결과를 보였다.",
-        "대부분 작업에서 GLM 5.2가 Opus 4.8보다 시간이 약 2배 더 걸리고 토큰도 더 많이 소모했다.",
-        "GLM 5.2는 LMArena 에이전트 아레나 12위·웹개발 랭킹에서 Opus를 앞서며 현존 오픈웨이트 중 최고 성능으로 평가된다.",
-        "MIT 라이선스 오픈웨이트라 벤더 종속을 피하고 로컬·사내 인프라 운용이 가능하다는 점이 핵심 가치다."
-      ],
-      "sections": [
-        {
-          "heading": "실작업 비교 결과",
-          "body": "기후 대시보드, SVG 로딩 스피너, ER 다이어그램, 3D 시뮬레이션, 마인크래프트 게임 등 다양한 원샷 작업을 두 모델에 동일하게 시켰다. 프론트엔드 디자인 영역은 GLM 5.2가 Opus 4.8과 거의 동등하며 마우스 인터랙션/애니메이션은 오히려 GLM이 더 잘 넣기도 했다. 다만 외부 API 연동 렌더링 실패, FK 체인 미표시 등 복잡하고 디테일한 부분에서는 Opus가 우위였고, 이런 이슈는 후속 프롬프트로 보완 가능했다."
-        },
-        {
-          "heading": "비용과 오픈웨이트의 의미",
-          "body": "GLM 5.2는 입력 1.4달러·출력 4.4달러로 Opus 4.8(입력 5달러·출력 25달러) 대비 출력 기준 약 6배 저렴하며, Z.ai 코딩 플랜은 월 약 16달러대다. 오픈웨이트는 학습 데이터까지 공개하는 오픈소스와 달리 가중치만 공개하지만 MIT 라이선스로 상업적 활용이 자유롭다. 수출 통제로 접근이 막힐 수 있는 상황에서 벤더/정부 결정에 좌우되지 않고 직접 서빙·파인튜닝·사내 인프라 구축이 가능하다는 점이 강조된다."
-        }
-      ],
-      "quotes": [
-        "기후 대시보드 작업: Opus 4.8은 5분 3초·85,400토큰, GLM 5.2는 9분 24초·99,000토큰",
-        "SVG 스피너: Opus 4.8은 2분 34초·68,000토큰, GLM 5.2는 6분 55초·83,000토큰",
-        "출력 토큰 기준 GLM 5.2가 Opus 4.8보다 약 6배 저렴"
-      ]
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "c57cb7bed5a003e2",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "AI가 영상 편집을 완전히 바꿨습니다",
-    "url": "https://www.youtube.com/watch?v=0xKjf_719No",
-    "publishedAt": "2026-06-20T10:00:16+00:00",
-    "rawText": "AI가 영상 편집을 완전히 바꿨습니다",
-    "videoId": "0xKjf_719No",
-    "summaryKo": "인디 유튜버 Jay Choi가 자신의 영상 제작에 AI를 어떻게 활용하는지 처음부터 끝까지 공개한 영상이다. 기획·촬영은 자동화 불가능하다고 보고 편집 단계(컷편집·화면편집·자막)만 AI로 '효율화'하는 접근을 강조하며, 핵심은 도구가 아니라 명확한 지시·빠른 반복·직접 해보기라고 말한다. 특히 Remotion(React 코드로 모션그래픽 생성)과 Claude Code, CLAUDE.md 커스터마이징을 통한 자료화면 제작, Vrew의 SRT 자동 자막 워크플로우를 구체적으로 시연한다.",
-    "tags": [
-      "AI 영상편집",
-      "모션그래픽 자동화",
-      "워크플로우 효율화",
-      "자동 자막"
-    ],
-    "entities": [
-      "Remotion",
-      "Claude Code",
-      "CapCut",
-      "Vrew",
-      "CLAUDE.md"
-    ],
-    "cats": [
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "현재 영상 포맷은 100% 자동화가 불가능하며, AI는 약 50%만 적절히 쓰는 '자동화가 아닌 효율화'가 목표라고 강조한다.",
-        "제작 과정을 기획·촬영·편집 세 단계로 보고, 기획과 촬영은 사람 손이 필수라 자동화 대상이 아니라고 본다.",
-        "편집은 컷편집·화면편집·자막으로 나뉘며, 직접 만든 도구의 기능으로 무음 구간을 감지해 단축키 1·2·3으로 호흡을 살리는 반자동 컷편집을 한다.",
-        "화면편집의 모션그래픽은 React 코드 기반 무료 도구 Remotion에 공식 AI 스킬을 붙여 Claude로 생성하고, CLAUDE.md에 배경·정렬·색상·3D·트랜지션 지침을 누적해 품질을 끌어올린다.",
-        "배경을 덮는 모션그래픽과 촬영 영상 위에 올리는 오버레이 모션그래픽을 상황에 따라 구분해 쓰고, 전체 워크플로우를 CLAUDE.md에 슬래시 명령으로 세팅해 재사용한다.",
-        "자막은 컷편집 완료 후 오디오를 추출해 Vrew로 타임스탬프 포함 SRT를 만들고, Claude로 대본 기반 교정 후 CapCut에 다시 넣는 워크플로우를 따른다."
-      ],
-      "sections": [
-        {
-          "heading": "자동화가 아닌 효율화",
-          "body": "발표자는 통째로 찍어내는 자동화 포맷은 자신과 맞지 않고 '인간적인 영상'이 아니라고 본다. 그래서 AI로 100%를 대치하지 않고 필요한 곳에만 50% 정도 적용하는 효율화를 택했으며, 이것만으로도 제작 시간을 크게 줄일 수 있다고 말한다."
-        },
-        {
-          "heading": "컷편집: 자체 도구의 반자동 방식",
-          "body": "기존의 무음 감지 자동 컷은 끊는 타이밍을 정하기가 까다롭고 일률적으로 자르면 호흡이 사라져 부자연스럽다고 지적한다. 그래서 무음 구간으로 자동 이동한 뒤 단축키로 남길 시간을 직접 정하는 반자동 방식을 만들었고, 완전 자동과 수작업 사이가 현재로선 최적이라고 평가한다. 결과는 JSON으로 내보내 Claude Code를 통해 CapCut에서 이어서 작업한다."
-        },
-        {
-          "heading": "Remotion + Claude로 만드는 자료화면",
-          "body": "Remotion 설치 후 공식 AI 스킬을 추가하면 Claude가 바로 모션그래픽을 만들 수 있지만, 관건은 커스터마이징과 의도 설명이다. CLAUDE.md에 배경 이미지 사용·중앙 정렬·색상·공식 3D/트랜지션 스킬 강제 사용 등 지침을 하나씩 누적해야 원하는 결과에 가까워지며, 한 번에 되는 게 아니라 계속 만들고 다듬어야 한다고 강조한다."
-        },
-        {
-          "heading": "자막 워크플로우",
-          "body": "컷편집이 끝난 영상의 오디오를 추출해 음성인식 품질이 좋은 Vrew로 SRT를 생성한다. 타임스탬프가 들어가므로 컷편집 완료가 전제다. SRT와 원본 대본을 Claude에 올려 교정한 뒤 CapCut 자막에 넣고 스타일만 잡으면 끝난다."
-        }
-      ],
-      "quotes": [
-        "중요한 건 도구가 아니라 어떻게 쓰느냐예요. 똑같은 도구를 써도 누구는 30분 만에 끝내고 누구는 하루 종일 헤매죠.",
-        "결국 차이를 만드는 건 세 가지예요. 명확한 지시, 빠른 반복, 그리고 직접 해 보는 것.",
-        "오늘 보여 드릴 건 자동화가 아니라 효율화입니다."
-      ]
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "510325ad4afe3e78",
-    "sourceType": "youtube",
-    "source": "김효율의 AI 개발단",
-    "title": "자신 있게 말씀드립니다 현 시점 AX는 이 영상으로 종결합니다",
-    "url": "https://www.youtube.com/watch?v=9q1WG0tbzvs",
-    "publishedAt": "2026-06-20T04:20:18+00:00",
-    "rawText": "자신 있게 말씀드립니다 현 시점 AX는 이 영상으로 종결합니다",
-    "videoId": "9q1WG0tbzvs",
-    "summaryKo": "옵시디언(Obsidian)을 에이전트의 외부 메모리이자 위키 시스템으로 활용해 코덱스, 클로드 코드, 헤르메스 등 여러 에이전트가 같은 맥락을 공유하며 일하는 AI 네이티브 업무 환경 구축법을 소개한다. 원본 데이터(로우)·에이전트 산출물(위키)·대화(컨버세이션)로 맥락을 분류·링크하고, 크론잡으로 지식을 쌓아 스킬과 하네스를 자동 생성하는 '에이전틱 엔지니어링' 구조를 제시한다. 이를 ERP/MCP로 클라우드화해 이메일·노션·캘린더·텔레그램·슬랙과 연동한 기업 AX 전환 사례까지 다룬다.",
-    "tags": [
-      "에이전틱 엔지니어링",
-      "Obsidian 위키",
-      "에이전트 메모리",
-      "기업 AX"
-    ],
-    "entities": [
-      "Obsidian",
-      "Claude Code",
-      "Codex",
-      "Hermes",
-      "Notion"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "맥락 저장은 수동(옵시디언 저장 커맨드)과 자동(리서치 루프 3시간 간격 저장)으로 원하는 시점에 이뤄진다.",
-        "데이터는 원본 문서·계약서·이미지는 '로우', 에이전트 산출물·결정·개념·절차는 '위키', 대화·핸드오버·세션은 '컨버세이션'으로 구분된다.",
-        "새 세션이나 새 채팅 시작 시 옵시디언 참조 호출로 초기 1회 읽기를 시켜야 에이전트가 맥락을 가져온다.",
-        "유사 내용은 링크 규칙으로 연결되어 옵시디언 그래프에 선으로 표시되며, 맥락 확장과 지식의 복리 누적을 만든다.",
-        "사람이 직접 기록한 도메인 지식을 옵시디언에 넣으면 에이전트가 두 개의 메모리를 갖는 더 뾰족한 도메인 전문가가 된다.",
-        "에이전트가 크론잡으로 지식을 쌓고 분류해 스킬을 만들고, 스킬들이 링크되어 하네스를 이루며 업무 발전 속도를 가속한다고 본다."
-      ],
-      "sections": [
-        {
-          "heading": "옵시디언 위키 시스템의 작동 원리",
-          "body": "이전 영상에 대한 시청자 질문(저장 시점, 로우/위키 구분, 자동 반영 여부, 유사성 연결)에 답하는 형식으로 진행된다. 맥락은 수동·자동으로 원할 때 저장하고, 데이터 성격에 따라 로우·위키·컨버세이션으로 나뉜다. 새 세션에서는 참조 호출로 1회 읽기를 해야 맥락이 반영되며, 유사 내용은 링크로 연결돼 그래프에서 시각적으로 확인된다."
-        },
-        {
-          "heading": "사람과 에이전트가 공유하는 도메인 지식 레이어",
-          "body": "이 레이어를 통해 코덱스, 클로드 코드, 헤르메스가 각각 따로 일하면서도 같은 맥락을 공유한다. 발표자는 사람이 직접 기록한 도메인 지식을 함께 넣으면 일일이 설명할 필요가 없어진다고 본다. 디자이너 예시로 레퍼런스 수집→해체→UX/디자인 시스템 이해→규칙 파악→라이브러리화→스킬 생성의 단계마다 스킬이 강해지는, 사람의 학습 과정과 유사한 구조를 제시한다."
-        },
-        {
-          "heading": "ERP/MCP 기반 기업 AX 전환",
-          "body": "로컬 옵시디언을 벗어나 클라우드화하기 위해 MCP 구조를 내장하고 ERP에 이메일·노션·데이터·구글 캘린더를 연동했다. 에이전트 자체 생성, 텔레그램/슬랙 게이트웨이를 통한 외부 업무 지시, 명함·문서 OCR 자동 분류, 주간·월간·연간 성과 자동 정리 등을 구현했다. AX 도입을 희망하는 중소기업·대표의 연락을 요청하며 마무리한다."
-        }
-      ],
-      "quotes": [
-        "맥락 저장 시점은 제가 원할 때입니다. 리서치된 데이터를 세 시간 간격으로 옵시디언에 저장하도록 추가 루프를 설정해 뒀습니다.",
-        "이 유사성 연결을 통해서 맥락은 더 확장이 되고 지식은 복리로 쌓이게 되는 구조입니다.",
-        "저는 이 지점이 에이전틱 엔지니어링의 중심이 될 거라고 생각합니다."
-      ]
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "141015dc6f2f80f6",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "상위 1% 클로드코드 사용자는 프롬프트 대신 루프를 씁니다",
-    "url": "https://www.youtube.com/watch?v=sm7NCaXEESE",
-    "publishedAt": "2026-06-20T03:00:09+00:00",
-    "rawText": "상위 1% 클로드코드 사용자는 프롬프트 대신 루프를 씁니다",
-    "videoId": "sm7NCaXEESE",
-    "summaryKo": "클로드 코드(Claude Code) 상위 사용자들은 매번 프롬프트를 입력하는 대신 '루프(Loop)' 기능으로 반복 업무를 자동화한다는 점을 소개하는 실습 영상이다. '루프 엔지니어링' 개념을 바탕으로 클로드.md(작업 규칙)·루프.md(루프 장부)·위클리 리포트(실행 이력) 세 문서를 만들어, 고객 피드백 분류와 아웃바운드 리드 메일 초안 작성을 30분/60분 주기로 자동 실행하는 워크플로우를 구축한다. 루프·/loop·크론/루틴스의 차이와 토큰 소모·세션 의존·외부 발송 가드레일 같은 주의점도 함께 설명한다.",
-    "tags": [
-      "루프 엔지니어링",
-      "업무 자동화",
-      "워크플로우",
-      "에이전트 스케줄링"
-    ],
-    "entities": [
-      "Claude Code",
-      "Anthropic",
-      "Boris Cherny",
-      "Google Workspace CLI",
-      "VS Code"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "클로드 코드 고급 사용자는 매번 프롬프트를 치는 대신 루프를 걸어 AI가 다음 일감을 스스로 잡아 처리하게 하며, 이를 '루프 엔지니어링'이라 부른다.",
-        "루프는 정해진 간격마다 같은 작업을 재실행하는 기능으로, 단계별로 넘겨야 하는 업무나 실시간으로 데이터가 쌓이는 업무에 적합하다.",
-        "루프(/loop), 조건 충족까지 멈추지 않는 기능, PC가 꺼져도 도는 크론/루틴스(AI 직원형 스케줄링)는 용도가 서로 달라 프로젝트에 맞게 골라 써야 한다.",
-        "클로드.md(작업 규칙)·루프.md(루프 장부)·위클리 루프 리포트(실행 이력) 세 문서로 루프를 관리하면 비활성화돼도 손쉽게 재등록할 수 있다.",
-        "실습에서는 Google Workspace CLI를 연동해 구글 시트 업데이트와 Gmail 초안 작성을 자동화하고, 고객 피드백 분류(60분)와 아웃바운드 리드 후속 메일(30분) 두 루프를 등록한다.",
-        "루프는 세션이 살아있는 동안만 동작하고 토큰을 더 빨리 소모하므로, 외부 발송 같은 민감 작업은 초안까지만 만들고 사람이 검토 후 보내도록 가드레일을 둬야 한다."
-      ],
-      "sections": [
-        {
-          "heading": "루프 엔지니어링 개념과 유사 기능 비교",
-          "body": "클로드 코드 개발자가 프롬프트 대신 루프를 건다고 공개적으로 언급한 데서 출발해, 반복 업무를 루프에 맡기는 방식을 소개한다. 루프(정해진 간격마다 재실행), 조건 충족까지 멈추지 않는 기능, PC가 꺼져도 독립 실행되는 크론/루틴스를 비교하며 각각의 적합한 용도를 구분한다. 단순 주기적 알림용보다는 진행 중인 일감을 다음 단계로 이어가는 데 루프가 적합하다고 강조한다."
-        },
-        {
-          "heading": "세 문서 기반 루프 셋업 실습",
-          "body": "VS 코드 터미널에서 클로드 코드를 실행하고 오토 모드로 전환한 뒤, 회사 맥락·제품 정보·고객 피드백/아웃바운드 리드 시트를 준비한다. Google Workspace CLI를 연동해 엑셀을 구글 시트로 변환하고 Gmail 초안 작성을 가능하게 한다. 이어 클로드.md(작업 규칙), 루프.md(루프 장부와 프롬프트 원문), 위클리 루프 리포트(실행 이력) 세 운영 문서를 생성한다."
-        },
-        {
-          "heading": "루프 실행·자동 등록과 주의점",
-          "body": "루프.md에서 활성 상태인 루프만 읽어 실행하면 시트의 답변 초안·FAQ 후보가 채워지고 Gmail 임시보관함에 메일 초안이 생성된다. /loop 명령으로 아웃바운드 30분·피드백 60분 주기로 자동 등록하면 매 실행마다 리포트에 이력이 쌓인다. 다만 루프는 세션 생존 동안만 동작하고 일정 기간 후 비활성화, 토큰 소모 증가, 모니터링 약화 위험이 있어 외부 발송은 초안까지만 만들고 사람이 최종 검토하도록 권장한다."
-        }
-      ],
-      "quotes": [
-        "루프 엔지니어링의 핵심은 반복 작업은 루프에 맡기고 우리는 루프 설계와 모니터링에 집중하는 것",
-        "루프는 일정 기간이 지나면 자동으로 비활성화된다",
-        "아웃바운드 팔로업 30분 단위, 피드백 트리아지 60분 단위로 실행"
-      ]
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "5f72ae798af33d3b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Craigslist 창업자, 5억 달러를 기부하다",
-    "url": "https://news.hada.io/topic?id=30650",
-    "publishedAt": "2026-06-20T01:41:16+09:00",
-    "rawText": "Craigslist 창업자 Craig Newmark는 회사를 만든 뒤 30년 동안 자선단체에 5억 달러를 기부했고, 막대한 부를 가진 이들도 비슷한 선택을 하길 바라고 있음 그는 The Giving Pledge에 합류하며 자신의 말과 돈의 쓰임을 맞추려 했고, 기부를 개인의 가치와 책임을 ...",
-    "summaryKo": "Craigslist 창업자 Craig Newmark가 회사 설립 후 30년간 자선단체에 5억 달러를 기부했다고 밝혔다. 그는 The Giving Pledge에 합류해 자신의 말과 돈의 쓰임을 일치시키려 했으며, 막대한 부를 가진 이들도 비슷한 선택을 하길 바란다고 전했다.",
-    "tags": [
-      "기부",
-      "자선",
-      "The Giving Pledge"
-    ],
-    "entities": [
-      "Craigslist",
-      "Craig Newmark",
-      "The Giving Pledge"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "f4284bf601aef328",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "CS 6120: 고급 컴파일러 자기주도 온라인 강좌 (2020)",
-    "url": "https://news.hada.io/topic?id=30649",
-    "publishedAt": "2026-06-20T00:41:16+09:00",
-    "rawText": "Cornell CS의 박사 수준 강좌 CS 6120은 컴파일러와 프로그래밍 언어 구현을 체계적으로 배우려는 사람에게 중간 표현, 데이터 흐름, 최적화, 병렬화, JIT, 가비지 컬렉션까지 한 흐름으로 제공함 자기주도 버전은 가상의 대학에서 4학점 무성적으로 수강하는 형식...",
-    "summaryKo": "Cornell CS의 박사 수준 강좌 CS 6120이 중간 표현·데이터 흐름·최적화·병렬화·JIT·가비지 컬렉션까지 컴파일러와 언어 구현을 한 흐름으로 다룬다. 자기주도 버전은 가상의 대학에서 4학점 무성적으로 수강하는 형식으로 공개돼 누구나 따라 배울 수 있다.",
-    "tags": [
-      "컴파일러",
-      "프로그래밍언어",
-      "교육",
-      "JIT"
-    ],
-    "entities": [
-      "Cornell",
-      "CS 6120"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "442b97c877cfea18",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "CLI 인증, 올바른 방식",
-    "url": "https://news.hada.io/topic?id=30648",
-    "publishedAt": "2026-06-20T00:11:15+09:00",
-    "rawText": "많은 CLI는 노트북의 로컬 브라우저에서는 빠르게 끝나는 localhost OAuth 리다이렉트를 기본값으로 쓰지만, SSH·컨테이너·WSL 같은 개발 환경에서는 같은 가정이 깨져 로그인 흐름이 멈춤 현재 방식은 CLI가 127.0.0.1에 임시 HTTP 서버를 열고 브라우저를 인증 URL로...",
-    "summaryKo": "많은 CLI가 기본값으로 쓰는 localhost OAuth 리다이렉트가 SSH·컨테이너·WSL 환경에서는 가정이 깨져 로그인 흐름이 멈춘다는 문제를 짚는다. 127.0.0.1에 임시 HTTP 서버를 여는 현재 방식의 한계를 분석하고, 다양한 개발 환경에서 깨지지 않는 올바른 CLI 인증 방식을 제안한다.",
-    "tags": [
-      "CLI",
-      "OAuth",
-      "인증",
-      "개발도구"
-    ],
-    "entities": [
-      "OAuth"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "01da0c19fe79e667",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 할일 목록이 있는 맥용 Pomodoro 앱",
-    "url": "https://news.hada.io/topic?id=30647",
-    "publishedAt": "2026-06-19T23:43:27+09:00",
-    "rawText": "회사 업무와 개인 프로젝트를 할 때 포모도로 타이머를 즐겨 사용하곤 했습니다. 그러다 '내가 쓸 만한 앱을 직접 만들어보면 어떨까?' 하는 생각에 개발을 시작하게 되었어요. 이후 제가 직접 쓰면서 '이 기능은 꼭 있었으면 좋겠다' 싶은 것들을 하나씩 더해가며 애정을 갖고 꾸준히 다듬어가고 있습니다",
-    "summaryKo": "개발자가 직접 쓰려고 만든 macOS용 포모도로 타이머 앱으로, 할 일 목록 기능을 함께 제공한다. 본인이 사용하며 필요한 기능을 하나씩 더해 꾸준히 다듬어온 개인 프로젝트를 Show GN으로 공유했다.",
-    "tags": [
-      "생산성",
-      "포모도로",
-      "macOS"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "83285cce7d497f46",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: 내가 모델 가중치 안에 있는지 확인하기",
-    "url": "https://news.hada.io/topic?id=30646",
-    "publishedAt": "2026-06-19T23:41:15+09:00",
-    "rawText": "IN THE WEIGHTS는 이름을 입력해 여러 AI 모델 안에서 자신이 “살아 있는지” 확인하는 웹사이트임 확인 대상에는 GPT-5.5, Opus 4.8, Grok 4.20, Gemini 3.1 Lite, Llama 3.3 70B 등 13개 모델이 포함됨 화면에는 이름 입력란과 함께 LEARN MORE...",
-    "summaryKo": "IN THE WEIGHTS는 이름을 입력해 GPT-5.5·Opus 4.8·Grok 4.20·Gemini 3.1 Lite·Llama 3.3 70B 등 13개 AI 모델의 가중치 안에 자신이 \"살아 있는지\" 확인해보는 웹사이트다. 모델이 무엇을 학습했는지(학습 데이터·기억)를 가볍게 체험하게 하는 일종의 인터랙티브 실험이다.",
-    "tags": [
-      "LLM",
-      "학습데이터",
-      "모델가중치"
-    ],
-    "entities": [
-      "GPT-5.5",
-      "Opus 4.8",
-      "Grok 4.20",
-      "Gemini 3.1 Lite",
-      "Llama 3.3 70B"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "78467686b1f93b48",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 토스증권 Open API용 Agent Skill",
-    "url": "https://news.hada.io/topic?id=30645",
-    "publishedAt": "2026-06-19T22:51:10+09:00",
-    "rawText": "토스증권 Open API를 Codex, Claude Code 같은 에이전트에서 바로 사용할 수 있도록 만든 Agent Skill입니다. 설치는 아래처럼 할 수 있습니다. npx skills add BEOKS/tossinvest-skill 특정 에이전트만 지정해서 설치할 수도 있습니다. <c",
-    "summaryKo": "토스증권 Open API를 Codex·Claude Code 같은 코딩 에이전트에서 바로 쓸 수 있게 만든 Agent Skill을 공개했다. npx skills add 명령으로 설치하며, 특정 에이전트만 지정해 설치할 수도 있어 증권 데이터 조회를 에이전트 워크플로에 손쉽게 연결한다.",
-    "tags": [
-      "AI에이전트",
-      "AgentSkill",
-      "Claude Code",
-      "Codex"
-    ],
-    "entities": [
-      "토스증권",
-      "Claude Code",
-      "Codex"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "d2bcabe0f5f90f38",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "강제 동의 문제 제기 5년 뒤, Elkjop에 €180만 벌금 부과",
-    "url": "https://news.hada.io/topic?id=30644",
-    "publishedAt": "2026-06-19T22:41:15+09:00",
-    "rawText": "Elkjop 그룹의 Nordic 고객 클럽은 마케팅 이메일을 끄려면 회원 탈퇴를 요구했고, 한 회원이 2021년 이를 GDPR·ePrivacy 위반으로 문제 삼음 쟁점은 고객 클럽 혜택을 포기해야만 직접 마케팅을 거부할 수 있는 구조가 자유로운 동의 요건을 충족하는지였음 ...",
-    "summaryKo": "Elkjop 그룹의 Nordic 고객 클럽이 마케팅 이메일 거부에 회원 탈퇴를 요구한 구조가 GDPR·ePrivacy의 자유로운 동의 요건을 위반했다며, 한 회원의 2021년 문제 제기 5년 만에 약 180만 유로 벌금이 부과됐다. 혜택 포기를 강요하는 강제 동의 방식이 적법한 동의로 인정될 수 없다는 판단이다.",
-    "tags": [
-      "GDPR",
-      "개인정보",
-      "규제",
-      "동의"
-    ],
-    "entities": [
-      "Elkjop",
-      "GDPR",
-      "ePrivacy"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "5363e5da3a40087f",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "웹사이트 제출처를 모아 보여주는 Submission.Directory",
-    "url": "https://news.hada.io/topic?id=30643",
-    "publishedAt": "2026-06-19T19:41:15+09:00",
-    "rawText": "Submission.Directory는 비즈니스, 스타트업, 제품, 개인 웹사이트를 올릴 수 있는 제출처를 손으로 선별한 디렉터리로, 백링크 확보와 검색엔진·AI 답변 노출 개선에 초점을 둠 제출처는 출시 플랫폼, 스타트업·SaaS·AI 도구 디렉터리, 메이커·개발자 커뮤니티, 디...",
-    "summaryKo": "Submission.Directory는 비즈니스·스타트업·제품·개인 웹사이트를 올릴 수 있는 제출처를 손으로 선별한 디렉터리로, 백링크 확보와 검색엔진·AI 답변 노출 개선에 초점을 둔다. 출시 플랫폼, 스타트업·SaaS·AI 도구 디렉터리, 메이커·개발자 커뮤니티 등으로 제출처를 분류해 제공한다.",
-    "tags": [
-      "SEO",
-      "백링크",
-      "디렉터리"
-    ],
-    "entities": [
-      "Submission.Directory"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-20T00:07:52.445Z"
-  },
-  {
-    "id": "c47c8a47352d9a5a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "모두의 창업 합격자 5000명 정보 유출",
-    "url": "https://news.hada.io/topic?id=30637",
-    "publishedAt": "2026-06-19T16:15:39+09:00",
-    "rawText": "합격자 5천 명 프로필 공개후, 비인가 경로로 비공개 정보에 대한 접근 시도 총 9개의 IP가 접근하였으며, 유출된 정보는 이메일 주소, 아이디어 요약 정보, 심사평 당일 오후 3시경 이용자 문의를 통해 해당 사실을 인지, 즉각적인 차단 및 보안 조치를 시행 또한, 6월 16일 오전 ...",
-    "summaryKo": "창업 지원 서비스 '모두의 창업'에서 합격자 5천 명의 프로필이 공개된 뒤, 9개 IP가 비인가 경로로 비공개 정보에 접근을 시도해 이메일·아이디어 요약·심사평 등이 유출된 사고가 발생했다. 운영진은 이용자 문의로 사실을 인지한 뒤 즉시 접근을 차단하고 보안 조치를 시행했다.",
-    "tags": [
-      "정보유출",
-      "보안",
-      "개인정보"
-    ],
-    "entities": [
-      "모두의 창업"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-19T08:19:20.460Z"
   }
 ]
