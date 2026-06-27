@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-06-26",
-  "windowLabel": "2026년 6월 20~25일 기준",
-  "updatedAt": "2026-06-26T00:12:32Z",
+  "asOf": "2026-06-27",
+  "windowLabel": "2026년 6월 22~26일 기준",
+  "updatedAt": "2026-06-27T00:08:06Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -80,11 +80,11 @@
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
         { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1338", "basis": "Elo 1338, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "MAI-Image-2.5", "score": "Elo 1275", "basis": "Elo 1275", "source": "artificialanalysis" },
-        { "rank": 3, "model": "HiDream-O1-Image-1.5", "score": "Elo 1264", "basis": "Elo 1264", "source": "artificialanalysis" },
-        { "rank": 4, "model": "GPT Image 1.5 (high)", "score": "Elo 1264", "basis": "Elo 1264", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Nano Banana 2", "score": "Elo 1255", "basis": "Elo 1255, Gemini 3.1 Flash Image", "source": "artificialanalysis" },
-        { "rank": 6, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1227", "basis": "오픈웨이트 1위, Elo 1227", "source": "artificialanalysis" }
+        { "rank": 2, "model": "MAI-Image-2.5", "score": "Elo 1274", "basis": "Elo 1274", "source": "artificialanalysis" },
+        { "rank": 3, "model": "HiDream-O1-Image-1.5", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
+        { "rank": 4, "model": "GPT Image 1.5 (high)", "score": "Elo 1262", "basis": "Elo 1262", "source": "artificialanalysis" },
+        { "rank": 5, "model": "Nano Banana 2", "score": "Elo 1253", "basis": "Elo 1253, Gemini 3.1 Flash Image", "source": "artificialanalysis" },
+        { "rank": 6, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1225", "basis": "오픈웨이트 1위, Elo 1225", "source": "artificialanalysis" }
       ]
     },
     {
@@ -135,9 +135,9 @@
   ],
   "sources": [
     { "name": "LMSYS Chatbot Arena", "url": "https://lmarena.ai", "updated": "2026년 6월" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 6월 20~25일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 6월 25일" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 6월 25일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 6월 22~26일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 6월 26일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 6월 26일" },
     { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "수시" }
   ]
 }

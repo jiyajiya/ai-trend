@@ -1180,6 +1180,30 @@
     "fetchedAt": "2026-06-26T00:13:23.771Z"
   },
   {
+    "id": "3d99cf87d464b7af",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "How agents are transforming work",
+    "url": "https://openai.com/index/how-agents-are-transforming-work",
+    "publishedAt": "Thu, 25 Jun 2026 02:00:00 GMT",
+    "rawText": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+    "summaryKo": "OpenAI가 AI 에이전트가 일하는 방식을 어떻게 바꾸는지 분석한 연구를 공개했다. 에이전트가 더 길고 복잡한 작업을 수행할 수 있게 되면서 다양한 직무에서 생산성이 확장되고 있다는 내용이다.",
+    "tags": [
+      "에이전트",
+      "생산성",
+      "자동화"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
     "id": "efa6761cda1472ce",
     "sourceType": "news",
     "source": "NVIDIA AI Blog",
@@ -2923,6 +2947,377 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "cf2446cac24af64a",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "With AI, researchers discover new way to detect sudden cardiac death risk",
+    "url": "https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/",
+    "publishedAt": "Fri, 26 Jun 2026 23:40:15 +0000",
+    "rawText": "Article URL: https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/ Comments URL: https://news.ycombinator.com/item?id=48693458 Points: 1 # Comments: 0",
+    "summaryKo": "UC버클리 연구진이 스웨덴의 심전도 44만여 건과 사망 기록을 학습한 AI로 기존 검사가 놓치던 급성 심장사 고위험군을 새롭게 식별했다. 이 모델이 짚어낸 고위험군의 연간 급성 심장사 발생률은 7%로 기존 임상검사(4.6%)보다 높아, 제세동기 삽입이 필요한 환자를 더 정확히 가려낼 수 있을 것으로 기대된다. 연구는 Ziad Obermeyer 교수가 주도했고 Nature에 게재됐다.",
+    "tags": [
+      "의료AI",
+      "심전도",
+      "예측"
+    ],
+    "entities": [
+      "UC Berkeley",
+      "Nature"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "스웨덴 심전도 44만여 건과 사망 기록을 결합해 급성 심장사 위험 신호를 학습했다.",
+        "AI가 식별한 고위험군의 연간 발생률은 7%로 기존 임상검사 4.6%보다 높았다.",
+        "제세동기 삽입 대상을 더 정확히 선별해 예방 가능한 사망을 줄일 수 있다."
+      ],
+      "sections": [
+        {
+          "heading": "데이터와 방법",
+          "body": "표준 검사가 포착하지 못하던 미세한 심전도 패턴을, 대규모 심전도-사망 데이터로 학습해 위험 신호로 변환했다. 단일 병원이 아닌 국가 규모 데이터가 핵심이었다."
+        },
+        {
+          "heading": "임상적 의미",
+          "body": "\"치료법은 이미 있지만 누가 위험한지 미리 못 찾는 것이 문제\"라는 지적처럼, 이 모델은 대상자 선별 정확도를 끌어올려 정밀 예방의 실마리를 제공한다."
+        }
+      ],
+      "quotes": [
+        "AI 식별 고위험군 연간 급성 심장사 7% vs 기존 4.6%",
+        "학습 데이터: 심전도 44만여 건"
+      ]
+    },
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "7e51c38e7d26e68c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Trump admin allows Anthropic to release Mythos AI model to some companies",
+    "url": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+    "publishedAt": "Fri, 26 Jun 2026 23:00:31 +0000",
+    "rawText": "Article URL: https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html Comments URL: https://news.ycombinator.com/item?id=48693105 Points: 3 # Comments: 0",
+    "summaryKo": "트럼프 행정부가 앤트로픽이 'Mythos' 계열 AI 모델을 일부 기업에 공개하도록 허용했다는 보도다. 그동안 적용되던 모델 배포 규제를 일부 풀어주는 조치로, AI 모델의 수출·배포 통제 완화 흐름을 시사한다.",
+    "tags": [
+      "AI규제",
+      "모델배포"
+    ],
+    "entities": [
+      "Anthropic",
+      "Mythos",
+      "트럼프 행정부"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "52987acbb1b9563a",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Due to the AI memory crisis, Apple is bringing back the original Apple I",
+    "url": "https://old.reddit.com/r/MacStudio/comments/1ugkygr/due_to_the_ai_memory_crisis_apple_is_bringing/",
+    "publishedAt": "Fri, 26 Jun 2026 22:50:41 +0000",
+    "rawText": "Article URL: https://old.reddit.com/r/MacStudio/comments/1ugkygr/due_to_the_ai_memory_crisis_apple_is_bringing/ Comments URL: https://news.ycombinator.com/item?id=48693024 Points: 1 # Comments: 0",
+    "summaryKo": "AI 수요로 인한 메모리(D램) 가격 급등 사태를 풍자해, \"애플이 원조 Apple I를 다시 내놓는다\"는 농담조의 레딧 게시물이다. AI 붐이 메모리 공급을 압박하며 일반 소비자 하드웨어 가격에까지 영향을 미치는 현실을 비꼰 밈성 글이다.",
+    "tags": [
+      "메모리",
+      "반도체",
+      "밈"
+    ],
+    "entities": [
+      "Apple"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "f25be1ac35f6328e",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI in mathematics is forcing big questions",
+    "url": "https://spectrum.ieee.org/ai-in-mathematics",
+    "publishedAt": "Fri, 26 Jun 2026 22:36:51 +0000",
+    "rawText": "Article URL: https://spectrum.ieee.org/ai-in-mathematics Comments URL: https://news.ycombinator.com/item?id=48692883 Points: 8 # Comments: 4",
+    "summaryKo": "AI가 추측 정식화부터 정리 증명까지 수학의 핵심 작업을 자동화하면서 학문의 정체성에 큰 질문을 던지고 있다. DeepMind의 시스템이 박사급 연구를 자율 수행하고 일부 추측을 반증하는 가운데, 수학자들은 \"인간이 신탁(AI)의 사제가 되는가\"부터 형식화 증명 기반의 인간-AI 협업까지 서로 다른 미래상을 두고 갈라지고 있다.",
+    "tags": [
+      "AI수학",
+      "추론",
+      "자동화"
+    ],
+    "entities": [
+      "DeepMind",
+      "Terence Tao",
+      "IEEE Spectrum"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "AI가 추측 생성·정리 증명 등 수학 고유의 작업을 자동화하고 있다.",
+        "DeepMind 시스템은 박사급 연구를 자율 수행하고 조합기하 추측을 반증했다.",
+        "기계가 추론을 맡으면 수학의 정의와 인간 직관의 의미가 흔들린다.",
+        "학생이 지적 분투를 건너뛰면 창의적 사고력이 위축될 수 있다는 우려가 있다."
+      ],
+      "sections": [
+        {
+          "heading": "세 갈래의 미래상",
+          "body": "Yang-Hui He는 인간이 \"신탁의 사제\"가 될 수 있다고 보고, Akshay Venkatesh는 수학이 인간의 이해를 위한 것이라며 우아한 증명의 가치를 강조한다. Terence Tao는 형식화 증명으로 신뢰 가능한 인간-AI 대규모 협업(\"big mathematics\")을 제안한다."
+        },
+        {
+          "heading": "교육의 딜레마",
+          "body": "AI 지름길로 분투의 과정을 생략하면 깊은 직관이 자라지 못해, 훈련 범위를 넘어선 창의적 사고가 어려워질 수 있다는 \"지적 위축\" 우려가 제기된다."
+        }
+      ],
+      "quotes": [
+        "인간이 \"신탁(오라클)의 사제\"가 될 수 있다 — Yang-Hui He"
+      ]
+    },
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "02269447a652efe6",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: All-in-one memory for AI Agents",
+    "url": "https://parcle.ai/second-brain",
+    "publishedAt": "Fri, 26 Jun 2026 22:20:53 +0000",
+    "rawText": "Article URL: https://parcle.ai/second-brain Comments URL: https://news.ycombinator.com/item?id=48692740 Points: 1 # Comments: 0",
+    "summaryKo": "AI 에이전트를 위한 클라우드 기반 통합 메모리 'Parcle'을 소개하는 Show HN이다. 대화·정체성·상태를 하나의 계층에 저장해 세션과 도구를 넘나들며 컨텍스트를 유지하게 하고, 매번 파일을 다시 읽는 낭비를 없애 토큰을 최대 70%까지 절약한다고 주장한다. Claude·Codex·Cursor 등에서 쓸 수 있다.",
+    "tags": [
+      "에이전트",
+      "메모리",
+      "RAG"
+    ],
+    "entities": [
+      "Parcle",
+      "Claude",
+      "Codex"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "af17e5ccb0e8d895",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Anthropic Moves Toward Deal with US to Lift Curbs on AI Models",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models",
+    "publishedAt": "Fri, 26 Jun 2026 21:59:26 +0000",
+    "rawText": "Article URL: https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models Comments URL: https://news.ycombinator.com/item?id=48692520 Points: 2 # Comments: 0",
+    "summaryKo": "앤트로픽이 미국 정부와 AI 모델에 대한 규제를 완화하는 합의에 다가서고 있다는 블룸버그 보도다. 모델 배포·수출에 걸린 제약을 푸는 방향으로, 앞서 보도된 Mythos 모델 배포 허용 움직임과 맞닿아 있다.",
+    "tags": [
+      "AI규제",
+      "정책"
+    ],
+    "entities": [
+      "Anthropic",
+      "블룸버그"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "e72d6d3478128b83",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI audio translator with speech-to-text, LLM translation, and text-to-speech",
+    "url": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-content-translator-python",
+    "publishedAt": "Fri, 26 Jun 2026 21:50:51 +0000",
+    "rawText": "Article URL: https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-content-translator-python Comments URL: https://news.ycombinator.com/item?id=48692436 Points: 2 # Comments: 0",
+    "summaryKo": "Telnyx가 공개한 오픈소스 AI 오디오 번역 예제로, 업로드된 음성을 STT로 받아쓰고 LLM으로 번역한 뒤 TTS로 다시 음성으로 만든다. STT Transcribe·AI Inference·TTS Generate 세 가지 Telnyx API를 한 네트워크 위에서 묶어 저지연 처리를 노린 파이프라인이다.",
+    "tags": [
+      "음성AI",
+      "번역",
+      "TTS"
+    ],
+    "entities": [
+      "Telnyx"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "c5f4f7d90a19acbd",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The AI-Run Business Index: measuring execution, not AI adoption",
+    "url": "https://www.leapd.ai/resources/state-of-ai-run-businesses-2026",
+    "publishedAt": "Fri, 26 Jun 2026 21:38:51 +0000",
+    "rawText": "Article URL: https://www.leapd.ai/resources/state-of-ai-run-businesses-2026 Comments URL: https://news.ycombinator.com/item?id=48692322 Points: 2 # Comments: 2",
+    "summaryKo": "AI '도입'이 아니라 '운영'을 측정하는 AI-Run Business Index(ARBI, 0~100점)를 제시한 보고서다. 조직의 88%가 AI를 쓰지만 의미 있는 수익을 내는 곳은 약 6%에 그쳐, 주류 경제(약 30점)와 AI 네이티브 선두(약 80점) 사이에 \"50점의 실행 격차\"가 있다고 분석한다. 자동화 깊이·가치 창출 등 6개 차원으로 점수를 매긴다.",
+    "tags": [
+      "AI경영",
+      "지표",
+      "자동화"
+    ],
+    "entities": [
+      "Leapd"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "AI 도입률(88%)과 실제 수익화(약 6%) 사이에 큰 간극이 있다.",
+        "주류 경제 30점, AI 네이티브 선두 80점으로 \"50점 실행 격차\"가 존재한다.",
+        "자동화 깊이(25%)·가치 창출(20%)·매출 레버리지(20%) 등 6개 차원으로 평가한다."
+      ],
+      "sections": [
+        {
+          "heading": "도입이 아닌 실행",
+          "body": "대부분 기업이 한 가지 기능에서라도 AI를 쓰지만, 이를 수익으로 연결하는 곳은 소수다. ARBI는 \"AI를 쓰는 회사\"와 \"AI로 운영되는 회사\"를 가르는 기준을 실행력에 둔다."
+        },
+        {
+          "heading": "6개 평가 차원",
+          "body": "자동화 깊이, 가치 창출, 매출 레버리지, 수익까지의 속도, 기능 커버리지에 신뢰성 페널티(−10%)를 더해 0~100점으로 환산한다."
+        }
+      ],
+      "quotes": [
+        "AI 도입 88% vs 의미 있는 수익 창출 ~6%",
+        "주류 경제 ~30점 / AI 프런티어 ~80점"
+      ]
+    },
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "8ada118e511ad211",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 요슈아 벤지오(Yoshua Bengio) 교수는 AI가 인간보다 똑똑해지고 생존 본능...",
+    "url": "https://www.threads.com/t/DaEDuGrDuxp",
+    "publishedAt": "Fri, 26 Jun 2026 21:00:25 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>요슈아 벤지오(Yoshua Bengio) 교수는 AI가 인간보다 똑똑해지고 생존 본능을 갖게 될 가능성을 지적하며, “AI가 우리보다 똑똑하고 그런 본능까지 갖게 되면, 우리가 자신들을 끄지 못하게 만들 수 있다”고 우려했습니다. 또한, 지능의 고도화는 강력한 권력을 낳기 때문에 이를 누가 통제하고 어떻게 사용할지가 미래 경제와 일자리 생태계의 핵심 쟁점이 될 것이라 분석했습니다. 설령 악의가 없더라도 소셜 미디어처럼 통제 불가능한 구조적 부작용인 ‘시스템적 위험’이 민주주의와 사회 전반을 흔들 수 있습니다. 벤지오 교수는 인류가 이미 “판도라의 상자를 열어버린 것”과 같다며, 어떤 미래가 오더라도 회복 탄력성을 가질 수 있는 온건하고 정교한 제도적 선택과 대비가 시급하다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/729644181_1021752387217504_4753389438239656898_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkyODI4MTEzNzM3NDIyNzU2MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=b0G-bA2GuJAQ7kNvwHWjLWL&amp;_nc_oc=Adq3hqngQklizIbBf2YLICIUO9p28WQI4FeHQqJ3bbSj43x2BOQchLW_jJe_NtrMgb4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=MrsE5AGHoHLrW0HHFQkDJw&amp;_nc_ss=7a22e&amp;oh=00_Af_0exIoJtrHbLfHa8zq_jKeZ7p335CtjPZYG0jbmT9fTw&amp;oe=6A44CD97\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMGc0AEk9OnYJVWM8ZPYqBJ3NKdKbFbr3gox2eyLz53L1MMNjMfd4giTDIZOQoZbykKHRJMiITJ1kAPeVNmbuMJlE7nP-C9n2LtK_8.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=A-hAKP8iFpMQ7kNvwHhvq7-&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjY4LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM4MTMwOTYxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTU0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=a5aaacbf96894a45&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85QzQ3RkMwRDY4NzIzOEIwN0E1NzA3NjExNEZGMTc4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FENEM4QjJBODM5QzY3QkNBMEJBNTc5QUNCRjk5MEE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAi9ONz8XtPxUCKAJDMywXQGNXdLxqfvoYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=MrsE5AGHoHLrW0HHFQkDJw&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af8KiTANC43nWyzuZVeg6GKeLvxsf3GroP_wE3kUZSCy-Q&amp;oe=6A40DB41\"></video></p>",
+    "summaryKo": "요슈아 벤지오 교수가 AI가 인간보다 똑똑해지고 생존 본능까지 갖게 될 가능성을 경고했다는 내용을 전한 글이다. 그런 AI는 인간이 자신을 끄지 못하게 만들 수 있으며, 고도화된 지능은 강력한 권력을 낳기 때문에 누가 이를 통제하고 어떻게 쓰는지가 미래 경제와 일자리의 핵심이라고 지적한다.",
+    "tags": [
+      "AI안전",
+      "정렬",
+      "거버넌스"
+    ],
+    "entities": [
+      "Yoshua Bengio"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "4862d01d43cfa9da",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 엔비디아가 Z.ai의 GLM-5.2를 직접 NVFP4(4비트)로 양자화한 공식 체크포인트...",
+    "url": "https://www.threads.com/t/DaDMyhqj2Kn",
+    "publishedAt": "Fri, 26 Jun 2026 13:00:25 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아가 Z.ai의 GLM-5.2를 직접 NVFP4(4비트)로 양자화한 공식 체크포인트를 공개했습니다. 자사 모델이 아닌 중국 오픈 모델을 직접 최적화했고, SGLang도 공개 당일부터 바로 지원했습니다. 눈에 띄는 점은 압축 효율입니다. 약 1.5TB 크기의 GLM-5.2를 약 410GB까지 줄이면서도 성능 차이는 크지 않습니다. 기존 4비트 양자화는 성능 저하가 컸지만, NVFP4는 작은 단위마다 별도의 스케일을 적용하고 중요한 레이어는 유지하는 방식으로 정확도 손실을 줄였습니다. 엔비디아는 GLM, DeepSeek, Qwen처럼 인기 있는 오픈 모델을 직접 최적화해 Blackwell GPU에서 가장 효율적으로 실행할 수 있도록 만들고 있습니다. 오픈 모델 생태계가 커질수록 최신 NVIDIA GPU를 선택할 이유도 함께 늘어나는 구조입니다.</p><p><img src=\"https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/730348029_17973833340112832_7587030196743507127_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyODAzOTU0ODY3NjY5NDY5NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjEyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=8L20euCtUF4Q7kNvwFiiys1&amp;_nc_oc=AdoxB0h2TWIsrb0aqaAaLV6-ZhTnB22P0K0_PKz1cwRMH8FJenklSgNHN9Zoos2MkT0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=MrsE5AGHoHLrW0HHFQkDJw&amp;_nc_ss=7a22e&amp;oh=00_Af9TxywkdmvB8zOFIh8mbidLDJOBYovA25KuilQb27nOOg&amp;oe=6A44F947\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "엔비디아가 Z.ai의 GLM-5.2를 직접 NVFP4(4비트)로 양자화한 공식 체크포인트를 공개하고 SGLang도 출시 당일 지원했다는 소식이다. 자사 모델이 아닌 중국 오픈 모델을 직접 최적화한 점이 이례적이며, 약 1.5TB 모델을 약 410GB로 줄이면서도 성능 저하를 작게 유지한 압축 효율이 눈에 띈다.",
+    "tags": [
+      "양자화",
+      "NVFP4",
+      "오픈모델"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GLM-5.2",
+      "Z.ai"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "656c6215db032c5b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Blender MCP와 Seedance 2.0을 조합한 AI 영화 제작 워크플로우를 봤는데 진짜 ᄀ...",
+    "url": "https://www.threads.com/t/DaC_HEojDbi",
+    "publishedAt": "Fri, 26 Jun 2026 11:00:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Blender MCP와 Seedance 2.0을 조합한 AI 영화 제작 워크플로우를 봤는데 진짜 감탄만 나옵니다. 기존의 텍스트 프롬프팅만으로는 제어하기 힘들었던 구도, 줌인·줌아웃, 카메라 동선 데이터를 영상 레퍼런스 형태로 시댄스 2.0에 완벽하게 넘겨줄 수 있다는 장점이 있는데요. 앞으로 3D 소스를 활용한 정밀 제어 중심의 영상 AI 연출이 주류로 자리 잡을 것 같네요. AI 모델이 발전할 때마다 이런 기발한 아이디어가 현실화되는 모습을 보니 놀라운 것 같습니다. 📷 x@reidhannaford</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/730339686_976829641834420_8055861746139764722_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=MzkyNzk3OTM4Nzk2MjI3NTU1NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=0gynPBBS0eMQ7kNvwESvBGz&amp;_nc_oc=AdoKWFtgJFwKd30IQWHl_7TQGlrdE3L27I_r-QHAMD2Jt7P8HfxnaGW8PTkhqf-uv9k&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=MrsE5AGHoHLrW0HHFQkDJw&amp;_nc_ss=7a22e&amp;oh=00_Af-d95O-O8xxOj1kf2-TUFwUdEe5i4nL_FzzbWl1zmZ4ow&amp;oe=6A44EEA0\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQNUrAlvHLES_PfxkzL2jMMn27HA7NEImlwV5NfnjMut7UxNF6XnudZCRyv4S_fgdTCzKANc97MnAUqD0PfwZsOzAM0oU5K_NF5PddQ.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=VAX8nt8bBEoQ7kNvwHnEgBa&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk3MzcyMzc4MzExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjozMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=78ae534111afda6e&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FNDQxQUNFRDAwMTlFNjVGRkM5QzMzMkQ0ODAxQ0M4M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzk0NDMyRkY1MjM5MUExMENBM0Y0RjI3REU0NUU4NEE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAopHWtcDtPxUCKAJDMywXQD4KfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=MrsE5AGHoHLrW0HHFQkDJw&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af_oO0pGLbRdrjj5AADUPlMxaKAI5Bu0KfkpYYB1zPx-zA&amp;oe=6A410539\"></video></p>",
+    "summaryKo": "Blender MCP와 Seedance 2.0을 조합한 AI 영화 제작 워크플로우를 소개하는 글이다. 텍스트 프롬프트만으로는 제어하기 힘들던 구도·줌·카메라 동선 데이터를 영상 레퍼런스 형태로 Seedance 2.0에 넘겨, 3D 소스 기반의 정밀 제어 중심 영상 제작이 가능해졌다는 점에 감탄을 표한다.",
+    "tags": [
+      "영상생성",
+      "MCP",
+      "3D"
+    ],
+    "entities": [
+      "Blender",
+      "Seedance 2.0"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "30f48121decc708b",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "publishedAt": "Fri, 26 Jun 2026 10:00:00 GMT",
+    "rawText": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+    "summaryKo": "OpenAI가 차세대 모델 GPT-5.6 Sol을 프리뷰로 공개했다. 코딩·과학·사이버보안 영역에서 한층 강해진 능력을 갖췄고, OpenAI가 자사 최고 수준이라 밝힌 안전 스택을 함께 적용한 점이 특징이다.",
+    "tags": [
+      "LLM",
+      "GPT-5.6",
+      "코딩"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-5.6 Sol"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "b425756f243979bf",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 3년 전 마이크론은 D램을 팔수록 손해를 봤습니다. 2023 회계연도 2...",
+    "url": "https://www.threads.com/t/DaCt16LD4F_",
+    "publishedAt": "Fri, 26 Jun 2026 08:30:00 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>3년 전 마이크론은 D램을 팔수록 손해를 봤습니다. 2023 회계연도 2분기 매출총이익률은 마이너스 32.7%였습니다. 이번 주 그 회사가 영업이익률 80.4%를 찍었습니다. 똑같은 메모리입니다. 그리고 애플은 맥북과 아이패드 가격을 올렸고 주가는 5% 가까이 빠졌습니다. 한 회사의 사상 최대 이익은 다른 회사의 비용이 되기 시작했습니다. 🧵</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730487566_17973718752112832_2990661072955268405_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=MzkyNzkwMzQ0MTcwODM1MTg3MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjY5LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=dco8boqErXQQ7kNvwGyCQuH&amp;_nc_oc=Ado0SJHlv_wFqDuJXy4c7skqZJ8UkjgU06UPC7YEte1ysafpeHTkkmurHsna7-zIsJc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=MrsE5AGHoHLrW0HHFQkDJw&amp;_nc_ss=7a22e&amp;oh=00_Af_2NekAAzbwAie2wF5_9bLBXDx2zvTa_mzBa4vAujSbXQ&amp;oe=6A44FF9A\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "3년 전 D램을 팔수록 손해(2023 회계연도 2분기 매출총이익률 −32.7%)를 보던 마이크론이 이번 주 영업이익률 80.4%를 기록했다는 글이다. 같은 메모리인데 AI 수요로 가격이 뒤집혔고, 그 사상 최대 이익이 애플 같은 다른 회사엔 비용으로 돌아와 맥북·아이패드 가격 인상과 주가 하락으로 이어지고 있음을 짚는다.",
+    "tags": [
+      "메모리",
+      "반도체",
+      "마이크론"
+    ],
+    "entities": [
+      "Micron",
+      "Apple"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
     "id": "35f302220b39d406",
     "sourceType": "news",
     "source": "Threads",
@@ -4065,6 +4460,218 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "1fbd55fbc2beae52",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Apple, 고급형 M6 Mac 칩 건너뛰고 AI 중심 M7 라인으로 전환 예정",
+    "url": "https://news.hada.io/topic?id=30862",
+    "publishedAt": "2026-06-27T06:36:13+09:00",
+    "rawText": "Apple은 Mac용 자체 실리콘 전략을 조정해 다음 최상위 프로세서를 AI 중심 M7 세대로 앞당기려 함 현재 M5 시리즈를 쓰는 가운데, 보급형 Mac용 기본 M6 프로세서는 이르면 올해 공개될 계획임 기존 세대 흐름과 달리 고급형 M6 버전은...",
+    "summaryKo": "애플이 Mac용 자체 실리콘 전략을 손봐, 차기 최상위 프로세서를 AI 중심 M7 세대로 앞당기려 한다는 전망이다. 보급형 Mac용 기본 M6는 이르면 올해 나오지만 고급형 M6 버전은 건너뛰고 M7로 직행할 계획으로, 칩 설계의 무게추가 AI 성능으로 옮겨가고 있음을 보여준다.",
+    "tags": [
+      "반도체",
+      "Apple Silicon",
+      "M7"
+    ],
+    "entities": [
+      "Apple",
+      "M7",
+      "M6"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "a6aadce284c2c2a5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "민주·권위주의 국가들이 대규모 감시 경쟁을 벌이고 있음",
+    "url": "https://news.hada.io/topic?id=30861",
+    "publishedAt": "2026-06-27T04:38:47+09:00",
+    "rawText": "국가 대규모 감시는 민주주의와 권위주의를 가리지 않고 확산됐으며, 인권과 사생활 침해뿐 아니라 실제 문제 해결에도 비효율적이라는 비판을 받음 미국의 감시 체계는 FISA Section 702, PRISM, Upstream, XKeyscore를 축으로 법원 판단 없이 방대한 인터넷 활동...",
+    "summaryKo": "국가 단위 대규모 감시가 민주주의·권위주의를 가리지 않고 확산되며 인권·사생활 침해는 물론 실효성마저 떨어진다는 비판을 담은 글이다. 미국은 FISA 702조와 PRISM·Upstream·XKeyscore를 축으로, 법원 판단 없이 방대한 인터넷 활동을 수집하는 체계를 운용한다고 지적한다.",
+    "tags": [
+      "감시",
+      "프라이버시",
+      "정책"
+    ],
+    "entities": [
+      "FISA",
+      "PRISM",
+      "NSA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "720029b9b068df86",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show HN: OpenKnowledge – Obsidian/Notion의 오픈소스 AI 우선 대안",
+    "url": "https://news.hada.io/topic?id=30860",
+    "publishedAt": "2026-06-27T02:34:20+09:00",
+    "rawText": "개인 노트, 지식 베이스, 스펙, LLM 위키를 위한 로컬 우선 WYSIWYG Markdown 편집기이며 Claude, Codex 등 하네스와의 통합을 제공함 Markdown 파일 편집을 Google Doc이나 Notion 페이지 편집처럼 느끼게 하는 true WYSIWYG 편집 경험을 목표로 함 Clau...",
+    "summaryKo": "Obsidian·Notion의 오픈소스·로컬 우선 대안을 표방하는 'OpenKnowledge'를 소개하는 Show HN이다. Google Doc/Notion처럼 느껴지는 진짜 WYSIWYG 마크다운 편집을 목표로 하며, Claude·Codex 등 AI 하네스와의 통합을 제공해 개인 노트·지식베이스·LLM 위키를 로컬에서 다룬다.",
+    "tags": [
+      "오픈소스",
+      "노트앱",
+      "로컬퍼스트"
+    ],
+    "entities": [
+      "OpenKnowledge",
+      "Claude",
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "ad6644007e519c3d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "IBM, 1nm 미만 0.7nm 칩 기술 공개",
+    "url": "https://news.hada.io/topic?id=30859",
+    "publishedAt": "2026-06-27T01:36:39+09:00",
+    "rawText": "반도체 산업이 전통적 스케일링의 물리적 한계에 가까워진 가운데, IBM은 0.7nm·7옹스트롬 노드 기반의 세계 최초 1nm 미만 칩 기술을 공개함 손톱 크기 칩에 약 1,000억 개 트랜지스터를 집적해, 2021년 IBM 2nm 칩 대비 거의 두 배의 밀도를 목표로 함 ...",
+    "summaryKo": "IBM이 0.7nm(7옹스트롬) 노드 기반의 세계 최초 1nm 미만 칩 기술을 공개했다. 손톱 크기 칩에 약 1,000억 개 트랜지스터를 집적해 2021년 2nm 칩 대비 거의 두 배 밀도를 노리며, 전통적 미세공정 스케일링의 물리적 한계에 도전한다.",
+    "tags": [
+      "반도체",
+      "미세공정",
+      "IBM"
+    ],
+    "entities": [
+      "IBM"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "f1d070155d90869d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Nico의 데이터룸, Papermark 코드 도용 의혹 제기",
+    "url": "https://news.hada.io/topic?id=30858",
+    "publishedAt": "2026-06-26T23:35:05+09:00",
+    "rawText": "Nico의 데이터룸 제품이 직접 만든 결과물이 아니라 Papermark의 오픈소스 및 엔터프라이즈 라이선스 코드에서 가져온 것 같다는 의혹이 공개됨 핵심 쟁점은 저작권과 라이선스 침해 여부이며, 문제 제기자는 제품을 즉시 내려야 한다고 요구함 이 사안은...",
+    "summaryKo": "Nico의 데이터룸 제품이 오픈소스·엔터프라이즈 라이선스로 공개된 Papermark의 코드를 도용한 것 아니냐는 의혹이 제기됐다. 핵심 쟁점은 저작권·라이선스 침해 여부이며, 문제 제기자는 해당 제품을 즉시 내릴 것을 요구하고 있다.",
+    "tags": [
+      "오픈소스",
+      "라이선스",
+      "저작권"
+    ],
+    "entities": [
+      "Papermark",
+      "Nico"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "63114329d8a717fe",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Vibecoding 공개로 Emacs 패치가 거절됨",
+    "url": "https://news.hada.io/topic?id=30856",
+    "publishedAt": "2026-06-26T23:04:12+09:00",
+    "rawText": "macOS용 Emacs 성능 개선을 위해 만든 작은 패치가 emacs-devel에 제출됐지만, LLM 보조 작업을 받지 않는 GNU 정책 때문에 받아들여지지 않음 작업자는 GLM 5.2가 이슈를 찾고 초안을 만들었다고 공개하면서도, 본인이 정확성·영향 분석, 수정, 수동 테스트, ...",
+    "summaryKo": "macOS용 Emacs 성능 개선 패치가 LLM 보조 작업을 받지 않는 GNU 정책 때문에 emacs-devel에서 거절됐다. 제출자는 GLM 5.2가 이슈를 찾고 초안을 만들었다고 공개하면서도 정확성·영향 분석과 수동 테스트는 직접 했다고 밝혔으나, 바이브코딩 사용 사실 자체가 수용 거부의 사유가 됐다.",
+    "tags": [
+      "바이브코딩",
+      "오픈소스",
+      "정책"
+    ],
+    "entities": [
+      "Emacs",
+      "GNU",
+      "GLM 5.2"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "efb2c347f6c68b9d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI에게 주도권을 빼앗기지 마세요 — 두 번의 자동화 실패에서 배운 것",
+    "url": "https://news.hada.io/topic?id=30855",
+    "publishedAt": "2026-06-26T20:49:18+09:00",
+    "rawText": "Claude Code로 자동매매 시스템과 블로그 자동발행을 직접 운영하다 겪은 두 번의 실패에서 출발한 글입니다. 자동매매: 매매 도메인 지식이 부족해 AI가 짠 코드를 검증하지 못했고, 결과는 0승 8패·자산 3% 손실 블로그 자동발행: 검수 없이 내보낸 부정확한 글로 독자 피드백을 받음 ...",
+    "summaryKo": "Claude Code로 자동매매와 블로그 자동발행을 직접 운영하다 겪은 두 번의 실패에서 출발한 글이다. 도메인 지식이 부족해 AI가 짠 매매 코드를 검증하지 못한 결과 0승 8패·자산 3% 손실을 봤고, 검수 없이 내보낸 블로그 글은 부정확성으로 독자 피드백을 받았다. 자동화의 주도권을 AI에 통째로 넘기지 말라는 교훈을 정리한다.",
+    "tags": [
+      "바이브코딩",
+      "자동화",
+      "Claude Code"
+    ],
+    "entities": [
+      "Claude Code"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "도메인 지식이 없으면 AI가 짠 코드를 검증할 수 없다(자동매매 0승 8패·자산 3% 손실).",
+        "검수 없는 자동발행은 부정확한 글로 신뢰를 잃게 만든다.",
+        "자동화의 주도권을 AI에 통째로 넘기지 말고 사람이 검증 루프를 쥐어야 한다."
+      ],
+      "sections": [
+        {
+          "heading": "자동매매 실패",
+          "body": "매매 도메인 지식이 부족한 상태에서 AI가 생성한 전략·코드를 그대로 신뢰한 결과 손실로 이어졌다. 결과를 평가할 기준이 없으면 AI의 산출물을 검증할 수 없다는 점이 드러났다."
+        },
+        {
+          "heading": "블로그 자동발행 실패",
+          "body": "사람의 검수 단계를 생략하자 부정확한 글이 그대로 독자에게 닿았다. 속도를 얻는 대신 품질·신뢰를 잃는 전형적 실패였다."
+        }
+      ],
+      "quotes": [
+        "자동매매 결과: 0승 8패, 자산 3% 손실"
+      ]
+    },
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "29d25e6bd2eaaab5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: SongRyeon Core - LLM이 쓴 말과 코드가 검증한 정보를 분리하는 로컬 에이전트 런타임 실험",
+    "url": "https://news.hada.io/topic?id=30854",
+    "publishedAt": "2026-06-26T15:28:52+09:00",
+    "rawText": "안녕하세요. 코딩을 배우면서 AI 에이전트 런타임을 직접 실험하고 있는 정후입니다. SongRyeon Core는 “LLM이 말한 판단”과 “코드가 실제로 확인한 사실”을 분리해서 다루는 작은 로컬 우선(agent runtime) 실험입니다. 요즘 LLM 기반 에이전트를 만들다 보면 다음 문제가 자주 생긴다고 느꼈습니",
+    "summaryKo": "\"LLM이 말한 판단\"과 \"코드가 실제로 확인한 사실\"을 분리해 다루는 로컬 우선 에이전트 런타임 실험 'SongRyeon Core'를 소개하는 Show GN이다. LLM 기반 에이전트가 환각으로 검증되지 않은 정보를 사실처럼 다루는 문제를 줄이려는 개인 프로젝트다.",
+    "tags": [
+      "에이전트",
+      "로컬런타임",
+      "환각"
+    ],
+    "entities": [
+      "SongRyeon Core"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
     "id": "275ed49d98868737",
     "sourceType": "news",
     "source": "GeekNews",
@@ -4234,6 +4841,87 @@
     "fetchedAt": "2026-06-26T00:13:23.771Z"
   },
   {
+    "id": "98757fbb7875d684",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "13조달러 웰니스 시장 열린다…예방의료·디지털 헬스가 판 키운다",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537479",
+    "publishedAt": "2026-06-26 12:00:00",
+    "rawText": "글로벌 헬스·웰니스 시장(health and wellness market)이 2021년 4조7000억달러에서 2031년 12조9000억달러 규모로 성장할 것이란 전망이 나왔다.얼라이드 마켓 리서치(Allied Market Research)는 최근 보고서에서 이 시장이 연평균 10.9% 성장할 것으로 분석했다.건강 중심 제품과 서비스에 대한 소비 지출 증가, 만성 신체·정신질환 인식 확대, 예방의료 실천 확산이 주요 성장 요인으로 꼽혔다.웨어러블·AI 맞춤관리 확산보고서는 웨어러블 건강기기, 인공지능 기반 개인맞춤 영양·운동 프로그램",
+    "summaryKo": "글로벌 헬스·웰니스 시장이 2021년 4조7000억달러에서 2031년 12조9000억달러로 연평균 10.9% 성장할 것이라는 얼라이드 마켓 리서치 전망이다. 건강 제품·서비스 소비 증가와 예방의료 확산이 동력으로, 특히 웨어러블 건강기기와 AI 기반 개인맞춤 영양·운동 프로그램이 시장을 키우는 핵심 축으로 꼽힌다.",
+    "tags": [
+      "디지털헬스",
+      "웰니스",
+      "예방의료"
+    ],
+    "entities": [
+      "Allied Market Research"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "헬스·웰니스 시장은 2031년 12조9000억달러(연평균 10.9% 성장)로 전망된다.",
+        "예방의료 실천 확산과 만성질환 인식 확대가 주요 성장 요인이다.",
+        "웨어러블 건강기기와 AI 개인맞춤 영양·운동 프로그램이 시장을 키운다."
+      ],
+      "sections": [
+        {
+          "heading": "시장 규모와 동력",
+          "body": "2021년 4조7000억달러에서 2031년 12조9000억달러로의 성장은 건강 중심 소비 지출 증가, 만성 신체·정신질환 인식 확대, 예방의료 확산에 기인한다."
+        },
+        {
+          "heading": "AI·웨어러블의 부상",
+          "body": "웨어러블 건강기기와 AI 기반 맞춤 영양·운동 프로그램이 예방의료·디지털 헬스 영역의 성장을 견인하는 핵심 축으로 지목된다."
+        }
+      ]
+    },
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
+    "id": "76ae01272d8414fb",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "바이오USA 찾은 셀트리온…역대 최다 미팅으로 글로벌 네트워크 확대",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537518",
+    "publishedAt": "2026-06-26 11:58:41",
+    "rawText": "셀트리온이 미국에서 열린 세계 최대 규모 바이오산업 행사 '바이오 인터내셔널 컨벤션(BIO USA 2026)'에 참가해 신약 개발과 인공지능(AI) 기술 분야를 중심으로 글로벌 협력 확대에 나섰다.셀트리온은 지난 22일부터 25일(현지시간)까지 미국 샌디에이고에서 개최된 바이오USA에 참가해 글로벌 제약·바이오 기업들과 폭넓은 파트너링 활동을 진행했다고 밝혔다.바이오USA는 전 세계 1500여 개 제약·바이오 기업과 투자기관, 연구기관 등이 참여하는 글로벌 바이오 산업 행사로, 매년 2만 명 이상이 방문하는 대표적인 국제 전시회다.",
+    "summaryKo": "셀트리온이 미국 샌디에이고에서 열린 세계 최대 바이오 행사 BIO USA 2026에 참가해 신약 개발과 AI 기술을 중심으로 글로벌 협력을 확대했다. 1500여 개 제약·바이오 기업과 투자·연구기관이 모이는 행사에서 역대 최다 미팅을 진행하며 파트너링 네트워크를 넓혔다고 밝혔다.",
+    "tags": [
+      "바이오",
+      "셀트리온",
+      "글로벌협력"
+    ],
+    "entities": [
+      "셀트리온",
+      "BIO USA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "셀트리온이 BIO USA 2026에서 역대 최다 미팅으로 글로벌 네트워크를 확대했다.",
+        "신약 개발과 AI 기술 분야를 협력의 중심에 뒀다.",
+        "BIO USA는 1500여 개 기업·기관이 모이는 세계 최대 바이오 행사다."
+      ],
+      "sections": [
+        {
+          "heading": "역대 최다 미팅",
+          "body": "6월 22~25일(현지시간) 샌디에이고에서 열린 행사에서 셀트리온은 글로벌 제약·바이오 기업들과 폭넓은 파트너링을 진행하며 협력 기회를 넓혔다."
+        },
+        {
+          "heading": "AI를 협력 축으로",
+          "body": "신약 개발과 함께 AI 기술 분야를 전면에 내세워, 바이오 산업에서의 AI 활용 흐름에 발맞춘 글로벌 협력 확대를 도모했다."
+        }
+      ]
+    },
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
+  },
+  {
     "id": "e21a0d8c72524764",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -4257,6 +4945,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "438431168b153622",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "AI 신사업 나선 윙스풋, W.AI와 업무협약 체결",
+    "url": "https://www.dailypharm.com/user/news/339845",
+    "publishedAt": "2026-06-26",
+    "rawText": "AI 신사업 나선 윙스풋, W.AI와 업무협약 체결",
+    "summaryKo": "윙스풋이 의료영상 분석 전문 AI 기업 W.AI와 업무협약을 맺고 AI 신사업에 나섰다. W.AI는 식약처 승인을 받은 초음파영상 진단보조 소프트웨어 'W Expert'로 유방 보형물 파열 여부·상태를 분석하며, 양사는 공동 마케팅과 학술활동을 통해 의료 기술 분야로 협력을 넓힐 계획이다.",
+    "tags": [
+      "의료AI",
+      "진단보조",
+      "업무협약"
+    ],
+    "entities": [
+      "윙스풋",
+      "W.AI",
+      "W Expert"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-27T00:08:44.665Z"
   },
   {
     "id": "52e655ab9f34ee68",
@@ -5092,778 +5805,5 @@
       ]
     },
     "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "85a69335aa3d3db8",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "AI 네이티브 컴퍼니에 미친 사람이 ppt 만드는 방법 #ai #ppt #claude",
-    "url": "https://www.youtube.com/shorts/tSU9O5NChTY",
-    "publishedAt": "2026-06-23T09:07:55+00:00",
-    "rawText": "AI 네이티브 컴퍼니에 미친 사람이 ppt 만드는 방법 #ai #ppt #claude",
-    "summaryKo": "AI 네이티브 기업에서 일하는 사람이 Claude를 활용해 PPT(발표 자료)를 만드는 방법을 다룬 쇼츠다. AI 도구를 업무에 깊게 녹여 슬라이드 제작을 자동화하는 워크플로우를 짧게 소개한다.",
-    "tags": [
-      "AI PPT",
-      "Claude",
-      "바이브코딩",
-      "업무 자동화"
-    ],
-    "entities": [
-      "Claude"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "3f498eef7cb24977",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "FDA 자문위, 논란 끝에 Moderna mRNA 독감 백신 승인 만장일치 권고",
-    "url": "https://news.hada.io/topic?id=30736",
-    "publishedAt": "2026-06-23T08:34:20+09:00",
-    "rawText": "FDA 백신 자문위 VRBPAC이 Moderna의 계절성 mRNA 독감 백신 mRNA-1010/mFlusiva 승인을 9–0으로 지지하며, 앞선 FDA 내부 논란과 다른 결론을 냄 50세 이상 4만 명 이상 대상 3상 시험에서 표준 독감 백신보다 약 27% 더 효과적이었고, 65세 이...",
-    "summaryKo": "미국 FDA 백신 자문위원회(VRBPAC)가 Moderna의 계절성 mRNA 독감 백신(mRNA-1010) 승인을 9–0 만장일치로 권고하며, 앞선 FDA 내부의 논란과는 다른 결론을 냈다. 50세 이상 4만 명 이상 대상 3상에서 표준 독감 백신보다 약 27% 더 효과적이었다.",
-    "tags": [
-      "mRNA백신",
-      "FDA",
-      "Moderna"
-    ],
-    "entities": [
-      "FDA",
-      "VRBPAC",
-      "Moderna",
-      "mRNA-1010"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "FDA 백신 자문위 VRBPAC이 Moderna의 mRNA 독감 백신 승인을 9–0으로 지지했다.",
-        "이는 앞선 FDA 내부의 논란과 상반되는 결론이다.",
-        "50세 이상 4만 명 이상 대상 3상에서 표준 백신보다 약 27% 더 효과적이었다.",
-        "65세 이상 등 고위험군에서도 개선된 효능이 확인됐다."
-      ],
-      "sections": [
-        {
-          "heading": "만장일치 권고의 의미",
-          "body": "내부 이견이 있었음에도 자문위가 만장일치로 승인을 권고하면서 mRNA 플랫폼의 계절성 독감 백신 적용에 힘이 실렸다. 대규모 3상에서 기존 표준 백신 대비 우월한 효능 데이터가 근거가 됐다."
-        },
-        {
-          "heading": "mRNA 독감 백신의 의미",
-          "body": "코로나 백신으로 검증된 mRNA 플랫폼이 계절성 독감으로 확장되는 분기점이다. 표준 백신 대비 우월한 효능과 빠른 생산성이 강점으로, 향후 변이 대응 속도에서도 이점이 기대된다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "811b915e32fcc96b",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "미친듯이 편한 옵시디언 LLM Wiki",
-    "url": "https://www.youtube.com/shorts/naNBWnlyuts",
-    "publishedAt": "2026-06-23T07:51:45+00:00",
-    "rawText": "미친듯이 편한 옵시디언 LLM Wiki",
-    "summaryKo": "Obsidian의 LLM 위키 기능으로 뉴스레터·기술 블로그를 마우스 클릭 한 번에 클리핑하면 내 작업 맥락에 맞춰 자동으로 정리해 주는 활용법을 소개하는 쇼츠다. 자료를 따로 찾고 정리하던 시간을 없애고, 아무렇게나 클리핑해도 원하는 방식대로 분류되는 점을 강조한다.",
-    "tags": [
-      "Obsidian",
-      "LLM Wiki",
-      "세컨드 브레인",
-      "지식 관리"
-    ],
-    "entities": [
-      "Obsidian"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "5d339689464e1df5",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "모든 것은 로그다",
-    "url": "https://news.hada.io/topic?id=30735",
-    "publishedAt": "2026-06-23T03:36:12+09:00",
-    "rawText": "로그를 숫자 함수가 아니라 밑 없는 로그라는 추상 객체의 비율로 보면, (\\log_b N = \\log N / \\log b)는 단위 변환처럼 읽힘 (\\log 2)는 bits, (\\log e)는 nats 같은 측정 단위가 되며, 밑변환 공식은 같은 양을 다른 단위로 쓰는 과정과 닮음...",
-    "summaryKo": "로그를 '밑 없는 로그'라는 추상 객체의 비율로 보면 밑변환 공식이 단위 변환처럼 자연스럽게 읽힌다는 관점을 소개하는 글이다. log 2는 bits, log e는 nats 같은 측정 단위가 되어 같은 양을 다른 단위로 표현하는 과정으로 이해된다.",
-    "tags": [
-      "수학",
-      "로그",
-      "정보이론"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "로그를 숫자 함수가 아니라 '밑 없는 로그'라는 추상 객체의 비율로 본다.",
-        "log_b N = log N / log b는 단위 변환처럼 읽을 수 있다.",
-        "log 2는 bits, log e는 nats처럼 측정 단위가 된다.",
-        "밑변환 공식은 같은 양을 다른 단위로 표현하는 과정과 닮았다."
-      ],
-      "sections": [
-        {
-          "heading": "단위로서의 로그",
-          "body": "로그의 밑을 측정 단위로 해석하면 정보 이론에서 bit·nat의 관계가 직관적으로 보인다. 밑변환은 환산의 일종이며, 로그를 비율적 추상 객체로 다루는 관점이 계산을 단순화한다."
-        },
-        {
-          "heading": "직관을 돕는 관점",
-          "body": "로그를 함수가 아닌 단위로 보는 시각은 복잡한 밑변환을 환산 문제로 단순화한다. 정보 이론·확률·알고리즘 분석에서 bit와 nat을 오갈 때 이 관점이 계산과 직관 모두에 도움이 된다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "b5eca30dde92c894",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "요즘 작품 이미지의 LLM 학습 방해 방법은?",
-    "url": "https://news.hada.io/topic?id=30731",
-    "publishedAt": "2026-06-23T00:01:08+09:00",
-    "rawText": "한 사용자는 아내가 자신의 작품 이미지가 LLM 학습에 쓰이는 것을 원치 않아 온라인 공개를 망설이고 있다고 밝힘 질문의 핵심은 이미지를 사전에 처리해 LLM 학습을 방해하는 라이브러리나 방법이 현재 실용적인지임 사용자는 아내를 위한 맞춤...",
-    "summaryKo": "작품 이미지를 온라인에 공개하면서도 LLM 학습에 쓰이지 않도록 사전 처리하는 실용적 방법이 있는지를 묻는 토론이다. 이미지에 교란을 넣어 학습을 방해하는 라이브러리·기법(예: Glaze/Nightshade류)의 현재 실효성이 쟁점이다.",
-    "tags": [
-      "LLM 학습",
-      "데이터 오염",
-      "이미지 보호",
-      "저작권"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "한 사용자가 아내의 작품 이미지가 LLM 학습에 쓰이는 것을 막고 싶어 한다.",
-        "핵심 질문은 이미지를 사전 처리해 학습을 방해하는 방법이 현재 실용적인지다.",
-        "교란 삽입형 보호 기법의 실효성과 한계를 둘러싼 토론이 이어진다.",
-        "창작자의 데이터 주권·저작권 문제와 맞닿아 있다."
-      ],
-      "sections": [
-        {
-          "heading": "학습 방해 기법의 현실성",
-          "body": "이미지에 사람 눈에는 잘 안 보이는 교란을 넣어 모델 학습을 어렵게 만드는 접근이 논의되지만, 모델·전처리 방식에 따라 효과가 달라지고 우회 가능성도 있어 '실용적'인지에 대해 의견이 갈린다."
-        },
-        {
-          "heading": "창작자 데이터 주권",
-          "body": "이 질문은 단순 기술 문제를 넘어 창작물이 동의 없이 학습 데이터로 쓰이는 현실에 대한 대응이다. 보호 기법의 실효성이 제한적일 수 있어, 기술적 방어와 함께 라이선스·표기 같은 제도적 수단도 함께 고려된다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "8a3e3e8a3e7a1685",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "\"약대는 아직 AI 교육 걸음마…현장 약사들은 먼저 공부 시작\"",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537192",
-    "publishedAt": "2026-06-23 05:52:00",
-    "rawText": "생성형 인공지능(AI)이 약국 현장까지 빠르게 확산되면서 약학교육의 역할에도 관심이 쏠리고 있다.최근 연구에서는 약학교육 분야의 AI 활용 사례가 아직 제한적인 것으로 분석됐지만, 일부 대학에서는 관련 교육과 인재 확보가 시작됐고 현장 약사들 역시 AI 활용에 나서는 모양새다.장보경·김성옥 인제대학교 연구팀은 최근 열린 한국사회약학회 전기학술대회 포스터 발표를 통해 '약학교육에서의 인공지능 활용 현황과 시사점'을 소개했다.연구팀은 최근 4년간 발표된 국내외 문헌을 분석한 결과 생성형 AI가 보건의료 교육 전반으로 빠르게 확산되고 있",
-    "summaryKo": "생성형 AI가 약국 현장까지 빠르게 확산되는 가운데, 약학교육의 AI 활용은 아직 제한적이지만 일부 대학과 현장 약사들이 먼저 공부를 시작했다는 분석이다. 인제대 연구팀이 한국사회약학회에서 '약학교육에서의 AI 활용 현황과 시사점'을 발표하며 최근 4년 국내외 문헌을 분석했다.",
-    "tags": [
-      "약학교육",
-      "생성형AI",
-      "디지털리터러시"
-    ],
-    "entities": [
-      "인제대학교",
-      "한국사회약학회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "생성형 AI가 약국 현장까지 빠르게 확산되며 약학교육의 역할에 관심이 쏠린다.",
-        "약학교육 분야의 AI 활용 사례는 아직 제한적이라는 분석이 나왔다.",
-        "일부 대학에서 관련 교육·인재 확보가 시작됐고 현장 약사들도 AI 활용에 나선다.",
-        "인제대 장보경·김성옥 연구팀이 한국사회약학회 전기학술대회에서 관련 포스터를 발표했다."
-      ],
-      "sections": [
-        {
-          "heading": "걸음마 단계의 약학 AI 교육",
-          "body": "연구팀이 최근 4년간 국내외 문헌을 분석한 결과 생성형 AI가 보건의료 교육 전반으로 빠르게 확산되고 있으나, 약학교육에서의 체계적 활용은 아직 초기 단계다. 제도권 교육이 따라가기 전에 현장 약사들이 먼저 AI 학습에 나서는 양상이다."
-        },
-        {
-          "heading": "현장이 교육을 앞서다",
-          "body": "제도권 약학교육이 AI를 정식 커리큘럼에 녹이기 전에, 실무 약사들이 자발적으로 AI 도구를 익히는 역전 현상이 나타난다. 연구팀은 이를 토대로 약학교육이 디지털 리터러시를 정규 역량으로 받아들여야 한다는 시사점을 제시한다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "847c92f9c5adf8c0",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "\"AI 복약상담 법안으로 규제 필요하지 않나\"",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537189",
-    "publishedAt": "2026-06-23 05:50:00",
-    "rawText": "디지털 헬스케어와 보건의료정보 활용 확대 논의가 이어지는 가운데 의료데이터 활용의 우선순위를 민간기업의 활용 확대보다 환자와 보건의료기관 간 안전한 정보 연계에 둬야 한다고 약사회가 강조했다. 이윤표 대한약사회 정보통신이사는 22일 열린 '디지털 헬스케어 및 보건의료정보 활용 지원에 관한 법률' 제정을 위한 공청회에서 의료데이터 전송과 활용 과정에서 환자 안전과 함께 전문직의 역할을 우선 고려해야 한다고 강조했다. 이 이사는 우선 보건의료 데이터 활용 방향에 대해 의료기관 간 정보 연계의 중요성을 언급했다. 공청회에서 이윤표 이사는",
-    "summaryKo": "디지털 헬스케어 법 제정 공청회에서 대한약사회가 의료데이터 활용의 우선순위를 민간기업 활용 확대보다 환자·보건의료기관 간 안전한 정보 연계에 둬야 한다고 강조했다. 이윤표 정보통신이사는 'AI 복약상담'에 대한 법적 규제 필요성도 제기했다.",
-    "tags": [
-      "디지털헬스케어",
-      "AI복약상담",
-      "의료데이터",
-      "규제"
-    ],
-    "entities": [
-      "대한약사회",
-      "이윤표"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "디지털 헬스케어법 공청회에서 약사회가 의료데이터 활용 방향을 두고 의견을 냈다.",
-        "민간기업의 데이터 활용 확대보다 환자·보건의료기관 간 안전한 정보 연계가 우선이라고 강조했다.",
-        "이윤표 대한약사회 정보통신이사가 AI 복약상담의 법적 규제 필요성을 제기했다.",
-        "데이터 전송·활용 과정에서 환자 안전과 전문직(약사)의 역할을 우선 고려해야 한다고 봤다."
-      ],
-      "sections": [
-        {
-          "heading": "안전한 정보 연계가 먼저",
-          "body": "약사회는 의료데이터 활용이 기업 중심으로 흐르는 것을 경계하며 환자 안전과 의료기관 간 연계를 우선순위로 제시했다. 특히 AI 복약상담처럼 새롭게 등장하는 서비스에 대해서는 별도의 법적 규제 틀이 필요하다는 입장을 밝혔다."
-        },
-        {
-          "heading": "AI 복약상담 규제 쟁점",
-          "body": "AI가 복약지도·상담에 직접 개입하기 시작하면 책임 소재와 환자 안전 문제가 생긴다. 약사회는 이런 서비스가 전문직의 판단을 대체하지 않도록 별도 법적 기준으로 규율할 필요가 있다는 입장을 분명히 했다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "64245e76a99cc542",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "[기자의 눈] 병리 AI 열풍이 놓치고 있는 것",
-    "url": "https://www.dailypharm.com/user/news/339670",
-    "publishedAt": "2026-06-23",
-    "rawText": "[기자의 눈] 병리 AI 열풍이 놓치고 있는 것",
-    "summaryKo": "병리 분야 AI 열풍이 놓치고 있는 지점을 짚는 데일리팜의 '기자의 눈' 칼럼이다. 병리 AI 도입 흐름의 이면과 한계를 비평적으로 다룬다.",
-    "tags": [
-      "병리AI",
-      "의료AI",
-      "칼럼"
-    ],
-    "entities": [
-      "데일리팜"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "82711ec959daea6a",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Non-deterministic Vulnerability Detection Benchmark System [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/",
-    "publishedAt": "2026-06-22T23:34:50+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I work in firmware adjacent to AI, so not an ML guy exactly, so that&#39;s why I&#39;ve come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that&#39;s about 80% done sitting around and haven&#39;t had the time to polish it up and show it off.</p> <p>I was hoping some more AI focused people could check it out, tell me if it&#39;s duplicate work, or if it is worth putting some time into and finishing. Also happy for some help too. </p> <p>The rundown of the code is that it is Juliet code that&#39;s been &quot;hidden&quot; to look somewhat like a real codebase, removing LLM&#39;s natural advantage when viewing known CWEs, while preserving the &quot;ground truth&quot; associated with Juliet. I also used an LLM to inject comments into the code in accurate, misleading, or neutral sentiments, allowing the user to examine how comments and plain English data can manipulate an LLMs ability to identify a CWE. </p> <p>There are a couple hundred CWEs, generally enough code to fill up the input context, the work that needs to be done is around presentation, actual benchmarking of publish LLMs, and possibly pruning of a couple CWEs that might occasionally get caught by certain LLMs as Juliet code still.</p> <p><a href=\"https://github.com/galen-f/vulnerable-project\">Here&#39;s the project.</a> Hopefully this doesn&#39;t break rule 6. I am not a regular here, just looking for advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Psychological_Meat_6\"> /u/Psychological_Meat_6 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/\">[comments]</a></span>",
-    "summaryKo": "펌웨어 분야 종사자가 Mythos 관련 우려에서 출발해 만든 '비결정적 취약점 탐지 벤치마크 시스템'을 공유하며 피드백을 구하는 글이다. 약 80% 완성된 벤치마크가 중복 연구인지, 다듬어 공개할 가치가 있는지 ML 커뮤니티에 의견을 묻는다.",
-    "tags": [
-      "벤치마크",
-      "취약점탐지",
-      "AI보안"
-    ],
-    "entities": [
-      "Mythos"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "8cb29b495ad04aa9",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 집에 있는 책을 관리하려다 만든 개인 서재 서비스 “서가담” 비공개 테스트 참여자를 모집합니다",
-    "url": "https://news.hada.io/topic?id=30730",
-    "publishedAt": "2026-06-22T22:58:14+09:00",
-    "rawText": "제목: 집에 있는 책을 관리하려다 만든 개인 서재 서비스 “서가담” 비공개 테스트 참여자를 모집합니다 안녕하세요. 개인 프로젝트로 서가담이라는 책 기록/서재 관리 서비스를 만들고 있습니다. 처음 시작은 아주 단순했습니다. 집에 있는 책들을 엑셀로 관리하고 있었는데",
-    "summaryKo": "집에 있는 책을 엑셀로 관리하던 개발자가 직접 만든 개인 서재 기록·관리 서비스 '서가담'의 비공개 테스트 참여자를 모집한다는 Show GN 글이다. 개인 프로젝트로 시작한 도서 관리 서비스의 클로즈드 베타 안내다.",
-    "tags": [
-      "사이드프로젝트",
-      "도서관리",
-      "ShowGN"
-    ],
-    "entities": [
-      "서가담",
-      "GeekNews"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "63a45a3c752bc58b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "개인 웹사이트를 위한 JSON-LD 설명",
-    "url": "https://news.hada.io/topic?id=30729",
-    "publishedAt": "2026-06-22T21:54:32+09:00",
-    "rawText": "개인 웹사이트도 구조화 데이터를 넣으면 크롤러가 페이지와 인물, 글의 관계를 더 잘 이해하고 링크 미리보기와 검색 노출 품질을 개선할 수 있음 구현은 <head> 안의 <script type=\"application/ld+json\">에 @context",
-    "summaryKo": "개인 웹사이트에도 JSON-LD 구조화 데이터를 넣으면 크롤러가 페이지·인물·글의 관계를 더 잘 이해해 링크 미리보기와 검색 노출 품질이 개선된다는 설명 글이다. <head> 안 application/ld+json 스크립트로 @context를 지정해 구현한다.",
-    "tags": [
-      "JSON-LD",
-      "구조화데이터",
-      "SEO",
-      "시맨틱웹"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "개인 웹사이트도 구조화 데이터를 넣으면 크롤러의 이해도가 높아진다.",
-        "페이지·인물·글의 관계를 명시해 링크 미리보기와 검색 노출 품질을 개선한다.",
-        "구현은 <head> 안 <script type=\"application/ld+json\">에 @context를 지정하는 방식이다.",
-        "적은 노력으로 검색·소셜 표시 품질을 끌어올릴 수 있는 실용 기법이다."
-      ],
-      "sections": [
-        {
-          "heading": "JSON-LD로 의미 부여하기",
-          "body": "JSON-LD는 HTML 구조와 분리된 형태로 페이지의 의미(작성자, 글, 관계 등)를 기계가 읽을 수 있게 기술한다. 검색엔진과 소셜 크롤러가 이를 활용해 더 풍부한 미리보기와 정확한 색인을 제공한다."
-        },
-        {
-          "heading": "실용적 적용 팁",
-          "body": "개인 블로그라면 Person·Article·BreadcrumbList 같은 스키마를 우선 적용하는 것이 효과적이다. 검색엔진의 리치 결과와 소셜 미리보기 품질이 좋아지고, 최근에는 AI 크롤러의 이해도 향상에도 기여한다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "e1f6ed1ada0e8b0c",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Syntactically robust NLI for semantics of imperfectly generated text? [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/",
-    "publishedAt": "2026-06-22T21:51:51+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>I&#39;m looking for literature on relatively specific tooling. </p> <p>In autoregressive LLMs, there is substantial published work that used NLI on sub-claims produced by LLMs to gauge correctness of LLM answers. </p> <p>In diffusion (or D-) LLMs, the SoTA model generations that I see (outside of perhaps LLaDA) seem to struggle to be as correct syntactically as the generations from premier AR LLMs, in addition to the issue of semantic correctness.</p> <p>My intuition is that this complicates the usage of NLI (the syntactic noise). </p> <p>What is the SoTA on syntax-robust NLI?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RepresentativeBee600\"> /u/RepresentativeBee600 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/\">[comments]</a></span>",
-    "summaryKo": "자기회귀(AR) LLM에서 하위 주장에 NLI를 적용해 정답성을 평가하던 연구를, 구문적으로 덜 견고한 디퓨전(D-) LLM 생성 텍스트에 적용할 수 있는 '구문적으로 강건한 NLI' 문헌을 찾는 연구성 질문이다.",
-    "tags": [
-      "NLI",
-      "디퓨전LLM",
-      "텍스트 평가"
-    ],
-    "entities": [
-      "LLaDA"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "a85a565a2d683797",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "GLM 5.2 대 Opus",
-    "url": "https://news.hada.io/topic?id=30728",
-    "publishedAt": "2026-06-22T21:50:27+09:00",
-    "rawText": "같은 원샷 프롬프트로 raw WebGL 3D 플랫폼 게임을 만들게 하자, Opus는 더 빠르고 완성도 높은 결과를 냈고 GLM-5.2는 낮은 비용과 오픈 가중치라는 장점을 보임 GLM-5.2는 Z.ai의 MIT 라이선스 오픈 가중치 모델로 1M 토큰 컨텍스트와 High/Max 사고 수준을 제공...",
-    "summaryKo": "동일한 원샷 프롬프트로 raw WebGL 3D 플랫폼 게임을 만들게 했을 때 Opus는 더 빠르고 완성도 높은 결과를 낸 반면, Z.ai의 GLM-5.2는 낮은 비용과 오픈 가중치(MIT 라이선스)라는 강점을 보였다. GLM-5.2는 1M 토큰 컨텍스트와 High/Max 사고 수준을 제공한다.",
-    "tags": [
-      "GLM-5.2",
-      "Claude Opus",
-      "오픈웨이트",
-      "코드생성"
-    ],
-    "entities": [
-      "GLM-5.2",
-      "Opus",
-      "Z.ai"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "같은 원샷 프롬프트로 WebGL 3D 플랫폼 게임을 생성하는 비교를 진행했다.",
-        "Opus는 더 빠르고 완성도 높은 결과를 냈다.",
-        "GLM-5.2는 낮은 비용과 오픈 가중치라는 장점을 보였다.",
-        "GLM-5.2는 Z.ai의 MIT 라이선스 모델로 1M 토큰 컨텍스트와 High/Max 사고 수준을 제공한다."
-      ],
-      "sections": [
-        {
-          "heading": "성능 대 비용·개방성",
-          "body": "벤치 성격의 비교에서 독점 모델 Opus가 품질·속도에서 앞섰지만, GLM-5.2는 오픈 가중치와 저비용, 긴 컨텍스트로 차별화한다. 최고 성능이 필요한지, 비용·자체 호스팅이 중요한지에 따라 선택이 갈린다는 점을 시사한다."
-        },
-        {
-          "heading": "오픈웨이트의 가치",
-          "body": "GLM-5.2의 MIT 라이선스·1M 컨텍스트는 자체 호스팅과 비용 통제를 중시하는 사용자에게 매력적이다. 절대 성능에서 독점 모델에 뒤져도, 개방성과 긴 컨텍스트라는 다른 축의 가치로 충분히 경쟁한다는 점이 이번 비교의 시사점이다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "039a8dbfa6832150",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "오픈 모델로 갈아타는 데 따른 단점은 크지 않음",
-    "url": "https://news.hada.io/topic?id=30727",
-    "publishedAt": "2026-06-22T21:45:05+09:00",
-    "rawText": "기술 업무에서 오픈 LLM은 여전히 성능·호환성·신뢰 비용이 있지만, 최근 격차가 줄어 Claude나 GPT 같은 독점 모델 의존을 낮출 여지가 커짐 과거 Linux는 MS Office 호환성, 특수 파일 형식, 미성숙한 오픈소스 생태계 때문에 전문 업무에서 위험했지만, 웹앱 확산과 생태계 성숙으...",
-    "summaryKo": "기술 업무에서 오픈 LLM은 여전히 성능·호환성·신뢰 비용이 있지만 최근 격차가 줄어, Claude·GPT 같은 독점 모델 의존을 낮출 여지가 커졌다는 분석이다. 과거 리눅스가 호환성 문제로 위험했던 것이 웹앱 확산과 생태계 성숙으로 해소된 흐름에 빗댄다.",
-    "tags": [
-      "오픈LLM",
-      "오픈웨이트",
-      "벤더 종속"
-    ],
-    "entities": [
-      "Claude",
-      "GPT",
-      "Linux"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "오픈 LLM은 여전히 성능·호환성·신뢰 비용이 존재한다.",
-        "최근 그 격차가 줄어 독점 모델 의존을 낮출 여지가 커졌다.",
-        "과거 리눅스가 MS Office 호환성·생태계 미성숙으로 위험했던 상황에 비유한다.",
-        "웹앱 확산과 생태계 성숙이 오픈 진영의 단점을 줄였다는 관점이다."
-      ],
-      "sections": [
-        {
-          "heading": "오픈 전환의 손익",
-          "body": "오픈 모델로 갈아탈 때의 단점이 예전만큼 크지 않다는 주장이다. 리눅스 사례처럼 생태계가 성숙하면 호환성·신뢰 비용이 낮아지고, 벤더 종속을 줄이려는 조직에게 오픈 LLM이 현실적 선택지가 된다."
-        },
-        {
-          "heading": "벤더 종속 완화",
-          "body": "오픈 모델 성숙은 특정 API 제공사에 대한 종속과 가격·정책 리스크를 줄여준다. 모든 작업을 대체하진 못해도, 민감 데이터 처리나 대량 추론처럼 비용·통제가 중요한 영역부터 점진적으로 전환할 여지가 커졌다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "5010c1d3f108fc89",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Deno Desktop: Deno 프로젝트를 데스크톱 앱으로 패키징",
-    "url": "https://news.hada.io/topic?id=30726",
-    "publishedAt": "2026-06-22T21:41:38+09:00",
-    "rawText": "웹 앱과 TypeScript 코드로 만든 Deno 프로젝트를 플랫폼별 재배포 가능한 데스크톱 앱 바이너리로 묶을 수 있음 출력물은 애플리케이션 코드, Deno 런타임, 웹 렌더링 엔진을 함께 포함하며, Deno v2.9.0에 들어갔지만 아직 안정 릴리스는 아님 기본 Web...",
-    "summaryKo": "웹 앱과 TypeScript로 만든 Deno 프로젝트를 플랫폼별 재배포 가능한 데스크톱 앱 바이너리로 묶는 'Deno Desktop'이 소개됐다. 출력물에는 애플리케이션 코드, Deno 런타임, 웹 렌더링 엔진이 함께 포함되며 Deno v2.9.0에 들어갔으나 아직 안정 릴리스는 아니다.",
-    "tags": [
-      "Deno",
-      "데스크톱앱",
-      "TypeScript"
-    ],
-    "entities": [
-      "Deno"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Deno 프로젝트를 플랫폼별 데스크톱 앱 바이너리로 패키징할 수 있다.",
-        "출력물은 앱 코드, Deno 런타임, 웹 렌더링 엔진을 함께 담는다.",
-        "Deno v2.9.0에 포함됐지만 아직 안정 릴리스는 아니다.",
-        "웹 기술로 만든 앱을 별도 프레임워크 없이 데스크톱으로 배포하는 길을 연다."
-      ],
-      "sections": [
-        {
-          "heading": "웹앱을 데스크톱으로",
-          "body": "Deno Desktop은 Electron 대안처럼 웹 기반 UI를 네이티브 배포 가능한 바이너리로 묶는다. 런타임과 렌더링 엔진을 동봉해 단일 산출물로 재배포할 수 있게 하며, 아직 실험적 단계다."
-        },
-        {
-          "heading": "Electron 대안으로서의 의미",
-          "body": "그동안 웹 기술 데스크톱 앱은 주로 Electron에 의존했다. Deno Desktop은 런타임에 패키징 기능을 내장해 별도 프레임워크 없이 단일 바이너리를 만들 수 있게 하지만, 아직 실험 단계라 안정성 검증이 필요하다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "ede7c77a7ce8214a",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Recommendations for speech annotation tools [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/",
-    "publishedAt": "2026-06-22T19:40:39+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/neuralbeans\"> /u/neuralbeans </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/\">[comments]</a></span>",
-    "summaryKo": "오디오를 자동 전사한 뒤 사람이 직접 교정하고 모델을 미세조정할 수 있는 human-in-the-loop 음성 주석(annotation) 도구를 찾는 질문 글이다. 온라인 서비스가 아닌 로컬 설치형 플랫폼을 원한다.",
-    "tags": [
-      "음성주석",
-      "ASR",
-      "HITL"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "eb8c0a3a246f631f",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Some new updates to Papers with Code [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
-    "publishedAt": "2026-06-22T14:29:33+00:00",
-    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/\"> <img src=\"https://preview.redd.it/wawma8paeu8h1.png?width=140&amp;height=39&amp;auto=webp&amp;s=8546e40b7710c5a3566b17f2c4635b14b3f19c0b\" alt=\"Some new updates to Papers with Code [P]\" title=\"Some new updates to Papers with Code [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi folks, </p> <p>Niels here from the open-source team at Hugging Face. I continue working on a revival of <a href=\"http://paperswithcode.co\">paperswithcode.co</a> as we&#39;re back to the &quot;age of research&quot; per Ilya Sutskever! Hence, it&#39;s important to discover each other&#39;s research and build on each other&#39;s work, so we can collectively build the next Transformer. Below, I&#39;ll go over each of the new features that were recently added.</p> <p>## Support for SOTA badges</p> <p>Yes, that&#39;s right, totally like the old website. You can see that GLM-5.2, for instance, is obviously the hottest blog post today, achieves SOTA on PostTrainBench, and performs well on many other benchmarks. It is displayed whenever a paper gets a score within the top 3 of a given benchmark.</p> <p>Note that these are displayed on any paper feed, including <a href=\"https://paperswithcode.co/tasks/video-classification\">https://paperswithcode.co/tasks/video-classification</a>, for example.</p> <p><a href=\"https://preview.redd.it/wawma8paeu8h1.png?width=2418&amp;format=png&amp;auto=webp&amp;s=0ba3b6a0eaef231b7f3ca468cc3db4120f1b9e4d\">https://preview.redd.it/wawma8paeu8h1.png?width=2418&amp;format=png&amp;auto=webp&amp;s=0ba3b6a0eaef231b7f3ca468cc3db4120f1b9e4d</a></p> <p>## New trending score</p> <p>The papers are now ranked based on a new trending metric. This is a combination of the GitHub star velocity and the trending score of the linked Hugging Face artifacts (models, datasets, and Spaces). Previously, this only took into account GitHub star velocity.</p> <p>Thanks to this, papers like <a href=\"https://paperswithcode.co/paper/2603.12201\">IndexCache</a> are now trending, which is a core technique behind the trending GLM-5.2 model.</p> <p><a href=\"https://preview.redd.it/b6g04w2ogu8h1.png?width=2380&amp;format=png&amp;auto=webp&amp;s=13d59bbadd5f8e8295deac2ee6e1e0e3dbc0f40f\">https://preview.redd.it/b6g04w2ogu8h1.png?width=2380&amp;format=png&amp;auto=webp&amp;s=13d59bbadd5f8e8295deac2ee6e1e0e3dbc0f40f</a></p> <p>## Support for external evals</p> <p>Second, I&#39;ve added support for &quot;external&quot; evals. This is a feature the legacy PwC website didn&#39;t actually have. Oftentimes, a paper has way more evals than the ones introduced in the paper itself. You can now view these third-party evals. Some examples:</p> <ul> <li>FrontierSWE and PostTrainBench numbers for GLM-5.2: <a href=\"https://paperswithcode.co/paper/98456#results?task=agents\">https://paperswithcode.co/paper/98456#results?task=agents</a></li> <li>Artificial Analysis has numbers on CritPt, a though physics benchmark. See e.g. <a href=\"https://paperswithcode.co/paper/85629#results?task=reasoning\">https://paperswithcode.co/paper/85629#results?task=reasoning</a></li> </ul> <p><a href=\"https://preview.redd.it/mfnfdzxpeu8h1.png?width=1914&amp;format=png&amp;auto=webp&amp;s=2b909ecf7c6e3fc088fd0a46fbc56f6859dfaf17\">https://preview.redd.it/mfnfdzxpeu8h1.png?width=1914&amp;format=png&amp;auto=webp&amp;s=2b909ecf7c6e3fc088fd0a46fbc56f6859dfaf17</a></p> <p>## More tasks, benchmarks and evals</p> <p>I&#39;m adding more benchmarks and adding evals of more papers. This happens gradually, based on the legacy PwC data available on the <a href=\"https://huggingface.co/pwc-archive\">hub</a>.</p> <p>Some new benchmarks include:</p> <p>- <a href=\"https://paperswithcode.co/benchmark/imagenet-10-labeled-data\">ImageNet - 10% of the data</a></p> <p><a href=\"https://preview.redd.it/wr55g27ofu8h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=e6e5ef7e3a36cd5aa6d2841b149194239f4ad1e0\">https://preview.redd.it/wr55g27ofu8h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=e6e5ef7e3a36cd5aa6d2841b149194239f4ad1e0</a></p> <p>- <a href=\"https://paperswithcode.co/tasks/3d-semantic-segmentation\">3D semantic segmentation</a>:</p> <p><a href=\"https://preview.redd.it/zxgobrnqfu8h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=6ee2935981825d5d7825709294ddb84a4b7a3ac9\">https://preview.redd.it/zxgobrnqfu8h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=6ee2935981825d5d7825709294ddb84a4b7a3ac9</a></p> <p>- <a href=\"https://paperswithcode.co/tasks/object-counting\">object counting</a>:</p> <p><a href=\"https://preview.redd.it/uhv4wbrsfu8h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=183decb144d9779e41bf12ca58fbaab66cd29cbf\">https://preview.redd.it/uhv4wbrsfu8h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=183decb144d9779e41bf12ca58fbaab66cd29cbf</a></p> <p>and a lot more. Browse all of them at <a href=\"https://paperswithcode.co/tasks\">https://paperswithcode.co/tasks</a> </p> <p>## New domain</p> <p>Papers with Code is now also available from <a href=\"http://paperswithco.de\">paperswithco.de</a> :)</p> <p>Let me know what is missing, bug/feature requests, and whether you want to contribute!</p> <p>Kind regards,</p> <p>Niels</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NielsRogge\"> /u/NielsRogge </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/\">[comments]</a></span> </td></tr></table>",
-    "summaryKo": "Hugging Face 오픈소스 팀의 Niels가 Papers with Code에 적용된 새 업데이트를 공유했다. 논문과 코드를 연결하는 리소스의 개선 사항을 r/MachineLearning에 알리는 글이다.",
-    "tags": [
-      "Papers with Code",
-      "Hugging Face",
-      "오픈소스"
-    ],
-    "entities": [
-      "Hugging Face",
-      "Papers with Code"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "a9c071286e3af325",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "왕초보도 당장 따라할 수 있는 클로드 디자인 15분 속성 마스터 클래스ㅣ이 영상만 보면 원하는 것을 마음대로 만들 수 있습니다.",
-    "url": "https://www.youtube.com/watch?v=uDlBOTfYQNo",
-    "publishedAt": "2026-06-22T09:00:11+00:00",
-    "rawText": "왕초보도 당장 따라할 수 있는 클로드 디자인 15분 속성 마스터 클래스ㅣ이 영상만 보면 원하는 것을 마음대로 만들 수 있습니다.",
-    "summaryKo": "신영선의 AI탐구 채널이 Anthropic의 Claude Design(클로드 디자인) 도구로 웹사이트·대시보드·PPT를 비전문가도 만드는 15분 속성 가이드를 소개한다. 클로드 공식 문서에 업데이트된 활용법을 바탕으로 효과적인 프롬프트 작성, 풍부한 맥락 제공, 상황별 수정 등 5가지 원칙을 정리하고, 완성한 디자인을 Claude Code로 넘겨 실제 배포 가능한 앱·웹으로 확장하는 흐름까지 보여준다.",
-    "tags": [
-      "바이브코딩",
-      "AI디자인툴",
-      "프롬프트엔지니어링",
-      "UI생성"
-    ],
-    "entities": [
-      "Claude Design",
-      "Claude Code",
-      "Anthropic",
-      "Pinterest",
-      "getdesign.md"
-    ],
-    "cats": [
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Claude Design은 코드 수정 없이도 웹디자이너가 붙은 듯한 퀄리티의 웹사이트·대시보드·움직이는 GIF를 만들 수 있다고 강조한다.",
-        "효과적인 프롬프트의 핵심은 '무엇을 만드는지·어떻게 배치할지·어떤 정보를 보여줄지·누가 사용할지' 네 가지를 명시하는 것이다.",
-        "구글·핀터레스트 레퍼런스 이미지나 getdesign.md(대기업 디자인 요소 정리 사이트)의 코드를 붙여넣어 풍부한 맥락을 제공하면 결과물 완성도가 크게 높아진다.",
-        "디자이너가 아니어도 텍스트 직접 수정, 요소 크기 조절·삭제, Ctrl+Z, 코멘트 기반 부분 수정 등으로 자유롭게 편집할 수 있다.",
-        "실습으로 월별 매출 대시보드를 3가지 컨셉(균형·추이중심·목표중심)으로 생성한 뒤 마음에 드는 버전을 골라 디벨롭한다.",
-        "완성된 디자인은 Share에서 'Send to Claude Code Web'으로 Claude Code에 넘겨 데이터·서버·DB를 채워 실제 배포 가능한 앱·웹으로 확장한다."
-      ],
-      "sections": [
-        {
-          "heading": "Claude Design 활용 5원칙",
-          "body": "클로드 공식 문서 업데이트를 기반으로 비전문가용 활용법을 정리한다. 1) 효과적인 프롬프트(무엇·배치·정보·사용자 4요소 명시), 2) 풍부한 맥락 제공(레퍼런스 이미지·getdesign.md 코드)을 핵심으로 꼽으며 뒤로 갈수록 더 중요하다고 설명한다. 3) 상황에 맞는 수정 방식 선택으로 디자인 비전공자도 쉽게 편집할 수 있음을 보여준다."
-        },
-        {
-          "heading": "맥락 제공과 getdesign.md",
-          "body": "AI가 참고할 자료를 최소 하나라도 주는 것이 중요하다고 말한다. 구글·핀터레스트에서 대시보드나 PPT 디자인 레퍼런스를 찾아 넣거나, getdesign.md 사이트에서 애플 등 대기업의 컬러·폰트·도형·타이포그래피 디자인 요소 코드를 복사해 붙여넣으면 해당 스타일이 반영된다. 맥락을 많이 줄수록 의도에 맞는 결과가 나온다."
-        },
-        {
-          "heading": "대시보드 실습과 Claude Code 연계",
-          "body": "월별 매출 대시보드를 이커머스·100만원 단위·한국어 설정과 3가지 버전 옵션으로 요청해 즉석에서 HTML 프론트엔드를 생성한다. 완성 후 Share→Send to Claude Code Web으로 결과물을 Claude Code로 넘겨 '껍데기 안을 채우는' 작업, 즉 데이터 연동·DB·도구 선택을 이어가 실제 배포까지 진행하는 워크플로우를 제시한다."
-        }
-      ],
-      "quotes": [
-        "사실 수정을 하나도 하지 않았어요 — 완성된 웹사이트의 퀄리티를 강조하며",
-        "AI는 제약이 없는 자유로운 영혼이고, 이를 좁히고 좁혀 특정 초점을 맞춰 나가는 게 중요하다",
-        "껍데기를 만들었으니 이제 안을 채워야겠죠 — Claude Code로 넘기는 이유"
-      ]
-    },
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "7800ad6e783cdb25",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: TownSquare, 웹사이트를 위한 작은 존재감 레이어",
-    "url": "https://news.hada.io/topic?id=30699",
-    "publishedAt": "2026-06-22T06:38:52+09:00",
-    "rawText": "콘텐츠만 보이던 웹사이트에 방문자 존재감을 얹어, 같은 페이지에 있는 사람들이 서로를 보고 짧게 대화할 수 있게 함 계정이나 알고리듬 없이 현재 접속 중인 사람만 드러내는 방식이라, 복잡한 소셜 기능보다 즉시성에 초점을 둠 설치는 </bo...",
-    "summaryKo": "TownSquare는 콘텐츠만 보이던 웹사이트에 '방문자 존재감' 레이어를 얹어, 같은 페이지에 있는 사람들이 서로를 보고 짧게 대화할 수 있게 해주는 도구다. 계정이나 알고리즘 없이 현재 접속 중인 사람만 드러내는 방식으로 복잡한 소셜 기능보다 즉시성에 초점을 둔다.",
-    "tags": [
-      "웹",
-      "실시간 프레즌스",
-      "소셜"
-    ],
-    "entities": [
-      "TownSquare"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "174e60b74598ab53",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Linux의 epoll과 io_uring 비교",
-    "url": "https://news.hada.io/topic?id=30698",
-    "publishedAt": "2026-06-22T06:35:52+09:00",
-    "rawText": "TinyGate 리버스 프록시는 워커 기반 구조에서 epoll로 바꾸며 성능을 끌어올렸지만, 이후 한계를 만나 io_uring으로 다시 작성됨 epoll은 I/O가 가능한 시점을 알려주는 준비 상태 모델이라 epoll_wait 뒤에 read()/...",
-    "summaryKo": "리버스 프록시 TinyGate가 워커 기반 구조에서 epoll로 성능을 높였다가 한계에 부딪혀 io_uring으로 재작성한 경험을 바탕으로 두 리눅스 I/O 모델을 비교한 글이다. epoll은 I/O 가능 시점을 알려주는 준비 상태 모델인 반면 io_uring은 완료 기반 비동기 모델로, 성능 한계 돌파 과정을 설명한다.",
-    "tags": [
-      "Linux",
-      "epoll",
-      "io_uring",
-      "비동기 I/O"
-    ],
-    "entities": [
-      "TinyGate",
-      "Linux"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "94c0c37c5049f43d",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "아이들을 생각하라: 모든 인터넷 트래픽에 Real ID를 강제하는 방법(2023)",
-    "url": "https://news.hada.io/topic?id=30697",
-    "publishedAt": "2026-06-22T04:35:36+09:00",
-    "rawText": "성인 인증을 명분으로 한 신분증·문서 업로드 요구가 중앙화 상업 데이터베이스로 이어지면, 성인 사이트를 넘어 인터넷 전반의 실명 추적으로 확장될 수 있음 이미 ICRA PICS와 RTA Header 같은 저마찰 대안이 있었고, RTA는 웹페이지나 HTTP 헤...",
-    "summaryKo": "성인 인증을 명분으로 한 신분증·문서 업로드 요구가 중앙화된 상업 데이터베이스로 이어지면, 성인 사이트를 넘어 인터넷 전반의 실명 추적으로 확장될 수 있다고 경고하는 글(2023)이다. 이미 ICRA PICS나 RTA 헤더 같은 저마찰 대안이 있었음을 들어 'Real ID' 강제의 위험성을 지적한다.",
-    "tags": [
-      "프라이버시",
-      "실명 인증",
-      "인터넷 규제"
-    ],
-    "entities": [
-      "RTA",
-      "ICRA PICS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "150ef9dcd6035491",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Linux, 6년·360개 이상 패치 끝에 strncpy API 제거",
-    "url": "https://news.hada.io/topic?id=30696",
-    "publishedAt": "2026-06-22T03:33:59+09:00",
-    "rawText": "Linux 7.2에서 커널 내부의 strncpy API 사용처가 사라지며, 오래전부터 폐기 예정이던 문자열 복사 인터페이스가 최종 제거됨 strncpy()는 지정한 바이트 수만큼 복사하지만 NUL 종료 동작이 직관적이지 않아, 커널에서 수년간 버그의 원인으로 남아 있었음 ...",
-    "summaryKo": "Linux 커널에서 오래전부터 폐기 예정이던 strncpy API 사용처가 6년·360개 이상의 패치 끝에 모두 제거됐다. strncpy는 NUL 종료 동작이 직관적이지 않아 수년간 버그의 원인이 되어 왔으며, 이번에 커널 내부에서 최종 제거됐다.",
-    "tags": [
-      "Linux",
-      "커널",
-      "C",
-      "보안"
-    ],
-    "entities": [
-      "Linux"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "5eace7f3fe99074d",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "DOS 게임 F-15 Strike Eagle II 리버싱 프로젝트, DOS 테스트 파일럿 모집",
-    "url": "https://news.hada.io/topic?id=30695",
-    "publishedAt": "2026-06-22T02:45:54+09:00",
-    "rawText": "1989년 게임 F-15 Strike Eagle II의 원본 바이너리를 리버스 엔지니어링해 C 소스 코드를 재구성하는 프로젝트가 실제 플레이 테스트 단계에 들어감 egame, end를 포함한 모든 실행 파일의 코드와 데이터를 C로 옮겼고, 대부분의 어셈블리 전용 코드에는...",
-    "summaryKo": "1989년 게임 F-15 Strike Eagle II의 원본 바이너리를 리버스 엔지니어링해 C 소스 코드로 재구성하는 프로젝트가 실제 플레이 테스트 단계에 진입했다. 모든 실행 파일의 코드·데이터를 C로 옮겼고, DOS 환경에서 테스트할 파일럿(테스터)을 모집한다.",
-    "tags": [
-      "리버스 엔지니어링",
-      "레트로 게임",
-      "DOS"
-    ],
-    "entities": [
-      "F-15 Strike Eagle II"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "c02dc174c1f13a74",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "SMPTE, 표준 라이브러리 무료 공개",
-    "url": "https://news.hada.io/topic?id=30694",
-    "publishedAt": "2026-06-22T02:42:54+09:00",
-    "rawText": "미디어 기술 표준을 다루는 SMPTE가 전체 Standards 카탈로그를 무료로 열어, 기존 문서와 향후 릴리스를 전 세계에서 직접 접근할 수 있게 함 공개 범위는 published SMPTE Standards, Recommended Practices, Engineering Guidelines, Registered Disclosure Documents(RD...",
-    "summaryKo": "미디어 기술 표준 단체 SMPTE가 전체 표준 카탈로그를 무료로 공개해, 기존 문서와 향후 릴리스를 전 세계에서 직접 접근할 수 있게 했다. 공개 범위는 published Standards, Recommended Practices, Engineering Guidelines, Registered Disclosure Documents 등을 포함한다.",
-    "tags": [
-      "표준",
-      "미디어 기술",
-      "오픈 액세스"
-    ],
-    "entities": [
-      "SMPTE"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "fca2375b3130a464",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "도서관에서 재봉틀을 빌리는 핀란드 모델",
-    "url": "https://news.hada.io/topic?id=30693",
-    "publishedAt": "2026-06-22T02:39:54+09:00",
-    "rawText": "핀란드 공공도서관은 책 대출을 넘어 시민이 공간·도구·디지털 서비스를 함께 쓰는 공공 커뮤니티 서비스 센터로 확장되고 있음 인구 560만 명의 핀란드는 700개 넘는 도서관에서 팟캐스트 스튜디오, 3D 프린팅, 테니스 라켓, 수영장 이용권, 재봉틀까지 제공함",
-    "summaryKo": "핀란드 공공도서관이 책 대출을 넘어 공간·도구·디지털 서비스를 함께 쓰는 공공 커뮤니티 센터로 확장되고 있다는 소개다. 인구 560만 명의 핀란드는 700개 넘는 도서관에서 팟캐스트 스튜디오, 3D 프린팅, 테니스 라켓, 수영장 이용권, 재봉틀까지 제공한다.",
-    "tags": [
-      "공공도서관",
-      "핀란드",
-      "커뮤니티"
-    ],
-    "entities": [
-      "Finland"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
   }
 ]
