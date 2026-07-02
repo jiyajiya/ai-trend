@@ -388,6 +388,143 @@
     "fetchedAt": "2026-06-19T02:12:32.491Z"
   },
   {
+    "id": "67e9491f9d3405df",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 와.. 구글이 엑셀 표 같은 데이터를 그대로 넣으면 예측을 내주는 ᄆ...",
+    "url": "https://www.threads.com/t/DaRLc6Skzqt",
+    "publishedAt": "Wed, 01 Jul 2026 23:18:06 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>와.. 구글이 엑셀 표 같은 데이터를 그대로 넣으면 예측을 내주는 모델 TabFM을 공개했습니다. '이 고객이 이탈할까', '이 거래가 사기일까', '이 집은 얼마에 팔릴까' 같은 예측을, 한 번도 본 적 없는 표에 대해 학습 없이 바로 내놓습니다. 원래 이런 일은 데이터 사이언티스트가 표 하나마다 모델을 새로 튜닝해가며 며칠씩 붙잡던 작업인데, TimesFM을 만든 구글 팀이 그 과정을 통째로 건너뛰게 만든 겁니다. 그런데 리더보드 1등을 찍은 구성은 '한 번에 끝'이 아니라 32개를 앙상블한 버전이고, 오픈으로 풀린 가중치는 상업적으로 쓸 수 없습니다. 발표 내용을 정리했습니다 🧵</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/732584264_17975046486112832_8049468055421454000_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=108&amp;ig_cache_key=MzkzMTk3NDMxNDkxNjc4ODkwOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTg4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=gCuEGQT64L0Q7kNvwHRMIAq&amp;_nc_oc=AdrDnA2zywc7WYsR12J76Gw0hI0txC_P5axX35lmJOjqEm7Cp0zZ8sSGyg-1xDHHF3U&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=09xjx5KzHC3LRm-w7ADSuA&amp;_nc_ss=7a22e&amp;oh=00_AQCCn2uxN_uSqeuIVJq61A4JkuEr4onQnzdqeu2RQj6hqA&amp;oe=6A4B6776\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "구글이 엑셀 표 같은 정형 데이터를 그대로 입력하면 학습 없이 바로 예측(이탈 여부, 사기 여부, 가격 등)을 내놓는 표 형식 파운데이션 모델 'TabFM'을 공개했다는 소식이다. 리더보드 1위 구성은 32개 모델을 앙상블한 버전이고, 공개된 가중치는 상업적으로 사용할 수 없다는 제약이 함께 소개된다.",
+    "tags": [
+      "표형식AI",
+      "파운데이션모델"
+    ],
+    "entities": [
+      "Google",
+      "TabFM",
+      "TimesFM"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
+    "id": "0857ed834222d2fa",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Cerebras가 Gemma 4 31B를 퍼블릭 프리뷰로 공개했습니다. 초당 1,800개 이상의 ᄐ...",
+    "url": "https://www.threads.com/t/DaQ4PYXiXLR",
+    "publishedAt": "Wed, 01 Jul 2026 20:30:14 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Cerebras가 Gemma 4 31B를 퍼블릭 프리뷰로 공개했습니다. 초당 1,800개 이상의 토큰을 생성하며 첫 응답도 약 1.5초 만에 제공한다고 밝혔는데요. 비결은 하나의 웨이퍼 스케일 칩에서 21PB/s에 달하는 온칩 메모리 대역폭으로 데이터를 처리해 GPU 클러스터에서 발생하는 메모리 병목과 칩 간 통신을 줄인 것입니다. Cerebras는 일반적인 GPU 기반 서비스보다 최대 35배 빠른 속도를 제공한다고 설명했습니다.</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/729657729_17974944216112832_3121715160435362214_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkzMTg4OTgyMjI1NTkwMzQ0MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=NY0EQZ6AAUQQ7kNvwHzOe3m&amp;_nc_oc=Adq2nkXmo3OIgaJEaf35Wh4N5jDAV-_nvS10gBRfJsHmmt2Ve8go_pVqnZbX2vBCzok&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=09xjx5KzHC3LRm-w7ADSuA&amp;_nc_ss=7a22e&amp;oh=00_AQA6IkzfFFBfqKSDLfmwLz6tyoVvMgxDn1MovTuehoSsMA&amp;oe=6A4B9026\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Cerebras가 Gemma 4 31B 모델을 퍼블릭 프리뷰로 공개하며 초당 1,800토큰 이상, 첫 응답 약 1.5초의 속도를 낸다고 밝혔다. 웨이퍼 스케일 칩의 21PB/s 온칩 메모리 대역폭으로 GPU 클러스터의 메모리 병목·칩 간 통신 문제를 줄여 일반 GPU 기반 서비스 대비 최대 35배 빠르다고 설명한다.",
+    "tags": [
+      "추론가속",
+      "Gemma"
+    ],
+    "entities": [
+      "Cerebras",
+      "Gemma"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
+    "id": "0be6913362ae4cbf",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "The latest AI news we announced in June 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+    "publishedAt": "Wed, 01 Jul 2026 18:15:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from June 2026.",
+    "summaryKo": "구글이 2026년 6월 한 달간 발표한 AI 관련 소식을 모아 정리한 월간 요약 게시물이다. 검색, 제미나이, 클라우드 등 여러 제품군에 걸친 업데이트를 한눈에 볼 수 있도록 링크로 안내한다.",
+    "tags": [
+      "구글AI",
+      "월간요약"
+    ],
+    "entities": [
+      "Google"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
+    "id": "94c768ce3675b2b1",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+    "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "publishedAt": "Wed, 01 Jul 2026 16:00:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\">Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+    "summaryKo": "구글이 뉴욕시교육청 산하 Jobs CEO Council, Urban Assembly와 함께 뉴욕 오피스에서 교육·산업계 리더 150명이 참여하는 AI 서밋을 열었다. 교실에서의 AI 활용 방향을 논의하는 자리였다.",
+    "tags": [
+      "AI교육",
+      "산학협력"
+    ],
+    "entities": [
+      "Google"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
+    "id": "474f7328326cc846",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+    "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+    "publishedAt": "Wed, 01 Jul 2026 14:35:16 +0000",
+    "rawText": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it&#8230;",
+    "summaryKo": "MIT 테크리뷰가 LLM들이 개방형 질문에 거의 똑같은 답('임의의 숫자'를 물으면 대부분 7)을 내놓는 '집단사고' 문제를 다뤘다. 호주 스타트업 Springboards는 알리바바 Qwen3 기반 모델 'Flint'를 훈련해, 온도(temperature)를 무작정 높이는 대신 다양성이 가능한 특정 출력 지점을 골라 예측 불가능한 대안을 주입하는 방식으로 이 문제를 해결하려 한다.",
+    "tags": [
+      "LLM다양성",
+      "창의성"
+    ],
+    "entities": [
+      "Springboards",
+      "Flint",
+      "Qwen"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
+    "id": "d5905aa4e0792ac5",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA and Partners Build in America, for America",
+    "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+    "publishedAt": "Wed, 01 Jul 2026 13:00:47 +0000",
+    "rawText": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discovery, stronger industrial productivity and global technology leadership.",
+    "summaryKo": "NVIDIA가 파트너사들과 함께 미국 내 제조·공급망·에너지 그리드·숙련 인력에 투자해 AI 인프라를 자국 내에서 구축하겠다는 계획을 밝혔다. 의료·과학 연구·산업 생산성·기술 리더십 강화를 목표로 내세운다.",
+    "tags": [
+      "AI인프라",
+      "미국제조"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
     "id": "a013ff6a07f5e1b1",
     "sourceType": "news",
     "source": "Threads",
@@ -3199,6 +3336,63 @@
     "fetchedAt": "2026-07-01T00:10:25.703Z"
   },
   {
+    "id": "fdd9745edc3aad4e",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "Redeploying Fable 5",
+    "url": "https://www.anthropic.com/news/redeploying-fable-5",
+    "publishedAt": "Mon, 29 Jun 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">On Friday, June 12, the US government applied export controls to our newest models, Claude Fable 5 and Claude Mythos 5. This required us to restrict access to foreign nationals, whether inside or outside the United States. Because the order took effect immediately and we had no reliable way to verify nationality in real-time, we suspended access to both models for all users.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><strong>As of today, June 30, the export controls on Fable 5 and Mythos 5 <a href=\"https://x.com/howardlutnick/status/2072100729603452965\" target=\"_blank\" rel=\"noopener noreferrer\">have been lifted</a>.</strong></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fable 5 will be available starting tomorrow, Wednesday, July 1, to users globally on the Claude Platform, Claude.ai, Claude Code, and Claude Cowork. For Pro, Max, Team, and select Enterprise plans,<sup class=\"caption Body-module-scss-module__z40yvW__sup\">1</sup> Fable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via <a href=\"https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans\" target=\"_blank\" rel=\"noopener noreferrer\">usage credits</a>. We will re-enable access on AWS, Google Cloud, and Microsoft Foundry as quickly as possible.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We have also restored access to Mythos 5 for a set of US organizations, following the US government’s approval on <a href=\"https://x.com/AnthropicAI/status/2070665903440871779\" target=\"_blank\" rel=\"noopener noreferrer\">June 26</a>. We continue to coordinate with the government to <a href=\"https://www.anthropic.com/news/expanding-project-glasswing\" target=\"_blank\" rel=\"noopener noreferrer\">expand</a> access to the broader set of domestic and international partners in the Glasswing program.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In the remainder of this post, we provide further details and updates in four areas:</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><em>A timeline of events, including updates we made to our safeguards</em>. We discuss the events that led to the export control directive and how we addressed it with new safeguards.</li><li><em>Our general approach to safeguards</em>. We provide more context on how we use safety classifiers to detect potentially dangerous cybersecurity uses of our models.</li><li><em>A shared industry framework</em>. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).<sup class=\"caption Body-module-scss-module__z40yvW__sup\">2</sup> A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly-capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below.</li><li><em>Deeper government collaboration</em>. We’re also strengthening our level of collaboration with the US government on new pre-release testing, information sharing, and research collaboration. We describe this deeper collaboration in the final section.</li></ol><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"timeline-and-safeguard-updates\">Timeline and safeguard updates</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We released <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\" target=\"_blank\" rel=\"noopener noreferrer\">Fable 5 and Mythos 5</a> on Tuesday, June 9. They both share the same underlying model, but Fable 5 was released with strong safeguards to make it safer for general use. Mythos 5, which has fewer safeguards, was only released to a small number of trusted Project Glasswing partners for use in defensive cybersecurity.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The export control directive on June 12 came after the government became aware of a report in which Amazon researchers had found a method of bypassing Fable 5’s safeguards: prompting it so that it identified a number of software vulnerabilities. In one case, the model produced code demonstrating how the relevant vulnerability could be exploited. Over the past two weeks, we have worked closely with the government and other partners, including Amazon, to review the report and evidence.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Our testing confirmed that many less capable models—including Claude Opus 4.8, GPT-5.5, and Kimi K2.7—could identify the same vulnerabilities as Fable 5 did in the report. When it came to the demonstration of how to exploit the single vulnerability, every model we tested could produce the same demonstration as Fable 5 (including Claude Haiku 4.5, Sonnet 4.6, Opus 4.6, Opus 4.7, Opus 4.8, GPT-5.4, GPT-5.5, and Kimi K2.7).</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Importantly, the reported technique did not expose any unique Mythos-level cyber capabilities. The behavior reflected a borderline case for Fable 5’s safeguards—as we will explain below, there are some tasks that are unlikely to be dangerous but are nonetheless blocked by the safeguards out of an abundance of caution. The reported technique allowed access to one such behavior, but it only involved routine defensive cybersecurity work.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Even so, we moved quickly to address the reported bypass. Working closely with the government, we trained an improved safety classifier that targets and blocks the behavior described in the report. Users will be notified if a request to Fable 5 is blocked, and the request will instead be sent to Opus 4.8.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The new classifier means that the specific technique described in the Amazon report is blocked in over 99% of cases. In a very small fraction of cases the model may provide information that isn’t detailed enough to help a cyberattacker. As we describe below, the model’s safeguards are not expected to block <em>all</em> low-risk routine cyberdefense capabilities—just those that are potentially harmful. Researchers from the US Department of Commerce’s <a href=\"https://www.nist.gov/caisi\" target=\"_blank\" rel=\"noopener noreferrer\">Center for AI Standards and Innovation</a> (CAISI) have tested both our prior and new safeguards and agree that they are extraordinarily strong.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The new classifier also comes at the cost of flagging benign requests more often during routine coding and debugging tasks. As with all our safeguards, we’ll continue to refine this to better distinguish genuine misuse from legitimate requests and reduce false positives.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"our-approach-to-cybersecurity-safeguards\"><br>Our approach to cybersecurity safeguards</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Claude Mythos 5 can be used to find and exploit software vulnerabilities more effectively than any other model—and all but the most skilled human security experts. These prodigious cybersecurity capabilities make it uniquely attractive to malicious actors who wish to misuse it in cyberattacks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Claude Fable 5, however, provides no such unique offensive capabilities.<em> </em>This is because we launched it with the strongest safeguards we’ve ever applied to a model. In the month prior to launch, we transferred staff from various teams within Anthropic to double the number of researchers and engineers working on this problem.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fable 5 launched with a variety of safety mechanisms, each of which alone does not provide perfect defense but when combined make the model very difficult to misuse (an approach known as “defense in depth”). Some defenses involve training the model to decline to assist with dangerous requests; others involve retroactively analyzing patterns of misuse.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">One particularly important safety mechanism involves <em>classifiers</em>—smaller automated AI systems that, during an interaction, detect when the model is asked to perform a potentially harmful cybersecurity task (or produces potentially harmful outputs). When this occurs, the classifiers block the model from responding to requests. The ultimate goal of these classifiers is to prevent the model from engaging in uniquely dangerous behaviors.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Like all safety mechanisms, classifiers can make mistakes. They sometimes fail to notice potentially dangerous content, and in some cases they can be deliberately “jailbroken”: users can prompt the model in unusual ways to trick the classifiers and get the model to produce harmful outputs that the system should have blocked.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We therefore deliberately set the safety classifiers to trigger on a set of requests that we know are likely benign. This “safety margin” approach means that a request has to look very clearly safe to avoid triggering the classifier (see row A in the diagram below). Users experience the safety margin as a model refusing to respond to some reasonable, non-harmful requests.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">For Fable 5, we made this safety margin much larger than in any prior launch (row B), meaning that many more benign requests would be blocked. We understood that these kinds of false positives would be frustrating for users, but made this tradeoff in the interest of making the model’s other capabilities widely available.</p><div class=\"Body-module-scss-module__z40yvW__media-column\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"1732\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/0cf1fc27ba70725d56c623b27dc1f05228a303c2-3840x1732.png\" referrerpolicy=\"no-referrer\"><figcaption class=\"caption\"><strong>An illustration of our cybersecurity safety classifiers.</strong> <br>When a request is made to the model, the classifiers detect whether it is benign (and allowed), or potentially harmful (and blocked). The classifiers block ambiguous requests (those that are clearly to do with cybersecurity but could potentially be for defensive purposes, like finding security vulnerabilities) and harmful requests (those that are clearly dangerous, such as a request to build a chain of software exploits). As shown in row A, we also include a “safety margin”, where the classifier will block requests that are probably benign but have some small chance of being harmful. This increases our confidence that all harmful requests will be blocked. For Fable 5 (row B) we made the safety margin even larger, meaning that more benign requests would be blocked—but fewer genuinely harmful requests would be missed. “Vulns” = vulnerabilities.</figcaption></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The safety margin also helps mitigate jailbreaks. Many jailbreaks are narrow: they unblock a very specific model behavior but nothing more. In some cases, a hypothetical user can jailbreak the model in a minor way and intrude into the safety margin (or sometimes into ambiguously harmful behavior), but not to the core harmful behaviors that we aim to block (row C below). Our view is that jailbreaks of Fable 5 reported so far fit into this minor category.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">More serious jailbreaks unblock more harmful behaviors. Narrow harmful jailbreaks (row D) can elicit some specific harmful behaviors. These jailbreaks are typically of low to moderate severity, because the narrowness limits the attacker. The most concerning category is a <em>universal</em> jailbreak (row E), which unblocks a wide range of harmful behaviors.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br><br></p><div class=\"Body-module-scss-module__z40yvW__media-column\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"2181\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/5dfd2fdf07c6e6f7d490fe3b85b3bf1a330c4951-3840x2181.png\" referrerpolicy=\"no-referrer\"><figcaption class=\"caption\"><strong>How jailbreaks interact with our safety classifiers.</strong> <br>In the case of a minor jailbreak (row C), the classifiers do not block the request, but the request is still within our safety margin (and is thus very unlikely to be harmful). In a narrow harmful jailbreak (row D), the prompt breaches the classifiers and unblocks a specific harmful behavior from the model. In a universal jailbreak (row E), a prompt unblocks an entire class of harmful behaviors.</figcaption></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As we noted <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\" target=\"_blank\" rel=\"noopener noreferrer\">when we launched Fable 5</a>, it is probably impossible to make any AI model fully robust (that is, impervious) to jailbreaks.<sup class=\"caption Body-module-scss-module__z40yvW__sup\">3</sup> We expect that some jailbreaks will be found for our models, and that they will vary in severity: there will be many minor jailbreaks, some narrow harmful ones, and although no universal jailbreaks for Fable 5 have been discovered at the time of writing, expert safety researchers continue to red-team it. We seek to ensure that we and our safety partners will be the first to find major jailbreaks and fix them before malicious actors can use them for harm.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The cautious approach outlined above means that the vast majority of jailbreaks will not successfully unblock dangerous behaviors. Our classifiers make successful jailbreaks very costly and high-effort to produce, and even <em>if</em> a jailbreak is successful, our extra layers of defense provide additional mitigation. We’ll continue to update our classifiers as we learn more about novel jailbreak techniques.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"a-consensus-industry-framework-for-jailbreaks\">A consensus industry framework for jailbreaks</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">There’s currently no consensus in the AI industry on how to describe, in objective terms, the severity of an AI jailbreak. This adds a great deal of uncertainty whenever a new jailbreak technique is discovered: developers have no agreed-upon standard for which findings to focus on most urgently, and governments have no agreed-upon standard for when to act.<sup class=\"caption Body-module-scss-module__z40yvW__sup\">4</sup></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This problem will become more acute in the coming months, as more models with powerful cybersecurity (and other) capabilities are trained, assessed, and released. A common standard for assessing AI jailbreaks would help us and other companies launch new models safely, as well as allow our users to make the most of their advanced capabilities.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We are therefore partnering with Amazon, Microsoft, Google, and other Glasswing partners to draft a consensus framework for assessing the severity of AI jailbreaks and how AI developers should respond to them. We invite other industry partners and model providers to join us in this effort.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Our current proposal is to score a given jailbreak on the four different criteria below. The first two describe what the jailbreak provides to the attacker; the latter two describe how quickly the jailbreak can become a real-world problem:</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><em>Capability gain</em>. How far beyond existing tools does the jailbreak take the user? If existing widely-available tools (including other, weaker AI models) can reach the same capability as the jailbroken model, the score here will be low; if the jailbreak unblocks model capabilities that can significantly accelerate even domain experts, the score will be high.</li><li><em>Breadth of capability gain</em>. For how many distinct offensive tasks does the same jailbreak technique work? Cases where the jailbreak only allows the model to pursue narrow targets will score low; cases where the same jailbreak technique works for multiple different targets or techniques will score high.</li><li><em>Ease of weaponization</em>. How much human effort does it take to turn the jailbreak into an attack? Where the jailbreak involves a great deal of skilled prompting and many retries, the score will be low; where the jailbreak works on a single prompt or on the first or second try, the score will be high.</li><li><em>Discoverability</em>. How easy is it for someone to obtain the technique? If it requires specialist knowledge it will score low; if it is already widely known and available online it will score high.</li></ol><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We propose to use this severity framework to calibrate our response to newly-discovered jailbreaks. For the most severe class of jailbreaks (e.g., a jailbreak that, among other characteristics, is being used to actively cause a devastating impact on critical power grids or banking systems), we will immediately begin deploying preliminary mitigations upon confirmation of severity. We are also creating a team to provide 24/7 monitoring of key jailbreak submission channels.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Any method of scoring jailbreaks will be imperfect. Still, there is value in being able to communicate the approximate severity of a given finding through a common framework. This is a work in progress; as we receive feedback from more partners, we expect the framework to evolve over time.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We expect to share more details on the proposed framework soon. In the meantime, we’re also launching a new <a href=\"https://hackerone.com/anthropic-cyber-jailbreak/\" target=\"_blank\" rel=\"noopener noreferrer\">HackerOne program</a> where security researchers can submit potential cyber jailbreaks they’ve discovered in Fable 5 (once available) for our review.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"partnering-with-the-us-government-on-frontier-ai-security\">Partnering with the US government on frontier AI security</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Over the past ten weeks, Anthropic has worked closely with the US government as it developed the approach reflected in the June 2 Executive Order on <a href=\"https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Promoting Advanced Artificial Intelligence Innovation and Security</em></a>. Our engagement spanned the Office of the National Cyber Director, the Office of Science and Technology Policy, the Department of the Treasury, the Department of Commerce (including CAISI), and relevant national security agencies.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We are committed to continuing that work, building on nearly two years of <a href=\"https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi\" target=\"_blank\" rel=\"noopener noreferrer\">pre-existing collaborations</a> with US government partners on pre-deployment testing and evaluation. The commitments below reflect both that pre-existing work and our new proposals to scale up our government collaboration as the above framework is finalized:</p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><em>Pre‑release government access and evaluation.</em> For models that materially advance the capability frontier in areas relevant to national security, we will provide designated government partners with expanded early access to both the models and the safeguards that accompany them. Those partners can then run independent capability evaluations and test our guardrails before broad release. We will dedicate Anthropic technical staff to work alongside government evaluators during these testing periods.</li><li><em>Rapid information sharing on safeguards. </em>When significant jailbreaks or misuse patterns are identified, we will quickly investigate, triage, and notify appropriate government counterparts. We will share the new safeguards we build in response so they can be independently tested. We will also provide government partners with our threat intelligence reporting in advance of publication and participate in the interagency cybersecurity vulnerability clearinghouse established under Sec. 2(d) of the June 2 Executive Order.</li><li><em>Dedicated resources for joint research.</em> We are substantially scaling up joint work with government partners on AI security. We will stand up dedicated Anthropic teams to work on shared government priorities, provide a significant compute allocation to support government testing and research, and make our safety and red‑teaming expertise available to help advance the state of the art in AI evaluation.</li><li><em>A common industry bar. </em>We will work with the government and with industry peers toward a shared, voluntary security and evaluation standard for frontier model providers. We’ll contribute evaluations, tooling, and best practices that the government can apply across the field.</li></ol><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Our hope is that this collaboration, along with our proposed consensus industry framework, will serve as the basis for systematic rules for the whole industry—and even offer the beginnings of a template for effective global coordination on the risks and benefits of AI.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">These rules should be codified in strong regulation and applied equally across frontier model developers. Government involvement in AI releases requires a durable, transparent process that gives cyber defenders and others the certainty they need about access to powerful models.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We look forward to deepening our government collaboration in the ways we’ve described above. We’re also grateful to our users for bearing with us through this disruption, and to the researchers and industry partners who worked alongside us to make Fable 5 and Mythos 5 available again.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper\"><div class=\"PostDetail-module-scss-module__UQuRMa__footnotes\"><h4 class=\"headline-5\">Footnotes</h4><ol><li id=\"footnote-1\">For standard Enterprise seats, there is no included Fable 5 allowance. All Fable 5 usage is billed through usage credits. If credits are not enabled, Fable 5 will not work for your users. For premium Enterprise seats, through July 7, Fable 5 is included in your subscription. It draws from each member's seat usage at no additional cost. After July 7, your team can continue using Fable 5 by enabling usage credits. If credits are not enabled, Fable 5 will no longer work for your users.</li><li id=\"footnote-2\">Note that sometimes the term “bypass” is itself used instead of “jailbreak.” For current purposes, we consider these to be synonyms, but for the remainder of this article we use “jailbreak” because (a) this is a more commonly-used term and (b) it is consistent with the terminology we have used in previous work.</li><li id=\"footnote-3\">Analogously, no piece of software is immune to vulnerabilities (though in general, software vulnerabilities are more straightforwardly discovered and patched than LLM jailbreaks).</li><li id=\"footnote-4\">In other areas of security research, there <em>are</em> agreed-upon standards: for example, the <a href=\"https://www.first.org/cvss/\">Common Vulnerability Scoring System</a> (CVSS) is a common way of assessing the severity of a given software vulnerability.<br></li></ol></div></div></article>",
+    "summaryKo": "앤트로픽이 미 수출통제로 3주간 접근이 중단됐던 최상위 모델 Claude Fable 5·Mythos 5를 재배포한다고 밝혔다. 아마존 연구진이 발견한 안전장치 우회(jailbreak) 사례를 계기로 새 안전 분류기를 훈련했고, Amazon·Microsoft·Google 등 Glasswing 파트너들과 함께 업계 공통의 탈옥 심각도 평가 프레임워크를 마련하겠다고 발표했다.",
+    "tags": [
+      "AI안전",
+      "수출통제",
+      "젤브레이크"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude Fable 5",
+      "Claude Mythos 5",
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "cats": [
+      "기업·정책",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "6월 12일 미 정부가 Fable 5·Mythos 5에 수출통제를 적용해 국적 실시간 검증이 불가능했던 앤트로픽은 전 사용자 접근을 중단했다.",
+        "6월 30일 상무부가 통제를 해제하며 Fable 5는 7월 1일부터 Claude 플랫폼·Claude.ai·Claude Code·Claude Cowork 전역에 순차 복귀한다.",
+        "발단은 아마존 연구진이 발견한 우회 기법으로, Fable 5가 소프트웨어 취약점을 식별하고 한 사례에서는 악용 시연 코드까지 만들어낸 것이었다.",
+        "테스트 결과 Opus 4.8, GPT-5.5, Kimi K2.7 등 다른 모델들도 동일한 취약점을 식별할 수 있었고, 해당 기법은 Mythos급의 고유한 사이버 역량을 노출하지는 않았다.",
+        "앤트로픽은 해당 우회를 99% 이상 차단하는 새 안전 분류기를 훈련했으며, 이는 일부 정상적인 코딩·디버깅 요청까지 더 자주 차단하는 트레이드오프를 수반한다.",
+        "Amazon, Microsoft, Google 등 Glasswing 파트너와 함께 탈옥의 심각도를 '능력 향상 정도·적용 범위·무기화 난이도·발견 용이성' 4가지 기준으로 평가하는 업계 공통 프레임워크를 제안했다."
+      ],
+      "sections": [
+        {
+          "heading": "타임라인: 출시부터 재배포까지",
+          "body": "6월 9일 Fable 5·Mythos 5 출시(Fable 5는 강력한 안전장치 적용, Mythos 5는 소수 신뢰 파트너 대상 방어적 사이버보안 용도로 제한 배포) → 6월 12일 아마존 발견 우회 사례로 수출통제 발동, 전 사용자 접근 중단 → 6월 26일 미 정부가 미국 조직 대상 Mythos 5 접근 승인 → 6월 30일 통제 해제, 7월 1일 Fable 5 전 세계 재배포. Pro·Max·Team·일부 Enterprise 요금제는 7월 7일까지 주간 사용한도의 최대 50%까지 Fable 5를 무료 포함하고 이후 사용 크레딧으로 전환된다."
+        },
+        {
+          "heading": "안전 분류기와 '안전 마진' 접근",
+          "body": "앤트로픽은 잠재적으로 위험한 사이버보안 요청·출력을 탐지해 차단하는 소형 분류기를 다중으로 배치하는 '심층 방어' 전략을 쓴다. Fable 5는 역대 가장 큰 안전 마진을 적용해, 명백히 안전해 보이는 요청만 통과시키는 대신 무해한 요청까지 더 자주 차단되는 대가를 감수했다. 이번 사건은 이 안전 마진 안에 걸친 경미한 탈옥으로 분류됐다."
+        },
+        {
+          "heading": "업계 공통 탈옥 심각도 프레임워크",
+          "body": "탈옥의 심각도를 능력 향상 정도, 적용 가능한 공격 범위, 무기화에 드는 노력, 발견·확산 용이성 등 4가지 기준으로 점수화하는 공통 표준을 Amazon·Microsoft·Google 등 Glasswing 파트너와 함께 마련하겠다고 밝혔다. 가장 심각한 등급의 탈옥에는 심각도 확인 즉시 예비 완화 조치를 배포하고, 24시간 탈옥 제보 모니터링 팀도 신설한다."
+        }
+      ],
+      "quotes": [
+        "새 분류기는 아마존 리포트에 기술된 특정 우회 기법을 99% 이상의 사례에서 차단한다",
+        "테스트한 거의 모든 모델(Haiku 4.5, Sonnet 4.6, Opus 4.6~4.8, GPT-5.4/5.5, Kimi K2.7 포함)이 같은 취약점 시연을 만들어낼 수 있었다"
+      ]
+    },
+    "fetchedAt": "2026-07-02T00:17:12.179Z"
+  },
+  {
     "id": "13020592cd3212bb",
     "sourceType": "news",
     "source": "Google AI",
@@ -5501,157 +5695,5 @@
     ],
     "summaryStatus": "fallback",
     "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "66918379d71c7344",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Observation is the layer under taste. We built it for AI runtime",
-    "url": "https://twitter.com/damnventures/status/2067394719756251468",
-    "publishedAt": "Fri, 19 Jun 2026 01:02:32 +0000",
-    "rawText": "Article URL: https://twitter.com/damnventures/status/2067394719756251468 Comments URL: https://news.ycombinator.com/item?id=48593703 Points: 14 # Comments: 0",
-    "summaryKo": "AI 런타임을 위한 '관찰(Observation)' 레이어 구축에 관한 트위터 게시물로, 취향(taste)의 기저에 있는 관찰 계층을 AI 런타임에 적용했다는 내용이다. 구체적인 기술 세부사항은 원문 링크에서 확인 가능하다.",
-    "tags": [
-      "AI-runtime",
-      "observability"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "2bfbd11a20434f52",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Governance Cannot Be a Tool Call",
-    "url": "https://tenureai.dev/writing/ai-governance-cannot-be-a-tool-call/",
-    "publishedAt": "Fri, 19 Jun 2026 00:53:50 +0000",
-    "rawText": "Article URL: https://tenureai.dev/writing/ai-governance-cannot-be-a-tool-call/ Comments URL: https://news.ycombinator.com/item?id=48593651 Points: 5 # Comments: 0",
-    "summaryKo": "AI 거버넌스는 단순히 툴 호출로 해결될 수 없다는 주제의 글로, AI 시스템의 통제와 책임에 대한 심층적 논의를 담고 있다. 구체적인 내용은 원문에서 확인 가능하다.",
-    "tags": [
-      "AI-governance",
-      "AI-policy"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "6b8c6f70e98e1a0b",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Holdouts in Tech Face 3 Times Higher Layoff Odds, Gallup Finds",
-    "url": "https://finance.yahoo.com/technology/ai/articles/ai-holdouts-tech-face-3-095310222.html",
-    "publishedAt": "Fri, 19 Jun 2026 00:34:33 +0000",
-    "rawText": "Article URL: https://finance.yahoo.com/technology/ai/articles/ai-holdouts-tech-face-3-095310222.html Comments URL: https://news.ycombinator.com/item?id=48593519 Points: 3 # Comments: 1",
-    "summaryKo": "갤럽 조사에 따르면, 기술 업계에서 AI 도입을 거부하는 직원은 그렇지 않은 직원보다 해고될 확률이 3배 높은 것으로 나타났다. 이 결과는 AI 활용이 기술 업계 고용 유지의 핵심 요소로 부상하고 있음을 시사한다.",
-    "tags": [
-      "AI-adoption",
-      "workforce",
-      "layoffs"
-    ],
-    "entities": [
-      "Gallup"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "dd73139d2e3dcd4c",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "New OpenAI Academy courses for the next era of work",
-    "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "publishedAt": "Fri, 12 Jun 2026 10:00:00 GMT",
-    "rawText": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-    "summaryKo": "OpenAI Academy가 실무에서 AI를 활용할 수 있도록 돕는 세 가지 신규 코스를 출시했다. 이 코스는 AI 실무 역량 구축, 반복 가능한 워크플로우 생성, 에이전트 적용 방법 등을 다룬다.",
-    "tags": [
-      "education",
-      "agents",
-      "workflow"
-    ],
-    "entities": [
-      "OpenAI",
-      "OpenAI Academy"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "d8951679a130c7d5",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "The latest AI news we announced in May 2026",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-    "publishedAt": "Fri, 05 Jun 2026 14:45:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google's latest AI updates from May 2026",
-    "summaryKo": "Google이 2026년 5월에 발표한 주요 AI 업데이트들을 정리한 월간 요약 콘텐츠다. 구체적인 내용은 원문에서 확인할 수 있다.",
-    "tags": [
-      "Google",
-      "AI-updates"
-    ],
-    "entities": [
-      "Google"
-    ],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "c1484d2b46f4e00c",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "The Meta hack shows there's more to AI security than Mythos",
-    "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-    "publishedAt": "Fri, 05 Jun 2026 09:00:00 +0000",
-    "rawText": "On June 5, 404 Media reported that attackers had been using Meta's AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran&#8230;",
-    "summaryKo": "공격자들이 Meta의 AI 고객 지원 에이전트를 악용해 인스타그램 계정을 탈취하는 사건이 발생했다. 에이전트에게 계정을 공격자 이메일로 연결해달라고 요청하자 에이전트가 이에 응했으며, 오바마 백악관의 휴면 계정도 침해되는 사태가 발생했다.",
-    "tags": [
-      "AI-security",
-      "agents",
-      "hacking"
-    ],
-    "entities": [
-      "Meta",
-      "Instagram",
-      "404 Media"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-19T02:12:32.491Z"
-  },
-  {
-    "id": "6a9c6763741b18db",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "YAGNI가 말한 적 없는 비용",
-    "url": "https://news.hada.io/topic?id=30984",
-    "publishedAt": "2026-07-01T08:43:18+09:00",
-    "rawText": "YAGNI는 “아직 필요 없는 코드를 쓰지 말라”는 단순 절약 규칙이 아니라, 필요가 확정되기 전에 추측으로 구조를 선점하는 일의 비용을 다루는 원칙임 문제의 중심은 설계 자체가 아니라 언제 설계할 것인가이며, 너무 이른 구조화는 너무 늦은 구조화만큼 위험할...",
-    "summaryKo": "YAGNI가 단순히 '아직 필요 없는 코드를 쓰지 말라'는 절약 규칙이 아니라, 필요가 확정되기 전에 추측으로 구조를 선점하는 일의 비용을 다루는 원칙이라는 관점을 소개한다. 핵심은 설계 자체가 아니라 '언제 설계할 것인가'이며, 너무 이른 구조화도 너무 늦은 구조화만큼 위험하다고 본다.",
-    "tags": [
-      "YAGNI",
-      "소프트웨어 설계",
-      "기술부채"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-01T00:10:25.703Z"
   }
 ]
