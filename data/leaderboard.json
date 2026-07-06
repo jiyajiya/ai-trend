@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-07-05",
-  "windowLabel": "2026년 7월 1~5일 기준",
-  "updatedAt": "2026-07-05T00:11:09Z",
+  "asOf": "2026-07-06",
+  "windowLabel": "2026년 7월 1~6일 기준",
+  "updatedAt": "2026-07-06T00:11:05Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -28,7 +28,7 @@
         { "rank": 1, "model": "Claude Mythos Preview", "score": "94.6%", "basis": "GPQA Diamond 94.6% 1위", "source": "llm-stats" },
         { "rank": 2, "model": "Gemini 3.1 Pro", "score": "94.3%", "basis": "GPQA Diamond 94.3%", "source": "llm-stats" },
         { "rank": 3, "model": "Claude Opus 4.7", "score": "94.2%", "basis": "GPQA Diamond 94.2%", "source": "llm-stats" },
-        { "rank": 4, "model": "GPT-5.5", "score": "93.6%", "basis": "GPQA Diamond 93.6% (Claude Opus 4.8 동점)", "source": "llm-stats" }
+        { "rank": 4, "model": "Claude Opus 4.8", "score": "93.6%", "basis": "GPQA Diamond 93.6% (GPT-5.5 동점)", "source": "llm-stats" }
       ]
     },
     {
@@ -40,7 +40,7 @@
       "note": "실제 GitHub 이슈(버그 수정·기능 추가) 해결률 — 개발·자동화 실력의 핵심.",
       "ranks": [
         { "rank": 1, "model": "Claude Mythos 5", "score": "95.5%", "basis": "SWE-bench Verified 95.5% 1위", "source": "vellum" },
-        { "rank": 2, "model": "Claude Fable 5", "score": "95%", "basis": "SWE-bench Verified 95%", "source": "vellum" },
+        { "rank": 2, "model": "Claude Fable 5", "score": "95%", "basis": "SWE-bench Verified 95%, Terminal-Bench 2.1 84.3%", "source": "vellum" },
         { "rank": 3, "model": "Claude Opus 4.8", "score": "88.6%", "basis": "SWE-bench Verified 88.6%, LMSYS Coding 리더보드 상위권", "source": "vellum" }
       ]
     },
@@ -79,9 +79,9 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1339", "basis": "Elo 1339, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Reve 2.0", "score": "Elo 1280", "basis": "Elo 1280", "source": "artificialanalysis" },
-        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1271", "basis": "Elo 1271", "source": "artificialanalysis" },
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1340", "basis": "Elo 1340, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "Reve 2.0", "score": "Elo 1281", "basis": "Elo 1281", "source": "artificialanalysis" },
+        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1272", "basis": "Elo 1272", "source": "artificialanalysis" },
         { "rank": 4, "model": "HiDream-O1-Image-1.5", "score": "Elo 1265", "basis": "Elo 1265", "source": "artificialanalysis" },
         { "rank": 5, "model": "GPT Image 1.5 (high)", "score": "Elo 1260", "basis": "Elo 1260", "source": "artificialanalysis" },
         { "rank": 6, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1227", "basis": "오픈웨이트 1위, Elo 1227 (agentic)", "source": "artificialanalysis" },
@@ -137,9 +137,9 @@
   ],
   "sources": [
     { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 7월 1일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 5일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 5일" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 5일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 6일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 6일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 6일" },
     { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 7월 1일" }
   ]
 }
