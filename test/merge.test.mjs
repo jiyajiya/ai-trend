@@ -61,6 +61,21 @@ test('feed는 publishedAt 내림차순으로 정렬된다', () => {
   assert.equal(r.feed[1].id, 'a');
 });
 
+test('혼합 날짜형식(RFC822 news + ISO youtube)에서 최신순 정렬 — youtube가 cap에 잘리지 않는다', () => {
+  // 회귀: 문자열 비교 시 letter-prefixed RFC822가 digit-prefixed ISO를 항상 이겨
+  // youtube가 slice(0,200)에서 전부 잘려나가던 버그. 파싱된 타임스탬프로 비교해야 한다.
+  const r = mergeFeed({
+    summarized: [
+      base({ id: 'old-news', sourceType: 'news', url: 'https://x/n', publishedAt: 'Fri, 26 Jun 2026 21:50:51 +0000' }),
+      base({ id: 'new-yt', sourceType: 'youtube', url: 'https://youtu.be/abc', publishedAt: '2026-07-07T10:15:14+00:00' }),
+    ],
+    existingFeed: [], existingTrending: [],
+    state: { seen: [], lastRunAt: null }, now: 'now',
+  });
+  assert.equal(r.feed[0].id, 'new-yt', 'ISO 7/7 youtube가 RFC822 6/26 news보다 최신 → 맨 위');
+  assert.equal(r.feed[1].id, 'old-news');
+});
+
 test('trending은 score 내림차순으로 정렬된다', () => {
   const r = mergeFeed({
     summarized: [

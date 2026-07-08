@@ -29,7 +29,7 @@
   "github": {"queries":["topic:llm","topic:generative-ai","topic:ai-agents"],"createdWithinDays":60,"perQuery":5},
   "huggingface": {"limit":10},
   "youtube": {
-    "perChannel": 5,
+    "perChannel": 3,
     "maxAgeDays": 30,
     "channels": [
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCBlTB7GyNQLqZMDRFEZ_cSg",
@@ -39,7 +39,8 @@
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCRJ0Q5MheESq1JOrVQYECEQ",
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCYYxayhOPmXVCXjnMgUt3iQ",
       "https://www.youtube.com/feeds/videos.xml?channel_id=UCDLlMjELbrJdETmSiAB68AA",
-      "https://www.youtube.com/feeds/videos.xml?channel_id=UCFmYIak2sRBXt2M3ep6U3QA"
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCFmYIak2sRBXt2M3ep6U3QA",
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UC2ODfJSf8L4PeCw4ebTECJQ"
     ],
     "seedVideos": []
   }

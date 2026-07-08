@@ -4,9 +4,16 @@ import { readJson, writeJson } from '../lib/jsonfile.mjs';
 const FEED_MAX = 200;
 const TRENDING_MAX_AGE_DAYS = 7;
 
+// publishedAt는 소스마다 형식이 다르다(뉴스=RFC822 "Fri, ...", youtube=ISO "2026-...").
+// 문자열 비교하면 letter-prefixed(뉴스)가 digit-prefixed(ISO)를 항상 이겨 youtube가
+// slice(0,200)에서 잘려나간다. 반드시 파싱된 타임스탬프로 비교한다. 파싱 불가는 맨 뒤로.
 const byPublishedDesc = (a, b) => {
-  const x = String(a.publishedAt), y = String(b.publishedAt);
-  return x < y ? 1 : x > y ? -1 : 0; // 내림차순(desc)
+  const x = Date.parse(a.publishedAt), y = Date.parse(b.publishedAt);
+  const xn = Number.isNaN(x), yn = Number.isNaN(y);
+  if (xn && yn) return 0;
+  if (xn) return 1;   // a 뒤로
+  if (yn) return -1;  // b 뒤로
+  return y - x;       // 내림차순(desc)
 };
 
 const TRENDING_TYPES = new Set(['repo', 'model']);
