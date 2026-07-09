@@ -7,23 +7,22 @@
     "url": "https://github.com/DietrichGebert/ponytail",
     "publishedAt": "2026-06-12T00:52:37Z",
     "rawText": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "score": 76902,
+    "score": 78007,
     "lang": "JavaScript",
     "rank": 1,
-    "summaryKo": "\"방 안에서 가장 게으른 시니어 개발자처럼 생각하게 만든다\"는 콘셉트로, AI 에이전트가 불필요한 코드 작성을 억제하도록 하는 규칙/프롬프트 도구. 가장 좋은 코드는 아예 쓰지 않은 코드라는 철학을 담았다.",
+    "summaryKo": "'ponytail'은 AI 에이전트가 \"가장 게으른 시니어 개발자\"처럼 사고하도록 만드는 도구다. 가장 좋은 코드는 아예 작성하지 않는 코드라는 철학으로 불필요한 구현·추상화를 줄이도록 유도한다.",
     "tags": [
-      "AI에이전트",
-      "코딩규칙",
+      "AI 에이전트",
+      "코딩",
       "프롬프트"
     ],
-    "entities": [
-      "ponytail"
-    ],
+    "entities": [],
     "cats": [
-      "코딩·개발"
+      "코딩·개발",
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "d9f49e336e714662",
@@ -33,23 +32,24 @@
     "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "publishedAt": "2026-06-19T14:32:14.000Z",
     "rawText": "image-text-to-text | gguf, llama.cpp, quantized, qwen3.5, reasoning, uncensored, long-context, 1M-context",
-    "score": 588,
+    "score": 587,
     "rank": 1,
-    "summaryKo": "Claude Mythos 5 계열을 표방한 Qwythos-9B의 GGUF 양자화 배포판. 추론·1M 롱컨텍스트·무검열을 태그로 내세운 image-text-to-text 모델이다.",
+    "summaryKo": "'Qwythos-9B-Claude-Mythos-5-1M-GGUF'는 Qwen3.5 계열 기반의 9B 이미지-텍스트 모델을 GGUF로 양자화해 공개한 버전이다. 추론(reasoning)·무검열·최대 100만(1M) 토큰 롱컨텍스트를 지원한다.",
     "tags": [
-      "LLM",
-      "양자화",
-      "롱컨텍스트"
+      "Qwen",
+      "GGUF",
+      "롱컨텍스트",
+      "멀티모달"
     ],
     "entities": [
-      "Qwythos",
-      "llama.cpp"
+      "Qwen"
     ],
     "cats": [
-      "LLM·모델"
+      "LLM·모델",
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -59,25 +59,25 @@
     "url": "https://github.com/XiaomiMiMo/MiMo-Code",
     "publishedAt": "2026-06-10T11:52:41Z",
     "rawText": "MiMo Code: Where Models and Agents Co-Evolve",
-    "score": 11588,
+    "score": 11651,
     "lang": "TypeScript",
     "rank": 2,
-    "summaryKo": "샤오미 MiMo 팀의 코딩 프로젝트로, 모델과 에이전트가 함께 진화(co-evolve)하는 것을 지향한다. AI 코딩 에이전트 관련 오픈소스로 TypeScript로 작성됐다.",
+    "summaryKo": "샤오미의 'MiMo-Code'는 모델과 에이전트가 함께 진화(co-evolve)하는 것을 지향하는 코딩 프로젝트다.",
     "tags": [
-      "코딩에이전트",
       "MiMo",
-      "오픈소스"
+      "코딩모델",
+      "에이전트"
     ],
     "entities": [
       "Xiaomi",
-      "MiMo"
+      "MiMo-Code"
     ],
     "cats": [
       "코딩·개발",
-      "에이전트"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "459b6a0a801b4b76",
@@ -87,24 +87,23 @@
     "url": "https://huggingface.co/tencent/Hy3",
     "publishedAt": "2026-07-02T13:23:54.000Z",
     "rawText": "text-generation | transformers, safetensors, hy_v3, text-generation, hunyuan, hy3, moe, conversational",
-    "score": 472,
+    "score": 546,
     "rank": 2,
-    "summaryKo": "텐센트의 Hunyuan 계열 신모델 Hy3(Hunyuan v3). MoE 구조의 대화형 텍스트 생성 모델로 transformers·safetensors로 배포된다.",
+    "summaryKo": "텐센트가 Hunyuan 계열 텍스트 생성 모델 'Hy3(hy_v3)'를 공개했다. MoE 구조의 대화형 모델이다.",
     "tags": [
-      "LLM",
+      "Hunyuan",
       "MoE",
-      "Hunyuan"
+      "텍스트생성"
     ],
     "entities": [
       "Tencent",
-      "Hunyuan",
-      "Hy3"
+      "Hunyuan"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "100adeb9b2f158ec",
@@ -114,17 +113,16 @@
     "url": "https://github.com/nexu-io/html-anything",
     "publishedAt": "2026-05-11T09:40:38Z",
     "rawText": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-    "score": 7598,
+    "score": 7630,
     "lang": "HTML",
     "rank": 3,
-    "summaryKo": "로컬 AI 에이전트가 HTML을 작성하고 사용자는 배포만 하는 '에이전틱 HTML 에디터'. 75개 스킬 × 9개 표면(매거진·덱·포스터·SNS·프로토타입 등)을 지원하고 샌드박스 프리뷰와 위챗/X/PNG 원클릭 내보내기를 제공하며, API 키 없이 Claude Code·Cursor·Codex 등과 연동된다.",
+    "summaryKo": "'html-anything'은 로컬 AI 에이전트가 HTML을 작성해주는 에이전틱 HTML 에디터다. 매거진·덱·포스터·트윗·프로토타입 등 9개 표면과 75개 스킬을 제공하고 샌드박스 미리보기·원클릭 배포를 지원하며, Claude Code·Cursor·Codex 등 다양한 에이전트에서 API 키 없이 쓸 수 있다.",
     "tags": [
-      "에이전트",
       "HTML",
-      "코드생성"
+      "에이전트",
+      "코딩도구"
     ],
     "entities": [
-      "html-anything",
       "Claude Code",
       "Cursor",
       "Codex"
@@ -134,7 +132,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "9ec90332da9eec1d",
@@ -144,23 +142,23 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2",
     "publishedAt": "2026-06-16T07:39:20.000Z",
     "rawText": "text-generation | transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763",
-    "score": 435,
+    "score": 386,
     "rank": 3,
-    "summaryKo": "Z.ai(智谱)의 오픈웨이트 대화형 모델 GLM-5.2. MoE(glm_moe_dsa) 구조의 텍스트 생성 모델로 영어·중국어를 지원하며, 오픈 가중치로 프런티어급 에이전트 성능에 근접했다는 평가를 받는다.",
+    "summaryKo": "Z.ai(zai-org)가 차세대 대화형 모델 'GLM-5.2'를 공개했다. MoE 계열 구조로 영어·중국어를 지원한다.",
     "tags": [
       "GLM",
       "MoE",
-      "오픈웨이트"
+      "오픈모델"
     ],
     "entities": [
-      "GLM-5.2",
-      "Z.ai"
+      "Z.ai",
+      "GLM-5.2"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "c53347638b893177",
@@ -170,28 +168,26 @@
     "url": "https://github.com/omnigent-ai/omnigent",
     "publishedAt": "2026-06-11T12:18:13Z",
     "rawText": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-    "score": 6637,
+    "score": 6776,
     "lang": "Python",
     "rank": 4,
-    "summaryKo": "Omnigent은 Claude Code·Codex·Cursor·Pi 등 다양한 에이전트를 오케스트레이션하는 오픈소스 AI 에이전트 프레임워크이자 메타 하네스다. 재작성 없이 하네스를 교체하고 정책·샌드박싱을 강제하며 어떤 기기에서든 실시간 협업할 수 있게 한다.",
+    "summaryKo": "'Omnigent'는 Claude Code·Codex·Cursor·Pi 등 여러 에이전트를 오케스트레이션하는 오픈소스 AI 에이전트 프레임워크이자 메타 하니스다. 하니스를 다시 작성하지 않고 교체하고, 정책·샌드박싱을 강제하며, 어느 기기에서든 실시간 협업할 수 있게 한다.",
     "tags": [
       "에이전트",
       "프레임워크",
       "오케스트레이션"
     ],
     "entities": [
-      "Omnigent",
       "Claude Code",
       "Codex",
-      "Cursor",
-      "Pi"
+      "Cursor"
     ],
     "cats": [
       "에이전트",
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "b7884da985bf42b8",
@@ -201,23 +197,22 @@
     "url": "https://huggingface.co/baidu/Unlimited-OCR",
     "publishedAt": "2026-06-19T09:40:33.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language, ocr, custom_code",
-    "score": 307,
+    "score": 268,
     "rank": 4,
-    "summaryKo": "바이두의 비전-언어 OCR 모델 Unlimited-OCR. 이미지에서 텍스트를 추출하는 image-text-to-text 모델로 커스텀 코드와 함께 배포된다.",
+    "summaryKo": "바이두가 비전-언어 기반 OCR 모델 'Unlimited-OCR'을 공개했다. 이미지-텍스트 처리에 특화된 문서 인식 모델이다.",
     "tags": [
       "OCR",
       "비전언어",
       "멀티모달"
     ],
     "entities": [
-      "Baidu",
-      "Unlimited-OCR"
+      "Baidu"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "f465bd989015fa8e",
@@ -227,26 +222,22 @@
     "url": "https://github.com/cobusgreyling/loop-engineering",
     "publishedAt": "2026-06-09T06:28:20Z",
     "rawText": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
-    "score": 6410,
+    "score": 6608,
     "lang": "JavaScript",
     "rank": 5,
-    "summaryKo": "AI 코딩 에이전트를 위한 '루프 엔지니어링' 패턴·스타터·CLI 도구 모음. 에이전트를 프롬프트·오케스트레이션하는 시스템 설계를 다루며 loop-audit·loop-init·loop-cost 등의 도구를 포함한다(Addy Osmani·Boris Cherny에서 영감).",
+    "summaryKo": "'loop-engineering'은 AI 코딩 에이전트를 위한 '루프 엔지니어링' 패턴·스타터·CLI 도구 모음이다. 에이전트를 프롬프트·오케스트레이션하는 시스템 설계를 다루며 loop-audit·loop-init·loop-cost 등을 포함한다.",
     "tags": [
       "에이전트",
-      "루프엔지니어링",
-      "코딩도구"
+      "코딩",
+      "CLI"
     ],
-    "entities": [
-      "loop-engineering",
-      "Addy Osmani",
-      "Boris Cherny"
-    ],
+    "entities": [],
     "cats": [
-      "코딩·개발",
-      "에이전트"
+      "에이전트",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "c45bf202eddbb676",
@@ -279,24 +270,24 @@
     "url": "https://huggingface.co/InternScience/Agents-A1",
     "publishedAt": "2026-06-22T02:22:59.000Z",
     "rawText": "text-generation | transformers, safetensors, qwen3_5_moe, image-text-to-text, moe, vlm, vision, agentic",
-    "score": 284,
+    "score": 252,
     "rank": 5,
-    "summaryKo": "에이전트용으로 설계된 비전-언어 MoE 모델 Agents-A1. Qwen3.5 MoE 기반의 VLM으로 에이전틱 작업을 겨냥한다.",
+    "summaryKo": "'Agents-A1'은 Qwen3.5 MoE 기반의 에이전틱 비전-언어 모델(VLM)이다. 비전·에이전트 작업을 겨냥한 모델이다.",
     "tags": [
-      "에이전트",
       "VLM",
-      "MoE"
+      "에이전트",
+      "MoE",
+      "Qwen"
     ],
     "entities": [
-      "Agents-A1",
-      "InternScience"
+      "Qwen"
     ],
     "cats": [
       "에이전트",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "be793f916139b4f2",
@@ -306,24 +297,21 @@
     "url": "https://github.com/inkeep/open-knowledge",
     "publishedAt": "2026-06-03T11:12:40Z",
     "rawText": "Beautiful, AI-native markdown editor and LLM Wiki",
-    "score": 1922,
+    "score": 1946,
     "lang": "TypeScript",
     "rank": 6,
-    "summaryKo": "AI 네이티브 마크다운 에디터이자 LLM 위키를 지향하는 오픈소스 프로젝트. 보기 좋은 문서 작성과 LLM 기반 지식 관리를 결합한다.",
+    "summaryKo": "'open-knowledge'는 AI 네이티브 마크다운 에디터이자 LLM 위키를 지향하는 오픈소스 프로젝트다.",
     "tags": [
       "마크다운",
-      "LLM위키",
-      "문서"
+      "LLM",
+      "위키"
     ],
-    "entities": [
-      "open-knowledge",
-      "inkeep"
-    ],
+    "entities": [],
     "cats": [
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "f370b84f8192d513",
@@ -333,12 +321,12 @@
     "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
     "publishedAt": "2026-06-29T23:04:41.000Z",
     "rawText": "tabular-classification | tabfm, safetensors, tabular, tabular-regression, zero-shot, in-context-learning, pytorch, foundation-model",
-    "score": 263,
+    "score": 223,
     "rank": 6,
-    "summaryKo": "구글의 테이블형 데이터용 파운데이션 모델 TabFM. 제로샷·인컨텍스트 학습을 지원하는 테이블 분류·회귀 모델로 PyTorch로 배포된다.",
+    "summaryKo": "구글이 표(tabular) 데이터용 파운데이션 모델 'TabFM 1.0'을 공개했다. 제로샷·인컨텍스트 학습으로 표 분류·회귀를 수행하는 것이 특징이다.",
     "tags": [
+      "Tabular",
       "파운데이션모델",
-      "테이블데이터",
       "제로샷"
     ],
     "entities": [
@@ -349,7 +337,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "3bb844ba1fd62c09",
@@ -382,46 +370,46 @@
     "url": "https://github.com/shy3130/tickflow-stock-panel",
     "publishedAt": "2026-06-18T06:18:29Z",
     "rawText": "自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
-    "score": 1863,
+    "score": 1927,
     "lang": "TypeScript",
     "rank": 7,
-    "summaryKo": "자가 호스팅·무운영을 지향하는 A주(중국 증시) 선정·모니터링·백테스트 퀀트 워크벤치. TickFlow 데이터 소스를 기반으로 LLM을 활용해 전략 커스터마이징과 개별 종목 분석·복기를 수행하는 개인 오픈소스 프로젝트다.",
+    "summaryKo": "'tickflow-stock-panel'은 자체 호스팅·무운영으로 중국 A주 종목선정·모니터링·백테스트를 제공하는 오픈소스 퀀트 워크벤치다. LLM 기반으로 전략 커스터마이징과 개별 종목 분석·복기를 지원한다.",
     "tags": [
       "퀀트",
-      "LLM",
-      "주식"
+      "주식",
+      "LLM"
     ],
     "entities": [
       "TickFlow"
     ],
     "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
-    "id": "2a59f1a9ea9a463e",
+    "id": "b78e47b2530bb426",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
-    "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-    "publishedAt": "2026-06-25T04:56:44.000Z",
-    "rawText": "text-generation | transformers, gguf, text-generation, license:mit, endpoints_compatible, region:us, conversational",
-    "score": 216,
+    "title": "AliesTaha/fable-traces",
+    "url": "https://huggingface.co/AliesTaha/fable-traces",
+    "publishedAt": "2026-07-03T21:55:50.000Z",
+    "rawText": "text-generation | transformers, safetensors, qwen3, text-generation, instruct, conversational, egypt-won, en",
+    "score": 181,
     "rank": 7,
-    "summaryKo": "deepreinforce-ai의 35B 텍스트 생성 모델 Ornith-1.0의 GGUF 배포판. MIT 라이선스의 대화형 모델이다.",
+    "summaryKo": "'fable-traces'는 Qwen3 기반의 인스트럭트 텍스트 생성 모델이다.",
     "tags": [
-      "LLM",
-      "양자화",
-      "35B"
+      "Qwen",
+      "텍스트생성",
+      "인스트럭트"
     ],
     "entities": [
-      "Ornith-1.0"
+      "Qwen"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "ea2970d8679d2d55",
@@ -431,13 +419,13 @@
     "url": "https://github.com/fancyboi999/ai-engineering-from-scratch-zh",
     "publishedAt": "2026-05-26T12:45:07Z",
     "rawText": "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南",
-    "score": 775,
+    "score": 781,
     "lang": "Python",
     "rank": 8,
-    "summaryKo": "'AI 에이전트 엔지니어'가 되기 위한 학습 경로를 담은 중국어 자료로, 20단계 503개 강의로 구성된 AI 엔지니어링 입문 가이드다. 중문 전량 번역과 부속 사이트·애니메이션 강의 영상을 함께 제공한다.",
+    "summaryKo": "'ai-engineering-from-scratch-zh'는 AI 에이전트 엔지니어가 되기 위한 학습 경로를 담은 자료다. 20단계 503개 강의를 중국어로 전량 번역하고 사이트·애니메이션 강의 영상을 곁들인 'AI 엔지니어 수련 가이드'다.",
     "tags": [
-      "AI엔지니어링",
-      "학습자료",
+      "AI 엔지니어링",
+      "교육",
       "에이전트"
     ],
     "entities": [],
@@ -446,7 +434,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "60a076ee36d2b3f6",
@@ -505,6 +493,29 @@
     "fetchedAt": "2026-07-08T00:18:47.204Z"
   },
   {
+    "id": "2a59f1a9ea9a463e",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+    "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+    "publishedAt": "2026-06-25T04:56:44.000Z",
+    "rawText": "text-generation | transformers, gguf, text-generation, license:mit, endpoints_compatible, region:us, conversational",
+    "score": 175,
+    "rank": 8,
+    "summaryKo": "'Ornith-1.0-35B-GGUF'는 35B 규모 대화형 텍스트 생성 모델을 GGUF로 공개한 버전이다(MIT 라이선스).",
+    "tags": [
+      "GGUF",
+      "35B",
+      "텍스트생성"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
     "id": "84d0bed60df95acc",
     "sourceType": "repo",
     "source": "GitHub",
@@ -512,10 +523,10 @@
     "url": "https://github.com/kadevin/ilab-gpt-conjure",
     "publishedAt": "2026-06-08T08:20:30Z",
     "rawText": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-compatible API support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management.",
-    "score": 618,
+    "score": 622,
     "lang": "JavaScript",
     "rank": 9,
-    "summaryKo": "GPT-image-2를 겨냥한 AI 이미지 생성 WebUI 워크벤치. Codex Responses·OpenAI 호환 API 연동을 지원하고 공용 갤러리, 프롬프트 템플릿, 다중 작업 동시 처리와 로컬 큐 관리를 제공한다.",
+    "summaryKo": "'ilab-gpt-conjure'는 GPT-image-2용 AI 이미지 생성 WebUI 워크벤치다. Codex Responses 및 OpenAI 호환 API 접속, 공용 갤러리, 프롬프트 템플릿, 다중 작업 동시 처리와 로컬 큐 관리를 지원한다.",
     "tags": [
       "이미지생성",
       "GPT-image",
@@ -523,14 +534,14 @@
     ],
     "entities": [
       "GPT-image-2",
-      "Codex",
-      "OpenAI"
+      "OpenAI",
+      "Codex"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "b2c8ab848f47a0fc",
@@ -586,30 +597,30 @@
     "fetchedAt": "2026-07-05T00:12:16.629Z"
   },
   {
-    "id": "b78e47b2530bb426",
+    "id": "8d80cb94a02d997e",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "AliesTaha/fable-traces",
-    "url": "https://huggingface.co/AliesTaha/fable-traces",
-    "publishedAt": "2026-07-03T21:55:50.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3, text-generation, instruct, conversational, egypt-won, en",
-    "score": 178,
+    "title": "mistralai/Leanstral-1.5-119B-A6B",
+    "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+    "publishedAt": "2026-07-01T16:43:19.000Z",
+    "rawText": "vllm, base_model:mistralai/Leanstral-2603, base_model:finetune:mistralai/Leanstral-2603, license:apache-2.0, region:us",
+    "score": 158,
     "rank": 9,
-    "summaryKo": "Qwen3 기반의 instruct 대화형 텍스트 생성 모델 fable-traces. safetensors로 배포된다.",
+    "summaryKo": "미스트랄이 'Leanstral-1.5-119B-A6B'를 공개했다. Leanstral-2603을 파인튜닝한 119B(활성 6B) 규모 모델로 Apache-2.0 라이선스다.",
     "tags": [
-      "LLM",
-      "Qwen",
-      "instruct"
+      "Mistral",
+      "MoE",
+      "오픈모델"
     ],
     "entities": [
-      "fable-traces",
-      "Qwen3"
+      "Mistral",
+      "Leanstral"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "847db2feb05e133a",
@@ -619,10 +630,10 @@
     "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook",
     "publishedAt": "2026-05-11T06:39:51Z",
     "rawText": "Curated collection of reusable JSON prompt templates & style references for AI image generation. Updated daily.",
-    "score": 484,
+    "score": 489,
     "lang": "Python",
     "rank": 10,
-    "summaryKo": "AI 이미지 생성을 위한 재사용 가능한 JSON 프롬프트 템플릿과 스타일 레퍼런스를 매일 갱신해 모아둔 큐레이션 저장소다.",
+    "summaryKo": "'AI-Visual-Prompt-Cookbook'은 AI 이미지 생성을 위한 재사용 가능한 JSON 프롬프트 템플릿과 스타일 레퍼런스 모음이다. 매일 업데이트된다.",
     "tags": [
       "이미지생성",
       "프롬프트",
@@ -633,7 +644,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "08d8c0653c70d3e3",
@@ -764,6 +775,33 @@
     "fetchedAt": "2026-07-06T00:12:12.219Z"
   },
   {
+    "id": "bc159a7cfec7bda3",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "publishedAt": "2026-04-17T00:15:26.000Z",
+    "rawText": "image-text-to-text | gguf, uncensored, qwen3.6, moe, vision, multimodal, image-text-to-text, en",
+    "score": 157,
+    "rank": 10,
+    "summaryKo": "'Qwen3.6-35B-A3B-Uncensored'는 Qwen3.6 기반 35B(활성 3B) MoE 비전·멀티모달 모델을 무검열로 조정해 GGUF로 공개한 버전이다.",
+    "tags": [
+      "Qwen",
+      "MoE",
+      "무검열",
+      "멀티모달"
+    ],
+    "entities": [
+      "Qwen"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
     "id": "ca3b0865a8bfc235",
     "sourceType": "repo",
     "source": "GitHub",
@@ -796,21 +834,21 @@
     "url": "https://github.com/Nigh/show-me-the-story",
     "publishedAt": "2026-06-03T04:26:27Z",
     "rawText": "Self-hosted AI novel generator: single Go binary + web UI. OpenAI-compatible API → outline → chapter-by-chapter writing with review, foreshadowing, fact-check, and full-book polish. Chinese &  English.",
-    "score": 310,
+    "score": 318,
     "lang": "Go",
     "rank": 11,
-    "summaryKo": "단일 Go 바이너리와 웹 UI로 동작하는 자가 호스팅 AI 소설 생성기. OpenAI 호환 API로 개요를 만든 뒤 챕터별 집필과 검토·복선·사실 확인·전체 교정을 거치며 중국어·영어를 지원한다.",
+    "summaryKo": "'show-me-the-story'는 단일 Go 바이너리와 웹 UI로 동작하는 자체 호스팅 AI 소설 생성기다. OpenAI 호환 API로 개요→챕터별 집필→리뷰·복선·팩트체크·전체 교정까지 수행하며 중국어·영어를 지원한다.",
     "tags": [
-      "콘텐츠생성",
-      "LLM",
-      "소설"
+      "AI 글쓰기",
+      "소설생성",
+      "Go"
     ],
     "entities": [
-      "show-me-the-story"
+      "OpenAI"
     ],
     "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:18:47.204Z"
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
     "id": "eb538b8ca1b014a5",

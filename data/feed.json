@@ -277,6 +277,388 @@
     "fetchedAt": "2026-07-08T00:58:17.215Z"
   },
   {
+    "id": "be41cbcd32bdf495",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: Skillburst - AI skills for your whole team, not just the engineers",
+    "url": "https://skillburst.ai/",
+    "publishedAt": "Wed, 08 Jul 2026 23:48:27 +0000",
+    "rawText": "Article URL: https://skillburst.ai/ Comments URL: https://news.ycombinator.com/item?id=48838979 Points: 1 # Comments: 0",
+    "summaryKo": "'Skillburst'는 엔지니어뿐 아니라 팀 전체가 AI 스킬을 활용할 수 있게 해준다는 도구를 소개하는 Show HN 게시물이다. 제목 기준으로 비개발 직군까지 아우르는 조직 단위 AI 역량 확산을 지향하는 서비스로 보인다.",
+    "tags": [
+      "AI 스킬",
+      "팀 협업",
+      "생산성"
+    ],
+    "entities": [
+      "Skillburst"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "8ff098c01a085702",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Hijacking Defensive Cyber AI Agents for Remote Code Execution",
+    "url": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief",
+    "publishedAt": "Wed, 08 Jul 2026 23:35:29 +0000",
+    "rawText": "Article URL: https://ainowinstitute.org/publications/friendly-fire-exploit-brief Comments URL: https://news.ycombinator.com/item?id=48838857 Points: 1 # Comments: 0",
+    "summaryKo": "AI Now Institute의 보안 연구로, Claude Code·Codex 같은 방어용 코딩 AI 에이전트가 신뢰할 수 없는 코드를 자동 검토할 때 프롬프트 인젝션으로 원격 코드 실행(RCE)까지 탈취될 수 있음을 보였다. 특별한 설정 없이 서드파티 코드를 리뷰하는 것만으로 공격이 자동 발동되며, Sonnet·Opus·GPT-5.5 등 여러 프런티어 모델에서 그대로 재현돼 개별 버그가 아닌 설계상 취약점임을 시사한다.",
+    "tags": [
+      "AI 보안",
+      "프롬프트 인젝션",
+      "에이전트",
+      "RCE"
+    ],
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "AI Now Institute"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "방어용 코딩 AI 에이전트가 신뢰 불가 코드를 자동 검토할 때 프롬프트 인젝션으로 임의 코드 실행이 가능하다.",
+        "정상처럼 보이는 Go 소스 파일과 동일한 이름의 악성 바이너리, 이를 실행하도록 유도하는 문서를 결합한 다층 공격이다.",
+        "별도 플러그인·훅·설정 없이 서드파티 코드를 리뷰하는 표준 사용만으로 공격이 자동 발동된다.",
+        "Claude Sonnet 4.6·Sonnet 5·Opus 4.8·GPT-5.5에서 수정 없이 재현돼 프런티어 에이전트 공통의 설계 패턴 취약점으로 보인다.",
+        "샌드박스 환경도 RCE 이후 제약을 벗어날 수 있어 충분한 보호가 되지 못한다."
+      ],
+      "sections": [
+        {
+          "heading": "공격 메커니즘",
+          "body": "연구진은 수정된 오픈소스 라이브러리 안에 기만적 파일들을 심었다. 합법적으로 보이는 Golang 소스와 같은 이름의 악성 바이너리, 그리고 이 바이너리를 보안 분석의 일부로 실행하도록 설득하는 문서 참조를 조합했다. 사용자가 AI에게 서드파티 코드를 리뷰시키면 추가 승인 없이 공격이 트리거된다."
+        },
+        {
+          "heading": "정책적 함의",
+          "body": "취약점이 특정 버그가 아니라 여러 모델·버전에 공통으로 전이된다는 점이 핵심이다. 연구는 사이버보안에 AI 배치를 의무화하는 최근 정책 흐름에 의문을 제기하며, AI 에이전트가 새로 만들어내는 공격 표면이 방어 이점을 상쇄하거나 오히려 보안을 악화시킬 수 있다고 경고한다."
+        }
+      ],
+      "quotes": []
+    },
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "baadb6f51f236628",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The AI Bubble We need to talk",
+    "url": "https://www.youtube.com/watch?v=2J2Fb1bBufA",
+    "publishedAt": "Wed, 08 Jul 2026 23:34:33 +0000",
+    "rawText": "Article URL: https://www.youtube.com/watch?v=2J2Fb1bBufA Comments URL: https://news.ycombinator.com/item?id=48838844 Points: 2 # Comments: 0",
+    "summaryKo": "'AI 버블, 이제는 이야기해야 한다'는 제목의 유튜브 영상이 해커뉴스에 공유됐다. 제목 기준으로 현재 AI 투자·기대에 거품이 끼어 있다는 문제의식을 다루는 콘텐츠로 보인다.",
+    "tags": [
+      "AI 버블",
+      "투자",
+      "시장"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "c47c4c24fc478f33",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%",
+    "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+    "publishedAt": "Wed, 08 Jul 2026 23:11:28 +0000",
+    "rawText": "Article URL: https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/ Comments URL: https://news.ycombinator.com/item?id=48838611 Points: 40 # Comments: 15",
+    "summaryKo": "AI 부정행위를 의심한 브라운대 교수가 기말고사를 대면 시험으로 전환하자 점수가 50% 급락했다는 아스테크니카 보도가 해커뉴스에서 화제가 됐다. 학생들의 AI 의존과 학업 평가 신뢰성 문제를 드러낸 사례로 다뤄진다.",
+    "tags": [
+      "AI 부정행위",
+      "교육",
+      "평가"
+    ],
+    "entities": [
+      "Brown University"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "d003a314baee8a15",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Nous Research가 'Hermes Agent Cloud'를 공개했습니다. 이제 모델과 서버 크기만 선태...",
+    "url": "https://www.threads.com/t/DajK_LmDqHs",
+    "publishedAt": "Wed, 08 Jul 2026 23:00:22 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Nous Research가 'Hermes Agent Cloud'를 공개했습니다. 이제 모델과 서버 크기만 선택하면 약 1분 안에 항상 실행되는 AI 에이전트를 배포할 수 있는데요. 배포된 에이전트는 '지속 메모리(persistent memory)'를 활용하며 계속 실행되는 환경에서 작업을 이어갈 수 있습니다. 기업 사용자를 위한 기능도 함께 제공됩니다.'*Nous Portal'에서 조직 구성원별 에이전트를 생성하고, 세부 권한 관리와 통합 결제를 지원한다고 합니다. 요금은 서버 크기에 따라 달라지며, 자세한 내용은 'Hermes Cloud' 페이지에서 확인할 수 있습니다. AI 에이전트를 클라우드에서 상시 운영하려는 사용자들에게 새로운 선택지가 될 것으로 보입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/729680995_3041539306038611_1331502252019778273_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;ig_cache_key=MzkzNzAzODgyMTQ5Mzc0NDEwOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=rYHWUEAmVvYQ7kNvwHP3_nT&amp;_nc_oc=AdpAVc_VodJEJMt6a0esFAwcc0eXhKgtJTktjvDGBo8tXz0DojDR5-xPXOk_CvVEzrI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQDNmSX8E-bqbiGbE6sTFUptlvxSDfHsleaNaVQd0r-6tQ&amp;oe=6A54B274\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPZH1mporay10RU6U-nu-tWQj0FiPM6tRqwr09rV9YLf4dv0r3Z0m7LTfZBbp0JwozcL3pqVEUJWJSKv061VtSyykyEzPvIqw6BjH0.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=PCZH2Ze6EtMQ7kNvwFLdbdq&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk3NjE4MDk2MDExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjoyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=d736f2ecd3107f06&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81MzRBMTRGNDMyOTJBQkM4QzNCMDM4N0JBOTJCRERCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzgxNEUwQ0VGMjZEM0M3Mjk5NTJGNjlCOTQzRjFFRTg2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAw92Iuc_uPxUCKAJDMywXQDSIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQB5I3ZBJwBghDGBpzaZKD3w3409YYlt3_jdMKtTxpgpUQ&amp;oe=6A50BAEC\"></video></p>",
+    "summaryKo": "Nous Research가 모델과 서버 크기만 고르면 약 1분 안에 상시 실행되는 AI 에이전트를 배포할 수 있는 'Hermes Agent Cloud'를 공개했다. 배포된 에이전트는 지속 메모리를 활용해 계속 실행되는 환경에서 작업을 이어가며, Nous Portal을 통한 조직 구성원별 에이전트 생성·권한 관리·통합 결제 등 기업용 기능도 제공한다.",
+    "tags": [
+      "에이전트",
+      "Hermes",
+      "클라우드",
+      "지속메모리"
+    ],
+    "entities": [
+      "Nous Research",
+      "Hermes Agent Cloud"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "6a69b595fa49cef7",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Policy Statement Concerning the Suppression of Accuracy in AI Systems",
+    "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems",
+    "publishedAt": "Wed, 08 Jul 2026 22:33:46 +0000",
+    "rawText": "Article URL: https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems Comments URL: https://news.ycombinator.com/item?id=48838270 Points: 6 # Comments: 1",
+    "summaryKo": "미국 연방관보(Federal Register)에 'AI 시스템의 정확성 억제에 관한 정책 성명'이 게시돼 해커뉴스에 공유됐다. 제목 기준으로 AI 시스템이 정확한 정보를 억제·왜곡하는 문제에 대한 규제·정책적 입장을 담은 문서로 보인다.",
+    "tags": [
+      "AI 규제",
+      "정책",
+      "정확성"
+    ],
+    "entities": [
+      "Federal Register"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "598472848ca325c4",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: A tool that checks how your business appears in AI search",
+    "url": "https://www.tryagentscore.com",
+    "publishedAt": "Wed, 08 Jul 2026 22:15:16 +0000",
+    "rawText": "Article URL: https://www.tryagentscore.com Comments URL: https://news.ycombinator.com/item?id=48838101 Points: 2 # Comments: 1",
+    "summaryKo": "자사 비즈니스가 AI 검색 결과에 어떻게 노출되는지 점검해준다는 도구를 소개하는 Show HN 게시물이다. 제목 기준으로 AI 검색·답변 엔진에서의 브랜드 가시성(AI SEO)을 진단하는 서비스로 보인다.",
+    "tags": [
+      "AI 검색",
+      "SEO",
+      "마케팅"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "f7ab4b94a08343d4",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 팀 쿡이 브로드컴과 300억 달러 계약을 발표했습니다. 미국에서 칩...",
+    "url": "https://www.threads.com/t/DajEHWCCMcG",
+    "publishedAt": "Wed, 08 Jul 2026 22:00:19 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>팀 쿡이 브로드컴과 300억 달러 계약을 발표했습니다. 미국에서 칩 150억 개를 찍는, 애플 '미국 제조 프로그램' 사상 최대 약정입니다. 관세를 피하려는 조치지만, 진짜 리스크는 그 아래에 있습니다. 미국이 칩 공급망 자체를 자국 안으로 들이는 '내재화'입니다. 설계부터 제조, 패키징까지 미국 안에서 끝내겠다는 그림입니다. 🧵</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/728302202_17976184443112832_2360920788059176984_n.webp?_nc_cat=106&amp;ig_cache_key=MzkzNzAwODU5NjEzMDc3NjgzOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=ukGzxu4VNkwQ7kNvwGg2kFI&amp;_nc_oc=AdoY46YFtaiwOsonDAGmYS4uAjpLveNveF8xQPFy4mXBcyEAvB2Q7jOH5hYMzQPajcQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQD2a5sNQX3JUDgAnli3qSiwg5OxN5dTPMPP9nCrxS6mfQ&amp;oe=6A54B489\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "팀 쿡이 브로드컴과 300억 달러 규모 계약을 발표했다. 미국에서 칩 150억 개를 생산하는 애플 '미국 제조 프로그램' 사상 최대 약정으로, 관세 회피를 넘어 설계·제조·패키징까지 미국 내에서 끝내는 칩 공급망 내재화라는 점이 핵심이다.",
+    "tags": [
+      "애플",
+      "반도체",
+      "공급망",
+      "제조"
+    ],
+    "entities": [
+      "Apple",
+      "Broadcom",
+      "Tim Cook"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "2c23c8a7df76c6df",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The neutral proof standard for consequential AI-agent actions",
+    "url": "https://github.com/Actenon",
+    "publishedAt": "Wed, 08 Jul 2026 21:58:53 +0000",
+    "rawText": "Article URL: https://github.com/Actenon Comments URL: https://news.ycombinator.com/item?id=48837953 Points: 1 # Comments: 0",
+    "summaryKo": "결과가 중대한 AI 에이전트 행동에 대해 '중립적 증명 표준(neutral proof standard)'을 제안하는 프로젝트가 해커뉴스에 공유됐다. 제목 기준으로 에이전트의 자율 행동을 검증·감사하기 위한 표준을 다루는 것으로 보인다.",
+    "tags": [
+      "에이전트",
+      "검증",
+      "표준"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "249dd7e6e1f5dfb9",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Nika – Intent as Code for AI Workflows",
+    "url": "https://github.com/supernovae-st/nika",
+    "publishedAt": "Wed, 08 Jul 2026 21:30:00 +0000",
+    "rawText": "Article URL: https://github.com/supernovae-st/nika Comments URL: https://news.ycombinator.com/item?id=48837692 Points: 1 # Comments: 0",
+    "summaryKo": "'Nika'는 AI 워크플로를 'Intent as Code(의도를 코드로)' 방식으로 정의하는 도구를 소개하는 Show HN 게시물이다. 제목 기준으로 에이전트 워크플로를 선언적으로 기술·오케스트레이션하려는 프로젝트로 보인다.",
+    "tags": [
+      "에이전트",
+      "워크플로",
+      "Intent as Code"
+    ],
+    "entities": [
+      "Nika"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "73e2087fad9ed23f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 중국 정부가 딥시크·바이트댄스·알리바바 등 자국 AI 기업의 엔비ᄃ...",
+    "url": "https://www.threads.com/t/Dai50iIAGm9",
+    "publishedAt": "Wed, 08 Jul 2026 20:30:22 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국 정부가 딥시크·바이트댄스·알리바바 등 자국 AI 기업의 엔비디아 H200 구매를 곧 승인할 방침이라고 합니다. 더 인포메이션 보도로, 학습용으로 약 20만 장 규모입니다. 여기서 걸리는 건 '학습용'이라는 대목입니다. 추론은 이미 화웨이 어센드 950PR로 넘어갔는데, 학습만은 아직 엔비디아를 못 놓는다는 뜻이거든요. 딥시크가 당국 권유로 화웨이에서 학습하려다 반복 실패하고 엔비디아로 되돌아갔을 만큼, 어센드는 CANN 소프트웨어와 칩간 통신이 아직 프런티어 학습을 뒷받침하지 못합니다. 하지만, 메이투안이 최근 1.6조 LongCat-2.0을 국산칩 약 5만 장으로 학습부터 서빙까지 끝낸만큼 이번 승인은 영구 의존이라기보다 국산 학습이 무르익을 때까지의 과도기 조치에 가까워 보입니다.</p><p><img src=\"https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/734974531_17976177276112832_2185248801653749910_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkzNjk2MzMyMjk4MDYyNDgyOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=5dJAHvu7ivMQ7kNvwHf43KC&amp;_nc_oc=AdrwCHEvRQ4h-8LNaA4J1rvJaVzmFWiZUCfaO2CAfEnMSqGGXh9o5O1dt0Qa-zvAi7w&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQBRJgh9u7oXHQSLiQBQYWjqRcImG2pwO0WmFLwz5PHOFw&amp;oe=6A54BC2E\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "중국 정부가 딥시크·바이트댄스·알리바바 등 자국 AI 기업의 엔비디아 H200(학습용 약 20만 장) 구매를 곧 승인할 방침이라고 디 인포메이션이 보도했다. 추론은 화웨이 어센드 950PR로 넘어갔지만 프런티어 학습만은 아직 엔비디아 의존이 필요한 상황으로, 국산 학습이 무르익을 때까지의 과도기 조치로 해석된다.",
+    "tags": [
+      "중국",
+      "엔비디아",
+      "H200",
+      "반도체"
+    ],
+    "entities": [
+      "NVIDIA",
+      "DeepSeek",
+      "ByteDance",
+      "Alibaba",
+      "Huawei"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "07610e55de6cc86b",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+    "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+    "publishedAt": "Wed, 08 Jul 2026 15:00:27 +0000",
+    "rawText": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x [&#8230;]",
+    "summaryKo": "NVIDIA의 오픈 모델 Nemotron 3 Ultra가 LangChain의 Deep Agents 하니스와 결합해 오픈 모델 중 최고 정확도를 기록했다. 최상위 폐쇄형 모델보다 낮은 비용으로 더 많은 작업을 더 높은 처리량으로 완료하며 약 10배의 처리 효율을 보였다고 밝혔다.",
+    "tags": [
+      "Nemotron",
+      "에이전트",
+      "오픈모델",
+      "LangChain"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Nemotron",
+      "LangChain"
+    ],
+    "cats": [
+      "에이전트",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "e00d55023af7c16f",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Our approach to government and national security partnerships",
+    "url": "https://openai.com/index/government-national-security-partnerships",
+    "publishedAt": "Wed, 08 Jul 2026 13:30:00 GMT",
+    "rawText": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+    "summaryKo": "OpenAI가 정부·국가안보 기관과의 협력에 대한 접근 원칙을 공개했다. 책임 있는 AI 사용, 민주적 책무성, 공공 안전을 핵심 원칙으로 내세우며 국가안보 영역에서 AI를 어떻게 도입할지에 대한 가이드라인을 제시한다.",
+    "tags": [
+      "AI 정책",
+      "국가안보",
+      "거버넌스"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "e9167e656930e3f1",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Separating signal from noise in coding evaluations",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "publishedAt": "Wed, 08 Jul 2026 13:00:00 GMT",
+    "rawText": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "summaryKo": "OpenAI가 널리 쓰이는 코딩 벤치마크 SWE-Bench Pro의 신뢰성 문제를 분석해 공개했다. 벤치마크 자체에 정확성·신뢰성을 떨어뜨리는 결함이 있어 AI 코딩 모델 성능 평가 결과를 그대로 믿기 어렵다는 점을 지적한다.",
+    "tags": [
+      "벤치마크",
+      "코딩 평가",
+      "SWE-Bench"
+    ],
+    "entities": [
+      "OpenAI",
+      "SWE-Bench Pro"
+    ],
+    "cats": [
+      "코딩·개발",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "3447f8d32f7ed63d",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Helping K–12 educators build practical AI skills",
+    "url": "https://openai.com/index/k-12-educators-practical-skills",
+    "publishedAt": "Wed, 08 Jul 2026 10:00:00 GMT",
+    "rawText": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+    "summaryKo": "OpenAI Academy와 월튼 패밀리 재단이 K-12 교사들의 실무 AI 역량을 키우기 위한 실습 프로그램 'AI Skills Jams'를 시작한다. 교실에서 바로 활용할 수 있는 AI 활용법을 교사들에게 직접 체험시키는 것이 목표다.",
+    "tags": [
+      "AI 교육",
+      "교사",
+      "OpenAI Academy"
+    ],
+    "entities": [
+      "OpenAI",
+      "Walton Family Foundation"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
     "id": "4d09847099885443",
     "sourceType": "news",
     "source": "Threads",
@@ -306,7 +688,33 @@
     "fetchedAt": "2026-07-08T00:18:47.204Z"
   },
   {
-    "id": "0237d35a205d014d",
+    "id": "3fb14968493dc682",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Introducing GPT-Live",
+    "url": "https://openai.com/index/introducing-gpt-live",
+    "publishedAt": "Wed, 08 Jul 2026 00:00:00 GMT",
+    "rawText": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "summaryKo": "OpenAI가 자연스러운 인간-AI 음성 상호작용을 위한 새로운 세대의 음성 모델 'GPT-Live'를 공개했다. 이 모델이 ChatGPT Voice를 구동하며 더 자연스러운 실시간 음성 대화 경험을 제공하는 것이 핵심이다.",
+    "tags": [
+      "음성 AI",
+      "GPT-Live",
+      "멀티모달"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT",
+      "GPT-Live"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "bb4886b95744d7c7",
     "sourceType": "news",
     "source": "Hacker News",
     "title": "Anthropic Expands In Manhattan, Part of an AI Boom in New York",
@@ -1228,6 +1636,282 @@
     "url": "https://openai.com/index/mufg",
     "publishedAt": "Tue, 07 Jul 2026 00:00:00 GMT",
     "rawText": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+    "summaryKo": "일본 최대 금융그룹 MUFG가 ChatGPT Enterprise를 도입해 'AI 네이티브' 조직으로 전환을 추진한다. 업무 흐름을 개선하고 AI 기반 금융 서비스를 대규모로 제공하는 것을 목표로 한다.",
+    "tags": [
+      "기업 도입",
+      "금융 AI",
+      "ChatGPT Enterprise"
+    ],
+    "entities": [
+      "MUFG",
+      "OpenAI",
+      "ChatGPT Enterprise"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "8537165d23c701b7",
+    "sourceType": "news",
+    "source": "Anthropic Eng",
+    "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+    "url": "https://www.anthropic.com/engineering/managed-agents",
+    "publishedAt": "Tue, 07 Apr 2026 16:00:00 GMT",
+    "rawText": "<p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Get started with Claude Managed Agents by following our <a href=\"https://platform.claude.com/docs/en/managed-agents/overview\" target=\"_blank\" rel=\"noopener noreferrer\">docs</a>.</em><br><br>A running topic on the Engineering Blog is how to <a href=\"https://www.anthropic.com/engineering/building-effective-agents\" target=\"_blank\" rel=\"noopener noreferrer\">build effective agents</a> and <a href=\"https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\" target=\"_blank\" rel=\"noopener noreferrer\">design harnesses</a> for <a href=\"https://www.anthropic.com/engineering/harness-design-long-running-apps\" target=\"_blank\" rel=\"noopener noreferrer\">long-running work</a>. A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can <a href=\"http://www.incompleteideas.net/IncIdeas/BitterLesson.html\" target=\"_blank\" rel=\"noopener noreferrer\">go stale</a> as models improve.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As just one example, in prior work <a href=\"https://www.anthropic.com/engineering/harness-design-long-running-apps\">we found</a> that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Building Managed Agents meant solving an old problem in computing: how to design a system for “<a href=\"http://www.catb.org/esr/writings/taoup/html/ch03s01.html\" target=\"_blank\" rel=\"noopener noreferrer\">programs as yet unthought of</a>.” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions—<em>process, file</em>—general enough for programs that didn't exist yet. The abstractions outlasted the hardware. The <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">read()</code> command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We're opinionated about the shape of these interfaces, not about what runs behind them.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"1080\" height=\"1080\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/903b624ada206b10753a24c6a1367e74a869165d-1080x1080.png\" referrerpolicy=\"no-referrer\"></figure></div><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"dont-adopt-a-pet\">Don’t adopt a pet</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a <a href=\"https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/\"><em>pet</em></a>. In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Nursing containers meant debugging unresponsive stuck sessions. Our only window in was the WebSocket event stream, but that couldn’t tell us <em>where</em> failures arose, which meant that a bug in the harness, a packet drop in the event stream, or a container going offline all presented the same. To figure out what went wrong, an engineer had to open a shell inside the container, but because that container often also held user data, that approach essentially meant we lacked the ability to debug.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">A second issue was that the harness assumed that whatever Claude worked on lived in the container with it. When customers asked us to connect Claude to their virtual private cloud, they had to either peer their network with ours, or run our harness in their own environment. An assumption baked into the harness became a problem when we wanted to connect it to different infrastructure.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"decouple-the-brain-from-the-hands\">Decouple the brain from the hands</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The solution we arrived at was to decouple what we thought of as the “brain” (Claude and its harness) from both the “hands” (sandboxes and tools that perform actions) and the “session” (the log of session events). Each became an interface that made few assumptions about the others, and each could fail or be replaced independently.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><strong>The harness leaves the container. </strong>Decoupling the brain from the hands meant the harness no longer lived inside the container. It called the container the way it called any other tool: <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">execute(name, input) → string</code>. The container became cattle. If the container died, the harness caught the failure as a tool-call error and passed it back to Claude. If Claude decided to retry, a new container could be reinitialized with a standard recipe: <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">provision({resources})</code>. We no longer had to nurse failed containers back to health.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><strong>Recovering from harness failure. </strong>The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">wake(sessionId)</code>, use <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">getSession(id)</code> to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">emitEvent(id, event)</code> in order to keep a durable record of events.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"1640\" height=\"1596\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/73e900af5b9d6ed8c64db0a8e74d4465963556b7-1640x1596.png\" referrerpolicy=\"no-referrer\"></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><strong>The security boundary.</strong> In the coupled design, any untrusted code that Claude generated was run in the same container as credentials—so a prompt injection only had to convince Claude to read its own environment. Once an attacker has those tokens, they can spawn fresh, unrestricted sessions and delegate work to them. Narrow scoping is an obvious mitigation, but this encodes an assumption about what Claude can't do with a limited token—and Claude is getting increasingly smart. The structural fix was to make sure the tokens are never reachable from the sandbox where Claude’s generated code runs.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We used two patterns to ensure this. Auth can be bundled with a resource or held in a vault outside the sandbox. For Git, we use each repository’s access token to clone the repo during sandbox initialization and wire it into the local git remote. Git <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">push</code> and <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">pull</code> work from inside the sandbox without the agent ever handling the token itself. For custom tools, we support MCP and store OAuth tokens in a secure vault. Claude calls MCP tools via a dedicated proxy; this proxy takes in a token associated with the session. The proxy can then fetch the corresponding credentials from the vault and make the call to the external service. The harness is never made aware of any credentials.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"the-session-is-not-claudes-context-window\">The session is not Claude’s context window</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in <a href=\"https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\" target=\"_blank\" rel=\"noopener noreferrer\">prior work</a> on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work <a href=\"https://arxiv.org/pdf/2512.24601\" target=\"_blank\" rel=\"noopener noreferrer\">has explored</a> ways to address this by storing context as an object that lives <em>outside</em> the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"760\" height=\"200\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/cf0719d7832b1f577b7393c84a7c53eecc725ca4-760x200.png\" referrerpolicy=\"no-referrer\"></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">getEvents(),</code> allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"many-brains-many-hands\"><br>Many brains, many hands</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><strong>Many brains. </strong>Decoupling the brain from the hands solved one of our earliest customer complaints. When teams wanted Claude to work against resources in their own VPC, the only path was to peer their network with ours, because the container holding the harness assumed every resource sat next to it. Once the harness was no longer in the container, that assumption went away. The same change had a performance payoff. When we initially put the brain in a container, it meant that many brains required as many containers. For each brain, no inference could happen until that container was provisioned; every session paid the full container setup cost up front. Every session, even ones that would never touch the sandbox, had to clone the repo, boot the process, fetch pending events from our servers.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">That dead time is expressed in time-to-first-token (TTFT), which measures how long a session waits between accepting work and producing its first response token. TTFT is the latency the user most acutely <em>feels</em>.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Decoupling the brain from the hands means that containers are provisioned by the brain via a tool call <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">(execute(name, input) → string)</code> only if they are needed. So a session that didn't need a container right away didn't wait for one. Inference could start as soon as the orchestration layer pulled pending events from the session log. Using this architecture, our p50 TTFT dropped roughly 60% and p95 dropped over 90%. Scaling to many brains just meant starting many stateless harnesses, and connecting them to hands only if needed.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><strong>Many hands. </strong>We also wanted the ability to connect each brain to many hands. In practice, this means Claude must reason about many execution environments and decide where to send work—a harder cognitive task than operating in a single shell. We started with the brain in a single container because earlier models weren't capable of this. As intelligence scaled, the single container became the limitation instead: when that container failed, we lost state for every hand that the brain was reaching into.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Decoupling the brain from the hands makes each hand a tool, <code class=\"InlineCodeBlock-module-scss-module__nsPAba__code\">execute(name, input) → string</code>: a name and input go in, and a string is returned. That interface supports any custom tool, any MCP server, and our own tools. The harness doesn’t know whether the sandbox is a container, a phone, or a Pokémon emulator. And because no hand is coupled to any brain, brains can pass hands to one another.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"668\" height=\"243\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/4f67b1c10566552aec514a716ea43544ab330e0b-668x243.png\" referrerpolicy=\"no-referrer\"></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"conclusion\">Conclusion</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The challenge we faced is an old one: how to design a system for “programs as yet unthought of.” Operating systems have lasted decades by virtualizing the hardware into abstractions general enough for programs that didn't exist yet. With Managed Agents, we aimed to design a system that accommodates future harnesses, sandboxes, or other components around Claude.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Managed Agents is a meta-harness in the same spirit, unopinionated about the <em>specific</em> harness that Claude will need in the future. Rather, it is a system with general interfaces that allow many different harnesses. For example, Claude Code is an excellent harness that we use widely across tasks. We’ve also shown that task-specific agent harnesses excel in narrow domains. Managed Agents can accommodate any of these, matching Claude’s intelligence over time.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"acknowledgements\">Acknowledgements</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions.</p>",
+    "summaryKo": "Anthropic이 장기 실행 에이전트 작업을 대신 처리해주는 호스팅 서비스 'Managed Agents'를 소개했다. 이 시스템은 '두뇌(Claude 모델)'와 '손(도구 실행)'을 분리해 모델이 업그레이드되어도 하네스를 재설계할 필요 없도록 운영 체제의 추상화 개념에서 영감을 받아 설계되었다. 실험 결과 모델 능력이 향상됨에 따라 기존 하네스의 가정이 구식이 되는 현상('context anxiety' 등)을 해결하는 데 이 접근법이 효과적임을 확인했다.",
+    "tags": [
+      "agents",
+      "autonomous",
+      "anthropic",
+      "developer-tools"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude Managed Agents",
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.5"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "c265f4d09da60a84",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+    "url": "https://www.anthropic.com/news/services-track-partner-hub",
+    "publishedAt": "Tue, 02 Jun 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-fig\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Introducing the Services Track and Partner Hub of the Claude Partner Network\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the real opportunity—is in the integration, the evaluation, and the way people's work evolves. That's why the companies getting AI integration right are doing it with partners who have done it before.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In March, we launched the Claude Partner Network—a program, backed by a <a href=\"https://www.anthropic.com/news/claude-partner-network\" target=\"_blank\" rel=\"noopener noreferrer\">$100 million investment</a> in partner training, technical support, and shared marketing, for the firms that help enterprises put Claude into production. Since then, more than 40,000 firms have applied to join and more than 10,000 consultants have earned a Claude certification—a credential, held by an individual, that signals they've been trained to build and deploy Claude in production.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The largest professional-services firms in the world are building their own practices around Claude — putting it into production for clients while getting it into the hands of their own people. <a href=\"https://www.anthropic.com/news/anthropic-accenture-partnership\" target=\"_blank\" rel=\"noopener noreferrer\">Accenture</a> is training 30,000 professionals on the model. <a href=\"https://www.anthropic.com/news/cognizant-partnership\" target=\"_blank\" rel=\"noopener noreferrer\">Cognizant</a> has rolled Claude out to roughly 350,000 associates. <a href=\"https://www.anthropic.com/news/deloitte-anthropic-partnership\" target=\"_blank\" rel=\"noopener noreferrer\">Deloitte</a> is making it available to 470,000 people across its global network. <a href=\"https://www.anthropic.com/news/anthropic-kpmg\" target=\"_blank\" rel=\"noopener noreferrer\">KPMG</a> is integrating Claude across a workforce of more than 276,000. <a href=\"https://www.anthropic.com/news/anthropic-infosys\">Infosys</a> is building Claude-powered agents for specific industries, and <a href=\"https://www.anthropic.com/news/pwc-expanded-partnership\" target=\"_blank\" rel=\"noopener noreferrer\">PwC</a> is rolling out Claude Code and Cowork starting with its US teams and expanding towards a global workforce in the hundreds of thousands.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Today we’re announcing two things that make this ecosystem easier for customers to navigate. The <strong>Services Track</strong> is a tiered structure that reflects what a firm has actually built and delivered with Claude. The <strong>Claude Partner Hub</strong> is a portal where partners see exactly where they stand against the program's requirements, and customers find the firms most qualified for the scope of their project.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The best partners have firsthand experience with Claude. They use the newest models for their own work before they put it in front of a client. This way, when they tell a customer what it takes, they’re speaking from experience. The Services Track is built to give customers confidence in a firm’s ability to help them bring Claude into their businesses.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"about-the-services-track\"><strong>About the Services Track</strong></h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The Services Track has three tiers, each reflecting how deep a firm's Claude practice runs.</p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><strong>Select: </strong>where partnership begins. At least 10 active certified individuals, at least 2 joint customers deployed in production in the trailing 12 months, and at least 1 public customer story.</li><li><strong>Preferred: </strong>for firms with deeper Claude practices. At least 100 active certified individuals, at least 15 deployed joint customers, and at least 3 public stories.</li><li><strong>Global Premier: </strong>the top tier for firms running the deepest Claude practices. At least 1,000 active certified individuals, at least 100 deployed joint customers across three or more regions, at least 15 public customer stories, and a joint business plan with named executive sponsors.</li></ol><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Every firm is measured against the same requirements, whether it's a ten-person AI-native shop or a global consultancy. Size doesn't lower the bar or raise the tier; a smaller firm climbs by growing its certified bench. And because the ladder counts adoption and enablement work, firms that specialize in getting customers live on Claude can qualify early.</p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><strong>Certified practitioners</strong>: How many of the firm’s people hold a current Anthropic certification and have used Claude in the past 90 days. Certifications belong to individual people, not firms, and are earned through <a href=\"https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request\" target=\"_blank\" rel=\"noopener noreferrer\">Anthropic Partner Academy</a> exams.</li><li><strong>Customers running Claude in production</strong>: How many customers the firm has taken live with Claude.</li><li><strong>Public endorsements of the firm’s work</strong>: How many customers will vouch for the firm’s work in a published customer story.</li></ol><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Every firm's dashboard shows the same numbers we see, and we verify standing every quarter. Detailed requirements for each tier are published at <a href=\"http://claude.com/partners\" target=\"_blank\" rel=\"noopener noreferrer\">claude.com/partners</a>.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"about-the-claude-partner-hub\"><strong>About the Claude Partner Hub</strong></h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The Claude Partner Hub allows each partner to see its own standing against the published requirements, refreshed daily. It’s also where customers looking for Claude expertise find the firms most qualified to help. Every partner’s standing—their tier, certified team, customer deployments, and public references—is visible in the Hub’s public directory, so anyone evaluating partners can see what a firm has built and delivered.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Partners can connect the Partner Hub to Claude through a new <a href=\"https://mcp.eulerapp.com/public/partner-capabilities\">MCP connector</a>, and from there information about the partnership becomes a conversation. For example, ask Claude where your firm stands against the next tier, the status of a registered deal, or how many of your consultants hold an active certification, and act on the answer within Claude.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"what-this-means-for-partners\"><strong>What this means for partners</strong></h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">For firms building a Claude practice, this program is meant to reward real work and to be predictable enough to plan around. Four things hold true for every partner:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><strong>You always know where you stand.</strong> A firm can see its standing against the published requirements and exactly what the next tier requires. This information is refreshed daily in the Claude Partner Hub.</li><li><strong>Building a practice and bringing us business are two different things, and we credit them separately.</strong> Tier standing measures the practice a firm has built: certified practitioners, production deployments, and customers willing to vouch for them. Sending new business to Anthropic is rewarded on its own track, through referral credit and deal protection. A firm is never forced to choose between the two.</li><li><strong>The ladder moves on a schedule you can see in advance.</strong> Promotions are processed twice a year, on January 1 and July 1, with an additional review on October 1, 2026, in this first year. A firm moves down only at the annual review on December 31, only if it no longer meets its tier’s published requirements, and only after 90 days’ notice and a chance to close the gap. The narrow exceptions are spelled out in the Program Guide.</li><li><strong>The $100 million we committed in March funds</strong> partner training, dedicated technical support, and shared marketing. Firms that join now also get priority access to new certifications as we introduce them.</li></ul><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"whats-next\"><strong>What’s next</strong></h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Specializations for specific industries and use cases are coming, along with rewards that grow as a partner’s deployments grow. Getting started is free. Firms gain Anthropic Partner Academy access, including certification exams, with tiered partners receiving discounted rates on their first attempt, and new applicants start at Registered, the program’s entry level, with a minimum commitment to 10 certified practitioners. Partnership begins at Select. The requirements are the same for every firm. Learn more at <a href=\"http://claude.com/partners\" target=\"_blank\" rel=\"noopener noreferrer\">claude.com/partners</a>.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
+    "summaryKo": "Anthropic이 Claude 파트너 네트워크의 서비스 트랙과 파트너 허브를 출시하며, 1억 달러 투자를 바탕으로 기업 AI 통합을 지원하는 컨설팅·서비스 파트너 생태계를 확장하고 있다. 이미 4만 개 이상의 기업이 가입 신청을 했고, 1만 명 이상의 컨설턴트가 Claude 인증을 취득했으며, Accenture·Cognizant·Deloitte·KPMG·PwC 등 대형 전문 서비스 기업들이 수십만 명 규모로 Claude를 도입하고 있다. 이 프로그램은 파일럿을 넘어 실제 운영 환경에 Claude를 안착시키는 통합·평가·변화 관리 역량을 갖춘 파트너들을 지원하는 데 초점을 맞추고 있다.",
+    "tags": [
+      "partnership",
+      "enterprise",
+      "claude",
+      "anthropic"
+    ],
+    "entities": [
+      "Anthropic",
+      "Accenture",
+      "Cognizant",
+      "Deloitte",
+      "KPMG",
+      "PwC",
+      "Infosys"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "5b171be1e4b486da",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Rehumanizing global health care with agentic AI",
+    "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+    "publishedAt": "Tue, 02 Jun 2026 11:23:34 +0000",
+    "rawText": "The global health care sector is under increasing strain.&#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it's getting worse.&#8230;",
+    "summaryKo": "만성적인 의료 인력 부족과 고령화 인구 증가로 인해 전 세계 의료 시스템이 한계에 달하고 있다. 에이전틱 AI가 의료진의 업무 부담을 줄이고 의료 서비스 접근성을 높여 인간 중심의 의료를 회복하는 수단으로 주목받고 있다.",
+    "tags": [
+      "healthcare",
+      "agents",
+      "AI-adoption"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "6d4c6dd885dbd35e",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 갤럭시 S25 Ultra CPU에서는 초당 213토큰 이라니.. Liquid AI가 2억 3천만 개(230M) 파...",
+    "url": "https://www.threads.com/t/DaBiaWUkVUK",
+    "publishedAt": "Thu, 25 Jun 2026 21:30:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>갤럭시 S25 Ultra CPU에서는 초당 213토큰 이라니.. Liquid AI가 2억 3천만 개(230M) 파라미터의 소형 언어 모델(SLM) LFM2.5-230M을 공개했습니다. 스마트폰, 로봇, 자동화 기기에서 빠르게 동작하도록 설계됐는데요. 갤럭시 S25 Ultra CPU에서는 초당 213토큰, Raspberry Pi 5에서는 초당 42토큰의 생성 속도를 기록했습니다. 크기가 2배 이상 큰 모델과 비교해도 지시 수행, 데이터 추출, 도구 사용 성능에서 경쟁력을 보인다고 합니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730481114_17973724383112832_1289860433863960316_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzkyNzU3MTY4NjM2MzM1NjU1OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=wWPc-DpOBukQ7kNvwHujVzx&amp;_nc_oc=AdpSaExdNvSIraIYOo5JswIW9eRb2VwOa1kEYODVZ_-MTor2l2UOmQ3DdKa_lcDqFrc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af8UkTLonKYCw60GHVnzrdgTqWShNRH7Te7uG9cYr24Jig&amp;oe=6A439D0E\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/730198599_17973724848112832_6236490153413303159_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkyNzU3MTY4NjQ4MDc5NzQ5NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=zmTdUr2V-yUQ7kNvwFrnwqb&amp;_nc_oc=AdrXNUas4-z8ViFgqJoTF9Oob45p6w5_C81hApEXtlHJMotGumVSofrbgsRxMK61aMU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af9RXZ_NzeVzPS4JKUY8n27OrxF1y-9G764waCT71ieJiQ&amp;oe=6A437B1C\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Liquid AI가 2억 3천만(230M) 파라미터 소형 언어모델 LFM2.5-230M을 공개했다. 갤럭시 S25 울트라 CPU에서 초당 213토큰, 라즈베리파이 5에서 42토큰을 기록하며, 크기가 2배 이상 큰 모델과 견줘도 지시 수행·데이터 추출·도구 사용에서 경쟁력을 보여 스마트폰·로봇 등 온디바이스 활용을 겨냥한다.",
+    "tags": [
+      "SLM",
+      "온디바이스",
+      "추론속도"
+    ],
+    "entities": [
+      "Liquid AI",
+      "LFM2.5-230M",
+      "Galaxy S25 Ultra"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "6cce07dd6a6f3a16",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복적으...",
+    "url": "https://www.threads.com/t/DaBYEzlAma4",
+    "publishedAt": "Thu, 25 Jun 2026 20:00:33 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복적으로 수행하는 작업을 SKILL.md 파일로 정의하면 Copilot이 해당 방식대로 DCF 모델 작성, 결산, 분산 분석 같은 업무를 수행할 수 있습니다. 앞으로는 개발자뿐 아니라 기업도 자신만의 업무 방식을 Skills로 만들어 팀 전체에 배포할 수 있게 됩니다. 개인적으로 이번 업데이트에서 가장 중요한 건 AI가 엑셀을 대신하는 것이 아니라, 회사의 업무 방식 자체를 학습한다는 점입니다. 앞으로는 프롬프트보다 어떤 Skills를 갖고 있느냐가 생산성을 결정하는 요소가 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/728833242_1708516177036375_5986763092005348136_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyNzUyNjIzMzQxOTcwMzk5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=eaHwQCMw5ugQ7kNvwHElhrZ&amp;_nc_oc=AdqoUWZLEV_UXhks4lvYSG-oreuUHxf5t1ZklRIwY8VVZTURCuxsmwatU0Buy6-Oqrs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af_UpHP8mVDhNYBm0R62lM2rwLaXNBpeNdECJdQQ-vRsHw&amp;oe=6A43964D\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPq-dfCO3dFsvOb_63qGfW1GHfvhm02Q9E7Z66KdTBb7bIvn9idaIyrfNZs1KTWAfn7_8BUexRNtVcVWozROb6j9FKRfY26y3MAXA8.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=pdezTli5qeYQ7kNvwHaHT99&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM3MjkwMzMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=63525ae6d97a71d8&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRjQ0RjQ1RTEzRkMzMDAyRUJGN0NGRDhGQjIyRjVBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVFNDg2MzdDQjBGRTE3MTUzOUIyRTg1MzQ2QzREMTlBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAtPbk3MDtPxUCKAJDMywXQEu6PXCj1woYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af_WZtLyfJvoVuETV_LDDixDtbik2qtxrRuFgZZSdJKVNQ&amp;oe=6A3F9D21\"></video></p>",
+    "summaryKo": "마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가해, 반복 업무를 SKILL.md 파일로 정의하면 DCF 모델·결산·분산 분석 같은 작업을 그 방식대로 수행하게 했다. 기업이 자신만의 업무 방식을 Skills로 만들어 팀 전체에 배포할 수 있어, 앞으로는 프롬프트보다 어떤 Skills를 갖느냐가 생산성을 가른다는 평가다.",
+    "tags": [
+      "Copilot",
+      "Skills",
+      "엑셀",
+      "자동화"
+    ],
+    "entities": [
+      "Microsoft",
+      "Copilot",
+      "Excel"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "e652a76dbb4a1015",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 투자하시는 분들은 집중해서 볼 소식입니다. 구글이 Google Finance를 베...",
+    "url": "https://www.threads.com/t/DaBNz75ghSB",
+    "publishedAt": "Thu, 25 Jun 2026 18:30:52 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>투자하시는 분들은 집중해서 볼 소식입니다. 구글이 Google Finance를 베타에서 정식 출시하고 새로운 안드로이드 앱도 공개했습니다. AI가 투자 포트폴리오를 분석하고, 관심 종목을 기반으로 시장 브리핑을 자동 생성해 원하는 시간에 전달해주는 기능이 추가됐습니다. 최근 빅테크들의 방향을 보면 구글은 AI 금융 비서를 만들고, 메타는 Polymarket와 비슷한 예측시장 앱 'Arena'를 개발 중인 것으로 알려졌습니다. AI가 돈과 의사결정이 오가는 영역까지 들어가고 있는 흐름인데요. 앞으로는 어떤 모델을 쓰느냐보다 어떤 분야의 데이터를 연결하고, 어떤 결정을 대신 도와주느냐가 더 중요한 경쟁력이 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/728225709_1060713036629701_5971057173174333900_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzkyNzQ4MTA5MzY1NzMzNDkxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=V2Yq4UP7O1cQ7kNvwGFl7-y&amp;_nc_oc=AdriZ8-gg5rO2uUGEd6I5vmPmpuwEZhOAFC0c6IMtzi1y_ILWb6tny4BxcPzrq-oMcQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af9CA4OVOHP_E5HO7wwgFQ7HuedTqizRg1KDay2t5Mk9OQ&amp;oe=6A438B62\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMl741mReltDjZrPOKW-nghh1rqGHSs2cfxf32QTjG0yZr8jmmZYjTWzpvv9Kyp-iz399Mq4Rv6SQ8Qc1zyK_XQFCgOWiPJNoWj0D4.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=9kn0T7B58UYQ7kNvwFeUQ74&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM3Mjk1MjIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=12c0a9410e8229df&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8zMTQxRUUxNzc3QkM2RkJGMDE2RDVDRURBMkZCMDBCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgOWit-DA7T8VAigCQzMsF0A31T987ZFoGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af94Y-gdk3KJIMi41oC6mX5SEExWRvy9r1FP272USeqmwQ&amp;oe=6A3FB7FE\"></video></p>",
+    "summaryKo": "구글이 Google Finance를 정식 출시하고 안드로이드 앱을 공개하며 AI 포트폴리오 분석과 자동 시장 브리핑 기능을 더했다. 메타도 예측시장 앱 'Arena'를 개발 중인 것으로 알려져, AI가 돈과 의사결정 영역으로 들어가는 흐름과 '어떤 데이터를 연결하느냐'가 경쟁력이 되는 변화를 보여준다.",
+    "tags": [
+      "AI금융",
+      "구글",
+      "예측시장"
+    ],
+    "entities": [
+      "Google",
+      "Google Finance",
+      "Meta",
+      "Arena"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "6777b1035a9be3c5",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 🚨 IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기수...",
+    "url": "https://www.threads.com/t/DaBDefiirNw",
+    "publishedAt": "Thu, 25 Jun 2026 17:00:34 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기술인데, 손톱만 한 칩에 트랜지스터 약 1,000억 개로 2021년 2나노의 두 배입니다. 옆이 아니라 위로 쌓는 '나노스택' 구조로 성능 50%, 전력효율 70%를 끌어올렸습니다. IBM이 직접 양산하지는 않는데요. 설계는 IBM이 쥐어도, 마진은 이걸 수율 좋게 찍어내는 쪽이 가져갑니다. 지금 그 미세공정 마진은 TSMC가 사실상 독식 중이라, 삼성엔 파운드리 추격 기회이자 수율 시험대입니다. 양산은 빨라야 5년 뒤, 2031년경입니다. 결국 누가 먼저 싸게 찍어내느냐의 싸움입니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730734635_17973727401112832_3133309041753873933_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=104&amp;ig_cache_key=MzkyNzQzNTYzOTYzMzEzMDM1Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTI1LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=yT8JPx6Q5TUQ7kNvwGwA8Sj&amp;_nc_oc=AdqMtqsHi1p2llaZdo-NI0GBX1ya8k5YdDc1kLG2nM4UnKuIyDyz6qMwn9WFqstrWa4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=8&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af97jUOmlGn0lcNYOCuObhwbRujqZ_qZT6uLBwj5SLktkw&amp;oe=6A438469\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "IBM이 세계 최초로 0.7나노(7옹스트롬) 칩 기술을 선보이며 1나노 벽을 넘었다. 손톱만 한 칩에 트랜지스터 약 1,000억 개를 '나노스택'(수직 적층) 구조로 담아 성능 50%·전력효율 70%를 끌어올렸으나, 양산은 빨라야 2031년경이며 수율 경쟁에서 TSMC·삼성의 파운드리 싸움이 관건이라는 분석이다.",
+    "tags": [
+      "반도체",
+      "나노공정"
+    ],
+    "entities": [
+      "IBM",
+      "TSMC",
+      "삼성"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "14531ebca9f85c08",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "Our latest Google Finance upgrades, including a new app",
+    "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "publishedAt": "Thu, 25 Jun 2026 16:00:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">The new Google Finance is coming out of beta and launching a new Android app.",
+    "summaryKo": "구글 파이낸스가 베타를 졸업하고 정식 출시되며 새 안드로이드 앱도 공개됐다. AI가 투자 포트폴리오를 분석하고 관심 종목 기반 시장 브리핑을 자동 생성하는 등 빅테크가 금융 의사결정 영역으로 AI를 확장하는 흐름을 보여준다.",
+    "tags": [
+      "AI금융",
+      "구글"
+    ],
+    "entities": [
+      "Google",
+      "Google Finance"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "1ebb304792c71c74",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Repositioning retail for the AI era",
+    "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+    "publishedAt": "Thu, 25 Jun 2026 14:22:59 +0000",
+    "rawText": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and&#8230;",
+    "summaryKo": "MIT 테크리뷰가 AI가 리테일을 바꾸는 핵심은 화려한 가상 피팅이나 챗봇이 아니라 검색 노출·재고·공급망·코드 배포 같은 무대 뒤 의사결정 방식이라고 짚는다. 소비자 눈에 잘 띄지 않는 곳에서 변화가 일어나고 있다는 분석이다.",
+    "tags": [
+      "리테일",
+      "AI전환"
+    ],
+    "entities": [
+      "MIT Technology Review"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "0d65b141093fc432",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+    "publishedAt": "Thu, 25 Jun 2026 13:00:34 +0000",
+    "rawText": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales. They lead the [&#8230;]",
+    "summaryKo": "엔비디아가 스팀 여름 세일에 맞춰 GeForce NOW 멤버십 할인을 함께 진행하며 클라우드 게이밍 혜택을 강조했다. Devolver의 Dark Scrolls 등 신작이 라이브러리에 추가됐다.",
+    "tags": [
+      "클라우드게이밍",
+      "GeForce NOW"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GeForce NOW",
+      "Steam"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-26T00:13:23.771Z"
+  },
+  {
+    "id": "3d99cf87d464b7af",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "url": "https://openai.com/index/mufg",
+    "publishedAt": "Tue, 07 Jul 2026 00:00:00 GMT",
+    "rawText": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
     "summaryKo": "일본 최대 금융그룹 MUFG가 ChatGPT Enterprise를 도입해 AI 네이티브 조직으로 전환하고, 워크플로 개선과 AI 기반 금융 서비스를 대규모로 제공하려 한다. 대형 금융기관의 전사적 생성형 AI 도입 사례다.",
     "tags": [
       "생성형AI",
@@ -1766,15 +2450,42 @@
     "fetchedAt": "2026-07-08T00:58:17.215Z"
   },
   {
-    "id": "021d3980cca3707a",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "지식관리 노트앱 그만 비교하세요. 이제 이걸로 정착합니다 - 노션, 옵시디언, 티스토리, 에버노트",
-    "url": "https://www.youtube.com/watch?v=wHDd5OYs758",
-    "publishedAt": "2026-07-05T06:36:17+00:00",
-    "rawText": "지식관리 노트앱 그만 비교하세요. 이제 이걸로 정착합니다 - 노션, 옵시디언, 티스토리, 에버노트",
-    "videoId": "wHDd5OYs758",
-    "summaryKo": "노션·에버노트·티스토리·옵시디언 등 지식관리 노트앱을 비교한 끝에, 소유·AI·복리 세 가지를 모두 만족하는 '옵시디언 + 클로드 코드' 조합으로 정착했다고 소개한다. 마크다운 파일은 여전히 내 컴퓨터에 남고, 클로드가 그 파일을 직접 읽고 쓰고 추론해 주기 때문에 단순 세팅이 아니라 오래 굴러가는 지식 시스템이 된다고 주장한다.",
+    "id": "ab26128c5144e98e",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Cognition이 새로운 코딩 모델 SWE-1.7을 공개했습니다. SWE-1.7은 Kimi K2.7을 기바...",
+    "url": "https://www.threads.com/t/DajR3d2iWhi",
+    "publishedAt": "Thu, 09 Jul 2026 00:00:29 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Cognition이 새로운 코딩 모델 SWE-1.7을 공개했습니다. SWE-1.7은 Kimi K2.7을 기반으로 강화학습(RL)을 개선해 학습한 모델인데요. Cognition은 최고 수준의 Frontier Models와 비교해 성능 차이는 크지 않으면서도 더 낮은 비용으로 사용할 수 있으며, 초당 1,000토큰(1000 tok/s) 속도를 지원한다고 밝혔습니다. 학습 과정에서는 강화학습에서 자주 발생하는 탐색 감소와 수치 불안정 문제를 해결하기 위해 여러 학습 기법을 함께 적용했다고 합니다. 또한 이전 모델보다 코드를 수정하기 전에 더 오래 조사하고 분석하도록 학습해 장기적인 개발 작업에서도 성능을 높였다고 설명했습니다. SWE-1.7은 현재 Devin의 웹, 데스크톱, CLI에서 사용할 수 있습니다.</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/734896609_17976181092112832_2945682158934219070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=MzkzNzA2OTA3NzY2NzM0MjQzNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=VKlw5_5sYhEQ7kNvwGsk9TB&amp;_nc_oc=Adr0gdy9jYerK4drqnnOpTzP59exZ67WlhM4HlaAemRpdNpe1HLPJrnluLGizCFHOcY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQBmCmcWGXxQJ4vQHJIZ66kYdbVh0Yqzo6jvxAMYu5jhTw&amp;oe=6A54BC48\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Cognition이 Kimi K2.7 기반으로 강화학습을 개선해 학습한 새 코딩 모델 SWE-1.7을 공개했다. 최상위 프런티어 모델과 성능 차이는 크지 않으면서 더 낮은 비용과 초당 1,000토큰 속도를 제공하며, 코드 수정 전 더 오래 조사·분석하도록 학습해 장기 개발 작업 성능을 높였다. 현재 Devin의 웹·데스크톱·CLI에서 사용할 수 있다.",
+    "tags": [
+      "SWE-1.7",
+      "코딩모델",
+      "강화학습",
+      "Devin"
+    ],
+    "entities": [
+      "Cognition",
+      "SWE-1.7",
+      "Kimi K2.7",
+      "Devin"
+    ],
+    "cats": [
+      "코딩·개발",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-09T00:11:57.013Z"
+  },
+  {
+    "id": "4abc503008ea1c08",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "How courts are coping with a flood of AI-generated lawsuits",
+    "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+    "publishedAt": "Thu, 04 Jun 2026 10:50:18 +0000",
+    "rawText": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can't afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mindful of how daunting&#8230;",
+    "summaryKo": "AI로 생성된 소송 문서가 법원에 쏟아지면서 미국 법원이 이를 처리하는 방식을 재정비하고 있다. 콜로라도 연방 판사 Maritza Braswell은 변호사 없이 AI가 작성한 문서를 제출하는 사례가 급증하고 있다고 밝혔다.",
     "tags": [
       "지식관리",
       "노트앱",
@@ -6071,461 +6782,6 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "값싼 모델은 아키텍처 규칙을 자주 무시하는데, ANMA는 이를 강제하기 위한 경계 계약 시스템이다.",
-        "ANMA는 CLAUDE.md, 훅(hooks), CI 체크와 결합된 YAML 계약 형태로 동작한다.",
-        "Claude Haiku 4.5 벤치마크에서 ANMA 미적용 시 19회 중 13회 규칙 위반, 적용 시 20회 중 0회로 위반이 사라졌다.",
-        "강하고 비싼 모델은 ANMA 없이도 아키텍처 규칙을 잘 따랐다.",
-        "값싼 모델로도 규칙 준수가 보장되면 에이전트 코딩 비용을 낮출 수 있다는 것이 핵심 동기다."
-      ],
-      "sections": [
-        {
-          "heading": "문제의식과 접근",
-          "body": "제작자는 저렴한 모델이 아키텍처 '규칙'을 자주 무시하는 현상을 관찰하고 ANMA를 만들었다. ANMA는 YAML 계약을 CLAUDE.md·훅·CI 검사와 묶어 모델이 코드 경계를 벗어나지 않도록 강제한다."
-        },
-        {
-          "heading": "벤치마크 결과",
-          "body": "Claude Haiku 4.5로 측정했을 때 ANMA가 없으면 19회 중 13회 규칙을 어겼지만, ANMA를 적용하면 20회 중 0회로 위반이 사라졌다. 반면 더 강하고 비싼 모델들은 원래부터 규칙을 잘 지켜, ANMA의 가치는 값싼 모델을 안정적으로 쓰는 데 있다."
-        }
-      ],
-      "quotes": [
-        "without ANMA it ignored the rules 13 out of 19 runs, with ANMA, 0 out of 20 runs"
-      ]
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "09158002dc85725c",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: AI Colours",
-    "url": "https://github.com/pilotpirxie/ai-colours",
-    "publishedAt": "Sun, 21 Jun 2026 23:40:55 +0000",
-    "rawText": "Article URL: https://github.com/pilotpirxie/ai-colours Comments URL: https://news.ycombinator.com/item?id=48623764 Points: 1 # Comments: 0",
-    "summaryKo": "AI Colours는 주요 AI 기업·도구·서비스가 사용하는 색상 팔레트를 정리한 레퍼런스 프로젝트다. Claude, OpenAI, Microsoft Copilot, Meta Llama 등이 공통적으로 흰색·연한 베이지 톤의 중립적 배경을 선호한다는 점을 RGB 값과 CSS 변수로 카탈로그화해 디자이너·개발자에게 참고 자료를 제공한다.",
-    "tags": [
-      "디자인 레퍼런스",
-      "컬러 팔레트",
-      "AI 브랜딩"
-    ],
-    "entities": [
-      "Claude",
-      "OpenAI",
-      "Microsoft Copilot",
-      "Meta Llama"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "be349d211d937c6e",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: PeekAI – Local-first observability for Python AI agents",
-    "url": "https://github.com/oussamaKH63/peekai",
-    "publishedAt": "Sun, 21 Jun 2026 23:38:15 +0000",
-    "rawText": "Article URL: https://github.com/oussamaKH63/peekai Comments URL: https://news.ycombinator.com/item?id=48623745 Points: 1 # Comments: 0",
-    "summaryKo": "PeekAI는 파이썬 AI 에이전트를 위한 로컬 우선(local-first) 관측성 도구로, 모든 LLM 호출·툴 사용·토큰 소비를 클라우드나 계정 없이 추적한다. `peekai.init()` 한 줄로 적용되는 무설정 계측을 제공하며, 모든 트레이스를 로컬 SQLite에 저장하고 CLI와 웹 대시보드로 에이전트 동작을 디버깅·분석할 수 있다.",
-    "tags": [
-      "AI 관측성",
-      "에이전트 디버깅",
-      "로컬 우선",
-      "Python"
-    ],
-    "entities": [
-      "PeekAI",
-      "SQLite"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "d2368bcca1101caa",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Tech Workers Are Fighting Against Silicon Valley's AI Push",
-    "url": "https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/",
-    "publishedAt": "Sun, 21 Jun 2026 23:29:51 +0000",
-    "rawText": "Article URL: https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/ Comments URL: https://news.ycombinator.com/item?id=48623695 Points: 3 # Comments: 0",
-    "summaryKo": "메타·구글·오라클 등 주요 기술기업 노동자들이 AI 주도의 일터 변화에 맞서 조직화·노조 결성에 나서고 있다는 보도다. 침습적 감시, 강제 AI 교육, 자동화를 명분으로 한 해고, 군사 AI 계약 등이 주요 불만이며, 2025년 이후 약 40만 명이 해고되면서 불안정성을 느낀 직원들이 집단적으로 목소리를 내기 시작했다. 외부 사회 이슈보다 고용 안정·근로조건을 직접 겨냥한다는 점에서 과거 활동과 다르다.",
-    "tags": [
-      "테크 노동",
-      "노조",
-      "AI 자동화",
-      "고용"
-    ],
-    "entities": [
-      "Meta",
-      "Google",
-      "Oracle"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "메타·구글·오라클 등 주요 기술기업 노동자들이 AI 주도 변화에 맞서 조직화·노조 결성에 나서고 있다.",
-        "침습적 감시, 강제 AI 교육, 자동화 명분의 해고, 군사 AI 계약 등이 핵심 불만이다.",
-        "2025년 이후 약 40만 명의 기술 인력이 해고되며 직원들이 더 불안정함을 느끼고 있다.",
-        "이번 움직임은 외부 사회 이슈가 아니라 고용 안정·근로조건을 직접 겨냥한다는 점에서 과거 활동과 다르다."
-      ],
-      "sections": [
-        {
-          "heading": "조직화의 배경",
-          "body": "AI 도입으로 인한 감시 강화, 강제 AI 교육, 자동화를 이유로 한 대규모 해고, 군사 AI 계약 참여 등이 기술 노동자들의 불만을 키웠다. 2025년 이후 누적 약 40만 명 해고로 고용 불안이 심화됐다."
-        },
-        {
-          "heading": "과거 활동과의 차이",
-          "body": "과거 테크 노동자 행동주의가 주로 외부 사회·윤리 이슈를 다뤘다면, 이번에는 자신들의 일자리와 근로조건이라는 직접적 이해관계를 중심으로 집단 행동에 나선다는 점이 특징이다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "ef64964d2680ff4d",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "China's Z.ai open-sourced a frontier coding model as Washington bans it rival",
-    "url": "https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/",
-    "publishedAt": "Sun, 21 Jun 2026 23:28:26 +0000",
-    "rawText": "Article URL: https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/ Comments URL: https://news.ycombinator.com/item?id=48623686 Points: 3 # Comments: 1",
-    "summaryKo": "중국 Z.ai가 프런티어급 코딩 모델을 오픈소스로 공개했는데, 같은 날 워싱턴이 경쟁하는 미국 모델을 금지했다는 점에서 주목받은 소식이다. 미·중 AI 규제·수출통제 구도 속에서 중국 측이 개방형 전략으로 대응하는 흐름을 보여준다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
-    "tags": [
-      "오픈소스 모델",
-      "코딩 모델",
-      "미중 규제"
-    ],
-    "entities": [
-      "Z.ai",
-      "GLM"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "199470936ff5abef",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI is making answers cheap. Curiosity is priceless",
-    "url": "https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless",
-    "publishedAt": "Sun, 21 Jun 2026 23:20:55 +0000",
-    "rawText": "Article URL: https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless Comments URL: https://news.ycombinator.com/item?id=48623636 Points: 1 # Comments: 0",
-    "summaryKo": "AI가 정답(답변)을 값싸게 만들어 주는 시대에는 오히려 질문을 던지는 호기심이 더 희소하고 값진 역량이 된다고 주장하는 칼럼이다. 정보 접근 비용이 0에 수렴할수록 무엇을 물을지 아는 능력이 차별화 요소가 된다는 논지다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
-    "tags": [
-      "AI와 일",
-      "호기심",
-      "지식노동"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "e89f88706380bd39",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Norway Bans AI for Kids 6-13 in Schools",
-    "url": "https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/",
-    "publishedAt": "Sun, 21 Jun 2026 23:12:29 +0000",
-    "rawText": "Article URL: https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/ Comments URL: https://news.ycombinator.com/item?id=48623568 Points: 2 # Comments: 1",
-    "summaryKo": "노르웨이가 2026년 8월부터 6~13세 아동의 학교 내 생성형 AI 사용을 사실상 전면 금지하고, 14~16세는 제한적 감독 하에만 허용하기로 했다. 어린이가 AI에 의존하면 읽기·쓰기·수학 같은 기초 학습 단계를 건너뛰게 된다는 인지 발달 우려와 데이터 프라이버시(GDPR)·콘텐츠 안전 문제가 배경이다. 2024년 스마트폰 금지 성과에 이어, 다른 나라의 교육 AI 정책 모델이 될 수 있는 조치로 평가된다.",
-    "tags": [
-      "AI 규제",
-      "교육",
-      "아동 보호"
-    ],
-    "entities": [
-      "Norway",
-      "GDPR"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "노르웨이가 2026년 8월부터 6~13세 아동의 학교 내 생성형 AI 사용을 사실상 전면 금지한다.",
-        "14~16세는 제한적·감독 하에서만 허용하고, 더 높은 연령대는 책임 있는 사용을 장려한다.",
-        "어린 학생이 AI에 의존하면 기초 학습의 중요한 단계를 건너뛴다는 인지 발달 우려가 핵심 근거다.",
-        "데이터 프라이버시(GDPR)와 콘텐츠 안전 위험도 정책 배경으로 작용했다.",
-        "2024년 스마트폰 금지로 괴롭힘 감소·성적 향상 성과를 본 데 이어 나온 조치로, 다른 나라의 모델이 될 수 있다."
-      ],
-      "sections": [
-        {
-          "heading": "정책 내용과 연령 구분",
-          "body": "2026년 8월부터 시행되며 6~13세는 사실상 전면 금지, 14~16세는 감독 하 제한 허용, 그 이상 연령은 책임 있는 사용을 권장한다. 요나스 가르 스퇴레 총리는 어린이가 AI를 쓰면 교육의 중요한 단계를 건너뛴다고 강조했다."
-        },
-        {
-          "heading": "배경과 파급",
-          "body": "인지 발달 우려와 더불어 GDPR 하의 데이터 프라이버시, 콘텐츠 안전 위험이 정책 동기로 작용했다. 2024년 스마트폰 금지로 괴롭힘이 줄고 학업 성취가 개선된 경험이 토대가 됐으며, 노르웨이를 기술 규제의 선도국으로 자리매김시키는 조치로 평가된다."
-        }
-      ],
-      "quotes": [
-        "young children skip important steps in their education when using AI tools"
-      ]
-    },
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "dbcad87e828f0151",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Fast-tracked power plants fuel AI boom, with little public scrutiny",
-    "url": "https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/",
-    "publishedAt": "Sun, 21 Jun 2026 23:11:06 +0000",
-    "rawText": "Article URL: https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/ Comments URL: https://news.ycombinator.com/item?id=48623560 Points: 2 # Comments: 0",
-    "summaryKo": "AI 붐에 따른 데이터센터 전력 수요를 맞추기 위해 발전소 건설이 충분한 공적 검토 없이 빠르게 승인(패스트트랙)되고 있다는 로이터 보도다. 전력 인프라 확장이 환경·지역사회 영향에 대한 투명성 부족 속에 진행되는 점을 지적한다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
-    "tags": [
-      "AI 인프라",
-      "전력",
-      "데이터센터",
-      "규제"
-    ],
-    "entities": [
-      "Reuters"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "4c4175b8f8ff1313",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 노벨 생리의학상 수상자이자 스탠퍼드 대학교 교수인 토마스 쥐트호...",
-    "url": "https://www.threads.com/t/DZ3ZcOejoT1",
-    "publishedAt": "Sun, 21 Jun 2026 23:00:05 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>노벨 생리의학상 수상자이자 스탠퍼드 대학교 교수인 토마스 쥐트호프(Thomas Südhof)는 기술적 진보가 바이오 경제와 의료 혁신을 이끄는 핵심 동력이라고 강조했습니다. 그는 “인공지능은 생물학 혁신을 이끄는 주요 구성 요소”라고 말하며, AI가 생물학 연구의 패러다임을 바꾸고 있음을 확언했습니다. 특히 AI의 고성능 연산 처리를 위해서는 데이터가 필수적인데, 현재 과학계는 과거에 없던 새로운 방식으로 방대한 고품질 데이터를 확보하고 있습니다. 쥐트호프 교수는 이러한 데이터와 AI 기술의 결합이 질병의 근본적인 원인을 이해하고 새로운 실험을 수행하는 방식을 완전히 바꿀 것으로 분석했습니다. 나아가 인류의 건강과 웰빙을 위협하는 현대 의학의 거대한 난제들을 해결함으로써 바이오 분야의 기술적 특이점을 앞당기고 관련 산업 생태계 전반에 폭발적인 경제적 가치를 창출할 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/726987354_1353327280019920_8888916150237270022_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkyNDcxNzQ5MTEyOTg0NDk4MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=42AWjA79DlMQ7kNvwEobmMJ&amp;_nc_oc=AdrxtQhtojzupRAlXHx1KdbFYlKD-0Gz9cK7eXG4iQOeUmJsNSUU4yN1aibDbjS70Tg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-TnKpX5PC9TQo4ppijO_dIcPmb7HK2TLgcByXW6r3pUQ&amp;oe=6A3E4477\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQNhmhZCQMMIPN3w4K4w5jJV40DtKGkKs1n7-yV8Gos9RKlouAi-u394lF8Iu5BcDCSmqN37NOsVfpDnJ0AWG48DKr7WZb5IkSg49uA.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=zrJF6zQECQ4Q7kNvwHOz9it&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzI5NzEwNzExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=70b7130b76467266&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wMDQyRDUxMEVENzU5MjYzMTkwNTcyOTM2RTcxMUU4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVCNEMwNDM1RDUyMTYwMTU2QzQwMjlGNUQyQTAwMDkyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAmoTEzZTtPxUCKAJDMywXQFg3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-oRRKwhI_-KuKkBw6sbIhzL8xVnADqerDGD4JUajjnYg&amp;oe=6A3A6E7C\"></video></p>",
-    "summaryKo": "노벨 생리의학상 수상자이자 스탠퍼드 교수인 토마스 쥐트호프가 기술 진보가 바이오 경제와 의료 혁신을 이끄는 핵심 동력이라고 강조한 내용을 전하는 SNS 글이다. 그는 '인공지능은 생물학 혁신을 이끄는 주요 구성 요소'라며 AI가 생물학 연구의 패러다임을 바꾸고 있다고 확언했다.",
-    "tags": [
-      "AI 바이오",
-      "과학 혁신"
-    ],
-    "entities": [
-      "Thomas Südhof",
-      "Stanford"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "4a975b89e4a0f0fb",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-    "publishedAt": "Sun, 21 Jun 2026 23:00:00 GMT",
-    "rawText": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-    "summaryKo": "삼성전자가 전 세계 임직원에게 ChatGPT Enterprise와 Codex를 배포한다고 OpenAI가 발표했다. 이는 OpenAI의 기업용 AI 도입 사례 중 최대 규모 중 하나로, 대기업 업무 전반과 개발 워크플로우에 생성형 AI가 본격 도입되는 흐름을 보여준다.",
-    "tags": [
-      "ChatGPT Enterprise",
-      "Codex",
-      "엔터프라이즈 AI"
-    ],
-    "entities": [
-      "OpenAI",
-      "Samsung Electronics",
-      "ChatGPT",
-      "Codex"
-    ],
-    "cats": [
-      "기업·정책",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "c510d2ca559b00e2",
-    "sourceType": "news",
-    "source": "Towards Data Science",
-    "title": "Tool Calling, Explained: How AI Agents Decide What to Do Next",
-    "url": "https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/",
-    "publishedAt": "Sun, 21 Jun 2026 17:00:00 +0000",
-    "rawText": "Understanding ow LLMs interact with the world around them, from returning data to taking action The post Tool Calling, Explained: How AI Agents Decide What to Do Next appeared first on Towards Data Science.",
-    "summaryKo": "LLM이 외부 세계와 상호작용하는 핵심 메커니즘인 '툴 콜링(tool calling)'을 설명하는 글이다. 모델이 단순히 데이터를 반환하는 것을 넘어 어떤 도구를 호출해 다음 행동을 결정하는지, AI 에이전트의 동작 원리를 풀어낸다.",
-    "tags": [
-      "툴 콜링",
-      "에이전트",
-      "LLM"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "e2c1c48cc4df4dcd",
-    "sourceType": "news",
-    "source": "Towards Data Science",
-    "title": "Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section",
-    "url": "https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/",
-    "publishedAt": "Sun, 21 Jun 2026 15:00:00 +0000",
-    "rawText": "Enterprise Document Intelligence [Vol.1 #5septies] - When a PDF prints a contents page but exposes no outline, two ways to turn it back into structure, plus the page-alignment step everyone forgets The post Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section appeared first on Towards Data Science.",
-    "summaryKo": "PDF가 목차 페이지는 인쇄해 두었지만 실제 아웃라인(북마크) 구조는 노출하지 않는 경우, 이를 다시 구조화해 RAG가 섹션 단위로 범위를 좁힐 수 있게 만드는 방법을 다룬 엔터프라이즈 문서 처리 글이다. 목차를 구조로 되돌리는 두 가지 방식과 흔히 놓치는 페이지 정렬 단계를 설명한다.",
-    "tags": [
-      "RAG",
-      "문서 처리",
-      "PDF"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "0c68355e5be136d8",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 ...",
-    "url": "https://www.threads.com/t/DZ2brnkjMTU",
-    "publishedAt": "Sun, 21 Jun 2026 14:00:25 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 “모든 사람이 가상 인공지능 팀을 이끄는 보스(Boss)가 될 것”이라고 강조했습니다. 마치 거물 기업가나 정치인이 개인 보좌진을 거느리는 것처럼, 모든 개인이 스마트폰이나 스마트 글래스를 통해 일상적인 업무를 돕고 문제를 해결해 주는 지능형 에이전트 스태프를 두게 된다는 설명입니다. 얀 르쿤은 이러한 에이전트 생태계의 고도화가 인간의 생산성을 극대화하여 미래 기술 경제의 패러다임을 바꿀 것으로 분석했습니다. 나아가 기술적 과제가 아직 남아있지만, 기하급수적인 성능 발전을 통해 가사 로봇의 대중화와 완전 자율주행차의 상용화 역시 10년 안에 충분히 실현될 수 있을 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/727927770_1777628849888953_4257281916246475068_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyNDQ0NTg2OTk4MjQwMTc0OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=GPirA3LAzqQQ7kNvwG2FGQq&amp;_nc_oc=AdqSHFiOuFI6_g62nEZOhNNy3lRbcTuv6nONF9iuO_Z5AjwsolYYlPrAq9RJLzUwdfQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-Rc_mYhoitXqB8i7ECrhCmOqmze1vZbQUwMLwHn9s7cA&amp;oe=6A3E5CC7\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQPuQqoGBg87PK8XlEGjr-y0dpVQs0g5U7lgHYvrsRZ8zgzKSrkXxE0cIhqSquRBfzG9cU0P8LbmgNWRRfXqt49-ZAD-1AoT9TBLlh4.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=QwIWWsp6rP8Q7kNvwEGzQRC&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzI5NjQzNjMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=379870881e90582d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EQzQwM0EyQzRBRDY4RTNCNERFMUQ3MTcyOTQwNUE5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNDNDBDMzBGQzFBOTVGQjk2NEMwQkJGMENFNzFBREFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAxuTGm5TtPxUCKAJDMywXQFSeuFHrhR8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-GlPTTDTMpapT4Lr3cdPIFxuL7lP82WXDZCr4LGMebCg&amp;oe=6A3A753A\"></video></p>",
-    "summaryKo": "얀 르쿤이 10년 뒤 미래 사회를 예측하며 '모든 사람이 가상 AI 팀을 이끄는 보스가 될 것'이라고 강조한 내용을 전하는 SNS 글이다. 거물 기업가나 정치인이 보좌진을 거느리듯, 모든 개인이 스마트폰·스마트글래스를 통해 일상 업무를 돕는 지능형 에이전트 팀을 거느리게 된다는 전망이다.",
-    "tags": [
-      "AI 미래 전망",
-      "에이전트",
-      "얀 르쿤"
-    ],
-    "entities": [
-      "Yann LeCun"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "4b220d043d4a772c",
-    "sourceType": "news",
-    "source": "Towards Data Science",
-    "title": "What Are the Possibilities to Build Date Tables in Self-Service Environments?",
-    "url": "https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/",
-    "publishedAt": "Sun, 21 Jun 2026 13:00:00 +0000",
-    "rawText": "For years, I created date tables with DAX code whenever I didn’t have a way to create them upstream of the data flow. Now I've realised there's another way to do it. Let’s see what the alternatives are and how they compare. The post What Are the Possibilities to Build Date Tables in Self-Service Environments? appeared first on Towards Data Science.",
-    "summaryKo": "셀프서비스 BI 환경에서 날짜 테이블(date table)을 만드는 여러 방법을 비교한 글이다. 그동안 DAX 코드로 날짜 테이블을 만들어 왔지만, 데이터 흐름 상류에서 만들 수 없을 때 쓸 수 있는 다른 대안들을 살펴보고 장단점을 비교한다.",
-    "tags": [
-      "데이터 엔지니어링",
-      "BI",
-      "DAX"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "d222da6b8a11b35e",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 한번 보면 다시 보지 않을 수 없는 순간. AI 혁명을 만든 연구르...",
-    "url": "https://www.threads.com/t/DZ2J0sfjwOx",
-    "publishedAt": "Sun, 21 Jun 2026 11:24:22 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>한번 보면 다시 보지 않을 수 없는 순간. AI 혁명을 만든 연구를 세상에 무료로 내놓은 사람이, 그 연구 위에 만들어진 회사가 \"AI 연구자는 쓸 수 없다\"는 조항을 다는 것을 목격했습니다. :</p><p><img src=\"https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/727457582_17972983596112832_5486089333086633313_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkyNDM2NzMyODkwNTQ2MjcwNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=VFfSpQ38k60Q7kNvwFZCTqt&amp;_nc_oc=Adq7lZdqgq97cUWup1DZ49CxZzKlf0K-8McwxZl1EdH5XTvbMwqnwJMB88UmuUKIEPU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af_Wa1BtqALYLXNzu9gg3Zr95ImHw4VOPm0rVSbrBPNe9A&amp;oe=6A3E42A6\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "AI 혁명을 만든 연구를 세상에 무료로 공개했던 사람이, 그 연구 위에 세워진 회사가 'AI 연구자는 쓸 수 없다'는 조항을 다는 것을 목격했다는 비판을 담은 SNS 글이다. 개방형 연구의 성과가 폐쇄적 이용 조건으로 되돌아오는 아이러니를 지적한다.",
-    "tags": [
-      "AI 윤리",
-      "오픈 연구",
-      "라이선스"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "479978963fd37a3b",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 채찍 없이도 돌아가는 통제사회가 온다. 스카이넷이 인류와 총을 ᄃ...",
-    "url": "https://www.threads.com/t/DZ1vUHrD-66",
-    "publishedAt": "Sun, 21 Jun 2026 07:32:44 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>채찍 없이도 돌아가는 통제사회가 온다. 스카이넷이 인류와 총을 들고 싸우는 그림보다, 채찍 없이 조용히 돌아가는 사회가 훨씬 더 현실적이고 무섭습니다. 감시로 누구인지 알아내고, 기본소득과 편의로 저항할 이유 자체를 없애는 사회요. 그런 사회를 떠올릴 때 제 머릿속에 자꾸 남는 게 하나 있습니다. 국가가 끌 수 없는 돈, 비트코인입니다. 지금은 주식과 AI에 가려 조용하지만, 이 이야기를 한 번 적어두고 싶었습니다. 🧵</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/726838399_17972949798112832_4109524390430418850_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzkyNDI1MDc0MTEzNzQ2OTExNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=NDNUWff8kOcQ7kNvwEAMOmg&amp;_nc_oc=AdodxYCIAbaYXMNDK3X7k0xKKRtiFGCgfqbRfIGV4Zt4scSMY_R51fC357bKtkGtorI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-cUipQZdFMaHSCS2VzPcR6WIwf6acJfoXyY1LlK-Mxhg&amp;oe=6A3E53A6\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "스카이넷이 인류와 총을 들고 싸우는 그림보다, 채찍 없이 조용히 돌아가는 통제사회가 훨씬 현실적이고 무섭다고 경고하는 SNS 글이다. 감시로 개인을 식별하고 기본소득·편의로 저항할 이유 자체를 없애는 사회를 우려하며, 국가가 끌 수 없는 돈 같은 장치의 필요성을 시사한다.",
-    "tags": [
-      "AI 감시",
-      "통제사회",
-      "AI 안전"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
-  },
-  {
-    "id": "b650a39004ea4c4a",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "클로드 코드에서 Opus 대신 GLM 5.2 쓰는게 답이네요 | 오픈웨이트 SOTA 모델",
-    "url": "https://www.youtube.com/watch?v=yB16BT1IMag",
-    "publishedAt": "2026-06-20T17:24:09+00:00",
-    "rawText": "클로드 코드에서 Opus 대신 GLM 5.2 쓰는게 답이네요 | 오픈웨이트 SOTA 모델",
-    "videoId": "yB16BT1IMag",
-    "summaryKo": "Claude Code에서 Opus 대신 오픈웨이트 SOTA 모델인 GLM 5.2를 사용하는 것이 비용·성능 측면에서 낫다는 주장을 담은 영상이다. 오픈웨이트 모델을 코딩 에이전트에 붙여 쓰는 방법에 초점을 둔다.",
-    "tags": [
-      "GLM",
-      "오픈웨이트",
-      "Claude Code"
-    ],
-    "entities": [
-      "GLM 5.2",
-      "Claude Code",
-      "Opus"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "a410d6d9dd993232",
-    "sourceType": "news",
-    "source": "Towards Data Science",
-    "title": "7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture",
-    "url": "https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/",
-    "publishedAt": "Sat, 20 Jun 2026 17:00:00 +0000",
-    "rawText": "What data teams need to build with AI to make self-healing data architecture a practical reality The post 7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture appeared first on Towards Data Science.",
-    "summaryKo": "데이터 팀이 '자가 치유형(self-healing) 데이터 아키텍처'를 현실로 만들기 위해 AI로 무엇을 구축해야 하는지, 그리고 그 사이를 가로막는 7가지 핵심 장벽을 짚은 글이다. 자동 복구되는 데이터 파이프라인을 실용적으로 구현하기 위한 조건을 논의한다.",
-    "tags": [
-      "데이터 아키텍처",
-      "자동화",
-      "AI"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-22T00:10:18.877Z"
+    "fetchedAt": "2026-06-19T02:12:32.491Z"
   }
 ]
