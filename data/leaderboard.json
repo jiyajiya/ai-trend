@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-07-09",
-  "windowLabel": "2026년 7월 3~9일 기준",
-  "updatedAt": "2026-07-09T00:11:35Z",
+  "asOf": "2026-07-10",
+  "windowLabel": "2026년 7월 4~10일 기준",
+  "updatedAt": "2026-07-10T00:10:01Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -13,8 +13,8 @@
       "note": "13개 벤치마크를 종합한 단일 점수 — 모델을 한 숫자로 빠르게 비교할 때.",
       "ranks": [
         { "rank": 1, "model": "Claude Fable 5", "score": "Index 60", "basis": "Artificial Analysis Intelligence Index 60 1위, LMSYS Text Arena Elo 1509 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Claude Opus 4.8", "score": "Index 56", "basis": "Intelligence Index 56 (max)", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT-5.5", "score": "Index 55", "basis": "Intelligence Index 55 (xhigh)", "source": "artificialanalysis" }
+        { "rank": 2, "model": "GPT-5.6 Sol", "score": "Index 59", "basis": "Intelligence Index 59 (max)", "source": "artificialanalysis" },
+        { "rank": 3, "model": "Claude Opus 4.8", "score": "Index 56", "basis": "Intelligence Index 56 (max)", "source": "artificialanalysis" }
       ]
     },
     {
@@ -79,13 +79,14 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1339", "basis": "Elo 1339, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1340", "basis": "Elo 1340, Arena 1위", "source": "artificialanalysis" },
         { "rank": 2, "model": "Reve 2.0", "score": "Elo 1281", "basis": "Elo 1281", "source": "artificialanalysis" },
-        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1270", "basis": "Elo 1270", "source": "artificialanalysis" },
-        { "rank": 4, "model": "HiDream-O1-Image-1.5", "score": "Elo 1265", "basis": "Elo 1265", "source": "artificialanalysis" },
-        { "rank": 5, "model": "GPT Image 1.5 (high)", "score": "Elo 1261", "basis": "Elo 1261", "source": "artificialanalysis" },
-        { "rank": 6, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1227", "basis": "오픈웨이트 1위, Elo 1227 (agentic)", "source": "artificialanalysis" },
-        { "rank": 7, "model": "HiDream-O1-Image-Dev-2604", "score": "Elo 1187", "basis": "Elo 1187", "source": "artificialanalysis" }
+        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1271", "basis": "Elo 1271", "source": "artificialanalysis" },
+        { "rank": 4, "model": "HiDream-O1-Image-1.5", "score": "Elo 1266", "basis": "Elo 1266", "source": "artificialanalysis" },
+        { "rank": 5, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
+        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1261", "basis": "Elo 1261", "source": "artificialanalysis" },
+        { "rank": 7, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1227", "basis": "오픈웨이트 1위, Elo 1227 (agentic)", "source": "artificialanalysis" },
+        { "rank": 8, "model": "HiDream-O1-Image-Dev-2604", "score": "Elo 1187", "basis": "Elo 1187", "source": "artificialanalysis" }
       ]
     },
     {
@@ -137,9 +138,9 @@
   ],
   "sources": [
     { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 7월 1일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 9일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 9일" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 9일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 10일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 10일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 10일" },
     { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 7월 1일" }
   ]
 }
