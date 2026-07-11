@@ -7,7 +7,7 @@
     "url": "https://github.com/DietrichGebert/ponytail",
     "publishedAt": "2026-06-12T00:52:37Z",
     "rawText": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "score": 79187,
+    "score": 80149,
     "lang": "JavaScript",
     "rank": 1,
     "summaryKo": "AI 에이전트가 '방 안에서 가장 게으른 시니어 개발자'처럼 사고하게 만드는 도구다. 가장 좋은 코드는 아예 작성하지 않은 코드라는 원칙으로 과잉 구현을 줄이도록 유도한다.",
@@ -23,7 +23,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "459b6a0a801b4b76",
@@ -33,7 +33,7 @@
     "url": "https://huggingface.co/tencent/Hy3",
     "publishedAt": "2026-07-02T13:23:54.000Z",
     "rawText": "text-generation | transformers, safetensors, hy_v3, text-generation, hunyuan, hy3, moe, conversational",
-    "score": 592,
+    "score": 638,
     "rank": 1,
     "summaryKo": "텐센트가 공개한 Hunyuan 계열 'Hy3' 텍스트 생성 모델이다. MoE(전문가 혼합) 구조의 대화형 파운데이션 모델로 보인다.",
     "tags": [
@@ -51,7 +51,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -61,7 +61,7 @@
     "url": "https://github.com/XiaomiMiMo/MiMo-Code",
     "publishedAt": "2026-06-10T11:52:41Z",
     "rawText": "MiMo Code: Where Models and Agents Co-Evolve",
-    "score": 11706,
+    "score": 11766,
     "lang": "TypeScript",
     "rank": 2,
     "summaryKo": "샤오미의 'MiMo-Code'로, 모델과 에이전트가 함께 진화(co-evolve)하는 것을 지향하는 코딩 프로젝트다.",
@@ -78,7 +78,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "d9f49e336e714662",
@@ -88,7 +88,7 @@
     "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "publishedAt": "2026-06-19T14:32:14.000Z",
     "rawText": "image-text-to-text | gguf, llama.cpp, quantized, qwen3.5, reasoning, uncensored, long-context, 1M-context",
-    "score": 569,
+    "score": 505,
     "rank": 2,
     "summaryKo": "Qwen3.5 기반 9B 파인튜닝 모델의 GGUF 양자화 버전으로, 추론 특화·무검열·1M 롱컨텍스트를 표방한다. llama.cpp 등 로컬 실행 환경을 겨냥한 이미지-텍스트 모델이다.",
     "tags": [
@@ -106,7 +106,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "100adeb9b2f158ec",
@@ -145,7 +145,7 @@
     "url": "https://github.com/omnigent-ai/omnigent",
     "publishedAt": "2026-06-11T12:18:13Z",
     "rawText": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-    "score": 6928,
+    "score": 7005,
     "lang": "Python",
     "rank": 3,
     "summaryKo": "Omnigent는 Claude Code·Codex·Cursor·Pi 등 여러 에이전트를 오케스트레이션하는 오픈소스 AI 에이전트 프레임워크이자 메타-하네스다. 코드 재작성 없이 하네스를 교체하고 정책·샌드박싱을 강제할 수 있다.",
@@ -166,7 +166,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "9ec90332da9eec1d",
@@ -176,7 +176,7 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2",
     "publishedAt": "2026-06-16T07:39:20.000Z",
     "rawText": "text-generation | transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763",
-    "score": 365,
+    "score": 343,
     "rank": 3,
     "summaryKo": "Zhipu AI(zai-org)가 공개한 'GLM-5.2' 텍스트 생성 모델이다. MoE(glm_moe_dsa) 구조의 다국어(영어·중국어) 대화형 파운데이션 모델이다.",
     "tags": [
@@ -192,7 +192,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "f465bd989015fa8e",
@@ -202,7 +202,7 @@
     "url": "https://github.com/cobusgreyling/loop-engineering",
     "publishedAt": "2026-06-09T06:28:20Z",
     "rawText": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
-    "score": 6836,
+    "score": 6948,
     "lang": "JavaScript",
     "rank": 4,
     "summaryKo": "AI 코딩 에이전트를 위한 '루프 엔지니어링' 패턴·스타터·CLI 도구 모음이다. 에이전트를 프롬프트·오케스트레이션하는 시스템 설계법을 담았고 loop-audit 등 도구를 포함한다.",
@@ -221,7 +221,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "5a5e0e83525a14e1",
@@ -231,7 +231,7 @@
     "url": "https://huggingface.co/InternScience/Agents-A1",
     "publishedAt": "2026-06-22T02:22:59.000Z",
     "rawText": "text-generation | transformers, safetensors, qwen3_5_moe, image-text-to-text, moe, vlm, vision, agentic",
-    "score": 244,
+    "score": 253,
     "rank": 4,
     "summaryKo": "Qwen3.5 MoE 기반의 에이전트·비전(VLM) 특화 모델 'Agents-A1'이다. 에이전트 작업과 이미지-텍스트 처리를 함께 겨냥한 멀티모달 모델이다.",
     "tags": [
@@ -250,30 +250,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "c45bf202eddbb676",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "opensquilla/opensquilla",
-    "url": "https://github.com/opensquilla/opensquilla",
-    "publishedAt": "2026-05-06T17:43:05Z",
-    "rawText": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
-    "score": 5347,
-    "lang": "Python",
-    "rank": 5,
-    "summaryKo": "OpenSquilla는 같은 예산으로 더 높은 지능 밀도를 목표로 하는 토큰 효율적 AI 에이전트 프로젝트다.",
-    "tags": [
-      "에이전트",
-      "토큰효율"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-04T00:00:36.011Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "f8a847563fafb618",
@@ -283,7 +260,7 @@
     "url": "https://github.com/Forward-Future/loopy",
     "publishedAt": "2026-06-12T14:44:22Z",
     "rawText": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
-    "score": 2602,
+    "score": 2635,
     "lang": "JavaScript",
     "rank": 5,
     "summaryKo": "실용적인 AI 에이전트 루프 라이브러리이자, 반복 가능한 에이전트 워크플로를 찾고 적용·설계하도록 돕는 설치형 스킬이다.",
@@ -299,7 +276,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "b7884da985bf42b8",
@@ -309,7 +286,7 @@
     "url": "https://huggingface.co/baidu/Unlimited-OCR",
     "publishedAt": "2026-06-19T09:40:33.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language, ocr, custom_code",
-    "score": 229,
+    "score": 217,
     "rank": 5,
     "summaryKo": "바이두가 공개한 비전-언어 OCR 모델 'Unlimited-OCR'이다. 문서·이미지의 텍스트 인식을 위한 이미지-텍스트 모델이다.",
     "tags": [
@@ -325,7 +302,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "be793f916139b4f2",
@@ -335,7 +312,7 @@
     "url": "https://github.com/inkeep/open-knowledge",
     "publishedAt": "2026-06-03T11:12:40Z",
     "rawText": "Beautiful, AI-native markdown editor and LLM wiki",
-    "score": 2148,
+    "score": 2556,
     "lang": "TypeScript",
     "rank": 6,
     "summaryKo": "AI 네이티브 마크다운 에디터이자 LLM 위키인 'open-knowledge'다. LLM과 결합해 지식을 작성·정리하는 데 초점을 둔다.",
@@ -350,34 +327,60 @@
     ],
     "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
-    "id": "f370b84f8192d513",
+    "id": "a39f24d11ba4154e",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "google/tabfm-1.0.0-pytorch",
-    "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-    "publishedAt": "2026-06-29T23:04:41.000Z",
-    "rawText": "tabular-classification | tabfm, safetensors, tabular, tabular-regression, zero-shot, in-context-learning, pytorch, foundation-model",
-    "score": 207,
+    "title": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "publishedAt": "2026-07-06T13:16:04.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, qwen3_6, token-efficient, efficient-thinking, conversational",
+    "score": 204,
     "rank": 6,
-    "summaryKo": "구글의 표(tabular) 데이터용 파운데이션 모델 'TabFM 1.0'이다. 제로샷·인컨텍스트 학습으로 표 분류·회귀를 수행한다.",
+    "summaryKo": "Qwen3.6 기반 27B 이미지-텍스트 모델 'ThinkingCap'으로, 토큰 효율적·효율적 추론(efficient thinking)을 특징으로 내세운다.",
     "tags": [
-      "파운데이션모델",
-      "tabular",
-      "제로샷",
-      "Google"
+      "LLM",
+      "추론",
+      "Qwen",
+      "멀티모달"
     ],
     "entities": [
-      "Google",
-      "TabFM"
+      "Qwen3.6",
+      "ThinkingCap"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
+  },
+  {
+    "id": "8c1a63064bfb749f",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "synthetic-sciences/openscience",
+    "url": "https://github.com/synthetic-sciences/openscience",
+    "publishedAt": "2026-07-03T15:06:45Z",
+    "rawText": "The open-source AI workbench for scientific research",
+    "score": 2075,
+    "lang": "TypeScript",
+    "rank": 7,
+    "summaryKo": "과학 연구를 위한 오픈소스 AI 워크벤치를 표방하는 프로젝트다. 연구 워크플로에 AI를 통합하는 도구로, TypeScript로 개발됐다.",
+    "tags": [
+      "과학연구",
+      "오픈소스",
+      "AI워크벤치"
+    ],
+    "entities": [
+      "openscience"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "53a7b8f9e891d4b7",
@@ -404,30 +407,31 @@
     "fetchedAt": "2026-07-10T00:10:46.309Z"
   },
   {
-    "id": "b78e47b2530bb426",
+    "id": "f370b84f8192d513",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "AliesTaha/fable-traces",
-    "url": "https://huggingface.co/AliesTaha/fable-traces",
-    "publishedAt": "2026-07-03T21:55:50.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3, text-generation, instruct, conversational, egypt-won, en",
-    "score": 188,
+    "title": "google/tabfm-1.0.0-pytorch",
+    "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+    "publishedAt": "2026-06-29T23:04:41.000Z",
+    "rawText": "tabular-classification | tabfm, safetensors, tabular, tabular-regression, zero-shot, in-context-learning, pytorch, foundation-model",
+    "score": 190,
     "rank": 7,
-    "summaryKo": "Qwen3 기반 instruct 텍스트 생성 모델 'fable-traces'다.",
+    "summaryKo": "구글의 표(tabular) 데이터용 파운데이션 모델 'TabFM 1.0'이다. 제로샷·인컨텍스트 학습으로 표 분류·회귀를 수행한다.",
     "tags": [
-      "LLM",
-      "Qwen",
-      "파인튜닝"
+      "파운데이션모델",
+      "tabular",
+      "제로샷",
+      "Google"
     ],
     "entities": [
-      "Qwen3",
-      "fable-traces"
+      "Google",
+      "TabFM"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "ea2970d8679d2d55",
@@ -437,7 +441,7 @@
     "url": "https://github.com/fancyboi999/ai-engineering-from-scratch-zh",
     "publishedAt": "2026-05-26T12:45:07Z",
     "rawText": "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南",
-    "score": 791,
+    "score": 801,
     "lang": "Python",
     "rank": 8,
     "summaryKo": "'AI 엔지니어링을 밑바닥부터' 익히는 중국어 학습 자료로, AI 에이전트 엔지니어가 되기 위한 20단계 503개 강의 커리큘럼과 사이트·애니메이션 강의를 제공한다.",
@@ -451,36 +455,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "60a076ee36d2b3f6",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "NirDiamant/Agent_Memory_Techniques",
-    "url": "https://github.com/NirDiamant/Agent_Memory_Techniques",
-    "publishedAt": "2026-05-05T21:08:23Z",
-    "rawText": "Agent memory for LLMs: 30 runnable Jupyter notebooks covering conversation buffers, vector stores, knowledge graphs, episodic and semantic memory, MemGPT, Mem0, Letta, Zep, Graphiti, LoCoMo benchmarks, and production patterns.",
-    "score": 717,
-    "lang": "Jupyter Notebook",
-    "rank": 8,
-    "summaryKo": "LLM 에이전트의 메모리 기법을 다루는 30개 실행형 주피터 노트북 모음이다. 대화 버퍼, 벡터 스토어, 지식 그래프, 에피소딕·시맨틱 메모리부터 MemGPT·Mem0·Letta·Zep·Graphiti와 LoCoMo 벤치마크까지 프로덕션 패턴을 다룬다.",
-    "tags": [
-      "에이전트메모리",
-      "RAG",
-      "교육"
-    ],
-    "entities": [
-      "MemGPT",
-      "Mem0",
-      "Letta",
-      "Zep"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-04T00:00:36.011Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "d50b3cae6147e43f",
@@ -510,31 +485,30 @@
     "fetchedAt": "2026-07-08T00:18:47.204Z"
   },
   {
-    "id": "1dc2322c4361beca",
+    "id": "b78e47b2530bb426",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "froggeric/Qwen-Fixed-Chat-Templates",
-    "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
-    "publishedAt": "2026-04-23T15:28:14.000Z",
-    "rawText": "mlx, jinja, chat-template, qwen, qwen3.5, qwen3.6, lm-studio, llama.cpp",
-    "score": 183,
+    "title": "AliesTaha/fable-traces",
+    "url": "https://huggingface.co/AliesTaha/fable-traces",
+    "publishedAt": "2026-07-03T21:55:50.000Z",
+    "rawText": "text-generation | transformers, safetensors, qwen3, text-generation, instruct, conversational, egypt-won, en",
+    "score": 190,
     "rank": 8,
-    "summaryKo": "Qwen3.5·3.6용 채팅 템플릿을 수정·정리한 자료로, LM Studio·llama.cpp 등에서 쓰도록 jinja 기반 템플릿을 제공한다.",
+    "summaryKo": "Qwen3 기반 instruct 텍스트 생성 모델 'fable-traces'다.",
     "tags": [
+      "LLM",
       "Qwen",
-      "챗템플릿",
-      "로컬LLM"
+      "파인튜닝"
     ],
     "entities": [
-      "Qwen",
-      "LM Studio",
-      "llama.cpp"
+      "Qwen3",
+      "fable-traces"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "2a59f1a9ea9a463e",
@@ -585,34 +559,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "b2c8ab848f47a0fc",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "deepreinforce-ai/Ornith-1.0-35B",
-    "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
-    "publishedAt": "2026-06-21T03:30:07.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3_5_moe, image-text-to-text, text-generation, conversational, license:mit, eval-results",
-    "score": 266,
-    "rank": 9,
-    "summaryKo": "DeepReinforce AI의 Ornith-1.0 350억 파라미터판으로, Qwen3.5 MoE 아키텍처 기반의 이미지-텍스트 대화 모델이다.",
-    "tags": [
-      "MoE",
-      "멀티모달",
-      "추론"
-    ],
-    "entities": [
-      "Ornith",
-      "Qwen"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-04T00:00:36.011Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "084c766567ca5b98",
@@ -641,31 +588,31 @@
     "fetchedAt": "2026-07-05T00:12:16.629Z"
   },
   {
-    "id": "a39f24d11ba4154e",
+    "id": "1dc2322c4361beca",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "bottlecapai/ThinkingCap-Qwen3.6-27B",
-    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
-    "publishedAt": "2026-07-06T13:16:04.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, qwen3_6, token-efficient, efficient-thinking, conversational",
-    "score": 174,
+    "title": "froggeric/Qwen-Fixed-Chat-Templates",
+    "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+    "publishedAt": "2026-04-23T15:28:14.000Z",
+    "rawText": "mlx, jinja, chat-template, qwen, qwen3.5, qwen3.6, lm-studio, llama.cpp",
+    "score": 186,
     "rank": 9,
-    "summaryKo": "Qwen3.6 기반 27B 이미지-텍스트 모델 'ThinkingCap'으로, 토큰 효율적·효율적 추론(efficient thinking)을 특징으로 내세운다.",
+    "summaryKo": "Qwen3.5·3.6용 채팅 템플릿을 수정·정리한 자료로, LM Studio·llama.cpp 등에서 쓰도록 jinja 기반 템플릿을 제공한다.",
     "tags": [
-      "LLM",
-      "추론",
       "Qwen",
-      "멀티모달"
+      "챗템플릿",
+      "로컬LLM"
     ],
     "entities": [
-      "Qwen3.6",
-      "ThinkingCap"
+      "Qwen",
+      "LM Studio",
+      "llama.cpp"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "847db2feb05e133a",
@@ -699,7 +646,7 @@
     "url": "https://github.com/Nigh/show-me-the-story",
     "publishedAt": "2026-06-03T04:26:27Z",
     "rawText": "Self-hosted AI novel generator: single Go binary + web UI. OpenAI-compatible API → outline → chapter-by-chapter writing with review, foreshadowing, fact-check, and full-book polish. Chinese &  English.",
-    "score": 324,
+    "score": 329,
     "lang": "Go",
     "rank": 10,
     "summaryKo": "자가호스팅 AI 소설 생성기로, 단일 Go 바이너리와 웹 UI로 개요→챕터별 집필→검토·복선·팩트체크·전체 교정까지 수행한다. OpenAI 호환 API를 사용하며 중국어·영어를 지원한다.",
@@ -713,34 +660,7 @@
     ],
     "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "722c176a9e44ffde",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Qwen/Qwen-AgentWorld-35B-A3B",
-    "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-    "publishedAt": "2026-06-22T14:49:37.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3_5_moe, image-text-to-text, qwen, world-model, agent, environment-simulation",
-    "score": 258,
-    "rank": 10,
-    "summaryKo": "Qwen이 공개한 \"AgentWorld-35B-A3B\" 모델로, 350억 파라미터 중 30억이 활성화되는 MoE 구조다. 에이전트·환경 시뮬레이션을 위한 월드 모델을 지향한다.",
-    "tags": [
-      "Qwen",
-      "MoE",
-      "월드모델",
-      "에이전트"
-    ],
-    "entities": [
-      "Qwen"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-04T00:00:36.011Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "af2f931f0f32d7d1",
@@ -791,6 +711,32 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-10T00:10:46.309Z"
+  },
+  {
+    "id": "6c50fd14c323dd22",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "meituan-longcat/LongCat-2.0",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-2.0",
+    "publishedAt": "2026-07-05T00:07:44.000Z",
+    "rawText": "text-generation | LongCat-2.0, safetensors, transformers, text-generation, conversational, license:mit, region:us",
+    "score": 168,
+    "rank": 10,
+    "summaryKo": "메이퇀(Meituan)이 MIT 라이선스로 공개한 텍스트 생성 모델 LongCat 2.0이다. LongCat 시리즈의 차세대 버전으로 대화형 용도를 지원한다.",
+    "tags": [
+      "LLM",
+      "오픈소스",
+      "Meituan"
+    ],
+    "entities": [
+      "Meituan",
+      "LongCat-2.0"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "20e564b75524c6e7",
@@ -873,31 +819,6 @@
     "fetchedAt": "2026-07-09T00:11:57.013Z"
   },
   {
-    "id": "ca3b0865a8bfc235",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "RareSense/Nova3D",
-    "url": "https://github.com/RareSense/Nova3D",
-    "publishedAt": "2026-05-06T23:08:26Z",
-    "rawText": "Editable, part-aware 3D generation from text or reference images. Open-source client for nova3d.xyz.",
-    "score": 409,
-    "lang": "Dart",
-    "rank": 11,
-    "summaryKo": "텍스트나 참조 이미지로부터 부위 인식(part-aware)이 가능한 편집형 3D 생성을 제공하는 Nova3D 오픈소스 클라이언트다.",
-    "tags": [
-      "3D생성",
-      "멀티모달"
-    ],
-    "entities": [
-      "Nova3D"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-04T00:00:36.011Z"
-  },
-  {
     "id": "eb538b8ca1b014a5",
     "sourceType": "repo",
     "source": "GitHub",
@@ -929,7 +850,7 @@
     "url": "https://github.com/thenicolas1894/awesome-claude-fable-5-prompt-vault",
     "publishedAt": "2026-06-28T19:26:01Z",
     "rawText": "Ultimate Claude Fable 5 Guide 2026: Use Cases, Integrations & Benchmarks",
-    "score": 164,
+    "score": 165,
     "lang": "HTML",
     "rank": 11,
     "summaryKo": "Claude Fable 5 활용 가이드 모음으로, 2026년 기준 유스케이스·통합·벤치마크를 정리한 프롬프트/자료 볼트다.",
@@ -946,7 +867,28 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
+  },
+  {
+    "id": "2626e5a5fcc9703d",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "ktsoator/or",
+    "url": "https://github.com/ktsoator/or",
+    "publishedAt": "2026-06-18T03:04:42Z",
+    "rawText": "Choose the path from intent to action.",
+    "score": 161,
+    "lang": "Go",
+    "rank": 12,
+    "summaryKo": "'의도에서 행동으로 가는 경로를 선택하라'는 한 줄 설명의 Go 언어 프로젝트다. 설명이 간결해 구체적인 용도는 레포에서 확인이 필요하다.",
+    "tags": [
+      "오픈소스",
+      "Go"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
   },
   {
     "id": "d2e1cd0cbe559c9e",

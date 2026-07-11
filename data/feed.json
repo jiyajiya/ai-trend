@@ -689,6 +689,60 @@
     "fetchedAt": "2026-07-10T00:10:46.309Z"
   },
   {
+    "id": "2421a78a2bf886f8",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "UST is bringing Claude to physical AI",
+    "url": "https://www.anthropic.com/news/ust-claude",
+    "publishedAt": "Wed, 08 Jul 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-coral\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"UST is bringing Claude to physical AI\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a recall. When AI does this kind of work, it’s called physical AI: intelligence built into the equipment and engineering processes that produce the things people use.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re partnering with <a href=\"https://www.ust.com/\">UST</a>, a technology and engineering services company that builds and runs the engineering environments its clients depend on to get chips, cars, and connected devices to market. UST is putting Claude to work inside those environments, and training 20,000 of its engineers, architects, and consultants on Claude worldwide.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"how-ust-is-putting-claude-into-the-production-processes-behind-physical-products\"><strong>How UST is putting Claude into the production processes behind physical products</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST works alongside semiconductor, automotive, manufacturing, telecom, embedded, and IoT companies. It builds the systems those companies use to verify their designs, validate their chips, run their factories, and service their products once they’re out in the world.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">These are long, multi-step processes where an early mistake gets more expensive with every step that follows. A design flaw caught during verification costs an engineer an afternoon; the same flaw caught after a factory has committed to manufacturing costs a production run.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is bringing Claude into this work. Claude Code reads the schematics and pinouts an engineer works from, then writes and runs the tests that check the design. It carries that task across many steps, holding the context of a design through hours-long tasks. UST is aiming to catch design flaws earlier, speed up chip validation, and bring hardware and software together in a single system.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The clearest example is a UST platform called iDEC, which its engineers use to validate hardware and silicon before it goes to production. Validation is the work of proving a chip actually behaves the way its designers intended, and it’s arduous: engineers write test scripts by hand, run them, read the results, and repeat the cycle many times over. UST reports that iDEC’s closed-loop pipeline,reads hardware designs, generates and runs regression tests, and compares live equipment data against its digital twin to flag issues early, already cuts validation cycle times by 50 to 70%, condensing standard four-day turnarounds into 48 hours.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is now integrating Claude into that pipeline as its reasoning layer. Claude Code reads chip pinouts and hardware schematics directly, then writes and runs regression tests—the checks that confirm a change to a design didn’t cause an unintended downstream effect—which engineers used to script by hand. Claude also compares the live data from real equipment against its digital twin—the software model of how that hardware is supposed to behave—and flags firmware regressions and signal-integrity faults. UST’s goal is to make its pipeline even faster, with less hand scripting and earlier fault detection, and no new tools for engineers to learn.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“Our alliance with Anthropic reflects UST’s unwavering commitment to helping clients navigate the AI landscape with confidence and achieve meaningful business outcomes. By combining the capabilities of Claude with UST’s engineering, industry knowledge, and delivery expertise, we are bringing to market industry-specific platforms and digital and engineering solutions that improve productivity, accelerate business outcomes, and help clients operationalize AI-led decisions in a safe and secure environment,” said Krishna Sudheendra, Chief Executive Officer, UST.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“UST helps the world’s banks, telecoms, and manufacturers put new technology to work. They’re proving Claude inside their own engineering first, and training 20,000 of their own people on it, before bringing it into the systems they build and run for clients,” said Paul Smith, Chief Commercial Officer, Anthropic.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"how-ust-is-putting-claude-into-healthcare-telecom-and-banking-systems\"><strong>How UST is putting Claude into healthcare, telecom, and banking systems</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is bringing Claude into three other platforms it operates for clients:</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><strong>In healthcare</strong>, insurers and providers use UST CarePath to run member services, care management, and claims. Claude connects CarePath directly to its underlying claims and care systems, and turns scattered health data into clear next steps for care teams. Every recommended action routes to a person for approval before it reaches a member, and it stays inside the data controls healthcare requires.</li><li><strong>In telecom</strong>, UST IntelliOps runs network operations. To keep networks up and running, teams work through the alerts that spot problems and outages, but this is a time-consuming process. Claude now helps operators spot service issues, predict failures in the radio access network (the towers and antennas that connect phones to the network), and shorten outages through response workflows, which a person still approves. For the teams watching the alerts, that means less time separating real problems from noise.</li><li><strong>In banking</strong>, most mid-sized institutions still run on core systems old enough that the ledger updates once a night rather than in real time. Banks often license these systems rather than own them, so every new product or integration means months of waiting for a vendor to make the change. UST FinX helps banks modernize progressively by solving immediate business and operational challenges while reducing the dependency on disruptive, high-risk transformation programs. FinX will use Claude to embed AI agents directly into bank workflows and processes, supporting both operations teams and customers through intelligent case handling, servicing automation, knowledge retrieval, workflow assistance, and decision support.</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"a-partnership-in-ai-adoption-and-training\"><strong>A partnership in AI adoption and training</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is committing to train 20,000 of its associates on Claude worldwide, including engineers, architects, consultants, industry specialists, and forward-deployed engineers, who sit alongside client teams. It’s also building specialized teams to deploy Claude. We’re supporting UST in this effort with enablement, technical guidance, and certification through the Claude Partner Network. This partnership also makes UST a Global Premier Partner in the Claude Partner Network.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"pairing-reliability-safety-and-governance\"><strong>Pairing reliability, safety, and governance</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The industries UST serves are extremely high-stakes. Human approval steps and audit controls are important forms of governance that make it possible for the systems to run in production. The reliability and safety we’ve prioritized in building Claude, paired with UST’s experience in governance and regulated delivery, enables this work to move out of a pilot and into the systems that run a business.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
+    "summaryKo": "앤트로픽이 엔지니어링 서비스 기업 UST와 파트너십을 맺고 반도체·자동차·제조 등 '피지컬 AI' 영역에 클로드를 투입한다. UST는 칩 검증 플랫폼 iDEC에 Claude Code를 추론 레이어로 통합해 4일 걸리던 검증 사이클을 48시간(50~70% 단축)으로 줄였고, 전 세계 임직원 2만 명을 클로드로 교육할 계획이다. 헬스케어·통신·뱅킹 플랫폼에도 클로드 기반 에이전트를 확대 적용한다.",
+    "tags": [
+      "피지컬AI",
+      "엔터프라이즈",
+      "Claude Code"
+    ],
+    "entities": [
+      "Anthropic",
+      "UST",
+      "Claude Code",
+      "iDEC"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "앤트로픽이 UST와 파트너십을 맺고 클로드를 공장·설비·엔지니어링 공정에 내장되는 '피지컬 AI' 영역에 투입한다.",
+        "UST의 칩 검증 플랫폼 iDEC에 Claude Code가 추론 레이어로 통합돼 회로도·핀아웃을 직접 읽고 회귀 테스트를 작성·실행한다.",
+        "iDEC의 폐쇄 루프 파이프라인은 검증 사이클을 50~70% 단축해 4일 작업을 48시간으로 줄였다.",
+        "헬스케어(CarePath)·통신(IntelliOps)·뱅킹(FinX) 플랫폼에도 클로드 기반 에이전트를 확대하며, 모든 권고 액션은 사람 승인을 거친다.",
+        "UST는 임직원 2만 명을 클로드로 교육하고 Claude Partner Network의 글로벌 프리미어 파트너가 된다."
+      ],
+      "sections": [
+        {
+          "heading": "피지컬 AI란",
+          "body": "제품을 만들어내는 설비와 엔지니어링 공정에 내장되는 AI를 말한다. 칩 설계 검증처럼 초기 실수가 뒤로 갈수록 기하급수적으로 비싸지는 다단계 공정이 대상이다. 검증 단계에서 잡은 설계 결함은 엔지니어의 반나절이지만, 양산 후에 잡히면 생산 물량 전체의 손실이 된다."
+        },
+        {
+          "heading": "칩 검증 자동화",
+          "body": "엔지니어가 손으로 짜던 테스트 스크립트를 Claude Code가 대신 작성·실행한다. 하드웨어 설계를 읽고 회귀 테스트를 생성하며, 실제 장비 데이터를 디지털 트윈과 비교해 펌웨어 회귀와 신호 무결성 결함을 조기에 찾아낸다. 엔지니어가 새 도구를 배울 필요가 없다는 점을 강조한다."
+        },
+        {
+          "heading": "산업별 확장과 거버넌스",
+          "body": "헬스케어 보험 처리, 통신 네트워크 운영 알림 분류, 은행 코어 시스템 현대화까지 3개 플랫폼으로 확대한다. 고위험 규제 산업인 만큼 사람 승인 단계와 감사 통제를 전제로 하며, 이것이 파일럿을 넘어 실운영으로 가는 조건이라고 설명한다."
+        }
+      ],
+      "quotes": [
+        "검증 사이클 50~70% 단축 — 표준 4일 턴어라운드를 48시간으로",
+        "UST 임직원 2만 명을 클로드로 교육"
+      ]
+    },
+    "fetchedAt": "2026-07-11T00:15:07.076Z"
+  },
+  {
     "id": "07610e55de6cc86b",
     "sourceType": "news",
     "source": "NVIDIA AI Blog",
@@ -6631,31 +6685,6 @@
     "cats": [
       "에이전트",
       "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "fad6631c08b9451c",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: HappyHorse가 동영상 생성 모델 HappyHorse 1.1을 공개했습니다. 이번 버전으...",
-    "url": "https://www.threads.com/t/DZ5ppJ0ihdr",
-    "publishedAt": "Mon, 22 Jun 2026 20:00:08 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>HappyHorse가 동영상 생성 모델 HappyHorse 1.1을 공개했습니다. 이번 버전은 720p와 1080p 해상도를 지원하며, 다양한 화면 비율과 3~15초 길이의 영상 생성이 가능해졌는데요. fal에서는 텍스트-비디오(T2V), 이미지-비디오(I2V), Reference to Video 기능도 제공됩니다. 특히 1080p 출력, 네이티브 음성 생성, 다국어 립싱크, 최대 9장의 참조 이미지 지원이 추가되면서 영상 제작 활용 범위가 더욱 넓어졌습니다. 최근 동영상 생성 AI 시장은 Seedance, Veo, Kling, Sora 등 주요 모델들의 경쟁이 치열해지고 있는데요. HappyHorse 역시 빠른 업데이트 주기를 보여주며 기능 경쟁에 합류하는 모습입니다. 영상 생성 품질뿐 아니라 음성, 립싱크, 참조 이미지 활용 기능까지 경쟁 영역이 확대되고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/730176817_1014425490976909_4570724392906644053_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkyNTM1MTY5ODE4MDc0MDk3MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=K4Vd9DWP-oMQ7kNvwFeNMGh&amp;_nc_oc=AdrWmV55Gf2OvH7eD4YFsP6AC-zO5NCNk1pTiR_aqoLfVsDv9yzrXCplz4VSNZJJmjY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=J1oawHaA0cQZohjBAnqHdA&amp;_nc_ss=7a22e&amp;oh=00_Af9fBUWHfEMLqh7STMDAQzfbk6VAtbH2qMB53r0HMC9xzw&amp;oe=6A3FB7B6\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMTPIYNojCQ_eOFKnmm6KYnKDhQJA0PR-X1vog2fJXJpbMf_s1JFL5JKGEmMXE3xEXTtoPw_TwnHx5LLZwx4j0op7Olhxm1z-YtBfs.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=Pccl91dZ1HUQ7kNvwFD9VYj&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzMyMTk5NjkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=9532a49f63cbd42&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FODQ1QzYxRkUwMzY4NzQ2QTVDRDVGNjg1NUQxODc4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzI5NDZENTRDMkUzNzE4NUEwQjgwMjE3QUJBNjZFMzgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA7NT7i6PtPxUCKAJDMywXQGGlT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=J1oawHaA0cQZohjBAnqHdA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af_u119IvAvIx3KFRIfwObqpEGxrvaWdM-b43vgzLRqu_A&amp;oe=6A3BAA6A\"></video></p>",
-    "summaryKo": "HappyHorse가 동영상 생성 모델 'HappyHorse 1.1'을 공개했다는 SNS 정리다. 720p·1080p 해상도와 다양한 화면비, 3~15초 길이 생성을 지원하고 fal에서 T2V·I2V·Reference to Video를 제공하며, 네이티브 음성 생성·다국어 립싱크·최대 9장 참조 이미지가 추가됐다.",
-    "tags": [
-      "영상생성",
-      "T2V",
-      "I2V",
-      "립싱크"
-    ],
-    "entities": [
-      "HappyHorse",
-      "fal"
-    ],
-    "cats": [
-      "멀티모달"
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-23T00:18:22.436Z"
