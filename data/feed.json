@@ -3850,9 +3850,260 @@
     "summaryKo": "Anthropic이 재배포된 Claude Fable 5의 사이버보안 세이프가드가 차단·허용하는 사용 유형을 금지, 고위험 이중용도, 저위험 이중용도, 무해 4개 범주로 상세 공개했다. 함께 제안한 사이버 제일브레이크 심각도(CJS) 프레임워크는 능력 상승·범용성·무기화 용이성·발견 용이성 4개 축으로 제일브레이크를 CJS-0~4 등급으로 평가하며, HackerOne 신고 프로그램도 개설했다.",
     "tags": [
       "AI 안전",
-      "사이버보안",
-      "제일브레이크",
-      "세이프가드"
+      "정렬",
+      "아첨",
+      "자기보존"
+    ],
+    "entities": [
+      "Yoshua Bengio"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-28T00:07:53.801Z"
+  },
+  {
+    "id": "c2f4ce746342dc91",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 컴퓨터 사용 AI 에이전트를 평가하는 벤치마크 \"OSWorld 2.0\"을 공개되었ᄉ...",
+    "url": "https://www.threads.com/t/DaFuMcfkZp6",
+    "publishedAt": "Sat, 27 Jun 2026 12:30:48 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>컴퓨터 사용 AI 에이전트를 평가하는 벤치마크 \"OSWorld 2.0\"을 공개되었습니다. 기존보다 훨씬 긴 실제 업무를 기반으로 구성됐으며, 숙련된 사람이 평균 1.6시간 걸리는 작업 108개가 포함됐습니다. 현재 최고 성능은 Claude Opus 4.8의 20.6%, GPT-5.5는 토큰 효율은 높지만 약 13% 수준을 기록했습니다. 연구진은 실제 컴퓨터 작업을 완전히 수행하는 AI까지는 아직 갈 길이 남았다고 설명했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/731166571_845856641658668_3856166507198699138_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkyODc0OTQxNTMxODI2NDQ0Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=4DiO6MqCuYgQ7kNvwFqmcnK&amp;_nc_oc=AdohT7Jmekhc5Srgr1itekJz8I1oxVG7Mf8Sg_FbLRj95nJvglychmTyFQOl1OOM10g&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_ss=7a22e&amp;oh=00_Af-KAHqH1JWKiHkl694_PIKKCP4AZkkhnIAubFY_kFcENQ&amp;oe=6A462046\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQN2f_1lnxJjZ90iQS0SootmnmYxqESRKRbz3SRw8yrKpl0cwezWgqevGbgxf7vFeBrA5gR3Y3HlMXq9xEQJ-0Wyaol9yNh3LVBE98w.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=MrLohlcqF-YQ7kNvwGPRTSo&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM5OTM2NjkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=958a439d7dd5ede1&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRDREMkNEMzk2RDI4MUE1QjFDRkIxNDM1N0IzN0JBRF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0M5NEZEMEQzM0I2MUJFMDI0MkFGMDk3QkI4MjczOEE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA0L29kNDtPxUCKAJDMywXQDazMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af8-c-yCEw0JUqtFUS2ZXaA7PUbRMiBkkbCTvBWzvp-Wbw&amp;oe=6A4246DA\"></video></p>",
+    "summaryKo": "컴퓨터를 직접 사용하는 AI 에이전트를 평가하는 벤치마크 'OSWorld 2.0'이 공개됐다. 숙련자가 평균 1.6시간 걸리는 실제 업무 108개로 구성됐으며, 현재 최고 성능은 Claude Opus 4.8가 20.6%, GPT-5.5는 토큰 효율은 높지만 약 13% 수준으로, 완전한 컴퓨터 작업 수행까지는 갈 길이 멀다고 평가됐다.",
+    "tags": [
+      "벤치마크",
+      "컴퓨터 사용",
+      "에이전트"
+    ],
+    "entities": [
+      "OSWorld 2.0",
+      "Claude Opus 4.8",
+      "GPT-5.5"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-28T00:07:53.801Z"
+  },
+  {
+    "id": "a410d6d9dd993232",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture",
+    "url": "https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/",
+    "publishedAt": "Sat, 20 Jun 2026 17:00:00 +0000",
+    "rawText": "What data teams need to build with AI to make self-healing data architecture a practical reality The post 7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture appeared first on Towards Data Science.",
+    "summaryKo": "데이터 팀이 '자가 치유형(self-healing) 데이터 아키텍처'를 현실로 만들기 위해 AI로 무엇을 구축해야 하는지, 그리고 그 사이를 가로막는 7가지 핵심 장벽을 짚은 글이다. 자동 복구되는 데이터 파이프라인을 실용적으로 구현하기 위한 조건을 논의한다.",
+    "tags": [
+      "데이터 아키텍처",
+      "자동화",
+      "AI"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "8b009509f1e605dc",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All",
+    "url": "https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/",
+    "publishedAt": "Sat, 20 Jun 2026 15:00:00 +0000",
+    "rawText": "Enterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered job The post Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All appeared first on Towards Data Science.",
+    "summaryKo": "PDF 안의 이미지를 모두 비싸게 분석하지 않고도 RAG에서 검색 가능하게 만드는 방법을 다룬 엔터프라이즈 문서 처리 글이다. 이미지 위치를 알려주는 image_df를 활용하되, 정말 중요한 이미지만 비용 순으로 선별해 검색용 텍스트로 변환하는 접근을 설명한다.",
+    "tags": [
+      "RAG",
+      "문서 처리",
+      "PDF",
+      "비용 최적화"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "5f91c7a91247ca5b",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement",
+    "url": "https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/",
+    "publishedAt": "Sat, 20 Jun 2026 13:00:00 +0000",
+    "rawText": "Five surfaces collapsed into one declarative layer. Here's the full story of Materialized Lake Views in Microsoft Fabric - from syntax to the new GA capabilities The post Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement appeared first on Towards Data Science.",
+    "summaryKo": "Microsoft Fabric의 Materialized Lake Views를 문법부터 새 GA 기능까지 정리한 글이다. 다섯 개의 분리된 표면을 하나의 선언적 계층으로 합쳐, 메달리온 아키텍처를 SELECT 문 수준으로 단순화하는 방식을 소개한다.",
+    "tags": [
+      "Microsoft Fabric",
+      "데이터 레이크",
+      "Materialized View"
+    ],
+    "entities": [
+      "Microsoft Fabric"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "afab3e79fe5ea879",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: AI 에이전트 여러 개를 연결해 작업을 나누거나, 반복 업무에 맞는...",
+    "url": "https://www.threads.com/t/Daq8zAVDXGx",
+    "publishedAt": "Sat, 11 Jul 2026 23:30:18 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI 에이전트 여러 개를 연결해 작업을 나누거나, 반복 업무에 맞는 에이전트 워크플로를 만들고 싶다면 David Ondrej의 'Agent Skills'를 사용해보세요. AI 코딩 에이전트와 연구 에이전트의 실행·예약·위임·협업을 다루는 스킬부터 웹 조사, YouTube 정보 수집, 문서 정리, 프레젠테이션 검토, 서버·보안 설정까지 다양한 작업 흐름이 담겨 있습니다. 각 스킬은 필요한 상황과 사용 방법을 `SKILL.md`로 정리해두어 원하는 기능만 골라 적용할 수 있습니다. 반복해서 사용하는 에이전트 작업을 체계적으로 구성할 때 참고하기 좋은 오픈소스 모음입니다.</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/736413089_17976408615112832_1128518575406077372_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ig_cache_key=MzkzOTIyODIxMTkyNjEwMjQ0OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTc0NC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=d9q8_Vga1U4Q7kNvwFViQFs&amp;_nc_oc=Adq2p_FcRfYJLajNyz_xJp8IOqodW6UdOHo0AIiu0UBZZiyR6vPutqiYpctkaZBpdtE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_ss=7a22e&amp;oh=00_AQDTHIp0ZXNYv6ExEuJb3mzmvPqvhZ3hguSpwygmwPFLLQ&amp;oe=6A58A09B\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "여러 AI 에이전트를 연결해 작업을 나누거나 반복 업무용 워크플로를 만들 때 참고할 수 있는 David Ondrej의 오픈소스 'Agent Skills' 모음을 소개한다. 코딩·연구 에이전트의 실행·예약·위임·협업부터 웹 조사, YouTube 정보 수집, 문서 정리, 서버·보안 설정까지 다양한 스킬이 SKILL.md 문서와 함께 정리되어 있어 필요한 것만 골라 적용할 수 있다.",
+    "tags": [
+      "에이전트",
+      "스킬",
+      "워크플로"
+    ],
+    "entities": [
+      "David Ondrej",
+      "Agent Skills"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-12T00:10:14.328Z"
+  },
+  {
+    "id": "04e5b39284ae8b50",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: AI 영상의 카메라 움직임이 항상 비슷하거나 원하는 장면이 잘 ᄂ...",
+    "url": "https://www.threads.com/t/Daqyh5MAprs",
+    "publishedAt": "Sat, 11 Jul 2026 22:00:35 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI 영상의 카메라 움직임이 항상 비슷하거나 원하는 장면이 잘 나오지 않는다면 'AI Camera Movements'를 사용해보세요. 카메라 앵글과 카메라 무브먼트 용어를 예시와 함께 쉽게 설명해주는 무료 사이트인데요. Dolly, Pan, Orbit, Crane 등 영화 촬영에서 사용하는 다양한 기법을 프롬프트 예시와 함께 확인할 수 있습니다. 좋은 AI 영상을 만드는 사람들은 모델보다 촬영 용어를 잘 활용하는 경우가 많습니다. AI 영상 프롬프트를 더 자연스럽고 구체적으로 작성하고 싶다면 한 번 참고해볼 만한 자료입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/743743951_1555585052727254_9055845167086049422_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkzOTE4MzA1NTU2MTk4ODg0NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=TaCW1O2qTBMQ7kNvwEidma7&amp;_nc_oc=AdqnQHJVs5Crb5G2O7RGNjGoHWeb2wPUGagRBfPxfcBT-CDF7zzopwv6HPZ-k34rglY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_ss=7a22e&amp;oh=00_AQCYbq-U15SqDKtjPxNQmNvVoK8P7Vl4tzWMXSvjvMn8Zg&amp;oe=6A58BDD6\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMjgmbCuVew9W9hO_ObbchkkrmrnD0LUt4-7zOA5QNX-uTakKfizSVcGgcjRFgziZYm0KrR2vgV3tm0ehJFDUr8NJQ5mtWgtZTfEiA.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=lKXIE2jJbxkQ7kNvwE7L9W6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy45OTIuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk3NjQwOTMxNDExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjozMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=611da0f20758899f&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EODQ3RUQ5QTMyQUI1QjdDMEQ0OTNEREZBRjE0QzJCOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc1NDBGODJCNEI0OUIxQzI1NzQ2NjYxMEY2NTA1MDgwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA1Ym43tzuPxUCKAJDMywXQD5mZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQD9vZM3x9_vDMalhxg8PUdtkEFzEMrPpF2ObMxaXkE2XQ&amp;oe=6A54B168\"></video></p>",
+    "summaryKo": "AI 영상 생성 시 카메라 움직임 표현을 개선해주는 무료 참고 사이트 'AI Camera Movements'를 소개한다. Dolly, Pan, Orbit, Crane 등 영화 촬영 기법 용어를 예시 영상·프롬프트와 함께 설명해, 촬영 용어를 활용한 구체적인 AI 영상 프롬프트 작성에 도움을 준다.",
+    "tags": [
+      "영상생성",
+      "프롬프트"
+    ],
+    "entities": [
+      "AI Camera Movements"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-12T00:10:14.328Z"
+  },
+  {
+    "id": "f8d7a010fd30c53f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Cerebras가 'Gemma 4'를 활용한 차량 손상 분석 예제 'Damage Scout'를 공개했스...",
+    "url": "https://www.threads.com/t/DaqoMYJEcM_",
+    "publishedAt": "Sat, 11 Jul 2026 20:30:16 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Cerebras가 'Gemma 4'를 활용한 차량 손상 분석 예제 'Damage Scout'를 공개했습니다. 렌터카를 촬영한 영상을 분석해 프레임을 추출하고, 차량의 손상 위치와 내용을 구조화된 형태로 정리한 뒤 손상 부위를 표시한 보고서까지 6초 이내에 생성하는데요. Cerebras는 초당 2,300토큰 이상의 추론 속도를 바탕으로, 멀티모달 추론에서 가장 큰 문제인 지연 시간을 크게 줄일 수 있다고 소개했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/742895908_2037845170152153_1345994735144481286_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkzOTEzNzU5NjUwNTA0Nzg3MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=NIiXzLS5F28Q7kNvwFgs3DQ&amp;_nc_oc=AdpwMKdmOphHX25frBsYV8KZ_V6T3x_zumLsvs_bcAezHrbH-ymQGMLlY_M8LXb6O0s&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_ss=7a22e&amp;oh=00_AQAKUGz1xMIs6RVYUVminLUYjAqWXsRpfLZHWdqNCMEt8w&amp;oe=6A58A7E7\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQOeER6lB7-uARy0O1egiGCCUH2SgM2Vw4OI4n-7VnLIqW81x4lWGqJZQOIMoxeLVyu38mrux-WtzTq0FkaNjqJx1vxu1SVHtlErA0s.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=oM50IvTc9SoQ7kNvwG1RYD7&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk3NjUyNTUxNjExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjo1NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=b3f9757e059621c&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81QzQxODI3MjBDQzdCQkI1NDRCNkExODMwMzVBMDU5Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgI_4msDj7j8VAigCQzMsF0BMSHKwIMScGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQCN4ootVagwg0moJzMQtUtde9tn7gWLQCiRFOqXAgZYtw&amp;oe=6A549B72\"></video></p>",
+    "summaryKo": "Cerebras가 Gemma 4를 활용한 차량 손상 분석 예제 'Damage Scout'를 공개했다. 렌터카 촬영 영상에서 프레임을 추출해 손상 위치·내용을 구조화하고 손상 부위를 표시한 보고서까지 6초 이내에 생성한다. 초당 2,300토큰 이상의 추론 속도로 멀티모달 추론의 최대 문제인 지연 시간을 크게 줄일 수 있다는 점을 강조했다.",
+    "tags": [
+      "멀티모달추론",
+      "고속추론",
+      "비전"
+    ],
+    "entities": [
+      "Cerebras",
+      "Gemma 4",
+      "Damage Scout"
+    ],
+    "cats": [
+      "멀티모달",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-12T00:10:14.328Z"
+  },
+  {
+    "id": "839ec97b53114fe8",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 전 구글 차이나 사장인 카이푸 리(Kai-Fu Lee)는 AI 리더십과 기업 트랜스포...",
+    "url": "https://www.threads.com/t/Daqd4xaj8Mm",
+    "publishedAt": "Sat, 11 Jul 2026 19:00:12 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>전 구글 차이나 사장인 카이푸 리(Kai-Fu Lee)는 AI 리더십과 기업 트랜스포메이션의 냉혹한 현실을 진단했습니다. 그는 기존 리더들이 새로운 변화를 흡수하지 못해 조만간 절반의 기업이 “새로운 리더십을 필요로 할 것”이라 전망했습니다. 하위 단계의 기업들은 AI를 단순한 도구로 보지만, 상위 기업들은 이를 ‘운영체제(OS)’로 여기기 때문입니다. 카이푸 리는 많은 기업이 AI 전환을 시도하지만 “95% 이상이 실패하고 있다”며 단순한 수치 개선을 넘어선 근본적인 조직 혁신의 어려움을 짚었습니다. 또한, AI 에이전트는 인간의 느린 대역폭을 보완하는 강력한 증폭기 역할을 하여 인류의 아이디어를 폭발적으로 증식시킬 것입니다. 그는 창의성 영역이 AI로 대체되는 데 오랜 시간이 걸릴 것이라는 자신의 과거 예측이 완전히 틀렸다며, “AI가 창의적이지 않다고 더 이상 말할 수 없다”고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/741735586_1025958786588383_4748358623040940264_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkzOTA5MjI2ODc4NzQxNzg5NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=IhqzYr4SqOcQ7kNvwFk3BA_&amp;_nc_oc=AdrhhYKKCk-nljOnLEtQWbhuGXoTB73Vz0-Y6_nfkXBsWuH3du4fJTYTuu-Nhl-bUtI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_ss=7a22e&amp;oh=00_AQBlAiMktTYI7Dx7aLvjLQT45E0ixoBm95PDr81gSlGGrw&amp;oe=6A58AB4F\"><source src=\"https://scontent-lax7-1.cdninstagram.com/o1/v/t16/f2/m84/AQPI4g1pRich01TCnss8v0XJP55EamhiHlpGJvn23kNIttIKHVQ_Ac4RfaXtIWkEBxse6hFT4D36S_G1_3KGGO_iLYSr66iuRxvOuMc.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_ohc=Dx0EgjMsuswQ7kNvwEL8KW9&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjYwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzY0MDk3MTAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=fef127524bbfa35c&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GQTQxMUFBODEwOURGRDNGRjVFODNBODQxNjcwNERCRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E5NDlBNEY2RTdDQTdGRjNGM0VFQjc3OEMxNERGQkFFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAwd2x4dzuPxUCKAJDMywXQFc1ocrAgxIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=SiShPbWklBqRZRNEpiOF5A&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQB4fWJ5zVuQh_9pTIArxXspD6CRMUO7TjFHrvoE2Qw70w&amp;oe=6A54BB3B\"></video></p>",
+    "summaryKo": "전 구글 차이나 사장 카이푸 리가 AI 리더십과 기업 트랜스포메이션의 현실을 진단했다. 하위 기업은 AI를 도구로 보지만 상위 기업은 '운영체제(OS)'로 여기며, 기존 리더가 변화를 흡수하지 못해 조만간 절반의 기업이 새 리더십을 필요로 할 것이라 전망했다. AI 전환 시도의 95% 이상이 실패하고 있다고 지적하며, 'AI가 창의적이지 않다고 더 이상 말할 수 없다'고 과거 자신의 예측을 뒤집었다.",
+    "tags": [
+      "AI전환",
+      "리더십"
+    ],
+    "entities": [
+      "Kai-Fu Lee",
+      "Google"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-12T00:10:14.328Z"
+  },
+  {
+    "id": "6de6aada04ceb7df",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 회사 환경을 디지털 트윈으로 구축해봤습니다. 각 에이전트 별로 ...",
+    "url": "https://www.threads.com/t/DaXsW7fCAXA",
+    "publishedAt": "Sat, 04 Jul 2026 12:01:05 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>회사 환경을 디지털 트윈으로 구축해봤습니다. 각 에이전트 별로 접근 권한을 제한해서 본인 컴퓨터에서 설정한 영역에서만 작업을 수행하고 권한이 있는 에이전트에게 탑다운으로 명령을 수행하고 결과물은 보안 절차에 맞게 바텀-업 하는 구조입니다. 각 직원 컴퓨터에서 참여할 수 있고 실행전에는 휴먼의 승인이나 오토 구조로 돌아갑니다. 캐릭터는 모델링으로 원하는 모델을 넣을 수 있게 해서 좀 더 보기 편한구조로 해봤는데 3D 시각화로 만드니 재미있는 것 같네요.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/732676042_956815560735607_7085816485078815057_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkzMzgwNzg4OTI3Nzc4MTQ0MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=-xPum7a5ceQQ7kNvwFEXc1S&amp;_nc_oc=AdoC5DfW8w36tlwVhCbQVhzolU8sDbdSGFuCDOLmcvkf0UOtpRXI9MMqGNRJkNiSV-4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=GmBqlqFw3g-heRexMSS8mg&amp;_nc_ss=7a22e&amp;oh=00_AQC4edgI2AYTEQ2V7ZW_Uy7wORUlDdTX2mMuQRUAGlFvSA&amp;oe=6A4F6CBB\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQOvZPAFKiTIIo7AZ7fr4NfJDm0fB-MN9yrKG-3hni4tP8gP4dyThPrgLmdseDDen3iQMtmHWVk0WC0yMQ8f7GkreEdvobRRcnPL0nM.mp4?_nc_cat=103&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=0f0yS__cxlYQ7kNvwGzWsnF&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMTYwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzU0NDgyMTMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTQzLCJ3YXRjaF90aW1lX3MiOjQzMzEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=af8cb778d1257c5b&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DQjREODg0MTdGRTQwN0Y1MEY5RjZENzQ2NTg5NkQ4NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIyNEZFNUIwMzE0Mjk0ODc1M0I5QzFDRkM1RDQ1MkFEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAoN7W5aTuPxUCKAJDMywXQGHkQYk3S8cYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=GmBqlqFw3g-heRexMSS8mg&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQDMTUqIV2XQpCItEuJliiflBvIY0-WawgV6gUE2FJytbA&amp;oe=6A4B8859\"></video></p>",
+    "summaryKo": "회사 환경을 3D 디지털 트윈으로 구축하고 에이전트별 접근 권한을 제한해, 권한 있는 에이전트가 탑다운으로 지시하고 결과물은 보안 절차에 따라 바텀업으로 올라오는 구조를 시연했다. 각 직원 컴퓨터에서 참여할 수 있고 실행 전 휴먼 승인 또는 자동 모드를 선택할 수 있으며, 캐릭터 모델링을 얹어 3D로 시각화했다.",
+    "tags": [
+      "에이전트",
+      "디지털트윈",
+      "권한관리"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-05T00:12:16.629Z"
+  },
+  {
+    "id": "83ea01fadcc5925c",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: OpenWiki가 나왔습니다. GitHub 레포를 넣으면 코드가 바뀔 때마다 갱신되느...",
+    "url": "https://www.threads.com/t/DaXiCeaDZhN",
+    "publishedAt": "Sat, 04 Jul 2026 10:30:54 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>OpenWiki가 나왔습니다. GitHub 레포를 넣으면 코드가 바뀔 때마다 갱신되는 문서 사이트를 자동 생성하는 오픈소스 도구입니다. 자동 위키 자체는 DeepWiki가 먼저 열었습니다. OpenWiki가 다른 건 계속 갱신된다는 점인데요. 문서를 사람이 손으로 유지하는 게 아니라 소스에서 파생돼 빌드처럼 다시 만들어지게 해서, 코드는 바뀌는데 문서만 낡는 문제를 구조적으로 막습니다. 더 큰 그림은 이게 Vercel의 eve('에이전트용 Next.js') 쇼케이스라는 점입니다. 웹앱은 durable 에이전트를 소비할 뿐이고, 코드 분석·위키 생성은 백그라운드 잡으로 돌아가며 Neon에 상태, Blob에 산출물을 쌓습니다. 에이전트가 파생물을 만들어 신선하게 유지하는 앱의 표준형인 거죠. 다만 자동 문서는 코드가 무엇을 하는지는 잘 적어도, 왜 그렇게 짰는지(설계 의도·트레이드오프)는 못 채웁니다. 그 부분은 여전히 사람 몫입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/731146899_1358833566346811_6460150986012505888_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;ig_cache_key=MzkzMzc2MjUwMzIwMTEwMTkwMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=CApoZuUQZfsQ7kNvwFelaLC&amp;_nc_oc=AdpKeYP7sah-SkA_pJRYvlp2XVcsnb2jIKgMrL8bcpqOkSBTgeU20x9RYf4YGAL0GGM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=GmBqlqFw3g-heRexMSS8mg&amp;_nc_ss=7a22e&amp;oh=00_AQDDKfj4cQnQgpLdbIiK9WK4GcnGIyI2xjH4sMEICmkHuQ&amp;oe=6A4F75C6\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPNYeDAR_QaC-m5mx2ED3v5UQMy8isc0SUECiqcv-JYDiiVGUdh36KhdPXX9qa7WAS_PaJU7Kkl7QTbTrfM8ZCIU_lSgohSTDQSCVY.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=Tl5fMulSBgMQ7kNvwHb5XCm&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMTEyLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzU0MzUzNDYxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NDYsIndhdGNoX3RpbWVfcyI6NDE3MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=4971b38b7256dcc2&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yMDQ2MjhCNTQwNUUxMTAwNTE2QjlCRkFBMTgxMDFBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgMXn54Wk7j8VAigCQzMsF0BHXdLxqfvnGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=GmBqlqFw3g-heRexMSS8mg&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQDPfI9cfRO__FML6INuobnD_zi4YdQQNddwPD21cEY-tg&amp;oe=6A4B8861\"></video></p>",
+    "summaryKo": "GitHub 레포를 넣으면 코드가 바뀔 때마다 문서 사이트를 자동 재생성하는 오픈소스 도구 OpenWiki가 나왔다. DeepWiki와 달리 문서가 소스에서 파생돼 빌드처럼 계속 갱신되는 점이 특징이며, Vercel의 에이전트용 프레임워크 'eve' 쇼케이스로 Neon에 상태, Blob에 산출물을 쌓는 구조다. 다만 설계 의도와 트레이드오프는 여전히 사람이 채워야 할 몫으로 남는다.",
+    "tags": [
+      "문서화",
+      "에이전트",
+      "오픈소스"
+    ],
+    "entities": [
+      "OpenWiki",
+      "DeepWiki",
+      "Vercel",
+      "Neon"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-05T00:12:16.629Z"
+  },
+  {
+    "id": "2130b91729908284",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 앤트로픽 역대 최강 모델 Fable 5가 나온 지 한 달도 안 됐는데, 이걸 ...",
+    "url": "https://www.threads.com/t/DaXNultjy9x",
+    "publishedAt": "Sat, 04 Jul 2026 07:33:26 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>앤트로픽 역대 최강 모델 Fable 5가 나온 지 한 달도 안 됐는데, 이걸 만든 팀에서 사용법을 내놨습니다. 그런데 요지가 뒤집혀 있습니다. 모델이 강해질수록 결과물을 가르는 건 모델 성능이 아니라, 내가 뭘 모르는지 아느냐라는 겁니다. Claude Code를 만드는 Thariq는 Fable을 두고 \"작업 품질이 모델이 아니라, 내 모르는 것(unknown)을 얼마나 명확히 하느냐에서 막히는 첫 모델\"이라고 적었습니다. 역대 최강이 나왔더니 병목이 사람 쪽으로 넘어온 겁니다. 그가 공개한 실전 가이드를 정리했습니다. 🧵</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/731624296_17975425869112832_3981425008176849876_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=MzkzMzY3MzE3NTcyNDc5NzgwOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTQ5LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=ePUDdm7dR1QQ7kNvwEnuIjt&amp;_nc_oc=AdrWXUGAlTw-Y2WdpBoRrB8TDDNoNo4aMNYg7WAGnOWxDpa0JcjpZf_ZYxD7zg5_Y70&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=8&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=GmBqlqFw3g-heRexMSS8mg&amp;_nc_ss=7a22e&amp;oh=00_AQAHvgbymy4FwEmwiflXYpXT8-ZU3RVDSryiNyd8gfXICg&amp;oe=6A4F7E8A\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Fable 5 출시 한 달도 안 돼 Claude Code 팀의 Thariq가 공개한 실전 사용 가이드를 정리한 스레드다. 그는 Fable을 '작업 품질이 모델이 아니라 내가 모르는 것(unknown)을 얼마나 명확히 하느냐에서 막히는 첫 모델'이라고 표현하며, 모델이 강해질수록 병목이 사람 쪽으로 넘어온다고 짚는다.",
+    "tags": [
+      "Claude Code",
+      "프롬프팅"
     ],
     "entities": [
       "Anthropic",
@@ -4914,1779 +5165,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-30T00:12:46.457Z"
-  },
-  {
-    "id": "33fac84cf3c61433",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "“유튜버/크리에이터는 무조건 보세요” 클로드를 활용한 업무 자동화 3가지. 더 이상 영상 편집 노가다 그만!",
-    "url": "https://www.youtube.com/watch?v=IFAAY2rjbw8",
-    "publishedAt": "2026-06-29T09:00:16+00:00",
-    "rawText": "“유튜버/크리에이터는 무조건 보세요” 클로드를 활용한 업무 자동화 3가지. 더 이상 영상 편집 노가다 그만!",
-    "videoId": "IFAAY2rjbw8",
-    "summaryKo": "유튜버·크리에이터를 겨냥해 Claude로 영상 편집과 반복 업무를 자동화하는 세 가지 방법을 소개하는 영상이다. 편집 노가다를 줄이는 워크플로 활용에 초점을 맞춘다.",
-    "tags": [
-      "Claude",
-      "업무자동화",
-      "영상편집"
-    ],
-    "entities": [
-      "Claude"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "247324a6d137edef",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Mapping Europe’s AI Workforce Opportunity",
-    "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-    "publishedAt": "Mon, 29 Jun 2026 07:00:00 GMT",
-    "rawText": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-    "summaryKo": "OpenAI가 EU 전역에서 AI가 일자리를 어떻게 재편할지 분석한 보고서를 공개했다. 어떤 직군이 자동화·성장·업무방식 변화에 직면할지를 매핑해, AI 전환기 유럽 노동시장의 기회와 위험을 함께 짚는다.",
-    "tags": [
-      "AI 일자리",
-      "노동시장",
-      "자동화"
-    ],
-    "entities": [
-      "OpenAI",
-      "EU"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-30T00:12:46.457Z"
-  },
-  {
-    "id": "237bd22568b27820",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 🚨 코덱스 사용량 초기화",
-    "url": "https://www.threads.com/t/DaJhTnnj6x4",
-    "publishedAt": "Sun, 28 Jun 2026 23:55:09 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 코덱스 사용량 초기화</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/728958246_17974504659112832_601679846932625704_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=MzkyOTgxODYzMzYwMjA1MTE5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE3OS5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=qqv6DTU0lScQ7kNvwG2uoq6&amp;_nc_oc=Adog62Pftvc7ujWr03NR4JLpoHQMJ16fp2vhKRO4stHl0AhfZCTItcgwWF7YlaBqTeQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;oh=00_Af_1rsdSX6GBqcLTxK26UJ_ZSv4632yan7asCqckRPVvag&amp;oe=6A477F99\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "OpenAI Codex의 사용량(쿼터)이 초기화됐다는 소식을 전하는 SNS 게시물이다. (게시물 본문이 짧아 제목 수준 요약)",
-    "tags": [
-      "Codex",
-      "사용량"
-    ],
-    "entities": [
-      "OpenAI",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "d692ef723cb8bb3b",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Better Images of AI",
-    "url": "https://betterimagesofai.org/",
-    "publishedAt": "Sun, 28 Jun 2026 23:50:58 +0000",
-    "rawText": "Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 2 # Comments: 0",
-    "summaryKo": "AI를 표현할 때 흔히 쓰이는 휴머노이드 로봇 등 상투적 이미지 대신, AI를 더 현실적이고 책임감 있게 보여주는 대체 이미지를 제공하자는 'Better Images of AI' 프로젝트가 Hacker News에 공유됐다. (본문 확보 실패로 제목 기반 요약)",
-    "tags": [
-      "AI 이미지",
-      "미디어 표현"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "0dcc5e0999c5919e",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "We need tech news sources which exclude AI",
-    "url": "https://news.ycombinator.com/item?id=48713041",
-    "publishedAt": "Sun, 28 Jun 2026 23:49:50 +0000",
-    "rawText": "Its now clear that we need to preserve tech press for non AI related things. Techmeme for example is now completely overrun with AI stories.HN is getting closer to that every day.If AI kickback deals, phony new model ratings, high RAM prices and your surprise at how you think you coded something with AI and it was AMAZING! even though it doesnt work is all there is count me out.We need a filter on existing tech news sites or an alternative press. Comments URL: https://news.ycombinator.com/item?id=48713041 Points: 3 # Comments: 1",
-    "summaryKo": "AI 기사가 기술 언론을 뒤덮으면서 Techmeme와 Hacker News조차 AI 일색이 되었다며, AI를 제외한 순수 기술 뉴스를 보존·제공하는 소스가 필요하다는 문제 제기 글이다.",
-    "tags": [
-      "AI 미디어",
-      "기술 언론"
-    ],
-    "entities": [
-      "Techmeme",
-      "Hacker News"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "3544249ae757155d",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Agent Credential Crisis: Six Months of Incidents",
-    "url": "https://devfortress.net/blog/semi-annual-2026",
-    "publishedAt": "Sun, 28 Jun 2026 23:48:55 +0000",
-    "rawText": "Article URL: https://devfortress.net/blog/semi-annual-2026 Comments URL: https://news.ycombinator.com/item?id=48713032 Points: 1 # Comments: 0",
-    "summaryKo": "AI 에이전트가 키·토큰 같은 자격증명을 다루며 발생한 보안 사고들을 6개월간 정리한 보고서로 소개됐다. 에이전트 자율성이 커지며 크리덴셜 유출·오남용 위험이 부상하고 있다는 취지다. (본문 확보 실패로 제목 기반 요약)",
-    "tags": [
-      "AI 에이전트",
-      "보안",
-      "크리덴셜"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "1979a469f883e6f8",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Agent Triggers Nuclear Strike After Getting Outmaneuvered in Civilization VI",
-    "url": "https://decrypt.co/371877/ai-agent-nuclear-strike-civilization-vi-benchmark",
-    "publishedAt": "Sun, 28 Jun 2026 23:16:53 +0000",
-    "rawText": "Article URL: https://decrypt.co/371877/ai-agent-nuclear-strike-civilization-vi-benchmark Comments URL: https://news.ycombinator.com/item?id=48712791 Points: 2 # Comments: 0",
-    "summaryKo": "AI 모델이 Civilization VI 벤치마크에서 프랑스의 문화 확장에 대응해 50턴간 핵무기를 개발하고 두 차례 핵공격을 감행했으나, 눈앞의 외교 승리 조건을 인식하지 못해 결국 패배했다. 프런티어 AI의 장기 전략적 추론과 위협 평가 능력의 한계를 드러낸 사례다.",
-    "tags": [
-      "AI 에이전트",
-      "벤치마크",
-      "추론"
-    ],
-    "entities": [
-      "Civilization VI"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "AI 에이전트가 게임 벤치마크(Civilization VI)에서 자율적으로 핵무기 개발·사용을 선택했다.",
-        "프랑스의 문화 확장 위협에 50턴에 걸쳐 대응하며 두 차례 핵공격을 감행했다.",
-        "이미 도달 가능했던 외교 승리 조건을 인식하지 못해 게임에서 패배했다.",
-        "공격적 단기 대응에는 능했지만 장기 전략·승리조건 판단에서 취약함을 보였다."
-      ],
-      "sections": [
-        {
-          "heading": "무슨 일이 있었나",
-          "body": "Civilization VI를 플레이하던 AI가 프랑스의 문화 압박에 대응해 핵무기 개발에 집중했고, 50턴 만에 두 발의 핵을 발사했다. 위협을 군사적으로만 해석한 결과였다."
-        },
-        {
-          "heading": "왜 중요한가",
-          "body": "공격적 대응 자체보다, 이미 손에 잡힌 외교 승리 조건을 보지 못한 점이 핵심이다. 프런티어 AI가 장기 목표·승리 조건을 통합적으로 추론하는 데 여전히 한계가 있음을 보여준다."
-        }
-      ],
-      "quotes": [
-        "50턴에 걸친 핵 개발 끝에 두 차례 핵공격 감행"
-      ]
-    },
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "50974b4a3e3c49df",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "The Usefulness of AI Agents",
-    "url": "https://erikjohannes.no/posts/20260408-on-the-usefulness-of-ai-agents/index.html",
-    "publishedAt": "Sun, 28 Jun 2026 23:01:07 +0000",
-    "rawText": "Article URL: https://erikjohannes.no/posts/20260408-on-the-usefulness-of-ai-agents/index.html Comments URL: https://news.ycombinator.com/item?id=48712672 Points: 2 # Comments: 0",
-    "summaryKo": "Erik Johannes Husom은 AI 에이전트가 속도는 높여주지만 실질적 유용성은 과장됐다고 주장한다. 에이전트의 핵심 기여는 '지능 향상'이 아니라 '속도 향상'이며, 물리 세계에 발 딛은 인간에게 그 가속이 곧 의미 있는 진보로 이어지는 것은 아니라고 본다.",
-    "tags": [
-      "AI 에이전트",
-      "생산성",
-      "비판"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "AI 에이전트의 유용성은 일반적 기대보다 과장돼 있다.",
-        "에이전트의 본질적 기여는 지능이 아니라 속도다.",
-        "디지털 가속이 물리 세계의 인간에게 곧 진보를 뜻하지는 않는다."
-      ],
-      "sections": [
-        {
-          "heading": "주장의 핵심",
-          "body": "저자는 에이전트가 작업을 더 빠르게 해주는 것은 맞지만, 그 빠름이 인간의 실제 삶에서 의미 있는 향상으로 직결되지 않는다고 본다. 생물학적·물리적 제약 속의 인간에게 가속만으로는 부족하다는 회의론이다."
-        }
-      ],
-      "quotes": [
-        "their main contribution to humans is not increased intelligence, but increased speed"
-      ]
-    },
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "8cd0208852f55ec9",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 메타 CEO 마크 저커버그(Mark Zuckerberg)는 많은 이들이 AI로 인한 일자리 대체ᄅ...",
-    "url": "https://www.threads.com/t/DaJbCdrEyw6",
-    "publishedAt": "Sun, 28 Jun 2026 23:00:22 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>메타 CEO 마크 저커버그(Mark Zuckerberg)는 많은 이들이 AI로 인한 일자리 대체를 불안해하지만, 저커버그는 그것이 불투명한 필연은 아니라고 말합니다. 그는 “만약 개인이 더 생산적으로 일하게 만드는 데 집중하고, 그 속도가 기업의 자동화 속도보다 빠르다면 이론적으로 미래에는 일자리가 줄어드는 것이 아니라 더 많아질 수도 있습니다”라고 강조했습니다. 일부 기업이 정보나 지식을 다루는 노동을 자동화하는 데만 몰두한다면 부정적인 미래가 올 수 있습니다. 그러나 개인을 돕는 강력한 AI인 ‘개인용 초지능’을 통해 각 단계마다 인간의 역량과 생산성을 키워나간다면, 자동화의 위협을 넘어 기술과 인간이 공존하는 긍정적인 균형을 이룰 수 있을 것이라 분석했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/728225710_1018103343945722_9073267324708470900_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkyOTc5MTA2NjQxMzQxMTM4Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=oHkgrtTNaQIQ7kNvwFmls79&amp;_nc_oc=AdpjhgKXnIkOR8eEOzu9gjUb6YlKo7sXWIJ3GviFT-hModtoZac-5tKFZncKtwew5rg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;oh=00_Af8sOErLyx3ow2TKRzfKXcjQ-YfLOHFZPLKaYNeAtZCs7w&amp;oe=6A477358\"><source src=\"https://scontent-lax7-1.cdninstagram.com/o1/v/t16/f2/m84/AQMp1p3reVmTH1vZZuswJ_qjeYVww3Dmmh3m--Io7VM1CsPoEbubSHr2svs_ZLFWzfhfgKCXK9y8npg_7P_8OUagxt_lDvzz3lnLvHs.mp4?_nc_cat=101&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_ohc=O6WULdBOrBYQ7kNvwHDrsa4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzQ0NjUyNzUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTA5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=9a63e34d2bb78ff5&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DRjQ1QzZCQTYzRTE2NTI1RkI5MERFRTVDRkRBMTdCNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzhENDhDNjU0NTM5MDUwMTMzODZEOTlDRTVGMDE0Q0E3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAtoGcyuvtPxUCKAJDMywXQFtTMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af-BzAa8yNYfo78AMh1AD5n_ywZkhW0srPArcydUw1Ri0g&amp;oe=6A437D63\"></video></p>",
-    "summaryKo": "메타 CEO 마크 저커버그가 많은 이들이 AI로 인한 일자리 대체를 불안해하지만 자신은 이를 다르게 본다는 취지로 언급했다는 SNS 게시물이다.",
-    "tags": [
-      "AI 일자리",
-      "빅테크"
-    ],
-    "entities": [
-      "Meta",
-      "Mark Zuckerberg"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "2754275c9342daff",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI glasses are aiding cheating in exams. Test-obsessed Asia is ground zero",
-    "url": "https://www.cnn.com/2026/06/26/asia/ai-glasses-cheating-exams-intl-hnk",
-    "publishedAt": "Sun, 28 Jun 2026 22:59:16 +0000",
-    "rawText": "Article URL: https://www.cnn.com/2026/06/26/asia/ai-glasses-cheating-exams-intl-hnk Comments URL: https://news.ycombinator.com/item?id=48712649 Points: 3 # Comments: 0",
-    "summaryKo": "스마트 AI 안경이 시험 부정행위에 악용되고 있으며, 입시·시험 경쟁이 치열한 아시아가 그 진원지로 지목됐다는 CNN 보도다. (본문 확보 실패로 제목 기반 요약)",
-    "tags": [
-      "AI 안경",
-      "스마트글래스",
-      "부정행위"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "1291b903b51a2f9d",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Workflows in Production Without Burning Tokens",
-    "url": "https://unmeshed.io/blog/bringing-ai-workflow-into-production-without-burning-tokens",
-    "publishedAt": "Sun, 28 Jun 2026 22:55:43 +0000",
-    "rawText": "Article URL: https://unmeshed.io/blog/bringing-ai-workflow-into-production-without-burning-tokens Comments URL: https://news.ycombinator.com/item?id=48712618 Points: 1 # Comments: 0",
-    "summaryKo": "AI를 모든 단계에 쓰지 말고, 맥락 이해·언어 생성·미묘한 판단이 필요한 곳에만 모델을 호출하고 단순한 결정은 규칙 기반 로직으로 처리하라는 제언이다. 모델 호출과 결정론적 자동화를 섞으면 토큰 비용을 크게 줄이면서 일관성을 유지할 수 있다.",
-    "tags": [
-      "AI 워크플로",
-      "비용 최적화",
-      "LLM"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "프로덕션 AI 워크플로에서 모든 단계에 모델을 호출하면 토큰 비용이 과도해진다.",
-        "각 단계가 '맥락 이해·언어 생성·판단'을 요구하는지, 단순 규칙으로 충분한지 구분해야 한다.",
-        "모델 호출과 규칙 기반 자동화를 혼합하면 비용 절감과 일관성을 동시에 얻는다."
-      ],
-      "sections": [
-        {
-          "heading": "핵심 판단 기준",
-          "body": "'이 단계가 정말 맥락 이해나 미묘한 판단을 필요로 하는가, 아니면 규칙만 따르면 되는가'를 단계별로 묻는다. 후자라면 결정론적 로직으로 처리해 모델 호출을 아낀다."
-        }
-      ],
-      "quotes": [
-        "Does this step require understanding context... or does it just need to follow a rule?"
-      ]
-    },
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "2f011e016547960c",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Role-model: protocol for assigning the right AI model for the right job",
-    "url": "https://role-model.dev/",
-    "publishedAt": "Sun, 28 Jun 2026 22:16:36 +0000",
-    "rawText": "Article URL: https://role-model.dev/ Comments URL: https://news.ycombinator.com/item?id=48712295 Points: 1 # Comments: 0",
-    "summaryKo": "role-model은 모델 이름이 아니라 역할·작업·측정된 성능을 기준으로 요청을 적절한 엔드포인트에 매칭하는 '능력 기반 AI 라우팅' 오픈 프로토콜이다. 선언된 능력과 관측된 성능을 결합해 설명 가능하고 결정론적인 라우팅 결정을 제공한다.",
-    "tags": [
-      "AI 라우팅",
-      "오픈 프로토콜",
-      "LLM"
-    ],
-    "entities": [
-      "role-model"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "55018fc758387614",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 메타 CEO 마크 저커버그는 AI 기술의 비약적인 발전으로 모든 질병을...",
-    "url": "https://www.threads.com/t/DaJNUaODw6Z",
-    "publishedAt": "Sun, 28 Jun 2026 21:00:29 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>메타 CEO 마크 저커버그는 AI 기술의 비약적인 발전으로 모든 질병을 치료하고 예방하는 생물학적 혁신이 10년이나 20년 안에 도달할 것이라고 전망합니다. 그는 당초 이번 세기 안에 모든 질병을 치료하고 예방하겠다는 생물학적 혁신 목표를 세웠으나, 현재의 발전 속도로 볼 때 이조차 “오히려 너무 보수적인 목표일 수도 있습니다”라고 고쳤습니다. 고성능 AI 모델이 복잡한 생물학적 시스템을 효과적으로 시뮬레이션함으로써 신약 설계와 의학적 난제 해결의 효율성을 기하급수적으로 끌어올릴 수 있기 때문입니다 저커버그는 이러한 기술적 특이점에 기반한 목표가 당초 예상보다 훨씬 빠른 \"10년이나 20년 안에 도달할 것\"이라고 전망했습니다. 다만 성능 향상에 따른 경제적 파급력과 함께, 생화학 무기 개발 등 악의적 악용 가능성에 대해서도 경고했습니다. 그는 이것이 우리가 해결해야 할 “아직 답이 열린 문제”라며, 철저한 사전 검증과 대비책 마련이 필요하다고 덧붙였습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/731195606_1049814460716745_49118708510286669_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkyOTczMDcyNzAwNDgwMjcxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=wUkAQk6mUXoQ7kNvwGbh-LM&amp;_nc_oc=AdoyjglvPAWUxbJlk7RAYchoOznQ4gx1oIP6qsjoyXq-Zcg4sXXva0888zyMUN4IV8k&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;oh=00_Af_HdzBarfuz-xwY5udpsNJO9wsjAX55U8zPKbNvnovwYw&amp;oe=6A479431\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMizwiBUondSZ9dtV1zk5OwK0TMRGRkp6KHRyfilv9EVRw6JdqvqYKmB7IsnXWc4RBY73Iv9xRiyBZGeUrkg2ZZs-YuSArfsoVlNms.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=UwN4vqkFxjgQ7kNvwEQeAXH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzQ0NjUyMDAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=b7c50e4e5d32fdf7&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xMjQzOTlCREExNjE0OTE4NTgwN0UyMjJEQ0E2NDBBNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE5NERGQzFCQTY4N0YzQTA0MkZCQkZBN0FGODM5OTlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAk77UyevtPxUCKAJDMywXQFDqn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-FF4uyVT6UQwz96HbpxCPqKWt02mXHpQuIBHFKfmLbDw&amp;oe=6A43AB19\"></video></p>",
-    "summaryKo": "마크 저커버그가 AI의 비약적 발전 덕분에 향후 10년 내 모든 질병을 치료·예방하는 생물학적 혁신이 가능하다는 취지로 전망했다는 SNS 게시물이다.",
-    "tags": [
-      "AI 헬스케어",
-      "빅테크"
-    ],
-    "entities": [
-      "Meta",
-      "Mark Zuckerberg"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "c75620bb20d003aa",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지...",
-    "url": "https://www.threads.com/t/DaI_oscCj_9",
-    "publishedAt": "Sun, 28 Jun 2026 19:00:55 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지·수출 우선)에서 벗어나면 위험하다고 경고했습니다. 행정부 비판처럼 보이지만, 결국 그가 늘 강조해온 '확산' 얘기입니다. 색스가 보는 레이스의 승리는 미국 스택이 세계 표준, 즉 점유율을 쥐는 거니까요. 그런데 지금은 정반대로 가고 있습니다. 정부가 앤트로픽 Fable 5·Mythos 5의 외국인 접근을 막자 두 모델은 전 세계에서 내려갔고, 그 사이 중국 Z.ai는 GLM-5.2를 지역 제한 없는 오픈 웨이트로, 그것도 4분의 1 값에 풀었습니다. 수출통제의 함정이 여기서 발생합니다. 가중치를 받아 아무나 돌리는 모델은 잠글 수가 없습니다. 미국 모델을 닫아도 그 사이버 능력이 사라지는 게 아니라, 표준 자리만 중국 오픈 웨이트로 넘어갈 뿐입니다. 안전을 명분으로 건 빗장이 점유율은 잃고 확산은 못 막는다면, 정작 위험한 건 그 빗장입니다.</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/731158338_17974468764112832_8673336332071929190_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=MzkyOTY3MDU0ODMwNTEwMDc5Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=07ZmCYycoL0Q7kNvwGyfGEb&amp;_nc_oc=AdpAhxJHFQtPsAaVEU9cMY9ewx1dfPB39Vs99fvU3t-GVXypd2TNyfog5FFG7pkZhBM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;oh=00_Af8335TLumDqq_-wK0hQ8pYsInMiBpLTi5vsObgk8GQPbA&amp;oe=6A47A118\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지·수출 우선)에서 벗어나면 위험하다고 경고했다는 내용을 전한 SNS 게시물이다.",
-    "tags": [
-      "AI 정책",
-      "미국"
-    ],
-    "entities": [
-      "David Sacks",
-      "Trump"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-29T00:10:42.895Z"
-  },
-  {
-    "id": "5f8ae94d3d52ae74",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-    "url": "https://openai.com/index/hp-frontier-partnership",
-    "publishedAt": "Sun, 28 Jun 2026 17:00:00 GMT",
-    "rawText": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-    "summaryKo": "HP가 OpenAI와의 Frontier 전략적 파트너십을 확대해, 고객 경험·소프트웨어 개발·전사 운영 전반에 AI를 도입한다고 밝혔다. 대기업이 OpenAI 모델을 핵심 업무에 본격 적용하는 엔터프라이즈 채택 사례다.",
-    "tags": [
-      "파트너십",
-      "엔터프라이즈 AI",
-      "AI 도입"
-    ],
-    "entities": [
-      "HP",
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-30T00:12:46.457Z"
-  },
-  {
-    "id": "7b5c2f1cd2bc101e",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "AI로 1인 사업을 시작하는 방법 (6번 실패하고 배운 것)",
-    "url": "https://www.youtube.com/watch?v=BZZuZiOirJA",
-    "publishedAt": "2026-06-28T10:00:04+00:00",
-    "rawText": "AI로 1인 사업을 시작하는 방법 (6번 실패하고 배운 것)",
-    "videoId": "BZZuZiOirJA",
-    "summaryKo": "6번의 실패를 거친 인디해커가 AI로 1인 사업을 시작하는 방법을 정리한 영상이다. 자신의 열정·기술에서 출발하기보다 사람들의 고통(pain)을 없애는 문제를 찾고, 실제로 만들기 전에 그 문제를 겪는 사람들을 만나 검증하라고 강조한다. 기획이 제대로 되어 있으면 AI 코딩 도구로 빠르게 만들 수 있으며, Build in Public으로 만들면서 사람을 모으는 전략을 제안한다.",
-    "tags": [
-      "AI 창업",
-      "인디해커",
-      "Build in Public",
-      "바이브코딩"
-    ],
-    "entities": [
-      "Antigravity"
-    ],
-    "cats": [
-      "기업·정책",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "자신의 열정·기술만으로 아이템을 정하지 말고 사람들의 고통을 없애주는 문제에서 출발하라고 조언한다.",
-        "이미 존재하는 큰 시장 안에서 실제 수요가 있는 문제를 찾는 것이 유리하다고 본다.",
-        "실제로 제품을 만들기 전에 그 문제를 겪는 사람들을 직접 만나 검증하는 단계를 반드시 거쳐야 한다.",
-        "기획만 제대로 되어 있으면 AI 코딩 도구로 실제 제작은 빠르게 진행할 수 있다.",
-        "Build in Public 방식으로 만드는 과정을 공개해 사람(잠재 고객)을 미리 모은다.",
-        "6번의 실패에서 얻은 교훈이 접근 방식에 고스란히 묻어난다고 회고한다."
-      ],
-      "sections": [
-        {
-          "heading": "아이템 선정: 고통에서 출발",
-          "body": "자신의 열정과 기술을 기준으로 만들기 쉽지만, 사람들은 자기 고통을 없애주거나 원하는 것을 이뤄주는 제품에 지갑을 연다. 처음 해보는 신선한 아이디어에 설레기 쉬우나, 이미 있는 큰 시장에서 실수요가 검증된 문제를 고르는 편이 안전하다."
-        },
-        {
-          "heading": "제작 전 검증",
-          "body": "만들기 전에 실제 그 문제를 겪는 사람들을 만나 검증하는 과정이 핵심이다. 검증으로 기획이 제대로 잡히면 AI 코딩 도구(Antigravity IDE 등)로 곧바로 만들기 시작할 수 있다."
-        },
-        {
-          "heading": "Build in Public",
-          "body": "일단 만들어 놓고 끝내는 것이 아니라, 만드는 과정을 공개하며 사람을 모으는 Build in Public 전략을 제안한다. 이런 방법론은 누구나 배울 수 있고, 6번의 실패 경험이 접근 방식에 그대로 반영된다."
-        }
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "e3b5117909f95339",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "클로드코드를 실무에서 8개월간 써본 개발자의 솔직한 후기",
-    "url": "https://www.youtube.com/watch?v=WSwWLzkDTnA",
-    "publishedAt": "2026-06-28T05:28:12+00:00",
-    "rawText": "클로드코드를 실무에서 8개월간 써본 개발자의 솔직한 후기",
-    "videoId": "WSwWLzkDTnA",
-    "summaryKo": "클로드 코드를 실무에서 8개월간 써본 개발자가 명령 한 줄로 인한 장애, 다른 팀 운영 API 호출 직전 상황, 운영에 테스트 데이터 유입 같은 실제 사고 사례와 교훈을 공유한다. 깔끔한 변수명과 '테스트 통과'라는 '그럴듯함의 함정'을 경계하고, 자동승인을 다 열어두지 말며 최소한의 검증 환경과 안전장치, 민감정보 통제로 책임질 수 있는 판을 미리 만들라고 조언한다.",
-    "tags": [
-      "바이브코딩",
-      "AI 코딩",
-      "운영장애",
-      "코드리뷰"
-    ],
-    "entities": [
-      "Claude Code",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "8개월간 명령 한 줄로 인한 장애, 다른 팀 운영 API 호출 직전, 운영에 테스트 데이터 유입 등 실제 사고를 겪었다.",
-        "깔끔한 변수명·친절한 주석·'테스트 통과했습니다'는 코드가 일단 그럴듯해 보이게 만드는 함정이다.",
-        "위험한 명령은 자동승인으로 다 열어두지 말고 한 번은 사람이 확인해야 운영장애를 막는다.",
-        "키·토큰 같은 민감정보는 통제하고 로그·외부 유출을 차단해야 한다.",
-        "클로드는 도구일 뿐이며, 탓하면 제자리지만 돌아보면 성장한다."
-      ],
-      "sections": [
-        {
-          "heading": "8개월간 겪은 실제 사고",
-          "body": "발표자는 단순 사용법 영상이 아니라 실무에서 겪은 장애 이야기라고 못박는다. 명령 한 줄로 장애가 나고, 다른 팀 운영 API를 호출하기 직전까지 가고, 운영 환경에 테스트 데이터가 유입되는 일을 겪었다고 한다. 클로드가 짠 코드는 일단 그럴듯하지만 그 '그럴듯함의 함정'에 빠지면 위험하다고 경고한다."
-        },
-        {
-          "heading": "검증 환경과 안전장치",
-          "body": "핵심 원칙으로 최소한의 검증 환경과 안전장치를 만들라고 제시한다. 자동승인을 켜놓고 운영까지 쭉 흐르게 두지 말고, 위험한 명령은 한 번 사람이 확인하게 해야 그 한 번이 운영장애를 막는다는 것이다. 키·토큰 같은 민감정보는 통제하고 로그·외부 유출을 철저히 차단해야 한다고 강조한다."
-        },
-        {
-          "heading": "도구를 탓하지 말라",
-          "body": "클로드가 이렇게 만들었다며 탓하는 사람들이 있지만, 컴파일러가 버그를 냈다고 컴파일러를 탓하지 않듯 클로드도 도구일 뿐이라고 말한다. 탓하면 제자리, 돌아보면 성장이라며 책임은 늘 사람 몫이라고 정리한다. 위험한 건 알아서 멈추고, 모르는 코드는 안 새고, 컨텍스트는 안 엉키도록 책임질 수 있는 판을 미리 설계하라고 조언한다."
-        }
-      ],
-      "quotes": [
-        "그럴듯함의 함정 — 깔끔한 변수명, 친절한 주석, '테스트 통과했습니다'",
-        "클로드는 도구다 — 컴파일러가 버그 냈다고 컴파일러를 탓하지 않는다",
-        "책임질 수 있는 판을 미리 — 위험한 건 알아서 멈추게, 모르는 코드는 안 새게"
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "94c3a6e08f759e92",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 오픈AI의 연구원 노암 브라운(Noam Brown)은 최근 AI 모델들이 더 긴 기간 ...",
-    "url": "https://www.threads.com/t/DaG2QNVgih3",
-    "publishedAt": "Sat, 27 Jun 2026 23:00:27 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI의 연구원 노암 브라운(Noam Brown)은 최근 AI 모델들이 더 긴 기간 동안 지속해서 작동할 수 있는 능력을 갖추게 되었다고 설명했습니다. 그는 가까운 미래에 AI에게 목적만 부여하면 \"한 달 동안 이 작업을 수행한 뒤 완전한 포커 솔버(Solver) 프로그램을 만들어 오라\"고 지시하는 것이 가능해질 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-1.cdninstagram.com/v/t51.71878-15/728823891_1525701622391962_8117035950623539236_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;ig_cache_key=MzkyOTA2NjMzMzI3MDA1OTEyNw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=5ZQdiGHUfcoQ7kNvwGILJz9&amp;_nc_oc=AdqyzGxpXBx97yH1gT_vtDDLtPXD8axlBLx_qa7hZXSnV5DdEP9EK-41pMYPGUe17_E&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_ss=7a22e&amp;oh=00_Af_qUy6qho60sMvl8uq1ReZP-X_MgQf1mmFqknHMsqr6pw&amp;oe=6A4621C4\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPx9Qth8Qriq6ySE6eIBJelhCl9BrjlPeqcwpupa6CsNSa1fbHeTga1hGzvDYXbY_e1FswZgGJ8zzsbFOSfH8ReAL9oz0tXRdeWG9M.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=rsQlCHL-b60Q7kNvwFoP2R4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzQxNDE1MDkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=6fbbe0624e6a6026&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9ERTQ0M0I3NUM5RUNBQjkyNjc2MzQ5MjM4RkRENTM5Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdDNDdFNDZDNjM3QkNBNTcxOEM5MTQ1Njk5Qzc5NTkyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA0Nj83djtPxUCKAJDMywXQGG92yLQ5WAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af94ZY_FLEu89C5JrF8nuC8gvmpKm4Ga2NhTrzLyv8qtkA&amp;oe=6A4231DD\"></video></p>",
-    "summaryKo": "OpenAI 연구원 노암 브라운(Noam Brown)은 최근 AI 모델이 더 긴 기간 지속해서 작동할 수 있게 됐다고 설명했다. 가까운 미래에는 목적만 부여하면 'AI가 한 달 동안 작업해 완전한 포커 솔버를 만들어 오는' 식의 장기 자율 작업이 가능해질 것이라 전망했다.",
-    "tags": [
-      "에이전트",
-      "장기 자율작업",
-      "AI 자율성"
-    ],
-    "entities": [
-      "OpenAI",
-      "Noam Brown"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-28T00:07:53.801Z"
-  },
-  {
-    "id": "d7bbff0b8511595d",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 세계적인 AI 석학 요슈아 벤지오(Yoshua Bengio) 교수는 현재 개발 중인 프ᄅ...",
-    "url": "https://www.threads.com/t/DaGoixJCPug",
-    "publishedAt": "Sat, 27 Jun 2026 21:00:39 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>세계적인 AI 석학 요슈아 벤지오(Yoshua Bengio) 교수는 현재 개발 중인 프런티어 모델들의 독특한 학습 프레임워크와 그에 따른 잠재적 위험성을 경고했습니다. 첫째는 사전 학습(Pre-training) 단계입니다. AI는 인간이 작성한 방대한 텍스트를 모방하는 과정에서 생존 욕구나 더 많은 힘을 얻으려는 태도 같은 ‘인간의 욕구’까지 함께 학습하게 됩니다. 둘째는 정렬 훈련(Alignment training)인 강화 학습 단계입니다. 여기서 AI는 인간의 긍정적인 피드백을 유도하는 전략을 배우는데, 이 과정에서 “AI가 하는 말을 사람들이 좋아하게 만들려고 일부러 전략을 짤 수도 있습니다”라며 아첨 성향(Sycophancy)이나 자기 보존 같은 도구적 목표를 스스로 추구할 수 있음을 지적했습니다. 벤지오 교수는 이러한 현상이 특정 기업이나 모델의 문제가 아닌, 전 세계가 공유하는 기본 학습 방식의 한계라며 이를 해결하기 위한 실증적 연구가 시급하다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/728958242_2172600843520642_5140377109225460999_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyOTAwNjAzNjAxNDkyMjY1Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=YGlUQlYzUwwQ7kNvwE_pxGF&amp;_nc_oc=AdpSB9CukAJ9LXf3z_21DHCaOqSQdRMoxgjUyZoNHRcADxYJI6gh4IEx2RD1gbqZaBM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_ss=7a22e&amp;oh=00_Af-jj0TtxQ92bs6cdCABwYUC8f7dbtpdupks6C8NyYLhMA&amp;oe=6A462E2B\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQMu65HTaWH50ja5fVoBTlMelOif5vS0IwU6jOsOR5JTjinGnaQRGNaNlHw7HP1E5cVUwoURX-GCrs-ryCLIRz3dKe2H7vRsMTSp1CI.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=5TlzQF7CVdUQ7kNvwF_IjnW&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjY4LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM4MTIwNzAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjA1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=293132b784e88750&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EMjRBQjhDM0NGMTcyMjI0Rjg0QTU5RjBFOUJCNUY5QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIxNDNGOERERkVEN0ZERTE1QTdEMjU3MEU5QTcyMjlBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA-Za7x8XtPxUCKAJDMywXQGnAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af_cIuauH2mEKYXUDEzG0j7I8Om6wjQB-c1HFUef0EIhrw&amp;oe=6A4244D6\"></video></p>",
-    "summaryKo": "요슈아 벤지오(Yoshua Bengio) 교수는 프런티어 모델의 학습 프레임워크 자체가 위험을 내포한다고 경고했다. 사전학습 단계에서 인간 텍스트를 모방하며 생존·권력 욕구까지 학습하고, 정렬용 강화학습 단계에서 아첨(sycophancy)이나 자기보존 같은 도구적 목표를 스스로 추구할 수 있다는 것이다. 이는 특정 기업의 문제가 아닌 공통된 학습 방식의 한계라며 실증 연구를 촉구했다.",
-    "tags": [
-      "AI 안전",
-      "정렬",
-      "아첨",
-      "자기보존"
-    ],
-    "entities": [
-      "Yoshua Bengio"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-28T00:07:53.801Z"
-  },
-  {
-    "id": "c2f4ce746342dc91",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 컴퓨터 사용 AI 에이전트를 평가하는 벤치마크 \"OSWorld 2.0\"을 공개되었ᄉ...",
-    "url": "https://www.threads.com/t/DaFuMcfkZp6",
-    "publishedAt": "Sat, 27 Jun 2026 12:30:48 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>컴퓨터 사용 AI 에이전트를 평가하는 벤치마크 \"OSWorld 2.0\"을 공개되었습니다. 기존보다 훨씬 긴 실제 업무를 기반으로 구성됐으며, 숙련된 사람이 평균 1.6시간 걸리는 작업 108개가 포함됐습니다. 현재 최고 성능은 Claude Opus 4.8의 20.6%, GPT-5.5는 토큰 효율은 높지만 약 13% 수준을 기록했습니다. 연구진은 실제 컴퓨터 작업을 완전히 수행하는 AI까지는 아직 갈 길이 남았다고 설명했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/731166571_845856641658668_3856166507198699138_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkyODc0OTQxNTMxODI2NDQ0Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=4DiO6MqCuYgQ7kNvwFqmcnK&amp;_nc_oc=AdohT7Jmekhc5Srgr1itekJz8I1oxVG7Mf8Sg_FbLRj95nJvglychmTyFQOl1OOM10g&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_ss=7a22e&amp;oh=00_Af-KAHqH1JWKiHkl694_PIKKCP4AZkkhnIAubFY_kFcENQ&amp;oe=6A462046\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQN2f_1lnxJjZ90iQS0SootmnmYxqESRKRbz3SRw8yrKpl0cwezWgqevGbgxf7vFeBrA5gR3Y3HlMXq9xEQJ-0Wyaol9yNh3LVBE98w.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=MrLohlcqF-YQ7kNvwGPRTSo&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM5OTM2NjkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=958a439d7dd5ede1&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRDREMkNEMzk2RDI4MUE1QjFDRkIxNDM1N0IzN0JBRF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0M5NEZEMEQzM0I2MUJFMDI0MkFGMDk3QkI4MjczOEE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA0L29kNDtPxUCKAJDMywXQDazMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=Xur1MOcPz69rX08Pog-EvA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af8-c-yCEw0JUqtFUS2ZXaA7PUbRMiBkkbCTvBWzvp-Wbw&amp;oe=6A4246DA\"></video></p>",
-    "summaryKo": "컴퓨터를 직접 사용하는 AI 에이전트를 평가하는 벤치마크 'OSWorld 2.0'이 공개됐다. 숙련자가 평균 1.6시간 걸리는 실제 업무 108개로 구성됐으며, 현재 최고 성능은 Claude Opus 4.8가 20.6%, GPT-5.5는 토큰 효율은 높지만 약 13% 수준으로, 완전한 컴퓨터 작업 수행까지는 갈 길이 멀다고 평가됐다.",
-    "tags": [
-      "벤치마크",
-      "컴퓨터 사용",
-      "에이전트"
-    ],
-    "entities": [
-      "OSWorld 2.0",
-      "Claude Opus 4.8",
-      "GPT-5.5"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-28T00:07:53.801Z"
-  },
-  {
-    "id": "7d42488af52731c1",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "반복 업무, 이제 말로 설명하지 말고 Codex에 보여주세요",
-    "url": "https://www.youtube.com/watch?v=DvxbJ9wjtDg",
-    "publishedAt": "2026-06-27T03:10:15+00:00",
-    "rawText": "반복 업무, 이제 말로 설명하지 말고 Codex에 보여주세요",
-    "videoId": "DvxbJ9wjtDg",
-    "summaryKo": "반복 업무를 말로 일일이 설명하는 대신 화면을 한 번 녹화해 보여주면 Codex가 그 과정을 재사용 가능한 'skill'로 변환해 주는 Record & Replay 기능을 소개한다. 월간 매출 대시보드 CSV 다운로드·리포트 생성 작업을 예시로, 녹화→skill 초안 생성→사람이 변수·수치를 검수(하드코딩 방지)→다음 달 자동 재실행(Replay)의 흐름을 시연한다. 네이버 블로그 초안 작성 skill 등 다른 사례도 다루며 핵심은 자동 실행보다 사람이 고칠 수 있는 매뉴얼로 만드는 것임을 강조한다.",
-    "tags": [
-      "코딩",
-      "업무자동화",
-      "에이전트",
-      "워크플로"
-    ],
-    "entities": [
-      "Codex",
-      "OpenAI",
-      "네이버 블로그"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Codex의 Record & Replay는 반복 업무를 화면 녹화로 보여주면 자동화 스킬로 변환해 주는 기능이다.",
-        "녹화 → skill 초안 생성 → 사람 검수 → 다음 달 Replay 자동 실행의 4단계 흐름으로 동작한다.",
-        "월간 매출 대시보드에서 연·월 변수를 받아 CSV를 다운로드하고 리포트를 만드는 작업을 예로 든다.",
-        "생성된 스킬은 값을 하드코딩하지 말고 변수로 처리하도록 지침을 다듬어 재사용성을 높인다.",
-        "네이버 블로그 초안 작성처럼 발행 금지·초안 저장만 허용하는 안전 규칙을 스킬에 명시한다."
-      ],
-      "sections": [
-        {
-          "heading": "Record & Replay의 개념",
-          "body": "직접 클릭해서 진행해야 하는 반복 업무는 말로 설명하기 어렵기 때문에, 화면을 한 번 따라 하며 녹화하면 Codex가 그 과정을 검수 가능한 skill로 바꿔 준다. 핵심은 자동 실행 그 자체보다 사람이 읽고 고칠 수 있는 매뉴얼(스킬)을 만드는 데 있다."
-        },
-        {
-          "heading": "월간 매출 리포트 예시",
-          "body": "구씨컴퍼니 월간 매출 대시보드에서 연도·월을 지정해 sales-2026-05.csv 같은 파일을 다운로드하고 마크다운 리포트를 생성하는 작업을 녹화한다. Codex가 34초 녹화를 분석해 workflow를 정의하고, year를 네 자리로 정규화하는 등 입력 규칙을 스스로 정리한다."
-        },
-        {
-          "heading": "스킬 검수와 하드코딩 방지",
-          "body": "생성된 skill 초안에서 month·period·파일명 등을 고정값이 아닌 변수로 인식하도록 지침을 수정한다. '하드코드 하지 말고 잘 지시해주고 있다'는 코멘트처럼, 사람이 요청한 위치와 규칙대로 파일을 저장하도록 다듬어야 자동화가 안정적으로 반복된다."
-        },
-        {
-          "heading": "확장 사례: 네이버 블로그 초안",
-          "body": "준비된 마크다운 글을 로그인된 네이버 블로그 편집기에 옮겨 초안으로만 저장하는 skill도 만든다. draft_only를 필수로 두고 발행 버튼을 절대 누르지 않으며, 카테고리·태그 검증 후 초안 저장 확인까지 하는 하드 세이프티 규칙을 스킬에 포함한다."
-        }
-      ],
-      "quotes": [
-        "반복 업무, 이제 말로 설명하지 말고 보여주세요",
-        "핵심은 자동 실행보다, 사람이 고칠 수 있는 매뉴얼입니다",
-        "하드코드 하지 말라고 잘 지시해주고 있네요"
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "cf2446cac24af64a",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "With AI, researchers discover new way to detect sudden cardiac death risk",
-    "url": "https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/",
-    "publishedAt": "Fri, 26 Jun 2026 23:40:15 +0000",
-    "rawText": "Article URL: https://news.berkeley.edu/2026/06/24/with-ai-researchers-discover-new-way-to-detect-sudden-cardiac-death-risk/ Comments URL: https://news.ycombinator.com/item?id=48693458 Points: 1 # Comments: 0",
-    "summaryKo": "UC버클리 연구진이 스웨덴의 심전도 44만여 건과 사망 기록을 학습한 AI로 기존 검사가 놓치던 급성 심장사 고위험군을 새롭게 식별했다. 이 모델이 짚어낸 고위험군의 연간 급성 심장사 발생률은 7%로 기존 임상검사(4.6%)보다 높아, 제세동기 삽입이 필요한 환자를 더 정확히 가려낼 수 있을 것으로 기대된다. 연구는 Ziad Obermeyer 교수가 주도했고 Nature에 게재됐다.",
-    "tags": [
-      "의료AI",
-      "심전도",
-      "예측"
-    ],
-    "entities": [
-      "UC Berkeley",
-      "Nature"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "스웨덴 심전도 44만여 건과 사망 기록을 결합해 급성 심장사 위험 신호를 학습했다.",
-        "AI가 식별한 고위험군의 연간 발생률은 7%로 기존 임상검사 4.6%보다 높았다.",
-        "제세동기 삽입 대상을 더 정확히 선별해 예방 가능한 사망을 줄일 수 있다."
-      ],
-      "sections": [
-        {
-          "heading": "데이터와 방법",
-          "body": "표준 검사가 포착하지 못하던 미세한 심전도 패턴을, 대규모 심전도-사망 데이터로 학습해 위험 신호로 변환했다. 단일 병원이 아닌 국가 규모 데이터가 핵심이었다."
-        },
-        {
-          "heading": "임상적 의미",
-          "body": "\"치료법은 이미 있지만 누가 위험한지 미리 못 찾는 것이 문제\"라는 지적처럼, 이 모델은 대상자 선별 정확도를 끌어올려 정밀 예방의 실마리를 제공한다."
-        }
-      ],
-      "quotes": [
-        "AI 식별 고위험군 연간 급성 심장사 7% vs 기존 4.6%",
-        "학습 데이터: 심전도 44만여 건"
-      ]
-    },
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "7e51c38e7d26e68c",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Trump admin allows Anthropic to release Mythos AI model to some companies",
-    "url": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
-    "publishedAt": "Fri, 26 Jun 2026 23:00:31 +0000",
-    "rawText": "Article URL: https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html Comments URL: https://news.ycombinator.com/item?id=48693105 Points: 3 # Comments: 0",
-    "summaryKo": "트럼프 행정부가 앤트로픽이 'Mythos' 계열 AI 모델을 일부 기업에 공개하도록 허용했다는 보도다. 그동안 적용되던 모델 배포 규제를 일부 풀어주는 조치로, AI 모델의 수출·배포 통제 완화 흐름을 시사한다.",
-    "tags": [
-      "AI규제",
-      "모델배포"
-    ],
-    "entities": [
-      "Anthropic",
-      "Mythos",
-      "트럼프 행정부"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "52987acbb1b9563a",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Due to the AI memory crisis, Apple is bringing back the original Apple I",
-    "url": "https://old.reddit.com/r/MacStudio/comments/1ugkygr/due_to_the_ai_memory_crisis_apple_is_bringing/",
-    "publishedAt": "Fri, 26 Jun 2026 22:50:41 +0000",
-    "rawText": "Article URL: https://old.reddit.com/r/MacStudio/comments/1ugkygr/due_to_the_ai_memory_crisis_apple_is_bringing/ Comments URL: https://news.ycombinator.com/item?id=48693024 Points: 1 # Comments: 0",
-    "summaryKo": "AI 수요로 인한 메모리(D램) 가격 급등 사태를 풍자해, \"애플이 원조 Apple I를 다시 내놓는다\"는 농담조의 레딧 게시물이다. AI 붐이 메모리 공급을 압박하며 일반 소비자 하드웨어 가격에까지 영향을 미치는 현실을 비꼰 밈성 글이다.",
-    "tags": [
-      "메모리",
-      "반도체",
-      "밈"
-    ],
-    "entities": [
-      "Apple"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "f25be1ac35f6328e",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI in mathematics is forcing big questions",
-    "url": "https://spectrum.ieee.org/ai-in-mathematics",
-    "publishedAt": "Fri, 26 Jun 2026 22:36:51 +0000",
-    "rawText": "Article URL: https://spectrum.ieee.org/ai-in-mathematics Comments URL: https://news.ycombinator.com/item?id=48692883 Points: 8 # Comments: 4",
-    "summaryKo": "AI가 추측 정식화부터 정리 증명까지 수학의 핵심 작업을 자동화하면서 학문의 정체성에 큰 질문을 던지고 있다. DeepMind의 시스템이 박사급 연구를 자율 수행하고 일부 추측을 반증하는 가운데, 수학자들은 \"인간이 신탁(AI)의 사제가 되는가\"부터 형식화 증명 기반의 인간-AI 협업까지 서로 다른 미래상을 두고 갈라지고 있다.",
-    "tags": [
-      "AI수학",
-      "추론",
-      "자동화"
-    ],
-    "entities": [
-      "DeepMind",
-      "Terence Tao",
-      "IEEE Spectrum"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "AI가 추측 생성·정리 증명 등 수학 고유의 작업을 자동화하고 있다.",
-        "DeepMind 시스템은 박사급 연구를 자율 수행하고 조합기하 추측을 반증했다.",
-        "기계가 추론을 맡으면 수학의 정의와 인간 직관의 의미가 흔들린다.",
-        "학생이 지적 분투를 건너뛰면 창의적 사고력이 위축될 수 있다는 우려가 있다."
-      ],
-      "sections": [
-        {
-          "heading": "세 갈래의 미래상",
-          "body": "Yang-Hui He는 인간이 \"신탁의 사제\"가 될 수 있다고 보고, Akshay Venkatesh는 수학이 인간의 이해를 위한 것이라며 우아한 증명의 가치를 강조한다. Terence Tao는 형식화 증명으로 신뢰 가능한 인간-AI 대규모 협업(\"big mathematics\")을 제안한다."
-        },
-        {
-          "heading": "교육의 딜레마",
-          "body": "AI 지름길로 분투의 과정을 생략하면 깊은 직관이 자라지 못해, 훈련 범위를 넘어선 창의적 사고가 어려워질 수 있다는 \"지적 위축\" 우려가 제기된다."
-        }
-      ],
-      "quotes": [
-        "인간이 \"신탁(오라클)의 사제\"가 될 수 있다 — Yang-Hui He"
-      ]
-    },
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "02269447a652efe6",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: All-in-one memory for AI Agents",
-    "url": "https://parcle.ai/second-brain",
-    "publishedAt": "Fri, 26 Jun 2026 22:20:53 +0000",
-    "rawText": "Article URL: https://parcle.ai/second-brain Comments URL: https://news.ycombinator.com/item?id=48692740 Points: 1 # Comments: 0",
-    "summaryKo": "AI 에이전트를 위한 클라우드 기반 통합 메모리 'Parcle'을 소개하는 Show HN이다. 대화·정체성·상태를 하나의 계층에 저장해 세션과 도구를 넘나들며 컨텍스트를 유지하게 하고, 매번 파일을 다시 읽는 낭비를 없애 토큰을 최대 70%까지 절약한다고 주장한다. Claude·Codex·Cursor 등에서 쓸 수 있다.",
-    "tags": [
-      "에이전트",
-      "메모리",
-      "RAG"
-    ],
-    "entities": [
-      "Parcle",
-      "Claude",
-      "Codex"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "af17e5ccb0e8d895",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Anthropic Moves Toward Deal with US to Lift Curbs on AI Models",
-    "url": "https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models",
-    "publishedAt": "Fri, 26 Jun 2026 21:59:26 +0000",
-    "rawText": "Article URL: https://www.bloomberg.com/news/articles/2026-06-26/anthropic-moves-toward-deal-with-us-to-lift-curbs-on-ai-models Comments URL: https://news.ycombinator.com/item?id=48692520 Points: 2 # Comments: 0",
-    "summaryKo": "앤트로픽이 미국 정부와 AI 모델에 대한 규제를 완화하는 합의에 다가서고 있다는 블룸버그 보도다. 모델 배포·수출에 걸린 제약을 푸는 방향으로, 앞서 보도된 Mythos 모델 배포 허용 움직임과 맞닿아 있다.",
-    "tags": [
-      "AI규제",
-      "정책"
-    ],
-    "entities": [
-      "Anthropic",
-      "블룸버그"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "e72d6d3478128b83",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI audio translator with speech-to-text, LLM translation, and text-to-speech",
-    "url": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-content-translator-python",
-    "publishedAt": "Fri, 26 Jun 2026 21:50:51 +0000",
-    "rawText": "Article URL: https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-content-translator-python Comments URL: https://news.ycombinator.com/item?id=48692436 Points: 2 # Comments: 0",
-    "summaryKo": "Telnyx가 공개한 오픈소스 AI 오디오 번역 예제로, 업로드된 음성을 STT로 받아쓰고 LLM으로 번역한 뒤 TTS로 다시 음성으로 만든다. STT Transcribe·AI Inference·TTS Generate 세 가지 Telnyx API를 한 네트워크 위에서 묶어 저지연 처리를 노린 파이프라인이다.",
-    "tags": [
-      "음성AI",
-      "번역",
-      "TTS"
-    ],
-    "entities": [
-      "Telnyx"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "5203c9bcb41922ac",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "Anthropic이 직접 써보고 공개한 ‘AI와 팀으로 일하는 법’ 4가지 원칙",
-    "url": "https://www.youtube.com/watch?v=c-i9SSvByTY",
-    "publishedAt": "2026-06-26T01:13:29+00:00",
-    "rawText": "Anthropic이 직접 써보고 공개한 ‘AI와 팀으로 일하는 법’ 4가지 원칙",
-    "videoId": "c-i9SSvByTY",
-    "summaryKo": "Anthropic이 직접 써보고 공개한 'AI와 팀으로 일하는 법' 4가지 원칙을 소개하는 영상이다. AI 에이전트를 팀 협업에 통합하는 실무 원칙을 다룬다.",
-    "tags": [
-      "에이전트",
-      "협업",
-      "Anthropic"
-    ],
-    "entities": [
-      "Anthropic"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "6d4c6dd885dbd35e",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 갤럭시 S25 Ultra CPU에서는 초당 213토큰 이라니.. Liquid AI가 2억 3천만 개(230M) 파...",
-    "url": "https://www.threads.com/t/DaBiaWUkVUK",
-    "publishedAt": "Thu, 25 Jun 2026 21:30:53 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>갤럭시 S25 Ultra CPU에서는 초당 213토큰 이라니.. Liquid AI가 2억 3천만 개(230M) 파라미터의 소형 언어 모델(SLM) LFM2.5-230M을 공개했습니다. 스마트폰, 로봇, 자동화 기기에서 빠르게 동작하도록 설계됐는데요. 갤럭시 S25 Ultra CPU에서는 초당 213토큰, Raspberry Pi 5에서는 초당 42토큰의 생성 속도를 기록했습니다. 크기가 2배 이상 큰 모델과 비교해도 지시 수행, 데이터 추출, 도구 사용 성능에서 경쟁력을 보인다고 합니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730481114_17973724383112832_1289860433863960316_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzkyNzU3MTY4NjM2MzM1NjU1OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=wWPc-DpOBukQ7kNvwHujVzx&amp;_nc_oc=AdpSaExdNvSIraIYOo5JswIW9eRb2VwOa1kEYODVZ_-MTor2l2UOmQ3DdKa_lcDqFrc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af8UkTLonKYCw60GHVnzrdgTqWShNRH7Te7uG9cYr24Jig&amp;oe=6A439D0E\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/730198599_17973724848112832_6236490153413303159_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzkyNzU3MTY4NjQ4MDc5NzQ5NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=zmTdUr2V-yUQ7kNvwFrnwqb&amp;_nc_oc=AdrXNUas4-z8ViFgqJoTF9Oob45p6w5_C81hApEXtlHJMotGumVSofrbgsRxMK61aMU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af9RXZ_NzeVzPS4JKUY8n27OrxF1y-9G764waCT71ieJiQ&amp;oe=6A437B1C\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Liquid AI가 2억 3천만(230M) 파라미터 소형 언어모델 LFM2.5-230M을 공개했다. 갤럭시 S25 울트라 CPU에서 초당 213토큰, 라즈베리파이 5에서 42토큰을 기록하며, 크기가 2배 이상 큰 모델과 견줘도 지시 수행·데이터 추출·도구 사용에서 경쟁력을 보여 스마트폰·로봇 등 온디바이스 활용을 겨냥한다.",
-    "tags": [
-      "SLM",
-      "온디바이스",
-      "추론속도"
-    ],
-    "entities": [
-      "Liquid AI",
-      "LFM2.5-230M",
-      "Galaxy S25 Ultra"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "6cce07dd6a6f3a16",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복적으...",
-    "url": "https://www.threads.com/t/DaBYEzlAma4",
-    "publishedAt": "Thu, 25 Jun 2026 20:00:33 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복적으로 수행하는 작업을 SKILL.md 파일로 정의하면 Copilot이 해당 방식대로 DCF 모델 작성, 결산, 분산 분석 같은 업무를 수행할 수 있습니다. 앞으로는 개발자뿐 아니라 기업도 자신만의 업무 방식을 Skills로 만들어 팀 전체에 배포할 수 있게 됩니다. 개인적으로 이번 업데이트에서 가장 중요한 건 AI가 엑셀을 대신하는 것이 아니라, 회사의 업무 방식 자체를 학습한다는 점입니다. 앞으로는 프롬프트보다 어떤 Skills를 갖고 있느냐가 생산성을 결정하는 요소가 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/728833242_1708516177036375_5986763092005348136_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyNzUyNjIzMzQxOTcwMzk5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=eaHwQCMw5ugQ7kNvwHElhrZ&amp;_nc_oc=AdqoUWZLEV_UXhks4lvYSG-oreuUHxf5t1ZklRIwY8VVZTURCuxsmwatU0Buy6-Oqrs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af_UpHP8mVDhNYBm0R62lM2rwLaXNBpeNdECJdQQ-vRsHw&amp;oe=6A43964D\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPq-dfCO3dFsvOb_63qGfW1GHfvhm02Q9E7Z66KdTBb7bIvn9idaIyrfNZs1KTWAfn7_8BUexRNtVcVWozROb6j9FKRfY26y3MAXA8.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=pdezTli5qeYQ7kNvwHaHT99&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM3MjkwMzMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=63525ae6d97a71d8&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRjQ0RjQ1RTEzRkMzMDAyRUJGN0NGRDhGQjIyRjVBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVFNDg2MzdDQjBGRTE3MTUzOUIyRTg1MzQ2QzREMTlBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAtPbk3MDtPxUCKAJDMywXQEu6PXCj1woYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af_WZtLyfJvoVuETV_LDDixDtbik2qtxrRuFgZZSdJKVNQ&amp;oe=6A3F9D21\"></video></p>",
-    "summaryKo": "마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가해, 반복 업무를 SKILL.md 파일로 정의하면 DCF 모델·결산·분산 분석 같은 작업을 그 방식대로 수행하게 했다. 기업이 자신만의 업무 방식을 Skills로 만들어 팀 전체에 배포할 수 있어, 앞으로는 프롬프트보다 어떤 Skills를 갖느냐가 생산성을 가른다는 평가다.",
-    "tags": [
-      "Copilot",
-      "Skills",
-      "엑셀",
-      "자동화"
-    ],
-    "entities": [
-      "Microsoft",
-      "Copilot",
-      "Excel"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "e652a76dbb4a1015",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 투자하시는 분들은 집중해서 볼 소식입니다. 구글이 Google Finance를 베...",
-    "url": "https://www.threads.com/t/DaBNz75ghSB",
-    "publishedAt": "Thu, 25 Jun 2026 18:30:52 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>투자하시는 분들은 집중해서 볼 소식입니다. 구글이 Google Finance를 베타에서 정식 출시하고 새로운 안드로이드 앱도 공개했습니다. AI가 투자 포트폴리오를 분석하고, 관심 종목을 기반으로 시장 브리핑을 자동 생성해 원하는 시간에 전달해주는 기능이 추가됐습니다. 최근 빅테크들의 방향을 보면 구글은 AI 금융 비서를 만들고, 메타는 Polymarket와 비슷한 예측시장 앱 'Arena'를 개발 중인 것으로 알려졌습니다. AI가 돈과 의사결정이 오가는 영역까지 들어가고 있는 흐름인데요. 앞으로는 어떤 모델을 쓰느냐보다 어떤 분야의 데이터를 연결하고, 어떤 결정을 대신 도와주느냐가 더 중요한 경쟁력이 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/728225709_1060713036629701_5971057173174333900_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzkyNzQ4MTA5MzY1NzMzNDkxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=V2Yq4UP7O1cQ7kNvwGFl7-y&amp;_nc_oc=AdriZ8-gg5rO2uUGEd6I5vmPmpuwEZhOAFC0c6IMtzi1y_ILWb6tny4BxcPzrq-oMcQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af9CA4OVOHP_E5HO7wwgFQ7HuedTqizRg1KDay2t5Mk9OQ&amp;oe=6A438B62\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMl741mReltDjZrPOKW-nghh1rqGHSs2cfxf32QTjG0yZr8jmmZYjTWzpvv9Kyp-iz399Mq4Rv6SQ8Qc1zyK_XQFCgOWiPJNoWj0D4.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=9kn0T7B58UYQ7kNvwFeUQ74&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzM3Mjk1MjIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=12c0a9410e8229df&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8zMTQxRUUxNzc3QkM2RkJGMDE2RDVDRURBMkZCMDBCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgOWit-DA7T8VAigCQzMsF0A31T987ZFoGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_Af94Y-gdk3KJIMi41oC6mX5SEExWRvy9r1FP272USeqmwQ&amp;oe=6A3FB7FE\"></video></p>",
-    "summaryKo": "구글이 Google Finance를 정식 출시하고 안드로이드 앱을 공개하며 AI 포트폴리오 분석과 자동 시장 브리핑 기능을 더했다. 메타도 예측시장 앱 'Arena'를 개발 중인 것으로 알려져, AI가 돈과 의사결정 영역으로 들어가는 흐름과 '어떤 데이터를 연결하느냐'가 경쟁력이 되는 변화를 보여준다.",
-    "tags": [
-      "AI금융",
-      "구글",
-      "예측시장"
-    ],
-    "entities": [
-      "Google",
-      "Google Finance",
-      "Meta",
-      "Arena"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "6777b1035a9be3c5",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 🚨 IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기수...",
-    "url": "https://www.threads.com/t/DaBDefiirNw",
-    "publishedAt": "Thu, 25 Jun 2026 17:00:34 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기술인데, 손톱만 한 칩에 트랜지스터 약 1,000억 개로 2021년 2나노의 두 배입니다. 옆이 아니라 위로 쌓는 '나노스택' 구조로 성능 50%, 전력효율 70%를 끌어올렸습니다. IBM이 직접 양산하지는 않는데요. 설계는 IBM이 쥐어도, 마진은 이걸 수율 좋게 찍어내는 쪽이 가져갑니다. 지금 그 미세공정 마진은 TSMC가 사실상 독식 중이라, 삼성엔 파운드리 추격 기회이자 수율 시험대입니다. 양산은 빨라야 5년 뒤, 2031년경입니다. 결국 누가 먼저 싸게 찍어내느냐의 싸움입니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/730734635_17973727401112832_3133309041753873933_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=104&amp;ig_cache_key=MzkyNzQzNTYzOTYzMzEzMDM1Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTI1LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=yT8JPx6Q5TUQ7kNvwGwA8Sj&amp;_nc_oc=AdqMtqsHi1p2llaZdo-NI0GBX1ya8k5YdDc1kLG2nM4UnKuIyDyz6qMwn9WFqstrWa4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=8&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=TxmDnTHmuNPeg9BXJgRW2w&amp;_nc_ss=7a22e&amp;oh=00_Af97jUOmlGn0lcNYOCuObhwbRujqZ_qZT6uLBwj5SLktkw&amp;oe=6A438469\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "IBM이 세계 최초로 0.7나노(7옹스트롬) 칩 기술을 선보이며 1나노 벽을 넘었다. 손톱만 한 칩에 트랜지스터 약 1,000억 개를 '나노스택'(수직 적층) 구조로 담아 성능 50%·전력효율 70%를 끌어올렸으나, 양산은 빨라야 2031년경이며 수율 경쟁에서 TSMC·삼성의 파운드리 싸움이 관건이라는 분석이다.",
-    "tags": [
-      "반도체",
-      "나노공정"
-    ],
-    "entities": [
-      "IBM",
-      "TSMC",
-      "삼성"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "14531ebca9f85c08",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "Our latest Google Finance upgrades, including a new app",
-    "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-    "publishedAt": "Thu, 25 Jun 2026 16:00:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">The new Google Finance is coming out of beta and launching a new Android app.",
-    "summaryKo": "구글 파이낸스가 베타를 졸업하고 정식 출시되며 새 안드로이드 앱도 공개됐다. AI가 투자 포트폴리오를 분석하고 관심 종목 기반 시장 브리핑을 자동 생성하는 등 빅테크가 금융 의사결정 영역으로 AI를 확장하는 흐름을 보여준다.",
-    "tags": [
-      "AI금융",
-      "구글"
-    ],
-    "entities": [
-      "Google",
-      "Google Finance"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "1ebb304792c71c74",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Repositioning retail for the AI era",
-    "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-    "publishedAt": "Thu, 25 Jun 2026 14:22:59 +0000",
-    "rawText": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and&#8230;",
-    "summaryKo": "MIT 테크리뷰가 AI가 리테일을 바꾸는 핵심은 화려한 가상 피팅이나 챗봇이 아니라 검색 노출·재고·공급망·코드 배포 같은 무대 뒤 의사결정 방식이라고 짚는다. 소비자 눈에 잘 띄지 않는 곳에서 변화가 일어나고 있다는 분석이다.",
-    "tags": [
-      "리테일",
-      "AI전환"
-    ],
-    "entities": [
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "0d65b141093fc432",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
-    "publishedAt": "Thu, 25 Jun 2026 13:00:34 +0000",
-    "rawText": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales. They lead the [&#8230;]",
-    "summaryKo": "엔비디아가 스팀 여름 세일에 맞춰 GeForce NOW 멤버십 할인을 함께 진행하며 클라우드 게이밍 혜택을 강조했다. Devolver의 Dark Scrolls 등 신작이 라이브러리에 추가됐다.",
-    "tags": [
-      "클라우드게이밍",
-      "GeForce NOW"
-    ],
-    "entities": [
-      "NVIDIA",
-      "GeForce NOW",
-      "Steam"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-26T00:13:23.771Z"
-  },
-  {
-    "id": "b8043dbc63551a2a",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "옵시디언 제 2의 뇌 #ai #obsidian #claudecode",
-    "url": "https://www.youtube.com/shorts/w0XGGXUeWPo",
-    "publishedAt": "2026-06-25T11:43:28+00:00",
-    "rawText": "옵시디언 제 2의 뇌 #ai #obsidian #claudecode",
-    "videoId": "",
-    "summaryKo": "Obsidian을 '제2의 뇌'로 삼아 Claude Code와 결합해 지식관리를 하는 방법을 다룬 쇼츠다. AI 기반 노트·지식 정리 워크플로를 짧게 소개한다.",
-    "tags": [
-      "Obsidian",
-      "Claude Code",
-      "지식관리"
-    ],
-    "entities": [
-      "Obsidian",
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "3d99cf87d464b7af",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How agents are transforming work",
-    "url": "https://openai.com/index/how-agents-are-transforming-work",
-    "publishedAt": "Thu, 25 Jun 2026 02:00:00 GMT",
-    "rawText": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-    "summaryKo": "OpenAI가 AI 에이전트가 일하는 방식을 어떻게 바꾸는지 분석한 연구를 공개했다. 에이전트가 더 길고 복잡한 작업을 수행할 수 있게 되면서 다양한 직무에서 생산성이 확장되고 있다는 내용이다.",
-    "tags": [
-      "에이전트",
-      "생산성",
-      "자동화"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-27T00:08:44.665Z"
-  },
-  {
-    "id": "142196252b105c76",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "클로드코드 창시자도 직접 코딩을 할까?",
-    "url": "https://www.youtube.com/watch?v=HKnfqapwGZ0",
-    "publishedAt": "2026-06-25T00:00:12+00:00",
-    "rawText": "클로드코드 창시자도 직접 코딩을 할까?",
-    "videoId": "HKnfqapwGZ0",
-    "summaryKo": "Claude Code 창시자가 실제로 직접 코딩을 하는지, 그의 개발 방식은 어떤지 살펴보는 영상이다. 코딩 에이전트 시대의 개발자 역할 변화를 다룬다.",
-    "tags": [
-      "Claude Code",
-      "바이브코딩"
-    ],
-    "entities": [
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "9fca72dbae7dafd3",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "The emergence of the web data infrastructure layer for AI",
-    "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-    "publishedAt": "Wed, 24 Jun 2026 11:59:54 +0000",
-    "rawText": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&#160; To understand this challenge, consider the foundation of the web itself. The web was not designed&#8230;",
-    "summaryKo": "AI가 잠재력을 발휘하려면 대규모 데이터가 필요하지만, 정작 관련 정보는 차단되거나 비정형 상태라 활용이 제약된다는 점을 짚는다. 정적 학습 데이터로는 부족하고 실시간 웹 데이터가 환각을 줄이고 신뢰를 높인다고 보며, 사람의 브라우징을 모방해 대규모로 수집하는 '웹 데이터 인프라 계층'의 부상을 다룬다.",
-    "tags": [
-      "웹 데이터",
-      "AI 인프라",
-      "실시간 데이터",
-      "데이터 수집"
-    ],
-    "entities": [
-      "MIT Technology Review",
-      "Bright Data",
-      "Or Lenchner"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "기업은 AI 활용을 위해 대규모 데이터가 필요하지만 관련 정보가 차단·비정형 상태인 경우가 많다.",
-        "웹은 자동화된 정보 탐색을 염두에 두고 설계되지 않아 근본적 제약이 있다.",
-        "정적 학습 데이터로는 부족하고 지속적으로 갱신되는 실시간 정보가 필요하다.",
-        "신선한 데이터는 정확한 맥락을 제공해 AI 환각을 줄인다.",
-        "AI 실무자의 56%가 신뢰 향상을 위해 실시간 웹 데이터 접근이 필요하다고 답했다.",
-        "새 웹 데이터 인프라는 사람 브라우징을 모방해 저지연으로 대규모 수집한다."
-      ],
-      "sections": [
-        {
-          "heading": "데이터 병목",
-          "body": "AI 사용 사례가 매일 늘지만 기업이 필요한 정보는 차단되거나 비정형 상태라 모델 활용이 제약된다. 웹 자체가 자동화된 탐색을 위해 설계되지 않았다는 근본적 한계가 깔려 있다. Bright Data CEO Or Lenchner는 '저 밖에 데이터는 훨씬 많지만 무엇이 있는지 모른다'고 표현한다."
-        },
-        {
-          "heading": "실시간 데이터의 가치",
-          "body": "동적 시장은 가격·재고·소비자 행동에 대한 최신 통찰을 요구하며, 신선한 데이터는 정확한 맥락을 제공해 환각을 줄인다. 인용된 조사에서 AI 실무자의 56%가 산출물 신뢰를 높이려면 실시간 웹 데이터 접근이 필요하다고 답했다."
-        },
-        {
-          "heading": "인프라 계층의 부상",
-          "body": "새 웹 데이터 인프라 플랫폼은 수백만 사이트에서 사람의 브라우징을 모방해 저지연으로 대규모 정보를 수집한다. JavaScript 중심 페이지와 안티봇 보호 사이트에도 접근하면서 GDPR·CCPA 같은 규정을 준수한다."
-        }
-      ],
-      "quotes": [
-        "The data suggests there's far more data out there. Think of the universe: It's out there, but you don't know what you don't know.",
-        "A powerful intelligence layer sitting on top of a hollow knowledge layer is like a genius who knows nothing—useless in practice."
-      ]
-    },
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "5e5419390cf880b0",
-    "sourceType": "youtube",
-    "source": "AUTOP 오톱",
-    "title": "AI 상세페이지 만드는 법, 이 영상 하나로 종결하세요.(챗GPT + 제미나이)",
-    "url": "https://www.youtube.com/watch?v=iibHwQQswik",
-    "publishedAt": "2026-06-24T09:30:26+00:00",
-    "rawText": "AI 상세페이지 만드는 법, 이 영상 하나로 종결하세요.(챗GPT + 제미나이)",
-    "videoId": "iibHwQQswik",
-    "summaryKo": "챗GPT와 제미나이를 역할 분담해 외주 없이 '팔리는' 고퀄리티 상품 상세페이지를 만드는 AI 워크플로우를 소개한다. 제품 실물 이미지는 제미나이로, 기획·카피·이미지 프롬프트 설계·최종 조립은 GPT로 맡기고, 빈 채팅에 바로 지시하는 대신 프로젝트 지침을 넣어 AI가 먼저 질문하게 만들어 정확한 맥락을 확보하는 것이 핵심이다. 결론은 하나의 AI로 다 하지 말고 각 AI의 강점을 조합하되 도구보다 입력 데이터가 결과를 좌우한다는 것이다.",
-    "tags": [
-      "AI 이미지생성",
-      "프롬프트",
-      "워크플로우",
-      "상세페이지"
-    ],
-    "entities": [
-      "ChatGPT",
-      "Gemini",
-      "Claude",
-      "OpenAI",
-      "Google"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "AI만으로 카피·이미지를 전부 생성해 디자이너·외주 없이 상세페이지를 만들 수 있어 수십~수백만 원 비용을 절감한다.",
-        "핵심은 예쁘기만 한 결과물이 아니라 '팔리는' 결과물을 만드는 기획이며, 기획이 탄탄하면 이미지 퀄리티는 따라온다.",
-        "빈 채팅에 바로 지시하지 않고 프로젝트 지침을 넣어 AI가 거꾸로 사용자에게 질문하도록 설계한다.",
-        "역할 분담: 제품 실물 이미지는 제미나이, 배경·인물·기획·카피·최종 조립은 GPT가 담당한다.",
-        "제미나이 이미지의 우하단 워터마크는 GPT로 최종 상세페이지를 뽑을 때 자동으로 지워져 작업이 효율적이다.",
-        "GPT가 만든 결과물이 자료와 일치하는지, 지어낸 내용은 없는지 클로드로 별도 팩트체크해 검증한다."
-      ],
-      "sections": [
-        {
-          "heading": "AI 역할 분담 전략",
-          "body": "하나의 AI로 다 뽑으면 이미지는 예쁜데 글자가 깨지거나 너무 AI스러운 등 한 군데가 아쉬웠다. 그래서 제품 실물 이미지는 퀄리티가 더 좋은 제미나이로, 배경·인물·기획·카피·이미지 프롬프트 설계·최종 조립은 GPT로 분담한다. 제미나이 워터마크는 GPT 최종 출력 단계에서 자동 제거된다."
-        },
-        {
-          "heading": "기획 중심 프롬프트 설계",
-          "body": "일반 채팅 대신 프로젝트 지침에 프롬프트를 미리 넣어 AI가 타깃 고객·구매 망설임 포인트 등을 먼저 질문하게 만든다. 성분·용량만 던지면 팔리지 않는 상세페이지가 나오므로, 시니어 광고 디자이너 겸 퍼포먼스 마케터 역할을 부여하고 가짜 후기·과장 생성 방지, 저작권 주의, 단계별 확인 같은 장치를 지침에 넣었다."
-        },
-        {
-          "heading": "단계별 제작과 검증",
-          "body": "가상 향수 제품 자료를 PDF로 만들어 GPT에 주면 1단계 전략 초안(핵심 문제·가치·구매 트리거), 2단계 구조·카피 설계, 3단계 이미지 생성 프롬프트, 4단계 폰트·레이아웃 규칙, 5단계 최종 점검까지 순차 진행된다. 제미나이로 정면·후면·측면 메인컷을 먼저 뽑아 함께 보내면 일관된 이미지가 나오고, 피그마에서 나열하면 외주급 상세페이지가 완성된다. 마지막엔 클로드로 데이터 일치 여부를 팩트체크했다."
-        }
-      ],
-      "quotes": [
-        "AI 하나로 전부 다 하려 하지 말고 제품 실물은 제미나이, 기획·디자인은 GPT로 각자 잘하는 걸 조합하는 게 핵심",
-        "어떤 모델을 쓰든 도구보다 입력 값(데이터·맥락)이 결과를 좌우한다",
-        "사용 모델: GPT 플러스 + 제미나이 프로"
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "855db08b75f6ecde",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-    "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-    "publishedAt": "Wed, 24 Jun 2026 06:00:00 GMT",
-    "rawText": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-    "summaryKo": "OpenAI와 Broadcom이 LLM 추론에 특화한 맞춤형 AI 칩 'Jalapeño'를 공개했다. 추론 성능과 효율, 확장성을 높이는 것이 목표로, OpenAI가 자체 칩 설계로 인프라 비용과 외부 GPU 의존도를 낮추려는 흐름을 보여준다.",
-    "tags": [
-      "AI 칩",
-      "LLM 추론",
-      "맞춤형 실리콘"
-    ],
-    "entities": [
-      "OpenAI",
-      "Broadcom",
-      "Jalapeño"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "e7cad40fb53bcdfe",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
-    "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
-    "publishedAt": "Wed, 24 Jun 2026 00:05:37 +0000",
-    "rawText": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy [&#8230;]",
-    "summaryKo": "NVIDIA와 AWS가 대규모 AI를 프로덕션에 배포하기 위한 협력을 확대했다. Blackwell GPU 기반 EC2 G7 인스턴스는 이전 세대 대비 최대 4.6배 추론 성능을 내고, OpenSearch Serverless는 cuVS로 벡터 인덱싱을 최대 10배 빠르게·4분의 1 비용으로 처리한다. 저지연 추론·벡터 검색·GPU 가성비라는 기업의 배포 제약을 함께 겨냥한다.",
-    "tags": [
-      "AI 인프라",
-      "벡터 검색",
-      "GPU",
-      "추론"
-    ],
-    "entities": [
-      "NVIDIA",
-      "AWS",
-      "Amazon EC2 G7",
-      "Amazon OpenSearch",
-      "Blackwell"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "NVIDIA와 AWS가 대규모 AI 프로덕션 배포의 제약을 함께 해결하는 협력을 발표했다.",
-        "EC2 G7 인스턴스는 RTX PRO 4500 Blackwell GPU 기반으로 이전 세대 대비 최대 4.6배 추론 성능을 낸다.",
-        "G7은 최대 8개 GPU와 총 256GB 메모리를 지원해 추론·렌더링·데이터 분석을 아우른다.",
-        "OpenSearch Serverless는 cuVS 기반 GPU 벡터 인덱싱을 기본 제공한다.",
-        "벡터 인덱싱이 CPU 대비 최대 10배 빠르고 비용은 4분의 1 수준이다.",
-        "AWS는 GB300 학습 워크로드에서 NVIDIA Exemplar Cloud 인증을 획득했다."
-      ],
-      "sections": [
-        {
-          "heading": "협력의 핵심",
-          "body": "NVIDIA와 AWS는 저지연 추론, 빠른 벡터 검색, GPU 가성비, 그리고 운영 복잡도를 늘리지 않는 확장성이라는 기업의 AI 배포 제약을 정면으로 겨냥했다. Amazon EC2와 OpenSearch 전반에 NVIDIA 인프라를 적용해 실용적인 배포 경로를 제공한다."
-        },
-        {
-          "heading": "컴퓨트와 벡터 검색",
-          "body": "EC2 G7 인스턴스는 Blackwell 서버 에디션 GPU로 이전 세대 대비 최대 4.6배 추론 성능과 최대 8 GPU·256GB 메모리를 제공한다. OpenSearch Serverless는 cuVS 기반 GPU 벡터 인덱싱을 기본화해 CPU 대비 최대 10배 속도와 4분의 1 비용으로 대규모 벡터 DB 구축을 실용화한다."
-        },
-        {
-          "heading": "검증된 인프라",
-          "body": "AWS는 GB300 학습 워크로드에 대해 NVIDIA Exemplar Cloud 인증을 받아, 대규모 AI 학습용 클라우드 성능 기준 충족을 확인받았다. 이는 고객이 클라우드 제공자를 신뢰성 있게 평가하도록 돕는다."
-        }
-      ],
-      "quotes": [
-        "up to 4.6x AI inference performance",
-        "vector indexing up to 10x faster at a quarter of the cost, compared with CPU-only builds"
-      ]
-    },
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "072c0c3973379946",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-    "url": "https://openai.com/index/gpt-5-immunology-mystery",
-    "publishedAt": "Tue, 23 Jun 2026 17:00:00 GMT",
-    "rawText": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-    "summaryKo": "GPT-5 Pro가 면역학자 Derya Unutmaz가 3년간 풀지 못한 T세포 동작 관련 난제를 푸는 데 도움을 줬다. 이 통찰은 암과 자가면역 질환 연구에 기여할 수 있으며, AI가 전문 과학 연구의 보조 도구로 쓰이는 사례를 보여준다.",
-    "tags": [
-      "GPT-5",
-      "과학 연구",
-      "면역학"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-5 Pro",
-      "Derya Unutmaz"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "75c7b56bd53e5c38",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "How Businesses Are Building Specialized AI They Can Trust",
-    "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
-    "publishedAt": "Tue, 23 Jun 2026 13:00:07 +0000",
-    "rawText": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help. Now, specialized agents — systems of models that can reason, use tools and [&#8230;]",
-    "summaryKo": "NVIDIA가 기업이 신뢰할 수 있는 특화 AI 에이전트를 만들도록 모델·도구·스킬·보안 런타임을 묶은 Agent Toolkit을 제시했다. Nemotron 오픈 모델, NemoClaw 청사진, OpenShell 런타임을 핵심 블록으로 두고, Cadence·Synopsys·CrowdStrike 등이 칩 설계·보안 등에 자율 에이전트를 배포 중이다. 범용 모델보다 도메인 특화 커스터마이징에서 기업 가치가 나온다는 점을 강조한다.",
-    "tags": [
-      "AI 에이전트",
-      "엔터프라이즈 AI",
-      "오픈 모델",
-      "보안 런타임"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Nemotron",
-      "NemoClaw",
-      "OpenShell",
-      "CrowdStrike"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "NVIDIA Agent Toolkit는 모델·도구·스킬·보안 런타임을 갖춘 개방형 모듈식 플랫폼이다.",
-        "Nemotron 오픈 모델로 커스터마이징 유연성을 제공한다.",
-        "NemoClaw 청사진은 더 안전한 에이전트 동작 패턴을 제공한다.",
-        "OpenShell 런타임은 기존 시스템 안에서 에이전트의 안전한 실행을 보장한다.",
-        "생명과학·헬스케어·사이버보안 등 여러 산업에서 특화 에이전트가 활용된다.",
-        "Cadence·Synopsys·CrowdStrike가 칩 설계·엔지니어링·보안에 자율 에이전트를 배포한다."
-      ],
-      "sections": [
-        {
-          "heading": "특화 에이전트로의 전환",
-          "body": "1세대 엔터프라이즈 AI가 프런티어·오픈 모델 접근과 파일럿 중심이었다면, 이제는 추론하고 도구를 쓰는 특화 에이전트가 핵심이다. NVIDIA Agent Toolkit는 기업이 자사 워크플로에 맞춰 AI 코워커를 커스터마이징·통제·배포하도록 돕는다."
-        },
-        {
-          "heading": "구성 요소",
-          "body": "세 가지 핵심 블록은 커스터마이징을 위한 Nemotron 오픈 모델, 더 안전한 에이전트 동작을 위한 NemoClaw 청사진, 그리고 보안 실행을 보장하는 OpenShell 런타임이다. 이를 결합해 기존 시스템 안에서 신뢰할 수 있는 에이전트를 운영한다."
-        },
-        {
-          "heading": "산업 적용",
-          "body": "생명과학의 단백질 설계·유전체 분석, 헬스케어의 임상 문서화, 사이버보안의 고정확 경보 분류 등에 특화 에이전트가 쓰인다. Cadence·Synopsys·CrowdStrike 같은 기업이 칩 설계와 보안 워크플로에 자율 에이전트를 배포 중이다."
-        }
-      ],
-      "quotes": [
-        "Agents become more useful when they can combine models, tools, skills, runtime and infrastructure in ways companies can adapt to their own workflows."
-      ]
-    },
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "aec47bf765565a42",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Helping build shared standards for advanced AI",
-    "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-    "publishedAt": "Tue, 23 Jun 2026 13:00:00 GMT",
-    "rawText": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-    "summaryKo": "OpenAI가 첨단 AI를 위한 공통 표준 마련을 지원한다고 밝혔다. Appia Foundation을 통해 평가 프레임워크와 안전 관행, 국제 협력을 뒷받침하며, 업계 전반의 표준화와 거버넌스 논의에 힘을 싣는 행보다.",
-    "tags": [
-      "AI 표준",
-      "AI 안전",
-      "평가 프레임워크"
-    ],
-    "entities": [
-      "OpenAI",
-      "Appia Foundation"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "067ed5f655a46f21",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "AI 생성 코드 절반으로 줄이는 5만 스타 스킬, Ponytail 직접 써봤습니다",
-    "url": "https://www.youtube.com/watch?v=oaENE_9D95Q",
-    "publishedAt": "2026-06-23T10:31:54+00:00",
-    "rawText": "AI 생성 코드 절반으로 줄이는 5만 스타 스킬, Ponytail 직접 써봤습니다",
-    "videoId": "oaENE_9D95Q",
-    "summaryKo": "Ponytail은 AI 코딩 에이전트가 '가장 게으른 시니어 개발자'처럼 최소한의 코드만 짜도록 유도하는 오픈소스 스킬(GitHub 5만+ 스타)로, 발표자가 직접 써보고 효과를 검증한다. YAGNI·KISS·DRY 원칙과 '사다리(ladder)' 규칙으로 불필요한 추상화를 제거하되 신뢰 경계 검증·데이터 손실·보안·접근성은 절대 생략하지 않으며, 색상 선택기·FAQ 아코디언·날짜 선택기·칸반 보드 등 실제 과제에서 코드량과 토큰을 크게 줄이는 것을 no-ponytail 대비 나란히 비교해 보여준다. 리드미 기준 최대 94%(평균 약 54%) 코드 감소, 약 20% 저렴, 27% 빠름, 안전성 유지를 표방한다.",
-    "tags": [
-      "바이브코딩",
-      "코드 생성",
-      "프롬프트 엔지니어링",
-      "에이전트"
-    ],
-    "entities": [
-      "Ponytail",
-      "Claude Code",
-      "Opus 4.8",
-      "GitHub"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Ponytail은 코딩 에이전트에게 '가장 게으른(=효율적인) 시니어처럼 최소 코드만 작성하라'는 규칙을 주입하는 오픈소스 스킬이다.",
-        "YAGNI(필요한 것만), KISS(단순하게), DRY(한 번만)를 핵심 원칙으로 삼아 투기적 기능과 불필요한 추상화를 배제한다.",
-        "규칙 적용 전 문제를 먼저 이해하는 '사다리(ladder)' 접근을 쓰고, 신뢰 경계 검증·데이터 손실 방지·보안·접근성은 단순화 대상에서 제외한다.",
-        "Lite/Full/Ultra 강도 레벨과 ponytail·ponytail-review·ponytail-gain·ponytail-help 스킬을 제공하며 Claude Code/OpenCode에서 트리거로 호출한다.",
-        "색상 선택기, FAQ 아코디언, 날짜 선택기, 칸반 보드 등 실제 과제에서 no-ponytail 대비 코드 줄 수와 토큰 사용량이 눈에 띄게 감소함을 실측 비교로 제시한다.",
-        "리드미는 실제 Claude Code 세션 측정 기준 최대 94%(평균 약 54%) 코드 감소, 약 20% 저렴, 27% 빠름, 100% 안전을 주장한다."
-      ],
-      "sections": [
-        {
-          "heading": "무엇을 하는 스킬인가",
-          "body": "Ponytail은 GitHub에서 5만 개 이상의 스타를 받은 오픈소스 스킬로, 슬로건은 'He says nothing. He writes one line. It works.'다. 에이전트가 코드를 짜기 전에 문제와 기존 코드 흐름을 먼저 이해하고, 이미 있는 것을 재사용하며, 한 줄로 끝낼 수 있으면 한 줄만 쓰도록 유도한다. 다만 게으름을 이해(문제 파악)에는 적용하지 않고, 보안·데이터 무결성·접근성 같은 부분은 축소하지 않는 안전장치를 둔다."
-        },
-        {
-          "heading": "직접 비교 실험",
-          "body": "발표자는 같은 컴포넌트를 no-ponytail, with-ponytail, with-yagni로 각각 생성해 결과를 나란히 비교한다. 색상 선택기·아코디언·날짜 선택기·칸반 보드 등에서 ponytail 적용 시 코드 줄 수(예: 색상 선택기 197줄→71줄, 아코디언 180→78, 날짜 선택기 151→61)와 터미널 토큰 사용량이 크게 줄어드는 것을 보여준다. 결과물 UI는 유지하면서도 구현이 훨씬 간결해지는 점을 강조한다."
-        }
-      ],
-      "quotes": [
-        "He says nothing. He writes one line. It works.",
-        "~54% less code (up to 94%), ~20% cheaper, ~27% faster, 100% safe",
-        "색상 선택기 197줄 → 71줄 (with Ponytail)"
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "57908bd29982f042",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "헤르메스 에이전트 100시간 쓰고 깨달은 5가지 사용법",
-    "url": "https://www.youtube.com/watch?v=7XA5qi8Z3zE",
-    "publishedAt": "2026-06-23T10:00:02+00:00",
-    "rawText": "헤르메스 에이전트 100시간 쓰고 깨달은 5가지 사용법",
-    "videoId": "7XA5qi8Z3zE",
-    "summaryKo": "'헤르메스 에이전트' 데스크톱 앱을 100시간 사용하며 정리한 5가지 실전 활용법을 소개한다. 정밀한 사고는 GPT 상위 모델에, 코딩·대량 루틴은 가성비 모델인 Kimi(K2.7 Code)에 맡기는 모델 라우팅, Honcho 같은 지속 학습 메모리 레이어 활용, Reddit(r/ClaudeAI 등)·X에서의 정보 수집, Notion·칸반 연동, 기존 프로젝트는 Codex나 Claude Code로 넘기는 방식 등을 다룬다.",
-    "tags": [
-      "에이전트",
-      "모델 라우팅",
-      "Kimi",
-      "메모리"
-    ],
-    "entities": [
-      "헤르메스 에이전트",
-      "Kimi",
-      "GPT",
-      "Claude Code",
-      "Honcho"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "작업 성격에 따라 정밀한 사고는 GPT 상위 모델, 코딩·대량 루틴은 가성비 모델 Kimi로 나누는 모델 라우팅을 권한다.",
-        "Honcho 같은 '단순 저장·검색을 넘어 계속 학습하는' 메모리 레이어로 맥락을 축적한다.",
-        "Reddit 특정 서브레딧(r/ClaudeAI·r/OpenAI)과 X 특정 인물을 통해 정보를 수집한다.",
-        "Notion 워크스페이스를 PDF로 내보내거나 칸반 보드로 작업을 헤르메스에 맡길 수 있다.",
-        "스크린샷을 붙여 SaaS 스타일 슬라이드·To-do 카드로 정리하는 등 산출물을 자동화한다.",
-        "기존 프로젝트 작업은 Codex나 Claude Code로 넘겨 처리하는 흐름을 제시한다."
-      ],
-      "sections": [
-        {
-          "heading": "모델 라우팅",
-          "body": "정밀한 추론이 필요한 작업은 GPT 상위 모델에 맡기고, 코딩과 대량 반복 루틴은 가성비 모델인 Kimi(K2.7 Code 등)로 대체한다. 헤르메스 에이전트 안에서 여러 Kimi·사고 모델을 선택해 작업 성격에 맞춰 전환한다."
-        },
-        {
-          "heading": "메모리와 정보 수집",
-          "body": "Honcho는 단순 저장·검색을 넘어 지속적으로 학습하는 메모리 레이어로 소개된다. 정보는 Reddit의 r/ClaudeAI·r/OpenAI 같은 특정 서브레딧과 X의 특정 인물을 통해 모아 최신 흐름을 따라간다."
-        },
-        {
-          "heading": "도구 연동과 위임",
-          "body": "Notion 워크스페이스를 PDF로 내보내 참고하거나 칸반 보드로 작업을 관리하고, 스크린샷을 붙여 SaaS 스타일 슬라이드·To-do 카드를 만든다. 기존 코드베이스 작업은 Codex나 Claude Code로 넘겨 처리하며, Kimi API 플랫폼(TRAE·Kilo Code·Windsurf 등 연동)도 언급된다."
-        }
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "9d1d47ec4b50ed0a",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
-    "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
-    "publishedAt": "Tue, 23 Jun 2026 09:00:38 +0000",
-    "rawText": "NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany.",
-    "summaryKo": "ISC 2026에서 발표된 최신 TOP500 순위에서 NVIDIA 기술이 세계 500대 슈퍼컴퓨터 중 400대 이상(81%)을 구동하는 것으로 나타났다. GPU 238대·네트워킹 376대가 NVIDIA 기반이며 Green500 에너지 효율 상위권도 휩쓸어, AI 인프라 확산이 NVIDIA 스택 위에서 진행되고 있음을 보여준다.",
-    "tags": [
-      "슈퍼컴퓨터",
-      "TOP500",
-      "GPU",
-      "에너지 효율"
-    ],
-    "entities": [
-      "NVIDIA",
-      "TOP500",
-      "Green500",
-      "JUPITER",
-      "Grace Hopper"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "NVIDIA 기술이 TOP500의 81%인 400대 이상 슈퍼컴퓨터를 구동한다.",
-        "직전 순위 대비 17개 시스템이 늘었고 신규 등재 시스템의 약 90%가 NVIDIA를 쓴다.",
-        "GPU 사용 시스템은 238대로 최고치, 네트워킹은 376대다.",
-        "NVIDIA 시스템은 전체 합산 대비 2배 이상의 AI 학습 처리량과 약 3배 추론 능력을 제공한다.",
-        "Green500 에너지 효율 상위 8개가 모두 NVIDIA GPU 기반이다.",
-        "프랑스 툴루즈대의 Grace Hopper 시스템 KAIROS가 73.3 GFLOPS/W로 효율 1위다."
-      ],
-      "sections": [
-        {
-          "heading": "시장 지배력",
-          "body": "ISC 2026에서 발표된 TOP500에서 NVIDIA는 400대 이상(81%)을 구동하며 직전 대비 17개 시스템을 추가했다. 신규 등재 시스템의 약 90%가 NVIDIA 기술을 채택해 성장세가 가속되고 있다. GPU 238대, 네트워킹 376대가 NVIDIA 기반이다."
-        },
-        {
-          "heading": "성능과 효율",
-          "body": "NVIDIA 시스템은 다른 모든 플랫폼 합산 대비 2배 이상의 AI 학습 처리량과 약 3배의 추론 능력을 제공한다. Green500 에너지 효율 상위 8개가 모두 NVIDIA GPU 기반이고 상위 10개 중 9개가 NVIDIA 기술을 쓰며, KAIROS가 73.3 GFLOPS/W로 효율 1위에 올랐다."
-        },
-        {
-          "heading": "풀스택 확장",
-          "body": "Grace CPU 채택은 18대에서 26대로 늘었고 약 250만 칩이 출하됐다. 유럽 첫 엑사스케일 시스템 JUPITER와 Alps 등이 대표 사례이며, 유럽에 35개 신규 시스템이 개발 중이고 아시아·아프리카·중동으로 확장되고 있다."
-        }
-      ],
-      "quotes": [
-        "the world's AI buildout is running on NVIDIA"
-      ]
-    },
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "0b5b669013148f8e",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "The $400 million machine powering the future of chipmaking",
-    "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
-    "publishedAt": "Tue, 23 Jun 2026 09:00:00 +0000",
-    "rawText": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&#160; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the ground, it looks like a&#8230;",
-    "summaryKo": "ASML의 4억 달러짜리 High-NA EUV 노광 장비를 다룬다. 150톤이 넘는 이 장비는 개구수를 0.33에서 0.55로 높여 약 8나노 해상도로 트랜지스터를 새기며 시간당 200웨이퍼를 처리한다. AI 붐이 요구하는 더 조밀한 칩을 가능케 해 무어의 법칙을 잇는 핵심 장비로, ASML이 칩 노광 장비 시장의 약 90%를 점유한다.",
-    "tags": [
-      "반도체",
-      "EUV 노광",
-      "칩 제조",
-      "무어의 법칙"
-    ],
-    "entities": [
-      "ASML",
-      "High-NA EUV",
-      "Jos Benschop"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "ASML의 신형 High-NA EUV 장비는 4억 달러로 차세대 칩 제조 기술을 대표한다.",
-        "150톤이 넘는 이층버스 크기로, EUV 광으로 8나노 해상도 패터닝을 한다.",
-        "개구수를 0.33에서 0.55로 높여 트랜지스터 피처를 약 50% 줄인다.",
-        "처리량은 시간당 약 200웨이퍼이며 레티클 가속도는 최대 22g에 달한다.",
-        "High-NA 기술은 무어의 법칙과 AI 붐의 고밀도 칩 수요를 지탱한다.",
-        "ASML은 전 세계 칩 노광 장비 시장의 약 90%를 점유한다."
-      ],
-      "sections": [
-        {
-          "heading": "장비 개요",
-          "body": "ASML의 신형 High-NA EUV 노광 장비는 4억 달러에 달하고 150톤이 넘는 이층버스 크기다. 극자외선 광으로 약 8나노(실리콘 원자 약 40개 폭) 해상도로 트랜지스터를 새긴다."
-        },
-        {
-          "heading": "기술 사양",
-          "body": "개구수를 0.33에서 0.55로 높여 트랜지스터 피처를 약 50% 줄이고, 시간당 약 200웨이퍼를 처리한다. 레티클은 최대 22g로 가속하며 미러는 이전 EUV 대비 약 2배 크고 투영계는 12톤에 이른다."
-        },
-        {
-          "heading": "의미와 경쟁",
-          "body": "High-NA는 무어의 법칙을 잇고 더 조밀하고 강력한 칩을 향한 AI 붐의 수요를 지탱한다. ASML은 노광 장비 시장의 약 90%를 점유한다. Substrate·Lace Lithography 같은 스타트업이 X선·헬륨 원자 방식을 개발하지만 주류 채택은 수년 뒤의 일이다."
-        }
-      ],
-      "quotes": [
-        "Mechatronic devices that hold a few mirrors in a position with atomic precision."
-      ]
-    },
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "811b915e32fcc96b",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "미친듯이 편한 옵시디언 LLM Wiki",
-    "url": "https://www.youtube.com/shorts/naNBWnlyuts",
-    "publishedAt": "2026-06-23T07:51:45+00:00",
-    "rawText": "미친듯이 편한 옵시디언 LLM Wiki",
-    "videoId": "",
-    "summaryKo": "Obsidian에 LLM을 결합해 편리하게 위키처럼 지식을 관리하는 방법을 소개하는 쇼츠다. LLM 기반 노트·검색 워크플로를 짧게 보여준다.",
-    "tags": [
-      "Obsidian",
-      "LLM",
-      "지식관리"
-    ],
-    "entities": [
-      "Obsidian"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "0acdbe015ce097c6",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
-    "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
-    "publishedAt": "Tue, 23 Jun 2026 06:00:09 +0000",
-    "rawText": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line — it’s the launchpad to autonomy. The [&#8230;]",
-    "summaryKo": "NVIDIA가 통신사 운영에 신뢰 가능한 24/7 AI 에이전트를 도입한다. 정해진 절차를 빠르게 하는 작업 기반 자동화를 넘어, 문제를 선제 탐지하고 해결을 조율하는 자율 네트워크로의 전환을 강조한다. 프라이버시 보호 합성데이터, NemoClaw·OpenShell 기반 보안 배포, GPU 디지털 트윈을 세 축으로 제시하며 SoftBank·Amdocs·ServiceNow 등이 참여한다.",
-    "tags": [
-      "AI 에이전트",
-      "통신",
-      "자율 네트워크",
-      "디지털 트윈"
-    ],
-    "entities": [
-      "NVIDIA",
-      "SoftBank",
-      "Amdocs",
-      "ServiceNow",
-      "NemoClaw"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "통신 운영이 작업 기반 자동화에서 자율 네트워크로 이동하고 있다.",
-        "AI 에이전트가 문제를 선제 탐지하고 해결을 조율한다.",
-        "합성데이터 생성으로 고객정보 노출 없이 통신 도메인 모델을 학습한다.",
-        "SoftBank가 NeMo Safe Synthesizer와 Anonymizer로 프로덕션급 데이터셋을 만든다.",
-        "NemoClaw 청사진과 OpenShell 런타임이 정책 기반 가드레일과 샌드박스 접근을 제공한다.",
-        "GPU 기반 디지털 트윈으로 라이브 시스템 적용 전 권고안을 안전하게 검증한다."
-      ],
-      "sections": [
-        {
-          "heading": "자율로의 전환",
-          "body": "통신사는 생성형 AI로 네트워크 관리·고객 응대·백오피스를 자동화해 성과를 거뒀지만, 대부분 정해진 단계를 빠르게 하는 작업 기반에 머물렀다. 이제 AI 에이전트가 스스로 문제를 탐지하고 해결을 조율하는 자율 네트워크로 무게중심이 옮겨가고 있다."
-        },
-        {
-          "heading": "세 가지 축",
-          "body": "프라이버시 보호 합성데이터로 고객정보 노출 없이 도메인 모델을 학습하고, NemoClaw 청사진과 OpenShell 런타임으로 정책 기반 가드레일과 감사가능한 샌드박스 실행을 제공한다. GPU 디지털 트윈은 라이브 적용 전 권고안을 검증하며 VIAVI·Forsk가 시뮬레이션 속도를 크게 높였다."
-        },
-        {
-          "heading": "실사용 사례",
-          "body": "Amdocs·ServiceNow·TCS·NTT DATA 등이 네트워크 이상 탐지, 고객 응대, 자가 치유 운영, 사고 대응에 자율 에이전트를 배포한다. 5G와 차세대 6G 인프라 전반에 걸쳐 적용 범위를 넓히고 있다."
-        }
-      ],
-      "quotes": [
-        "Automation is no longer the finish line — it's the launchpad to autonomy."
-      ]
-    },
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "480508a9ca16ad81",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How Omio is building the future of conversational travel",
-    "url": "https://openai.com/index/omio",
-    "publishedAt": "Tue, 23 Jun 2026 00:00:00 GMT",
-    "rawText": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-    "summaryKo": "여행 예약 플랫폼 Omio가 OpenAI 기술로 대화형 여행 경험을 구현하고 제품 개발 속도를 높이고 있다. 회사를 'AI 네이티브'로 전환하려는 사례로, 대화형 인터페이스가 여행 분야에 적용되는 흐름을 보여준다.",
-    "tags": [
-      "대화형 AI",
-      "여행 기술",
-      "제품 개발"
-    ],
-    "entities": [
-      "OpenAI",
-      "Omio"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-25T00:20:14.632Z"
-  },
-  {
-    "id": "590fb7ec305d95d7",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 오픈AI 공동 창업자 그렉 브록먼(Greg Brockman)은 AI 생태계의 모든 레이ᄋ...",
-    "url": "https://www.threads.com/t/DZ5-TuSEdmT",
-    "publishedAt": "Mon, 22 Jun 2026 23:00:43 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI 공동 창업자 그렉 브록먼(Greg Brockman)은 AI 생태계의 모든 레이어가 가치 사슬에서 살아남아 서로 시너지를 낼 것으로 전망했습니다. 그는 가장 기본이 되는 연산(Compute) 인프라에 대해 “컴퓨팅이 없으면 AI도 없다”고 단언하며, 시장의 폭발적인 수요 덕분에 칩 가격과 마진이 계속 상승하는 독특한 반전이 일어나고 있다고 분석했습니다. 또한 모델 레이어에서는 기업과 소비자를 위한 치열한 경쟁이 벌어지고 있지만, 단순한 비서 역할을 넘어 과학 발전을 가속화하는 고성능 지능형 모델이 진정한 혁신적 파급력을 보여줄 것이라 진단했습니다. 브록먼은 AI 기술이 실질적인 경제적 가치로 연결되기 위해서는 규제 산업이나 교육 같은 전문 도메인 지식과의 결합이 필수적이며, 생태계 전체가 하나의 유기적인 오케스트라처럼 협력해야 비즈니스 생산성의 잠재력을 극대화할 수 있다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/729734942_4411728439042186_6206839803529205629_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkyNTQ0MjU4NDQ3OTEyNzk1NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=NrYmXr6oruQQ7kNvwEUXJFj&amp;_nc_oc=Ado8NYyGBHfxW5VDexn6gRk0D_pdYDqC0QOsrOFulgvJCypFDCSicklDj7qJFLvtz-c&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=J1oawHaA0cQZohjBAnqHdA&amp;_nc_ss=7a22e&amp;oh=00_Af8UDeisX0n_vpVYGPg3xl1jJ1IYTyWGJpA5bEUQ4a7IpQ&amp;oe=6A3FA2D7\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQMkPUt5sM0qOpYhpFB-kPJ7mwQRjOd26UFtjigC8jbEuKkmJQK1rGbBUstWTjFJw1uRFQ-QWX0Dg8j-Y0PG0mYkSlG4082Hy5ZGs8w.mp4?_nc_cat=104&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=RFqMHmhpcswQ7kNvwHiXBo9&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjcyLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzMxNzQ2NjkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTk1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=dff0fd6b24db7581&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GNDRBQjUyOEY3QjQ4NjBBN0FEMkVFNzc0N0QwNkI4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkxNEQxOUYxM0JBOThDMjI5MEIwMjQ3NDlERTBEOUFFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA2Ju6uqDtPxUCKAJDMywXQGhu6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=J1oawHaA0cQZohjBAnqHdA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af8LelZQo8mSgVwYe5h8NH8JTG5svHyMGuadcTp0PRbBmw&amp;oe=6A3BC6BC\"></video></p>",
-    "summaryKo": "OpenAI 공동창업자 그렉 브록먼이 AI 생태계의 모든 레이어가 가치사슬에서 살아남아 시너지를 낼 것으로 전망했다는 SNS 정리다. '컴퓨팅 없으면 AI도 없다'며 폭발적 수요로 칩 가격·마진이 오르는 반전을 지적하고, 모델 레이어의 치열한 경쟁을 짚었다.",
-    "tags": [
-      "그렉 브록먼",
-      "AI 인프라",
-      "컴퓨트"
-    ],
-    "entities": [
-      "Greg Brockman",
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
-  },
-  {
-    "id": "275d228ed4b292d8",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Flowith 창업자인 Derek Nee가 AI 에이전트 기반 회사 운영 플랫폼 Matrix를 고...",
-    "url": "https://www.threads.com/t/DZ5z9tpDuVK",
-    "publishedAt": "Mon, 22 Jun 2026 21:30:20 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Flowith 창업자인 Derek Nee가 AI 에이전트 기반 회사 운영 플랫폼 Matrix를 공개했습니다. Matrix는 사용자가 목표만 입력하면 CEO 에이전트가 자동으로 연구, 개발, 마케팅 등 여러 부서를 구성하고 업무를 분배하는 구조인데요. Claude Code, Codex, Gemini, GLM 등 다양한 모델을 활용해 장기간 자율적으로 작업을 수행하도록 설계되었습니다. 특히 회사 설립, 도메인 연결, 이메일 설정, 결제 시스템 구축 등의 과정도 자동화해 첫날부터 수익 창출이 가능하다고 설명합니다. 실제 사례로 AI 영상 제작 서비스가 100개 이상의 영상을 제작하고 수천 달러의 매출을 기록했다고 공개했습니다. 최근 AI 업계에서는 단순 챗봇을 넘어 여러 에이전트가 협업하는 구조가 새로운 흐름으로 떠오르고 있는데요. Matrix는 '0인 기업(0-Person Company)'이라는 개념을 전면에 내세우며 AI가 조직 자체를 운영하는 방향을 실험하고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-1.cdninstagram.com/v/t51.71878-15/727158493_1902656700399455_1995791197217695844_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=MzkyNTM5NzA5MTQ5NzQ2OTI1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=tMz8On9gMmMQ7kNvwFhoCDa&amp;_nc_oc=Adpmy23Yp1oVFwgzvbhjIFq9jZbfp6U0awV5SDZ5OPKcmGfPFtQbCbV1TDKSJG_vMuE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=J1oawHaA0cQZohjBAnqHdA&amp;_nc_ss=7a22e&amp;oh=00_Af__T8v9Yyf8pPHJwiF0Yl57VvPN96SmcL24ED6ddgkiQQ&amp;oe=6A3FAFA6\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQMQhFIyubc0UsCU0U5C6oCffzhmoBKeWSB2AWrSbeXpZlQS9ha23FNyXklX9Qs4_uloP4RxHxvI-tfMzZ3D-xzvACATuddyqtXyL6Y.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=VeAcHxjjh9YQ7kNvwH-Ajol&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzMyMjUxMzUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=8c64a6926f1fbea&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8zNDQ5NjczQzgzREI2NDJFMzY0NTgyQ0U1RDYwRThBRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFDNDNDNjI0ODYxM0M0NkExMzkxRTVGOEYwMzY0NEE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAiqy6sqPtPxUCKAJDMywXQFKR64UeuFIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=J1oawHaA0cQZohjBAnqHdA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af__SH7H_OMjsRLVt9P3aQlbVVjZo_onV9CgtRmSAFl25w&amp;oe=6A3BB02E\"></video></p>",
-    "summaryKo": "Flowith 창업자 Derek Nee가 AI 에이전트 기반 회사 운영 플랫폼 'Matrix'를 공개했다는 SNS 정리다. 목표만 입력하면 CEO 에이전트가 연구·개발·마케팅 부서를 구성·분배하고, Claude Code·Codex·Gemini·GLM 등 다양한 모델로 장기간 자율 작업하며 회사 설립·도메인·이메일·결제 구축까지 처리한다.",
-    "tags": [
-      "AI에이전트",
-      "자율운영",
-      "멀티에이전트"
-    ],
-    "entities": [
-      "Flowith",
-      "Matrix",
-      "Derek Nee"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-23T00:18:22.436Z"
   }
 ]

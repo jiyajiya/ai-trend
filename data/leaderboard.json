@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-07-11",
-  "windowLabel": "2026년 7월 5~11일 기준",
-  "updatedAt": "2026-07-11T00:14:20Z",
+  "asOf": "2026-07-12",
+  "windowLabel": "2026년 7월 6~12일 기준",
+  "updatedAt": "2026-07-12T00:09:36Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -81,12 +81,12 @@
       "ranks": [
         { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1337", "basis": "Elo 1337, Arena 1위", "source": "artificialanalysis" },
         { "rank": 2, "model": "Reve 2.0", "score": "Elo 1278", "basis": "Elo 1278", "source": "artificialanalysis" },
-        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1268", "basis": "Elo 1268", "source": "artificialanalysis" },
+        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1267", "basis": "Elo 1267", "source": "artificialanalysis" },
         { "rank": 4, "model": "HiDream-O1-Image-1.5", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1262", "basis": "Elo 1262", "source": "artificialanalysis" },
-        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1261", "basis": "Elo 1261", "source": "artificialanalysis" },
-        { "rank": 7, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1223", "basis": "오픈웨이트 1위, Elo 1223 (agentic)", "source": "artificialanalysis" },
-        { "rank": 8, "model": "HiDream-O1-Image-Dev-2604", "score": "Elo 1184", "basis": "Elo 1184", "source": "artificialanalysis" }
+        { "rank": 5, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1260", "basis": "Elo 1260", "source": "artificialanalysis" },
+        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1258", "basis": "Elo 1258", "source": "artificialanalysis" },
+        { "rank": 7, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1252", "basis": "Elo 1252", "source": "artificialanalysis" },
+        { "rank": 8, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1221", "basis": "오픈웨이트 1위, Elo 1221 (agentic)", "source": "artificialanalysis" }
       ]
     },
     {
@@ -138,9 +138,9 @@
   ],
   "sources": [
     { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 7월 10일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 11일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 11일" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 11일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 12일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 12일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 12일" },
     { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 7월 1일" }
   ]
 }
