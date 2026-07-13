@@ -3840,7 +3840,717 @@
     "fetchedAt": "2026-07-02T00:17:12.179Z"
   },
   {
-    "id": "aaef033dfabe2831",
+    "id": "2754275c9342daff",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI glasses are aiding cheating in exams. Test-obsessed Asia is ground zero",
+    "url": "https://www.cnn.com/2026/06/26/asia/ai-glasses-cheating-exams-intl-hnk",
+    "publishedAt": "Sun, 28 Jun 2026 22:59:16 +0000",
+    "rawText": "Article URL: https://www.cnn.com/2026/06/26/asia/ai-glasses-cheating-exams-intl-hnk Comments URL: https://news.ycombinator.com/item?id=48712649 Points: 3 # Comments: 0",
+    "summaryKo": "스마트 AI 안경이 시험 부정행위에 악용되고 있으며, 입시·시험 경쟁이 치열한 아시아가 그 진원지로 지목됐다는 CNN 보도다. (본문 확보 실패로 제목 기반 요약)",
+    "tags": [
+      "AI 안경",
+      "스마트글래스",
+      "부정행위"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-29T00:10:42.895Z"
+  },
+  {
+    "id": "1291b903b51a2f9d",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI Workflows in Production Without Burning Tokens",
+    "url": "https://unmeshed.io/blog/bringing-ai-workflow-into-production-without-burning-tokens",
+    "publishedAt": "Sun, 28 Jun 2026 22:55:43 +0000",
+    "rawText": "Article URL: https://unmeshed.io/blog/bringing-ai-workflow-into-production-without-burning-tokens Comments URL: https://news.ycombinator.com/item?id=48712618 Points: 1 # Comments: 0",
+    "summaryKo": "AI를 모든 단계에 쓰지 말고, 맥락 이해·언어 생성·미묘한 판단이 필요한 곳에만 모델을 호출하고 단순한 결정은 규칙 기반 로직으로 처리하라는 제언이다. 모델 호출과 결정론적 자동화를 섞으면 토큰 비용을 크게 줄이면서 일관성을 유지할 수 있다.",
+    "tags": [
+      "AI 워크플로",
+      "비용 최적화",
+      "LLM"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "프로덕션 AI 워크플로에서 모든 단계에 모델을 호출하면 토큰 비용이 과도해진다.",
+        "각 단계가 '맥락 이해·언어 생성·판단'을 요구하는지, 단순 규칙으로 충분한지 구분해야 한다.",
+        "모델 호출과 규칙 기반 자동화를 혼합하면 비용 절감과 일관성을 동시에 얻는다."
+      ],
+      "sections": [
+        {
+          "heading": "핵심 판단 기준",
+          "body": "'이 단계가 정말 맥락 이해나 미묘한 판단을 필요로 하는가, 아니면 규칙만 따르면 되는가'를 단계별로 묻는다. 후자라면 결정론적 로직으로 처리해 모델 호출을 아낀다."
+        }
+      ],
+      "quotes": [
+        "Does this step require understanding context... or does it just need to follow a rule?"
+      ]
+    },
+    "fetchedAt": "2026-06-29T00:10:42.895Z"
+  },
+  {
+    "id": "2f011e016547960c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Role-model: protocol for assigning the right AI model for the right job",
+    "url": "https://role-model.dev/",
+    "publishedAt": "Sun, 28 Jun 2026 22:16:36 +0000",
+    "rawText": "Article URL: https://role-model.dev/ Comments URL: https://news.ycombinator.com/item?id=48712295 Points: 1 # Comments: 0",
+    "summaryKo": "role-model은 모델 이름이 아니라 역할·작업·측정된 성능을 기준으로 요청을 적절한 엔드포인트에 매칭하는 '능력 기반 AI 라우팅' 오픈 프로토콜이다. 선언된 능력과 관측된 성능을 결합해 설명 가능하고 결정론적인 라우팅 결정을 제공한다.",
+    "tags": [
+      "AI 라우팅",
+      "오픈 프로토콜",
+      "LLM"
+    ],
+    "entities": [
+      "role-model"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-29T00:10:42.895Z"
+  },
+  {
+    "id": "55018fc758387614",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 메타 CEO 마크 저커버그는 AI 기술의 비약적인 발전으로 모든 질병을...",
+    "url": "https://www.threads.com/t/DaJNUaODw6Z",
+    "publishedAt": "Sun, 28 Jun 2026 21:00:29 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>메타 CEO 마크 저커버그는 AI 기술의 비약적인 발전으로 모든 질병을 치료하고 예방하는 생물학적 혁신이 10년이나 20년 안에 도달할 것이라고 전망합니다. 그는 당초 이번 세기 안에 모든 질병을 치료하고 예방하겠다는 생물학적 혁신 목표를 세웠으나, 현재의 발전 속도로 볼 때 이조차 “오히려 너무 보수적인 목표일 수도 있습니다”라고 고쳤습니다. 고성능 AI 모델이 복잡한 생물학적 시스템을 효과적으로 시뮬레이션함으로써 신약 설계와 의학적 난제 해결의 효율성을 기하급수적으로 끌어올릴 수 있기 때문입니다 저커버그는 이러한 기술적 특이점에 기반한 목표가 당초 예상보다 훨씬 빠른 \"10년이나 20년 안에 도달할 것\"이라고 전망했습니다. 다만 성능 향상에 따른 경제적 파급력과 함께, 생화학 무기 개발 등 악의적 악용 가능성에 대해서도 경고했습니다. 그는 이것이 우리가 해결해야 할 “아직 답이 열린 문제”라며, 철저한 사전 검증과 대비책 마련이 필요하다고 덧붙였습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/731195606_1049814460716745_49118708510286669_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkyOTczMDcyNzAwNDgwMjcxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=wUkAQk6mUXoQ7kNvwGbh-LM&amp;_nc_oc=AdoyjglvPAWUxbJlk7RAYchoOznQ4gx1oIP6qsjoyXq-Zcg4sXXva0888zyMUN4IV8k&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;oh=00_Af_HdzBarfuz-xwY5udpsNJO9wsjAX55U8zPKbNvnovwYw&amp;oe=6A479431\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQMizwiBUondSZ9dtV1zk5OwK0TMRGRkp6KHRyfilv9EVRw6JdqvqYKmB7IsnXWc4RBY73Iv9xRiyBZGeUrkg2ZZs-YuSArfsoVlNms.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=UwN4vqkFxjgQ7kNvwEQeAXH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzQ0NjUyMDAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=b7c50e4e5d32fdf7&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xMjQzOTlCREExNjE0OTE4NTgwN0UyMjJEQ0E2NDBBNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE5NERGQzFCQTY4N0YzQTA0MkZCQkZBN0FGODM5OTlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAk77UyevtPxUCKAJDMywXQFDqn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-FF4uyVT6UQwz96HbpxCPqKWt02mXHpQuIBHFKfmLbDw&amp;oe=6A43AB19\"></video></p>",
+    "summaryKo": "마크 저커버그가 AI의 비약적 발전 덕분에 향후 10년 내 모든 질병을 치료·예방하는 생물학적 혁신이 가능하다는 취지로 전망했다는 SNS 게시물이다.",
+    "tags": [
+      "AI 헬스케어",
+      "빅테크"
+    ],
+    "entities": [
+      "Meta",
+      "Mark Zuckerberg"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-29T00:10:42.895Z"
+  },
+  {
+    "id": "c75620bb20d003aa",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지...",
+    "url": "https://www.threads.com/t/DaI_oscCj_9",
+    "publishedAt": "Sun, 28 Jun 2026 19:00:55 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지·수출 우선)에서 벗어나면 위험하다고 경고했습니다. 행정부 비판처럼 보이지만, 결국 그가 늘 강조해온 '확산' 얘기입니다. 색스가 보는 레이스의 승리는 미국 스택이 세계 표준, 즉 점유율을 쥐는 거니까요. 그런데 지금은 정반대로 가고 있습니다. 정부가 앤트로픽 Fable 5·Mythos 5의 외국인 접근을 막자 두 모델은 전 세계에서 내려갔고, 그 사이 중국 Z.ai는 GLM-5.2를 지역 제한 없는 오픈 웨이트로, 그것도 4분의 1 값에 풀었습니다. 수출통제의 함정이 여기서 발생합니다. 가중치를 받아 아무나 돌리는 모델은 잠글 수가 없습니다. 미국 모델을 닫아도 그 사이버 능력이 사라지는 게 아니라, 표준 자리만 중국 오픈 웨이트로 넘어갈 뿐입니다. 안전을 명분으로 건 빗장이 점유율은 잃고 확산은 못 막는다면, 정작 위험한 건 그 빗장입니다.</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/731158338_17974468764112832_8673336332071929190_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=MzkyOTY3MDU0ODMwNTEwMDc5Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE4Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=07ZmCYycoL0Q7kNvwGyfGEb&amp;_nc_oc=AdpAhxJHFQtPsAaVEU9cMY9ewx1dfPB39Vs99fvU3t-GVXypd2TNyfog5FFG7pkZhBM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=lRqJrTmpN0ZaTc3btNsdwg&amp;_nc_ss=7a22e&amp;oh=00_Af8335TLumDqq_-wK0hQ8pYsInMiBpLTi5vsObgk8GQPbA&amp;oe=6A47A118\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지·수출 우선)에서 벗어나면 위험하다고 경고했다는 내용을 전한 SNS 게시물이다.",
+    "tags": [
+      "AI 정책",
+      "미국"
+    ],
+    "entities": [
+      "David Sacks",
+      "Trump"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-29T00:10:42.895Z"
+  },
+  {
+    "id": "5f8ae94d3d52ae74",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+    "url": "https://openai.com/index/hp-frontier-partnership",
+    "publishedAt": "Sun, 28 Jun 2026 17:00:00 GMT",
+    "rawText": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+    "summaryKo": "HP가 OpenAI와의 Frontier 전략적 파트너십을 확대해, 고객 경험·소프트웨어 개발·전사 운영 전반에 AI를 도입한다고 밝혔다. 대기업이 OpenAI 모델을 핵심 업무에 본격 적용하는 엔터프라이즈 채택 사례다.",
+    "tags": [
+      "파트너십",
+      "엔터프라이즈 AI",
+      "AI 도입"
+    ],
+    "entities": [
+      "HP",
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-30T00:12:46.457Z"
+  },
+  {
+    "id": "c32171008fef614c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: ANMA, boundary contracts for cheaper AI coding agents",
+    "url": "https://github.com/anma-labs/anma",
+    "publishedAt": "Sun, 21 Jun 2026 23:41:02 +0000",
+    "rawText": "I built ANMA because I noticed that cheaper models would often ignore architecture rules. So I did several benchmarks using \"Claude Haiku 4.5\" with and without ANMA; without ANMA it ignored the \"rules\" 13 out of 19 runs, with ANMA, 0 out of 20 runs.What is \"ANMA\"? YAML contracts with CLAUDE.md, hooks, and CI checksWhat about stronger/expensive models? They followed the architecture rules.The question is, would cheaper models with stronger rules be the best affordable default for coding? Comments URL: https://news.ycombinator.com/item?id=48623765 Points: 1 # Comments: 0",
+    "summaryKo": "ANMA는 저렴한(약한) 코딩 모델이 아키텍처 규칙을 무시하는 문제를 막기 위한 '경계 계약(boundary contract)' 도구로, CLAUDE.md·훅·CI 체크와 결합한 YAML 계약을 사용한다. Claude Haiku 4.5로 벤치마크한 결과 ANMA 없이는 19회 중 13회 규칙을 어겼지만 ANMA 적용 시 20회 중 0회로 규칙 위반이 사라졌다고 보고한다. 강한 모델은 원래 규칙을 잘 따르므로, 값싼 모델로도 안정적인 에이전트 코딩을 가능하게 하려는 시도다.",
+    "tags": [
+      "코딩에이전트",
+      "아키텍처 가드레일",
+      "YAML 계약",
+      "CI"
+    ],
+    "entities": [
+      "ANMA",
+      "Claude Haiku 4.5",
+      "CLAUDE.md"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "값싼 모델은 아키텍처 규칙을 자주 무시하는데, ANMA는 이를 강제하기 위한 경계 계약 시스템이다.",
+        "ANMA는 CLAUDE.md, 훅(hooks), CI 체크와 결합된 YAML 계약 형태로 동작한다.",
+        "Claude Haiku 4.5 벤치마크에서 ANMA 미적용 시 19회 중 13회 규칙 위반, 적용 시 20회 중 0회로 위반이 사라졌다.",
+        "강하고 비싼 모델은 ANMA 없이도 아키텍처 규칙을 잘 따랐다.",
+        "값싼 모델로도 규칙 준수가 보장되면 에이전트 코딩 비용을 낮출 수 있다는 것이 핵심 동기다."
+      ],
+      "sections": [
+        {
+          "heading": "문제의식과 접근",
+          "body": "제작자는 저렴한 모델이 아키텍처 '규칙'을 자주 무시하는 현상을 관찰하고 ANMA를 만들었다. ANMA는 YAML 계약을 CLAUDE.md·훅·CI 검사와 묶어 모델이 코드 경계를 벗어나지 않도록 강제한다."
+        },
+        {
+          "heading": "벤치마크 결과",
+          "body": "Claude Haiku 4.5로 측정했을 때 ANMA가 없으면 19회 중 13회 규칙을 어겼지만, ANMA를 적용하면 20회 중 0회로 위반이 사라졌다. 반면 더 강하고 비싼 모델들은 원래부터 규칙을 잘 지켜, ANMA의 가치는 값싼 모델을 안정적으로 쓰는 데 있다."
+        }
+      ],
+      "quotes": [
+        "without ANMA it ignored the rules 13 out of 19 runs, with ANMA, 0 out of 20 runs"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "09158002dc85725c",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: AI Colours",
+    "url": "https://github.com/pilotpirxie/ai-colours",
+    "publishedAt": "Sun, 21 Jun 2026 23:40:55 +0000",
+    "rawText": "Article URL: https://github.com/pilotpirxie/ai-colours Comments URL: https://news.ycombinator.com/item?id=48623764 Points: 1 # Comments: 0",
+    "summaryKo": "AI Colours는 주요 AI 기업·도구·서비스가 사용하는 색상 팔레트를 정리한 레퍼런스 프로젝트다. Claude, OpenAI, Microsoft Copilot, Meta Llama 등이 공통적으로 흰색·연한 베이지 톤의 중립적 배경을 선호한다는 점을 RGB 값과 CSS 변수로 카탈로그화해 디자이너·개발자에게 참고 자료를 제공한다.",
+    "tags": [
+      "디자인 레퍼런스",
+      "컬러 팔레트",
+      "AI 브랜딩"
+    ],
+    "entities": [
+      "Claude",
+      "OpenAI",
+      "Microsoft Copilot",
+      "Meta Llama"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "be349d211d937c6e",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: PeekAI – Local-first observability for Python AI agents",
+    "url": "https://github.com/oussamaKH63/peekai",
+    "publishedAt": "Sun, 21 Jun 2026 23:38:15 +0000",
+    "rawText": "Article URL: https://github.com/oussamaKH63/peekai Comments URL: https://news.ycombinator.com/item?id=48623745 Points: 1 # Comments: 0",
+    "summaryKo": "PeekAI는 파이썬 AI 에이전트를 위한 로컬 우선(local-first) 관측성 도구로, 모든 LLM 호출·툴 사용·토큰 소비를 클라우드나 계정 없이 추적한다. `peekai.init()` 한 줄로 적용되는 무설정 계측을 제공하며, 모든 트레이스를 로컬 SQLite에 저장하고 CLI와 웹 대시보드로 에이전트 동작을 디버깅·분석할 수 있다.",
+    "tags": [
+      "AI 관측성",
+      "에이전트 디버깅",
+      "로컬 우선",
+      "Python"
+    ],
+    "entities": [
+      "PeekAI",
+      "SQLite"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "d2368bcca1101caa",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Tech Workers Are Fighting Against Silicon Valley's AI Push",
+    "url": "https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/",
+    "publishedAt": "Sun, 21 Jun 2026 23:29:51 +0000",
+    "rawText": "Article URL: https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/ Comments URL: https://news.ycombinator.com/item?id=48623695 Points: 3 # Comments: 0",
+    "summaryKo": "메타·구글·오라클 등 주요 기술기업 노동자들이 AI 주도의 일터 변화에 맞서 조직화·노조 결성에 나서고 있다는 보도다. 침습적 감시, 강제 AI 교육, 자동화를 명분으로 한 해고, 군사 AI 계약 등이 주요 불만이며, 2025년 이후 약 40만 명이 해고되면서 불안정성을 느낀 직원들이 집단적으로 목소리를 내기 시작했다. 외부 사회 이슈보다 고용 안정·근로조건을 직접 겨냥한다는 점에서 과거 활동과 다르다.",
+    "tags": [
+      "테크 노동",
+      "노조",
+      "AI 자동화",
+      "고용"
+    ],
+    "entities": [
+      "Meta",
+      "Google",
+      "Oracle"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "메타·구글·오라클 등 주요 기술기업 노동자들이 AI 주도 변화에 맞서 조직화·노조 결성에 나서고 있다.",
+        "침습적 감시, 강제 AI 교육, 자동화 명분의 해고, 군사 AI 계약 등이 핵심 불만이다.",
+        "2025년 이후 약 40만 명의 기술 인력이 해고되며 직원들이 더 불안정함을 느끼고 있다.",
+        "이번 움직임은 외부 사회 이슈가 아니라 고용 안정·근로조건을 직접 겨냥한다는 점에서 과거 활동과 다르다."
+      ],
+      "sections": [
+        {
+          "heading": "조직화의 배경",
+          "body": "AI 도입으로 인한 감시 강화, 강제 AI 교육, 자동화를 이유로 한 대규모 해고, 군사 AI 계약 참여 등이 기술 노동자들의 불만을 키웠다. 2025년 이후 누적 약 40만 명 해고로 고용 불안이 심화됐다."
+        },
+        {
+          "heading": "과거 활동과의 차이",
+          "body": "과거 테크 노동자 행동주의가 주로 외부 사회·윤리 이슈를 다뤘다면, 이번에는 자신들의 일자리와 근로조건이라는 직접적 이해관계를 중심으로 집단 행동에 나선다는 점이 특징이다."
+        }
+      ],
+      "quotes": []
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "ef64964d2680ff4d",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "China's Z.ai open-sourced a frontier coding model as Washington bans it rival",
+    "url": "https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/",
+    "publishedAt": "Sun, 21 Jun 2026 23:28:26 +0000",
+    "rawText": "Article URL: https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/ Comments URL: https://news.ycombinator.com/item?id=48623686 Points: 3 # Comments: 1",
+    "summaryKo": "중국 Z.ai가 프런티어급 코딩 모델을 오픈소스로 공개했는데, 같은 날 워싱턴이 경쟁하는 미국 모델을 금지했다는 점에서 주목받은 소식이다. 미·중 AI 규제·수출통제 구도 속에서 중국 측이 개방형 전략으로 대응하는 흐름을 보여준다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
+    "tags": [
+      "오픈소스 모델",
+      "코딩 모델",
+      "미중 규제"
+    ],
+    "entities": [
+      "Z.ai",
+      "GLM"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발",
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "199470936ff5abef",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI is making answers cheap. Curiosity is priceless",
+    "url": "https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless",
+    "publishedAt": "Sun, 21 Jun 2026 23:20:55 +0000",
+    "rawText": "Article URL: https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless Comments URL: https://news.ycombinator.com/item?id=48623636 Points: 1 # Comments: 0",
+    "summaryKo": "AI가 정답(답변)을 값싸게 만들어 주는 시대에는 오히려 질문을 던지는 호기심이 더 희소하고 값진 역량이 된다고 주장하는 칼럼이다. 정보 접근 비용이 0에 수렴할수록 무엇을 물을지 아는 능력이 차별화 요소가 된다는 논지다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
+    "tags": [
+      "AI와 일",
+      "호기심",
+      "지식노동"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "e89f88706380bd39",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Norway Bans AI for Kids 6-13 in Schools",
+    "url": "https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/",
+    "publishedAt": "Sun, 21 Jun 2026 23:12:29 +0000",
+    "rawText": "Article URL: https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/ Comments URL: https://news.ycombinator.com/item?id=48623568 Points: 2 # Comments: 1",
+    "summaryKo": "노르웨이가 2026년 8월부터 6~13세 아동의 학교 내 생성형 AI 사용을 사실상 전면 금지하고, 14~16세는 제한적 감독 하에만 허용하기로 했다. 어린이가 AI에 의존하면 읽기·쓰기·수학 같은 기초 학습 단계를 건너뛰게 된다는 인지 발달 우려와 데이터 프라이버시(GDPR)·콘텐츠 안전 문제가 배경이다. 2024년 스마트폰 금지 성과에 이어, 다른 나라의 교육 AI 정책 모델이 될 수 있는 조치로 평가된다.",
+    "tags": [
+      "AI 규제",
+      "교육",
+      "아동 보호"
+    ],
+    "entities": [
+      "Norway",
+      "GDPR"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "노르웨이가 2026년 8월부터 6~13세 아동의 학교 내 생성형 AI 사용을 사실상 전면 금지한다.",
+        "14~16세는 제한적·감독 하에서만 허용하고, 더 높은 연령대는 책임 있는 사용을 장려한다.",
+        "어린 학생이 AI에 의존하면 기초 학습의 중요한 단계를 건너뛴다는 인지 발달 우려가 핵심 근거다.",
+        "데이터 프라이버시(GDPR)와 콘텐츠 안전 위험도 정책 배경으로 작용했다.",
+        "2024년 스마트폰 금지로 괴롭힘 감소·성적 향상 성과를 본 데 이어 나온 조치로, 다른 나라의 모델이 될 수 있다."
+      ],
+      "sections": [
+        {
+          "heading": "정책 내용과 연령 구분",
+          "body": "2026년 8월부터 시행되며 6~13세는 사실상 전면 금지, 14~16세는 감독 하 제한 허용, 그 이상 연령은 책임 있는 사용을 권장한다. 요나스 가르 스퇴레 총리는 어린이가 AI를 쓰면 교육의 중요한 단계를 건너뛴다고 강조했다."
+        },
+        {
+          "heading": "배경과 파급",
+          "body": "인지 발달 우려와 더불어 GDPR 하의 데이터 프라이버시, 콘텐츠 안전 위험이 정책 동기로 작용했다. 2024년 스마트폰 금지로 괴롭힘이 줄고 학업 성취가 개선된 경험이 토대가 됐으며, 노르웨이를 기술 규제의 선도국으로 자리매김시키는 조치로 평가된다."
+        }
+      ],
+      "quotes": [
+        "young children skip important steps in their education when using AI tools"
+      ]
+    },
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "dbcad87e828f0151",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Fast-tracked power plants fuel AI boom, with little public scrutiny",
+    "url": "https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/",
+    "publishedAt": "Sun, 21 Jun 2026 23:11:06 +0000",
+    "rawText": "Article URL: https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/ Comments URL: https://news.ycombinator.com/item?id=48623560 Points: 2 # Comments: 0",
+    "summaryKo": "AI 붐에 따른 데이터센터 전력 수요를 맞추기 위해 발전소 건설이 충분한 공적 검토 없이 빠르게 승인(패스트트랙)되고 있다는 로이터 보도다. 전력 인프라 확장이 환경·지역사회 영향에 대한 투명성 부족 속에 진행되는 점을 지적한다. (원문 본문을 가져오지 못해 제목 기반으로 요약함)",
+    "tags": [
+      "AI 인프라",
+      "전력",
+      "데이터센터",
+      "규제"
+    ],
+    "entities": [
+      "Reuters"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4c4175b8f8ff1313",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 노벨 생리의학상 수상자이자 스탠퍼드 대학교 교수인 토마스 쥐트호...",
+    "url": "https://www.threads.com/t/DZ3ZcOejoT1",
+    "publishedAt": "Sun, 21 Jun 2026 23:00:05 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>노벨 생리의학상 수상자이자 스탠퍼드 대학교 교수인 토마스 쥐트호프(Thomas Südhof)는 기술적 진보가 바이오 경제와 의료 혁신을 이끄는 핵심 동력이라고 강조했습니다. 그는 “인공지능은 생물학 혁신을 이끄는 주요 구성 요소”라고 말하며, AI가 생물학 연구의 패러다임을 바꾸고 있음을 확언했습니다. 특히 AI의 고성능 연산 처리를 위해서는 데이터가 필수적인데, 현재 과학계는 과거에 없던 새로운 방식으로 방대한 고품질 데이터를 확보하고 있습니다. 쥐트호프 교수는 이러한 데이터와 AI 기술의 결합이 질병의 근본적인 원인을 이해하고 새로운 실험을 수행하는 방식을 완전히 바꿀 것으로 분석했습니다. 나아가 인류의 건강과 웰빙을 위협하는 현대 의학의 거대한 난제들을 해결함으로써 바이오 분야의 기술적 특이점을 앞당기고 관련 산업 생태계 전반에 폭발적인 경제적 가치를 창출할 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/726987354_1353327280019920_8888916150237270022_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=MzkyNDcxNzQ5MTEyOTg0NDk4MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=42AWjA79DlMQ7kNvwEobmMJ&amp;_nc_oc=AdrxtQhtojzupRAlXHx1KdbFYlKD-0Gz9cK7eXG4iQOeUmJsNSUU4yN1aibDbjS70Tg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-TnKpX5PC9TQo4ppijO_dIcPmb7HK2TLgcByXW6r3pUQ&amp;oe=6A3E4477\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQNhmhZCQMMIPN3w4K4w5jJV40DtKGkKs1n7-yV8Gos9RKlouAi-u394lF8Iu5BcDCSmqN37NOsVfpDnJ0AWG48DKr7WZb5IkSg49uA.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=zrJF6zQECQ4Q7kNvwHOz9it&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzI5NzEwNzExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=70b7130b76467266&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wMDQyRDUxMEVENzU5MjYzMTkwNTcyOTM2RTcxMUU4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVCNEMwNDM1RDUyMTYwMTU2QzQwMjlGNUQyQTAwMDkyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAmoTEzZTtPxUCKAJDMywXQFg3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-oRRKwhI_-KuKkBw6sbIhzL8xVnADqerDGD4JUajjnYg&amp;oe=6A3A6E7C\"></video></p>",
+    "summaryKo": "노벨 생리의학상 수상자이자 스탠퍼드 교수인 토마스 쥐트호프가 기술 진보가 바이오 경제와 의료 혁신을 이끄는 핵심 동력이라고 강조한 내용을 전하는 SNS 글이다. 그는 '인공지능은 생물학 혁신을 이끄는 주요 구성 요소'라며 AI가 생물학 연구의 패러다임을 바꾸고 있다고 확언했다.",
+    "tags": [
+      "AI 바이오",
+      "과학 혁신"
+    ],
+    "entities": [
+      "Thomas Südhof",
+      "Stanford"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4a975b89e4a0f0fb",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "publishedAt": "Sun, 21 Jun 2026 23:00:00 GMT",
+    "rawText": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "summaryKo": "삼성전자가 전 세계 임직원에게 ChatGPT Enterprise와 Codex를 배포한다고 OpenAI가 발표했다. 이는 OpenAI의 기업용 AI 도입 사례 중 최대 규모 중 하나로, 대기업 업무 전반과 개발 워크플로우에 생성형 AI가 본격 도입되는 흐름을 보여준다.",
+    "tags": [
+      "ChatGPT Enterprise",
+      "Codex",
+      "엔터프라이즈 AI"
+    ],
+    "entities": [
+      "OpenAI",
+      "Samsung Electronics",
+      "ChatGPT",
+      "Codex"
+    ],
+    "cats": [
+      "기업·정책",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "c510d2ca559b00e2",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Tool Calling, Explained: How AI Agents Decide What to Do Next",
+    "url": "https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/",
+    "publishedAt": "Sun, 21 Jun 2026 17:00:00 +0000",
+    "rawText": "Understanding ow LLMs interact with the world around them, from returning data to taking action The post Tool Calling, Explained: How AI Agents Decide What to Do Next appeared first on Towards Data Science.",
+    "summaryKo": "LLM이 외부 세계와 상호작용하는 핵심 메커니즘인 '툴 콜링(tool calling)'을 설명하는 글이다. 모델이 단순히 데이터를 반환하는 것을 넘어 어떤 도구를 호출해 다음 행동을 결정하는지, AI 에이전트의 동작 원리를 풀어낸다.",
+    "tags": [
+      "툴 콜링",
+      "에이전트",
+      "LLM"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "e2c1c48cc4df4dcd",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section",
+    "url": "https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/",
+    "publishedAt": "Sun, 21 Jun 2026 15:00:00 +0000",
+    "rawText": "Enterprise Document Intelligence [Vol.1 #5septies] - When a PDF prints a contents page but exposes no outline, two ways to turn it back into structure, plus the page-alignment step everyone forgets The post Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section appeared first on Towards Data Science.",
+    "summaryKo": "PDF가 목차 페이지는 인쇄해 두었지만 실제 아웃라인(북마크) 구조는 노출하지 않는 경우, 이를 다시 구조화해 RAG가 섹션 단위로 범위를 좁힐 수 있게 만드는 방법을 다룬 엔터프라이즈 문서 처리 글이다. 목차를 구조로 되돌리는 두 가지 방식과 흔히 놓치는 페이지 정렬 단계를 설명한다.",
+    "tags": [
+      "RAG",
+      "문서 처리",
+      "PDF"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "0c68355e5be136d8",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 ...",
+    "url": "https://www.threads.com/t/DZ2brnkjMTU",
+    "publishedAt": "Sun, 21 Jun 2026 14:00:25 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 “모든 사람이 가상 인공지능 팀을 이끄는 보스(Boss)가 될 것”이라고 강조했습니다. 마치 거물 기업가나 정치인이 개인 보좌진을 거느리는 것처럼, 모든 개인이 스마트폰이나 스마트 글래스를 통해 일상적인 업무를 돕고 문제를 해결해 주는 지능형 에이전트 스태프를 두게 된다는 설명입니다. 얀 르쿤은 이러한 에이전트 생태계의 고도화가 인간의 생산성을 극대화하여 미래 기술 경제의 패러다임을 바꿀 것으로 분석했습니다. 나아가 기술적 과제가 아직 남아있지만, 기하급수적인 성능 발전을 통해 가사 로봇의 대중화와 완전 자율주행차의 상용화 역시 10년 안에 충분히 실현될 수 있을 것이라 전망했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax7-1.cdninstagram.com/v/t51.71878-15/727927770_1777628849888953_4257281916246475068_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=MzkyNDQ0NTg2OTk4MjQwMTc0OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=GPirA3LAzqQQ7kNvwG2FGQq&amp;_nc_oc=AdqSHFiOuFI6_g62nEZOhNNy3lRbcTuv6nONF9iuO_Z5AjwsolYYlPrAq9RJLzUwdfQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-Rc_mYhoitXqB8i7ECrhCmOqmze1vZbQUwMLwHn9s7cA&amp;oe=6A3E5CC7\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQPuQqoGBg87PK8XlEGjr-y0dpVQs0g5U7lgHYvrsRZ8zgzKSrkXxE0cIhqSquRBfzG9cU0P8LbmgNWRRfXqt49-ZAD-1AoT9TBLlh4.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=QwIWWsp6rP8Q7kNvwEGzQRC&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzI5NjQzNjMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=379870881e90582d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EQzQwM0EyQzRBRDY4RTNCNERFMUQ3MTcyOTQwNUE5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNDNDBDMzBGQzFBOTVGQjk2NEMwQkJGMENFNzFBREFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAxuTGm5TtPxUCKAJDMywXQFSeuFHrhR8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_Af-GlPTTDTMpapT4Lr3cdPIFxuL7lP82WXDZCr4LGMebCg&amp;oe=6A3A753A\"></video></p>",
+    "summaryKo": "얀 르쿤이 10년 뒤 미래 사회를 예측하며 '모든 사람이 가상 AI 팀을 이끄는 보스가 될 것'이라고 강조한 내용을 전하는 SNS 글이다. 거물 기업가나 정치인이 보좌진을 거느리듯, 모든 개인이 스마트폰·스마트글래스를 통해 일상 업무를 돕는 지능형 에이전트 팀을 거느리게 된다는 전망이다.",
+    "tags": [
+      "AI 미래 전망",
+      "에이전트",
+      "얀 르쿤"
+    ],
+    "entities": [
+      "Yann LeCun"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4b220d043d4a772c",
+    "sourceType": "news",
+    "source": "Towards Data Science",
+    "title": "What Are the Possibilities to Build Date Tables in Self-Service Environments?",
+    "url": "https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/",
+    "publishedAt": "Sun, 21 Jun 2026 13:00:00 +0000",
+    "rawText": "For years, I created date tables with DAX code whenever I didn’t have a way to create them upstream of the data flow. Now I've realised there's another way to do it. Let’s see what the alternatives are and how they compare. The post What Are the Possibilities to Build Date Tables in Self-Service Environments? appeared first on Towards Data Science.",
+    "summaryKo": "셀프서비스 BI 환경에서 날짜 테이블(date table)을 만드는 여러 방법을 비교한 글이다. 그동안 DAX 코드로 날짜 테이블을 만들어 왔지만, 데이터 흐름 상류에서 만들 수 없을 때 쓸 수 있는 다른 대안들을 살펴보고 장단점을 비교한다.",
+    "tags": [
+      "데이터 엔지니어링",
+      "BI",
+      "DAX"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "d222da6b8a11b35e",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 한번 보면 다시 보지 않을 수 없는 순간. AI 혁명을 만든 연구르...",
+    "url": "https://www.threads.com/t/DZ2J0sfjwOx",
+    "publishedAt": "Sun, 21 Jun 2026 11:24:22 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>한번 보면 다시 보지 않을 수 없는 순간. AI 혁명을 만든 연구를 세상에 무료로 내놓은 사람이, 그 연구 위에 만들어진 회사가 \"AI 연구자는 쓸 수 없다\"는 조항을 다는 것을 목격했습니다. :</p><p><img src=\"https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/727457582_17972983596112832_5486089333086633313_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkyNDM2NzMyODkwNTQ2MjcwNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=VFfSpQ38k60Q7kNvwFZCTqt&amp;_nc_oc=Adq7lZdqgq97cUWup1DZ49CxZzKlf0K-8McwxZl1EdH5XTvbMwqnwJMB88UmuUKIEPU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af_Wa1BtqALYLXNzu9gg3Zr95ImHw4VOPm0rVSbrBPNe9A&amp;oe=6A3E42A6\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "AI 혁명을 만든 연구를 세상에 무료로 공개했던 사람이, 그 연구 위에 세워진 회사가 'AI 연구자는 쓸 수 없다'는 조항을 다는 것을 목격했다는 비판을 담은 SNS 글이다. 개방형 연구의 성과가 폐쇄적 이용 조건으로 되돌아오는 아이러니를 지적한다.",
+    "tags": [
+      "AI 윤리",
+      "오픈 연구",
+      "라이선스"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "479978963fd37a3b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 채찍 없이도 돌아가는 통제사회가 온다. 스카이넷이 인류와 총을 ᄃ...",
+    "url": "https://www.threads.com/t/DZ1vUHrD-66",
+    "publishedAt": "Sun, 21 Jun 2026 07:32:44 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>채찍 없이도 돌아가는 통제사회가 온다. 스카이넷이 인류와 총을 들고 싸우는 그림보다, 채찍 없이 조용히 돌아가는 사회가 훨씬 더 현실적이고 무섭습니다. 감시로 누구인지 알아내고, 기본소득과 편의로 저항할 이유 자체를 없애는 사회요. 그런 사회를 떠올릴 때 제 머릿속에 자꾸 남는 게 하나 있습니다. 국가가 끌 수 없는 돈, 비트코인입니다. 지금은 주식과 AI에 가려 조용하지만, 이 이야기를 한 번 적어두고 싶었습니다. 🧵</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/726838399_17972949798112832_4109524390430418850_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzkyNDI1MDc0MTEzNzQ2OTExNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=NDNUWff8kOcQ7kNvwEAMOmg&amp;_nc_oc=AdodxYCIAbaYXMNDK3X7k0xKKRtiFGCgfqbRfIGV4Zt4scSMY_R51fC357bKtkGtorI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=orjgXpzpZNgBPYiJo7KExQ&amp;_nc_ss=7a22e&amp;oh=00_Af-cUipQZdFMaHSCS2VzPcR6WIwf6acJfoXyY1LlK-Mxhg&amp;oe=6A3E53A6\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "스카이넷이 인류와 총을 들고 싸우는 그림보다, 채찍 없이 조용히 돌아가는 통제사회가 훨씬 현실적이고 무섭다고 경고하는 SNS 글이다. 감시로 개인을 식별하고 기본소득·편의로 저항할 이유 자체를 없애는 사회를 우려하며, 국가가 끌 수 없는 돈 같은 장치의 필요성을 시사한다.",
+    "tags": [
+      "AI 감시",
+      "통제사회",
+      "AI 안전"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-22T00:10:18.877Z"
+  },
+  {
+    "id": "4a1a2edfc53fbcf8",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Introducing the OpenAI Partner Network",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "publishedAt": "Sun, 14 Jun 2026 00:00:00 GMT",
+    "rawText": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+    "summaryKo": "OpenAI가 1억 5천만 달러를 투자해 글로벌 파트너들의 기업용 AI 도입과 전환을 지원하는 'Partner Network'를 출범시켰다. 이 네트워크는 전 세계 파트너들이 기업 고객의 AI 배포와 비즈니스 혁신을 가속화하도록 돕는다.",
+    "tags": [
+      "partnership",
+      "enterprise",
+      "investment"
+    ],
+    "entities": [
+      "OpenAI",
+      "OpenAI Partner Network"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-06-19T02:12:32.491Z"
+  },
+  {
+    "id": "909bca4f6c5bea2f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 내 위키(위키 레벨을 벗어났지만)에 질문 한 번 하는데 100만원도 ᄌ...",
+    "url": "https://www.threads.com/t/DasgYzhlH6K",
+    "publishedAt": "Sun, 12 Jul 2026 14:00:57 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>내 위키(위키 레벨을 벗어났지만)에 질문 한 번 하는데 100만원도 저렴하다고 생각한다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-1.cdninstagram.com/v/t51.71878-15/747526556_1336390978078035_8284027251186954071_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=MzkzOTY2NjIxNjEyMjM1MTI0Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=2WMKLweKYWwQ7kNvwGYwTwS&amp;_nc_oc=AdrsL_6XsZdkVkLR_optxkbKwh4MW-TRkdzKLyj5A5KjEboc6ZVomVREpmkhVlxxEB4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=hDQsrPz8S4DMJSDjnjYkfA&amp;_nc_ss=7a22e&amp;oh=00_AQCdKsZkqWFvuDlDdwpzXrzmnZpM0D6CPsjdPBqYqMPNOQ&amp;oe=6A59F526\"><source src=\"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m84/AQMr6Gocz_yO5Cv1UtRClz8Vv19lRWtD2Qmh8A9fSEqIgQTML1KGogwy58qSht__NWA_hTe4kHJka2hmuR6k0tE1wYQVzrUnUdYuklA.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_ohc=zNQSVwYV8aQQ7kNvwHtHsKo&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjAwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzY3OTIyNDAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NDgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=45ad5874eb27af92&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9ERjQ2MzQzMDQ2NzM0QTg5RjMzMTIwMjJFMTA5MEQ4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUyNDlGMEVGNUQ5NEJBRTY3NzI2NUFDNThGM0I3NUFFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAk-K6g_PuPxUCKAJDMywXQEgu2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=hDQsrPz8S4DMJSDjnjYkfA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQDom1ggSWw5H6jDZ8pOs_cOFYJ5y3Tjq4OZ1n7MbBc0vA&amp;oe=6A561E6E\"></video></p>",
+    "summaryKo": "자신이 구축한 방대한 지식 베이스('위키')에 질문 한 번 하는 비용이 100만원이라도 저렴하다고 느낀다며 AI 활용의 가치를 강조하는 @choi.openai의 Threads 게시물이다.",
+    "tags": [
+      "AI활용"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-13T00:08:14.697Z"
+  },
+  {
+    "id": "912788f070aaf514",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 이번 주는 AI 역사에 남을 한 주였습니다. GPT 5.6과 ChatGPT Work 출시부터, 세...",
+    "url": "https://www.threads.com/t/DasMN5aD-7b",
+    "publishedAt": "Sun, 12 Jul 2026 11:04:17 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>이번 주는 AI 역사에 남을 한 주였습니다. GPT 5.6과 ChatGPT Work 출시부터, 세계 최고 코더들의 완패, 애플의 오픈AI 제소까지. 이제는 '모른다'고 넘어갈 수 없습니다. 꼭 알아야 할 AI 소식 53개를 엄선했습니다 🧵</p><p></p>",
+    "summaryKo": "GPT-5.6와 ChatGPT Work 출시, AI의 톱 코더 상대 완승, 애플의 OpenAI 제소 등 한 주간의 주요 사건을 'AI 역사에 남을 한 주'로 요약하며 꼭 알아야 할 AI 소식 53개를 정리한 @choi.openai의 Threads 스레드다.",
+    "tags": [
+      "AI뉴스",
+      "GPT-5.6"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-5.6",
+      "ChatGPT Work",
+      "Apple"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-13T00:08:14.697Z"
+  },
+  {
+    "id": "d0eabcfc69bbf553",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 요즘 코딩 에이전트로 어떤 모델을 쓸지 고민이라면 볼만한 차트...",
+    "url": "https://www.threads.com/t/DasE9Wik5AI",
+    "publishedAt": "Sun, 12 Jul 2026 10:00:51 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>요즘 코딩 에이전트로 어떤 모델을 쓸지 고민이라면 볼만한 차트입니다. Sebastian Raschka가 GPT-5.6 라인업의 성능 대비 비용 그래프를 정리했는데, 이틀 만에 조회 80만을 넘겼습니다. 결론은 단순합니다. 큰 모델을 이름만 보고 고르는 것보다, 작은 모델에 추론 강도를 올려 쓰는 조합이 대부분 구간에서 앞섭니다. 제일 작은 Luna를 최고 강도로 돌리면 중형 Sol의 Medium급 성능이 나오는데 비용은 3분의 1 수준입니다. 같은 돈이면 큰 모델의 한 번 응답보다 작은 모델이 더 오래 생각하게 만드는 쪽이 정확하다는 뜻입니다. 업데이트판에 추가된 Grok 4.5도 이 가성비 경계선 위에 올라왔습니다. 다만 구독 요금제에선 사용량 차감이 API 단가와 다르다는 실사용 보고도 있어, 체감 가성비는 다를 수 있습니다. 5.5에서 5.6까지 80일 만에 곡선이 이만큼 내려왔습니다. 모델 고르는 공식도 그 주기로 다시 써야 할 것 같습니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/743967979_17976744810112832_1528373535382875379_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzkzOTU0NTU4MjMxODg4MjgyNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=hRNJrL-p14AQ7kNvwEhXvYH&amp;_nc_oc=AdqTsdhfAPUZIEdhpo9yYyKTXzHUP_G7d3NmFw2TmOPPmcJiwPi2dsKFRD1RQfOgPF4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=hDQsrPz8S4DMJSDjnjYkfA&amp;_nc_ss=7a22e&amp;oh=00_AQBDFy8BjrPYVQVgXTKDzvdJDYqj3UGo0ez_kuOCy8vCgA&amp;oe=6A59EF80\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "코딩 에이전트에 어떤 모델을 쓸지 고를 때 참고할 만한, Sebastian Raschka가 정리한 GPT-5.6 라인업의 성능 대비 비용 그래프를 소개하는 Threads 글이다. 큰 모델을 이름만 보고 고르기보다 작은 모델의 추론 강도를 높이는 조합이 대부분 구간에서 앞서며, 최소형 Luna를 최고 강도로 돌리면 중형 Sol의 Medium급 성능을 3분의 1 비용으로 낸다고 짚는다.",
+    "tags": [
+      "코딩에이전트",
+      "GPT-5.6",
+      "비용효율",
+      "추론"
+    ],
+    "entities": [
+      "GPT-5.6",
+      "Luna",
+      "Sol",
+      "Grok 4.5"
+    ],
+    "cats": [
+      "코딩·개발",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-13T00:08:14.697Z"
+  },
+  {
+    "id": "854bb8c784596924",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 기업 보안 담당자는 꼭 보면 좋겠네요. AI 탈옥으로 유명한 Pliny가 ...",
+    "url": "https://www.threads.com/t/DabVzzrikvb",
+    "publishedAt": "Sun, 05 Jul 2026 22:01:01 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>기업 보안 담당자는 꼭 보면 좋겠네요. AI 탈옥으로 유명한 Pliny가 T3MP3ST를 공개했습니다. T3MP3ST는 Claude Code, Codex, Hermes 같은 코딩 에이전트와 연동해 웹 서비스, API, 소스코드 등을 대상으로 허가된 보안 점검을 자동으로 수행할 수 있는 도구입니다. nmap, semgrep, nuclei 등 다양한 보안 도구를 함께 활용하며, 여러 AI 에이전트가 역할을 나눠 협업하는 기능도 개발 중입니다. 공개된 벤치마크에서는 XBEN, Cybench 등에서 높은 성능을 기록했으며, 학습 이후 공개된 일부 2026년 CVE도 찾아냈다고 밝혔습니다.</p><p><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/732031292_17975682717112832_6376741820551624936_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=108&amp;ig_cache_key=MzkzNDgzNDYwMzg2MDgzNTM5OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjg4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=jlA-b-vx6s8Q7kNvwHW6U6l&amp;_nc_oc=Adq5Xuo3dN2bkhwEdT_YlBOPlsFHVjEgVHfNr3M_DmA6etQvtq5-MhQ5oUOpDn0uKFs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=BSIj9orHVmCKOP7uGspU_w&amp;_nc_ss=7a22e&amp;oh=00_AQDjPRoasNgEZJphvL0dRcgWP1WC--_nSKRKMqu6s_1F-g&amp;oe=6A50AF2A\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/732849528_17975682705112832_250921390981564712_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzkzNDgzNDYwMzQ2NjYwNjY1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjg4MC5zZHIucmVndWxhcl9waG90by5DMiJ9&amp;_nc_ohc=CQgi6xbQOIkQ7kNvwHHVXjY&amp;_nc_oc=AdoleTxDhYrNvdjw117NN2o3r-SzRMXISdJCakLl7d8WyFBPH5lmQQUpCniWmasAZwo&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_gid=BSIj9orHVmCKOP7uGspU_w&amp;_nc_ss=7a22e&amp;oh=00_AQA8N4QQMXmn0Ct-NeDtfOWX_OmE2_q34Z2uzSXUx8qVbw&amp;oe=6A50D9D5\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "AI 탈옥 연구로 유명한 Pliny가 보안 점검 자동화 도구 T3MP3ST를 공개했다. Claude Code·Codex·Hermes 같은 코딩 에이전트와 연동해 웹 서비스·API·소스코드를 대상으로 허가된 보안 점검을 수행하며, nmap·semgrep·nuclei 등 보안 도구를 활용하고 멀티에이전트 협업 기능도 개발 중이다. XBEN, Cybench 등 벤치마크에서 높은 성능을 기록했고 학습 이후 공개된 일부 2026년 CVE도 찾아냈다고 밝혔다.",
+    "tags": [
+      "보안",
+      "에이전트",
+      "펜테스팅"
+    ],
+    "entities": [
+      "Pliny",
+      "T3MP3ST",
+      "Claude Code",
+      "Codex"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-06T00:12:12.219Z"
+  },
+  {
+    "id": "33ff9177ca69de68",
     "sourceType": "news",
     "source": "Anthropic News",
     "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
@@ -5054,114 +5764,6 @@
     ],
     "cats": [
       "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-30T00:12:46.457Z"
-  },
-  {
-    "id": "1d5abdcff129f3dc",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time",
-    "url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
-    "publishedAt": "Mon, 29 Jun 2026 15:00:04 +0000",
-    "rawText": "",
-    "summaryKo": "Firefly Aerospace가 달 궤도를 도는 Elytra 우주선의 Ocula 영상 서비스에 NVIDIA Jetson 엣지 AI를 탑재해, 사상 처음으로 달 궤도에서 AI 추론을 직접 수행했다. 대용량 데이터를 지구로 보내 처리하는 대신 우주에서 추론해 필요한 정보만 전송함으로써 지연과 다운링크 비용을 크게 줄인다.",
-    "tags": [
-      "엣지 AI",
-      "Jetson",
-      "우주",
-      "AI 추론"
-    ],
-    "entities": [
-      "Firefly Aerospace",
-      "NVIDIA",
-      "Jetson",
-      "NASA"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-30T00:12:46.457Z"
-  },
-  {
-    "id": "7401eebcf5f39059",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Agent confidence on the technical frontier",
-    "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-    "publishedAt": "Mon, 29 Jun 2026 14:44:01 +0000",
-    "rawText": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial outcomes their businesses seek. A prime opportunity for AI agents&#8230;",
-    "summaryKo": "엔터프라이즈 AI 투자가 급증하는 가운데 Gartner가 2026년을 AI 프로젝트를 전략 목표와 정렬하는 '변곡의 해'로 규정했다. ROI 증명 압박 속에서 측정 가능한 재무 성과를 내기 위해 에이전트형 AI에 거는 기대를 다룬다.",
-    "tags": [
-      "에이전트",
-      "엔터프라이즈",
-      "ROI"
-    ],
-    "entities": [
-      "Gartner",
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-06-30T00:12:46.457Z"
-  },
-  {
-    "id": "3baa1df426f94b0f",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "프론티어 LLM 못 쓰는 시대, 개발자는 뭘 준비해야 할까",
-    "url": "https://www.youtube.com/watch?v=3r16tpeBM3s",
-    "publishedAt": "2026-06-29T11:51:15+00:00",
-    "rawText": "프론티어 LLM 못 쓰는 시대, 개발자는 뭘 준비해야 할까",
-    "videoId": "3r16tpeBM3s",
-    "summaryKo": "프론티어 LLM에 대한 접근이 정책·지정학·비용 등으로 제한될 수 있는 시대를 전망하며, AI가 단순 생산성 도구를 넘어 '권력 인프라'로 성격이 바뀌고 있다고 진단한다. 이에 개발자는 특정 프론티어 모델에 대한 종속을 줄이고 GLM·Kimi·DeepSeek·Qwen·Mistral 같은 오픈/대체 모델을 다룰 역량을 준비해야 한다고 주장한다.",
-    "tags": [
-      "LLM",
-      "오픈모델",
-      "AI 정책"
-    ],
-    "entities": [
-      "GLM",
-      "Kimi",
-      "DeepSeek",
-      "Qwen",
-      "Mistral"
-    ],
-    "cats": [
-      "기업·정책",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "e32b6bfc0436d5b8",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-    "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
-    "publishedAt": "Mon, 29 Jun 2026 10:59:38 +0000",
-    "rawText": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar of U.S. technology leadership. In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB [&#8230;]",
-    "summaryKo": "Palantir가 NVIDIA Nemotron 오픈 모델을 활용한 새 지능형 엔진을 공개해, 미국 정부기관에 폐쇄 환경에서도 쓸 수 있는 보안 AI를 제공한다. 오픈소스 모델을 민감한 정부 영역에 안전하게 적용하는 사례로 미국 AI의 오픈소스 경쟁력을 부각한다.",
-    "tags": [
-      "오픈 모델",
-      "정부 AI",
-      "Nemotron",
-      "보안"
-    ],
-    "entities": [
-      "Palantir",
-      "NVIDIA",
-      "Nemotron"
-    ],
-    "cats": [
-      "기업·정책",
-      "LLM·모델"
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-06-30T00:12:46.457Z"
