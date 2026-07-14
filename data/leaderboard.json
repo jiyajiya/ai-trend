@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-07-13",
-  "windowLabel": "2026년 7월 7~13일 기준",
-  "updatedAt": "2026-07-13T00:07:26Z",
+  "asOf": "2026-07-15",
+  "windowLabel": "2026년 7월 9~15일 기준",
+  "updatedAt": "2026-07-14T21:13:07Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -12,7 +12,7 @@
       "metric": "Artificial Analysis Intelligence Index",
       "note": "13개 벤치마크를 종합한 단일 점수 — 모델을 한 숫자로 빠르게 비교할 때.",
       "ranks": [
-        { "rank": 1, "model": "Claude Fable 5", "score": "Index 60", "basis": "Artificial Analysis Intelligence Index 60 1위, LMSYS Text Arena Elo 1509 1위", "source": "artificialanalysis" },
+        { "rank": 1, "model": "Claude Fable 5", "score": "Index 60", "basis": "Artificial Analysis Intelligence Index 60 1위, LMSYS Text Arena Elo 1505 1위", "source": "artificialanalysis" },
         { "rank": 2, "model": "GPT-5.6 Sol", "score": "Index 59", "basis": "Intelligence Index 59 (max)", "source": "artificialanalysis" },
         { "rank": 3, "model": "Claude Opus 4.8", "score": "Index 56", "basis": "Intelligence Index 56 (max)", "source": "artificialanalysis" }
       ]
@@ -67,9 +67,9 @@
       "metric": "LMSYS Vision Arena",
       "note": "이미지 이해 능력 — 사진·차트·도표 분석.",
       "ranks": [
-        { "rank": 1, "model": "Claude Fable 5", "score": "Elo 1311", "basis": "LMSYS Vision Arena 1위, Elo 1311", "source": "lmarena" },
-        { "rank": 2, "model": "Claude Opus 4.7 (thinking)", "score": "Elo 1307", "basis": "Vision Arena Elo 1307", "source": "lmarena" },
-        { "rank": 3, "model": "Claude Opus 4.7", "score": "Elo 1298", "basis": "Vision Arena Elo 1298 (Opus 4.6 thinking 동점)", "source": "lmarena" }
+        { "rank": 1, "model": "Claude Fable 5", "score": "Elo 1318", "basis": "LMSYS Vision Arena 1위, Elo 1318", "source": "lmarena" },
+        { "rank": 2, "model": "Claude Opus 4.7 (thinking)", "score": "Elo 1304", "basis": "Vision Arena Elo 1304", "source": "lmarena" },
+        { "rank": 3, "model": "Claude Opus 4.6 (thinking)", "score": "Elo 1299", "basis": "Vision Arena Elo 1299", "source": "lmarena" }
       ]
     },
     {
@@ -82,12 +82,12 @@
       "ranks": [
         { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1337", "basis": "Elo 1337, Arena 1위", "source": "artificialanalysis" },
         { "rank": 2, "model": "Reve 2.0", "score": "Elo 1278", "basis": "Elo 1278", "source": "artificialanalysis" },
-        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1268", "basis": "Elo 1268", "source": "artificialanalysis" },
+        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1266", "basis": "Elo 1266", "source": "artificialanalysis" },
         { "rank": 4, "model": "HiDream-O1-Image-1.5", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1261", "basis": "Elo 1261", "source": "artificialanalysis" },
-        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1259", "basis": "Elo 1259", "source": "artificialanalysis" },
+        { "rank": 5, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1258", "basis": "Elo 1258", "source": "artificialanalysis" },
+        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1257", "basis": "Elo 1257", "source": "artificialanalysis" },
         { "rank": 7, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1252", "basis": "Elo 1252", "source": "artificialanalysis" },
-        { "rank": 8, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1220", "basis": "오픈웨이트 1위, Elo 1220 (agentic)", "source": "artificialanalysis" }
+        { "rank": 8, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1219", "basis": "오픈웨이트 1위, Elo 1219 (agentic)", "source": "artificialanalysis" }
       ]
     },
     {
