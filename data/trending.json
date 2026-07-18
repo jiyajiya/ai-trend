@@ -22,7 +22,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "24359eb3a228345a",
@@ -47,7 +47,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -74,7 +74,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "27ffa53840f08319",
@@ -98,7 +98,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "f465bd989015fa8e",
@@ -122,7 +122,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "104a75a3ecd99b5b",
@@ -146,7 +146,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "c53347638b893177",
@@ -174,7 +174,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "d9f49e336e714662",
@@ -199,7 +199,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "be793f916139b4f2",
@@ -224,33 +224,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
-  },
-  {
-    "id": "f8a847563fafb618",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Forward-Future/loopy",
-    "url": "https://github.com/Forward-Future/loopy",
-    "publishedAt": "2026-06-12T14:44:22Z",
-    "rawText": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
-    "score": 2635,
-    "lang": "JavaScript",
-    "rank": 5,
-    "summaryKo": "실용적인 AI 에이전트 루프 라이브러리이자, 반복 가능한 에이전트 워크플로를 찾고 적용·설계하도록 돕는 설치형 스킬이다.",
-    "tags": [
-      "AI에이전트",
-      "워크플로",
-      "오픈소스"
-    ],
-    "entities": [
-      "loopy"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-11T00:15:07.076Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "9ec90332da9eec1d",
@@ -275,7 +249,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "435dba8833e1ef80",
@@ -301,7 +275,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "a39f24d11ba4154e",
@@ -326,7 +300,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "8c1a63064bfb749f",
@@ -349,7 +323,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "57ecca1a82ddc602",
@@ -374,34 +348,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
-  },
-  {
-    "id": "f370b84f8192d513",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "google/tabfm-1.0.0-pytorch",
-    "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-    "publishedAt": "2026-06-29T23:04:41.000Z",
-    "rawText": "tabular-classification | tabfm, safetensors, tabular, tabular-regression, zero-shot, in-context-learning, pytorch, foundation-model",
-    "score": 190,
-    "rank": 7,
-    "summaryKo": "구글의 표(tabular) 데이터용 파운데이션 모델 'TabFM 1.0'이다. 제로샷·인컨텍스트 학습으로 표 분류·회귀를 수행한다.",
-    "tags": [
-      "파운데이션모델",
-      "tabular",
-      "제로샷",
-      "Google"
-    ],
-    "entities": [
-      "Google",
-      "TabFM"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-11T00:15:07.076Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "ea2970d8679d2d55",
@@ -424,33 +371,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
-  },
-  {
-    "id": "b78e47b2530bb426",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "AliesTaha/fable-traces",
-    "url": "https://huggingface.co/AliesTaha/fable-traces",
-    "publishedAt": "2026-07-03T21:55:50.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3, text-generation, instruct, conversational, egypt-won, en",
-    "score": 190,
-    "rank": 8,
-    "summaryKo": "Qwen3 기반 instruct 텍스트 생성 모델 'fable-traces'다.",
-    "tags": [
-      "LLM",
-      "Qwen",
-      "파인튜닝"
-    ],
-    "entities": [
-      "Qwen3",
-      "fable-traces"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-11T00:15:07.076Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "459b6a0a801b4b76",
@@ -475,7 +396,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "5a5e0e83525a14e1",
@@ -525,7 +446,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "6c50fd14c323dd22",
@@ -574,7 +495,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "1dc2322c4361beca",
@@ -620,7 +541,7 @@
     "entities": [],
     "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "fac699654ecb22cb",
@@ -672,7 +593,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "df073c34ea2eb782",
@@ -744,7 +665,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   },
   {
     "id": "2626e5a5fcc9703d",
@@ -789,6 +710,6 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-17T21:00:38.281Z"
+    "fetchedAt": "2026-07-18T21:00:30.115Z"
   }
 ]
