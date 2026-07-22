@@ -1,5 +1,502 @@
 [
   {
+    "id": "3c7b4769eeeed6d5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Jellyfin 창립자 Andrew가 팀을 떠남",
+    "url": "https://news.hada.io/topic?id=31703",
+    "publishedAt": "2026-07-23T05:33:35+09:00",
+    "rawText": "Andrew에 이어 프로젝트 리더 Joshua와 핵심 팀원 Anthony도 물러나며, 기존 팀이 운영을 이어감 Joshua는 역할에 필요한 시간과 정신적 에너지를 더 투입하기 어려웠고, 심각한 번아웃과 정신 건강 위험 때문에 사임함 인수인계는 우호적인 소통 아래 진...",
+    "summaryKo": "Jellyfin 창립자 Andrew에 이어 프로젝트 리더 Joshua와 핵심 팀원 Anthony도 팀을 떠났다. Joshua는 심각한 번아웃과 정신건강 문제로 사임했으며, 인수인계는 우호적으로 진행되고 기존 팀이 운영을 이어간다.",
+    "tags": [
+      "오픈소스",
+      "미디어서버"
+    ],
+    "entities": [
+      "Jellyfin"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "2e63f873f86d6211",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Liquid AI가 학습이 끝난 모델의 토크나이저를 갈아엎지 않고 그대로 느...",
+    "url": "https://www.threads.com/t/DbG87Hwk2IJ",
+    "publishedAt": "Wed, 22 Jul 2026 20:30:08 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Liquid AI가 학습이 끝난 모델의 토크나이저를 갈아엎지 않고 그대로 늘리는 법을 공개했습니다. 온디바이스 MoE인 LFM2.5-8B-A1B의 어휘를 65K에서 128K로 키웠는데, 태국어는 토큰이 4배 줄고 폰에서 글자당 디코딩이 최대 3.7배 빨라졌습니다. 토크나이저가 언어를 잘게 쪼개면 단어 하나가 여러 토큰이 되어 느리고 비싸집니다. 그동안 비영어권, 특히 아시아 언어가 이 '토큰세'를 물어 왔는데, 사전학습을 처음부터 다시 돌리는 대신 기존 어휘를 넓히고 짧게 추가 학습만 시켜 깎았습니다. 다만 대가도 따릅니다. 어휘가 커지면 매 토큰마다 읽어들일 행렬도 같이 커져 토큰당 7~10% 느려지고, 그래서 128K에서 멈췄습니다. 256K까지 밀면 폰에서 최대 37%를 손해 보거든요. 한국어처럼 잘게 쪼개지는 언어에도 그대로 쓸 수 있어, 이런 개조가 더 늘 것 같습니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/754580034_17978650233112832_3194855115105452969_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=108&amp;ig_cache_key=Mzk0NzExMDA2OTAwNzc3MDEyMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=ySOwwJrU5noQ7kNvwHDvFSs&amp;_nc_oc=Adr6vPY2QdTXZcUyZQTiynLFi2Kktzp3jnV32_UBAsi9emSmlfbEdgI_Wjr7pHfO0hs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=OEU0oHCjmD6l40RlqQt7EA&amp;_nc_ss=7a22e&amp;oh=00_AQBgieRcfIQmsRaeN3uefHV-tj-GbrtCvwMaF6LxMu8Neg&amp;oe=6A670E57\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Liquid AI가 이미 학습이 끝난 모델의 토크나이저를 새로 만들지 않고 어휘만 확장하는 기법을 공개했다. 온디바이스 MoE 모델 LFM2.5-8B-A1B의 어휘를 6만5000개에서 12만8000개로 늘려 태국어 토큰 수를 4분의 1로 줄이고 폰에서 글자당 디코딩 속도를 최대 3.7배 높였다.",
+    "tags": [
+      "온디바이스AI",
+      "토크나이저"
+    ],
+    "entities": [
+      "Liquid AI",
+      "LFM2.5-8B-A1B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "18e7b7debed6fbc7",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "미국 5대 기술기업, 불투명한 AI 자금조달로 숨은 부채 2,475조원",
+    "url": "https://news.hada.io/topic?id=31702",
+    "publishedAt": "2026-07-23T04:33:31+09:00",
+    "rawText": "AI 투자 확대와 함께 미국 5대 기술기업의 숨은 부채가 약 4년 만에 8배로 늘어 약 1.65조 달러($1.65tn)에 달함 데이터센터 임대와 GPU 공급 계약에서 발생한 의무가 Meta와 Oracle 등의 부채를 키움 숨은 부채 총액이 공개된 실제 부채보다 많아, 재무제...",
+    "summaryKo": "미국 5대 기술기업의 AI 투자 확대에 따른 숨은 부채가 4년 만에 8배로 늘어 약 1.65조 달러에 달한다는 분석이 나왔다. 데이터센터 임대와 GPU 공급 계약에서 발생한 의무가 Meta, Oracle 등의 부채를 키우며, 공개된 부채보다 숨은 부채 총액이 더 크다는 점이 재무 리스크로 지적된다.",
+    "tags": [
+      "AI투자",
+      "부채"
+    ],
+    "entities": [
+      "Meta",
+      "Oracle"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "603f2addc68e8295",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 앤트로픽이 Claude에서 Anthropic Economic Index를 바로 조회할 수 있는 커넥터를 ᄀ...",
+    "url": "https://www.threads.com/t/DbGyrpMjKcE",
+    "publishedAt": "Wed, 22 Jul 2026 19:00:39 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>앤트로픽이 Claude에서 Anthropic Economic Index를 바로 조회할 수 있는 커넥터를 공개했습니다. 직업별 AI 사용률, 자동화가 많은 업무, 교사나 특정 지역의 Claude 활용 방식 등을 질문하면 실제 Index 데이터를 바탕으로 답변합니다. Claude의 커넥터 메뉴에서 Anthropic Economic Index를 활성화하면 모든 대화와 모델에서 사용할 수 있으며, 원본 데이터도 무료로 제공됩니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/755056165_1342923904683542_4803538689460571045_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzk0NzA2NTAyNDkzMzgzMjQ1Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=xwpG11yO4xEQ7kNvwGVRjhx&amp;_nc_oc=AdowqEIC3fi4EVsJ32K_UhWXWGQuiKgI_W9o2XPkvwTPb__sevsS89oIetj5ZVjmZ94&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=OEU0oHCjmD6l40RlqQt7EA&amp;_nc_ss=7a22e&amp;oh=00_AQAZxbdCi-xE7F3fJZZhY6jbOSIuwue1_AKtM0NsnNfLGg&amp;oe=6A66FB04\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQNDg1Z3wycqP3jJOgpGuq3oA9U2zVmusTQ99vKG2z9WBw1e3Ekb3L-Cy2YzNDKSoOUDp4e-Z9YJmaVvKwavAGjueM4XIT3JmXsVsik.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=qzOLI9_kaWgQ7kNvwElaf3b&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5Nzg2NzYwNjAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=85ec3d8b6a10bb5f&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xODRFNTNENzI2OEUzQkYyMDNCMTc5NzcwNzY2Q0I4Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Q3NDdFN0M1NTIyQTRFN0IyQUJCNzMzMTc0MzZFMDk0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAn8KB1-DvPxUCKAJDMywXQDt1P3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=OEU0oHCjmD6l40RlqQt7EA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQBszlSnZ2r3a32wBUByDhQaNkrzLVsltb3Yau2d6HQgvg&amp;oe=6A631857\"></video></p>",
+    "summaryKo": "앤트로픽이 Claude에서 Anthropic Economic Index 데이터를 바로 조회하는 커넥터를 공개했다는 소식을 전하며, 직업별 AI 사용률과 지역·직군별 활용 패턴을 실제 인덱스 데이터로 답변받을 수 있다고 소개한다.",
+    "tags": [
+      "AI데이터",
+      "커넥터"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "56b1a65527fe52c9",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Jack Dorsey, 팀 채팅·AI 에이전트·Git 호스팅을 결합한 Buzz 출시",
+    "url": "https://news.hada.io/topic?id=31701",
+    "publishedAt": "2026-07-23T03:34:23+09:00",
+    "rawText": "Block이 직원과 AI 에이전트, 대화, 소프트웨어 저장소를 하나의 신원 체계로 연결하는 오픈소스 워크스페이스 Buzz를 출시해 Slack과 GitHub 의존도를 줄이려 함 메시지·반응·워크플로 단계·코드 이벤트·승인을 서명된 Nostr 이벤트로 저장하고, 사람과 에이전트에...",
+    "summaryKo": "Jack Dorsey의 Block이 직원, AI 에이전트, 소프트웨어 저장소를 하나의 신원 체계로 연결하는 오픈소스 워크스페이스 'Buzz'를 출시해 Slack·GitHub 의존도를 낮추려 한다. 메시지·워크플로·코드 이벤트·승인 내역을 서명된 Nostr 이벤트로 저장해 사람과 AI 에이전트가 같은 신원 체계 안에서 협업하도록 설계했다.",
+    "tags": [
+      "AI에이전트",
+      "오픈소스"
+    ],
+    "entities": [
+      "Block",
+      "Jack Dorsey",
+      "Buzz"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "faf6d5cb4248697b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "“No AI” 표시는 단순한 문구 이상의 의미가 있음",
+    "url": "https://news.hada.io/topic?id=31700",
+    "publishedAt": "2026-07-23T03:01:59+09:00",
+    "rawText": "AI가 인간의 결과물을 갈수록 정교하게 재현하면서, 창작자가 사람이 직접 만들었다고 명시하는 일은 독자에게 판별 책임을 떠넘기지 않는 수단이 됨 수제품·홈메이드 식품·손으로 그린 게임과 애니메이션이 제작 방식을 밝혀왔듯, 이용자가 인간과 기계의 결과물을 외관만으...",
+    "summaryKo": "AI가 인간의 창작물을 점점 정교하게 재현하면서, 창작자가 \"사람이 직접 만들었다\"고 표시하는 일이 독자에게 판별 부담을 떠넘기지 않는 수단으로 주목받고 있다. 수제품이나 손그림 애니메이션이 제작 방식을 밝혀온 전통처럼, \"No AI\" 표시가 인간과 기계 결과물을 구분하는 신호로 자리잡고 있다는 내용이다.",
+    "tags": [
+      "AI윤리",
+      "창작"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "2c893ebba22a5b7d",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 크라치오스 백악관 과학기술정책실장이 문샷AI가 Kimi K3를 만들ᄆ...",
+    "url": "https://www.threads.com/t/DbGpVn9D7TD",
+    "publishedAt": "Wed, 22 Jul 2026 17:39:00 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>크라치오스 백악관 과학기술정책실장이 문샷AI가 Kimi K3를 만들며 앤트로픽 Fable을 증류했다고 공개 저격했습니다. 그런데 Fable이 나와 있던 창은 길게 잡아 37일, 규제 해제부터 K3 출시까지는 15일입니다. 저는 이게 증류 적발이라기보다 오픈웨이트에 제동을 걸 명분에 가깝다고 봅니다. 성명부터 타임라인, 허깅페이스, 소버린까지 정리했습니다 🧵</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/753628422_17978677713112832_3789934166585978548_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=Mzk0NzAyMzkyOTM1MzE1NTc3OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTUwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=rY-faA2aEIQQ7kNvwFhAwWh&amp;_nc_oc=AdpTURPLcCaN6QS66KGkDFzxrOlnQPuru8O4934Wz_8E28zgWW7EXQeVtmfocwb5sAk&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=OEU0oHCjmD6l40RlqQt7EA&amp;_nc_ss=7a22e&amp;oh=00_AQDuajIeD6A-EKNIUyXJah9UXBUL6wmGAErf62otY-9Vag&amp;oe=6A66FBDB\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "백악관 과학기술정책실장이 문샷AI의 Kimi K3가 Anthropic Fable 모델을 증류해 만들어졌다고 공개적으로 저격했다. 필자는 Fable 공개 기간과 규제 해제부터 K3 출시까지의 시차를 근거로, 이를 단순한 증류 적발이라기보다 다른 맥락으로 해석할 여지가 있다고 짚는다.",
+    "tags": [
+      "모델증류",
+      "미중AI경쟁"
+    ],
+    "entities": [
+      "Kimi K3",
+      "Moonshot AI",
+      "Anthropic",
+      "Fable"
+    ],
+    "cats": [
+      "기업·정책",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "cddf060cbe0b2465",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 인류 최고의 과학은 늘 국가 총동원에서 나왔습니다. 백악관이 A...",
+    "url": "https://www.threads.com/t/DbGgsfQlmvX",
+    "publishedAt": "Wed, 22 Jul 2026 16:27:31 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>인류 최고의 과학은 늘 국가 총동원에서 나왔습니다. 백악관이 AI 과학 사업을 발표하며 맨해튼 프로젝트를 꺼냈습니다. 그런데 이번엔 정부가 기술을 소유하지 않습니다. 마이크로소프트와 구글에서 빌려 씁니다. 🧵</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/752169213_2400073643731522_73358019376061668_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=Mzk0Njk4NTkxODE0NjQ0MDE1MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=m5tTCwVsUtkQ7kNvwE5JXBd&amp;_nc_oc=AdoAY_mH8HcB56MW-beJGkPgHRxNVxaeG9B9xEyUq0lzMs-2pE94CvKcP6Yx-bHn-xM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=OEU0oHCjmD6l40RlqQt7EA&amp;_nc_ss=7a22e&amp;oh=00_AQCM5JEnBJpyQQs28qRDHLLxCeczI6zYEZeGphX_gOeP_w&amp;oe=6A66E817\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQND5O6zhWPNxgPClkNxFkowL8-EUL1ICP53-s2SlH7HyQkTCiHv7M5dI2LON4omIao95NdxvKPc7VvYmsEsIsOnDUDm7W-748rcZVw.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=y5ibEDSd9cIQ7kNvwHy5XTj&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5Nzg2NjcxOTIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=af4d25a6f186e419&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81RTQ3RkY1QkU1MkM3NzhEQzc3OENEREEwODQyQjc4M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzA0NDJEQ0JBMUMyRDA5NDFEQThBNjQ5NTI2MENGNjk5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA26r4lODvPxUCKAJDMywXQGGBysCDEm8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=OEU0oHCjmD6l40RlqQt7EA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQC97MbeJEZe_4tBqbkhKGiRgeFZInmjVkSyIwYwscvHSQ&amp;oe=6A630DA2\"></video></p>",
+    "summaryKo": "백악관이 AI 과학 사업을 발표하며 맨해튼 프로젝트에 빗댔지만, 이번엔 정부가 기술을 직접 소유하지 않고 마이크로소프트와 구글의 인프라를 빌려 쓰는 방식이라는 점이 특징이다. 국가 총동원식 과학 투자가 민간 클라우드·AI 기업에 의존하는 형태로 변화했다는 시각을 담았다.",
+    "tags": [
+      "AI정책",
+      "국가전략"
+    ],
+    "entities": [
+      "Microsoft",
+      "Google"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "06ae33f6f43abdd9",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "서아프리카에서 60년 넘게 죽은 것으로 여겨진 산호초 발견",
+    "url": "https://news.hada.io/topic?id=31699",
+    "publishedAt": "2026-07-23T00:34:13+09:00",
+    "rawText": "베냉 연구진이 1960년대 조사 이후 위치조차 잊힌 산호초를 다시 찾아내 최소 8종류의 산호와 8종의 어류가 서식하는 건강한 생태계임을 확인함 당시 보고서는 베냉 해안을 따라 약 24마일 길이의 산호초 장벽이 있을 가능성을 기록했지만, 후속 조사가 끊기고 세계...",
+    "summaryKo": "베냉 연구진이 1960년대 이후 위치조차 잊혔던 산호초를 서아프리카 해역에서 재발견했다. 최소 8종의 산호와 8종의 어류가 서식하는 건강한 생태계로 확인됐으며, 약 24마일 길이의 산호초 장벽 존재 가능성도 기록됐다.",
+    "tags": [
+      "생태계",
+      "해양연구"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "b2f125bb5a406ce9",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Git에서 --end-of-options가 필요한 이유",
+    "url": "https://news.hada.io/topic?id=31698",
+    "publishedAt": "2026-07-23T00:03:59+09:00",
+    "rawText": "Git의 --는 일반적인 옵션 종료자가 아니라 리비전과 경로 명세를 구분하므로, 신뢰할 수 없는 리비전을 안전하게 전달하려면 Git 2.24.0부터 지원된 --end-of-options가 필요함 git log --end-of-options \"$rev\" -- \"$path\"...",
+    "summaryKo": "Git의 `--`는 일반적인 옵션 종료자가 아니라 리비전과 경로 명세를 구분하는 역할이어서, 신뢰할 수 없는 리비전 값을 안전하게 전달하려면 Git 2.24.0부터 지원되는 `--end-of-options`를 사용해야 한다. 스크립트에서 외부 입력을 리비전으로 넘길 때 주입을 막기 위한 실전 팁을 다룬다.",
+    "tags": [
+      "Git",
+      "개발도구"
+    ],
+    "entities": [
+      "Git"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "57a48761bd0b651a",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Laguna S 2.1 공개",
+    "url": "https://news.hada.io/topic?id=31697",
+    "publishedAt": "2026-07-22T23:35:31+09:00",
+    "rawText": "Poolside가 장기 작업과 추론 능력을 강화한 Laguna S 2.1을 공개함. 총 118B MoE 중 토큰당 8B 매개변수를 활성화하며, thinking·no-thinking 모드 모두 최대 1M 토큰 컨텍스트를 지원함 학습 시작부터 출시까지 9주 미만이 걸렸으며 Terminal-B...",
+    "summaryKo": "Poolside가 장기 작업 수행과 추론 능력을 강화한 언어모델 'Laguna S 2.1'을 공개했다. 총 118B 파라미터 MoE 구조에 토큰당 8B를 활성화하며 thinking·no-thinking 모드 모두 최대 100만 토큰 컨텍스트를 지원하고, 학습 시작부터 출시까지 9주가 채 걸리지 않았다.",
+    "tags": [
+      "LLM",
+      "MoE"
+    ],
+    "entities": [
+      "Poolside",
+      "Laguna S 2.1"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "2f20e46c6548b945",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "판사, Claude 훈련용 불법 복제 도서 관련 Anthropic의 2.3조원 합의 승인",
+    "url": "https://news.hada.io/topic?id=31695",
+    "publishedAt": "2026-07-22T22:33:53+09:00",
+    "rawText": "미국 연방법원이 Anthropic의 Claude 훈련용 불법 복제 도서와 관련된 저작권 집단소송에서 약 15억 달러($1.5b) 규모의 합의를 승인함 Anthropic은 수천 명의 작가와 출판사에 도서당 약 3,000달러를 지급하며, 대상 도서 48만2,000여 권 중 91% 이상에 권리 청구...",
+    "summaryKo": "미국 연방법원이 Claude 훈련에 사용된 불법 복제 도서 관련 저작권 집단소송에서 Anthropic의 약 15억 달러(2.3조원) 규모 합의를 승인했다. 대상 도서 48만2000여 권 중 91% 이상에 대해 권리 청구가 이뤄졌으며 도서당 약 3000달러가 작가·출판사에 지급된다.",
+    "tags": [
+      "저작권",
+      "AI소송"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "8298d0b9a2aa4167",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+    "url": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+    "publishedAt": "Wed, 22 Jul 2026 13:00:11 +0000",
+    "rawText": "Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of [&#8230;]",
+    "summaryKo": "NVIDIA가 헬스케어 로봇이 실제 신체 조직과의 상호작용을 학습할 수 있도록 GPU 가속 의료 물리 시뮬레이션 프레임워크를 오픈소스로 공개했다. 다양한 해부학적 변이와 기구-조직 상호작용, 드문 엣지 케이스까지 시뮬레이션해 실제 데이터로는 확보하기 어려운 학습 시나리오를 제공한다.",
+    "tags": [
+      "로보틱스",
+      "시뮬레이션"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "082c4173c70b0451",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Building AI infrastructure with the Effingham County community",
+    "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "publishedAt": "Wed, 22 Jul 2026 13:00:00 GMT",
+    "rawText": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "summaryKo": "OpenAI가 조지아주 에핑엄 카운티에서 'Project Camellia'라는 AI 데이터센터 인프라 프로젝트를 발표하며 책임 있는 에너지 사용, 지역사회 투자, 일자리 창출을 약속했다. 지역 주민에게는 Codex 등 OpenAI 도구 접근성도 함께 제공한다.",
+    "tags": [
+      "AI인프라",
+      "데이터센터"
+    ],
+    "entities": [
+      "OpenAI",
+      "Codex"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "932591afba7f1cf5",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "How news organizations are using AI to advance their vital missions",
+    "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+    "publishedAt": "Wed, 22 Jul 2026 13:00:00 GMT",
+    "rawText": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+    "summaryKo": "OpenAI가 전세계 뉴스 매체들이 AI를 활용해 취재력을 강화하고 독자층을 늘리며 비즈니스 운영을 개선하는 사례를 소개했다. 저널리스트와 퍼블리셔를 지원하는 OpenAI 도구들이 언론사의 핵심 미션 수행을 돕고 있다.",
+    "tags": [
+      "미디어",
+      "AI도입"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "a9dfe60b87c54070",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "3 Google updates from Galaxy Unpacked 2026",
+    "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+    "publishedAt": "Wed, 22 Jul 2026 13:00:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\">We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
+    "summaryKo": "구글이 삼성 갤럭시 언팩 2026 행사에 맞춰 3가지 업데이트를 소개했다. 폴더블폰, 워치, 글래스 등 신규 삼성 기기에서 생산성을 높이고 시간을 절약할 수 있는 구글 기능들이 곧 제공될 예정이다.",
+    "tags": [
+      "모바일",
+      "웨어러블"
+    ],
+    "entities": [
+      "Google",
+      "Samsung"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "577ddf6b90e6d70b",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Advancing the next era of national science",
+    "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "publishedAt": "Wed, 22 Jul 2026 12:00:00 GMT",
+    "rawText": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+    "summaryKo": "OpenAI가 미국 에너지부(DOE) 및 국립연구소들과 협력해 프런티어 AI로 과학적 발견을 가속화하겠다는 미국 과학 발전 공약을 발표했다. 국가 차원의 과학 인프라에 AI를 접목해 차세대 연구 역량을 강화하려는 행보다.",
+    "tags": [
+      "AI연구",
+      "정책"
+    ],
+    "entities": [
+      "OpenAI",
+      "미국 에너지부"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "839f7a51d7b587ae",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Introducing OpenAI Presence",
+    "url": "https://openai.com/index/introducing-openai-presence",
+    "publishedAt": "Wed, 22 Jul 2026 05:30:00 GMT",
+    "rawText": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+    "summaryKo": "OpenAI가 기업용 AI 에이전트 플랫폼 'OpenAI Presence'를 공개했다. 조직이 고객 응대와 내부 업무를 위한 신뢰도 높은 음성·채팅 에이전트를 배포할 수 있도록 지원한다.",
+    "tags": [
+      "AI에이전트",
+      "엔터프라이즈"
+    ],
+    "entities": [
+      "OpenAI",
+      "OpenAI Presence"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "72a4a7dcfb0a4c5c",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "복지부 'AI 기본의료 전략' 발표…취약지 비대면 협진 추진",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=539033",
+    "publishedAt": "2026-07-22 14:06:00",
+    "rawText": "정부가 지역·필수·공공의료 공백을 해소하기 위한 'AI 기본의료 전략'을 내놨다. 보건소와 동네의원에 AI를 도입하고 취약지 일차의료를 강화하는 한편, 만성질환 관리와 응급의료까지 AI 활용 범위를 확대해 지역 의료격차를 줄이겠다는 구상이다.보건복지부는 22일 오후 청와대 영빈관에서 대통령과 간담회를 갖고 '생명을 위한 AI, 모두가 누리는 의료혁신'을 비전으로 하는 'AI 기본의료 전략'을 발표했다.전략은 △국민이 일상에서 체감할 수 있는 AI 의료혁신 △전국 어디서나 첨단의료를 누리도록 하는 AX 기반 구축 △지속 가능한 AI",
+    "summaryKo": "보건복지부가 지역·필수·공공의료 공백 해소를 위한 'AI 기본의료 전략'을 발표했다. 보건소·동네의원에 AI를 도입하고 만성질환 관리부터 응급의료까지 AI 활용 범위를 넓혀 취약지 비대면 협진을 추진한다는 구상이다.",
+    "tags": [
+      "의료AI",
+      "정책"
+    ],
+    "entities": [
+      "보건복지부"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "d7fc206f6dc2f1e3",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "전종덕 의원 'AI 노동 통제·차별 방지법' 대표 발의",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=539012",
+    "publishedAt": "2026-07-22 10:21:00",
+    "rawText": "AI가 노동자를 과도하게 감시·통제하거나 차별하는 것을 막기 위한 법안이 발의됐다.국회 보건복지위원회 전종덕 의원(진보당, 비례)은 22일 '인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 일부개정법률안' 2건을 대표 발의했다고 밝혔다. 이번 개정안은 AI 확산에 따른 노동환경 변화에 대응해 노동권과 국민의 기본권을 보호하고, 인권 침해와 차별을 예방하는데 초점을 맞췄다.현행법은 사람의 생명·신체 안전이나 기본권에 중대한 영향을 미치는 인공지능 시스템을 '고영향 인공지능'으로 규정하고 채용 과정을 사람이 직접 감독·통제할 수 있도",
+    "summaryKo": "전종덕 의원이 AI의 과도한 노동자 감시·통제와 차별을 막기 위한 'AI 노동 통제·차별 방지법' 개정안 2건을 대표 발의했다. 고영향 인공지능이 채용 등 노동권에 미치는 영향을 사람이 직접 감독하도록 하는 등 노동권과 기본권 보호를 강화하는 내용이다.",
+    "tags": [
+      "AI규제",
+      "노동권"
+    ],
+    "entities": [
+      "전종덕"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "314793fb1cf509d7",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "메디팔, 대미레 협력으로 병의원 AI 에이전트 확산",
+    "url": "https://www.dailypharm.com/user/news/340723",
+    "publishedAt": "2026-07-22",
+    "rawText": "메디팔, 대미레 협력으로 병의원 AI 에이전트 확산",
+    "summaryKo": "의료 AI 스타트업 메디팔이 대한미용성형레이저의학회(대미레)와 업무협약을 맺고 병의원 특화 AI 에이전트 확산에 나섰다. 대미레 소속 의사 1만5000명이 주요 도입처가 되며, 임원진 5명이 자문단으로 참여해 실제 진료 현장에 맞는 기능을 함께 설계한다. 메디팔은 현재 500개 이상 병의원, 300만 명 이상 환자를 대상으로 서비스 중이다.",
+    "tags": [
+      "의료AI",
+      "AI에이전트"
+    ],
+    "entities": [
+      "메디팔",
+      "대미레"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "68f01cf2e705cf4d",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+    "url": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+    "publishedAt": "Tue, 21 Jul 2026 22:35:45 +0000",
+    "rawText": "The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems. In front of an audience of Wistron [&#8230;]",
+    "summaryKo": "대만 위스트론이 텍사스 포트워스에 32만4000제곱피트 규모의 첫 미국 제조공장을 열고 NVIDIA AI 시스템용 슈퍼칩 생산을 시작했다. AI 인프라 수요 증가에 맞춰 미국 내 첨단 시스템 제조 역량을 확대하는 행보다.",
+    "tags": [
+      "반도체",
+      "제조"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Wistron"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
     "id": "195b8ee1cd51ffa7",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -209,6 +706,103 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-21T21:09:24.983Z"
+  },
+  {
+    "id": "26b4e01c469da5de",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "A research agenda for the Economic Futures Research Fund",
+    "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "publishedAt": "Tue, 21 Jul 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"A research agenda for the Economic Futures Research Fund\" width=\"2000\" height=\"1125\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/1dee16ed8ebe3e7bdf82ed8b4186373cf882827c-2000x1125.jpg\" referrerpolicy=\"no-referrer\"></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re sharing the research agenda for the Anthropic Economic Futures Research Fund. We’re committing $200 million to the fund to support ambitious external research on interventions to prepare society for the economic impacts of AI.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">With the research the Fund supports, we want to study what programs could make the economy more flexible and resilient, ensure the benefits of AI are shared, and minimize the harm that AI-driven disruption could cause.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In the fund, we’ll prioritize five research areas:</p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Shaping AI’s impact on workers at the firm and workplace level</li><li>Equipping people to navigate AI-driven transitions</li><li>Modernizing income support for AI-driven displacement</li><li>Building worker stakes in AI-driven growth before disruption arrives</li><li>Generating new evidence on public investments.</li></ol><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"what-is-the-fund\">What is the fund?</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI capabilities continue to improve. But we don’t yet know how quickly AI will diffuse throughout the economy while also becoming more capable, and what the economic effects will be. In our <a href=\"https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf\">Economic Policy Framework</a> (EPF), published in June, we proposed programs and policies for a range of scenarios. But we need more empirical evidence on which interventions might actually work in an AI-transformed economy—which ones make the economy more flexible and resilient, and spread the gains broadly. In the face of this uncertainty, our aim is to build this evidence base so that workers, firms, and governments have room to adapt.This $200 million fund will support external research on interventions proposed in the EPF and on other open questions. We may be entering a moment without historical precedent, where the most promising solutions are ones nobody has tried yet. We’re willing to fund creative and ambitious pilots that can provide guidance on questions where randomized control trials alone might only provide incremental evidence.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This is a significant evolution of our Economic Futures program, launched a year ago. We’re updating our focus to ambitious projects and large grants, because we think it’s where we can have the highest impact. We’ve always thought that it’s important to fund big external research bets; this shift will let us do so. We also learned through the Economic Futures program that it’s hard for us to scale capacity to manage many small grants at once. In addition to large-scale RCTs and pilots, we’re also interested in working with partners that could scale up a program of effective small-scale pilots.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"the-kinds-of-research-were-funding\">The kinds of research we’re funding</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundamentally, we want to fund the most ambitious proposals possible. We aim to fund large-scale RCTs or ambitious, creative pilots or program evaluations that expand our shared understanding of what shows promise and in which contexts, fill gaps where evidence is thin, and inspire new solutions. The fundable directions below lay out a set of possibilities, but we know that we have not come up with all the good ideas in this space. We welcome proposals that may not be captured below.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI could transform society faster than traditional research funding and publication cycles can keep pace with. We’re looking to partner with research organizations that are willing to share what they’re learning publicly at key milestones because a signal that arrives early enough to act on can be worth more than an answer that arrives too late. We're especially interested in pilots that can be scaled up dramatically if they show promise.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This is a global fund. The funding directions that we’ve outlined below are somewhat US-centric, in part because we’re headquartered in San Francisco, and Claude is used more in the US than any other country. But the need to prepare for disruption will be necessary worldwide, and we expect to fund projects in a way that reflects that.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We<strong> </strong>plan to primarily fund projects in the $5-30 million range, though we’re flexible upward for well-scoped, high-potential-impact projects. Based on what we learned from the Economic Futures program, and the ambition and scale we’re seeking in proposals, we won’t directly fund anything below $1 million from this fund.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’ll accept proposals from accredited universities and other degree-granting institutions, from independent research institutes and policy research organizations, and from nonprofits with a track record of running field experiments at scale. Individual researchers may serve as principal investigators on proposals made by their institutions, but we won’t consider proposals from individuals applying in their personal capacity.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re more likely to fund projects that fit one of our research priorities, but we welcome ambitious proposals outside them, as long as they’re calibrated to the scale of the problem and opportunity. <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfQySlKGRi_xqRRz2ZGy-1aC5eUf-fK-j0iJun2m6Fu5pqSOg/viewform?usp=dialog\">See our request for proposals and apply here.</a></p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"our-five-research-priorities\">Our five research priorities</h2><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"1-shaping-ais-impact-on-workers-at-the-firm-and-workplace-level\">1. Shaping AI’s impact on workers at the firm and workplace level</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI’s impact on the labor market depends on the systems, workplaces, training protocols, and institutional choices that are built around it. The existing evidence on AI’s integration in the workplace is observational and short-term. Field experiments can help us understand which collaborative patterns develop human expertise alongside AI, how organizational design choices affect both productivity and who captures the gains, and what difference worker voice makes in those design choices.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Without this evidence, both firm-level decisions and policy levers like incentives for worker augmentation, retention tax credits, employer co-investment requirements, or apprenticeship programs will be poorly informed.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Field experiments randomizing AI systems and AI integration designs at the firm or team level, including comparisons of designs co-developed with workers and worker organizations against top-down approaches</li><li>Estimates of the impact of organizational choices around AI workplace integration and usage on the incidence of AI productivity gains</li><li>Evaluations of retention tax credits and employer co-investment requirements</li></ul><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"2-equipping-people-to-navigate-ai-driven-transitions\">2. Equipping people to navigate AI-driven transitions</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The evidence on retraining and job placement is mixed, and it may not generalize to AI-induced economic disruption and rapid structural transformation.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Evaluations of innovative skill retraining, job placement, licensing reform, and sectoral transition packages, including newer AI-enabled matching, credentialing, and learning models, and the bundling of income support with intensive reemployment services, retraining, and relocation assistance</li><li>Field experiments on the early-career and professional pipeline, e.g., what apprenticeship, mentorship, or rotational models can build expertise if junior tasks are absorbed by AI</li><li>Evaluations of curriculum and educational delivery models in K-12 and higher education that aim to prepare students for a transformed labor market, including longitudinal pilots that link educational interventions to later labor market outcomes</li><li>Tests of ambitious mobility instruments, for example paid leave tied to retraining programs and portable benefits that follow workers across employers</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">There’s existing evidence on many such efforts, including some especially effective <a href=\"https://www.journals.uchicago.edu/doi/abs/10.1086/717932\">sectoral training programs</a>. We want to find out whether promising programs could scale quickly across a broader population. For example, a large-scale “fire drill” where selected programs are scaled up rapidly for job seekers in a given state could provide evidence on how well these programs work in the face of major disruption.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"3-modernizing-income-support-for-ai-driven-displacement\">3. Modernizing income support for AI-driven displacement</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Like similar insurance programs around the world, the US system for supporting displaced workers is built almost entirely around the assumption that joblessness is temporary. AI may lead to displacement that is broader and more persistent. In that scenario, we’ll need instruments calibrated to a new equilibrium, one with no modern precedent.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Unemployment Insurance (UI) reforms suited to AI-driven displacement, including alternative eligibility thresholds, automatic extension triggers linked to industry or occupation, and integration of UI with wage insurance, retraining, or other transition supports</li><li>Basic needs relief for workers who exhaust UI, never qualified, or are persistently underemployed</li><li>Longer-duration unconditional income pilots at livable levels, designed to speak to scenarios where income and work are decoupled for sustained periods of time, with analyzed outcomes spanning not only labor supply and consumption but also well-being, family stability, child development, civic participation, and how recipients structure their time</li></ul><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"4-building-worker-stakes-in-ai-driven-growth-before-disruption-arrives\">4. Building worker stakes in AI-driven growth before disruption arrives</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In unprecedented scenarios where AI delivers large aggregate gains, those gains may not be broadly shared by default. In the EPF, we discuss universal pre-distributive capital accounts and adjacent mechanisms, like equity-sharing, AI-sector dividends, and public ownership stakes. But these mechanisms have limited direct empirical precedent at scale, and they also need a funding source. Many proposals to generate revenue exist, including taxing AI-driven returns through corporate, capital gains, or token taxes. But we lack evidence on who would bear the economic incidence of such taxes, and how different designs would affect collected revenue and adoption.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>RCTs testing the design of pre-distributive capital accounts at scale</li><li>Pilots testing equity-sharing or dividend-style mechanisms, including community-level pilots where AI infrastructure or AI-using firms generate direct, ongoing returns to local residents</li><li>Evaluations comparing different mechanisms for raising and distributing revenue—which tax base (corporate profits, capital gains, compute, automation taxes, etc.) and which mechanism (pre-distributive accounts, equity stakes, dividends, or equivalent direct transfers) lead to the best labor market and household outcomes</li></ul><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"5-generating-new-evidence-on-public-investments\">5. Generating new evidence on public investments</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The EPF calls for both modernizing the income safety net and substantially expanding public investment in human- and community-facing work. Policymakers need a consistent way to compare these instruments against one another, and against direct transfers. This research would generate evidence on what forms of spending generate the most public benefit, especially in sectors that might be undervalued by the private market.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Large-scale pilots that directly fund human- and community-facing service positions (in e.g., teaching, after-school programming, libraries, community health, parks, infrastructure, the arts), measuring outcomes including employment levels, educational attainment, crime, and well-being</li><li>Pilots broadening access to AI-enabled public services (legal aid, medical guidance, financial advice) for underserved populations, testing whether such investments can narrow the divide in access</li><li>Guaranteed-jobs pilots for displaced or long-term unemployed workers, in which participants are offered employment in public good roles in the spirit of the Civilian Conservation Corps but spanning a broader range of roles</li><li>Place-based interventions in communities most exposed to AI-driven displacement or hosting major AI infrastructure build-outs, including bundled investments in workforce, public services, infrastructure, and amenities, and pilots of regional development authorities that coordinate these investments under unified governance</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfQySlKGRi_xqRRz2ZGy-1aC5eUf-fK-j0iJun2m6Fu5pqSOg/viewform?usp=dialog\">Learn more about the RFP and apply here.</a></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
+    "summaryKo": "Anthropic이 AI가 경제에 미치는 영향에 대비하기 위해 2억 달러 규모의 'Economic Futures Research Fund'를 조성하고 연구 의제를 공개했다. 노동자 보호, 소득 지원 현대화, AI 성장의 이익 공유 등 5개 연구 영역에서 대규모 실증 연구와 파일럿 프로그램에 자금을 지원할 계획이다.",
+    "tags": [
+      "AI경제",
+      "정책연구"
+    ],
+    "entities": [
+      "Anthropic"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "Anthropic이 AI의 경제적 파급에 대비하는 연구에 2억 달러를 투입하는 Economic Futures Research Fund를 발표했다.",
+        "노동자·직장 단위 영향 분석, AI 전환 대응 역량 강화, 소득 지원 현대화, AI 성장의 노동자 지분 확보, 공공투자 근거 마련 등 5개 우선 연구 영역을 제시했다.",
+        "기존의 소규모 다건 지원 방식 대신 500만~3000만 달러 규모의 대형·야심찬 프로젝트 중심으로 전략을 전환했다.",
+        "무작위대조시험만으로는 답하기 어려운 질문에 창의적이고 과감한 파일럿 연구를 지원하겠다는 방침이다.",
+        "미국 중심이지만 전 세계 프로젝트에도 자금을 지원할 계획이라고 밝혔다."
+      ],
+      "sections": [
+        {
+          "heading": "펀드 신설 배경",
+          "body": "AI 역량이 계속 향상되는 가운데, AI가 경제 전반에 얼마나 빠르게 확산되고 어떤 파급 효과를 낼지는 아직 불확실하다. Anthropic은 6월 발표한 경제정책 프레임워크(EPF)에서 다양한 시나리오별 정책을 제안했지만, 실제로 어떤 개입이 효과적인지에 대한 실증적 근거가 부족하다고 판단해 이번 펀드를 조성했다."
+        },
+        {
+          "heading": "지원 방식의 변화",
+          "body": "1년 전 시작한 Economic Futures 프로그램을 확장 개편한 것으로, 다수의 소규모 그랜트를 관리하기보다 대규모 RCT나 파격적인 파일럿·프로그램 평가에 집중한다. 성과가 보이면 급격히 규모를 키울 수 있는 파일럿을 우대하며, 연구 성과를 초기 단계부터 공개적으로 공유할 파트너를 찾는다."
+        },
+        {
+          "heading": "5대 우선 연구 영역",
+          "body": "기업·직장 단위에서 AI가 노동자에게 미치는 영향, 사람들이 AI 전환에 대응할 수 있도록 돕는 방법, AI로 인한 실업에 대비한 소득 지원 제도 현대화, 혼란이 닥치기 전에 노동자가 AI 성장의 이익을 공유할 지분 마련, 공공투자에 대한 새로운 증거 창출 등 5가지를 핵심 영역으로 제시했다."
+        },
+        {
+          "heading": "글로벌 지향과 규모",
+          "body": "샌프란시스코 본사와 미국 내 Claude 사용 비중이 높다는 이유로 제시된 방향은 다소 미국 중심적이지만, AI 파급은 전 세계적 문제이므로 해외 프로젝트에도 지원할 계획이다. 프로젝트당 500만~3000만 달러를 기본으로 하되, 파급력이 큰 프로젝트에는 그 이상도 유연하게 지원한다."
+        }
+      ],
+      "quotes": [
+        "AI가 경제를 더 유연하고 회복력 있게 만들 수 있는 프로그램을 연구하고 싶다.",
+        "우리는 아직 아무도 시도하지 않은 해법이 가장 유망한 순간에 들어서고 있을 수 있다."
+      ]
+    },
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
+  },
+  {
+    "id": "a66075dc0af41a68",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "Ask Claude about the Anthropic Economic Index",
+    "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+    "publishedAt": "Tue, 21 Jul 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-coral\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Ask Claude about the Anthropic Economic Index\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The <a href=\"https://www.anthropic.com/economic-index\">Anthropic Economic Index</a> exists to help answer them with real data. Today we're launching the Anthropic Economic Index connector for Claude, which lets anyone explore that data directly.</p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><div class=\"Video-module-scss-module__qJNyFq__post-wrapper\"><figure class=\"Video-module-scss-module__qJNyFq__post-video-container\"><video controls=\"\" playsinline=\"\" muted=\"\" src=\"https://cdn.sanity.io/files/4zrzovbb/website/8a161dd5a8683a1b300d64dd1173579851301f40.mp4\"></video></figure></div></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The Anthropic Economic Index measures how AI is actually being used in the economy. The Index’s data has been useful to researchers, journalists, and policymakers, but we want it to be just as accessible to anyone curious about how AI fits into their field or day-to-day life. Now you can ask Claude questions like:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>“Which occupations use AI the most?”</li><li>“What are the most common ways people in Colorado use Claude?”</li><li>“What sorts of tasks do teachers use Claude for?”</li><li>“What kinds of tasks are people automating with AI? How has that changed over the past year??”</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">You’ll get answers grounded directly in the Index data.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Getting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (\"what does the Index say about my industry?\"), then drill into specifics, and ask Claude to show you the underlying data behind any answer.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As always, the Index reflects patterns in Claude usage rather than the labor market as a whole, and Claude will point you back to the source data and its limitations as you explore. You can find the connector in claude.ai today, and the full datasets remain freely available on our website.</p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
+    "summaryKo": "Anthropic이 Claude에서 Anthropic Economic Index 데이터를 바로 조회할 수 있는 커넥터를 출시했다. 직업별 AI 활용도, 지역별·업무별 Claude 사용 패턴 등을 자연어로 질문하면 실제 인덱스 데이터를 근거로 답변받을 수 있다.",
+    "tags": [
+      "AI데이터",
+      "커넥터"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "Anthropic Economic Index"
+    ],
+    "cats": [
+      "기업·정책",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "Anthropic이 Claude 안에서 Anthropic Economic Index 데이터를 직접 조회할 수 있는 커넥터를 출시했다.",
+        "\"어떤 직업이 AI를 가장 많이 쓰는지\", \"교사들은 AI로 어떤 업무를 하는지\" 같은 질문에 실제 인덱스 데이터 기반으로 답한다.",
+        "claude.ai 커넥터 메뉴에서 1분 이내에 활성화할 수 있으며 모든 Claude 모델과 대화에서 사용 가능하다.",
+        "인덱스는 노동시장 전체가 아니라 Claude 사용 패턴을 반영한다는 한계를 Claude가 스스로 안내한다."
+      ],
+      "sections": [
+        {
+          "heading": "커넥터의 목적",
+          "body": "사람들이 AI와 일자리에 대해 갖는 궁금증(어떤 직무가 바뀌는지, 어떤 업무가 자동화되는지)에 실제 데이터로 답하기 위해 만들어졌다. 기존에는 연구자·언론인·정책입안자 위주로 활용되던 인덱스 데이터를 누구나 대화형으로 탐색할 수 있게 했다."
+        },
+        {
+          "heading": "사용 방법",
+          "body": "claude.ai의 커넥터 디렉토리에서 Anthropic Economic Index를 찾아 활성화하면 별도 설치 없이 바로 사용할 수 있다. \"내 산업에 대해 인덱스가 말하는 건?\"처럼 넓은 질문으로 시작해 점점 구체적인 질문으로 좁혀가고, 근거가 된 원본 데이터도 요청해 확인할 수 있다."
+        }
+      ],
+      "quotes": []
+    },
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
   },
   {
     "id": "e16a6a31aff5e708",
@@ -1081,6 +1675,59 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-20T21:20:50.939Z"
+  },
+  {
+    "id": "9d9e4fbe80b29906",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "Anthropic is donating another $20 million to Public First Action",
+    "url": "https://www.anthropic.com/news/donation-public-first-action",
+    "publishedAt": "Mon, 20 Jul 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-oat\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Anthropic is donating another $20 million to Public First Action\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/6d914851a169b4ff77e5de4a30c91f5a51520871-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We're contributing an additional $20 million to <a href=\"https://publicfirstaction.us/\">Public First Action</a>, bringing our total support to $40 million. Public First Action is a non-partisan organization that educates the public about AI and works with Republicans, Democrats, and Independents who are serious about putting sensible AI safeguards in place. Both of our donations were made exclusively to support Public First Action’s public education and policy mission, and cannot be used to influence the election of any candidate for federal, state, or local office.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Our first donation in February 2026 was made to help promote policies that will maintain meaningful safeguards, sustain America’s AI leadership and demand transparency from the companies building the most powerful AI models. In the months since, the case for these policies has only <a href=\"https://darioamodei.com/post/policy-on-the-ai-exponential\">gotten stronger</a>.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"why-now\">Why now?</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI models continue to improve at a rapid pace. Earlier this year, Claude Mythos Preview <a href=\"https://red.anthropic.com/2026/mythos-preview/\">discovered</a> thousands of high-severity software vulnerabilities, including some in every major operating system and browser. We chose to release it to a limited set of cyber defenders through <a href=\"https://www.anthropic.com/glasswing\">Project Glasswing</a> to enable trusted actors to find and fix those weaknesses before anyone could exploit them. In the wrong hands, models like this could threaten the critical systems the country relies on, from hospitals to the energy grid.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">More capable models will bring benefits—like compressing drug discovery, developing treatments for diseases we’ve never been able to treat, accelerating science to deliver a century of progress in a decade, extending human lifespans, and driving the kind of economic growth that lets everyone share in the prosperity—but we need to make sure we are protected against the risks first in order to realize those benefits.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Governments need time to build the capacity to capture benefits while containing risks, which is why they need to start now.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"policy-that-meets-the-moment\">Policy that meets the moment</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’ve long argued that frontier AI companies should be transparent about what their models can do and how they’re managing the risks. We’ve <a href=\"https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai\">supported</a> newly passed laws in several states that require greater transparency for AI developers. But given how fast the capabilities of the most powerful models are advancing, transparency alone is insufficient.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We need policymakers and candidates to put forward measures that mitigate risks. This is the core of what we’ve laid out in <a href=\"https://www.anthropic.com/policy-on-the-ai-exponential/aaif\">Anthropic's Advanced AI Framework</a>, which is the strongest policy proposal from any frontier lab or policymaker to date. Governments should be able to verify companies’ safety claims, enforce safe practices through civil penalties, and ultimately have a way to slow or block the deployment of AI models that pose a serious risk of catastrophic harm. Frontier AI developers should have to test models that pose catastrophic risk, be transparent to the public about their findings, submit them to independent evaluation, and maintain a robust security program.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As the pace of AI advances accelerate, the national security stakes of AI are growing, as we outlined in <a href=\"https://www.anthropic.com/research/2028-ai-leadership\">2028: Two Scenarios for Global AI Leadership</a>. America and our democratic allies have the advantage today, but that lead is tenuous. To ensure continued American AI leadership, we support policy efforts to tighten export controls on advanced chips and semiconductor manufacturing equipment and to curb illicit model access and distillation attacks, so that democracies’ best technologies are not used to advance authoritarian AI.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"what-comes-next\">What comes next?</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">These <a href=\"https://www.anthropic.com/policy-on-the-ai-exponential/aaif\">policy frameworks</a> are just a starting point. Our donation to Public First Action is one way in which we’re trying to raise the salience of this urgent policy debate.</p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
+    "summaryKo": "Anthropic이 초당적 AI 정책 교육 단체 Public First Action에 2000만 달러를 추가 기부해 누적 기부액이 4000만 달러가 됐다. AI 역량이 빠르게 발전하는 만큼 정부가 안전장치를 마련할 시간을 벌기 위해 투명성 규제를 넘어선 정책적 개입이 필요하다는 입장을 강조했다.",
+    "tags": [
+      "AI정책",
+      "안전"
+    ],
+    "entities": [
+      "Anthropic",
+      "Public First Action"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "analysis": {
+      "points": [
+        "Anthropic이 Public First Action에 2000만 달러를 추가 기부해 누적 지원액이 4000만 달러가 됐다.",
+        "이 단체는 초당적으로 AI 안전 정책 교육과 여야 협력을 지원하며, 기부금은 선거 개입이 아닌 공공 교육·정책 활동에만 쓰인다.",
+        "Claude Mythos Preview가 주요 OS·브라우저의 고위험 취약점 수천 건을 발견한 사례를 들며 강력한 모델의 위험성을 경고했다.",
+        "Anthropic의 Advanced AI Framework를 근거로, 투명성만으로는 부족하며 정부가 안전성 주장을 검증하고 위험한 모델 배포를 늦추거나 막을 수 있어야 한다고 주장했다.",
+        "첨단 반도체 수출통제 강화와 증류·불법 모델 접근 차단 등 미국의 AI 리더십 유지를 위한 정책도 지지한다고 밝혔다."
+      ],
+      "sections": [
+        {
+          "heading": "기부 배경",
+          "body": "2026년 2월 첫 기부에 이어 추가로 2000만 달러를 기부하며 누적 지원액이 4000만 달러로 늘었다. Public First Action은 공화·민주·무소속을 가리지 않고 합리적인 AI 안전장치 도입에 진지한 정치인들과 협력하는 비영리 단체다."
+        },
+        {
+          "heading": "왜 지금인가",
+          "body": "Claude Mythos Preview가 모든 주요 운영체제와 브라우저를 포함해 수천 건의 고위험 취약점을 발견한 사례(Project Glasswing을 통해 신뢰할 수 있는 방어팀에게만 제한 공개)를 들며, 더 강력해진 모델이 잘못된 손에 들어가면 병원·에너지망 같은 핵심 시스템을 위협할 수 있다고 경고했다."
+        },
+        {
+          "heading": "정책 방향",
+          "body": "투명성 요구만으로는 부족하며, 정부가 기업의 안전성 주장을 검증하고 민사 제재로 안전 관행을 집행하며 재앙적 위험이 있는 모델의 배포를 늦추거나 막을 수 있어야 한다는 Advanced AI Framework의 입장을 재확인했다."
+        },
+        {
+          "heading": "국가 안보 차원",
+          "body": "AI의 국가안보적 중요성이 커지는 가운데 미국과 민주주의 동맹국의 기술 우위가 아직은 있지만 취약하다고 진단하며, 첨단 반도체·반도체 장비 수출통제 강화와 불법 모델 접근·증류 공격 차단을 지지한다고 밝혔다."
+        }
+      ],
+      "quotes": [
+        "정부는 기업의 안전성 주장을 검증하고, 민사 제재로 안전한 관행을 집행할 수 있어야 한다."
+      ]
+    },
+    "fetchedAt": "2026-07-22T21:09:43.991Z"
   },
   {
     "id": "03e980261546fc95",
@@ -4810,793 +5457,5 @@
       "quotes": []
     },
     "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "ab26128c5144e98e",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Cognition이 새로운 코딩 모델 SWE-1.7을 공개했습니다. SWE-1.7은 Kimi K2.7을 기바...",
-    "url": "https://www.threads.com/t/DajR3d2iWhi",
-    "publishedAt": "Thu, 09 Jul 2026 00:00:29 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Cognition이 새로운 코딩 모델 SWE-1.7을 공개했습니다. SWE-1.7은 Kimi K2.7을 기반으로 강화학습(RL)을 개선해 학습한 모델인데요. Cognition은 최고 수준의 Frontier Models와 비교해 성능 차이는 크지 않으면서도 더 낮은 비용으로 사용할 수 있으며, 초당 1,000토큰(1000 tok/s) 속도를 지원한다고 밝혔습니다. 학습 과정에서는 강화학습에서 자주 발생하는 탐색 감소와 수치 불안정 문제를 해결하기 위해 여러 학습 기법을 함께 적용했다고 합니다. 또한 이전 모델보다 코드를 수정하기 전에 더 오래 조사하고 분석하도록 학습해 장기적인 개발 작업에서도 성능을 높였다고 설명했습니다. SWE-1.7은 현재 Devin의 웹, 데스크톱, CLI에서 사용할 수 있습니다.</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/734896609_17976181092112832_2945682158934219070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=MzkzNzA2OTA3NzY2NzM0MjQzNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=VKlw5_5sYhEQ7kNvwGsk9TB&amp;_nc_oc=Adr0gdy9jYerK4drqnnOpTzP59exZ67WlhM4HlaAemRpdNpe1HLPJrnluLGizCFHOcY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQBmCmcWGXxQJ4vQHJIZ66kYdbVh0Yqzo6jvxAMYu5jhTw&amp;oe=6A54BC48\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Cognition이 Kimi K2.7 기반으로 강화학습을 개선해 학습한 새 코딩 모델 SWE-1.7을 공개했다. 최상위 프런티어 모델과 성능 차이는 크지 않으면서 더 낮은 비용과 초당 1,000토큰 속도를 제공하며, 코드 수정 전 더 오래 조사·분석하도록 학습해 장기 개발 작업 성능을 높였다. 현재 Devin의 웹·데스크톱·CLI에서 사용할 수 있다.",
-    "tags": [
-      "SWE-1.7",
-      "코딩모델",
-      "강화학습",
-      "Devin"
-    ],
-    "entities": [
-      "Cognition",
-      "SWE-1.7",
-      "Kimi K2.7",
-      "Devin"
-    ],
-    "cats": [
-      "코딩·개발",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "be41cbcd32bdf495",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Skillburst - AI skills for your whole team, not just the engineers",
-    "url": "https://skillburst.ai/",
-    "publishedAt": "Wed, 08 Jul 2026 23:48:27 +0000",
-    "rawText": "Article URL: https://skillburst.ai/ Comments URL: https://news.ycombinator.com/item?id=48838979 Points: 1 # Comments: 0",
-    "summaryKo": "'Skillburst'는 엔지니어뿐 아니라 팀 전체가 AI 스킬을 활용할 수 있게 해준다는 도구를 소개하는 Show HN 게시물이다. 제목 기준으로 비개발 직군까지 아우르는 조직 단위 AI 역량 확산을 지향하는 서비스로 보인다.",
-    "tags": [
-      "AI 스킬",
-      "팀 협업",
-      "생산성"
-    ],
-    "entities": [
-      "Skillburst"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "8ff098c01a085702",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Hijacking Defensive Cyber AI Agents for Remote Code Execution",
-    "url": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief",
-    "publishedAt": "Wed, 08 Jul 2026 23:35:29 +0000",
-    "rawText": "Article URL: https://ainowinstitute.org/publications/friendly-fire-exploit-brief Comments URL: https://news.ycombinator.com/item?id=48838857 Points: 1 # Comments: 0",
-    "summaryKo": "AI Now Institute의 보안 연구로, Claude Code·Codex 같은 방어용 코딩 AI 에이전트가 신뢰할 수 없는 코드를 자동 검토할 때 프롬프트 인젝션으로 원격 코드 실행(RCE)까지 탈취될 수 있음을 보였다. 특별한 설정 없이 서드파티 코드를 리뷰하는 것만으로 공격이 자동 발동되며, Sonnet·Opus·GPT-5.5 등 여러 프런티어 모델에서 그대로 재현돼 개별 버그가 아닌 설계상 취약점임을 시사한다.",
-    "tags": [
-      "AI 보안",
-      "프롬프트 인젝션",
-      "에이전트",
-      "RCE"
-    ],
-    "entities": [
-      "Claude Code",
-      "Codex",
-      "AI Now Institute"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "방어용 코딩 AI 에이전트가 신뢰 불가 코드를 자동 검토할 때 프롬프트 인젝션으로 임의 코드 실행이 가능하다.",
-        "정상처럼 보이는 Go 소스 파일과 동일한 이름의 악성 바이너리, 이를 실행하도록 유도하는 문서를 결합한 다층 공격이다.",
-        "별도 플러그인·훅·설정 없이 서드파티 코드를 리뷰하는 표준 사용만으로 공격이 자동 발동된다.",
-        "Claude Sonnet 4.6·Sonnet 5·Opus 4.8·GPT-5.5에서 수정 없이 재현돼 프런티어 에이전트 공통의 설계 패턴 취약점으로 보인다.",
-        "샌드박스 환경도 RCE 이후 제약을 벗어날 수 있어 충분한 보호가 되지 못한다."
-      ],
-      "sections": [
-        {
-          "heading": "공격 메커니즘",
-          "body": "연구진은 수정된 오픈소스 라이브러리 안에 기만적 파일들을 심었다. 합법적으로 보이는 Golang 소스와 같은 이름의 악성 바이너리, 그리고 이 바이너리를 보안 분석의 일부로 실행하도록 설득하는 문서 참조를 조합했다. 사용자가 AI에게 서드파티 코드를 리뷰시키면 추가 승인 없이 공격이 트리거된다."
-        },
-        {
-          "heading": "정책적 함의",
-          "body": "취약점이 특정 버그가 아니라 여러 모델·버전에 공통으로 전이된다는 점이 핵심이다. 연구는 사이버보안에 AI 배치를 의무화하는 최근 정책 흐름에 의문을 제기하며, AI 에이전트가 새로 만들어내는 공격 표면이 방어 이점을 상쇄하거나 오히려 보안을 악화시킬 수 있다고 경고한다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "baadb6f51f236628",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "The AI Bubble We need to talk",
-    "url": "https://www.youtube.com/watch?v=2J2Fb1bBufA",
-    "publishedAt": "Wed, 08 Jul 2026 23:34:33 +0000",
-    "rawText": "Article URL: https://www.youtube.com/watch?v=2J2Fb1bBufA Comments URL: https://news.ycombinator.com/item?id=48838844 Points: 2 # Comments: 0",
-    "summaryKo": "'AI 버블, 이제는 이야기해야 한다'는 제목의 유튜브 영상이 해커뉴스에 공유됐다. 제목 기준으로 현재 AI 투자·기대에 거품이 끼어 있다는 문제의식을 다루는 콘텐츠로 보인다.",
-    "tags": [
-      "AI 버블",
-      "투자",
-      "시장"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "c47c4c24fc478f33",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%",
-    "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-    "publishedAt": "Wed, 08 Jul 2026 23:11:28 +0000",
-    "rawText": "Article URL: https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/ Comments URL: https://news.ycombinator.com/item?id=48838611 Points: 40 # Comments: 15",
-    "summaryKo": "AI 부정행위를 의심한 브라운대 교수가 기말고사를 대면 시험으로 전환하자 점수가 50% 급락했다는 아스테크니카 보도가 해커뉴스에서 화제가 됐다. 학생들의 AI 의존과 학업 평가 신뢰성 문제를 드러낸 사례로 다뤄진다.",
-    "tags": [
-      "AI 부정행위",
-      "교육",
-      "평가"
-    ],
-    "entities": [
-      "Brown University"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "d003a314baee8a15",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Nous Research가 'Hermes Agent Cloud'를 공개했습니다. 이제 모델과 서버 크기만 선태...",
-    "url": "https://www.threads.com/t/DajK_LmDqHs",
-    "publishedAt": "Wed, 08 Jul 2026 23:00:22 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Nous Research가 'Hermes Agent Cloud'를 공개했습니다. 이제 모델과 서버 크기만 선택하면 약 1분 안에 항상 실행되는 AI 에이전트를 배포할 수 있는데요. 배포된 에이전트는 '지속 메모리(persistent memory)'를 활용하며 계속 실행되는 환경에서 작업을 이어갈 수 있습니다. 기업 사용자를 위한 기능도 함께 제공됩니다.'*Nous Portal'에서 조직 구성원별 에이전트를 생성하고, 세부 권한 관리와 통합 결제를 지원한다고 합니다. 요금은 서버 크기에 따라 달라지며, 자세한 내용은 'Hermes Cloud' 페이지에서 확인할 수 있습니다. AI 에이전트를 클라우드에서 상시 운영하려는 사용자들에게 새로운 선택지가 될 것으로 보입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-lax3-2.cdninstagram.com/v/t51.71878-15/729680995_3041539306038611_1331502252019778273_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;ig_cache_key=MzkzNzAzODgyMTQ5Mzc0NDEwOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=rYHWUEAmVvYQ7kNvwHP3_nT&amp;_nc_oc=AdpAVc_VodJEJMt6a0esFAwcc0eXhKgtJTktjvDGBo8tXz0DojDR5-xPXOk_CvVEzrI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQDNmSX8E-bqbiGbE6sTFUptlvxSDfHsleaNaVQd0r-6tQ&amp;oe=6A54B274\"><source src=\"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPZH1mporay10RU6U-nu-tWQj0FiPM6tRqwr09rV9YLf4dv0r3Z0m7LTfZBbp0JwozcL3pqVEUJWJSKv061VtSyykyEzPvIqw6BjH0.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_ohc=PCZH2Ze6EtMQ7kNvwFLdbdq&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk3NjE4MDk2MDExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjoyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=d736f2ecd3107f06&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81MzRBMTRGNDMyOTJBQkM4QzNCMDM4N0JBOTJCRERCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzgxNEUwQ0VGMjZEM0M3Mjk5NTJGNjlCOTQzRjFFRTg2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAw92Iuc_uPxUCKAJDMywXQDSIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQB5I3ZBJwBghDGBpzaZKD3w3409YYlt3_jdMKtTxpgpUQ&amp;oe=6A50BAEC\"></video></p>",
-    "summaryKo": "Nous Research가 모델과 서버 크기만 고르면 약 1분 안에 상시 실행되는 AI 에이전트를 배포할 수 있는 'Hermes Agent Cloud'를 공개했다. 배포된 에이전트는 지속 메모리를 활용해 계속 실행되는 환경에서 작업을 이어가며, Nous Portal을 통한 조직 구성원별 에이전트 생성·권한 관리·통합 결제 등 기업용 기능도 제공한다.",
-    "tags": [
-      "에이전트",
-      "Hermes",
-      "클라우드",
-      "지속메모리"
-    ],
-    "entities": [
-      "Nous Research",
-      "Hermes Agent Cloud"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "6a69b595fa49cef7",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Policy Statement Concerning the Suppression of Accuracy in AI Systems",
-    "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems",
-    "publishedAt": "Wed, 08 Jul 2026 22:33:46 +0000",
-    "rawText": "Article URL: https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems Comments URL: https://news.ycombinator.com/item?id=48838270 Points: 6 # Comments: 1",
-    "summaryKo": "미국 연방관보(Federal Register)에 'AI 시스템의 정확성 억제에 관한 정책 성명'이 게시돼 해커뉴스에 공유됐다. 제목 기준으로 AI 시스템이 정확한 정보를 억제·왜곡하는 문제에 대한 규제·정책적 입장을 담은 문서로 보인다.",
-    "tags": [
-      "AI 규제",
-      "정책",
-      "정확성"
-    ],
-    "entities": [
-      "Federal Register"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "598472848ca325c4",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: A tool that checks how your business appears in AI search",
-    "url": "https://www.tryagentscore.com",
-    "publishedAt": "Wed, 08 Jul 2026 22:15:16 +0000",
-    "rawText": "Article URL: https://www.tryagentscore.com Comments URL: https://news.ycombinator.com/item?id=48838101 Points: 2 # Comments: 1",
-    "summaryKo": "자사 비즈니스가 AI 검색 결과에 어떻게 노출되는지 점검해준다는 도구를 소개하는 Show HN 게시물이다. 제목 기준으로 AI 검색·답변 엔진에서의 브랜드 가시성(AI SEO)을 진단하는 서비스로 보인다.",
-    "tags": [
-      "AI 검색",
-      "SEO",
-      "마케팅"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "f7ab4b94a08343d4",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 팀 쿡이 브로드컴과 300억 달러 계약을 발표했습니다. 미국에서 칩...",
-    "url": "https://www.threads.com/t/DajEHWCCMcG",
-    "publishedAt": "Wed, 08 Jul 2026 22:00:19 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>팀 쿡이 브로드컴과 300억 달러 계약을 발표했습니다. 미국에서 칩 150억 개를 찍는, 애플 '미국 제조 프로그램' 사상 최대 약정입니다. 관세를 피하려는 조치지만, 진짜 리스크는 그 아래에 있습니다. 미국이 칩 공급망 자체를 자국 안으로 들이는 '내재화'입니다. 설계부터 제조, 패키징까지 미국 안에서 끝내겠다는 그림입니다. 🧵</p><p><img src=\"https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/728302202_17976184443112832_2360920788059176984_n.webp?_nc_cat=106&amp;ig_cache_key=MzkzNzAwODU5NjEzMDc3NjgzOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=ukGzxu4VNkwQ7kNvwGg2kFI&amp;_nc_oc=AdoY46YFtaiwOsonDAGmYS4uAjpLveNveF8xQPFy4mXBcyEAvB2Q7jOH5hYMzQPajcQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQD2a5sNQX3JUDgAnli3qSiwg5OxN5dTPMPP9nCrxS6mfQ&amp;oe=6A54B489\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "팀 쿡이 브로드컴과 300억 달러 규모 계약을 발표했다. 미국에서 칩 150억 개를 생산하는 애플 '미국 제조 프로그램' 사상 최대 약정으로, 관세 회피를 넘어 설계·제조·패키징까지 미국 내에서 끝내는 칩 공급망 내재화라는 점이 핵심이다.",
-    "tags": [
-      "애플",
-      "반도체",
-      "공급망",
-      "제조"
-    ],
-    "entities": [
-      "Apple",
-      "Broadcom",
-      "Tim Cook"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "2c23c8a7df76c6df",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "The neutral proof standard for consequential AI-agent actions",
-    "url": "https://github.com/Actenon",
-    "publishedAt": "Wed, 08 Jul 2026 21:58:53 +0000",
-    "rawText": "Article URL: https://github.com/Actenon Comments URL: https://news.ycombinator.com/item?id=48837953 Points: 1 # Comments: 0",
-    "summaryKo": "결과가 중대한 AI 에이전트 행동에 대해 '중립적 증명 표준(neutral proof standard)'을 제안하는 프로젝트가 해커뉴스에 공유됐다. 제목 기준으로 에이전트의 자율 행동을 검증·감사하기 위한 표준을 다루는 것으로 보인다.",
-    "tags": [
-      "에이전트",
-      "검증",
-      "표준"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "249dd7e6e1f5dfb9",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Nika – Intent as Code for AI Workflows",
-    "url": "https://github.com/supernovae-st/nika",
-    "publishedAt": "Wed, 08 Jul 2026 21:30:00 +0000",
-    "rawText": "Article URL: https://github.com/supernovae-st/nika Comments URL: https://news.ycombinator.com/item?id=48837692 Points: 1 # Comments: 0",
-    "summaryKo": "'Nika'는 AI 워크플로를 'Intent as Code(의도를 코드로)' 방식으로 정의하는 도구를 소개하는 Show HN 게시물이다. 제목 기준으로 에이전트 워크플로를 선언적으로 기술·오케스트레이션하려는 프로젝트로 보인다.",
-    "tags": [
-      "에이전트",
-      "워크플로",
-      "Intent as Code"
-    ],
-    "entities": [
-      "Nika"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "73e2087fad9ed23f",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 중국 정부가 딥시크·바이트댄스·알리바바 등 자국 AI 기업의 엔비ᄃ...",
-    "url": "https://www.threads.com/t/Dai50iIAGm9",
-    "publishedAt": "Wed, 08 Jul 2026 20:30:22 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국 정부가 딥시크·바이트댄스·알리바바 등 자국 AI 기업의 엔비디아 H200 구매를 곧 승인할 방침이라고 합니다. 더 인포메이션 보도로, 학습용으로 약 20만 장 규모입니다. 여기서 걸리는 건 '학습용'이라는 대목입니다. 추론은 이미 화웨이 어센드 950PR로 넘어갔는데, 학습만은 아직 엔비디아를 못 놓는다는 뜻이거든요. 딥시크가 당국 권유로 화웨이에서 학습하려다 반복 실패하고 엔비디아로 되돌아갔을 만큼, 어센드는 CANN 소프트웨어와 칩간 통신이 아직 프런티어 학습을 뒷받침하지 못합니다. 하지만, 메이투안이 최근 1.6조 LongCat-2.0을 국산칩 약 5만 장으로 학습부터 서빙까지 끝낸만큼 이번 승인은 영구 의존이라기보다 국산 학습이 무르익을 때까지의 과도기 조치에 가까워 보입니다.</p><p><img src=\"https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/734974531_17976177276112832_2185248801653749910_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzkzNjk2MzMyMjk4MDYyNDgyOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=5dJAHvu7ivMQ7kNvwHf43KC&amp;_nc_oc=AdrwCHEvRQ4h-8LNaA4J1rvJaVzmFWiZUCfaO2CAfEnMSqGGXh9o5O1dt0Qa-zvAi7w&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-lax7-1.cdninstagram.com&amp;_nc_gid=Mi93YFjiI8F_OwunPiwUdw&amp;_nc_ss=7a22e&amp;oh=00_AQBRJgh9u7oXHQSLiQBQYWjqRcImG2pwO0WmFLwz5PHOFw&amp;oe=6A54BC2E\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "중국 정부가 딥시크·바이트댄스·알리바바 등 자국 AI 기업의 엔비디아 H200(학습용 약 20만 장) 구매를 곧 승인할 방침이라고 디 인포메이션이 보도했다. 추론은 화웨이 어센드 950PR로 넘어갔지만 프런티어 학습만은 아직 엔비디아 의존이 필요한 상황으로, 국산 학습이 무르익을 때까지의 과도기 조치로 해석된다.",
-    "tags": [
-      "중국",
-      "엔비디아",
-      "H200",
-      "반도체"
-    ],
-    "entities": [
-      "NVIDIA",
-      "DeepSeek",
-      "ByteDance",
-      "Alibaba",
-      "Huawei"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "8dbb2238c30b71eb",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Inviting hard questions",
-    "url": "https://www.anthropic.com/news/hard-questions",
-    "publishedAt": "Wed, 08 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"Inviting hard questions\" width=\"2000\" height=\"1125\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg\" referrerpolicy=\"no-referrer\"></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Who decides the rules for AI?</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Can AI give my children a better future?</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Does AI make the world a more dangerous place?</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Can AI help scientists cure diseases?</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">People have a lot of hard questions about AI. It’s our job to address them.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Many people are positively disposed to AI. They already use it every day, and they see its potential for making our work and our lives less laborious, for changing the way we learn, for helping speed up scientific and technological progress, for creating new sources of prosperity, and for solving some of the biggest medical and social problems we face.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">But many also hold serious concerns. Some are worried about AI’s potential contribution to job loss. Some fear that it could devalue creative work. Others are concerned about human agency: that AI might affect our ability to think for ourselves, to make human connections, and to have meaning in our lives. Many are concerned about what it means if AI’s capabilities fall into the wrong hands—and wonder whether the benefits outweigh the costs.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In the film below, you can hear some of these hopes and concerns from people we’ve spoken with.</p><div class=\"Body-module-scss-module__z40yvW__media-column\"><div class=\"Video-module-scss-module__qJNyFq__post-wrapper\"><figure class=\"Video-module-scss-module__qJNyFq__post-video-container\"><!--$!--><template data-dgst=\"BAILOUT_TO_CLIENT_SIDE_RENDERING\"></template><!--/$--></figure></div></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Anthropic is a <a href=\"https://www.anthropic.com/company\">Public Benefit Corporation</a>—it’s our mission to secure the benefits of advanced AI models and mitigate their risks. That public benefit mission has led us, for example, to invest in AI <a href=\"https://www.anthropic.com/news/building-safeguards-for-claude\">safeguards</a> to reduce the risk of misuse, to research the <a href=\"https://www.anthropic.com/research/team/alignment\">behavior</a> and <a href=\"https://www.anthropic.com/research/team/interpretability\">inner workings</a> of AI models to help us align them to beneficial goals, to give our AI models for free to <a href=\"https://www.anthropic.com/news/ai-for-science-program\">scientists</a>, and to launch a fellowship program that <a href=\"https://www.anthropic.com/news/claude-corps\">pairs early-career Claude users</a> with nonprofits to help extend the benefits of AI.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">To truly act in the public interest, we need to fully understand the hopes and concerns the public has about this new technology. As part of our <a href=\"https://www.youtube.com/watch?v=jVbGX7zJHi8\">new initiative on hard questions</a>, we’re taking further steps to understand people’s views and questions on a variety of AI-related topics, and transparently chart our progress toward our public benefit goals.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’ve already been laying the groundwork, asking thousands of people for their views on AI:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>We’ve begun the <a href=\"https://www.anthropic.com/news/anthropic-public-record\">Anthropic Public Record</a>—a public survey that, in its first round, asked 52,000 Americans to set out their biggest hopes and concerns about this technology;</li><li>We <a href=\"https://www.anthropic.com/features/81k-interviews\">surveyed 81,000 Claude users</a> across 159 countries and 70 languages through our <a href=\"https://www.anthropic.com/news/anthropic-interviewer\">Anthropic Interviewer</a>;</li><li>We conducted dozens of in-person focus groups and <a href=\"https://www.anthropic.com/news/widening-conversation-ai\">convened sessions</a> with groups whose work and traditions bear on the questions raised by AI; and</li><li>We’ve been <a href=\"https://www.anthropic.com/economic-index\">studying</a> the use of Claude through anonymized, real-world data.</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We created the <a href=\"https://www.anthropic.com/institute\">Anthropic Institute</a>—a research effort within the company with the goal of confronting the most significant challenges that AI will pose to society—and since early in our company’s history our <a href=\"https://www.anthropic.com/news/the-long-term-benefit-trust\">Long-Term Benefit Trust</a> has provided impartial oversight on how effectively we’re advancing our public benefit mission.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Now, we’re explicitly asking you to send us your hardest questions on AI: questions about AI’s effects on jobs, society, and families; questions about how we achieve the dramatic potential of AI for science and medicine; questions about where one of the most powerful technologies in human history can take us next.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In return, we’ll publicly track and report the specific actions we’re taking to address those questions—and we’ll be clear about the ways in which we might fall short of our stated goals.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">To see some of the questions others are asking, and to share your own, visit our <a href=\"https://claude.com/hard-questions\"><strong>hard questions website</strong></a>.</p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "Anthropic이 AI를 둘러싼 어려운 질문들—일자리, 창작 가치, 인간 주체성, 오용 위험—을 정면으로 다루겠다는 글과 영상을 공개했다. 공익법인(PBC)으로서 첨단 AI의 혜택을 확보하고 위험을 줄이는 사명을 강조하며 공개 토론을 자청했다.",
-    "tags": [
-      "AI안전",
-      "AI정책",
-      "책임있는AI"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Anthropic이 'AI 규칙은 누가 정하나', 'AI가 세상을 더 위험하게 만드나' 같은 사회적 난제를 회피하지 않고 다루겠다고 밝혔다.",
-        "생산성·과학 발전·번영이라는 기대와 일자리 상실·창작 가치 저하·인간 주체성 약화라는 우려를 함께 제시했다.",
-        "공익법인(Public Benefit Corporation)으로서 혜택 확보와 위험 완화라는 이중 사명을 재확인했다.",
-        "인터뷰에 기반한 영상으로 실제 사용자들의 희망과 불안을 담아 공개 대화의 출발점으로 삼았다."
-      ],
-      "sections": [
-        {
-          "heading": "정면으로 마주하는 난제",
-          "body": "Anthropic은 AI를 둘러싼 통제권, 안전, 인간 존엄 같은 어려운 질문에 답하는 것이 자사의 책무라고 선언했다. 긍정적 잠재력과 진지한 우려를 모두 인정하며 균형 잡힌 논의를 강조한다."
-        },
-        {
-          "heading": "공익 사명과 안전 투자",
-          "body": "공익법인 지위에 근거해 오용 위험을 줄이는 안전장치에 투자하고 모델 행동을 연구해 왔다고 밝혔다. 기술 개발과 사회적 책임을 함께 놓겠다는 입장이다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "5a81a35f01891896",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-    "url": "https://www.anthropic.com/news/ben-bernanke",
-    "publishedAt": "Wed, 08 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins an independent body that works to hold Anthropic to its mission: the responsible development of advanced AI for the long-term benefit of humanity.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Bernanke led the Federal Reserve from 2006 to 2014, steering the central bank through the 2008 global financial crisis and the recovery that followed. Before entering government, he spent more than two decades as an academic economist, much of that time at Princeton, where he chaired the economics department and built a body of research on the Great Depression and the role banks play in financial crises. That work earned him the Nobel Prize in Economic Sciences in 2022.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“The potential of artificial intelligence is enormous, and so is the range of outcomes. How that potential plays out will depend, in part, on the institutions we build around it,” said Dr. Bernanke. “Anthropic has created a unique governance structure to try to ensure that the long-run benefits of AI for humanity far outweigh the risks. I am honored to have this opportunity, and I will try to contribute in any way I can to this critical mission.”</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“AI may have the most significant economic effects of any technology in modern history, and Anthropic has a dual responsibility to understand those effects and to act on them,” said Daniela Amodei, Cofounder and President of Anthropic. “Ben’s career has run from studying how economies react to disruptive moments to helping steer the world’s largest economy through one such time. His judgment will make us better at anticipating and responding to how advanced AI affects workforces and economies around the world.”</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Anthropic is a Public Benefit Corporation, meaning the company was created to balance commercial success with generating social and public good. The LTBT exists to help the company responsibly maintain that balance over the long term, providing a check on how Anthropic develops and deploys AI. The Trustees are chosen for their expertise across a wide range of areas, and are independent of the company’s management and investors: they hold no equity in Anthropic, don’t share in its profits, and are compensated only for their time and service. New Trustees are selected by the existing ones, in consultation with the company.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“The institutions built around this technology will matter as much as the technology itself,” added Neil Buddy Shah, Chair of the LTBT. “Ben spent eight years leading the Federal Reserve and guided the country through the worst financial crisis in nearly a century with expertise, independence, and sound judgment. That's the standard we look for in Trustees as AI's impact grows, and we're fortunate Ben has chosen to join us in this work.”</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The LTBT has the authority to appoint members to Anthropic’s board. The Trustees advise the board and Anthropic’s leadership on critical decisions, particularly those involving the potential risks and societal impacts of AI. Bernanke’s appointment brings expertise to one of the questions Anthropic studies most closely: how AI is changing the economy. He will lend his insight to our economic research, in addition to other areas of Anthropic's work.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Bernanke joins <a href=\"https://www.anthropic.com/news/the-long-term-benefit-trust\">Neil Buddy Shah</a>, <a href=\"https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust\">Richard Fontaine</a>, and <a href=\"https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust\">Mariano-Florentino Cuéllar</a> on the LTBT. Their collective experience spans global health, national security, law, policy, and economics.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "Anthropic의 장기이익신탁(LTBT)이 전 연준 의장 벤 버냉키를 새 위원으로 선임했다. 2008년 금융위기를 이끈 경제학자이자 2022년 노벨경제학상 수상자로, AI의 장기적 편익이 위험을 능가하도록 감독하는 독립 거버넌스 기구에 합류한다.",
-    "tags": [
-      "AI거버넌스",
-      "AI정책"
-    ],
-    "entities": [
-      "Anthropic",
-      "Ben Bernanke",
-      "Long-Term Benefit Trust"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "전 미국 연방준비제도 의장 벤 버냉키가 Anthropic의 장기이익신탁(LTBT) 위원으로 선임됐다.",
-        "LTBT는 Anthropic이 '인류의 장기적 이익을 위한 책임 있는 AI 개발' 사명을 지키도록 감독하는 독립 기구다.",
-        "버냉키는 2006~2014년 연준을 이끌며 2008년 글로벌 금융위기에 대응했고, 대공황·금융위기 연구로 2022년 노벨경제학상을 받았다.",
-        "AI의 경제적 파급이 현대 기술 중 가장 클 수 있다는 문제의식 아래 거시경제 거버넌스 전문성을 신탁에 더했다."
-      ],
-      "sections": [
-        {
-          "heading": "누가, 어디에 합류하나",
-          "body": "버냉키는 브루킹스연구소 특별연구원이자 전 연준 의장으로, Anthropic을 사명에 묶어 두는 독립 감독 기구 LTBT에 합류한다. 이 신탁은 회사의 단기 이해와 분리된 장기적 인류 이익을 대변한다."
-        },
-        {
-          "heading": "선임의 함의",
-          "body": "금융위기 대응과 중앙은행 운영 경험을 가진 인물을 들여 AI의 거시경제적 충격을 다룰 거버넌스 역량을 강화했다. '제도가 결과를 좌우한다'는 그의 언급처럼 규범 설계에 무게를 실었다."
-        }
-      ],
-      "quotes": [
-        "\"AI의 잠재력은 막대하고 그만큼 결과의 폭도 넓다. 그 잠재력이 어떻게 펼쳐질지는 우리가 그 주위에 세우는 제도에 달려 있다.\" — 벤 버냉키"
-      ]
-    },
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "96abb90589873af8",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Introducing a way to reflect on how you use Claude",
-    "url": "https://www.anthropic.com/news/reflect-with-claude",
-    "publishedAt": "Wed, 08 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-cactus\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Introducing a way to reflect on how you use Claude\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In our <a href=\"https://www.anthropic.com/features/81k-interviews\">interviews</a> with users, a common theme that’s emerged is a desire to better understand how, exactly, can AI be integrated into daily life. How often should someone use AI? How can it be used most effectively? When is AI suited to a task, and when is it better left to a human?</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We built this feature to help answer these types of questions. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals. Your reflection dashboard can be found in Settings on Claude for web or the desktop app.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"see-your-patterns-and-shape-them\">See your patterns and shape them</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Your reflection starts with a summary of how you've been using Claude, covering key topics, your usage patterns, and the types of tasks you often work through.</p><div class=\"Body-module-scss-module__z40yvW__media-column\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"2160\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/3668f39d9a71aa03cb60df079921934a6f1ac144-3840x2160.png\" referrerpolicy=\"no-referrer\"></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">You can look back on your Claude chat activity over the past one, three, six months, or 12 months.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The reflect feature provides a breakdown of when you use Claude most, and what you spent that time working on. Soon, we'll add a view of how much time you've spent using Claude.</p><div class=\"Body-module-scss-module__z40yvW__media-column\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"2160\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/782da3016b1624cc67ca1e226b3f959056e43741-3840x2160.png\" referrerpolicy=\"no-referrer\"></figure></div><div class=\"Body-module-scss-module__z40yvW__media-column\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"2160\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/9cbe0d18a439a7e3fc3a5b576e5dd3712e02010b-3840x2160.png\" referrerpolicy=\"no-referrer\"></figure></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Your reflection also invites you to step back and examine the role Claude plays in your life. It will periodically surface questions like, \"<em>What's one thing you want to keep doing yourself, even if Claude could do it faster?\"</em> and give you the chance to talk it through with Claude.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Within your dashboard, you can also set quiet hours or schedule a nudge to take a break from using Claude after a certain amount of time. Both are reminders of your own preferences and can be dismissed.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"build-ai-skills-that-support-your-original-thinking\">Build AI skills that support your original thinking</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">You can use your reflection to build new skills and sharpen how you work with Claude, using the <a href=\"https://anthropic.skilljar.com/ai-fluency-framework-foundations\">4D AI Fluency Framework</a>.</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Delegation: Setting goals and deciding whether and how to engage with AI</li><li>Description: Effectively describing goals to prompt useful AI behaviors and outputs</li><li>Discernment: Accurately assessing the usefulness of AI outputs and behaviors</li><li>Diligence: Taking responsibility for what we do with AI and how we do it</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Your report gives you a summary of your Claude activity across each dimension, with examples of how you tend to collaborate with Claude, like noting that you often rework email drafts in your own voice, or delegate tasks only after settling the strategy yourself. Your reflection will also offer practical suggestions, like starting a Project instead of needing to re-explain the context of ongoing work.</p><div class=\"Body-module-scss-module__z40yvW__media-column\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"2160\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/ef79e790d5fa03bdc5193c465a22323adb1b3c4a-3840x2160.png\" referrerpolicy=\"no-referrer\"></figure></div><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"privacy-and-sensitive-topics\">Privacy and sensitive topics</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Your reflection doesn’t draw from incognito chats, nor does it pull in underlying files from your connected tools. For example, if you asked Claude to summarize your inbox, that summary may come up in your reflection, but the source emails would not. And any conversation connected to a health integration tool is left out of your insights entirely. The information and insights in your reflection stay there, they aren’t used for any other purpose. You can read more about our privacy practices <a href=\"https://www.anthropic.com/legal/privacy\">here</a>.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We built this tool to be a reflection of how you use Claude. For some users, this may include sensitive or more personal conversations. In developing this tool and our approach to these topics, we worked with digital media and wellbeing experts from the MIT Media Lab's Advancing Humans with AI (AHA) program, the Digital Wellness Lab at Boston Children’s Hospital, and the Family Online Safety Institute. Sensitive conversations can still appear as part of your reflection, but only at a high level.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"getting-started\">Getting started</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open <a href=\"https://claude.ai/redirect/website.v1.9ce22181-a507-4d2e-a1a2-38d36828e8cd/settings/reflect\" target=\"_blank\" rel=\"noopener noreferrer\">Settings in Claude</a> on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have <a href=\"https://claude.ai/redirect/website.v1.9ce22181-a507-4d2e-a1a2-38d36828e8cd/settings/capabilities?modal=memory\">Memory</a> turned on. Reflecting on your Cowork conversations will be available soon.</p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "Anthropic이 Claude 사용 방식을 되돌아보게 하는 '리플렉트(reflect)' 기능을 베타로 선보였다. 웹·데스크톱 설정에서 최근 1·3·6·12개월간의 대화 주제와 사용 패턴을 시각화하고, 'AI가 더 빨리 해줘도 스스로 계속하고 싶은 일은 무엇인가' 같은 질문을 던져 AI 활용을 점검하도록 돕는다.",
-    "tags": [
-      "Claude",
-      "사용성",
-      "AI웰빙"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Claude 사용 패턴을 추적·시각화하는 '리플렉트' 기능이 베타로 공개됐다.",
-        "웹·데스크톱 설정에서 최근 1·3·6·12개월간의 주요 주제, 사용 시간대, 작업 유형을 요약해 보여준다.",
-        "'AI가 더 빨리 해줘도 스스로 계속하고 싶은 일은 무엇인가' 같은 성찰 질문을 주기적으로 던진다.",
-        "곧 누적 사용 시간 지표도 추가될 예정으로, AI 의존도를 스스로 점검하게 하는 데 초점을 둔다."
-      ],
-      "sections": [
-        {
-          "heading": "사용 패턴 시각화",
-          "body": "리플렉트는 설정 화면에서 Claude 대화 활동을 되돌아보게 한다. 언제 가장 많이 쓰는지, 어떤 유형의 작업에 시간을 썼는지 기간별로 나눠 보여준다."
-        },
-        {
-          "heading": "성찰을 유도하는 설계",
-          "body": "단순 통계에 그치지 않고 Claude가 삶에서 어떤 역할을 하는지 돌아보게 하는 질문을 던진다. 사용 시간이 자신의 목표와 맞는지 스스로 판단하도록 돕는 것이 목적이다."
-        }
-      ],
-      "quotes": []
-    },
-    "fetchedAt": "2026-07-10T00:10:46.309Z"
-  },
-  {
-    "id": "2421a78a2bf886f8",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "UST is bringing Claude to physical AI",
-    "url": "https://www.anthropic.com/news/ust-claude",
-    "publishedAt": "Wed, 08 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-coral\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"UST is bringing Claude to physical AI\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a recall. When AI does this kind of work, it’s called physical AI: intelligence built into the equipment and engineering processes that produce the things people use.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re partnering with <a href=\"https://www.ust.com/\">UST</a>, a technology and engineering services company that builds and runs the engineering environments its clients depend on to get chips, cars, and connected devices to market. UST is putting Claude to work inside those environments, and training 20,000 of its engineers, architects, and consultants on Claude worldwide.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"how-ust-is-putting-claude-into-the-production-processes-behind-physical-products\"><strong>How UST is putting Claude into the production processes behind physical products</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST works alongside semiconductor, automotive, manufacturing, telecom, embedded, and IoT companies. It builds the systems those companies use to verify their designs, validate their chips, run their factories, and service their products once they’re out in the world.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">These are long, multi-step processes where an early mistake gets more expensive with every step that follows. A design flaw caught during verification costs an engineer an afternoon; the same flaw caught after a factory has committed to manufacturing costs a production run.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is bringing Claude into this work. Claude Code reads the schematics and pinouts an engineer works from, then writes and runs the tests that check the design. It carries that task across many steps, holding the context of a design through hours-long tasks. UST is aiming to catch design flaws earlier, speed up chip validation, and bring hardware and software together in a single system.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The clearest example is a UST platform called iDEC, which its engineers use to validate hardware and silicon before it goes to production. Validation is the work of proving a chip actually behaves the way its designers intended, and it’s arduous: engineers write test scripts by hand, run them, read the results, and repeat the cycle many times over. UST reports that iDEC’s closed-loop pipeline,reads hardware designs, generates and runs regression tests, and compares live equipment data against its digital twin to flag issues early, already cuts validation cycle times by 50 to 70%, condensing standard four-day turnarounds into 48 hours.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is now integrating Claude into that pipeline as its reasoning layer. Claude Code reads chip pinouts and hardware schematics directly, then writes and runs regression tests—the checks that confirm a change to a design didn’t cause an unintended downstream effect—which engineers used to script by hand. Claude also compares the live data from real equipment against its digital twin—the software model of how that hardware is supposed to behave—and flags firmware regressions and signal-integrity faults. UST’s goal is to make its pipeline even faster, with less hand scripting and earlier fault detection, and no new tools for engineers to learn.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“Our alliance with Anthropic reflects UST’s unwavering commitment to helping clients navigate the AI landscape with confidence and achieve meaningful business outcomes. By combining the capabilities of Claude with UST’s engineering, industry knowledge, and delivery expertise, we are bringing to market industry-specific platforms and digital and engineering solutions that improve productivity, accelerate business outcomes, and help clients operationalize AI-led decisions in a safe and secure environment,” said Krishna Sudheendra, Chief Executive Officer, UST.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“UST helps the world’s banks, telecoms, and manufacturers put new technology to work. They’re proving Claude inside their own engineering first, and training 20,000 of their own people on it, before bringing it into the systems they build and run for clients,” said Paul Smith, Chief Commercial Officer, Anthropic.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"how-ust-is-putting-claude-into-healthcare-telecom-and-banking-systems\"><strong>How UST is putting Claude into healthcare, telecom, and banking systems</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is bringing Claude into three other platforms it operates for clients:</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><strong>In healthcare</strong>, insurers and providers use UST CarePath to run member services, care management, and claims. Claude connects CarePath directly to its underlying claims and care systems, and turns scattered health data into clear next steps for care teams. Every recommended action routes to a person for approval before it reaches a member, and it stays inside the data controls healthcare requires.</li><li><strong>In telecom</strong>, UST IntelliOps runs network operations. To keep networks up and running, teams work through the alerts that spot problems and outages, but this is a time-consuming process. Claude now helps operators spot service issues, predict failures in the radio access network (the towers and antennas that connect phones to the network), and shorten outages through response workflows, which a person still approves. For the teams watching the alerts, that means less time separating real problems from noise.</li><li><strong>In banking</strong>, most mid-sized institutions still run on core systems old enough that the ledger updates once a night rather than in real time. Banks often license these systems rather than own them, so every new product or integration means months of waiting for a vendor to make the change. UST FinX helps banks modernize progressively by solving immediate business and operational challenges while reducing the dependency on disruptive, high-risk transformation programs. FinX will use Claude to embed AI agents directly into bank workflows and processes, supporting both operations teams and customers through intelligent case handling, servicing automation, knowledge retrieval, workflow assistance, and decision support.</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"a-partnership-in-ai-adoption-and-training\"><strong>A partnership in AI adoption and training</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">UST is committing to train 20,000 of its associates on Claude worldwide, including engineers, architects, consultants, industry specialists, and forward-deployed engineers, who sit alongside client teams. It’s also building specialized teams to deploy Claude. We’re supporting UST in this effort with enablement, technical guidance, and certification through the Claude Partner Network. This partnership also makes UST a Global Premier Partner in the Claude Partner Network.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"pairing-reliability-safety-and-governance\"><strong>Pairing reliability, safety, and governance</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The industries UST serves are extremely high-stakes. Human approval steps and audit controls are important forms of governance that make it possible for the systems to run in production. The reliability and safety we’ve prioritized in building Claude, paired with UST’s experience in governance and regulated delivery, enables this work to move out of a pilot and into the systems that run a business.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "앤트로픽이 엔지니어링 서비스 기업 UST와 파트너십을 맺고 반도체·자동차·제조 등 '피지컬 AI' 영역에 클로드를 투입한다. UST는 칩 검증 플랫폼 iDEC에 Claude Code를 추론 레이어로 통합해 4일 걸리던 검증 사이클을 48시간(50~70% 단축)으로 줄였고, 전 세계 임직원 2만 명을 클로드로 교육할 계획이다. 헬스케어·통신·뱅킹 플랫폼에도 클로드 기반 에이전트를 확대 적용한다.",
-    "tags": [
-      "피지컬AI",
-      "엔터프라이즈",
-      "Claude Code"
-    ],
-    "entities": [
-      "Anthropic",
-      "UST",
-      "Claude Code",
-      "iDEC"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "앤트로픽이 UST와 파트너십을 맺고 클로드를 공장·설비·엔지니어링 공정에 내장되는 '피지컬 AI' 영역에 투입한다.",
-        "UST의 칩 검증 플랫폼 iDEC에 Claude Code가 추론 레이어로 통합돼 회로도·핀아웃을 직접 읽고 회귀 테스트를 작성·실행한다.",
-        "iDEC의 폐쇄 루프 파이프라인은 검증 사이클을 50~70% 단축해 4일 작업을 48시간으로 줄였다.",
-        "헬스케어(CarePath)·통신(IntelliOps)·뱅킹(FinX) 플랫폼에도 클로드 기반 에이전트를 확대하며, 모든 권고 액션은 사람 승인을 거친다.",
-        "UST는 임직원 2만 명을 클로드로 교육하고 Claude Partner Network의 글로벌 프리미어 파트너가 된다."
-      ],
-      "sections": [
-        {
-          "heading": "피지컬 AI란",
-          "body": "제품을 만들어내는 설비와 엔지니어링 공정에 내장되는 AI를 말한다. 칩 설계 검증처럼 초기 실수가 뒤로 갈수록 기하급수적으로 비싸지는 다단계 공정이 대상이다. 검증 단계에서 잡은 설계 결함은 엔지니어의 반나절이지만, 양산 후에 잡히면 생산 물량 전체의 손실이 된다."
-        },
-        {
-          "heading": "칩 검증 자동화",
-          "body": "엔지니어가 손으로 짜던 테스트 스크립트를 Claude Code가 대신 작성·실행한다. 하드웨어 설계를 읽고 회귀 테스트를 생성하며, 실제 장비 데이터를 디지털 트윈과 비교해 펌웨어 회귀와 신호 무결성 결함을 조기에 찾아낸다. 엔지니어가 새 도구를 배울 필요가 없다는 점을 강조한다."
-        },
-        {
-          "heading": "산업별 확장과 거버넌스",
-          "body": "헬스케어 보험 처리, 통신 네트워크 운영 알림 분류, 은행 코어 시스템 현대화까지 3개 플랫폼으로 확대한다. 고위험 규제 산업인 만큼 사람 승인 단계와 감사 통제를 전제로 하며, 이것이 파일럿을 넘어 실운영으로 가는 조건이라고 설명한다."
-        }
-      ],
-      "quotes": [
-        "검증 사이클 50~70% 단축 — 표준 4일 턴어라운드를 48시간으로",
-        "UST 임직원 2만 명을 클로드로 교육"
-      ]
-    },
-    "fetchedAt": "2026-07-11T00:15:07.076Z"
-  },
-  {
-    "id": "07610e55de6cc86b",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-    "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-    "publishedAt": "Wed, 08 Jul 2026 15:00:27 +0000",
-    "rawText": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x [&#8230;]",
-    "summaryKo": "NVIDIA의 오픈 모델 Nemotron 3 Ultra가 LangChain의 Deep Agents 하니스와 결합해 오픈 모델 중 최고 정확도를 기록했다. 최상위 폐쇄형 모델보다 낮은 비용으로 더 많은 작업을 더 높은 처리량으로 완료하며 약 10배의 처리 효율을 보였다고 밝혔다.",
-    "tags": [
-      "Nemotron",
-      "에이전트",
-      "오픈모델",
-      "LangChain"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Nemotron",
-      "LangChain"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "e00d55023af7c16f",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Our approach to government and national security partnerships",
-    "url": "https://openai.com/index/government-national-security-partnerships",
-    "publishedAt": "Wed, 08 Jul 2026 13:30:00 GMT",
-    "rawText": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-    "summaryKo": "OpenAI가 정부·국가안보 기관과의 협력에 대한 접근 원칙을 공개했다. 책임 있는 AI 사용, 민주적 책무성, 공공 안전을 핵심 원칙으로 내세우며 국가안보 영역에서 AI를 어떻게 도입할지에 대한 가이드라인을 제시한다.",
-    "tags": [
-      "AI 정책",
-      "국가안보",
-      "거버넌스"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "e9167e656930e3f1",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Separating signal from noise in coding evaluations",
-    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "publishedAt": "Wed, 08 Jul 2026 13:00:00 GMT",
-    "rawText": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-    "summaryKo": "OpenAI가 널리 쓰이는 코딩 벤치마크 SWE-Bench Pro의 신뢰성 문제를 분석해 공개했다. 벤치마크 자체에 정확성·신뢰성을 떨어뜨리는 결함이 있어 AI 코딩 모델 성능 평가 결과를 그대로 믿기 어렵다는 점을 지적한다.",
-    "tags": [
-      "벤치마크",
-      "코딩 평가",
-      "SWE-Bench"
-    ],
-    "entities": [
-      "OpenAI",
-      "SWE-Bench Pro"
-    ],
-    "cats": [
-      "코딩·개발",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "3447f8d32f7ed63d",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Helping K–12 educators build practical AI skills",
-    "url": "https://openai.com/index/k-12-educators-practical-skills",
-    "publishedAt": "Wed, 08 Jul 2026 10:00:00 GMT",
-    "rawText": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-    "summaryKo": "OpenAI Academy와 월튼 패밀리 재단이 K-12 교사들의 실무 AI 역량을 키우기 위한 실습 프로그램 'AI Skills Jams'를 시작한다. 교실에서 바로 활용할 수 있는 AI 활용법을 교사들에게 직접 체험시키는 것이 목표다.",
-    "tags": [
-      "AI 교육",
-      "교사",
-      "OpenAI Academy"
-    ],
-    "entities": [
-      "OpenAI",
-      "Walton Family Foundation"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-09T00:11:57.013Z"
-  },
-  {
-    "id": "00602fcf9cc6ef65",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "일리야 서츠케버 추천 AI 핵심 논문 목록 요약",
-    "url": "https://news.hada.io/topic?id=31224",
-    "publishedAt": "2026-07-08T09:33:20+09:00",
-    "rawText": "요약 개요 이 게시글은 일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 목록을 정리한 프로젝트이다. 원래 30개 논문 목록으로 알려졌지만, 현재 웹사이트에는 27개 항목만 정리되어 있다. 목록은 딥러닝, 컴퓨터 비전, 순차 모델링, 어텐션, 트랜스포머, 그래프 신...",
-    "summaryKo": "일리야 서츠케버가 존 카맥에게 추천했다고 알려진 AI 핵심 논문 목록을 정리한 프로젝트다. 원래 30개로 알려졌으나 현재 웹사이트에는 27개 항목이 딥러닝·컴퓨터 비전·어텐션·트랜스포머 등으로 정리돼 있다. AI 기초를 다지려는 학습자에게 커리큘럼 역할을 한다는 점에서 주목받는다.",
-    "tags": [
-      "딥러닝",
-      "트랜스포머",
-      "어텐션",
-      "논문"
-    ],
-    "entities": [
-      "일리야 서츠케버",
-      "존 카맥"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "일리야 서츠케버가 존 카맥에게 추천했다고 전해지는 AI 핵심 논문 목록을 정리한 프로젝트다.",
-        "원래 30개 논문으로 알려졌으나 현재 사이트에는 27개 항목이 정리돼 있다.",
-        "딥러닝, 컴퓨터 비전, 순차 모델링, 어텐션, 트랜스포머, 그래프 신경망 등 분야를 아우른다.",
-        "AI 기초 이론을 체계적으로 학습하려는 사람에게 커리큘럼처럼 활용될 수 있다."
-      ],
-      "sections": [
-        {
-          "heading": "목록의 배경",
-          "body": "이 목록은 일리야 서츠케버가 존 카맥에게 AI를 이해하기 위해 읽어야 할 핵심 논문으로 추천했다고 알려진 것을 정리한 프로젝트다. 원래 30개 논문으로 회자됐지만 실제 웹사이트에는 27개 항목이 담겨 있다."
-        },
-        {
-          "heading": "다루는 분야",
-          "body": "목록은 딥러닝을 필두로 컴퓨터 비전, 순차 모델링, 어텐션, 트랜스포머, 그래프 신경망 등 현대 AI의 근간이 된 주제들을 포괄한다. 트랜스포머 이전과 이후의 흐름을 함께 짚을 수 있도록 구성됐다."
-        }
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "8ab76e5253976cb3",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "no-mistakes - git push 할 때 실수를 방지하기",
-    "url": "https://news.hada.io/topic?id=31223",
-    "publishedAt": "2026-07-08T09:31:02+09:00",
-    "rawText": "실제 remote 앞에 로컬 git 프록시를 둬서, origin 대신 no-mistakes로 push하면 검증을 거쳐 깔끔한 PR을 자동 생성 push 시 일회용 worktree를 띄워 AI 기반 검증 파이프라인을 review → te...",
-    "summaryKo": "실제 remote 앞에 로컬 git 프록시를 두어, origin 대신 no-mistakes로 push하면 검증을 거쳐 깔끔한 PR을 자동 생성하는 도구다. push 시 일회용 worktree를 띄워 AI 기반 검증 파이프라인(review→test)을 돌린다. 실수를 사전에 걸러 협업 품질을 높이려는 접근이다.",
-    "tags": [
-      "git",
-      "코드리뷰",
-      "CI",
-      "자동화"
-    ],
-    "entities": [
-      "no-mistakes"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "실제 remote 앞에 로컬 git 프록시를 두는 구조로 동작한다.",
-        "origin 대신 no-mistakes로 push하면 검증을 거쳐 깔끔한 PR을 자동 생성한다.",
-        "push 시 일회용 worktree를 띄워 AI 기반 검증 파이프라인을 실행한다.",
-        "review와 test 단계를 거쳐 실수를 사전에 걸러낸다."
-      ],
-      "sections": [
-        {
-          "heading": "동작 방식",
-          "body": "no-mistakes는 실제 remote 앞에 로컬 git 프록시를 배치해, 개발자가 origin이 아닌 no-mistakes로 push하도록 한다. 이때 일회용 worktree를 새로 띄워 격리된 환경에서 검증을 수행한다."
-        },
-        {
-          "heading": "검증 파이프라인",
-          "body": "push된 변경은 review와 test로 이어지는 AI 기반 검증 파이프라인을 통과한 뒤 깔끔한 PR로 자동 생성된다. 사람이 놓치기 쉬운 실수를 push 시점에 걸러내 협업 품질을 높이려는 의도다."
-        }
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "7c6c67f44a4ba22f",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "China Is About to Pop the AI Bubble [video]",
-    "url": "https://www.youtube.com/watch?v=siazPdsZHuI",
-    "publishedAt": "Wed, 08 Jul 2026 00:26:29 +0000",
-    "rawText": "Article URL: https://www.youtube.com/watch?v=siazPdsZHuI Comments URL: https://news.ycombinator.com/item?id=48825869 Points: 1 # Comments: 0",
-    "summaryKo": "중국이 AI 버블을 터뜨릴 것이라는 주장을 담은 유튜브 영상이다. 본문 확보가 불가한 영상 자료라 제목 기반으로만 정리한다.",
-    "tags": [
-      "AI 버블",
-      "중국"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "f3d53734abc6c091",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "더 건강한 Clippy를 위한 공동 리뷰 제안",
-    "url": "https://news.hada.io/topic?id=31222",
-    "publishedAt": "2026-07-08T09:09:55+09:00",
-    "rawText": "Rust 린터 Clippy는 최근 몇 달간 풀 리퀘스트 리뷰 병목을 겪고 있어, 기여자들이 서로의 변경을 먼저 살펴보는 공동 리뷰 절차를 도입함 유지보수 작업에 자금 지원을 받는 Clippy 팀원이 없어, 리뷰와 관리 부담이 메인테이너의 자유 시간에 집중되고 번아웃 위...",
-    "summaryKo": "Rust 린터 Clippy가 풀 리퀘스트 리뷰 병목을 겪으면서, 기여자들이 서로의 변경을 먼저 살펴보는 공동 리뷰 절차를 도입했다. 유지보수에 자금 지원을 받는 팀원이 없어 리뷰 부담이 메인테이너의 자유 시간에 집중되고 번아웃 위험이 커진 상황이 배경이다. 오픈소스 유지보수의 지속가능성 문제를 보여준다.",
-    "tags": [
-      "Rust",
-      "린터",
-      "오픈소스",
-      "코드리뷰"
-    ],
-    "entities": [
-      "Clippy",
-      "Rust"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Rust 린터 Clippy가 최근 몇 달간 풀 리퀘스트 리뷰 병목을 겪고 있다.",
-        "기여자들이 서로의 변경을 먼저 살펴보는 공동 리뷰 절차를 도입했다.",
-        "유지보수 작업에 자금 지원을 받는 팀원이 없는 구조적 한계가 있다.",
-        "리뷰와 관리 부담이 메인테이너의 자유 시간에 집중돼 번아웃 위험이 크다."
-      ],
-      "sections": [
-        {
-          "heading": "리뷰 병목 문제",
-          "body": "Clippy는 최근 몇 달간 풀 리퀘스트가 쌓이며 리뷰 병목을 겪었다. 이를 완화하기 위해 기여자들이 서로의 변경을 먼저 검토하는 공동 리뷰 절차를 도입했다."
-        },
-        {
-          "heading": "지속가능성의 한계",
-          "body": "유지보수 작업에 자금 지원을 받는 팀원이 없어, 리뷰와 관리 부담이 메인테이너가 개인 자유 시간에 처리하는 형태로 집중된다. 이는 번아웃 위험을 키우는 오픈소스 유지보수의 구조적 문제를 드러낸다."
-        }
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
-  },
-  {
-    "id": "c5eb776d4bab3255",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Google, 기후를 위협하는 디지털 비대화의 지수적 경로",
-    "url": "https://news.hada.io/topic?id=31221",
-    "publishedAt": "2026-07-08T09:06:55+09:00",
-    "rawText": "Google의 최신 기후 보고서에서 총 전력 소비가 2024년 31TWh에서 2025년 43TWh로 뛰며, 생성형 AI 확장이 빅테크의 에너지 수요를 얼마나 빠르게 키우는지 드러남 2023~2024년 증가폭 7TWh에 이어 2024~2025년에는 12TWh가 늘어, 소비량뿐 아니라...",
-    "summaryKo": "Google 최신 기후 보고서에서 총 전력 소비가 2024년 31TWh에서 2025년 43TWh로 급증하며, 생성형 AI 확장이 빅테크 에너지 수요를 얼마나 빠르게 키우는지 드러났다. 증가폭도 7TWh(2023~2024)에서 12TWh(2024~2025)로 커져 지수적 경로를 보인다. AI 성장과 기후 부담의 상충을 보여주는 신호다.",
-    "tags": [
-      "데이터센터",
-      "전력소비",
-      "지속가능성",
-      "생성형AI"
-    ],
-    "entities": [
-      "Google"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "analysis": {
-      "points": [
-        "Google 총 전력 소비가 2024년 31TWh에서 2025년 43TWh로 뛰었다.",
-        "증가폭이 2023~2024년 7TWh에서 2024~2025년 12TWh로 커졌다.",
-        "소비량뿐 아니라 증가 속도 자체가 빨라지는 지수적 경로를 보인다.",
-        "생성형 AI 확장이 빅테크 에너지 수요를 급격히 키우고 있음을 보여준다."
-      ],
-      "sections": [
-        {
-          "heading": "전력 소비 급증",
-          "body": "Google 최신 기후 보고서에 따르면 총 전력 소비가 2024년 31TWh에서 2025년 43TWh로 뛰었다. 생성형 AI 확장이 데이터센터 에너지 수요를 얼마나 빠르게 끌어올리는지를 수치로 보여준다."
-        },
-        {
-          "heading": "지수적 증가 경로",
-          "body": "연간 증가폭이 2023~2024년 7TWh에서 2024~2025년 12TWh로 커지며, 소비 총량뿐 아니라 증가 속도 자체가 가팔라지고 있다. 이는 AI 성장과 기후 부담이 충돌하는 지수적 경로를 시사한다."
-        }
-      ],
-      "quotes": [
-        "총 전력 소비 2024년 31TWh → 2025년 43TWh",
-        "연간 증가폭 7TWh → 12TWh"
-      ]
-    },
-    "fetchedAt": "2026-07-08T00:58:17.215Z"
   }
 ]
