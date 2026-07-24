@@ -7,20 +7,21 @@
     "url": "https://github.com/DietrichGebert/ponytail",
     "publishedAt": "2026-06-12T00:52:37Z",
     "rawText": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "score": 88379,
+    "score": 88940,
     "lang": "JavaScript",
     "rank": 1,
-    "summaryKo": "Ponytail은 AI 코딩 에이전트가 '방 안에서 가장 게으른 시니어 개발자'처럼 사고하도록 만드는 도구다. 불필요한 코드를 쓰지 않는 것이 최선이라는 철학 아래 과도한 추상화와 보일러플레이트를 줄이도록 유도한다.",
+    "summaryKo": "AI 코딩 에이전트가 '방 안에서 가장 게으른 시니어 개발자'처럼 사고하도록 만드는 도구로, 작성하지 않은 코드가 최고의 코드라는 원칙 아래 불필요한 추상화와 보일러플레이트를 줄이는 것을 목표로 한다.",
     "tags": [
       "AI코딩에이전트",
       "프롬프트엔지니어링"
     ],
     "entities": [],
     "cats": [
-      "코딩·개발"
+      "코딩·개발",
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "b7884da985bf42b8",
@@ -30,9 +31,9 @@
     "url": "https://huggingface.co/baidu/Unlimited-OCR",
     "publishedAt": "2026-06-19T09:40:33.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language, ocr, custom_code",
-    "score": 785,
+    "score": 878,
     "rank": 1,
-    "summaryKo": "baidu/Unlimited-OCR은 바이두가 공개한 이미지-텍스트 변환(OCR) 비전-언어 모델이다.",
+    "summaryKo": "바이두가 공개한 이미지-텍스트 비전언어 모델로, 길이 제한 없는 OCR(광학문자인식) 작업에 특화됐다.",
     "tags": [
       "OCR",
       "비전언어모델"
@@ -41,10 +42,11 @@
       "Baidu"
     ],
     "cats": [
-      "멀티모달"
+      "멀티모달",
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -54,12 +56,13 @@
     "url": "https://github.com/XiaomiMiMo/MiMo-Code",
     "publishedAt": "2026-06-10T11:52:41Z",
     "rawText": "MiMo Code: Where Models and Agents Co-Evolve",
-    "score": 12374,
+    "score": 12405,
     "lang": "TypeScript",
     "rank": 2,
-    "summaryKo": "샤오미가 공개한 MiMo Code는 모델과 에이전트가 함께 진화하는 것을 목표로 하는 AI 코딩 에이전트 프로젝트다.",
+    "summaryKo": "샤오미의 MiMo 팀이 공개한 코딩 에이전트 프로젝트로, 모델과 에이전트가 함께 진화(co-evolve)하는 것을 목표로 한다.",
     "tags": [
-      "AI코딩에이전트"
+      "코딩모델",
+      "AI에이전트"
     ],
     "entities": [
       "Xiaomi",
@@ -70,57 +73,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
-  },
-  {
-    "id": "24359eb3a228345a",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "thinkingmachines/Inkling",
-    "url": "https://huggingface.co/thinkingmachines/Inkling",
-    "publishedAt": "2026-07-14T13:23:14.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, inkling_mm_model, image-text-to-text, conversational, audio-text-to-text, moe, license:apache-2.0",
-    "score": 638,
-    "rank": 2,
-    "summaryKo": "Thinking Machines가 공개한 Inkling은 이미지·오디오·텍스트를 함께 처리하는 MoE 기반 멀티모달 대화형 모델이다.",
-    "tags": [
-      "멀티모달",
-      "MoE"
-    ],
-    "entities": [
-      "Thinking Machines",
-      "Inkling"
-    ],
-    "cats": [
-      "멀티모달",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
-  },
-  {
-    "id": "f465bd989015fa8e",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "cobusgreyling/loop-engineering",
-    "url": "https://github.com/cobusgreyling/loop-engineering",
-    "publishedAt": "2026-06-09T06:28:20Z",
-    "rawText": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
-    "score": 9245,
-    "lang": "JavaScript",
-    "rank": 3,
-    "summaryKo": "loop-engineering은 AI 코딩 에이전트를 위한 루프 엔지니어링 실전 패턴·스타터·CLI 도구 모음이다. Addy Osmani와 Boris Cherny의 아이디어에서 영감을 받아 에이전트를 프롬프트하고 오케스트레이션하는 시스템을 설계하며, loop-audit·loop-init·loop-cost 같은 도구를 포함한다.",
-    "tags": [
-      "루프엔지니어링",
-      "AI코딩에이전트"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "54a99b8d75a837cc",
@@ -130,22 +83,70 @@
     "url": "https://huggingface.co/poolside/Laguna-S-2.1",
     "publishedAt": "2026-07-13T13:58:35.000Z",
     "rawText": "text-generation | transformers, safetensors, laguna, text-generation, laguna-s-2.1, vllm, conversational, custom_code",
-    "score": 494,
-    "rank": 3,
-    "summaryKo": "poolside가 공개한 Laguna-S-2.1은 vLLM을 지원하는 텍스트 생성 대화형 언어모델이다.",
+    "score": 583,
+    "rank": 2,
+    "summaryKo": "AI 코딩 스타트업 poolside가 공개한 텍스트 생성 모델 Laguna 시리즈의 신버전으로, vLLM 등에서 대화형(conversational) 용도로 사용할 수 있다.",
     "tags": [
-      "LLM",
-      "텍스트생성"
+      "텍스트생성",
+      "코딩모델"
     ],
     "entities": [
-      "poolside",
-      "Laguna-S-2.1"
+      "Poolside"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
+  },
+  {
+    "id": "f465bd989015fa8e",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "cobusgreyling/loop-engineering",
+    "url": "https://github.com/cobusgreyling/loop-engineering",
+    "publishedAt": "2026-06-09T06:28:20Z",
+    "rawText": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+    "score": 9335,
+    "lang": "JavaScript",
+    "rank": 3,
+    "summaryKo": "AI 코딩 에이전트를 위한 '루프 엔지니어링' 실전 패턴과 CLI 도구 모음으로, loop-audit·loop-init·loop-cost 등을 통해 에이전트 프롬프트 설계와 오케스트레이션 시스템 구축을 돕는다.",
+    "tags": [
+      "루프엔지니어링",
+      "에이전트오케스트레이션"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
+  },
+  {
+    "id": "24359eb3a228345a",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "thinkingmachines/Inkling",
+    "url": "https://huggingface.co/thinkingmachines/Inkling",
+    "publishedAt": "2026-07-14T13:23:14.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, inkling_mm_model, image-text-to-text, conversational, audio-text-to-text, moe, license:apache-2.0",
+    "score": 523,
+    "rank": 3,
+    "summaryKo": "Thinking Machines가 공개한 이미지·오디오까지 다루는 멀티모달 MoE(전문가 혼합) 모델로, Apache 2.0 라이선스로 배포됐다.",
+    "tags": [
+      "멀티모달모델",
+      "MoE"
+    ],
+    "entities": [
+      "Thinking Machines"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "c53347638b893177",
@@ -155,13 +156,13 @@
     "url": "https://github.com/omnigent-ai/omnigent",
     "publishedAt": "2026-06-11T12:18:13Z",
     "rawText": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-    "score": 7677,
+    "score": 7715,
     "lang": "Python",
     "rank": 4,
-    "summaryKo": "Omnigent는 Claude Code, Codex, Cursor, Pi 등 다양한 AI 코딩 에이전트를 오케스트레이션하는 오픈소스 메타 하네스다. 하네스를 갈아끼워도 코드를 다시 쓸 필요 없이 정책·샌드박싱을 강제하고 여러 기기에서 실시간 협업할 수 있다.",
+    "summaryKo": "Claude Code, Codex, Cursor, Pi 등 다양한 에이전트 하네스를 재작성 없이 교체하며 오케스트레이션할 수 있는 오픈소스 메타 하네스 프레임워크로, 정책 강제와 샌드박싱, 실시간 협업 기능을 제공한다.",
     "tags": [
-      "에이전트오케스트레이션",
-      "메타하네스"
+      "멀티에이전트",
+      "에이전트오케스트레이션"
     ],
     "entities": [
       "Claude Code",
@@ -173,32 +174,32 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
-    "id": "119fbb733ed272a0",
+    "id": "f16dbde15779b059",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-    "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-    "publishedAt": "2026-07-17T00:27:17.000Z",
-    "rawText": "image-text-to-text | gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants",
-    "score": 373,
+    "title": "upstage/Solar-Open2-250B",
+    "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+    "publishedAt": "2026-07-22T02:40:42.000Z",
+    "rawText": "text-generation | transformers, safetensors, solar_open2, text-generation, upstage, solar, moe, llm",
+    "score": 458,
     "rank": 4,
-    "summaryKo": "DavidAU가 공개한 Qwen3.6-27B 기반 파인튜닝·GGUF 양자화 모델로, Heretic 기법으로 검열을 해제(uncensored)한 버전이다.",
+    "summaryKo": "업스테이지가 공개한 2500억 파라미터급 MoE 대형언어모델 Solar-Open2로, 텍스트 생성에 특화된 대규모 오픈 모델이다.",
     "tags": [
-      "LLM",
-      "파인튜닝",
-      "GGUF"
+      "대형언어모델",
+      "MoE"
     ],
     "entities": [
-      "Qwen3.6"
+      "Upstage",
+      "Solar"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "c47cbc7eb3e22410",
@@ -208,48 +209,74 @@
     "url": "https://github.com/lidge-jun/opencodex",
     "publishedAt": "2026-06-18T23:03:18Z",
     "rawText": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
-    "score": 4096,
+    "score": 4501,
     "lang": "TypeScript",
     "rank": 5,
-    "summaryKo": "opencodex는 OpenAI Codex와 Claude Code를 위한 범용 프로바이더 프록시로, Codex CLI·앱·SDK와 Claude Code에서 Claude·Gemini·Grok·DeepSeek·Ollama 등 원하는 LLM을 사용할 수 있게 해준다.",
+    "summaryKo": "OpenAI Codex와 Claude Code를 위한 범용 프로바이더 프록시로, Claude·Gemini·Grok·DeepSeek·Ollama 등 다양한 LLM을 Codex CLI/앱/SDK와 Claude Code에서 그대로 사용할 수 있게 해준다.",
     "tags": [
       "LLM프록시",
-      "Codex",
-      "Claude Code"
+      "코딩에이전트"
     ],
     "entities": [
-      "Codex",
-      "Claude Code"
+      "OpenAI Codex",
+      "Claude Code",
+      "Gemini",
+      "Grok",
+      "DeepSeek"
     ],
     "cats": [
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
-    "id": "27ffa53840f08319",
+    "id": "119fbb733ed272a0",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "prism-ml/Ternary-Bonsai-27B-gguf",
-    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
-    "publishedAt": "2026-07-04T00:24:01.000Z",
-    "rawText": "text-generation | llama.cpp, gguf, conversational, ternary, 2-bit, llama-cpp, cuda, metal",
-    "score": 364,
+    "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+    "publishedAt": "2026-07-17T00:27:17.000Z",
+    "rawText": "image-text-to-text | gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants",
+    "score": 431,
     "rank": 5,
-    "summaryKo": "prism-ml이 공개한 Ternary-Bonsai-27B-gguf는 llama.cpp에서 구동 가능한 2비트 삼진(ternary) 양자화 텍스트 생성 모델이다.",
+    "summaryKo": "Qwen3.6 27B를 기반으로 파인튜닝·검열 해제(uncensored/abliterated)한 커뮤니티 GGUF 양자화 모델로, MTP(Multi-Token Prediction) 방식 양자화 버전으로 배포됐다.",
     "tags": [
-      "양자화모델",
-      "GGUF"
+      "오픈소스LLM",
+      "파인튜닝"
     ],
     "entities": [
-      "prism-ml"
+      "Qwen3.6"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
+  },
+  {
+    "id": "bfe0483cd8b4301a",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "hoainho/img2threejs",
+    "url": "https://github.com/hoainho/img2threejs",
+    "publishedAt": "2026-07-15T02:58:39Z",
+    "rawText": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+    "score": 3950,
+    "lang": "Python",
+    "rank": 6,
+    "summaryKo": "참조 이미지 속 객체를 코드만으로 재구성해 절차적이고 품질 검증이 가능한 애니메이션용 Three.js 3D 모델로 변환하는 토큰 효율적인 이미지-투-3D 도구다.",
+    "tags": [
+      "이미지투3D",
+      "Three.js"
+    ],
+    "entities": [],
+    "cats": [
+      "멀티모달",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "b138a25ed2560f3b",
@@ -302,29 +329,28 @@
     "fetchedAt": "2026-07-19T21:00:29.824Z"
   },
   {
-    "id": "f16dbde15779b059",
+    "id": "568a9197a9aeb3f1",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "upstage/Solar-Open2-250B",
-    "url": "https://huggingface.co/upstage/Solar-Open2-250B",
-    "publishedAt": "2026-07-22T02:40:42.000Z",
-    "rawText": "text-generation | transformers, safetensors, solar_open2, text-generation, upstage, solar, moe, llm",
-    "score": 350,
+    "title": "Nanbeige/Nanbeige4.2-3B",
+    "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+    "publishedAt": "2026-07-21T08:39:03.000Z",
+    "rawText": "text-generation | transformers, safetensors, nanbeige, text-generation, llm, conversational, custom_code, en",
+    "score": 359,
     "rank": 6,
-    "summaryKo": "업스테이지가 공개한 Solar-Open2-250B는 MoE 구조의 대형 텍스트 생성 언어모델이다.",
+    "summaryKo": "중국 Nanbeige 팀이 공개한 30억 파라미터급 소형 텍스트 생성 언어모델이다.",
     "tags": [
-      "LLM",
-      "MoE"
+      "소형언어모델",
+      "LLM"
     ],
     "entities": [
-      "Upstage",
-      "Solar"
+      "Nanbeige"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "be793f916139b4f2",
@@ -334,10 +360,10 @@
     "url": "https://github.com/inkeep/open-knowledge",
     "publishedAt": "2026-06-03T11:12:40Z",
     "rawText": "Beautiful, AI-native markdown IDE and LLM wiki",
-    "score": 3091,
+    "score": 3109,
     "lang": "TypeScript",
     "rank": 7,
-    "summaryKo": "open-knowledge는 AI 네이티브 마크다운 IDE이자 LLM 위키 도구다.",
+    "summaryKo": "AI 네이티브 마크다운 IDE이자 LLM 위키로, 문서 작성과 지식 관리를 AI와 함께 수행할 수 있도록 설계됐다.",
     "tags": [
       "LLM위키",
       "마크다운IDE"
@@ -347,7 +373,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "8c1a63064bfb749f",
@@ -373,27 +399,28 @@
     "fetchedAt": "2026-07-21T21:09:24.983Z"
   },
   {
-    "id": "568a9197a9aeb3f1",
+    "id": "27ffa53840f08319",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Nanbeige/Nanbeige4.2-3B",
-    "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
-    "publishedAt": "2026-07-21T08:39:03.000Z",
-    "rawText": "text-generation | transformers, safetensors, nanbeige, text-generation, llm, conversational, custom_code, en",
-    "score": 305,
+    "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+    "publishedAt": "2026-07-04T00:24:01.000Z",
+    "rawText": "text-generation | llama.cpp, gguf, conversational, ternary, 2-bit, llama-cpp, cuda, metal",
+    "score": 310,
     "rank": 7,
-    "summaryKo": "Nanbeige4.2-3B는 Nanbeige가 공개한 경량(3B) 텍스트 생성 언어모델이다.",
+    "summaryKo": "prism-ml이 공개한 270억 파라미터 모델을 2비트 삼진(ternary) 양자화해 llama.cpp에서 CUDA/Metal로 구동할 수 있게 만든 경량화 GGUF 모델이다.",
     "tags": [
-      "경량LLM"
+      "양자화모델",
+      "온디바이스LLM"
     ],
     "entities": [
-      "Nanbeige"
+      "prism-ml"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "d9f49e336e714662",
@@ -427,21 +454,20 @@
     "url": "https://github.com/nolangz/pixel2motion",
     "publishedAt": "2026-06-12T04:25:17Z",
     "rawText": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
-    "score": 1738,
+    "score": 1744,
     "lang": "Python",
     "rank": 8,
-    "summaryKo": "pixel2motion은 래스터 로고를 부드러운 SVG 애니메이션, 애니메이션 HTML 데모, GIF·영상 미리보기, 모션 QA 증거물로 변환해주는 AI 로고 애니메이션 스킬이다.",
+    "summaryKo": "래스터 로고 이미지를 매끄러운 SVG 애니메이션, HTML 데모, GIF/영상 미리보기, 모션 QA 증거물로 자동 변환하는 AI 로고 애니메이션 스킬이다.",
     "tags": [
       "로고애니메이션",
-      "AI에이전트스킬"
+      "이미지생성"
     ],
     "entities": [],
     "cats": [
-      "멀티모달",
-      "코딩·개발"
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "ea2970d8679d2d55",
@@ -474,22 +500,22 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2",
     "publishedAt": "2026-06-16T07:39:20.000Z",
     "rawText": "text-generation | transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763",
-    "score": 278,
+    "score": 284,
     "rank": 8,
-    "summaryKo": "z.ai(Zhipu AI)가 공개한 GLM-5.2는 MoE 구조를 사용하는 대화형 텍스트 생성 언어모델로 영어·중국어를 지원한다.",
+    "summaryKo": "Z.ai(즈푸AI)가 공개한 최신 대형언어모델 GLM-5.2로, 영어·중국어를 지원하며 새로운 MoE 어텐션 구조(DSA)를 적용했다.",
     "tags": [
-      "LLM",
+      "대형언어모델",
       "MoE"
     ],
     "entities": [
-      "Zhipu AI",
+      "Z.ai",
       "GLM-5.2"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "459b6a0a801b4b76",
@@ -524,23 +550,23 @@
     "url": "https://github.com/kadevin/ilab-conjure",
     "publishedAt": "2026-06-08T08:20:30Z",
     "rawText": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-compatible API support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management.",
-    "score": 645,
+    "score": 646,
     "lang": "JavaScript",
     "rank": 9,
-    "summaryKo": "ilab-conjure는 GPT-image-2 기반 AI 이미지 생성 웹UI 워크벤치로, Codex Responses 및 OpenAI 호환 API 연동을 지원한다. 공용 이미지 갤러리, 다양한 유형의 빠른 칩 참조, 프롬프트 템플릿, 다중 작업 동시 처리, 로컬 큐 관리 기능을 내장하고 있다.",
+    "summaryKo": "GPT-image-2 기반 AI 이미지 생성 웹UI 작업대로, Codex Responses 및 OpenAI 호환 API 연동, 공용 이미지 갤러리, 프롬프트 템플릿, 다중 작업 동시 처리와 로컬 큐 관리 기능을 제공한다.",
     "tags": [
-      "AI이미지생성",
-      "GPT-image-2"
+      "이미지생성",
+      "웹UI"
     ],
     "entities": [
       "GPT-image-2",
-      "Codex"
+      "OpenAI"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "84d0bed60df95acc",
@@ -576,12 +602,12 @@
     "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
     "publishedAt": "2026-07-04T00:24:38.000Z",
     "rawText": "text-generation | llama.cpp, gguf, conversational, 1-bit, llama-cpp, cuda, metal, on-device",
-    "score": 265,
+    "score": 225,
     "rank": 9,
-    "summaryKo": "prism-ml이 공개한 Bonsai-27B-gguf는 온디바이스 구동을 겨냥한 1비트 초경량 양자화 텍스트 생성 모델이다.",
+    "summaryKo": "prism-ml이 공개한 270억 파라미터 모델을 1비트까지 양자화해 온디바이스에서 llama.cpp로 구동할 수 있게 만든 초경량 GGUF 모델이다.",
     "tags": [
       "양자화모델",
-      "온디바이스"
+      "온디바이스LLM"
     ],
     "entities": [
       "prism-ml"
@@ -590,7 +616,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "a39f24d11ba4154e",
@@ -649,21 +675,45 @@
     "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
     "publishedAt": "2026-06-30T14:34:58Z",
     "rawText": "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file.",
-    "score": 518,
+    "score": 530,
     "lang": "TypeScript",
     "rank": 10,
-    "summaryKo": "Orkas-VideoStudio는 코딩 에이전트를 영상 스튜디오로 바꿔주는 프로젝트로, 자연어로 영상을 설명하면 에이전트가 타임라인을 작성하고 실제 영상 파일을 만들어준다.",
+    "summaryKo": "코딩 에이전트를 영상 제작 스튜디오로 바꿔주는 도구로, 자연어로 영상을 설명하면 에이전트가 타임라인을 작성하고 영상 파일을 직접 생성한다.",
     "tags": [
-      "AI영상생성",
-      "코딩에이전트"
+      "영상생성",
+      "AI에이전트"
     ],
     "entities": [],
     "cats": [
       "멀티모달",
-      "코딩·개발"
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
+  },
+  {
+    "id": "fef6cadb37fbc1bb",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "microsoft/Mage-Flow",
+    "url": "https://huggingface.co/microsoft/Mage-Flow",
+    "publishedAt": "2026-07-21T10:57:40.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, text-to-image, image-generation, image-editing, diffusion, rectified-flow, mage-flow",
+    "score": 219,
+    "rank": 10,
+    "summaryKo": "마이크로소프트가 공개한 정류 흐름(rectified-flow) 기반 텍스트-이미지 생성·편집 디퓨전 모델이다.",
+    "tags": [
+      "이미지생성",
+      "디퓨전모델"
+    ],
+    "entities": [
+      "Microsoft"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "bc159a7cfec7bda3",
@@ -747,23 +797,48 @@
     "url": "https://github.com/0xsline/OpenChatCut",
     "publishedAt": "2026-07-15T02:49:42Z",
     "rawText": "Local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion-powered rendering.",
-    "score": 440,
+    "score": 470,
     "lang": "TypeScript",
     "rank": 11,
-    "summaryKo": "OpenChatCut은 로컬 우선 대화형 AI 영상 편집기로, 전문가급 멀티트랙 타임라인과 Agent Skills·MCP 연동, Remotion 기반 렌더링을 제공한다.",
+    "summaryKo": "전문가용 멀티트랙 타임라인과 Agent Skills, MCP 연동, Remotion 기반 렌더링을 갖춘 로컬 우선 대화형 AI 영상 편집기다.",
     "tags": [
-      "AI영상편집",
+      "영상편집",
       "MCP"
     ],
     "entities": [
       "Remotion"
     ],
     "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
+  },
+  {
+    "id": "a1c19b4f6ea2b935",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "nexu-io/codex-slides",
+    "url": "https://github.com/nexu-io/codex-slides",
+    "publishedAt": "2026-07-10T10:14:34Z",
+    "rawText": "🎨 Open-source AI slide studio inside Codex: image-native decks, every slide a full visual canvas. ⚡ 10+ high-quality slides in ~4–5 minutes — Fast mode renders every page in parallel. 🔍 Watch the whole chain live: research → outline → style → render → edit → present → export PDF/PPTX. 🖥️ Browser-first · zero API keys · durable projects.",
+    "score": 463,
+    "lang": "TypeScript",
+    "rank": 12,
+    "summaryKo": "Codex 안에서 동작하는 오픈소스 AI 슬라이드 제작 도구로, 리서치·개요·스타일·렌더링·편집·발표·PDF/PPTX 내보내기까지 전 과정을 병렬 렌더링으로 4~5분 만에 10장 이상의 이미지 네이티브 슬라이드로 완성한다.",
+    "tags": [
+      "슬라이드생성",
+      "Codex"
+    ],
+    "entities": [
+      "Codex"
+    ],
+    "cats": [
       "멀티모달",
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
+    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "9b77e1ca7eb19811",
