@@ -24,7 +24,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "b7884da985bf42b8",
@@ -49,7 +49,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -76,7 +76,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "54a99b8d75a837cc",
@@ -100,7 +100,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "f465bd989015fa8e",
@@ -124,7 +124,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "f16dbde15779b059",
@@ -148,7 +148,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "c53347638b893177",
@@ -176,7 +176,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "119fbb733ed272a0",
@@ -200,7 +200,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "c47cbc7eb3e22410",
@@ -226,7 +226,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "24359eb3a228345a",
@@ -251,7 +251,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "a6d644ce74e5595b",
@@ -275,7 +275,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "bfe0483cd8b4301a",
@@ -326,32 +326,6 @@
     "fetchedAt": "2026-07-23T21:10:19.564Z"
   },
   {
-    "id": "435dba8833e1ef80",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
-    "publishedAt": "2026-05-25T07:56:45Z",
-    "rawText": "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex.",
-    "score": 2822,
-    "lang": "TypeScript",
-    "rank": 6,
-    "summaryKo": "복잡한 코드베이스를 위한 Codex 기반 에이전트 하네스 'lazycodex'로, 프로젝트 메모리·계획·실행·검증된 완료까지 지원한다.",
-    "tags": [
-      "코딩에이전트",
-      "Codex"
-    ],
-    "entities": [
-      "Codex",
-      "lazycodex"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-19T21:00:29.824Z"
-  },
-  {
     "id": "568a9197a9aeb3f1",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -372,7 +346,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "be793f916139b4f2",
@@ -395,30 +369,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "8c1a63064bfb749f",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "synthetic-sciences/openscience",
-    "url": "https://github.com/synthetic-sciences/openscience",
-    "publishedAt": "2026-07-03T15:06:45Z",
-    "rawText": "The open-source AI workbench for scientific research",
-    "score": 2662,
-    "lang": "TypeScript",
-    "rank": 7,
-    "summaryKo": "과학 연구를 위한 오픈소스 AI 워크벤치로, 연구자가 AI를 연구 워크플로에 통합할 수 있는 도구를 제공한다.",
-    "tags": [
-      "연구도구",
-      "AI워크벤치"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "27ffa53840f08319",
@@ -440,31 +391,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "d9f49e336e714662",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "publishedAt": "2026-06-19T14:32:14.000Z",
-    "rawText": "image-text-to-text | gguf, llama.cpp, quantized, qwen3.5, reasoning, uncensored, long-context, 1M-context",
-    "score": 194,
-    "rank": 7,
-    "summaryKo": "Qwen3.5 9B 기반에 100만 토큰 장문맥과 추론 능력을 결합한 언센서드 GGUF 양자화 모델이다.",
-    "tags": [
-      "장문맥",
-      "양자화"
-    ],
-    "entities": [
-      "Qwen3.5"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "1c9b88441f35b381",
@@ -487,30 +414,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "ea2970d8679d2d55",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "fancyboi999/ai-engineering-from-scratch-zh",
-    "url": "https://github.com/fancyboi999/ai-engineering-from-scratch-zh",
-    "publishedAt": "2026-05-26T12:45:07Z",
-    "rawText": "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南",
-    "score": 849,
-    "lang": "Python",
-    "rank": 8,
-    "summaryKo": "AI 에이전트 엔지니어를 위한 20단계 503개 강의로 구성된 중국어 학습 로드맵으로, 동영상 강의와 사이트가 함께 제공된다.",
-    "tags": [
-      "AI에이전트",
-      "학습로드맵"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-19T21:00:29.824Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "fef6cadb37fbc1bb",
@@ -534,32 +438,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "459b6a0a801b4b76",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "tencent/Hy3",
-    "url": "https://huggingface.co/tencent/Hy3",
-    "publishedAt": "2026-07-02T13:23:54.000Z",
-    "rawText": "text-generation | transformers, safetensors, hy_v3, text-generation, hunyuan, hy3, moe, conversational",
-    "score": 185,
-    "rank": 8,
-    "summaryKo": "텐센트가 공개한 'Hy3(Hunyuan v3)'는 MoE 구조의 텍스트 생성 모델이다.",
-    "tags": [
-      "MoE",
-      "LLM"
-    ],
-    "entities": [
-      "Tencent",
-      "Hunyuan"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-19T21:00:29.824Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "c646eb1fc2a92144",
@@ -585,33 +464,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "84d0bed60df95acc",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "kadevin/ilab-gpt-conjure",
-    "url": "https://github.com/kadevin/ilab-gpt-conjure",
-    "publishedAt": "2026-06-08T08:20:30Z",
-    "rawText": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-compatible API support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management.",
-    "score": 643,
-    "lang": "JavaScript",
-    "rank": 9,
-    "summaryKo": "GPT-image-2 기반 AI 이미지 생성 WebUI 워크벤치로, Codex Responses 및 OpenAI 호환 API 연동, 공용 이미지 갤러리, 프롬프트 템플릿, 다중 작업 동시 실행과 로컬 큐 관리 기능을 지원한다.",
-    "tags": [
-      "이미지생성",
-      "WebUI"
-    ],
-    "entities": [
-      "GPT-image-2"
-    ],
-    "cats": [
-      "멀티모달",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "9ec90332da9eec1d",
@@ -635,7 +488,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "104a75a3ecd99b5b",
@@ -662,55 +515,6 @@
     "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
-    "id": "a39f24d11ba4154e",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "bottlecapai/ThinkingCap-Qwen3.6-27B",
-    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
-    "publishedAt": "2026-07-06T13:16:04.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, qwen3_6, token-efficient, efficient-thinking, conversational",
-    "score": 165,
-    "rank": 9,
-    "summaryKo": "ThinkingCap은 Qwen3.6 27B를 토큰 효율적인 사고(chain-of-thought) 방식으로 파인튜닝해, 추론 비용을 낮추면서도 성능을 유지하려는 모델이다.",
-    "tags": [
-      "토큰효율",
-      "추론모델",
-      "파인튜닝"
-    ],
-    "entities": [
-      "Qwen"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-20T21:20:50.939Z"
-  },
-  {
-    "id": "cee0f532d374c67f",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
-    "publishedAt": "2026-05-19T08:19:23.000Z",
-    "rawText": "audio-text-to-text | transformers, safetensors, moss_transcribe_diarize, text-generation, moss, audio, speech, asr",
-    "score": 161,
-    "rank": 9,
-    "summaryKo": "OpenMOSS팀이 공개한 'MOSS-Transcribe-Diarize'는 음성 인식과 화자 분리를 함께 수행하는 오디오-텍스트 모델이다.",
-    "tags": [
-      "음성인식",
-      "화자분리"
-    ],
-    "entities": [
-      "OpenMOSS"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-19T21:00:29.824Z"
-  },
-  {
     "id": "c6264443ffd59c12",
     "sourceType": "repo",
     "source": "GitHub",
@@ -732,7 +536,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "bc159a7cfec7bda3",
@@ -781,7 +585,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "57ecca1a82ddc602",
@@ -808,30 +612,6 @@
     "fetchedAt": "2026-07-22T21:09:43.991Z"
   },
   {
-    "id": "a97c418a0519547c",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "ATH-MaaS/OvisOCR2",
-    "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
-    "publishedAt": "2026-07-13T05:43:32.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, ocr, document-parsing, multimodal, markdown",
-    "score": 149,
-    "rank": 10,
-    "summaryKo": "Qwen3.5 기반 비전-언어 모델을 활용한 2세대 OCR·문서 파싱 모델로, 문서 이미지를 마크다운으로 변환하는 데 특화됐다.",
-    "tags": [
-      "OCR",
-      "문서파싱"
-    ],
-    "entities": [
-      "Qwen3.5"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
     "id": "a1c19b4f6ea2b935",
     "sourceType": "repo",
     "source": "GitHub",
@@ -855,7 +635,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "2808208448aef952",
@@ -881,7 +661,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
+    "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
     "id": "9b77e1ca7eb19811",
@@ -929,54 +709,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-22T21:09:43.991Z"
-  },
-  {
-    "id": "80f0be2a4b2f586f",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "inlineresearch/Inline-Studio",
-    "url": "https://github.com/inlineresearch/Inline-Studio",
-    "publishedAt": "2026-06-11T07:13:32Z",
-    "rawText": "AI filmmaking on a node canvas. Build your whole visual pipeline from moodboard to final cut. Generate on your own GPU with diffuser based generation engine. ",
-    "score": 169,
-    "lang": "Python",
-    "rank": 12,
-    "summaryKo": "Inline Studio는 노드 캔버스 기반 AI 영화 제작 도구로, 무드보드부터 최종 편집까지 시각 파이프라인을 구성하고 자체 GPU에서 디퓨전 기반 생성 엔진으로 영상을 만들 수 있다.",
-    "tags": [
-      "AI필름메이킹",
-      "디퓨전",
-      "노드캔버스"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-20T21:20:50.939Z"
-  },
-  {
-    "id": "6a730ce3c46feeb3",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "thenicolas1894/awesome-claude-fable-5-prompt-vault",
-    "url": "https://github.com/thenicolas1894/awesome-claude-fable-5-prompt-vault",
-    "publishedAt": "2026-06-28T19:26:01Z",
-    "rawText": "Ultimate Claude Fable 5 Guide 2026: Use Cases, Integrations & Benchmarks",
-    "score": 165,
-    "lang": "HTML",
-    "rank": 12,
-    "summaryKo": "Claude Fable 5의 활용 사례, 연동법, 벤치마크를 정리한 프롬프트 모음 저장소다.",
-    "tags": [
-      "Claude",
-      "프롬프트모음"
-    ],
-    "entities": [
-      "Claude Fable 5"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-19T21:00:29.824Z"
   }
 ]
