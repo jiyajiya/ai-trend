@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-07-26",
-  "windowLabel": "2026년 7월 20~26일 기준",
-  "updatedAt": "2026-07-25T21:31:13Z",
+  "asOf": "2026-07-30",
+  "windowLabel": "2026년 7월 24~30일 기준",
+  "updatedAt": "2026-07-30T06:57:14Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -25,8 +25,8 @@
       "metric": "GPQA Diamond",
       "note": "대학원 수준 과학·전문 추론 — 약학·의학·화학·생물 등 전문 분야 정확도.",
       "ranks": [
-        { "rank": 1, "model": "Claude Mythos Preview", "score": "94.6%", "basis": "GPQA Diamond 94.6% 1위 (GPT-5.6 Sol 동점)", "source": "llm-stats" },
-        { "rank": 2, "model": "GPT-5.6 Sol", "score": "94.6%", "basis": "GPQA Diamond 94.6% (Claude Mythos Preview 동점)", "source": "llm-stats" },
+        { "rank": 1, "model": "GPT-5.6 Sol", "score": "94.6%", "basis": "GPQA Diamond 94.6% 1위 (Claude Mythos Preview 동점)", "source": "llm-stats" },
+        { "rank": 2, "model": "Claude Mythos Preview", "score": "94.6%", "basis": "GPQA Diamond 94.6% (GPT-5.6 Sol 동점)", "source": "llm-stats" },
         { "rank": 3, "model": "Gemini 3.1 Pro", "score": "94.3%", "basis": "GPQA Diamond 94.3%", "source": "llm-stats" },
         { "rank": 4, "model": "Claude Opus 4.7", "score": "94.2%", "basis": "GPQA Diamond 94.2%", "source": "llm-stats" },
         { "rank": 5, "model": "Claude Opus 4.8", "score": "93.6%", "basis": "GPQA Diamond 93.6% (GPT-5.5 동점)", "source": "llm-stats" }
@@ -71,8 +71,8 @@
       "note": "이미지 이해 능력 — 사진·차트·도표 분석.",
       "ranks": [
         { "rank": 1, "model": "Claude Fable 5", "score": "Elo 1318", "basis": "LMSYS Vision Arena 1위, Elo 1318", "source": "lmarena" },
-        { "rank": 2, "model": "Claude Opus 4.7 (thinking)", "score": "Elo 1306", "basis": "Vision Arena Elo 1306", "source": "lmarena" },
-        { "rank": 3, "model": "Claude Opus 4.6 (thinking)", "score": "Elo 1299", "basis": "Vision Arena Elo 1299", "source": "lmarena" }
+        { "rank": 2, "model": "Claude Opus 4.7 (thinking)", "score": "Elo 1304", "basis": "Vision Arena Elo 1304", "source": "lmarena" },
+        { "rank": 3, "model": "Gemini 3.6 Flash", "score": "Elo 1301", "basis": "Vision Arena Elo 1301, Google 모델 최초 진입", "source": "lmarena" }
       ]
     },
     {
@@ -83,15 +83,15 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1338", "basis": "Elo 1338, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Reve 2.1", "score": "Elo 1301", "basis": "Elo 1301", "source": "artificialanalysis" },
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1340", "basis": "Elo 1340, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "Reve 2.1", "score": "Elo 1299", "basis": "Elo 1299", "source": "artificialanalysis" },
         { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1269", "basis": "Elo 1269", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1262", "basis": "Elo 1262", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1261", "basis": "Elo 1261", "source": "artificialanalysis" },
-        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1260", "basis": "Elo 1260", "source": "artificialanalysis" },
-        { "rank": 7, "model": "HiDream-O1-Image-1.5", "score": "Elo 1246", "basis": "Elo 1246", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1264", "basis": "Elo 1264", "source": "artificialanalysis" },
+        { "rank": 5, "model": "GPT Image 1.5 (high)", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
+        { "rank": 6, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1262", "basis": "Elo 1262", "source": "artificialanalysis" },
+        { "rank": 7, "model": "HiDream-O1-Image-1.5", "score": "Elo 1245", "basis": "Elo 1245", "source": "artificialanalysis" },
         { "rank": 8, "model": "Seedream 5.0 Pro", "score": "Elo 1239", "basis": "Elo 1239", "source": "artificialanalysis" },
-        { "rank": 9, "model": "Nano Banana Pro", "score": "Elo 1223", "basis": "Elo 1223", "source": "artificialanalysis" },
+        { "rank": 9, "model": "Nano Banana Pro", "score": "Elo 1226", "basis": "Elo 1226", "source": "artificialanalysis" },
         { "rank": 10, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1218", "basis": "Elo 1218", "source": "artificialanalysis" }
       ]
     },
@@ -103,10 +103,10 @@
       "metric": "Intelligence Index / 오픈웨이트 순위",
       "note": "가중치 공개 — API 비용 없이 로컬·자체서버 구동, 보안·파인튜닝.",
       "ranks": [
-        { "rank": 1, "model": "GLM-5.2", "score": "Index 51", "basis": "Intelligence Index 51, 오픈웨이트 1위 (GPQA 91.2%)", "source": "artificialanalysis" },
-        { "rank": 2, "model": "MiniMax M3", "score": "Index 44", "basis": "Intelligence Index 44, 네이티브 멀티모달", "source": "artificialanalysis" },
-        { "rank": 3, "model": "DeepSeek V4 Pro", "score": "Index 44", "basis": "Intelligence Index 44 (Reasoning, Max Effort), 1M 컨텍스트", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Kimi K2.6", "score": "Index 43", "basis": "Intelligence Index 43", "source": "artificialanalysis" },
+        { "rank": 1, "model": "Kimi K3", "score": "Index 57", "basis": "Intelligence Index 57, 오픈웨이트 1위로 GLM-5.2 제치고 신규 등극", "source": "artificialanalysis" },
+        { "rank": 2, "model": "GLM-5.2", "score": "Index 51", "basis": "Intelligence Index 51 (max)", "source": "artificialanalysis" },
+        { "rank": 3, "model": "MiniMax M3", "score": "Index 44", "basis": "Intelligence Index 44, 네이티브 멀티모달", "source": "artificialanalysis" },
+        { "rank": 4, "model": "DeepSeek V4 Pro", "score": "Index 44", "basis": "Intelligence Index 44 (Reasoning, Max Effort), 1M 컨텍스트", "source": "artificialanalysis" },
         { "rank": 5, "model": "MiMo-V2.5-Pro", "score": "Index 42", "basis": "Intelligence Index 42", "source": "artificialanalysis" }
       ]
     },
@@ -128,7 +128,7 @@
     { "use": "상담 · 복약지도", "models": "Claude Opus 4.8, Claude Fable 5", "audience": "pharma" },
     { "use": "이미지 생성 (카드뉴스 · 썸네일)", "models": "GPT Image 2", "audience": "pharma" },
     { "use": "코딩 · 자동화", "models": "Claude Fable 5, Claude Opus 4.8", "audience": "dev" },
-    { "use": "오픈소스 (로컬 구동)", "models": "GLM-5.2, MiniMax M3", "audience": "dev" },
+    { "use": "오픈소스 (로컬 구동)", "models": "Kimi K3, GLM-5.2", "audience": "dev" },
     { "use": "트렌드 조사", "models": "Perplexity, ChatGPT 검색", "audience": "all" }
   ],
   "metrics": [
@@ -143,10 +143,10 @@
     { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
   ],
   "sources": [
-    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 7월 26일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 26일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 26일" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 26일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 7월 26일" }
+    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 7월 30일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 30일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 30일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 30일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 7월 30일" }
   ]
 }
