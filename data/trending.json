@@ -25,30 +25,6 @@
     "fetchedAt": "2026-07-29T21:08:02.729Z"
   },
   {
-    "id": "bfe0483cd8b4301a",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "hoainho/img2threejs",
-    "url": "https://github.com/hoainho/img2threejs",
-    "publishedAt": "2026-07-15T02:58:39Z",
-    "rawText": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "score": 3950,
-    "lang": "Python",
-    "rank": 6,
-    "summaryKo": "참조 이미지 속 객체를 코드만으로 재구성해 절차적이고 품질 검증이 가능한 애니메이션용 Three.js 3D 모델로 변환하는 토큰 효율적인 이미지-투-3D 도구다.",
-    "tags": [
-      "이미지투3D",
-      "Three.js"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
     "id": "27ffa53840f08319",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -93,30 +69,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-29T21:08:02.729Z"
-  },
-  {
-    "id": "104a75a3ecd99b5b",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "prism-ml/Bonsai-27B-gguf",
-    "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
-    "publishedAt": "2026-07-04T00:24:38.000Z",
-    "rawText": "text-generation | llama.cpp, gguf, conversational, 1-bit, llama-cpp, cuda, metal, on-device",
-    "score": 225,
-    "rank": 9,
-    "summaryKo": "prism-ml이 공개한 270억 파라미터 모델을 1비트까지 양자화해 온디바이스에서 llama.cpp로 구동할 수 있게 만든 초경량 GGUF 모델이다.",
-    "tags": [
-      "양자화모델",
-      "온디바이스LLM"
-    ],
-    "entities": [
-      "prism-ml"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
   },
   {
     "id": "bf087183579355d3",
@@ -210,7 +162,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "e7129e9021b63e3a",
@@ -231,7 +183,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -253,7 +205,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "b7884da985bf42b8",
@@ -274,7 +226,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "f465bd989015fa8e",
@@ -293,7 +245,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "119fbb733ed272a0",
@@ -313,7 +265,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "a6d644ce74e5595b",
@@ -332,7 +284,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "54a99b8d75a837cc",
@@ -352,7 +304,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "c53347638b893177",
@@ -375,7 +327,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "fc888d2900daa33a",
@@ -399,7 +351,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "c47cbc7eb3e22410",
@@ -420,7 +372,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "568a9197a9aeb3f1",
@@ -439,7 +391,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "be793f916139b4f2",
@@ -457,7 +409,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "f16dbde15779b059",
@@ -478,7 +430,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "1c9b88441f35b381",
@@ -496,7 +448,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "9376267761d9a376",
@@ -516,7 +468,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "a1c19b4f6ea2b935",
@@ -537,7 +489,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "9ec90332da9eec1d",
@@ -558,7 +510,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "c646eb1fc2a92144",
@@ -579,7 +531,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "9b77e1ca7eb19811",
@@ -598,7 +550,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "c6264443ffd59c12",
@@ -617,7 +569,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   },
   {
     "id": "d21ac5abfc6a4cd5",
@@ -639,6 +591,6 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
+    "fetchedAt": "2026-07-31T21:31:05.061Z"
   }
 ]

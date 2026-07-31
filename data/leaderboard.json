@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-07-31",
-  "windowLabel": "2026년 7월 25~31일 기준",
-  "updatedAt": "2026-07-30T22:36:12Z",
+  "asOf": "2026-08-01",
+  "windowLabel": "2026년 7월 26일~8월 1일 기준",
+  "updatedAt": "2026-07-31T21:30:42Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -13,7 +13,7 @@
       "note": "13개 벤치마크를 종합한 단일 점수 — 모델을 한 숫자로 빠르게 비교할 때.",
       "ranks": [
         { "rank": 1, "model": "Claude Opus 5", "score": "Index 61", "basis": "Artificial Analysis Intelligence Index 61 (max) 1위, Claude Fable 5 제치고 등극", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Claude Fable 5", "score": "Index 60", "basis": "Intelligence Index 60, LMSYS Text Arena Elo 1507 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "Claude Fable 5", "score": "Index 60", "basis": "Intelligence Index 60, LMSYS Text Arena Elo 1508 1위", "source": "artificialanalysis" },
         { "rank": 3, "model": "GPT-5.6 Sol", "score": "Index 59", "basis": "Intelligence Index 59 (max)", "source": "artificialanalysis" }
       ]
     },
@@ -143,10 +143,10 @@
     { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
   ],
   "sources": [
-    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 7월 31일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 7월 31일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 7월 31일" },
-    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 7월 31일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 7월 31일" }
+    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 8월 1일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 8월 1일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 8월 1일" },
+    { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 8월 1일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 8월 1일" }
   ]
 }
