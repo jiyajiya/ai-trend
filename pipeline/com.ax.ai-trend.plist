@@ -6,6 +6,11 @@
         launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ax.ai-trend.plist
   해제: launchctl bootout gui/$(id -u)/com.ax.ai-trend
   노트북이 예약 시각에 잠들어 있으면 깨어날 때 놓친 작업을 1회 실행한다.
+
+  caffeinate -is 로 감싼 이유: launchd가 맥을 깨워주긴 하지만 아무도 전원 어서션을
+  잡지 않아 약 100초 뒤 idle sleep으로 다시 들어간다. 그때 claude -p의 스트리밍
+  연결이 끊겨 "Connection closed mid-response"로 summarize가 죽었다(2026-08-01~03).
+  -i = idle sleep 방지, -s = AC 전원일 때 시스템 sleep 방지. run.sh가 끝나면 해제된다.
 -->
 <plist version="1.0">
 <dict>
@@ -14,6 +19,8 @@
 
   <key>ProgramArguments</key>
   <array>
+    <string>/usr/bin/caffeinate</string>
+    <string>-is</string>
     <string>/bin/bash</string>
     <string>/Users/minjijung/projects/ai-project/ai-trend/pipeline/run.sh</string>
   </array>
