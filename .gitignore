@@ -6,7 +6,4 @@ package-lock.json
 data/raw*.json
 data/summarized*.json
 data/state.json
-# 게시 대상(추적): data/feed.json · data/trending.json · data/feed.sample.json
-
-# 백필 임시 산출물
-data/analysis-backfill.json
+# 게시 대상(추적): data/feed.json · data/trending.json · data/analysis/ · data/feed.sample.json
