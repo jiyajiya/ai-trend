@@ -1,6 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mergeFeed } from '../pipeline/merge.mjs';
+import { mergeFeed, splitAnalysis } from '../pipeline/merge.mjs';
+import { mkdtemp, readFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
 const base = (over = {}) => ({
   id: 'id1', sourceType: 'news', source: 'N', title: 'T',
@@ -252,4 +255,25 @@ test('mergeFeed: 신규 피드 항목의 analysis를 그대로 보존한다', ()
     now: '2026-06-19T00:00:00Z',
   });
   assert.deepEqual(r.feed[0].analysis, analysis);
+});
+
+test('splitAnalysis: analysis를 파일로 빼고 hasAnalysis만 남긴다', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'ai-trend-'));
+  const analysis = { points: ['p'], sections: [], quotes: [] };
+  const id = 'a'.repeat(16);
+
+  const out = await splitAnalysis([{ id, title: 'T', analysis }, { id: 'b'.repeat(16), title: 'U' }], dir);
+  assert.deepEqual(out[0], { id, title: 'T', hasAnalysis: true });
+  assert.equal(out[1].hasAnalysis, undefined);
+  assert.deepEqual(JSON.parse(await readFile(join(dir, `${id}.json`), 'utf8')), analysis);
+
+  // 두 번째 실행(인라인 analysis 없음): 파일이 있으므로 hasAnalysis가 유지된다
+  const again = await splitAnalysis(out, dir);
+  assert.equal(again[0].hasAnalysis, true);
+});
+
+test('splitAnalysis: 파일명으로 못 쓸 id는 건드리지 않는다', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'ai-trend-'));
+  const item = { id: '../evil', analysis: { points: ['p'] } };
+  assert.deepEqual(await splitAnalysis([item], dir), [item]);
 });

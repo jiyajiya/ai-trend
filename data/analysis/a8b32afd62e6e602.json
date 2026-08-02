@@ -1,0 +1,33 @@
+{
+  "points": [
+    "Claude Opus 5(Max Effort)가 Intelligence Index 61점으로 170개 모델 중 1위를 차지했다.",
+    "Claude Opus 5(Xhigh Effort)와 Claude Fable 5(Max Effort)가 각각 60점으로 공동 2위다.",
+    "Intelligence Index v4.1은 에이전트 작업·코딩·과학 추론·지식 신뢰성·장문맥 추론 등 9개 평가를 종합한 지표다.",
+    "속도는 Mercury 2(초당 901.6토큰), 첫 토큰 지연은 Gemini 2.5 Flash-Lite(0.34초)가 가장 우수했다.",
+    "공개 가중치 모델 94개 중에서는 GLM-5.2(Max)가 51점으로 1위였다.",
+    "Hacker News 논의에서는 단일 지표 순위보다 작업별 최적 모델과 비용 대비 성능이 더 중요하다는 반박이 나왔다."
+  ],
+  "sections": [
+    {
+      "heading": "순위 결과",
+      "body": "Claude Opus 5 Max Effort가 61점으로 1위, Xhigh Effort와 Claude Fable 5가 60점으로 공동 2위, GPT-5.6 Sol(Max)이 59점으로 뒤를 이었다. 170개 모델이 평가 대상에 포함됐다."
+    },
+    {
+      "heading": "평가 방식",
+      "body": "Intelligence Index v4.1은 에이전트 작업, 코딩, 과학 추론, 지식 신뢰성, 장문맥 추론을 다루는 9개 벤치마크를 결합한 지표로, 추론 모델의 확장된 사고 시간도 성능 측정에 반영한다."
+    },
+    {
+      "heading": "속도·비용 지표",
+      "body": "출력 속도는 Mercury 2가 초당 901.6토큰으로 가장 빨랐고, 첫 토큰 지연은 Gemini 2.5 Flash-Lite가 0.34초로 최단이었다. 가장 저렴한 모델은 Nova Micro(100만 토큰당 0.03달러)였다."
+    },
+    {
+      "heading": "공개 가중치 모델",
+      "body": "평가된 170개 모델 중 94개가 공개 가중치 모델이며, GLM-5.2(Max)가 51점으로 이 중 1위를 차지했다."
+    },
+    {
+      "heading": "커뮤니티 반응",
+      "body": "Hacker News에서는 단일 지표 순위의 한계가 지적됐다. UI 디자인, 백엔드 설계 등 작업 종류에 따라 최적 모델이 다르고, 비용-성능 비율이 실무 선택에 더 중요하다는 의견이 많았다."
+    }
+  ],
+  "quotes": []
+}

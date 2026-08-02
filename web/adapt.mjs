@@ -51,7 +51,8 @@ export function toViewItem(item, nowMs) {
     score: item.score || 0,
     rank: item.rank ?? Infinity,
     status: item.summaryStatus || 'ok',
-    analysis: normalizeAnalysis(item.analysis),
+    analysis: normalizeAnalysis(item.analysis),   // 분리 전 데이터 호환(인라인 analysis)
+    hasAnalysis: !!item.hasAnalysis,              // 분리 후: data/analysis/<id>.json 을 lazy fetch
   };
 }
 

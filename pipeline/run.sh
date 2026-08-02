@@ -19,7 +19,9 @@ claude -p --model sonnet "ai-trend 수집 파이프라인의 summarize 단계를
 - 각 항목에 summaryKo(한국어 2~3문장)·tags·entities·cats·summaryStatus 를 채워 data/summarized.json(배열)으로 저장한다.
 - sourceType 이 youtube 이면 watch 스킬로 자막 요약(실패 시 title 기반 fallback), 그 외는 rawText 기반 요약.
 - cats 는 고정목록(LLM·모델 / 에이전트 / 코딩·개발 / 멀티모달 / 기업·정책)에서만 고른다.
-- 끝나면 data/summarized.json 파일만 남기고 종료한다." \
+- 영상·뉴스·블로그는 상세 분석(points/sections/quotes)을 항목마다 data/analysis/<id>.json 으로 바로 저장한다.
+  summarized.json 에는 analysis 를 넣지 않는다. fallback 이거나 본문이 빈약하면 파일을 만들지 않는다.
+- 끝나면 data/summarized.json 과 data/analysis/*.json 만 남기고 종료한다." \
   --dangerously-skip-permissions || echo "[warn] summarize 실패 — 이전 data로 진행"
 
 echo "[3/5] leaderboard (claude -p, 웹검색 갱신)"
@@ -35,7 +37,7 @@ echo "[4/5] merge"
 npm run --silent merge || echo "[warn] merge 실패"
 
 echo "[5/5] publish (git push → GitHub Pages)"
-git add data/feed.json data/trending.json data/leaderboard.json 2>/dev/null || true
+git add data/feed.json data/trending.json data/leaderboard.json data/analysis 2>/dev/null || true
 if git diff --cached --quiet; then
   echo "변경 없음 — push 생략"
 else

@@ -18,6 +18,24 @@ const byPublishedDesc = (a, b) => {
 
 const TRENDING_TYPES = new Set(['repo', 'model']);
 
+// analysis 본문은 feed.json에서 빼내 항목별 파일(data/analysis/<id>.json)로 둔다.
+// feed.json이 가벼워지고(초기 로딩), 매일 커밋되는 diff가 신규 파일 추가로 끝난다.
+// 웹은 hasAnalysis를 보고 카드 클릭 시에만 해당 파일을 받는다.
+const SAFE_ID = /^[a-f0-9]{16}$/;   // 파일명이 되므로 id를 검증한다
+
+export async function splitAnalysis(items, dir = 'data/analysis') {
+  const out = [];
+  for (const item of items) {
+    const { analysis, ...rest } = item;
+    if (!SAFE_ID.test(item.id || '')) { out.push(item); continue; }
+    const path = `${dir}/${item.id}.json`;
+    if (analysis) await writeJson(path, analysis);
+    const has = !!analysis || (await readJson(path, null)) !== null;
+    out.push(has ? { ...rest, hasAnalysis: true } : rest);
+  }
+  return out;
+}
+
 export function mergeFeed({ summarized, existingFeed, existingTrending, state, now }) {
   const seen = new Set(state.seen || []);
   const feed = [...existingFeed];
@@ -71,7 +89,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const now = new Date().toISOString();
 
   const r = mergeFeed({ summarized, existingFeed, existingTrending, state, now });
-  await writeJson('data/feed.json', r.feed);
+  const feed = await splitAnalysis(r.feed);
+  await writeJson('data/feed.json', feed);
   await writeJson('data/trending.json', r.trending);
   await writeJson('data/state.json', r.state);
   console.log(`[merge] feed ${r.feed.length} / trending ${r.trending.length} (seen ${r.state.seen.length})`);

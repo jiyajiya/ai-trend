@@ -1,4 +1,4 @@
-import { toViewItem, groupColumns } from './adapt.mjs';
+import { toViewItem, groupColumns, normalizeAnalysis } from './adapt.mjs';
 
 // group: 'media'(매체) | 'domain'(분야) | 'view'(보기) — 분류 축이 다른 메뉴를 섹션으로 분리
 const FEEDS = [
@@ -119,6 +119,15 @@ function analysisHtml(a) {
   return points + sections + quotes;
 }
 
+// 분석 본문은 feed.json에 없고 항목별 파일로 있다. 클릭한 카드 것만 받아 캐시한다.
+const analysisCache = new Map();
+async function loadAnalysis(id) {
+  if (!analysisCache.has(id)) {
+    analysisCache.set(id, normalizeAnalysis(await getJson(`../data/analysis/${encodeURIComponent(id)}.json`, null)));
+  }
+  return analysisCache.get(id);
+}
+
 function renderPanel() {
   const panel = document.getElementById('panel');
   const body = document.getElementById('panelBody');
@@ -127,10 +136,19 @@ function renderPanel() {
   panel.dataset.open = 'true';
   const meta = `<div class="panel-meta">${esc(item.source)}${item.time ? ` · ${esc(item.time)}` : ''}`
     + ` · <a href="${esc(item.url)}" target="_blank" rel="noopener">원문 보기 ↗</a></div>`;
-  const content = item.analysis
-    ? analysisHtml(item.analysis)
-    : `<div class="panel-empty">상세 분석이 아직 없습니다.<br><br>${esc(item.summary)}</div>`;
-  body.innerHTML = `<h2 class="panel-title">${esc(item.title)}</h2>${meta}${content}`;
+  const head = `<h2 class="panel-title">${esc(item.title)}</h2>${meta}`;
+  const empty = `<div class="panel-empty">상세 분석이 아직 없습니다.<br><br>${esc(item.summary)}</div>`;
+
+  if (item.analysis) { body.innerHTML = head + analysisHtml(item.analysis); return; }
+  if (!item.hasAnalysis) { body.innerHTML = head + empty; return; }
+
+  const cached = analysisCache.get(item.id);
+  body.innerHTML = head + (cached ? analysisHtml(cached) : '<div class="panel-empty">분석 불러오는 중…</div>');
+  if (cached !== undefined) return;
+  loadAnalysis(item.id).then((a) => {
+    if (state.selectedId !== item.id) return;   // 그 사이 다른 카드로 옮겼으면 버린다
+    body.innerHTML = head + (a ? analysisHtml(a) : empty);
+  });
 }
 
 // ── Leaderboard (영역별 추천 모델) ──────────────────────────────────────
