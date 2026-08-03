@@ -1,7 +1,7 @@
 {
   "asOf": "2026-08-03",
   "windowLabel": "2026년 7월 28일~8월 3일 기준",
-  "updatedAt": "2026-08-02T22:00:19Z",
+  "updatedAt": "2026-08-03T00:05:50Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -83,16 +83,16 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1340", "basis": "Elo 1340, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1339", "basis": "Elo 1339, Arena 1위", "source": "artificialanalysis" },
         { "rank": 2, "model": "Reve 2.1", "score": "Elo 1299", "basis": "Elo 1299", "source": "artificialanalysis" },
-        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1269", "basis": "Elo 1269", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1264", "basis": "Elo 1264", "source": "artificialanalysis" },
+        { "rank": 3, "model": "MAI-Image-2.5", "score": "Elo 1270", "basis": "Elo 1270", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
         { "rank": 5, "model": "GPT Image 1.5 (high)", "score": "Elo 1263", "basis": "Elo 1263", "source": "artificialanalysis" },
         { "rank": 6, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1262", "basis": "Elo 1262", "source": "artificialanalysis" },
         { "rank": 7, "model": "HiDream-O1-Image-1.5", "score": "Elo 1245", "basis": "Elo 1245", "source": "artificialanalysis" },
-        { "rank": 8, "model": "Seedream 5.0 Pro", "score": "Elo 1239", "basis": "Elo 1239", "source": "artificialanalysis" },
-        { "rank": 9, "model": "Nano Banana Pro", "score": "Elo 1226", "basis": "Elo 1226", "source": "artificialanalysis" },
-        { "rank": 10, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1218", "basis": "Elo 1218", "source": "artificialanalysis" }
+        { "rank": 8, "model": "Seedream 5.0 Pro", "score": "Elo 1240", "basis": "Elo 1240", "source": "artificialanalysis" },
+        { "rank": 9, "model": "Nano Banana Pro", "score": "Elo 1225", "basis": "Elo 1225", "source": "artificialanalysis" },
+        { "rank": 10, "model": "Cosmos3-Super-Text2Image", "score": "Elo 1219", "basis": "Elo 1219", "source": "artificialanalysis" }
       ]
     },
     {

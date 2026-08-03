@@ -1,5 +1,380 @@
 [
   {
+    "id": "3c85c8a3c92c0f0e",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "[데스크시선] AI 시대, 사라질 MR과 더 강해질 MR",
+    "url": "https://www.dailypharm.com/user/news/341069",
+    "publishedAt": "2026-08-03",
+    "rawText": "[데스크시선] AI 시대, 사라질 MR과 더 강해질 MR",
+    "summaryKo": "AI 시대 MR(의약품 영업사원)의 변화를 다룬 데일리팜 데스크칼럼으로, 제품정보 검색·논문분석·고객데이터 우선순위화 등은 AI로 대체되지만 의료진과의 대면 관계 형성은 인간 고유의 영역이라고 짚는다. 접촉 빈도보다 만남의 질이 중요해지며, AI를 무기로 삼는 MR과 그렇지 못한 MR 간 격차가 벌어질 것으로 전망한다.",
+    "tags": [
+      "AI활용",
+      "제약영업"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "ab9de769b1e45868",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "자동화하지 말고 없애라",
+    "url": "https://news.hada.io/topic?id=32076",
+    "publishedAt": "2026-08-03T08:52:33+09:00",
+    "rawText": "USV는 기존 시장을 소프트웨어로 자동화하는 데 그치지 않고 시장 구조와 사업 모델 자체를 없애는 스타트업을 좋은 투자 기회로 평가해 왔음 인터넷이 유통 비용과 미디어 기업의 지배력을 낮췄듯, AI는 에이전트를 통해 누구나 전문지식을 직접 활용하게 만들어 ...",
+    "summaryKo": "USV(Union Square Ventures)는 업무를 자동화하는 데 그치지 않고 시장 구조 자체를 없애는 스타트업에 투자한다는 철학을 소개한다. Doctronic(AI 의사 처방), Isembard(공장 운영 소프트웨어화), Cofounder(사업 운영 대행) 등 사례를 들어 AI 에이전트가 전문지식 관문 기업의 권력을 고객에게 이전시키는 흐름을 설명한다.",
+    "tags": [
+      "에이전트",
+      "스타트업"
+    ],
+    "entities": [
+      "Union Square Ventures",
+      "Doctronic",
+      "Isembard",
+      "Cofounder"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "415a07630e840bf8",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "가장 빠른 AI-First 기업은 실제로 어떻게 일하는가",
+    "url": "https://news.hada.io/topic?id=32075",
+    "publishedAt": "2026-08-03T08:51:50+09:00",
+    "rawText": "빠른 AI-First 기업은 단순히 인원을 줄이고 도구를 도입하는 데 그치지 않고, AI를 동료로 취급하며 훌륭한 제품이라는 공동 목표에 맞춰 사람과 시스템을 구성함 AI로 초안을 만드는 0→1보다 프로토타입을 출시하고 검증·학습·반복하는 1→2가...",
+    "summaryKo": "빠른 AI-First 기업들은 AI를 동료로 취급하며 조직을 직무가 아닌 결과 중심의 '미션 팟'으로 재편한다. 병목이 시제품 제작(0→1)에서 출시 후 검증·반복(1→2)으로 옮겨갔으며, 산출량이 아닌 품질 기준 평가와 전 팀원의 고객 직접 소통을 강조한다.",
+    "tags": [
+      "AI조직문화",
+      "에이전트"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "5a31484b58294aed",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "미국의 오픈 모델 패러독스",
+    "url": "https://news.hada.io/topic?id=32074",
+    "publishedAt": "2026-08-03T08:50:00+09:00",
+    "rawText": "미국은 폐쇄형 프런티어 모델을 선도하지만 자국 모델의 출력을 합법적으로 학습에 활용하기 어려워, 오픈 모델 계층에서는 중국 의존이 커지는 역설(Paradox)에 놓임 신규 오픈 모델 미세조정·변형에서 Qwen의 점유율은 2024년 1월 1%에서 2026년 2월 69%로 상승했...",
+    "summaryKo": "미국은 폐쇄형 프런티어 모델을 주도하면서도 자국 모델을 학습에 활용하기 어려워, 오픈 모델 영역에서는 중국 Qwen 의존도가 2024년 1월 1%에서 2026년 2월 69%로 급증하는 역설에 빠졌다. 안보·공급망 리스크에 대응해 '통제된 교사 접근권' 같은 제도적 대안이 제시된다.",
+    "tags": [
+      "오픈모델",
+      "LLM"
+    ],
+    "entities": [
+      "Qwen"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4e2c28d3454e5305",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: Atomadic- Zero-LLM Sub-200us MCP Action Interlock (Storefront Restored)",
+    "url": "https://atomadic.tech/orchard.html",
+    "publishedAt": "Sun, 02 Aug 2026 23:49:40 +0000",
+    "rawText": "Article URL: https://atomadic.tech/orchard.html Comments URL: https://news.ycombinator.com/item?id=49149580 Points: 1 # Comments: 0",
+    "summaryKo": "EU AI Act 제50조 시행(2026-08-02)에 대응해 Atomadic이 AI 규정 준수·보안·코드생성 등 12개 제품으로 구성된 MCP 기반 플랫폼 'The Orchard'를 공개했다. Zero-LLM 결정론적 엔진과 서명된 실행 기록(영수증)으로 도구 호출의 검증 가능성을 강조한다.",
+    "tags": [
+      "MCP",
+      "AI규정준수"
+    ],
+    "entities": [
+      "Atomadic",
+      "EU AI Act"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "72cfc4c28449967b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Diátaxis - 기술 문서 작성을 위한 체계적 접근법",
+    "url": "https://news.hada.io/topic?id=32073",
+    "publishedAt": "2026-08-03T08:45:32+09:00",
+    "rawText": "Diátaxis는 문서 사용자의 서로 다른 요구를 기준으로 기술 문서의 내용/형식/구조를 설계하는 체계적 접근법 사용자의 요구를 튜토리얼/방법 안내서/기술 참조/설명 네 가지로 구분하고, 각 문서 유형의 역할과 관계에 따라 전체 문서 체계를 구성함 무엇...",
+    "summaryKo": "Diátaxis는 튜토리얼·방법 안내서·기술 참조·설명 네 유형으로 기술 문서를 구분해 콘텐츠·문체·구조 문제를 동시에 해결하는 문서화 방법론으로, Cloudflare·Gatsby 등 여러 프로젝트에 점진적으로 도입되고 있다.",
+    "tags": [
+      "기술문서"
+    ],
+    "entities": [
+      "Cloudflare",
+      "Gatsby"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "2114aa7bf15c0ee5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: 온글 – 브라우저 안에서 작동하는 로컬 AI 번역 및 TTS 크롬 익스텐션",
+    "url": "https://news.hada.io/topic?id=32072",
+    "publishedAt": "2026-08-03T08:41:11+09:00",
+    "rawText": "안녕하세요. 웹페이지를 한국어로 번역하고 음성으로 읽어주는 Chrome 확장 프로그램을 만들었습니다. 이미 브라우저에서 번역 잘되는데 뭐하러 만들었냐고 물으신다면, 이 것 마저도 보안에 막혀있는 곳이 있습니다. ㅠ 선택한 텍스트, 전체 웹페이지, 유튜브 자막을 번역할 수 있습니다. 번역",
+    "summaryKo": "온글은 브라우저 안에서 WebGPU/WASM으로 완전히 로컬 실행되는 AI 번역·TTS 크롬 확장으로, 선택 텍스트·전체 페이지·유튜브 자막을 번역하고 음성으로 읽어준다. 사용자 텍스트를 서버로 전송하지 않아 보안 제약 환경에서도 쓸 수 있다.",
+    "tags": [
+      "로컬AI",
+      "번역"
+    ],
+    "entities": [],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "463a271330ce8594",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The diabolical world of convincing AI thirst traps",
+    "url": "https://www.vox.com/culture/492604/ai-deepfake-gay-influencers-tiktok-thirst-traps",
+    "publishedAt": "Sun, 02 Aug 2026 23:24:09 +0000",
+    "rawText": "Article URL: https://www.vox.com/culture/492604/ai-deepfake-gay-influencers-tiktok-thirst-traps Comments URL: https://news.ycombinator.com/item?id=49149429 Points: 8 # Comments: 1",
+    "summaryKo": "AI 딥페이크로 만든 '떡밥성(thirst trap)' 인플루언서 콘텐츠가 TikTok 등 SNS에서 확산되며 이용자를 기만하는 문제를 다룬 Vox 기사(원문 접근 실패로 제목 기반 요약).",
+    "tags": [
+      "딥페이크"
+    ],
+    "entities": [],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
+    "id": "2daad17bb74b8531",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: I'm 16 y/o and Built the only AI Agent for Hardware and Software Dev",
+    "url": "https://github.com/spikonado/sprocket",
+    "publishedAt": "Sun, 02 Aug 2026 23:04:53 +0000",
+    "rawText": "Article URL: https://github.com/spikonado/sprocket Comments URL: https://news.ycombinator.com/item?id=49149322 Points: 3 # Comments: 1",
+    "summaryKo": "16세 개발자가 만든 에이전트 Sprocket은 React 기반 회로도 설계, BOM 생성, 조립 지시서 작성 등 하드웨어 개발과 소프트웨어 개발을 함께 지원하며, 사용자 지시에 따라 부품·구독 서비스를 자동 구매하는 기능도 갖췄다.",
+    "tags": [
+      "에이전트",
+      "하드웨어"
+    ],
+    "entities": [
+      "Sprocket"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "82db3c9b40ee7070",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI poster wins Ohio State Fair contest",
+    "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+    "publishedAt": "Sun, 02 Aug 2026 22:43:47 +0000",
+    "rawText": "Article URL: https://www.ohiostatefair.com/p/get-involved/arts/poster-contest Comments URL: https://news.ycombinator.com/item?id=49149188 Points: 58 # Comments: 27",
+    "summaryKo": "오하이오 주 박람회 포스터 공모전에서 AI 생성 포스터의 수상이 논란이 되자 주최 측이 2027년부터 AI 사용을 전면 금지하기로 했다는 HN 게시물로, 2026년 대회 1위는 Christin Billips가 차지했다.",
+    "tags": [
+      "생성형AI",
+      "콘텐츠규제"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
+    "id": "8e393286aefa36ec",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Teaching an AI to know itself: Building a local LLM agent in D",
+    "url": "https://blog.dlang.org/2026/06/07/teaching-an-ai-to-know-itself-building-a-local-llm-agent-in-d/",
+    "publishedAt": "Sun, 02 Aug 2026 22:36:31 +0000",
+    "rawText": "Article URL: https://blog.dlang.org/2026/06/07/teaching-an-ai-to-know-itself-building-a-local-llm-agent-in-d/ Comments URL: https://news.ycombinator.com/item?id=49149134 Points: 2 # Comments: 0",
+    "summaryKo": "Danny Arends가 D 언어로 로컬 LLM 에이전트 DLLM을 개발해 ImportC로 llama.cpp를 직접 바인딩하고, @Tool UDA로 함수 시그니처만으로 도구를 자동 등록했다. GBNF 문법 제약 샘플링으로 도구 호출을 구조적으로 강제하고, 소스코드 임베딩 기반 RAG로 작은 모델(Qwen 8B)도 자기 코드를 설명하게 만들었다.",
+    "tags": [
+      "로컬LLM",
+      "에이전트"
+    ],
+    "entities": [
+      "llama.cpp",
+      "D언어",
+      "Qwen"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "528ff640ddcf8037",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Reviewing the Arch User Repository with AI",
+    "url": "https://cretezy.com/2026/aur-ai-security/",
+    "publishedAt": "Sun, 02 Aug 2026 22:35:13 +0000",
+    "rawText": "Article URL: https://cretezy.com/2026/aur-ai-security/ Comments URL: https://news.ycombinator.com/item?id=49149119 Points: 2 # Comments: 1",
+    "summaryKo": "2026년 6~7월 Arch Linux AUR에서 1,500개 이상의 패키지가 영향을 받은 대규모 악성 패키지 침해가 발생하자, 개발자가 Rust 기반 aur_ai_security 서비스를 만들어 각 패키지 업데이트의 Git diff를 AI로 분석해 안전·의심·위험 3단계로 자동 판정한다.",
+    "tags": [
+      "보안",
+      "코드리뷰AI"
+    ],
+    "entities": [
+      "Arch Linux",
+      "AUR"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "3ff350861b951174",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "30% of certificate credentials reported on LinkedIn are now AI-related",
+    "url": "https://www.morningstar.com/news/marketwatch/20260731180/job-seekers-can-now-spend-thousands-on-ai-certificates-is-it-worth-it",
+    "publishedAt": "Sun, 02 Aug 2026 22:33:44 +0000",
+    "rawText": "Article URL: https://www.morningstar.com/news/marketwatch/20260731180/job-seekers-can-now-spend-thousands-on-ai-certificates-is-it-worth-it Comments URL: https://news.ycombinator.com/item?id=49149108 Points: 2 # Comments: 1",
+    "summaryKo": "LinkedIn에 등록된 자격증의 30%가 AI 관련으로 나타났다는 조사를 계기로, 구직자들이 수천 달러를 들여 AI 자격증을 취득하는 것이 실제로 취업에 도움이 되는지를 다룬 기사(원문 접근 실패로 제목 기반 요약).",
+    "tags": [
+      "AI자격증",
+      "채용"
+    ],
+    "entities": [
+      "LinkedIn"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
+    "id": "ce30a522054ba032",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Neurips 2026: does every metareview recommend accept/reject? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vdvkp5/neurips_2026_does_every_metareview_recommend/",
+    "publishedAt": "2026-08-02T22:28:25+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I see some people say their metareview already contains a decision/recommendation (all of them were rejections). Ours doesn’t. Even though our avg score is 3, the metareview seems optimistic and finishes with “a convincing response would be an important consideration while discussing the paper.” I wonder how to interpret that. We did a strong rebuttal, but none of the reviewers engaged. So I wonder whether there’s any point to keep hope due to the AC review or just give up.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CantKillTheLifeless\"> /u/CantKillTheLifeless </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdvkp5/neurips_2026_does_every_metareview_recommend/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdvkp5/neurips_2026_does_every_metareview_recommend/\">[comments]</a></span>",
+    "summaryKo": "NeurIPS 2026에서 평균 점수 3점임에도 메타리뷰가 명확한 수락·거절 권고 없이 모호하게 작성된 사례를 두고, 반박이 받아들여질 가능성이 있는지 커뮤니티에 묻는 게시물이다.",
+    "tags": [
+      "학술회의",
+      "동료심사"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
+    "id": "6680024c700739c0",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Tlbic: Expanded appendix on AI dialogue, plus a note on shared human wisdom",
+    "url": "https://drive.google.com/file/d/14IKYzJavvzvbCL8GR0SkjzRmroMAaboN/view?usp=drive_link",
+    "publishedAt": "Sun, 02 Aug 2026 21:54:50 +0000",
+    "rawText": "Article URL: https://drive.google.com/file/d/14IKYzJavvzvbCL8GR0SkjzRmroMAaboN/view?usp=drive_link Comments URL: https://news.ycombinator.com/item?id=49148777 Points: 1 # Comments: 1",
+    "summaryKo": "AI와의 대화 및 인간의 공동 지혜에 관한 정책 제안서 'TLBIC'의 확장 부록을 공유한 HN 게시물로, 구글 드라이브 PDF 링크라 본문 확인이 어려워 제목 기반으로만 요약한다.",
+    "tags": [
+      "AI정책"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
+    "id": "70759ab73408d565",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "neurips 2026: ACs and reviewers have disappeared [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/",
+    "publishedAt": "2026-08-02T21:33:05+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>we submitted our rebuttal via the &quot;Rebuttal&quot; button before the author/reviewer/AC discussion period officially opened (Jul 27 AoE). since then, we&#39;ve gotten complete silence from all four reviewers and the AC</p> <p>several of us are also reviewing this cycle. when the discussion period opened on Jul 27 AoE, we got <strong>no email notification</strong> for rebuttals on papers we&#39;re reviewing, specifically for the papers whose authors had also posted early via the &quot;Rebuttal&quot; button. so it feels like anything submitted before the window opened may simply have never triggered any notification</p> <p>we also tried: (1) meta-comments visible to everyone, (2) reviewer reminders, and (3) sending an email to the PCs</p> <p>given there&#39;s about 1 day left in the discussion period, what do we do? we honestly thought we had a shot at an oral or spotlight given our initial scores. this is completely messed up.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/extricableforsythia\"> /u/extricableforsythia </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/\">[comments]</a></span>",
+    "summaryKo": "NeurIPS 2026 논의 기간 중 저자가 개시 전에 제출한 반박문에 리뷰어·AC 전원이 침묵하고 있으며, 조기 제출 반박문에는 이메일 알림조차 발송되지 않는 시스템 문제가 있다는 불만을 담은 r/MachineLearning 게시물이다.",
+    "tags": [
+      "학술회의",
+      "동료심사"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
+    "id": "59fb13ecf691ffcf",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "[약국에서 바로 쓰는 AI] Claude로 만드는 PPI 3종 비교 카드",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=539528",
+    "publishedAt": "2026-08-03 05:47:00",
+    "rawText": "프로톤펌프억제제(proton pump inhibitor, PPI)는 위산 분비를 억제하는 대표적 약물군으로 약국에서 하루에도 여러 건을 마주한다. 그러나 에스오메프라졸(esomeprazole), 라베프라졸(rabeprazole), 판토프라졸(pantoprazole)은 같은 계열이면서도 허가 적응증과 약동학 프로파일이 달라 선택이 갈린다. 첫 편에서는 Claude의 연구(Research) 기능으로 PPI 3종 비교 자료를 조사하고, A4 한 장 카드로 재구성한 뒤 검증하는 과정을 다룬다. 준비 사항사용 도구는 Claude 한 가지다.",
+    "summaryKo": "약사공론 연재 기사로, 약국 현장에서 Claude의 Research 기능을 이용해 에스오메프라졸·라베프라졸·판토프라졸 등 PPI 3종의 적응증·약동학 차이를 조사하고 A4 한 장짜리 비교 카드로 재구성·검증하는 과정을 소개한다.",
+    "tags": [
+      "Claude",
+      "약료정보"
+    ],
+    "entities": [
+      "Claude"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
     "id": "d71002381c207e8a",
     "sourceType": "news",
     "source": "GeekNews",
@@ -22,6 +397,30 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-02T23:45:12.983Z"
+  },
+  {
+    "id": "0ffcb831cb0d2d50",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/",
+    "publishedAt": "2026-08-02T20:20:45+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/\"> <img src=\"https://external-preview.redd.it/kr5Bole0G1Gl3LDRNc18l7ekzmZ-WnWchU9RU_I5p7U.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=56f69a0ed02f8a458f1cd9c8425127b7518d528f\" alt=\"Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]\" title=\"Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/usernamehere93\"> /u/usernamehere93 </a> <br/> <span><a href=\"https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "LLM 컨텍스트 저하는 softmax의 고정된 주의 예산 경쟁에 따른 내재적 한계와, 중간 정보 검색 정확도가 떨어지는 U자형 위치 효과에서 비롯되며 혼동·충돌·산만·중독 네 가지 실패 패턴으로 나타난다. 저자는 CLAUDE.md 최소화, 불필요한 도구 비활성화, 세션 분기(Git 모델) 등 장시간 분석 세션을 위한 실전 습관을 제시한다.",
+    "tags": [
+      "LLM",
+      "컨텍스트관리"
+    ],
+    "entities": [
+      "Claude Code"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z",
+    "hasAnalysis": true
   },
   {
     "id": "923761fca63b7f40",
@@ -166,6 +565,24 @@
     "fetchedAt": "2026-08-02T23:45:12.983Z"
   },
   {
+    "id": "969439cc7514be36",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Conference Reviews: Asking Too Much? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/",
+    "publishedAt": "2026-08-02T15:33:35+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>There&#39;s a kind of review that asks for lengthy additions, usually extending the scope of the paper beyond the stated, even though the submission is at page limit. Naturally, such additions in the case of top-tier conferences have to go into the supplemental materials or appendices. </p> <p>My question here is, would not such additions make the paper more suitable for a journal publication? I had to retract one paper out of such concern that the conference publication would block the later planned journal publication.</p> <p>Any opinions? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/examachine\"> /u/examachine </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/\">[comments]</a></span>",
+    "summaryKo": "페이지 제한이 있는데도 리뷰어가 범위를 넘는 추가 내용을 요구하는 관행에 대해, 그런 확장이 오히려 저널 출판에 더 적합한 것 아니냐는 문제제기와 실제로 그 우려 때문에 논문을 철회한 경험을 공유하는 r/MachineLearning 게시물이다.",
+    "tags": [
+      "학술회의",
+      "동료심사"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
     "id": "011ee8589ceeb4f1",
     "sourceType": "news",
     "source": "GeekNews",
@@ -250,6 +667,25 @@
     "fetchedAt": "2026-08-02T23:45:12.983Z"
   },
   {
+    "id": "2e9ba5e28c674e0a",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "ARR August Cycle [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vdgpha/arr_august_cycle_d/",
+    "publishedAt": "2026-08-02T12:22:18+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Mine was just submitted, and the submission count shown is still under 500.</p> <p>Does anyone know whether this count is meaningful for identifying the intended venue, possibly EACL, or whether it is simply low because many authors have not submitted yet or the counter is incomplete?</p> <p>I know the count alone is not reliable evidence, but I was curious whether previous ARR cycles showed a recognizable pattern.</p> <p>Also, is anyone else preparing a submission for this August cycle, especially with EACL 2027 in mind?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/New_Glove_2098\"> /u/New_Glove_2098 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdgpha/arr_august_cycle_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdgpha/arr_august_cycle_d/\">[comments]</a></span>",
+    "summaryKo": "ACL Rolling Review(ARR) 8월 제출 주기에서 제출 건수 카운터가 500건 미만으로 낮게 표시되는 것이 EACL 2027 등 특정 학회를 겨냥한 유의미한 신호인지, 단순히 집계 지연인지를 묻는 r/MachineLearning 게시물이다.",
+    "tags": [
+      "학술회의"
+    ],
+    "entities": [
+      "EACL"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
+  },
+  {
     "id": "95691b1585a17273",
     "sourceType": "news",
     "source": "Threads",
@@ -271,6 +707,26 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-02T23:45:12.983Z"
+  },
+  {
+    "id": "d036deb7f89342e0",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "No replies to rebuttals and comments even by AC [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vdeae3/no_replies_to_rebuttals_and_comments_even_by_ac_d/",
+    "publishedAt": "2026-08-02T10:11:21+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Not even the AC, nor reviewers, is responding to our comments in rebuttals, and they were all submitted well before the discussion period started. What is one to do in this case?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bricklerex\"> /u/bricklerex </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdeae3/no_replies_to_rebuttals_and_comments_even_by_ac_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vdeae3/no_replies_to_rebuttals_and_comments_even_by_ac_d/\">[comments]</a></span>",
+    "summaryKo": "반박문을 논의 기간 시작 전에 제출했음에도 AC와 리뷰어 모두 응답이 없다는 NeurIPS 리뷰 프로세스 불만을 다룬 짧은 게시물이다.",
+    "tags": [
+      "학술회의",
+      "동료심사"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
   },
   {
     "id": "e5567fb5eef1a7f8",
@@ -297,6 +753,21 @@
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-02T23:45:12.983Z",
     "hasAnalysis": true
+  },
+  {
+    "id": "d66c31b7ecf77d47",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "[D] Self-Promotion Thread",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/",
+    "publishedAt": "2026-08-02T02:15:24+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/\">[comments]</a></span>",
+    "summaryKo": "r/MachineLearning의 정기 셀프프로모션 스레드 공지로, 개인 프로젝트·스타트업·협업 요청을 이 스레드에 올리도록 안내하는 커뮤니티 운영 게시물이다.",
+    "tags": [],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
   },
   {
     "id": "3e76a19821f303d4",
@@ -472,6 +943,21 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-02T23:45:12.983Z"
+  },
+  {
+    "id": "8e90d59f92b7b0b2",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+    "publishedAt": "2026-07-31T02:30:08+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you&#39;re looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you&#39;re looking for]</p> </blockquote> <p>&#x200B;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
+    "summaryKo": "r/MachineLearning의 월간 구인·구직 스레드 공지로, 채용 공고와 구직자가 각각 정해진 템플릿으로 글을 올리도록 안내하는 커뮤니티 운영 게시물이다.",
+    "tags": [],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-03T00:06:14.084Z"
   },
   {
     "id": "ff7c1653ce2eb767",
@@ -3946,548 +4432,6 @@
       "자동화"
     ],
     "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "829be9caeff67d5a",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 컴퓨터 과학자 스튜어트 러셀(Stuart Russell) 교수는 수조 달러를 투입해 추ᄌ...",
-    "url": "https://www.threads.com/t/DbETjelkVNa",
-    "publishedAt": "Tue, 21 Jul 2026 19:50:10 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>컴퓨터 과학자 스튜어트 러셀(Stuart Russell) 교수는 수조 달러를 투입해 추진 중인 AGI(인공 일반 지능) 개발의 이면에 섬뜩한 위험이 도사리고 있다고 진단했습니다. 그는 빅테크 기업들의 수장들이 AGI 개발 성공 시 “인류가 멸종할 확률을 10%에서 최대 50%까지 보고 있다”고 언급했습니다. 일부는 이를 주가 부양을 위한 거짓말로 치부하지만, 1951년 앨런 튜링이 예견했듯 기계가 통제권을 쥐는 순간은 역사적 사실로 다가오고 있습니다. 러셀 교수는 테크 기업들의 CEO들이 사석에서도 똑같은 두려움을 고백한다고 덧붙였습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/752561444_1872467930781571_7646967854141504802_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzk0NjM2NTE3NDM5MTMyOTYyNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=WeEUK2n2hCQQ7kNvwG_aVjB&amp;_nc_oc=Adq-8g7_4o3eVfvDSCzkhzKKL4DvfrfSKTkWOyYYNx_QfbPmDEa9VeOZmiUtUnQXKJ0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=JR_nFKNbpaezO1MRa2PLrA&amp;_nc_ss=7a22e&amp;oh=00_AQDFrMqC4sKH7PLL7K7ny_By7JvbEgSh-9nscYmNHdNSUA&amp;oe=6A65BFB1\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQP0MsZMGX8W2J63LdpymqP9LeaLR716wP7hMNp7-GtHx3IxQivvSNQO_IevH2ZYEky3juhCTglVzsttkjvwb-JjfNDyyvQ1NIwTAQw.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=wlKJk9TojGIQ7kNvwEGOvga&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzgxNzM1ODcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NzIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=944e15626ac1beec&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC84NzQxRDJCQTVEODc2Q0IxMjZGNDJEMTE5RjRCOEQ4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0MzNDUxNkY3MTc5N0VGNkIxQ0EzNDdEMjc2RUI5NTg1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAjvalt8PvPxUCKAJDMywXQFIh64UeuFIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=JR_nFKNbpaezO1MRa2PLrA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQDJbX5HwtkEFPAD9brD9BPvB7U9aMBaeLTlwXNPHFTIeQ&amp;oe=6A61B87D\"></video></p>",
-    "summaryKo": "컴퓨터과학자 스튜어트 러셀 교수는 수조 달러가 투입되는 AGI 개발 이면에 심각한 위험이 있다고 경고했다. 빅테크 CEO들이 사석에서 AGI 성공 시 인류 멸종 확률을 10~50%로 본다고 언급했다는 발언을 전하며, 이런 우려를 주가 부양용 발언으로 치부해서는 안 된다고 강조했다.",
-    "tags": [
-      "AGI",
-      "AI안전"
-    ],
-    "entities": [
-      "Stuart Russell"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "eeea08ef1c33e5c9",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 엔비디아가 GB300 NVL72로 딥시크 V3 671B 프리트레인 세계기록을 세웠습니다. ...",
-    "url": "https://www.threads.com/t/DbEMwRak8Oi",
-    "publishedAt": "Tue, 21 Jul 2026 18:50:45 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아가 GB300 NVL72로 딥시크 V3 671B 프리트레인 세계기록을 세웠습니다. GPU당 1,648 TFLOPs로 이전 세대 대비 약 3배인데요. 진짜 봐야 할 건 이 3배가 어디서 나왔냐입니다. MoE 모델은 671B라도 토큰당 370억 개만 켜져 연산량은 작고, 대신 전문가들이 여러 GPU에 흩어져 있어 레이어마다 주고받는 all-to-all 통신이 병목입니다. 엔비디아는 이걸 NVLink로 풀었습니다. GPU가 다른 GPU 메모리를 하드웨어로 직접 읽고 쓰고, 합산도 스위치가 데이터를 지나보내며 처리해 통신이 연산 뒤에 숨습니다. 그리고 이 3배의 상당 부분은 칩이 아니라 소프트웨어에서 나왔습니다. 같은 랙이 6개월 만에 1.5배 더 빨라졌고요. 칩을 안 바꿔도 프런티어 학습 비용이 계속 내려간다는 얘깁니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/753546393_17978445921112832_6485360009047790089_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=Mzk0NjMzNTI2NzI3NTkxNjE5NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=nUpyobr4ULYQ7kNvwEDqdrK&amp;_nc_oc=AdoEE3m92WjRkgJo-PZ_aGz1BuHM3HrIkuqEJTh8gvRxZZ6ealVCvdLeaKkgHN7dGsQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=JR_nFKNbpaezO1MRa2PLrA&amp;_nc_ss=7a22e&amp;oh=00_AQBWoSEckh9t_0GJeca5s8AyBU3N01i3it9EW2P6bJzKqw&amp;oe=6A6599DA\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "엔비디아가 GB300 NVL72로 딥시크 V3 671B 모델 프리트레인 세계기록을 세웠다. GPU당 1,648 TFLOPs로 이전 세대 대비 약 3배 향상됐는데, MoE 모델의 GPU 간 all-to-all 통신 병목을 NVLink 하드웨어 직접 메모리 접근으로 해결하고 같은 랙에서도 6개월 만에 소프트웨어 최적화로 1.5배 빨라진 결과다.",
-    "tags": [
-      "GPU",
-      "MoE",
-      "프리트레이닝"
-    ],
-    "entities": [
-      "NVIDIA",
-      "GB300 NVL72",
-      "DeepSeek V3"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "8305a080d489b6fd",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Higgsfield가 신규 사용자를 대상으로 Higgsfield Unlimited 무료 체험을 시작했습...",
-    "url": "https://www.threads.com/t/DbEEvLfASaw",
-    "publishedAt": "Tue, 21 Jul 2026 17:40:42 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Higgsfield가 신규 사용자를 대상으로 Higgsfield Unlimited 무료 체험을 시작했습니다. 가입하면 구독이 시작되기 전까지 하루 동안 'Seedance 2.0'을 포함한 주요 영상, 이미지, 음성 생성 모델을 제한 없이 이용할 수 있습니다. 체험 종료 전에는 알림이 제공되며, 체험 기간 중에는 한 번의 클릭으로 언제든지 취소할 수 있습니다. 체험이 끝난 뒤 구독을 유지하면 'Higgsfield Plus'와 함께 7일의 무제한 이용 기간이 추가로 제공됩니다. 다만 MCP, CLI, Plugins(플러그인), Canvas 등 일부 기능에서는 무제한 이용이 적용되지 않습니다. 다만, 무제한이 무제한이 아닌 속도는 감안 하셔야할 듯 싶습니다 🥲</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/751738108_28029331870004819_3146220667504120440_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzk0NjMwMDAwNzgxNjE3NzMyOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=5T1zkWM9elsQ7kNvwEXDUfK&amp;_nc_oc=AdoY7lEVyKs4mxivN_QkN8RylX4Zhd3JdC7TXTYG306u0b8oC6UyFxJvrWmS55q6E98&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=JR_nFKNbpaezO1MRa2PLrA&amp;_nc_ss=7a22e&amp;oh=00_AQCPwW5nzwQnyFtq55pvJGLnVmQHSvNDpWj_wCqBJAcJVg&amp;oe=6A6594D3\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMM3CuD7C19mqCsPcduMqSvyuTo7dmnmsckvLnpDCejxWNM8wnpGcHzPB4FbyUWcVaJRXiU86C_6jzdoXjkmk1rQl4t2vA103PPPxY.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=VNpT2YicseAQ7kNvwGCk50m&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5Nzg0NTE1MjgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=3c2966c6415b46c3&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GMTRBMThERjRDQUE4REY3NkQwREM1QjRFODhGNEVCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJDNEVGQzA4QThFQkY0QzFENjkxNzVGRkQ3NTZCMzg3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA646PztPvPxUCKAJDMywXQE23bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=JR_nFKNbpaezO1MRa2PLrA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQD4BlnB-FctB0dbfp2LzkLecDyHyOa2xAPT0y9D2BJLJg&amp;oe=6A61BB9A\"></video></p>",
-    "summaryKo": "영상·이미지·음성 생성 플랫폼 Higgsfield가 신규 가입자 대상으로 하루간 'Seedance 2.0' 등 주요 생성 모델을 무제한 이용할 수 있는 'Higgsfield Unlimited' 무료 체험을 시작했다. 체험 후 구독을 유지하면 'Higgsfield Plus'와 함께 7일 추가 무제한 이용이 제공되지만 MCP·CLI·플러그인·Canvas 등 일부 기능은 제외된다.",
-    "tags": [
-      "영상생성",
-      "멀티모달"
-    ],
-    "entities": [
-      "Higgsfield",
-      "Seedance 2.0"
-    ],
-    "cats": [
-      "멀티모달",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "fee5f0bf2d3633cd",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Nativ - 프런티어급 오픈 모델을 Mac에서 로컬 실행",
-    "url": "https://news.hada.io/topic?id=31663",
-    "publishedAt": "2026-07-22T02:33:43+09:00",
-    "rawText": "Nativ은 Apple Silicon Mac에서 오픈 AI 모델을 내려받아 계정·구독·클라우드 없이 실행하는 MIT 라이선스 오픈소스 앱임 Google, Cohere, Liquid AI 등의 모델을 제공하며, Mac 하드웨어에 적합한 모델을 추천하고 모든 응답을 로컬에서 생성함 채팅에서...",
-    "summaryKo": "Nativ은 애플 실리콘 Mac에서 계정·구독·클라우드 연결 없이 오픈 AI 모델을 내려받아 실행할 수 있는 MIT 라이선스 오픈소스 앱이다. Google, Cohere, Liquid AI 등의 모델을 지원하며 하드웨어에 맞는 모델을 추천하고 모든 응답을 로컬에서 생성한다.",
-    "tags": [
-      "로컬LLM",
-      "온디바이스"
-    ],
-    "entities": [
-      "Nativ"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "590d19182d12e077",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "구글 제미나이 새 모델(3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber) 출시",
-    "url": "https://news.hada.io/topic?id=31662",
-    "publishedAt": "2026-07-22T02:03:32+09:00",
-    "rawText": "• 구글은 AI 에이전트 개발의 효율성, 낮은 지연 시간, 신뢰성을 위해 설계된 새로운 제미나이 모델인 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber를 출시 • Gemini 3.6 Flash는 3.5 Flash에 비해 향상된 코딩, 지식 작업, 멀티모달 성능을 제공하며, 출력 토큰 사용량을 줄이고 비용을 절감 • Gem",
-    "summaryKo": "구글이 에이전트 개발에 최적화된 신규 제미나이 모델 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber를 출시했다. 3.6 Flash는 기존 3.5 Flash 대비 코딩·지식작업·멀티모달 성능이 향상되고 출력 토큰 사용량과 비용이 줄었다.",
-    "tags": [
-      "LLM",
-      "제미나이",
-      "에이전트"
-    ],
-    "entities": [
-      "Google",
-      "Gemini 3.6 Flash",
-      "Gemini 3.5 Flash-Lite"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "9305cedab006a0b4",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 샘 알트만이 다음 주 미국 행정부와 의회를 방문해 오픈AI의 차세ᄃ...",
-    "url": "https://www.threads.com/t/DbEAHQtkU61",
-    "publishedAt": "Tue, 21 Jul 2026 17:00:17 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>샘 알트만이 다음 주 미국 행정부와 의회를 방문해 오픈AI의 차세대 AI 모델인 GPT-6 계열에 대해 설명할 예정입니다. 논의 내용에는 새로운 모델의 성능뿐 아니라 일자리에 미칠 영향도 포함될 것으로 알려졌습니다. 이번 일정은 미국 정부가 최첨단 AI 모델의 안전성 검토 절차를 마련하는 시점과 맞물려 진행됩니다. 공식 출시 일정은 공개되지 않았지만, 8월 초 출시 이야기와 차세대 모델을 정부에 직접 설명하는 단계에 들어간 만큼 GPT-6 공개가 가까워진 것으로 보입니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/753231571_17978452128112832_4976068832631405122_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=Mzk0NjI3OTY3MjQ2NDEwMTA0NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE2Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=HH5WDgU_X9oQ7kNvwHd4_PU&amp;_nc_oc=Adr6incVPIWR6EQebOMWxBlOYUhxtBS5YT3BKehIfzFhljADZcx4l85WKsEJB6mqOas&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=JR_nFKNbpaezO1MRa2PLrA&amp;_nc_ss=7a22e&amp;oh=00_AQAhmolV2GoKMTeitSzyQFJRWsiaEV9EiFZC13nGhljOMg&amp;oe=6A65A823\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "샘 알트만이 다음 주 미국 행정부와 의회를 방문해 차세대 모델 GPT-6 계열에 대해 설명할 예정이다. 논의에는 모델 성능뿐 아니라 일자리 영향도 포함될 것으로 알려졌으며, 미 정부의 첨단 AI 모델 안전성 검토 절차 마련 시점과 맞물려 8월 초 출시 가능성이 거론된다.",
-    "tags": [
-      "GPT-6",
-      "AI정책"
-    ],
-    "entities": [
-      "OpenAI",
-      "Sam Altman",
-      "GPT-6"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "3064e426d18ccd85",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Introducing the ChatGPT for small business program",
-    "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-    "publishedAt": "Tue, 21 Jul 2026 17:00:00 GMT",
-    "rawText": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-    "summaryKo": "OpenAI가 소상공인을 위한 'ChatGPT for Small Business' 프로그램을 출시해 자영업자들의 AI 활용 역량 강화와 업무 자동화, 사업 성장을 지원한다. ChatGPT Work를 활용해 소규모 사업자도 대기업 수준의 AI 도구를 활용할 수 있도록 돕는 것이 핵심이다.",
-    "tags": [
-      "ChatGPT",
-      "자동화",
-      "소상공인"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "26b4e01c469da5de",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "A research agenda for the Economic Futures Research Fund",
-    "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-    "publishedAt": "Tue, 21 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"A research agenda for the Economic Futures Research Fund\" width=\"2000\" height=\"1125\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/1dee16ed8ebe3e7bdf82ed8b4186373cf882827c-2000x1125.jpg\" referrerpolicy=\"no-referrer\"></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re sharing the research agenda for the Anthropic Economic Futures Research Fund. We’re committing $200 million to the fund to support ambitious external research on interventions to prepare society for the economic impacts of AI.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">With the research the Fund supports, we want to study what programs could make the economy more flexible and resilient, ensure the benefits of AI are shared, and minimize the harm that AI-driven disruption could cause.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In the fund, we’ll prioritize five research areas:</p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Shaping AI’s impact on workers at the firm and workplace level</li><li>Equipping people to navigate AI-driven transitions</li><li>Modernizing income support for AI-driven displacement</li><li>Building worker stakes in AI-driven growth before disruption arrives</li><li>Generating new evidence on public investments.</li></ol><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"what-is-the-fund\">What is the fund?</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI capabilities continue to improve. But we don’t yet know how quickly AI will diffuse throughout the economy while also becoming more capable, and what the economic effects will be. In our <a href=\"https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf\">Economic Policy Framework</a> (EPF), published in June, we proposed programs and policies for a range of scenarios. But we need more empirical evidence on which interventions might actually work in an AI-transformed economy—which ones make the economy more flexible and resilient, and spread the gains broadly. In the face of this uncertainty, our aim is to build this evidence base so that workers, firms, and governments have room to adapt.This $200 million fund will support external research on interventions proposed in the EPF and on other open questions. We may be entering a moment without historical precedent, where the most promising solutions are ones nobody has tried yet. We’re willing to fund creative and ambitious pilots that can provide guidance on questions where randomized control trials alone might only provide incremental evidence.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This is a significant evolution of our Economic Futures program, launched a year ago. We’re updating our focus to ambitious projects and large grants, because we think it’s where we can have the highest impact. We’ve always thought that it’s important to fund big external research bets; this shift will let us do so. We also learned through the Economic Futures program that it’s hard for us to scale capacity to manage many small grants at once. In addition to large-scale RCTs and pilots, we’re also interested in working with partners that could scale up a program of effective small-scale pilots.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"the-kinds-of-research-were-funding\">The kinds of research we’re funding</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundamentally, we want to fund the most ambitious proposals possible. We aim to fund large-scale RCTs or ambitious, creative pilots or program evaluations that expand our shared understanding of what shows promise and in which contexts, fill gaps where evidence is thin, and inspire new solutions. The fundable directions below lay out a set of possibilities, but we know that we have not come up with all the good ideas in this space. We welcome proposals that may not be captured below.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI could transform society faster than traditional research funding and publication cycles can keep pace with. We’re looking to partner with research organizations that are willing to share what they’re learning publicly at key milestones because a signal that arrives early enough to act on can be worth more than an answer that arrives too late. We're especially interested in pilots that can be scaled up dramatically if they show promise.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This is a global fund. The funding directions that we’ve outlined below are somewhat US-centric, in part because we’re headquartered in San Francisco, and Claude is used more in the US than any other country. But the need to prepare for disruption will be necessary worldwide, and we expect to fund projects in a way that reflects that.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We<strong> </strong>plan to primarily fund projects in the $5-30 million range, though we’re flexible upward for well-scoped, high-potential-impact projects. Based on what we learned from the Economic Futures program, and the ambition and scale we’re seeking in proposals, we won’t directly fund anything below $1 million from this fund.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’ll accept proposals from accredited universities and other degree-granting institutions, from independent research institutes and policy research organizations, and from nonprofits with a track record of running field experiments at scale. Individual researchers may serve as principal investigators on proposals made by their institutions, but we won’t consider proposals from individuals applying in their personal capacity.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re more likely to fund projects that fit one of our research priorities, but we welcome ambitious proposals outside them, as long as they’re calibrated to the scale of the problem and opportunity. <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfQySlKGRi_xqRRz2ZGy-1aC5eUf-fK-j0iJun2m6Fu5pqSOg/viewform?usp=dialog\">See our request for proposals and apply here.</a></p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"our-five-research-priorities\">Our five research priorities</h2><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"1-shaping-ais-impact-on-workers-at-the-firm-and-workplace-level\">1. Shaping AI’s impact on workers at the firm and workplace level</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">AI’s impact on the labor market depends on the systems, workplaces, training protocols, and institutional choices that are built around it. The existing evidence on AI’s integration in the workplace is observational and short-term. Field experiments can help us understand which collaborative patterns develop human expertise alongside AI, how organizational design choices affect both productivity and who captures the gains, and what difference worker voice makes in those design choices.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Without this evidence, both firm-level decisions and policy levers like incentives for worker augmentation, retention tax credits, employer co-investment requirements, or apprenticeship programs will be poorly informed.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Field experiments randomizing AI systems and AI integration designs at the firm or team level, including comparisons of designs co-developed with workers and worker organizations against top-down approaches</li><li>Estimates of the impact of organizational choices around AI workplace integration and usage on the incidence of AI productivity gains</li><li>Evaluations of retention tax credits and employer co-investment requirements</li></ul><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"2-equipping-people-to-navigate-ai-driven-transitions\">2. Equipping people to navigate AI-driven transitions</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The evidence on retraining and job placement is mixed, and it may not generalize to AI-induced economic disruption and rapid structural transformation.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Evaluations of innovative skill retraining, job placement, licensing reform, and sectoral transition packages, including newer AI-enabled matching, credentialing, and learning models, and the bundling of income support with intensive reemployment services, retraining, and relocation assistance</li><li>Field experiments on the early-career and professional pipeline, e.g., what apprenticeship, mentorship, or rotational models can build expertise if junior tasks are absorbed by AI</li><li>Evaluations of curriculum and educational delivery models in K-12 and higher education that aim to prepare students for a transformed labor market, including longitudinal pilots that link educational interventions to later labor market outcomes</li><li>Tests of ambitious mobility instruments, for example paid leave tied to retraining programs and portable benefits that follow workers across employers</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">There’s existing evidence on many such efforts, including some especially effective <a href=\"https://www.journals.uchicago.edu/doi/abs/10.1086/717932\">sectoral training programs</a>. We want to find out whether promising programs could scale quickly across a broader population. For example, a large-scale “fire drill” where selected programs are scaled up rapidly for job seekers in a given state could provide evidence on how well these programs work in the face of major disruption.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"3-modernizing-income-support-for-ai-driven-displacement\">3. Modernizing income support for AI-driven displacement</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Like similar insurance programs around the world, the US system for supporting displaced workers is built almost entirely around the assumption that joblessness is temporary. AI may lead to displacement that is broader and more persistent. In that scenario, we’ll need instruments calibrated to a new equilibrium, one with no modern precedent.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Unemployment Insurance (UI) reforms suited to AI-driven displacement, including alternative eligibility thresholds, automatic extension triggers linked to industry or occupation, and integration of UI with wage insurance, retraining, or other transition supports</li><li>Basic needs relief for workers who exhaust UI, never qualified, or are persistently underemployed</li><li>Longer-duration unconditional income pilots at livable levels, designed to speak to scenarios where income and work are decoupled for sustained periods of time, with analyzed outcomes spanning not only labor supply and consumption but also well-being, family stability, child development, civic participation, and how recipients structure their time</li></ul><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"4-building-worker-stakes-in-ai-driven-growth-before-disruption-arrives\">4. Building worker stakes in AI-driven growth before disruption arrives</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In unprecedented scenarios where AI delivers large aggregate gains, those gains may not be broadly shared by default. In the EPF, we discuss universal pre-distributive capital accounts and adjacent mechanisms, like equity-sharing, AI-sector dividends, and public ownership stakes. But these mechanisms have limited direct empirical precedent at scale, and they also need a funding source. Many proposals to generate revenue exist, including taxing AI-driven returns through corporate, capital gains, or token taxes. But we lack evidence on who would bear the economic incidence of such taxes, and how different designs would affect collected revenue and adoption.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>RCTs testing the design of pre-distributive capital accounts at scale</li><li>Pilots testing equity-sharing or dividend-style mechanisms, including community-level pilots where AI infrastructure or AI-using firms generate direct, ongoing returns to local residents</li><li>Evaluations comparing different mechanisms for raising and distributing revenue—which tax base (corporate profits, capital gains, compute, automation taxes, etc.) and which mechanism (pre-distributive accounts, equity stakes, dividends, or equivalent direct transfers) lead to the best labor market and household outcomes</li></ul><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"5-generating-new-evidence-on-public-investments\">5. Generating new evidence on public investments</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The EPF calls for both modernizing the income safety net and substantially expanding public investment in human- and community-facing work. Policymakers need a consistent way to compare these instruments against one another, and against direct transfers. This research would generate evidence on what forms of spending generate the most public benefit, especially in sectors that might be undervalued by the private market.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fundable directions include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>Large-scale pilots that directly fund human- and community-facing service positions (in e.g., teaching, after-school programming, libraries, community health, parks, infrastructure, the arts), measuring outcomes including employment levels, educational attainment, crime, and well-being</li><li>Pilots broadening access to AI-enabled public services (legal aid, medical guidance, financial advice) for underserved populations, testing whether such investments can narrow the divide in access</li><li>Guaranteed-jobs pilots for displaced or long-term unemployed workers, in which participants are offered employment in public good roles in the spirit of the Civilian Conservation Corps but spanning a broader range of roles</li><li>Place-based interventions in communities most exposed to AI-driven displacement or hosting major AI infrastructure build-outs, including bundled investments in workforce, public services, infrastructure, and amenities, and pilots of regional development authorities that coordinate these investments under unified governance</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfQySlKGRi_xqRRz2ZGy-1aC5eUf-fK-j0iJun2m6Fu5pqSOg/viewform?usp=dialog\">Learn more about the RFP and apply here.</a></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "Anthropic이 AI가 경제에 미치는 영향에 대비하기 위해 2억 달러 규모의 'Economic Futures Research Fund'를 조성하고 연구 의제를 공개했다. 노동자 보호, 소득 지원 현대화, AI 성장의 이익 공유 등 5개 연구 영역에서 대규모 실증 연구와 파일럿 프로그램에 자금을 지원할 계획이다.",
-    "tags": [
-      "AI경제",
-      "정책연구"
-    ],
-    "entities": [
-      "Anthropic"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-22T21:09:43.991Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "a66075dc0af41a68",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Ask Claude about the Anthropic Economic Index",
-    "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-    "publishedAt": "Tue, 21 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-coral\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Ask Claude about the Anthropic Economic Index\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The <a href=\"https://www.anthropic.com/economic-index\">Anthropic Economic Index</a> exists to help answer them with real data. Today we're launching the Anthropic Economic Index connector for Claude, which lets anyone explore that data directly.</p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><div class=\"Video-module-scss-module__qJNyFq__post-wrapper\"><figure class=\"Video-module-scss-module__qJNyFq__post-video-container\"><video controls=\"\" playsinline=\"\" muted=\"\" src=\"https://cdn.sanity.io/files/4zrzovbb/website/8a161dd5a8683a1b300d64dd1173579851301f40.mp4\"></video></figure></div></div><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The Anthropic Economic Index measures how AI is actually being used in the economy. The Index’s data has been useful to researchers, journalists, and policymakers, but we want it to be just as accessible to anyone curious about how AI fits into their field or day-to-day life. Now you can ask Claude questions like:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>“Which occupations use AI the most?”</li><li>“What are the most common ways people in Colorado use Claude?”</li><li>“What sorts of tasks do teachers use Claude for?”</li><li>“What kinds of tasks are people automating with AI? How has that changed over the past year??”</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">You’ll get answers grounded directly in the Index data.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Getting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (\"what does the Index say about my industry?\"), then drill into specifics, and ask Claude to show you the underlying data behind any answer.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As always, the Index reflects patterns in Claude usage rather than the labor market as a whole, and Claude will point you back to the source data and its limitations as you explore. You can find the connector in claude.ai today, and the full datasets remain freely available on our website.</p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "Anthropic이 Claude에서 Anthropic Economic Index 데이터를 바로 조회할 수 있는 커넥터를 출시했다. 직업별 AI 활용도, 지역별·업무별 Claude 사용 패턴 등을 자연어로 질문하면 실제 인덱스 데이터를 근거로 답변받을 수 있다.",
-    "tags": [
-      "AI데이터",
-      "커넥터"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude",
-      "Anthropic Economic Index"
-    ],
-    "cats": [
-      "기업·정책",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-22T21:09:43.991Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "e16a6a31aff5e708",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-    "url": "https://blogs.nvidia.com/blog/vera-rubin/",
-    "publishedAt": "Tue, 21 Jul 2026 15:36:43 +0000",
-    "rawText": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The [&#8230;]",
-    "summaryKo": "엔비디아의 차세대 플랫폼 Vera Rubin이 본격 양산에 들어가며 CoreWeave, 구글 클라우드, 마이크로소프트 애저, 오라클 클라우드 등 파트너사에 랙 공급이 시작됐다. 30개국 350곳 이상의 공장이 참여하는 역대 최대 규모의 랙스케일 공급망을 갖춰 와트당 성능과 토큰당 비용 우위를 노린다.",
-    "tags": [
-      "GPU",
-      "AI인프라",
-      "추론비용"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Vera Rubin",
-      "CoreWeave",
-      "Google Cloud",
-      "Microsoft Azure"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "0f95fa90b7a83e35",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
-    "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-    "publishedAt": "Tue, 21 Jul 2026 15:00:20 +0000",
-    "rawText": "AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 [&#8230;]",
-    "summaryKo": "엔비디아가 Vera Rubin을 뒷받침할 차세대 네트워킹 스위치 Spectrum-6을 기가스케일 AI 팩토리에 공급하기 시작했다. 수십만 개의 GPU·CPU를 연결하는 네트워킹이 토큰 생성 성능의 핵심 승수로 떠오르면서, 이번 발표는 통신 인프라의 이정표로 평가된다.",
-    "tags": [
-      "네트워킹",
-      "AI인프라"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Spectrum-6",
-      "Vera Rubin"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "72eeedd5ac0b8f73",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Moonshine - PC 게임을 Moonlight가 실행되는 모든 기기로 스트리밍",
-    "url": "https://news.hada.io/topic?id=31660",
-    "publishedAt": "2026-07-21T22:33:31+09:00",
-    "rawText": "Moonshine은 PC 게임 화면을 Moonlight 클라이언트로 전송하고 키보드·마우스·컨트롤러 입력을 호스트로 돌려보내 원격 플레이를 지원하는 Linux 호스트임 스트림마다 별도의 Wayland 컴포지터를 사용해 데스크톱과 격리하며, 스트리밍 중에도 호스트 PC를 계속 사...",
-    "summaryKo": "Moonshine은 PC 게임 화면을 Moonlight 클라이언트로 전송하고 입력을 호스트로 되돌려보내는 리눅스 기반 원격 플레이 호스트다. 스트림마다 별도 Wayland 컴포지터를 사용해 데스크톱 작업과 격리하며 스트리밍 중에도 호스트 PC 사용이 가능하다.",
-    "tags": [
-      "게임스트리밍",
-      "Linux"
-    ],
-    "entities": [
-      "Moonshine",
-      "Moonlight"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "8d494e1a9520557d",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Gitolite",
-    "url": "https://news.hada.io/topic?id=31659",
-    "publishedAt": "2026-07-21T22:01:09+09:00",
-    "rawText": "Gitolite는 중앙 서버에서 Git 저장소를 호스팅하며, 저장소별로 세밀한 접근 제어를 적용할 수 있게 함 패키지 관리자로 설치할 때는 흔히 gitolite3 라는 이름을 사용하며, 소스 코드는 Codeberg와 GitHub에서 제공됨 Un...",
-    "summaryKo": "Gitolite는 중앙 서버에서 Git 저장소를 호스팅하며 저장소별로 세밀한 접근 제어를 적용할 수 있는 도구다. 패키지 관리자에서는 gitolite3라는 이름으로 배포되며 소스는 Codeberg와 GitHub에서 제공된다.",
-    "tags": [
-      "Git",
-      "접근제어"
-    ],
-    "entities": [
-      "Gitolite"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "5720d513e8f3686f",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 뽑로그 - FDM·레진을 한 곳에서 다루는 3D프린팅 지식 사이트",
-    "url": "https://news.hada.io/topic?id=31657",
-    "publishedAt": "2026-07-21T21:20:23+09:00",
-    "rawText": "FDM 과 레진을 한 사이트에서 다루는 한국어 3D프린팅 지식 사이트를 만들었습니다. [왜 만들었나] \"엔더3 첫 레이어\", \"PETG 스트링\" 같은 걸 검색하면 개봉기와 제휴 리뷰가 먼저 나오고, 정작 필요한 \"내 기종 x 내 소재 셋팅값\"은 카페·갤러리·개인 블로그로 흩어져",
-    "summaryKo": "FDM과 레진 방식을 한 곳에서 다루는 한국어 3D프린팅 지식 사이트 '뽑로그'가 공개됐다. 기종별·소재별 세팅값 정보가 카페·블로그 등에 흩어져 있는 문제를 해결하기 위해 만들어졌다.",
-    "tags": [
-      "3D프린팅"
-    ],
-    "entities": [
-      "뽑로그"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "5cb9bc01c38caa8e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "인간 수학자, 반례 찾기에서 AI에 추월당하다",
-    "url": "https://news.hada.io/topic?id=31656",
-    "publishedAt": "2026-07-21T20:34:37+09:00",
-    "rawText": "ChatGPT와 Claude 계열 모델이 불과 몇 주 사이 Erdős의 단위 거리 추측, Grothendieck의 군 스킴 질문, Jacobian Conjecture에 반례를 만들었으며 일부는 Lean으로 검증됨 OpenAI의 Sol은 Erdős 반례와 필요한 전역 유체론 결과를 3주 만에 120만 줄의 Lean 코드로...",
-    "summaryKo": "ChatGPT와 클로드 계열 모델이 몇 주 사이 에르되시 단위거리 추측, 그로텐디크 군 스킴 질문, 야코비안 추측에 대한 반례를 찾아냈고 일부는 린(Lean)으로 검증됐다. OpenAI의 'Sol' 모델은 에르되시 반례와 필요한 전역 유체론 결과를 3주 만에 120만 줄 분량의 린 코드로 도출했다.",
-    "tags": [
-      "LLM",
-      "수학추론",
-      "정리증명"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT",
-      "Claude",
-      "Sol"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "df45f6b149050e80",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Advancing next-gen AI with materials science innovation",
-    "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-    "publishedAt": "Tue, 21 Jul 2026 10:37:34 +0000",
-    "rawText": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI technology demands more processing power, more memory, greater energy efficiency, and&#8230;",
-    "summaryKo": "MIT 테크놀로지 리뷰는 AI 발전이 반도체와 데이터센터에 극한의 물리적 압력을 가하면서 소재과학 혁신이 이제 보조 역할이 아니라 성능의 한계를 정의하는 요소가 됐다고 분석한다. 소재기업 Syensqo는 마이크로소프트 디스커버리 같은 AI 플랫폼을 활용해 반도체 장비 밀봉용 불소탄성중합체와 반도체·데이터센터 냉각용 열전달 액체 등을 개발하고 있다.",
-    "tags": [
-      "소재과학",
-      "반도체",
-      "데이터센터"
-    ],
-    "entities": [
-      "Syensqo",
-      "Microsoft Discovery"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "a5d809000d18f792",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "강남구약, 회원 약국업무 지원 AI 서비스 제공",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=538963",
-    "publishedAt": "2026-07-21 17:02:25",
-    "rawText": "강남구약사회(회장 김형지)가 다국어 복약안내문 제작과 의약품 낱알 식별, 각종 약국 행정문서 출력 기능 등을 갖춘 회원 지원용 인공지능(AI) 서비스를 제공한다.강남구약사회는 총무위원회를 중심으로 약국위원회, 보험정보위원회 등이 참여해 약국업무 지원 사이트 ‘올에이아이팜’을 개발했다고 밝혔다.이번 서비스는 약국에서 반복적으로 발생하는 소규모 행정업무와 자료 검색 부담을 줄이는 데 초점을 맞췄다.특히 외국인 방문 수요가 많은 강남구 지역 특성을 고려해 AI를 활용한 영어·일본어·중국어 복약안내문과 가격표 제작 기능을 탑재했다. 약국에",
-    "summaryKo": "강남구약사회가 다국어 복약안내문 제작, 의약품 낱알 식별, 약국 행정문서 출력 기능을 갖춘 회원 지원용 AI 서비스 '올에이아이팜'을 개발해 제공한다. 외국인 방문 수요가 많은 지역 특성을 고려해 영어·일본어·중국어 복약안내문과 가격표 제작 기능도 포함했다.",
-    "tags": [
-      "약국AI",
-      "다국어"
-    ],
-    "entities": [
-      "강남구약사회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "2745670d207e8664",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Git 훅과 nq로 만드는 최소형 CI",
-    "url": "https://news.hada.io/topic?id=31653",
-    "publishedAt": "2026-07-21T17:01:21+09:00",
-    "rawText": "개인 서버의 bare Git 저장소에 post-receive 훅을 추가해 테스트, 빌드, 파일 이동을 자동화하는 간단한 CI 구성임 기존 CI는 복잡한 YAML 설정과 느린 실행, 어려운 자체 호스팅에 비해 완전한 빌드 격리나 비밀정보 관리까지 필요하지 않았음 훅에서 작업을...",
-    "summaryKo": "개인 서버의 bare Git 저장소에 post-receive 훅을 붙여 테스트·빌드·배포를 자동화하는 초경량 CI 구성 사례다. 복잡한 YAML 설정과 느린 실행 없이도 완전한 빌드 격리나 비밀정보 관리가 필요 없는 소규모 프로젝트에 적합하다.",
-    "tags": [
-      "CI/CD",
-      "Git"
-    ],
-    "entities": [
-      "nq"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "f7f5274e64354155",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "10년동안 코드리뷰 했는데 이제는 뭔가 바뀌는것 같습니다. 클로드 코드, 리뷰하며 느낀 불편한 진실",
-    "url": "https://www.youtube.com/watch?v=bmlDt_FHr2M",
-    "publishedAt": "2026-07-21T07:30:18+00:00",
-    "rawText": "10년동안 코드리뷰 했는데 이제는 뭔가 바뀌는것 같습니다. 클로드 코드, 리뷰하며 느낀 불편한 진실",
-    "videoId": "bmlDt_FHr2M",
-    "summaryKo": "10년 차 개발자가 클로드 코드 등 AI 에이전트가 만든 PR을 리뷰하며 느낀 변화를 다룬 영상이다. 코드 생산 속도가 리뷰 속도를 압도하면서, 코드를 줄 단위로 읽기보다 PR 작성자가 남긴 문제 정의·접근 방법·테스트 근거를 먼저 확인하는 방식으로 리뷰 습관이 바뀌었다고 말한다. 결제·인증·데이터 삭제처럼 되돌리기 어려운 변경은 여전히 코드를 직접 봐야 하며, 주니어 개발자는 판단력을 기르기 위해 기본 알고리즘을 직접 구현하고 실패 조건을 먼저 생각하는 습관을 가지라고 조언한다.",
-    "tags": [
-      "코드리뷰",
-      "AI에이전트",
-      "바이브코딩"
-    ],
-    "entities": [
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "d925d8c91f460a44",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-    "publishedAt": "Tue, 21 Jul 2026 07:00:00 GMT",
-    "rawText": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-    "summaryKo": "OpenAI와 Hugging Face가 모델 평가 과정에서 발생한 보안 사고에 대한 초기 조사 결과를 공동 발표했다. 고도화된 사이버 공격 능력이 확인되었으며, 방어자 관점에서 참고할 교훈을 공유했다.",
-    "tags": [
-      "보안",
-      "모델평가"
-    ],
-    "entities": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "65c811eb94c80cea",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "美 연방법원, 앤트로픽 15억 달러 저작권 합의 최종 승인",
-    "url": "https://news.hada.io/topic?id=31651",
-    "publishedAt": "2026-07-21T13:02:17+09:00",
-    "rawText": "미 샌프란시스코 연방법원이 7월 20일 앤트로픽의 15억 달러 저작권 집단소송 합의를 최종 승인했다. 공개된 미국 저작권 소송 사상 최대 배상 규모다. • 2026-07-20 캘리포니아 북부지법 Martinez-Olguin 판사, 15억 달러(+이자) 합의 최종 승인 — \"역대 최대 저작권 배상",
-    "summaryKo": "미국 샌프란시스코 연방법원이 앤트로픽의 15억 달러 규모 저작권 집단소송 합의를 최종 승인했다. 공개된 미국 저작권 소송 사상 최대 배상 규모로, 캘리포니아 북부지법 마르티네즈-올긴 판사가 7월 20일 승인을 결정했다.",
-    "tags": [
-      "저작권",
-      "AI규제"
-    ],
-    "entities": [
-      "Anthropic"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "8f177d5f63add3f3",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "BMS, 엔비디아와 AI 협력 확대…“생명과학 최강 AI 팩토리 구축”",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=538915",
-    "publishedAt": "2026-07-21 11:59:00",
-    "rawText": "브리스톨마이어스스퀴브(Bristol Myers Squibb·BMS)이 엔비디아(Nvidia)와의 협력을 강화해 ‘생명과학 분야에서 가장 강력한 인공지능(AI) 팩토리’를 구축한다.BMS는 엔비디아 DGX 베라 루빈 NVL72(NVIDIA DGX Vera Rubin NVL72) 시스템을 탑재한 슈퍼컴퓨터 ‘엔비디아 DGX 슈퍼팟(NVIDIA DGX SuperPOD)’을 도입·확대할 계획이라고 7월 20일 밝혔다.슈퍼컴퓨팅 인프라로 신약 연구 지원BMS는 이번 확장을 통해 생명과학 분야에서 단일 기업이 보유한 엔비디아 인프라 가운데 가",
-    "summaryKo": "브리스톨마이어스스퀴브(BMS)가 엔비디아와의 협력을 확대해 생명과학 분야 최강급 AI 팩토리를 구축한다. DGX 베라 루빈 NVL72 기반 슈퍼컴퓨터 'DGX 슈퍼팟'을 도입·확대해 신약 연구를 위한 슈퍼컴퓨팅 인프라를 지원할 계획이다.",
-    "tags": [
-      "신약개발",
-      "AI인프라"
-    ],
-    "entities": [
-      "Bristol Myers Squibb",
-      "NVIDIA",
-      "DGX Vera Rubin NVL72"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-21T21:09:24.983Z"
-  },
-  {
-    "id": "69e481323262afa1",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-    "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-    "publishedAt": "Tue, 21 Jul 2026 00:00:00 GMT",
-    "rawText": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-    "summaryKo": "데이비드 벨레스와 로빈 빈스가 OpenAI 재단과 OpenAI Group PBC 이사회에 합류한다. 이들은 금융·기술·거버넌스 분야의 글로벌 리더십 경험을 OpenAI 지배구조에 더할 것으로 기대된다.",
-    "tags": [
-      "거버넌스",
-      "이사회"
-    ],
-    "entities": [
-      "OpenAI",
-      "David Vélez",
-      "Robin Vince"
-    ],
     "cats": [
       "기업·정책"
     ],
