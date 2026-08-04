@@ -1,0 +1,25 @@
+{
+  "points": [
+    "Linux Foundation이 에이전틱 AI 사이버보안 사고 정보를 공유하는 'SAFE(Shared AI Findings Exchange)' 가이드라인 초안을 공개했다.",
+    "Open Secure AI Alliance는 120개 이상 조직이 참여하는 AI 보안 연합체로, NVIDIA·Cisco·CrowdStrike·Amazon 등이 포함된다.",
+    "CrowdStrike는 NVIDIA Nemotron Nano 모델로 조사 쿼리 생성에서 96% 정확도를 달성했다고 밝혔다.",
+    "Uber는 하루 20만 건 이상의 에이전트 세션과 3만 개 엔드포인트를 이 보안 체계로 지원한다고 소개했다."
+  ],
+  "sections": [
+    {
+      "heading": "SAFE 가이드라인이란",
+      "body": "AI 사건·근접사건 정보를 기밀리에 수집·분석해 영향받은 기관에 알리고, 반복되는 통제 실패를 파악해 위험 감소 권고안을 내는 것을 목표로 한다. Black Hat 콘퍼런스 개막에 맞춰 공개된 RFC(의견수렴안)다."
+    },
+    {
+      "heading": "Open Secure AI Alliance",
+      "body": "NVIDIA, Cisco, CrowdStrike, Hugging Face, Red Hat, Okta, Palo Alto Networks, Microsoft, Wiz, Visa, Uber, Perplexity 등 120개 이상 조직이 참여해 AI 보안 스택 전반에 걸쳐 개방적이고 검증 가능한 도구를 함께 만들고 있다. Amazon은 이번에 신규 합류했다."
+    },
+    {
+      "heading": "실사용 사례",
+      "body": "CrowdStrike는 NVIDIA Nemotron Nano 모델을 조사 쿼리 생성에 활용해 96% 정확도를 기록했고, Uber는 하루 20만 건 이상의 에이전트 세션과 3만 개 엔드포인트를 이런 보안 체계로 관리한다고 밝혔다."
+    }
+  ],
+  "quotes": [
+    "\"에이전틱 사이버보안 사건을 공유된 보호로 전환한다.\""
+  ]
+}
