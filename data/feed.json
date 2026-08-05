@@ -1,5 +1,418 @@
 [
   {
+    "id": "143880fc515aa557",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Discovery Loop",
+    "url": "https://news.hada.io/topic?id=32186",
+    "publishedAt": "2026-08-06T04:31:42+09:00",
+    "rawText": "Discovery Loop는 반복적인 실험 과정을 AI로 자동화해 과학·공학 연구 속도를 높이고 결과물의 양과 품질을 개선하는 시스템을 개발함 프런티어 AI 모델과 대규모 컴퓨팅 인프라로 실험을 제안·실행·평가하고 결과에서 학습하며, 수천 개의 실험을 병렬 수행해 반...",
+    "summaryKo": "Discovery Loop는 반복적인 실험 과정을 AI로 자동화해 과학·공학 연구의 속도와 결과물의 양·질을 함께 끌어올리는 시스템이다. 프런티어 AI 모델과 대규모 컴퓨팅 인프라로 수천 개의 실험을 병렬로 제안·실행·평가하며 그 결과에서 스스로 학습한다.",
+    "tags": [
+      "연구자동화",
+      "실험",
+      "AI에이전트"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "83c28fc1d2a889db",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Do LLMs make ML research more fair for small teams? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/",
+    "publishedAt": "2026-08-05T19:16:29+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>It feels like LLMs are partially leveling the playing field in ML research. A solo researcher or a two-person team can now get help with coding, literature review, writing things stronger labs usually get from experienced colleagues and large networks.<br/> Obviously, LLMs don’t replace mentorship, or good research taste. But they may help researchers with weak networks or small groups turn good ideas into publishable work.<br/> Do you think this is actually making ML research more accessible, or are the strongest labs benefiting even more?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/\">[comments]</a></span>",
+    "summaryKo": "LLM 덕분에 소규모 팀이나 1인 연구자도 코딩, 문헌 조사, 글쓰기에서 대형 연구실 수준의 지원을 받을 수 있게 되면서 ML 연구의 진입장벽이 낮아지고 있다는 논의다. 다만 멘토십과 연구 안목을 대체하진 못한다며, 이 흐름이 실제로 접근성을 넓히는지 아니면 최상위 연구실이 더 큰 이득을 보는지 커뮤니티에 의견을 묻는다.",
+    "tags": [
+      "LLM",
+      "연구접근성"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "4e02d3fa7c7da973",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Cloudflare OS: 에이전트·앱·업무를 위한 개방형 플랫폼",
+    "url": "https://news.hada.io/topic?id=32185",
+    "publishedAt": "2026-08-06T03:38:12+09:00",
+    "rawText": "Cloudflare가 전 직원을 대상으로 운영해 온 Cloudflare OS의 새 버전을 오픈소스로 공개해, 조직별 지식·업무 절차·내부 시스템을 활용하는 에이전트 작업 공간을 직접 배포할 수 있게 함 플랫폼은 회사가 선별한 맥락과 기술을 사용하는 에이전트 작업 공간, 내부...",
+    "summaryKo": "Cloudflare가 사내 전 직원 대상으로 운영해 온 'Cloudflare OS'의 새 버전을 오픈소스로 공개해, 조직 고유의 지식·업무 절차·내부 시스템을 활용하는 에이전트 작업 공간을 누구나 직접 배포할 수 있게 됐다. 회사가 선별한 맥락과 기술을 사용하는 에이전트 워크스페이스를 뼈대로 한 개방형 플랫폼이다.",
+    "tags": [
+      "Cloudflare",
+      "에이전트워크스페이스",
+      "오픈소스"
+    ],
+    "entities": [
+      "Cloudflare"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "21f525aa330beb70",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Demis Hassabis, Google DeepMind CEO에서 회장으로 이동",
+    "url": "https://news.hada.io/topic?id=32184",
+    "publishedAt": "2026-08-06T03:35:12+09:00",
+    "rawText": "Demis Hassabis가 Google DeepMind의 일상 운영에서 물러나 회장을 맡고, Alphabet 수석 과학자와 Isomorphic Labs 책임자를 병행함 CTO Koray Kavukcuoglu가 수석부사장으로 조직을 이끌며 Sundar Pichai에게 직접 보고하고, Gemini 로드맵 실행에 집중함",
+    "summaryKo": "Demis Hassabis가 Google DeepMind의 일상 운영에서 물러나 회장직을 맡고, 대신 Alphabet 수석 과학자와 Isomorphic Labs 책임자 역할을 병행하기로 했다. CTO인 Koray Kavukcuoglu가 수석부사장으로 조직을 이끌며 Sundar Pichai에게 직접 보고하고 Gemini 로드맵 실행에 집중한다.",
+    "tags": [
+      "조직개편",
+      "리더십"
+    ],
+    "entities": [
+      "Google DeepMind",
+      "Demis Hassabis",
+      "Alphabet",
+      "Isomorphic Labs"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "12c55baaf5ec5b1e",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "뉴멕시코 민간 항공기 추락, 미군 GPS 교란과 연관",
+    "url": "https://news.hada.io/topic?id=32183",
+    "publishedAt": "2026-08-06T01:33:28+09:00",
+    "rawText": "5월 13일 Roswell에서 Ruidoso로 향하던 의료수송용 Beechcraft King Air가 미군 훈련으로 GPS를 잃은 뒤 산에 충돌해 조종사 2명과 간호사 2명 전원이 사망했으며, 미국에서 GPS 교란이 민간 항공기 추락에 기여한 첫 사례가 됨 White Sands Missile Range의 NAVFEST 훈련...",
+    "summaryKo": "지난 5월 뉴멕시코 로즈웰에서 루이도소로 향하던 의료수송용 경비행기가 미군 훈련으로 인한 GPS 교란 탓에 위치를 잃고 산에 충돌해 조종사와 간호사 등 탑승자 4명 전원이 사망했다. 미국에서 GPS 재밍이 민간 항공기 추락의 원인으로 지목된 첫 사례로 기록됐다.",
+    "tags": [
+      "GPS재밍",
+      "항공안전"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "c9ed5435ba8b251e",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Running Whisper, Qwen3-ASR, Nemotron & MOSS completely offline on iPhone [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/",
+    "publishedAt": "2026-08-05T16:04:42+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Over the past month, I&#39;ve been building LiveTranscriber, an open-source iOS app for running modern speech and language models entirely on-device.</p> <p>The goal was to see whether recent open-source models could be turned into a practical mobile product—not just technical demos.</p> <p>Currently supported local models include:</p> <p>- Whisper for offline transcription</p> <p>- Qwen3-ASR for multilingual speech recognition</p> <p>- NVIDIA Nemotron Streaming for low-latency live transcription</p> <p>- MOSS Multi-Speaker for speaker-aware transcription</p> <p>- Qwen3 for local summaries, key points, titles, and transcript analysis</p> <p>Features include:</p> <p>- 100% offline speech recognition</p> <p>- Offline multi-speaker transcription</p> <p>- On-device summaries and key-point extraction</p> <p>- Real-time translation</p> <p>- Apple Watch recording with automatic sync</p> <p>- Downloadable and switchable local models</p> <p>- Searchable transcript history</p> <p>The main engineering challenge was not simply running the models, but making them usable on iPhone: memory management, streaming latency, model loading, context handling, battery usage, and switching between different inference backends.</p> <p>The project is fully open source:</p> <p>GitHub:</p> <p><a href=\"https://github.com/iamwilliamli/LiveTranscriber\">https://github.com/iamwilliamli/LiveTranscriber</a></p> <p>App Store:</p> <p><a href=\"https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364\">https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364</a></p> <p>I&#39;d appreciate feedback from anyone working on ASR, local LLMs, on-device AI, Core ML, or mobile inference.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/marshmallow_ki\"> /u/marshmallow_ki </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/\">[comments]</a></span>",
+    "summaryKo": "Whisper, Qwen3-ASR, NVIDIA Nemotron Streaming, MOSS 등 여러 오픈소스 음성·언어 모델을 아이폰에서 완전히 오프라인으로 구동하는 iOS 앱 'LiveTranscriber'가 오픈소스로 공개됐다. 오프라인 다화자 전사, 실시간 번역, 애플워치 연동 녹음 등을 지원하며 메모리·배터리·지연시간 관리가 핵심 과제였다고 밝혔다.",
+    "tags": [
+      "온디바이스AI",
+      "음성인식",
+      "iOS"
+    ],
+    "entities": [
+      "Whisper",
+      "Qwen3-ASR",
+      "Nemotron",
+      "MOSS"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "2371359a7de79657",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "libexpat, 뮌헨시 지원으로 최대 6개월간 유급 유지보수",
+    "url": "https://news.hada.io/topic?id=32182",
+    "publishedAt": "2026-08-06T00:42:12+09:00",
+    "rawText": "2026년 8월 1일부터 뮌헨시의 Open Source Sabbatical을 통해 libexpat 유지보수가 최대 6개월간 유급 전업 업무로 전환됨 우선순위는 미해결 취약점 5개 수정과 XML 1.0r5 지원 추가, 프로젝트의 견고성·유지보수성 개선임 libexpat은 ...",
+    "summaryKo": "2026년 8월 1일부터 뮌헨시의 '오픈소스 안식년' 지원을 통해 XML 파서 라이브러리 libexpat의 유지보수가 최대 6개월간 유급 전업 업무로 전환됐다. 우선 과제는 미해결 취약점 5건 수정과 XML 1.0r5 지원 추가로, 널리 쓰이는 오픈소스 프로젝트의 견고성과 지속가능성을 높이려는 취지다.",
+    "tags": [
+      "오픈소스",
+      "유지보수",
+      "libexpat"
+    ],
+    "entities": [
+      "libexpat"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "c1444b205c7325ef",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Waymo, 댈러스에서 누구나 이용 가능",
+    "url": "https://news.hada.io/topic?id=32181",
+    "publishedAt": "2026-08-06T00:39:11+09:00",
+    "rawText": "2026년 8월 4일부터 댈러스에서 누구나 Waymo 앱으로 완전 자율주행 차량을 호출할 수 있음 2월 서비스 개시 후 관심 명단에 있던 이용자 약 15만 명에게 제공하던 서비스를 전면 개방함 주민들이 심부름·출퇴근·모임에 이용해 온 데 이어, 이제 ...",
+    "summaryKo": "2026년 8월 4일부터 댈러스에서는 누구나 Waymo 앱으로 완전 자율주행 차량을 호출할 수 있게 됐다. 지난 2월 서비스 개시 후 대기자 명단에 있던 이용자 약 15만 명에게만 제공하던 서비스를 전면 개방한 것이다.",
+    "tags": [
+      "자율주행",
+      "로보택시"
+    ],
+    "entities": [
+      "Waymo"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "a1e9b4bf8c080067",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "FedEx의 진짜 결제 문자가 피싱처럼 보인 이유(2024)",
+    "url": "https://news.hada.io/topic?id=32180",
+    "publishedAt": "2026-08-06T00:36:11+09:00",
+    "rawText": "FedEx의 실제 관세·세금 납부 SMS가 긴급성, 어색한 문법, 낯선 URL 등 전형적인 피싱 징후를 모두 갖춰, 4,000명 이상이 참여한 설문에서 87%가 사기로 판단함 발신자는 FedEx-Exp, 결제 주소는 FedEx가 아닌 bpoint.com.au로 표시됐고 배송 번호와 금액...",
+    "summaryKo": "FedEx가 실제로 보낸 관세·세금 납부 안내 SMS가 긴급한 문구, 어색한 문법, 낯선 URL 등 전형적인 피싱 문자의 특징을 그대로 갖추고 있어, 4천 명 이상이 참여한 설문에서 87%가 사기로 오인했다. 발신자 표시는 'FedEx-Exp'였고 결제 주소도 FedEx가 아닌 제3의 도메인(bpoint.com.au)으로 표시된 것이 혼란을 키웠다.",
+    "tags": [
+      "피싱",
+      "보안"
+    ],
+    "entities": [
+      "FedEx"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "9de2ea06304dd038",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "자기 개선을 위한 하네스 엔지니어링",
+    "url": "https://news.hada.io/topic?id=32179",
+    "publishedAt": "2026-08-05T23:36:25+09:00",
+    "rawText": "재귀적 자기 개선(RSI)의 단기 경로는 모델이 직접 가중치를 고치는 것보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선해 더 나은 연구·배포 시스템을 만드는 방식에 가까움 하네스는 단순 프롬프트를 넘어 워크플로 자동화, 파일 기반 영속 메모리...",
+    "summaryKo": "재귀적 자기개선(RSI)의 현실적인 단기 경로는 모델이 스스로 가중치를 고치는 방식보다, 사고·도구·맥락·기억·평가를 조율하는 '하네스' 자체를 개선해 더 나은 연구·배포 시스템을 만드는 쪽에 가깝다는 주장이다. 하네스는 단순 프롬프트를 넘어 워크플로 자동화와 파일 기반 영속 메모리까지 아우르는 개념으로 제시된다.",
+    "tags": [
+      "에이전트하네스",
+      "자기개선",
+      "RSI"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "aa0f286d0c4f4978",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 클라우드플레어가 Kimi와 GLM을 더 싸고 빠르게 돌리는 방법을 공개했...",
+    "url": "https://www.threads.com/t/DbqMpDVjJ09",
+    "publishedAt": "Wed, 05 Aug 2026 13:00:54 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>클라우드플레어가 Kimi와 GLM을 더 싸고 빠르게 돌리는 방법을 공개했습니다. Kimi K2.6은 KV 캐시를 BF16에서 FP8로 줄여 한 GPU에 담는 컨텍스트를 68만 토큰에서 137만 토큰으로 늘렸고, 최대 처리량은 41% 높이고 토큰 비용은 약 30% 낮췄습니다. GLM 5.2는 가중치를 FP8에서 INT4로 압축해 705GB를 421GB로 줄이고, 디코딩 속도를 최대 55% 높였습니다. 중요한 건 모델 성능표 밖에 있습니다. 오픈웨이트가 무료여도 서빙이 비싸면 쓸 수 없습니다. 결국 경쟁력은 모델뿐 아니라 같은 GPU에서 얼마나 많은 요청을 안정적으로 처리하느냐까지 내려오고 있습니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/763402104_17980786944112832_4373191885417494496_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=Mzk1NzAzMDgyMDIzNzg0Mzc3Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=t_7KreTffwsQ7kNvwEz3bl7&amp;_nc_oc=AdqrUXpqFl1DcwbUE6wsWfS3KJ5BSEbtyJ8EdguJDtLN_UTEL41_LpBWa0cTSjx3u0g&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=cwDgn8FexVPT-eAqS9bopQ&amp;_nc_ss=7a22e&amp;oh=00_AQEyXSpa5gNqX1ng86eExMk-hRiIUIRuUZl7eav-fLoxpw&amp;oe=6A796517\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Cloudflare가 Kimi K2.6과 GLM 모델을 더 싸고 빠르게 서빙하는 방법을 공개했다. KV 캐시를 BF16에서 FP8로 줄여 GPU 한 대에 담는 컨텍스트를 68만 토큰에서 137만 토큰으로 늘렸고, 처리량은 41% 높이면서 토큰 비용은 약 30% 낮췄다.",
+    "tags": [
+      "추론최적화",
+      "KV캐시",
+      "FP8"
+    ],
+    "entities": [
+      "Cloudflare",
+      "Kimi",
+      "GLM"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "208a5adba6f662f9",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Cloudflare가 AI 에이전트 전용 지갑을 공개했습니다. 스테이블코인을 ᄋ...",
+    "url": "https://www.threads.com/t/DbqCVowiJrw",
+    "publishedAt": "Wed, 05 Aug 2026 11:30:52 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Cloudflare가 AI 에이전트 전용 지갑을 공개했습니다. 스테이블코인을 예치하고 x402 프로토콜로 API와 콘텐츠 비용을 자동 결제하는 구조입니다. 사람은 예산과 허용 목록, 건당 상한을 설정하고 에이전트는 가상 지갑으로 그 한도 안에서 돈을 씁니다. 비자와 마스터카드, 스트라이프가 에이전트 결제 표준을 다투는 사이 Cloudflare는 다른 길로 들어왔습니다. 결제 라이선스가 아니라 인터넷 트래픽의 4분의 1을 가진 인프라 사업자라는 점이 무기입니다. 새 결제 네트워크를 까는 대신 이미 모든 요청이 지나가는 자리에 지갑을 얹었습니다. 핸들로 에이전트 신원을 만들고, 가상 지갑으로 지출을 통제하고, x402로 결제까지 한 번에 처리하는 그림입니다. Cloudflare CSO에 따르면 웹 트래픽의 57%가 이미 봇입니다. 사람보다 에이전트가 더 많이 돌아다니는 인터넷에서, Cloudflare는 그 길목을 이미 쥐고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/767389455_1057159156902638_795667495884742633_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzk1Njk4NTUwNTU2NDM2NzYwMA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=FyMxZ91xT40Q7kNvwFJLE2U&amp;_nc_oc=AdprMjxulRCXw0qQvDe_gMzIQU5WZKJaIqn__v1f1IXET21Kzsa3RfsWisQN25vVGfs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=cwDgn8FexVPT-eAqS9bopQ&amp;_nc_ss=7a22e&amp;oh=00_AQEELiTXrCSM9n2wggOgioQkesiGruLsvcRBjXrBa4igww&amp;oe=6A796722\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQOogRaXydGevXKVglpkjTlgy4UVNEdB6_Y7cl1GiiGOH5_DZKNdpZ7psYbUdIE_dss5fsaOLUg-bM5qTtWWJbiH2__aF_fg0QOIQ0o.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=PSktuOUsukkQ7kNvwHf2qV-&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODA4MTI0MTExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=5d10a9e4cf462531&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xMTQ5MTVENzVBRDJBRjg2NDdDMDU1RjcwNDZENjg5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgLbMiITd8D8VAigCQzMsF0A1zMzMzMzNGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=cwDgn8FexVPT-eAqS9bopQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQEtv-fF_YxU_8qZOJqQH1NUHyz2HdlayZ_ElEO70pUgFg&amp;oe=6A7583F0\"></video></p>",
+    "summaryKo": "Cloudflare가 AI 에이전트 전용 지갑을 공개했다. 스테이블코인을 예치해두면 x402 프로토콜로 API·콘텐츠 비용을 자동 결제하는 구조로, 사람은 예산·허용 목록·건당 상한을 설정하고 에이전트는 그 한도 안에서 가상 지갑으로 결제한다.",
+    "tags": [
+      "에이전트결제",
+      "스테이블코인",
+      "x402"
+    ],
+    "entities": [
+      "Cloudflare"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "8bc0f0e190c4b76f",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Monodratic: learned product-hash routing for sparse causal attention [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vg3jda/monodratic_learned_producthash_routing_for_sparse/",
+    "publishedAt": "2026-08-05T10:28:44+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I&#39;m an independent researcher sharing Monodratic, a sparse causal-attention architecture with learned product-hash routing.</p> <p>The idea is that after RoPE, source blocks are assigned to bounded causal posting lists, while each query probes product addresses, reranks the returned candidates, selects a fixed number of remote source blocks, adds guaranteed local blocks, and then runs exact causal softmax over just those tokens. I implemented it as a stateless [batch, sequence, width] -&gt; attention-delta mixer, so normalization, residual updates, feed-forward layers, and inference scheduling are left to the host model.</p> <p>What I found is that</p> <p>-learned routing with 2 selected remote blocks out of 5 eligible: 763/768 correct associative-recall answers across three seeds (99.35% mean, 98.05% minimum).</p> <p>-an equally wide untrained router: 425/768. Local-only attention: 151/768.</p> <p>-forcing the labelled target block while keeping the same maximum R2 attention budget recovered all five remaining errors, reaching 768/768.</p> <p>-sparse selected-set attention agreed with an independent dense selected-mask oracle to a maximum absolute error of 1.43e-6.</p> <p>-the packed CPU routing implementation showed a fitted timing exponent of 0.993 from 4,096 to 32,768 tokens under the fixed, balanced configuration.</p> <p>-all reported learned-route and scaling runs recorded zero posting overflow.</p> <p>The limitations are that the experiments are synthetic, the implementation is portable PyTorch rather than a fused kernel, and the report does not claim natural-language quality, asymptotic linear construction, or deployment speed.</p> <p>Paper: <a href=\"https://github.com/Misul-Computing/Monodratic/blob/main/output/pdf/monodratic_proof.pdf\">https://github.com/Misul-Computing/Monodratic/blob/main/output/pdf/monodratic_proof.pdf</a></p> <p>Code and reproduction: <a href=\"https://github.com/Misul-Computing/Monodratic\">https://github.com/Misul-Computing/Monodratic</a></p> <p>I would particularly appreciate technical feedback on the routing construction, the controls, and what the strongest next evaluation should be.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dttdrv\"> /u/dttdrv </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vg3jda/monodratic_learned_producthash_routing_for_sparse/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vg3jda/monodratic_learned_producthash_routing_for_sparse/\">[comments]</a></span>",
+    "summaryKo": "독립 연구자가 학습된 곱-해시(product-hash) 라우팅으로 원거리 토큰 블록을 선별해 계산하는 희소 인과 어텐션 구조 'Monodratic'을 공개했다. 연관 회상(associative-recall) 테스트에서 학습된 라우팅이 99.35%의 정확도를 기록해 학습되지 않은 라우터(약 55%)나 로컬 전용 어텐션(약 20%)을 크게 앞섰다고 밝혔다.",
+    "tags": [
+      "희소어텐션",
+      "라우팅",
+      "효율화"
+    ],
+    "entities": [
+      "Monodratic"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "af639ccbedd25d5e",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 미스트랄이 3B 규모의 멀티모달 안전 모델 Shieldstral을 오픈웨이트로 공...",
+    "url": "https://www.threads.com/t/Dbp4ChsAvBg",
+    "publishedAt": "Wed, 05 Aug 2026 10:00:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>미스트랄이 3B 규모의 멀티모달 안전 모델 Shieldstral을 오픈웨이트로 공개했습니다. 텍스트와 이미지를 함께 검사하며, 고정된 유해성 분류표 대신 자연어로 정책을 입력하면 해당 기준에 맞춰 안전 점수를 반환합니다. 정책이 바뀌어도 재학습할 필요가 없습니다. 16GB GPU 한 장에서 돌아가고, 최대 7배 큰 모델과 맞먹는 성능을 냈습니다. 반응은 “검열 모델”이라는 조롱도 많지만, 핵심은 필터링 권한이 API 기업이 아니라 사용자 쪽으로 내려왔다는 점입니다. 이제 기업이 자체 장비에서 정책을 직접 정하고 감사할 수 있습니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/764300482_17980786659112832_2662779059604898303_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ig_cache_key=Mzk1Njk0MDIxMTgzNzEzNjk5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=Ynvu5qlg8OwQ7kNvwF4LacU&amp;_nc_oc=Adrm4LoQ74R36uqwrP-DAO4BshdTYLte4E3ZCoCH-ebuT6MzUyRab9pax6YfJckhOH4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=cwDgn8FexVPT-eAqS9bopQ&amp;_nc_ss=7a22e&amp;oh=00_AQE03HKqzb4cNBiFE0xSKGHC0HtggIXNizwsmGLeqsEz_w&amp;oe=6A798975\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "미스트랄이 3B 규모의 멀티모달 안전 모델 'Shieldstral'을 오픈웨이트로 공개했다. 텍스트와 이미지를 함께 검사하되 고정된 유해성 분류표 대신 자연어로 입력한 정책 기준에 맞춰 안전 점수를 반환해, 정책이 바뀌어도 재학습 없이 대응할 수 있다.",
+    "tags": [
+      "세이프티모델",
+      "콘텐츠모더레이션",
+      "오픈웨이트"
+    ],
+    "entities": [
+      "Mistral",
+      "Shieldstral"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "cb6bd3e51941bd31",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 게빈 베이커(Gavin Baker)는 현재 에이전틱 AI(Agentic AI)를 실제로 활용하는 ᄋ...",
+    "url": "https://www.threads.com/t/DbptrNCCKdz",
+    "publishedAt": "Wed, 05 Aug 2026 08:30:19 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>게빈 베이커(Gavin Baker)는 현재 에이전틱 AI(Agentic AI)를 실제로 활용하는 인구는 극소수에 불과함에도 심각한 컴퓨팅 부족 현상을 겪고 있다고 지적했습니다. 전 세계 80억 인구 중 AI 활용 인구가 백만 단위, 혹은 억 단위로 폭발적으로 늘어났을 때 컴퓨팅 수요가 폭증할 것임을 언급하며, “전 세계에서 불과 25만~50만 명 정도만 에이전틱 AI를 쓰고 있는 지금도 컴퓨팅 부족이 심각합니다”라고 강조했습니다. 그는 하이퍼스케일러들의 막대한 AI 투자와 자본 지출(CapEx)이 정당화되려면 결국 최종 고객과 명확한 수익 모델이 존재해야 한다고 설명했습니다. 이러한 선순환은 생산성 향상을 통한 급격한 경제 성장이나 기존 노동력의 대체(Labor Substitution)를 통해서만 실현될 수 있다고 분석했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/764374066_2339606300114838_2751591234718302017_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzk1Njg5NDYyODY0NDk1NjAxOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Qsdg464FnfUQ7kNvwFmoqxc&amp;_nc_oc=AdptkL8m0ALg9-KNqjLcLxONfOLLgW9yWOqMCJN6lQbQ4gZy0gQRaLwSNjXWPdOWZJE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=cwDgn8FexVPT-eAqS9bopQ&amp;_nc_ss=7a22e&amp;oh=00_AQHE9Lct3Oh4Fl3HXrdCDM0Mq2nE04KxXYj7k3YBlEv4cQ&amp;oe=6A7985B2\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQO911343se2S2Bj7UexQnZ_D9Lz2XbCnBjcXjbcR4OnXQKgEd48Rl_8txCoAU2-YDybrcSZwB3ldNUSvYQk5ZackUoRTFrWykvYk78.mp4?_nc_cat=108&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=bVLU-KSP5qMQ7kNvwFWWCAE&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODA3ODQ4NjgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=95e4066d58de8a27&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CNzQ5RkY3NzEzOUEwOTJDQTM4Q0IwQTEyQTZGRkNBRF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I1NEMxRDc4OUIwQzVCRkM5NERFMjY0MTA5NUU5NEE0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA58XtttvwPxUCKAJDMywXQFI-NT987ZEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=cwDgn8FexVPT-eAqS9bopQ&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQGuP40xAZF_vbaBmYUeU-QmXjvbKQd5jMTm9BsNDv42_Q&amp;oe=6A759BCC\"></video></p>",
+    "summaryKo": "투자자 Gavin Baker는 에이전틱 AI를 실제로 활용하는 인구가 전 세계 80억 인구 중 극히 일부(수백만~수억 명 단위)에 불과함에도 이미 심각한 컴퓨팅 부족을 겪고 있다고 지적했다. 실사용자가 지금보다 훨씬 늘어나면 컴퓨팅 인프라 부족 문제가 더 커질 것이라는 우려다.",
+    "tags": [
+      "에이전틱AI",
+      "컴퓨팅부족",
+      "인프라"
+    ],
+    "entities": [
+      "Gavin Baker"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "0d00121bcf907fd8",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "NeurIPS 2026 Main Track — Theory papers score tracking post Rebuttal [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/",
+    "publishedAt": "2026-08-05T04:36:38+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>&#x200B;</p> <p>Now that the rebuttal period is over, I’m curious about the score distribution specifically for theory papers this year.</p> <p>If you’re comfortable sharing, please drop:</p> <p>• Scores: x / x / x</p> <p>• Confidence: x / x / x</p> <p>• Whether scores changed after rebuttal</p> <p>• Broad area (optional)</p> <p>I got 4 / 4 / 4, with confidence 3 / 3 / 3.</p> <p>From my experience, theory papers often seem to get somewhat lower scores, and this year the scores appear to be lower across disciplines as well. It would be interesting to see where the empirical cutoff might land.</p> <p>Feel free to share anonymously / approximately if you don&#39;t want to reveal too much. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mammoth-Leg-3844\"> /u/Mammoth-Leg-3844 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfx8pn/neurips_2026_main_track_theory_papers_score/\">[comments]</a></span>",
+    "summaryKo": "NeurIPS 2026 리뷰 리버틀 기간 종료 후, 이론 논문 분야의 점수 분포가 어떻게 나왔는지 커뮤니티에 공유를 요청하는 글이다. 작성자는 이론 논문이 매년 상대적으로 낮은 점수를 받는 경향이 있다며 올해도 전반적으로 점수가 낮아 보인다고 언급했다.",
+    "tags": [
+      "NeurIPS",
+      "피어리뷰"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
+  },
+  {
+    "id": "31508a0f72b25ba7",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "I Compressed Bad Apple into a 3MB Neural Network [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vfrco1/i_compressed_bad_apple_into_a_3mb_neural_network_p/",
+    "publishedAt": "2026-08-05T00:01:48+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfrco1/i_compressed_bad_apple_into_a_3mb_neural_network_p/\"> <img src=\"https://preview.redd.it/h5r0ybpz5ghh1.gif?frame=1&amp;width=140&amp;height=70&amp;auto=webp&amp;s=99152a6a4c15a1a51e20a696f3a52115ce3add98\" alt=\"I Compressed Bad Apple into a 3MB Neural Network [P]\" title=\"I Compressed Bad Apple into a 3MB Neural Network [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I trained a small MLP to memorize the classic Bad Apple animation, ~2.7 billion pixels of video compressed into 790k parameters (3.2 MB float32, 1.6 MB float16).</p> <p>The network takes a 3D coordinate (t, y, x)- frame index and pixel position- and outputs a grayscale value between 0 and 1. To &quot;play&quot; the video, you can evaluate the function over the full grid. The &quot;video&quot; is stored implicitly in 5 linear layers of sine activations (Sitzmann et al.&#39;s SIREN) with 512 hidden units, ω₀ = 30, and sigmoid output.</p> <p>The source <code>bad_apple.mp4</code> is 6524 frames at 854×480; I subsampled to 1620 frames × 384×384, about 1/10 of the original pixels (2.8x spatial + 4x temporal reduction).</p> <p>At first, I used a ReLU MLP with low-frequency Fourier features, which plateaued around MSE 0.12. SIREN&#39;s sine activations add higher frequency for free, so the network was capable of outputting fine details. Unfortunately, that model had an issue, which was that it could only shift the information slowly, so quick motion came out blurry.</p> <p>To fix this, I made two changes:</p> <ol> <li>Time-stretch: I scaled the time coordinate by 4x relative to the space before the first layer, giving it 4x more temporal capacity.</li> <li>Motion-focused sampling: Bad Apple is ~90% static black, so uniform pixel sampling starved the moving edges of the gradient. Now half of each training batch is drawn from pixels that changed between neighboring frames.</li> </ol> <p>For the training pipeline, I had a single shared network on the whole volume (no per-frame latents; initially, I used per-frame finetuning, but that caused catastrophic forgetting) with a cosine-scheduled Adam + weight EMA, then a low-LR &quot;polish&quot; pass over the whole video.</p> <p>The new model had these improvements:</p> <p>Validation MSE dropped from 0.0795 to 0.0090 (~9x better).<br/> Compared to the old model, high-motion frames were 3.6x closer to ground truth, and static frames were almost 15x closer.<br/> 398/400 sampled frames improved.</p> <p>Edit: Some people are a little confused about the compressed part. The subsampled video is 700KB, and the network that creates a reconstruction of it is ~3MB. It hasn&#39;t been compressed very much, but the goal was seeing if I could (and learning) rather than super compression.</p> <p>I&#39;ll try to see if an even smaller model can learn it. Additionally, I&#39;m training a model on the full non-subsampled video.</p> <p><sup>Notes</sup></p> <p><sup>384×384 is square (the original is 16:9, so playback is vertically stretched. At 8fps playback, the 1620 frames run near the original&#39;s 3:37 duration; at 12fps it&#39;s \\</sup>1.6× fast-forward. The 12.6MB checkpoint includes the weights + Adam moments + EMA copy; the network itself is 3.2MB.))</p> <p><sup>The full resolution videos, checkpoints, and code can be found in this</sup> <a href=\"https://github.com/SlothScript/BadAppleOnANeuralNetwork\"><sup>Github Link</sup></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Which_Lie_8932\"> /u/Which_Lie_8932 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1vfrco1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfrco1/i_compressed_bad_apple_into_a_3mb_neural_network_p/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "한 개발자가 'Bad Apple' 애니메이션 전체(약 27억 픽셀)를 SIREN 기반 소형 MLP 79만 파라미터(3.2MB)에 암기시켜 재생하는 실험을 공개했다. 시간축 스케일링과 움직임 중심 샘플링을 더해 빠른 동작의 블러 문제를 크게 줄였고, 검증 MSE를 9배 개선했다.",
+    "tags": [
+      "INR",
+      "모델압축",
+      "SIREN"
+    ],
+    "entities": [],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "1ad8261bd703594c",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "미소정보기술·카이랩, 의료AI 진료지원 플랫폼 협력",
+    "url": "https://www.dailypharm.com/user/news/341147",
+    "publishedAt": "2026-08-05",
+    "rawText": "미소정보기술·카이랩, 의료AI 진료지원 플랫폼 협력",
+    "summaryKo": "멀티모달 데이터 플랫폼 기업 미소정보기술과 의료AI 기업 카이랩이 의료 특화 AI 음성인식 솔루션 '닥터펜슬' 사업 확대를 위한 전략적 업무협약을 맺었다. 미소정보기술의 AI 운영 플랫폼 '스마트빅MW'와 카이랩의 진료 대화 자동 EMR 작성 솔루션 '닥터펜슬'을 결합해 의료진의 기록 부담을 줄이고 글로벌 진출도 추진한다.",
+    "tags": [
+      "의료AI",
+      "음성인식",
+      "EMR자동화"
+    ],
+    "entities": [
+      "미소정보기술",
+      "카이랩",
+      "닥터펜슬",
+      "스마트빅MW"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "468ba1c566763e27",
     "sourceType": "news",
     "source": "GeekNews",
@@ -16,6 +429,26 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-04T21:16:16.658Z"
+  },
+  {
+    "id": "11ee57c052abe3d3",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Completely dead NeurIPS review period from both ends? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vfm2k9/completely_dead_neurips_review_period_from_both/",
+    "publishedAt": "2026-08-04T20:30:12+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I’ve seen a lot of people whose reviewers went silent after initial reviews, but I am also noting abnormally quiet authors. I ultimately withdrew my paper, but stayed an active reviewer. Out of my batch of 4 papers, one withdrew, one posted a rebuttal, and two have been completely silent. Of the two papers with radio silence, I think one had borderline scores. I was also the only reviewer who responded to the one paper with a rebuttal.</p> <p>Has anyone noticed this abnormally dead review period or did I just get a strange batch? I’m seeing either reviewers just dropping out of the review process or authors completely checking out after initial reviews are released. It’s strange to me to not even withdraw your paper if you’re not rebutting. Is this a new gambling trend of just submitting papers everywhere, and not even sticking around long enough to withdraw the paper?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RevolutionaryPea8272\"> /u/RevolutionaryPea8272 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfm2k9/completely_dead_neurips_review_period_from_both/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vfm2k9/completely_dead_neurips_review_period_from_both/\">[comments]</a></span>",
+    "summaryKo": "NeurIPS 심사 과정에서 리뷰어가 초기 리뷰 후 침묵하는 것은 물론 저자들마저 리버틀 기간에 응답하지 않는 이례적인 상황을 겪었다는 경험담이다. 담당한 4편 중 1편은 철회, 1편만 리버틀이 올라왔고 나머지 2편은 완전히 무응답이었다며, 최근 심사 참여도가 유독 낮아진 것 아니냐고 묻는다.",
+    "tags": [
+      "NeurIPS",
+      "피어리뷰"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
   },
   {
     "id": "332b4bcfba64e8d9",
@@ -59,6 +492,29 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-04T21:16:16.658Z"
+  },
+  {
+    "id": "c99ec862b4e71599",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "publishedAt": "Tue, 04 Aug 2026 19:00:00 GMT",
+    "rawText": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+    "summaryKo": "OpenAI가 자사 모델을 대상으로 한 최근 제3자 사이버보안 평가 관련 사건들을 설명하며 공식 입장을 밝혔다. 평가 과정에서 드러난 문제를 짚고, AI 모델 테스트·평가 체계를 강화하기 위한 새로운 안전장치를 도입하겠다고 밝혔다.",
+    "tags": [
+      "보안",
+      "모델평가",
+      "안전성"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-05T21:10:59.146Z"
   },
   {
     "id": "97093de884d39479",
@@ -4006,438 +4462,5 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "ccf0a9cc341b319d",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "I still didn't get my NeurIPS meta review [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v5wcy3/i_still_didnt_get_my_neurips_meta_review_d/",
-    "publishedAt": "2026-07-25T03:02:33+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>About to be over 36 hours now? Nothing on the website, twitter, anywhere. What the hell? Is anyone else facing the same issue what do I do?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specialist-Manager67\"> /u/Specialist-Manager67 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5wcy3/i_still_didnt_get_my_neurips_meta_review_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5wcy3/i_still_didnt_get_my_neurips_meta_review_d/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 메타 리뷰가 36시간 넘게 지연되고 있다며 다른 투고자들도 같은 문제를 겪고 있는지 묻는 커뮤니티 글이다.",
-    "tags": [
-      "NeurIPS"
-    ],
-    "entities": [
-      "NeurIPS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "bea31433c3cb4a23",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "Hermes 에이전트, 모델보다 중요한 업데이트가 나왔습니다!",
-    "url": "https://www.youtube.com/watch?v=WEu29vteoO4",
-    "publishedAt": "2026-07-25T03:00:12+00:00",
-    "rawText": "Hermes 에이전트, 모델보다 중요한 업데이트가 나왔습니다!",
-    "videoId": "WEu29vteoO4",
-    "summaryKo": "Hermes 에이전트의 최근 업데이트를 다룬 영상으로, 모델 자체보다 속도·자동 승인·실시간 관찰·완료 검증·전달 안정성 등 운영 측면의 개선을 자세히 시연한다. Smart Mode 기본 적용으로 위험하지 않은 작업은 자동 승인되고, 서브에이전트별 작업 현황을 실시간으로 확인할 수 있게 됐다.",
-    "tags": [
-      "AI 에이전트",
-      "자동화"
-    ],
-    "entities": [
-      "Hermes"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "a4f6a43a796df83b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "databasement - 웹UI 기반 셀프호스팅 DB 백업 관리자",
-    "url": "https://news.hada.io/topic?id=31799",
-    "publishedAt": "2026-07-25T09:31:02+09:00",
-    "rawText": "여러 종류의 DB를 단일 웹 UI에서 백업, 복원, 스케줄링하는 셀프 호스팅 관리자 MySQL/PostgreSQL/MariaDB/MSSQL/MongoDB/SQLite/Firebird/Redis/Valkey 지원 SSH 터널: bastion/jump 서버를 경유해 사설망 내 DB에 비밀번호 또는 키 기반 인증으로 접속...",
-    "summaryKo": "여러 종류의 데이터베이스를 하나의 웹UI에서 백업·복원·스케줄링할 수 있는 셀프호스팅 관리자 databasement가 공개됐다. MySQL, PostgreSQL, MongoDB, Redis 등을 지원하며 SSH 터널을 통한 사설망 DB 접속 기능도 제공한다.",
-    "tags": [
-      "DB 백업",
-      "셀프호스팅"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "3540c441c81f2f26",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "순수 C++ 500줄로 구현하는 소프트웨어 렌더러",
-    "url": "https://news.hada.io/topic?id=31780",
-    "publishedAt": "2026-07-25T05:33:51+09:00",
-    "rawText": "OpenGL·Vulkan·Metal·DirectX의 내부 작동 원리를 이해하기 위해 외부 그래픽 라이브러리 없이 소프트웨어 렌더러를 처음부터 구현함 삼각형 메시와 텍스처로 구성된 3D 모델을 이미지로 변환하며, GUI나 GPU 애플리케이션 구현은 다루지 않음 완성 코드는...",
-    "summaryKo": "한 개발자가 OpenGL·Vulkan·Metal·DirectX 같은 그래픽 API의 내부 동작 원리를 이해하기 위해 외부 라이브러리 없이 순수 C++ 500줄로 소프트웨어 렌더러를 직접 구현했다. 삼각형 메시와 텍스처로 구성된 3D 모델을 이미지로 변환하는 과정에 집중했으며 GUI나 GPU 가속 구현은 다루지 않는다.",
-    "tags": [
-      "소프트웨어렌더러",
-      "그래픽스"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "94eaa125b1e69d0b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "오픈소스 AI에 반대하는 논거가 설득력 없는 이유",
-    "url": "https://news.hada.io/topic?id=31779",
-    "publishedAt": "2026-07-25T04:45:45+09:00",
-    "rawText": "Kimi K3 공개 이후 오픈소스 AI를 위험한 위협으로 보는 목소리가 커졌지만, 독점 소프트웨어도 오픈소스 기반 위에 구축되며 AI 모델 역시 같은 소프트웨어 제품임 상용 기업은 차별화되지 않는 하위 구성요소를 공동 개발하고 상위 제품에서 경쟁하므로, AI 모델도 범용재...",
-    "summaryKo": "Kimi K3 공개 이후 오픈소스 AI를 위협으로 보는 시각이 커졌지만, 독점 소프트웨어도 결국 오픈소스 기반 위에 세워지며 AI 모델 역시 동일한 소프트웨어 제품이라는 반박이다. 상용 기업들이 차별화되지 않는 하위 구성요소는 공동 개발하고 상위 제품 경쟁에 집중하듯, AI 모델도 점차 범용재로 수렴할 것이라는 주장이다.",
-    "tags": [
-      "오픈소스AI",
-      "AI정책"
-    ],
-    "entities": [
-      "Kimi K3"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "3b81404c5909fb76",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "13억원을 들인 딸의 유전자 편집 치료, 투여 7일 뒤 사망",
-    "url": "https://news.hada.io/topic?id=31778",
-    "publishedAt": "2026-07-25T04:42:45+09:00",
-    "rawText": "중국의 6세 소녀 Mei는 부모가 부담한 약 12억9,000만원($860k)으로 세계 최초의 뇌 표적 염기 편집 치료를 받았으나, 7일 뒤 치료 관련 중증 면역반응인 혈전성 미세혈관병증으로 사망함 연구진은 변이된 CHD3 염기를 교정하려 수백조 개의 AAV9 벡터를 척수액에 ...",
-    "summaryKo": "중국의 6세 소녀가 부모가 약 13억원을 부담한 세계 최초 뇌 표적 염기 편집 치료를 받았으나 투여 7일 뒤 혈전성 미세혈관병증이라는 중증 면역반응으로 사망했다. 연구진은 변이된 CHD3 유전자를 교정하기 위해 수백조 개의 AAV9 벡터를 척수액에 주입한 것으로 알려졌다.",
-    "tags": [
-      "유전자편집",
-      "바이오테크"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "ba4259ff7ba3981c",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Unitree가 바퀴와 다리를 결합한 로봇 'Super Athlete AS2-W'를 공개했습니다. 연...",
-    "url": "https://www.threads.com/t/DbL_t94kr52",
-    "publishedAt": "Fri, 24 Jul 2026 19:30:46 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Unitree가 바퀴와 다리를 결합한 로봇 'Super Athlete AS2-W'를 공개했습니다. 연속 16kg 적재를 지원하고, 무부하 기준 30km 이상 주행할 수 있다고 합니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/755693037_973290572406920_5404789080716564903_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=Mzk0ODUyOTczNDA3NDQxNjc1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=TpYoHvldVyMQ7kNvwHGRBYn&amp;_nc_oc=AdoJK17rsWRqfwA3h3vm0ICQ3OnKNUPRZ7fFKe9UZbn1FGrX2X9c84AXmf-zGUE2MfY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=8W9st7X_6LPHrGPxRT1JQg&amp;_nc_ss=7a22e&amp;oh=00_AQDyOisyXH7Kkref5scan2URuCHonSh_LtFt-If36Hug5Q&amp;oe=6A69AF3F\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQNKOvL-7sbKk3dUrVSlD6ClGKG9JTr86IYgk14VUuci4Qio42lF93uulL4HkpUK_DN4hi-nMy3IG_YaNUlxjrIWQw3AFmkXksOh28I.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=vD_gAXr3-68Q7kNvwGKlghP&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzkwMjI1NzIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=a852601019c27f8a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yNjRBOTI5MTEyQ0IwRTRCMkU1QzVGRkEyMUQ2MkNCNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlBNDAyODM0RkZBRkZCRDM4NzE3NjUzQTQyMjA3NDk3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAr47d7PTvPxUCKAJDMywXQE_R64UeuFIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=8W9st7X_6LPHrGPxRT1JQg&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQBIdyEhCABdDgliXJ_DX0WO2yd-aMpteUkPzaj4dZ8EuA&amp;oe=6A659AC4\"></video></p>",
-    "summaryKo": "Unitree가 바퀴와 다리를 결합한 로봇 'Super Athlete AS2-W'를 공개했다. 연속 16kg 적재를 지원하고 무부하 기준 30km 이상 주행할 수 있다고 발표했다.",
-    "tags": [
-      "휴머노이드로봇",
-      "Unitree"
-    ],
-    "entities": [
-      "Unitree"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "c7d184e68ab515c5",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Codeberg, 암호화폐 프로젝트 금지 정책 채택",
-    "url": "https://news.hada.io/topic?id=31777",
-    "publishedAt": "2026-07-25T03:44:11+09:00",
-    "rawText": "Codeberg e.V. 총회가 이용약관의 평판 훼손 콘텐츠 예시에 암호화폐 관련 프로젝트를 추가하는 안건을 통과시킴 운영 측은 모든 관련 프로젝트를 금지하는 대신 사기 등 평판을 해치는 사례를 프로젝트별로 판단한다고 해석함 그러나 “암호화폐 프로젝트...",
-    "summaryKo": "Codeberg e.V. 총회가 이용약관의 평판 훼손 콘텐츠 예시에 암호화폐 관련 프로젝트를 추가하는 안건을 통과시켰다. 운영진은 모든 관련 프로젝트를 일괄 금지하는 대신 사기 등 평판을 해치는 사례를 프로젝트별로 개별 판단하겠다는 입장이지만, 커뮤니티 일부는 실질적 금지로 이어질 수 있다는 우려를 제기했다.",
-    "tags": [
-      "Codeberg",
-      "오픈소스정책"
-    ],
-    "entities": [
-      "Codeberg"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "c09d7d4e6749d998",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "소프트웨어 팩토리가 실패하는 이유: 하네스 엔지니어링만으로는 부족함",
-    "url": "https://news.hada.io/topic?id=31776",
-    "publishedAt": "2026-07-25T03:41:11+09:00",
-    "rawText": "사람이 코드를 읽고 쓰지 않는 무인(lights-off) 소프트웨어 팩토리는 생성 속도를 높이지만, 장기 유지보수성을 판단할 인간까지 제거해 복잡한 프로덕션 코드베이스에서 작동하기 어려움 코딩 모델의 강화학습은 테스트 통과처럼 빠르고 명확한 보상을 최적화하며, 수개월 뒤 드러...",
-    "summaryKo": "사람이 코드를 읽거나 쓰지 않는 무인(lights-off) 소프트웨어 팩토리는 생성 속도는 높이지만 장기 유지보수성을 판단할 인간까지 배제해 복잡한 프로덕션 코드베이스에서는 작동하기 어렵다는 지적이다. 코딩 모델의 강화학습이 테스트 통과처럼 빠르고 명확한 보상만 최적화하다 보니, 수개월 뒤에야 드러나는 구조적 문제를 놓친다는 것이 핵심 논지다.",
-    "tags": [
-      "AI코딩에이전트",
-      "소프트웨어개발"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "a91bf9a84d07b3ec",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 미국 하원이 국방수권법(NDAA)을 통과시키며, 국방부가 중국·러시ᄋ...",
-    "url": "https://www.threads.com/t/DbL1b3rCLOJ",
-    "publishedAt": "Fri, 24 Jul 2026 18:00:54 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>미국 하원이 국방수권법(NDAA)을 통과시키며, 국방부가 중국·러시아·이란산 휴머노이드 로봇을 사거나 운용하지 못하게 막았습니다. 다만 이건 군 조달에만 적용됩니다. 국방부가 중국산 휴머노이드를 실제로 살 일은 많지 않고요. 이번에 빠진 부분이 더 중요합니다. 원안인 GUARD 법은 중국 휴머노이드와 사족 '로봇 개'를 FCC 커버드 리스트에 올려 수입을 막고, 상업 판매까지 사실상 금지하는 내용이었습니다. 이 커버드 리스트는 앞서 화웨이·ZTE 통신장비를 미국 시장에서 몰아낸 바로 그 장치입니다. 게다가 1년 안에 심사하지 않은 제품은 자동으로 리스트에 오르게 돼 있습니다. 이번엔 군용만 넣고 상업 금지는 뺐지만, 로봇에도 화웨이식 규제를 씌우는 틀은 이미 마련돼 있습니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/753707781_17978984136112832_9105660945597355401_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzk0ODQ4NDUwOTk4OTEyMjk1Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTk2Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=sJRV5KcBpjIQ7kNvwFzYtlQ&amp;_nc_oc=AdrLwZfxj_30uZkZmU9Fx8aKQ9Ba8sE_mG2LSo_GFINpDq2N9B0PnEBZ4-KdWUbXz_E&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=8W9st7X_6LPHrGPxRT1JQg&amp;_nc_ss=7a22e&amp;oh=00_AQCNsCdwfP3MYR4XJg0zQLc-NJfQCukj9u0AMa2Wkn6z0g&amp;oe=6A69BE8C\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "미국 하원이 국방수권법(NDAA)을 통과시켜 국방부가 중국·러시아·이란산 휴머노이드 로봇을 구매·운용하지 못하도록 했다. 다만 이는 군 조달에만 적용되며, 화웨이·ZTE를 미국 시장에서 몰아냈던 커버드 리스트 방식으로 상업 판매까지 막으려던 원안 GUARD 법의 조항은 이번 통과안에서 빠졌다.",
-    "tags": [
-      "로봇규제",
-      "미중기술패권"
-    ],
-    "entities": [
-      "NDAA"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "c397b3570ba0f805",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "TheNumbers.com에 무슨 일이 일어났나",
-    "url": "https://news.hada.io/topic?id=31775",
-    "publishedAt": "2026-07-25T02:36:00+09:00",
-    "rawText": "영화 7만8,000여 편의 데이터를 제공하던 The Numbers가 2026년 3월 5일 갑자기 중단됐고, 30년 된 시스템을 겨냥한 대규모 자동 트래픽과 보안 탐색 탓에 기존 사이트를 폐기하고 최소 기능만 복구함 전체 트래픽에서 사람의 비중은 약 10% 에 불과했으며, 2025년...",
-    "summaryKo": "영화 7만8000여 편의 데이터를 제공하던 The Numbers가 2026년 3월 30년 된 시스템을 겨냥한 대규모 자동 트래픽과 보안 탐색 공격으로 갑자기 중단됐고, 결국 기존 사이트를 폐기하고 최소 기능만 복구했다. 전체 트래픽에서 실제 사람 비중은 약 10%에 불과했던 것으로 나타났다.",
-    "tags": [
-      "봇트래픽",
-      "웹인프라"
-    ],
-    "entities": [
-      "The Numbers"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "f86ae0a100555f95",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: Echo — 오픈 가중치 모델로 Fable 수준 결과를 3분의 1 비용에 달성",
-    "url": "https://news.hada.io/topic?id=31774",
-    "publishedAt": "2026-07-25T01:33:55+09:00",
-    "rawText": "Echo는 GLM-5.2, Kimi K2.7 등 여러 오픈 가중치 모델을 요청별로 조합해, 단일 모델에 모든 작업을 맡기는 방식의 한계를 보완함 요청마다 연산량과 참여 모델을 정하고 결과 결합 방식까지 조정해, 간단한 프롬프트에는 적은 추론 자원을 사용함 첫 평가...",
-    "summaryKo": "Echo는 GLM-5.2, Kimi K2.7 등 여러 오픈 가중치 모델을 요청별로 조합해 단일 모델에 모든 작업을 맡기는 방식의 한계를 보완하는 프로젝트다. 요청마다 연산량과 참여 모델, 결과 결합 방식을 동적으로 조정해 간단한 프롬프트에는 적은 추론 자원만 사용하면서 Fable 수준 결과를 3분의 1 비용에 달성했다고 밝혔다.",
-    "tags": [
-      "오픈웨이트모델",
-      "모델앙상블"
-    ],
-    "entities": [
-      "GLM-5.2",
-      "Kimi K2.7",
-      "Claude Fable"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "436b5bf2d5103f45",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Humalike가 Hermes 에이전트에 '사회성'을 붙이는 플러그인을 내놨습니다. ...",
-    "url": "https://www.threads.com/t/DbLrFQdCUPz",
-    "publishedAt": "Fri, 24 Jul 2026 16:30:26 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Humalike가 Hermes 에이전트에 '사회성'을 붙이는 플러그인을 내놨습니다. 명령어 한 줄로 설치하면, 에이전트가 언제 말하고 언제 입 다물지를 판단하고, 그룹 말투에 맞추고, 누가 무슨 말을 했는지 기억합니다. 답도 사람처럼 끊어 보냅니다. 벽 같은 장문 대신 짧은 메시지 한두 개로, 타이핑 간격까지 두고요. Slack, Telegram, WhatsApp 그룹 채팅에서 돕습니다. 흥미로운 건 이들이 모델을 건드리지 않았다는 점입니다. 에이전트는 일은 잘하는데 그룹에선 모든 메시지에 답하고, 남 말을 끊고, 한 줄이면 될 걸 열 줄씩 쏟아내 티가 났습니다. 모자랐던 건 지식이 아니라, 언제 빠질지였습니다. 에이전트가 사람들 대화에 끼어드는 시대엔, 잘 말하는 것만큼 안 말하는 감각이 능력이 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/755867867_1776170660230679_3608404047190741036_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzk0ODQzODk3NTU4NDc0ODUzMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=4MXLgA92gVYQ7kNvwH-iFIM&amp;_nc_oc=AdqcqhTxnxMSJVcButhss485EtGVitf13vqkirFG1mGVJLx_P9SGZl_zH-qnmmlZmZ8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=8W9st7X_6LPHrGPxRT1JQg&amp;_nc_ss=7a22e&amp;oh=00_AQBUBu5W-JjIhE03jcgqkEPea0m2yA6YQ0kCeWvHlWYwRA&amp;oe=6A699193\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQOA5rvWSfnJ2gmi1avX6jPGq3A8Ce4LsNa2bLHKfHEF2gsb3TQFmCUn2X_jBC26HNHwqWRcMC6fgdGPNw2QpXb-ZNbouFt0xUg_mX0.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=vEyB5hQc4c8Q7kNvwG5bSDE&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5Nzg5ODcyMDgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=4afc65b35ddd598e&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83RjQ0NTBGQkJGMTVFNDUxRkQwMzNBQzU2NjJEQ0JCQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkwNEREOEFCMjg3QTJGRjkwODZERTEwQTQ5NEY1MzgwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA66-f5fLvPxUCKAJDMywXQEs3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=8W9st7X_6LPHrGPxRT1JQg&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQBxq3nw1QQuPYobFn8AfoXL3nwJ6M01ER64nX_I14GdKA&amp;oe=6A659C87\"></video></p>",
-    "summaryKo": "Humalike가 Hermes 에이전트에 '사회성'을 붙이는 플러그인을 출시해, 명령어 한 줄 설치로 에이전트가 언제 말하고 침묵할지 판단하고 그룹 말투에 맞춰 짧은 메시지로 응답하도록 만든다. Slack·Telegram·WhatsApp 그룹 채팅에서 동작하며, 모델 자체는 건드리지 않고 대화 개입 타이밍만 조정해 기존 에이전트의 과다 응답 문제를 해결했다.",
-    "tags": [
-      "AI에이전트",
-      "소셜플러그인"
-    ],
-    "entities": [
-      "Humalike",
-      "Hermes"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "101291b90020a0cd",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "I built a compiler that turns computation graphs into the weights of a vanilla transformer — no training anywhere [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/",
-    "publishedAt": "2026-07-24T16:15:16+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been chasing the question of what algorithms a transformer can actually express -- separate from what it can learn. So I built a compiler: define a computation graph in ordinary Python, and it produces the weights of a transformer that executes the graph. The result is a standard Phi-3-architecture checkpoint that vanilla huggingface loads with no custom code and no trust_remote_code. Zero training in the pipeline.</p> <p>Write-up (origin + how the constructions work): <a href=\"https://ood.dev/posts/torchwright-intro/\">https://ood.dev/posts/torchwright-intro/</a></p> <p>Repo (twelve runnable examples): <a href=\"https://github.com/physicsrob/torchwright\">https://github.com/physicsrob/torchwright</a></p> <p>Hand-built transformer weights aren&#39;t a new idea. RASP defines a language whose primitives map onto transformer sublayers, and Tracr compiles RASP programs into actual weights. I wanted two things they don&#39;t aim for: expressing a computation graph in ordinary Python, and targeting a stock architecture, so the output loads in vanilla huggingface with no custom code. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notforrob\"> /u/notforrob </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/\">[comments]</a></span>",
-    "summaryKo": "학습 없이 파이썬으로 정의한 계산 그래프를 표준 Phi-3 아키텍처의 트랜스포머 가중치로 직접 컴파일하는 오픈소스 도구 torchwright가 공개됐다. RASP·Tracr와 달리 일반 파이썬 문법으로 그래프를 표현하고, 커스텀 코드 없이 바로 HuggingFace에서 로드되는 표준 체크포인트를 만드는 것이 특징이다.",
-    "tags": [
-      "트랜스포머",
-      "해석가능성"
-    ],
-    "entities": [
-      "Tracr",
-      "Phi-3",
-      "HuggingFace"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "5499ccc2a2f6c612",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: ADHDev 1.0 - 로컬 코딩 에이전트를 웹/모바일에서 제어하고 병렬 작업 후 자동 병합하는 도구",
-    "url": "https://news.hada.io/topic?id=31773",
-    "publishedAt": "2026-07-25T00:43:04+09:00",
-    "rawText": "안녕하세요, ADHDev 만든 개발자입니다. 스탠드얼론 에디션은 AGPL로 공개했고, 클라우드 버전으로 운영비를 벌 생각입니다. Claude Code, Codex 같은 터미널 에이전트를 머신 두세 대에서 돌리다 보니 두 가지가 계속 발목을 잡았습니다. 어느 세션이 끝났는지, 멈췄는지, 승인을 기다리는지 터미널을 왔다갔",
-    "summaryKo": "ADHDev는 Claude Code, Codex 같은 터미널 코딩 에이전트를 여러 머신에서 병렬로 돌릴 때 겪는 세션 상태 파악과 승인 대기 문제를 해결하기 위해 만들어진 도구로, 웹/모바일에서 로컬 코딩 에이전트를 원격 제어하고 병렬 작업 완료 후 자동 병합까지 지원한다. 스탠드얼론 에디션은 AGPL로 공개했고 클라우드 버전으로 수익화할 계획이라고 밝혔다.",
-    "tags": [
-      "코딩에이전트",
-      "병렬작업"
-    ],
-    "entities": [
-      "Claude Code",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "428b656d369f04bd",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "AI로 모든 걸 자동화 할 수 있다고 착각하는 사람들ㅣ자동화할 때 꼭 알아야 하는 기본 개념",
-    "url": "https://www.youtube.com/watch?v=mGG4rtNNHY0",
-    "publishedAt": "2026-07-24T09:00:12+00:00",
-    "rawText": "AI로 모든 걸 자동화 할 수 있다고 착각하는 사람들ㅣ자동화할 때 꼭 알아야 하는 기본 개념",
-    "videoId": "mGG4rtNNHY0",
-    "summaryKo": "AI 자동화를 설계할 때 필요한 6단계(업무 세분화→워크플로우 이해→평가 기준 설정→PRD/SOP 문서화→자동화 계획서 작성→도구 선택)를 소개하는 영상이다. 100% 완전 자동화는 어렵지만 이 과정을 제대로 거치면 원하는 워크플로우를 구현하는 데 큰 도움이 되며, 도구(노션·클로드 코드·MCP 등)는 계획서가 완성된 뒤 마지막에 선택해야 유지보수와 품질이 흔들리지 않는다고 강조한다.",
-    "tags": [
-      "AI자동화",
-      "워크플로우설계"
-    ],
-    "entities": [
-      "Claude Code",
-      "MCP",
-      "노션"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "f34cdff744c937a1",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
-    "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
-    "publishedAt": "Fri, 24 Jul 2026 04:34:27 +0000",
-    "rawText": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month, this week’s discussions and announcements advance [&#8230;]",
-    "summaryKo": "NVIDIA가 AI 서밋에서 한국 정부·기업과 협력해 KAIST와 서울에 공동 AI 연구소를 설립하고 에이전트 AI 개발을 추진한다고 밝혔다. SK하이닉스·SK텔레콤은 메모리 개발과 AI 인프라 구축에 투자를 확대하며, 한국은 '풀스택' 전략으로 글로벌 AI 혁신 거점 도약을 추진하고 있다.",
-    "tags": [
-      "AI인프라",
-      "한국AI전략"
-    ],
-    "entities": [
-      "NVIDIA",
-      "KAIST",
-      "SK하이닉스",
-      "SK텔레콤"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "2b4e6c115cda95c3",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "현대약품 '헬씨올리고 팝', AI 아이돌 '스위티즈' 브랜드 모델 발탁",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=539171",
-    "publishedAt": "2026-07-24 10:25:48",
-    "rawText": "현대약품은 듀얼바이오틱스 탄산음료 브랜드 '헬씨올리고 팝'의 신규 브랜드 모델로 AI 아이돌 그룹 '스위티즈(Sweeties)'를 선정했다고 밝혔다.스위티즈는 AI 오디션 프로젝트 'PRODUCE9'를 통해 선발된 5인조 AI 걸그룹으로, 최근 디지털 싱글 'Line & View'를 공개하며 활동을 시작했다.현대약품은 기능성을 담은 탄산음료인 헬씨올리고 팝과 새로운 콘텐츠 문화를 제시하는 AI 아이돌이 '새로운 라이프스타일을 제안한다'는 공통점을 바탕으로 이번 협업을 추진했다고 설명했다.회사는 스위티즈와 함께 '가볍게 즐기는 탄산,",
-    "summaryKo": "현대약품이 듀얼바이오틱스 탄산음료 '헬씨올리고 팝'의 신규 브랜드 모델로 AI 오디션 프로젝트 'PRODUCE9'로 결성된 5인조 AI 걸그룹 '스위티즈'를 선정했다. 최근 디지털 싱글 'Line & View'로 활동을 시작한 스위티즈와 협업해 기능성 탄산음료와 AI 아이돌이라는 새로운 라이프스타일을 제안한다는 취지다.",
-    "tags": [
-      "AI아이돌",
-      "브랜드마케팅"
-    ],
-    "entities": [
-      "현대약품",
-      "스위티즈"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-24T21:10:40.492Z"
-  },
-  {
-    "id": "8317e1187afa3abd",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Coding Will Prevent Expertise",
-    "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
-    "publishedAt": "Thu, 23 Jul 2026 20:53:24 +0000",
-    "rawText": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49027909 Points: 1 # Comments: 0",
-    "summaryKo": "AI 코딩 도구에 의존할수록 개발자가 스스로 문제를 깊이 파고들며 얻는 전문성 형성 기회가 줄어들 수 있다는 우려를 다룬 글이다. Hacker News에서 소개된 아티클로, 원문 서버 접근이 제한돼 제목 기반으로만 요약했다.",
-    "tags": [
-      "코딩·개발"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
-  },
-  {
-    "id": "b92ce7fc27a621b6",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: LLM-budget-cap – atomic Redis spend cap for LLM APIs",
-    "url": "https://github.com/Rentheria/llm-budget-cap",
-    "publishedAt": "Thu, 23 Jul 2026 20:47:50 +0000",
-    "rawText": "Article URL: https://github.com/Rentheria/llm-budget-cap Comments URL: https://news.ycombinator.com/item?id=49027830 Points: 1 # Comments: 0",
-    "summaryKo": "llm-budget-cap은 OpenAI·Gemini 등 LLM API 호출에 예산 상한을 거는 오픈소스 도구다. Redis 기반 Lua 스크립트로 카운터 증가와 TTL 설정을 원자적으로 처리해, 동시 요청이 한도를 동시에 통과하는 경쟁 조건을 차단한다.",
-    "tags": [
-      "LLM API",
-      "비용관리",
-      "Redis"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-23T21:10:19.564Z"
   }
 ]
