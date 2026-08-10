@@ -1,5 +1,976 @@
 [
   {
+    "id": "8a6df29b78d68ab2",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "연속혈당·의료AI 새 KS로…의료제품 표준 20종 제정·122종 손질",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540173",
+    "publishedAt": "2026-08-11 05:50:00",
+    "rawText": "연속혈당측정시스템과 치과 인공지능(AI) 영상 분석, 의료기기 소프트웨어 등 의료제품 분야에 새로운 한국산업표준(KS)이 마련된다. 의료용 전기기기와 치과, 외과용 이식재 등을 중심으로 기존 국가표준 122종도 국제표준 개정 사항에 맞춰 대대적으로 정비된다.10일 식품의약품안전처가 최근 공고한 한국산업표준 제정·개정·폐지 예고안에 따르면 의료제품 분야 국가표준 20종을 새로 제정하고, 기존 표준 122종을 개정하는 한편 5종은 폐지할 예정이다. 제·개정 및 폐지는 국제표준과의 조화를 높이고 연구개발 성과를 표준화하는 동시에 중복되거",
+    "summaryKo": "식약처가 연속혈당측정시스템, 치과 AI 영상분석, 의료기기 소프트웨어 등을 포함해 의료제품 분야 한국산업표준(KS) 20종을 새로 제정하고 기존 122종을 개정, 5종을 폐지하는 예고안을 공고했다. 국제표준과의 조화를 높이고 연구개발 성과를 표준화하려는 취지다.",
+    "tags": [
+      "의료AI",
+      "표준화"
+    ],
+    "entities": [
+      "식품의약품안전처"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "037ba625aad7534e",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "AI professors are negotiating the new realities of academic research",
+    "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+    "publishedAt": "Mon, 10 Aug 2026 20:00:00 +0000",
+    "rawText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI&#8230;",
+    "summaryKo": "MIT Technology Review가 마운틴뷰 행사 취재를 바탕으로, AI 연구를 이끄는 교수들이 산업계와의 인재·자금 경쟁 등 학계 연구의 새로운 현실을 어떻게 조율하고 있는지 다뤘다.",
+    "tags": [
+      "AI연구",
+      "학계"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "cc31d38fb6cc7954",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "1991년 Mars Bar 발견 — 현재 제품보다 20g 이상 커",
+    "url": "https://news.hada.io/topic?id=32366",
+    "publishedAt": "2026-08-11T04:31:37+09:00",
+    "rawText": "영국 Scunthorpe에서 물건이 쌓인 주택을 정리하던 중 유통기한이 1991년인 35년 된 Mars Bar가 발견돼 소셜 미디어에서 화제가 됨 포장 표기 중량은 과거 제품이 62.5g, 현재 제품이 40g으로 정확히 22.5g 차이 남 청소업체 Pocket Rockets를 운영하는 V...",
+    "summaryKo": "영국에서 35년 된 1991년산 Mars Bar가 발견돼 화제를 모았다. 당시 제품 중량(62.5g)이 현재 제품(40g)보다 22.5g 더 무거워 초콜릿바 크기 축소 사례로 주목받았다.",
+    "tags": [
+      "잡담"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "ca2a9cc5049cd6f1",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 실시간 립싱크 얼굴 영상 모델 LeapTalk가 공개됐습니다. 오디오를 ...",
+    "url": "https://www.threads.com/t/Db3m6a9CZBf",
+    "publishedAt": "Mon, 10 Aug 2026 18:00:35 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>실시간 립싱크 얼굴 영상 모델 LeapTalk가 공개됐습니다. 오디오를 넣으면 인물 사진, 카툰, 회화 이미지 위에서 말하는 영상을 만들고, 단일 스텝 생성으로 최대 200FPS까지 간다고 설명합니다. 긴 영상에서 얼굴이 점점 달라지는 문제를 줄이기 위해, 매번 노이즈에서 다시 그리지 않고 참조 이미지를 기준으로 프레임을 옮기는 Brownian bridge 구조를 씁니다. 입 모양 동기화를 유지하는 오디오 유도 메커니즘도 붙였고, 기반은 Wan2.1-T2V-1.3B입니다. 실시간 립싱크 영상에서 중요한 건 이제 화질보다, 오래 돌릴수록 얼굴이 무너지지 않는 쪽입니다. 아바타·라이브 영상 쪽에서는 바로 주목할 만한 오픈 연구입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/769175905_1279794427433303_8845905759335716344_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;ig_cache_key=Mzk2MDgwNTUzNzczNDAzNzU5OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=1raQQg9gBDgQ7kNvwFSsGvP&amp;_nc_oc=AdocqmZU4sVFdPKx9RcHzNjdH3VVAKfRy4c06ClEVz0bKmhfYkOVJubeyMGeXUIQawM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_ss=7a22e&amp;oh=00_AQGOuez7b5Gai49bwa0CIYD2Bat-zz5-nZgFcSgzqWkEAQ&amp;oe=6A80118D\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQNgv584yMk8B2AX_V8oxVS7SMfphSCHIlT5XZYx91fCqiFFcSEwTaw5p4wqPw87iegyqadCARBffzTn7AJ5o49WP-_yq7UYQ24ZrRw.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=7AOe8FcVcOUQ7kNvwHaLlDl&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODE0MTc2NzAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=68f3c87cbc603492&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC80NDQ0NTE3MTMxRTlCOTk0MzJGQ0JGNzA4NzBBQ0FCOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQxNDZBM0MxRTA4MTNCMUE4ODU1RkI2NkRCRTkwMUE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA2cfMoYDxPxUCKAJDMywXQDdMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQFd5Yf3AxVC-5xK4LGfcevzdNQjnaMAbw-7CXE2YSCpdg&amp;oe=6A7C1186\"></video></p>",
+    "summaryKo": "실시간 립싱크 얼굴 영상 생성 모델 'LeapTalk'가 공개돼, 오디오만 넣으면 인물 사진이나 그림 위에서 말하는 영상을 최대 200FPS로 생성한다. 참조 이미지를 기준으로 프레임을 옮기는 Brownian bridge 구조로 긴 영상에서도 얼굴이 무너지지 않도록 했으며 Wan2.1-T2V-1.3B를 기반으로 한다.",
+    "tags": [
+      "립싱크",
+      "영상생성"
+    ],
+    "entities": [
+      "LeapTalk",
+      "Wan2.1"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "039bba64f2eb6ba9",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "fru - Fast Random Forest Implementation [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/",
+    "publishedAt": "2026-08-10T17:45:41+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hello, I wanted to share the work my colleague and I have been doing, which has just been published in <a href=\"https://doi.org/10.1016/j.softx.2026.102918\">Software X journal</a>. We developed a Rust-based implementation of Random Forest. It has bindings for both <a href=\"https://github.com/kpiwonski/fru-arrow\">Python</a> and <a href=\"https://gitlab.com/mbq/fru\">R</a>.</p> <p>Fru is highly optimized, offering competitive runtime performance and better scalability than popular implementations on these platforms. For Python, Fru outperforms the scikit-learn implementation by several factors, and in some scenarios it can be hundreds of times faster. In R, Fru is typically a few dozen percent faster than the ranger package, though the speedup can reach several times faster depending on the use case.</p> <p>The model also includes a novel implementation of permutation importance, which provides an additional performance boost.</p> <p>Thanks to its layered design, we were able to easily create bindings for both Python and R. In Python, we use Arrow PyCapsule, which allows the model to work seamlessly with any compatible library, including pandas, polars, pyarrow, and many others.</p> <p><a href=\"https://doi.org/10.1016/j.softx.2026.102918\">paper</a></p> <p><a href=\"https://gitlab.com/mbq/fru\">R package</a></p> <p><a href=\"https://github.com/kpiwonski/fru-arrow\">Python package</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kpiwonski\"> /u/kpiwonski </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/\">[comments]</a></span>",
+    "summaryKo": "연구자들이 Rust로 구현한 랜덤포레스트 라이브러리 'fru'를 Software X 저널에 발표하고 공개했다. Python에서는 scikit-learn보다 최대 수백 배, R에서는 ranger 패키지보다 수십~수배 빠른 성능을 보이며 새로운 순열 중요도(permutation importance) 구현도 포함한다.",
+    "tags": [
+      "머신러닝라이브러리",
+      "Rust"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "574c5ec0c9e40b0d",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Transformers are famously bad at arithmetic, so I set one's weights by hand (no training) and it multiplies with 100% accuracy [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/",
+    "publishedAt": "2026-08-10T17:37:35+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Obviously nobody needs a transformer that&#39;s good at multiplication. I wanted to know whether a stock transformer could do exact arithmetic if I chose its weights directly.</p> <p>I implemented the grade-school algorithm as a computation graph and compiled it into an ordinary Phi-3 Hugging Face checkpoint using Torchwright, a compiler I wrote. No training. The three-digit calculator gets all 3,000,000 supported expressions right. I&#39;ve published checkpoints to Hugging Face that support up to 12 digit x 12 digit multiplication.</p> <p>For fun, I also disabled reasoning and tested six frontier models. Accuracy falls off a cliff as the numbers get longer; at seven digits, five scored 0/500. Mine stays at 100%, although it has the considerable advantage that I put the multiplication algorithm directly into its weights.</p> <p>I ended up building four versions: grade-school, hardware-style, scratchpad, and brute-force memorization. They compute the same function while spending layers, width, generated tokens, and parameters very differently.</p> <p>Write-up: <a href=\"https://ood.dev/posts/calculator/\">https://ood.dev/posts/calculator/</a> Repo: <a href=\"https://github.com/physicsrob/torchwright\">https://github.com/physicsrob/torchwright</a> Checkpoint: <a href=\"https://huggingface.co/physicsrob/torchwright-calculator-simple-max-digits-3\">https://huggingface.co/physicsrob/torchwright-calculator-simple-max-digits-3</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/notforrob\"> /u/notforrob </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/\">[comments]</a></span>",
+    "summaryKo": "한 연구자가 트랜스포머가 산술 연산에 약하다는 통념에 착안해, 학습 없이 그래드스쿨 곱셈 알고리즘을 계산 그래프로 구현해 Phi-3 체크포인트 가중치에 직접 심었더니 최대 12자리 곱셈에서 100% 정확도를 달성했다. 반면 추론을 끈 최신 프런티어 모델 6종은 자릿수가 늘수록 정확도가 급락해 7자리에서 5개 모델이 0/500을 기록했다.",
+    "tags": [
+      "트랜스포머",
+      "산술추론"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "5367cc95a8fd9817",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "What building an AI-native finance function taught me",
+    "url": "https://openai.com/index/building-an-ai-native-finance-function",
+    "publishedAt": "Mon, 10 Aug 2026 17:00:00 GMT",
+    "rawText": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+    "summaryKo": "OpenAI CFO 사라 프라이어가 AI 네이티브 재무 조직을 구축하며 얻은 다섯 가지 교훈을 공유했다. 자동화된 예측부터 강화된 내부통제, AI 투자수익(ROI) 측정까지 재무 부서의 AI 도입 전략을 다뤘다.",
+    "tags": [
+      "재무AI",
+      "기업도입"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "3cc86452033b0494",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Qwen이 에이전트에 시각 능력을 붙여주는 Qwen-MM-Plugins를 공개했습니다....",
+    "url": "https://www.threads.com/t/Db3ckN9kyK_",
+    "publishedAt": "Mon, 10 Aug 2026 16:30:11 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Qwen이 에이전트에 시각 능력을 붙여주는 Qwen-MM-Plugins를 공개했습니다. 이미지·영상·문서를 읽는 것은 물론 OCR, 장시간 영상 분석, 영상 편집, Blender 기반 3D 모델링과 FreeCAD 기반 CAD 작업까지 지원합니다. 멀티모달 모델은 이미 많지만 실제 에이전트 하네스는 여전히 텍스트와 코드 중심입니다. Qwen-MM-Plugins는 Claude Code, Codex, Qwen Code, Gemini CLI 같은 기존 하네스에 스킬과 MCP 서버를 붙여 이 간극을 메웁니다. 플러그인 방식을 택한 것도 실용적입니다. 모델을 다시 훈련하거나 에이전트를 새로 만들 필요 없이 필요한 능력만 추가하면 됩니다. 코딩 에이전트가 파일을 읽고 코드를 고쳤듯, 이제는 화면을 보고 영상을 편집하고 3D·CAD까지 직접 다룰 수 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/768667797_1607809587394626_1348951295127789305_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzk2MDc2MDAzMTQ5MDgxMDU1OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Xu57y4cBwAgQ7kNvwHIfI9-&amp;_nc_oc=Adr2QiNcceQJUSquc7sRiBF3oWbmL3Ao-rNdg9a3UfXItKf-s7SfQqyrx-wEHveRKFU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_ss=7a22e&amp;oh=00_AQG-jD9U5zeCflIJ2Awmq391cft6LCnlREgfxYHE-fIlxg&amp;oe=6A7FF5CC\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQPUjLvlhdh-JAlG0VhQIZbAqrbtTYD56PktDATMSVoOACLX1bN4T-vXQodzM_dsi0G4rolpD8YlQh8IhRjn6u_vE0_12CO6Bxq3rkc.mp4?_nc_cat=103&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=_GDEdVTc92kQ7kNvwFg24Q9&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODE1Mjg1NzQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjQ3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=75bf118da9a41118&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83MTRENENGMTFCMTg4OURCMzc5QTQ1NEJFRjIzMTY4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzgwNDYwM0M1NjRERUM1NEM2RTUyMjk4OTkyREM3Mzg4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA0e3y24bxPxUCKAJDMywXQG7hDlYEGJMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQEFgrV2Uiq2h4PoZTnp0baKBH1F9qqFmNikupWjPMGRDQ&amp;oe=6A7C07FD\"></video></p>",
+    "summaryKo": "Qwen이 코딩 에이전트에 시각 능력을 붙여주는 'Qwen-MM-Plugins'를 공개했다. 이미지·영상·문서 인식과 OCR, 장시간 영상 분석, Blender 기반 3D·FreeCAD 기반 CAD 작업까지 지원하며, Claude Code·Codex·Gemini CLI 등 기존 에이전트 하네스에 스킬과 MCP 서버 형태로 플러그인처럼 붙일 수 있다.",
+    "tags": [
+      "멀티모달",
+      "에이전트",
+      "MCP"
+    ],
+    "entities": [
+      "Qwen",
+      "Claude Code",
+      "Codex",
+      "Gemini CLI"
+    ],
+    "cats": [
+      "멀티모달",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "615541d641117703",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Claude Code, Auto mode를 기본 권한 모드로 전환",
+    "url": "https://news.hada.io/topic?id=32365",
+    "publishedAt": "2026-08-11T00:33:25+09:00",
+    "rawText": "2026년 8월 14일부터 Claude Code의 Pro·Max·Team 신규 세션은 Auto mode로 시작하며, 도구 호출의 위험을 자동 판별해 더 긴 자율 작업과 안전한 실행을 지원함 되돌릴 수 없거나 파괴적이거나 작업 환경 외부를 향하는 행동을 선별하며, 연속 3회 또는 세션 전체 20회 차단으로 진...",
+    "summaryKo": "Anthropic이 2026년 8월 14일부터 Claude Code Pro·Max·Team 신규 세션의 기본 권한 모드를 Auto mode로 전환한다. 자체 연구에서 사람은 위험 명령의 13.6%만 걸러낸 반면 Auto mode는 89%를 차단했고, Auto mode 도입 팀은 PR 배포량이 약 25% 늘었다.",
+    "tags": [
+      "Claude Code",
+      "에이전트 안전"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "45f69ee1ec1bc5c2",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: GPT 새로운 이미지 모델 정말 미친 것 같다..",
+    "url": "https://www.threads.com/t/Db3SRjsAd96",
+    "publishedAt": "Mon, 10 Aug 2026 15:00:15 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>GPT 새로운 이미지 모델 정말 미친 것 같다..</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/768662756_17981561049112832_8783342698539129118_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=108&amp;ig_cache_key=Mzk2MDcxNDc2ODY4MzIyOTA1MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=eBTvFXfMrQAQ7kNvwGn5oeI&amp;_nc_oc=AdpEt-smaJcncP7dVorwFgqLDchLi4-4lk07dFMa_4VQG1yY4bmiPEqVRkolyhDzGaw&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_ss=7a22e&amp;oh=00_AQHQfLmVpVN0Khdo50Xu5t7tJPnVYOtLP8R3DRLVpyGEAg&amp;oe=6A8022BC\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "한 사용자가 GPT의 새로운 이미지 생성 모델 품질에 놀랍다는 반응을 짧게 남긴 개인 소감 게시물로, 구체적 스펙이나 출시 정보는 포함되어 있지 않다.",
+    "tags": [
+      "이미지생성"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "c5d2ac8eefd2a303",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "How to file a complaint about a published CVPR paper? [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/",
+    "publishedAt": "2026-08-10T14:56:16+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I would like to file a complaint about an accepted and published CVPR 2026 paper that its main contribution is a dataset but it was never released, and honestly I don’t know who to contact. The dataset was never released prior to the conference, or during the conference or after the conference. I personally feel there was a lack of proper checking that the dataset was gonna be available before the conference since this is a requirement. I’ve tried contacting the authors without any success (which tbh I wouldn’t even need to because it has to be released anyways). </p> <p>The authors even point a GitHub link in the paper but the repo is empty (and it was always empty). </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ElPelana\"> /u/ElPelana </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/\">[comments]</a></span>",
+    "summaryKo": "한 연구자가 CVPR 2026에 게재된 논문의 핵심 기여인 데이터셋이 학회 전후로도 전혀 공개되지 않았다며, 이를 어디에 항의해야 할지 커뮤니티에 문의한 글이다. 저자에게 연락해도 응답이 없고 논문에 명시된 깃허브 링크도 빈 저장소였다는 문제를 제기했다.",
+    "tags": [
+      "연구윤리",
+      "재현성"
+    ],
+    "entities": [
+      "CVPR"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "6b59545a1676c64d",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "Evolve your marketing with new AI tools",
+    "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+    "publishedAt": "Mon, 10 Aug 2026 14:30:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\">Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+    "summaryKo": "구글이 Google Ads와 Google Analytics 전반에 새로운 AI·에이전트 기능을 추가해 마케팅 워크플로를 단순화한다고 소개했다. 캠페인 운영과 분석 과정에서 에이전트형 경험을 확대하는 방향이다.",
+    "tags": [
+      "마케팅AI",
+      "에이전트"
+    ],
+    "entities": [
+      "Google",
+      "Google Ads",
+      "Google Analytics"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "362abe5f371a7b04",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: AI 에이전트가 요구사항과 조사 자료를 연결하고, 한국어 표현을 검토하도록 하는 방법에 대해서",
+    "url": "https://news.hada.io/topic?id=32363",
+    "publishedAt": "2026-08-10T23:06:35+09:00",
+    "rawText": "AI 에이전트를 통해 여러 프로젝트에서 리서치 및 개발 작업을 진행하면서 두 가지 문제를 반복해서 겪었습니다. 요구사항, 리서치한 자료, 결정 사항, 작업 계획이 서로 중복되거나 잘못된 폴더에 배치되는 등 체계적으로 관리되고 있지 않았습니다. 문서를 관리하기 위해 또 다른 문서를 작성",
+    "summaryKo": "한 개발자가 AI 에이전트 작업 중 요구사항·조사자료·결정사항이 뒤섞이는 문제를 해결하기 위해 문서 관리 시스템을 공개했다. 요구사항과 조사자료를 분리 관리하는 스킬과, 번역체·AI 특유 표현을 감지해 자연스러운 한국어 작성을 돕는 스킬로 구성된다.",
+    "tags": [
+      "AI 에이전트",
+      "개발도구"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "3d196224ab27a2df",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+    "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+    "publishedAt": "Mon, 10 Aug 2026 14:00:00 GMT",
+    "rawText": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+    "summaryKo": "OpenAI가 텍사스 주지사 그렉 애벗에게 보낸 서한을 통해 책임 있는 AI 인프라 구축에 대한 의지를 밝혔다. 신뢰할 수 있고 투명한 성장을 지지하며 텍사스 주민에게 이익이 되는 방향으로 데이터센터 등 AI 인프라를 확대하겠다는 입장이다.",
+    "tags": [
+      "AI 인프라",
+      "정책"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "722e0f53d5a029b2",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Meta Muse Glimmer - 기기에서 실행하는 오픈 웨이트 30B 코딩 모델",
+    "url": "https://news.hada.io/topic?id=32362",
+    "publishedAt": "2026-08-10T22:32:35+09:00",
+    "rawText": "Meta가 30B 파라미터 로컬 에이전트 모델 Muse Glimmer를 Apache 2.0 라이선스로 공개했으며, 단일 소비자용 GPU를 장착한 Mac이나 PC에서 실행하도록 최적화함 대형 교사 모델의 에이전트 추론을 전이하는 로짓 증류와 장문맥 중간 학습, 지도 미세조정·온정책 증...",
+    "summaryKo": "Meta가 소비자용 GPU 한 대로 로컬 실행이 가능한 30B 파라미터 코딩 에이전트 모델 'Muse Glimmer'를 Apache 2.0 라이선스로 공개했다. 로짓 증류와 4비트 양자화로 20GB 미만 메모리로 압축했고, 추측 디코딩으로 속도를 높이면서도 함수 호출·장문 추론·코드 디버깅 성능을 유지했다.",
+    "tags": [
+      "오픈웨이트",
+      "코딩모델",
+      "로컬LLM"
+    ],
+    "entities": [
+      "Meta",
+      "Muse Glimmer"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "daeac241171cf6c3",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Grok 이미지 생성 정말 좋아졌다.",
+    "url": "https://www.threads.com/t/Db3H-Lbkjlb",
+    "publishedAt": "Mon, 10 Aug 2026 13:30:13 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Grok 이미지 생성 정말 좋아졌다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/771940658_2930528570622364_6235123312910970641_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzk2MDY2OTQ1NjUwMjUwMzc3MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=qI2htIpodakQ7kNvwGVw5dZ&amp;_nc_oc=AdoJBoMjrlkRf5lMCpV-C4tHEqNC1O-FMDSQfwk18jFYE8Ggk_32Z0kj3x_njGsw5WY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_ss=7a22e&amp;oh=00_AQHA8MPLEJUsPYesRCpkTh4u8kQVXxz4VToTsxJ7ju8Zag&amp;oe=6A80268E\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMIPLEdMir6EfbJ_E2d3ohbeJYTvzfpK2LuaCtGUxc4-6tLk-6b51n3l4PDPozzH-OyOoROSwfCfmXWfYWRuPTZyustsvhhQBTnjms.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=qFtz_E34brkQ7kNvwEFw-Bc&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMTIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODE1NTUyMTcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=cef7fcda48b8e840&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85RTRGMTkwODQ4Qzc2NzM0OTIzQ0ZEQjI3MkEzRjRBQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0IyNDFDQTNCNDEyOEYyRTg3MzVCMzBDRDZCNzVFMEE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA_MyzoojxPxUCKAJDMywXQEOzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=kp8dmVwHvy7mnyREbN7yXA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQGzVVBQfT7it_KRxCrle_jhRApIOOC8CJnD0xyQqU7xEw&amp;oe=6A7C1F3D\"></video></p>",
+    "summaryKo": "한 사용자가 Grok의 이미지 생성 품질이 눈에 띄게 좋아졌다는 소감을 짧게 남긴 게시물로, 구체적인 업데이트 내용은 언급되지 않았다.",
+    "tags": [
+      "이미지생성"
+    ],
+    "entities": [
+      "xAI",
+      "Grok"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "1fe3c336a261c74a",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Go 생태계에 기대어 만든 시스템 언어 Solod",
+    "url": "https://news.hada.io/topic?id=32361",
+    "publishedAt": "2026-08-10T22:07:30+09:00",
+    "rawText": "Solod는 C·Go 개발자를 위한 시스템 언어로, Go를 닮은 별도 언어가 아니라 Go 언어의 부분집합으로 설계됨 구문 강조, LSP, 린터, 패키지 관리 등 기존 Go 도구 체계를 활용하고, 전용 so 도구로 지원하지 않는 문법을 추가 검사함...",
+    "summaryKo": "Solod는 C·Go 개발자를 위한 새 시스템 언어로, 독립된 언어가 아니라 Go 언어의 부분집합으로 설계됐다. 기존 Go 도구 체계(구문 강조, LSP, 린터, 패키지 관리)를 그대로 활용하면서 전용 도구로 확장 문법만 별도 검사한다.",
+    "tags": [
+      "프로그래밍언어"
+    ],
+    "entities": [
+      "Go",
+      "Solod"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "f87aea984c20aac4",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "2026년 상반기 IRC 기술 뉴스",
+    "url": "https://news.hada.io/topic?id=32360",
+    "publishedAt": "2026-08-10T22:04:30+09:00",
+    "rawText": "IRC 생태계는 IRCv3 명세 확장과 클라이언트·서버·바운서 개선을 이어가는 한편, AI 지원 개발 여부를 프로젝트 평가 정보로 표시하기 시작함 IRCv3 Working Group은 reply와 WebSockets에 이어 Account Extended Ban, no-implicit-names",
+    "summaryKo": "2026년 상반기 IRC 생태계는 IRCv3 명세 확장과 클라이언트·서버·바운서 개선을 이어갔으며, 프로젝트 평가 정보에 AI 지원 개발 여부를 표시하기 시작했다는 점이 새롭다.",
+    "tags": [
+      "IRC"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "04bd6d0455f5d3b1",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "멋진 URI는 변하지 않는다 (1998)",
+    "url": "https://news.hada.io/topic?id=32359",
+    "publishedAt": "2026-08-10T21:33:23+09:00",
+    "rawText": "좋은 URI는 사이트 개편, 담당자 교체, 파일 이동, 구현 기술 변경에도 유지돼야 하며, 처음부터 장기간 존속하도록 설계해야 함 URI를 파일시스템이나 CGI 경로와 분리된 추상 공간으로 다루고 현재 파일 위치와 매핑하면, 내부 구조를 바꾸면서도 기존 링크를 보...",
+    "summaryKo": "1998년 W3C 문서 '멋진 URI는 변하지 않는다'를 소개하며, 좋은 URI는 사이트 개편이나 기술 변경과 무관하게 장기간 유지되도록 설계해야 한다는 원칙을 다룬다. URI를 파일 경로가 아닌 추상 공간으로 다루면 내부 구조를 바꿔도 기존 링크를 보존할 수 있다는 내용이다.",
+    "tags": [
+      "웹아키텍처"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "95f74aeac90a93bb",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+    "url": "https://openai.com/index/model-ml",
+    "publishedAt": "Mon, 10 Aug 2026 12:00:00 GMT",
+    "rawText": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+    "summaryKo": "금융 서비스 기업 Model ML이 OpenAI의 GPT-5.6 Sol을 도입해 리서치·분석부터 수정 가능한 파워포인트·엑셀 산출물 작성까지 금융 업무를 효율화한 사례를 OpenAI가 소개했다. 조사 단계뿐 아니라 추적 가능한 최종 문서 생성까지 자동화한 점이 특징이다.",
+    "tags": [
+      "금융AI",
+      "업무자동화"
+    ],
+    "entities": [
+      "OpenAI",
+      "Model ML",
+      "GPT-5.6 Sol"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "0c5d94fcb556b9b2",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "HackerOne에 무슨 일이 일어났나?",
+    "url": "https://news.hada.io/topic?id=32358",
+    "publishedAt": "2026-08-10T20:38:43+09:00",
+    "rawText": "2017년부터 연구자와 프로그램 관리자로 HackerOne을 경험한 필자는 회사가 해커 중심 커뮤니티에서 영업·계약·AI 제품 중심 기업으로 바뀌며 정체성을 잃었다고 봄 2014~2022년 총 1억6천만 달러를 조달한 뒤 수익화 압력이 커졌고, 바운티의 20%를 받던 방식에서...",
+    "summaryKo": "2017년부터 HackerOne을 이용해온 필자는 회사가 해커 중심 커뮤니티에서 영업·계약·AI 제품 중심 기업으로 변모하며 정체성을 잃었다고 비판했다. 누적 1억6천만 달러 투자 유치 이후 수익화 압력이 커지며 바운티 수수료 구조 등이 바뀐 과정을 짚었다.",
+    "tags": [
+      "버그바운티",
+      "기업정체성"
+    ],
+    "entities": [
+      "HackerOne"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "cb17f18fb446fd2b",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Semi Edge Inference Idea [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/",
+    "publishedAt": "2026-08-10T10:58:11+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Today the most important factor in AI is cost. My idea is to split ML models inference (closed ones, proprietary) across server and edge computing on clients, and I would like to hear what do you think about this thing.</p> <p>For example some of model weights/modules would be on client, and some on the server side (where user has no access to them). This could potentially un-load some processing from datacenters, moving part of the cost to the client hardware. Probbably the most important question here will be how to achieve this - and I believe one hypothetical option will be to train like two separate models - client model and server model, and they will communicate through tensors/latent representations across network protocol.</p> <p>Secondly such split of server side and client side model ends, can provide later some beneficial outcomes I hope (because in between &quot;talk&quot; protocol can be maybe kind of standarized one in some future development, but this is only more like brainstorm now). Such split might not only be one-to-one, but one-to-many, many-to-many etc.</p> <p>What do you think about this idea?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/komorra\"> /u/komorra </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/\">[comments]</a></span>",
+    "summaryKo": "AI 추론 비용을 줄이기 위해 폐쇄형 모델의 추론을 서버와 클라이언트 엣지 디바이스로 분할하는 아이디어를 제안한 토론 글이다. 모델 가중치 일부를 클라이언트에 두고 텐서·잠재표현을 네트워크로 주고받는 클라이언트-서버 분리 구조를 브레인스토밍 수준에서 논의한다.",
+    "tags": [
+      "엣지추론",
+      "추론비용"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "66a1174ccef656f0",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Comparing embedding models with synthetic query probing [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vkh1ul/comparing_embedding_models_with_synthetic_query/",
+    "publishedAt": "2026-08-10T10:27:45+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkh1ul/comparing_embedding_models_with_synthetic_query/\"> <img src=\"https://preview.redd.it/eauhd4hdyiih1.png?width=140&amp;height=47&amp;auto=webp&amp;s=7594a52bcc580426082f61ebb75cecded686b9a9\" alt=\"Comparing embedding models with synthetic query probing [R]\" title=\"Comparing embedding models with synthetic query probing [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Say you want to swap out your embedding models, for instance from ADA to Titan. Are these embedding models comparable? How do similarity score ranges compare? Where to put a threshold for minimum match when doing retrieval? Or more from a research point of view how can we relate and fundamentally understand these embedding spaces better?</p> <p>This is what we aim to solve with Synthetic Query Probing, a fancy name for essentially (and intentionally) a very simple approach: embedding spaces are not directly comparable by definition, so compare similarity spaces instead, similarity match scores for pairs of content (synthetic question, chunk for instance) across multiple embedding models.</p> <p>For example, similarity scores of Titan models of different dimensionalities are related, whereas the relation between Titan and Ada scores is non-linear, with different ranges, see figure.</p> <p><a href=\"https://preview.redd.it/eauhd4hdyiih1.png?width=4767&amp;format=png&amp;auto=webp&amp;s=e424c836c48962928d9505cf747e7cd9fb0b719f\">https://preview.redd.it/eauhd4hdyiih1.png?width=4767&amp;format=png&amp;auto=webp&amp;s=e424c836c48962928d9505cf747e7cd9fb0b719f</a></p> <p>See <a href=\"https://arxiv.org/pdf/2608.05857\">https://arxiv.org/pdf/2608.05857</a>, Marcin Rozmus and Peter van der Putten. Similarity Spaces across Embedding Models with Synthetic Query Probing. Discovery Science 2026, October 5-9, 2026, Mainz, Germany</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pppeer\"> /u/pppeer </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkh1ul/comparing_embedding_models_with_synthetic_query/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkh1ul/comparing_embedding_models_with_synthetic_query/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "임베딩 모델을 교체할 때 유사도 점수 분포가 서로 달라 비교가 어려운 문제를 다루기 위해 'Synthetic Query Probing' 기법을 제안한 글이다. 합성 질의와 청크 쌍에 대한 유사도 점수를 여러 임베딩 모델에서 비교해 임베딩 공간을 실질적으로 비교하는 방법을 소개한다.",
+    "tags": [
+      "임베딩",
+      "RAG"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "081601c279be28d3",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+    "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+    "publishedAt": "Mon, 10 Aug 2026 10:00:00 GMT",
+    "rawText": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+    "summaryKo": "OpenAI가 사이버보안 특화 모델 GPT-5.6-Cyber를 승인된 취약점 연구·익스플로잇 검증·보안 테스트용으로 Daybreak Red를 통해 제공한다고 밝혔다. 사이버 방어 대응 시간이 줄어드는 상황에서 프런티어 보안 모델 접근을 신뢰할 수 있는 파트너로 확대하는 조치다.",
+    "tags": [
+      "사이버보안",
+      "LLM"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-5.6-Cyber",
+      "Daybreak"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "29b0e61ec6cd1ed3",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Putting frontier cyber models in more trusted hands",
+    "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+    "publishedAt": "Mon, 10 Aug 2026 10:00:00 GMT",
+    "rawText": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+    "summaryKo": "OpenAI는 승인된 Daybreak 파트너들이 프런티어 사이버 모델을 활용해 고객에게 통제된 보안 서비스를 제공할 수 있도록 접근을 확대한다고 밝혔다. 무분별한 확산 대신 신뢰 기반 파트너십을 통해 강력한 사이버 역량을 관리하려는 전략이다.",
+    "tags": [
+      "사이버보안",
+      "파트너십"
+    ],
+    "entities": [
+      "OpenAI",
+      "Daybreak"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "8d1aa2da4d475105",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "3 Collapsing models [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/",
+    "publishedAt": "2026-08-10T09:42:54+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Trying to train 3 models for birads detection using cross entropy and center loss + class weights but all of them seem to collapse between birads 1 as the dataset (VinDr) im using is heavily unbalanced towards it, Would like to ask for input and opinion on what seems to be the case, am I using the wrong loss function?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rihitwo\"> /u/Rihitwo </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/\">[comments]</a></span>",
+    "summaryKo": "BI-RADS 유방영상 판독 모델 3개를 교차 엔트로피와 센터 로스+클래스 가중치로 학습했으나 데이터셋(VinDr)이 BI-RADS 1 등급에 심하게 치우쳐 있어 세 모델 모두 붕괴하는 문제를 겪었다는 질문 글로, 손실 함수 선택에 대한 커뮤니티 조언을 구했다.",
+    "tags": [
+      "의료AI",
+      "클래스불균형"
+    ],
+    "entities": [],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "e47a309cb75a1770",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "경동제약, 아시모브와 바이오의약품 항체 생산 세포주 개발 완료",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540167",
+    "publishedAt": "2026-08-10 18:37:42",
+    "rawText": "경동제약이 미국 인공지능(AI) 기반 합성생물학 기업 아시모브(Asimov)와 공동으로 추진한 바이오의약품 항체 후보물질의 세포주(Cell Line) 개발을 완료했다.이번 개발을 통해 경동제약은 차세대 바이오의약품 항체 후보물질을 위한 생산 세포주를 확보했으며 향후 공정개발과 대규모 생산, 상용화를 위한 기반을 마련했다.경동제약은 기존 전문의약품 연구개발 및 생산 역량을 기반으로 바이오의약품 분야로 사업 영역을 확대하고 있다. 이번 프로젝트는 높은 생산성과 제품 품질을 동시에 확보할 수 있는 생산 세포주 개발을 목표로 추진됐다.ㅐ세",
+    "summaryKo": "경동제약이 미국 AI 기반 합성생물학 기업 아시모브(Asimov)와 공동으로 바이오의약품 항체 후보물질의 생산 세포주 개발을 완료했다. 이를 기반으로 향후 공정개발과 대규모 생산·상용화를 추진할 계획이다.",
+    "tags": [
+      "AI신약개발",
+      "합성생물학"
+    ],
+    "entities": [
+      "경동제약",
+      "Asimov"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "9ac1031d1b2cd096",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "AI for science needs reasoning, not just data",
+    "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+    "publishedAt": "Mon, 10 Aug 2026 09:00:00 +0000",
+    "rawText": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the&#8230;",
+    "summaryKo": "과거 '과학의 종말' 예측이 번번이 틀렸듯, AI가 폭발적으로 발전하는 지금도 과학이 끝났다는 성급한 결론을 경계해야 한다는 논지다. 필자는 AI가 과학 발전에 실질적으로 기여하려면 단순 데이터 처리를 넘어 추론(reasoning) 능력이 필요하다고 주장한다.",
+    "tags": [
+      "AI추론",
+      "과학AI"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "837b81d5ae07cf2d",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "These startups are chasing the next big thing in LLMs",
+    "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+    "publishedAt": "Mon, 10 Aug 2026 09:00:00 +0000",
+    "rawText": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new&#8230;",
+    "summaryKo": "2017년 '어텐션이 전부다' 논문 이후 LLM 발전을 이끈 흐름을 짚으며, MIT Technology Review의 What's Next 시리즈가 다음 LLM 혁신을 좇는 스타트업들을 조명했다.",
+    "tags": [
+      "LLM",
+      "스타트업"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "3374e5946093ff6f",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "GC메디아이, 상반기 영업익 302% 급증…핵심사업·자회사 개선 효과",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540104",
+    "publishedAt": "2026-08-10 11:43:22",
+    "rawText": "GC메디아이가 메디컬 인프라와 커머스 등 핵심 사업 성장과 자회사 손익 개선에 힘입어 상반기 영업이익을 4배 이상 끌어올렸다. 하반기에는 '의사랑 AI' 확산과 EMR 연계 서비스를 통한 신규 수익모델 확보에 나선다.GC메디아이는 2026년 상반기 연결기준 매출 1014억원, 영업이익 62억원을 기록했다고 밝혔다. 전년 동기 대비 매출은 7.9%, 영업이익은 302.3% 증가했다.외형 성장보다 수익성 개선 폭이 두드러졌다. 메디컬 인프라(Medical Infra), 데이터&마케팅(Data & MKT), 커머스(Commerce), 플",
+    "summaryKo": "GC메디아이가 메디컬 인프라·커머스 등 핵심사업 성장과 자회사 손익 개선에 힘입어 2026년 상반기 영업이익을 전년 대비 302% 늘렸다. 하반기에는 AI 기반 '의사랑 AI' 확산과 EMR 연계 서비스로 신규 수익모델을 확보할 계획이다.",
+    "tags": [
+      "의료AI",
+      "실적"
+    ],
+    "entities": [
+      "GC메디아이"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "4130fbd2544b0e03",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "심평원 'AI 대전환' 주제 보건의료 혁신 국제 심포지엄",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540093",
+    "publishedAt": "2026-08-10 11:07:18",
+    "rawText": "건강보험심사평가원(원장 홍승권)은 오는 28일 서울 장충동 소재 앰배서더 서울 풀만 2층 그랜드볼룸에서 '인공지능(AI) 대전환, 보건의료 혁신의 미래를 열다 - 제도, 정책, 그리고 현장을 다시 그리다'를 주제로 2026년 국제 심포지엄을 개최한다.이번 심포지엄은 AI가 의료서비스와 보건의료 정책 전반의 혁신을 이끄는 세계적 흐름에 발맞춰, AI의 제도권 편입을 위한 정책 방향을 모색하고, 안전하고 신뢰할 수 있는 AI 활용 방안을 논의하기 위해 마련됐다.기조연설은 경제협력개발기구(OECD) 에릭 서덜랜드(Eric Sutherla",
+    "summaryKo": "건강보험심사평가원이 'AI 대전환, 보건의료 혁신의 미래를 열다'를 주제로 국제 심포지엄을 개최해 AI의 제도권 편입을 위한 정책 방향과 안전한 활용 방안을 논의한다. OECD 에릭 서덜랜드 등이 기조연설을 맡는다.",
+    "tags": [
+      "보건의료AI",
+      "정책"
+    ],
+    "entities": [
+      "건강보험심사평가원",
+      "OECD"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "4e2a8e33150db106",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "LSK, JSM 2026서 AI 활용 약물 안전성 연구 공개",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540080",
+    "publishedAt": "2026-08-10 09:12:55",
+    "rawText": "LSK Global PS가 인공지능(AI)을 활용한 의약품 안전성 분석 연구를 세계 최대 규모의 통계학 학술대회에서 공개하며 임상·약물감시 분야에서의 AI 활용 가능성을 제시했다.LSK Global PS ARS(Academic Research Service) 본부 김선우 전무는 미국통계학회(American Statistical Association, ASA)가 주최하는 ‘Joint Statistical Meetings(JSM) 2026’에서 ‘VigiBase를 활용한 티사젠렉류셀 관련 심혈관계 이상사례 신호 탐지를 위한 설명 가능한",
+    "summaryKo": "LSK Global PS가 미국통계학회(ASA) 'Joint Statistical Meetings 2026'에서 AI를 활용한 의약품 안전성 분석 연구를 발표했다. VigiBase 데이터를 활용해 특정 세포치료제 관련 심혈관계 이상사례 신호를 설명 가능한 AI로 탐지하는 방법론을 제시했다.",
+    "tags": [
+      "약물감시",
+      "설명가능AI"
+    ],
+    "entities": [
+      "LSK Global PS"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "2a5c0cad5d8b2f9d",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Premium seats are coming to ChatGPT Business",
+    "url": "https://openai.com/index/premium-seats-chatgpt-business",
+    "publishedAt": "Mon, 10 Aug 2026 00:00:00 GMT",
+    "rawText": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+    "summaryKo": "OpenAI가 ChatGPT Business에 프리미엄 시트(Premium seats)를 도입한다고 발표했다. 8월 20일까지 가입하면 워크스페이스 크레딧 100달러와 함께 팀의 고강도 작업을 위한 더 높은 사용 한도를 제공한다.",
+    "tags": [
+      "ChatGPT",
+      "기업요금제"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT Business"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "d41606a7fb6e9f32",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "배우도 촬영장도 없이 자동차 광고 10컷 — Higgsfield MCP로 발주부터 검수까지",
+    "url": "https://www.youtube.com/watch?v=eiMYL6byyFo",
+    "publishedAt": "2026-08-09T09:06:48+00:00",
+    "rawText": "배우도 촬영장도 없이 자동차 광고 10컷 — Higgsfield MCP로 발주부터 검수까지",
+    "summaryKo": "백엔드 개발자가 디자인 지식 없이 Claude와 Higgsfield의 MCP 연동만으로 하루 만에 배우·촬영장 없는 자동차 광고 10컷을 제작한 사례다. Claude가 스토리보드와 프롬프트를 설계하는 두뇌 역할을, Higgsfield가 이미지·영상·음성을 생성하는 손 역할을 맡으며, 얼굴·소품을 미리 만든 에셋으로 재사용하고 Blender로 카메라 동선을 블록아웃해 컷 간 일관성을 확보하는 방식을 소개한다.",
+    "tags": [
+      "MCP",
+      "AI 영상 생성",
+      "3D 블록아웃"
+    ],
+    "entities": [
+      "Claude",
+      "Higgsfield",
+      "Blender"
+    ],
+    "cats": [
+      "멀티모달",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "videoId": "eiMYL6byyFo",
+    "fetchedAt": "2026-08-10T21:14:39.917Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "d31b6f14f3727b96",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+    "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+    "publishedAt": "Sat, 08 Aug 2026 10:24:54 +0000",
+    "rawText": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime minister of the Republic of Armenia; Zhaslan Madiyev, deputy [&#8230;]",
+    "summaryKo": "AI 클라우드 기업 Firebird가 NVIDIA 가속 컴퓨팅과 Dell 인프라를 기반으로 CIS 지역 최대 규모의 AI 팩토리를 아르메니아에 구축했다고 발표했다. 아르메니아 총리 등이 참석한 가운데 새로운 AI 컴퓨팅 허브 출범이 공식화됐다.",
+    "tags": [
+      "AI 인프라",
+      "데이터센터"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Firebird",
+      "Dell Technologies"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "34443e6ca27c7536",
+    "sourceType": "youtube",
+    "source": "Jay Choi | 인디해커 라이프",
+    "title": "Aside 핵심 가이드: 한국인 3명이 만든 AI 브라우저, 직접 써보고 솔직하게 정리했습니다",
+    "url": "https://www.youtube.com/watch?v=5EZx-4Op9Po",
+    "publishedAt": "2026-08-08T10:00:35+00:00",
+    "rawText": "Aside 핵심 가이드: 한국인 3명이 만든 AI 브라우저, 직접 써보고 솔직하게 정리했습니다",
+    "summaryKo": "한국인 3명이 YC 투자를 받아 만든 AI 브라우저 'Aside'는 기존 로그인 세션을 그대로 활용해 웹에서 실제 작업을 대신 수행하는 '브라우저를 가진 AI 에이전트' 개념을 제시한다. Claude, GPT 등 기존 구독을 연결해 추가 비용 없이 쓸 수 있고, 작업 기록을 마크다운 메모리로 남기며 Claude Code·MCP와 연동해 CLI에서도 제어할 수 있다. 리뷰어는 아직 초기 서비스라 다소 불안정하지만 로그인이 필요한 작업(스레드 게시, 개인화 검색 등)에서 확실한 속도 우위를 보였다고 평가했다.",
+    "tags": [
+      "AI 브라우저",
+      "에이전틱 워크플로",
+      "MCP",
+      "브라우저 자동화"
+    ],
+    "entities": [
+      "Aside",
+      "Claude",
+      "Claude Code",
+      "Arc",
+      "Y Combinator"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "videoId": "5EZx-4Op9Po",
+    "fetchedAt": "2026-08-10T21:14:39.917Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4d955cbf0da59a52",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "요즘 가장 핫한 AI툴 Buzz, 클로드코드·코덱스를 한 팀으로 쓰는 법!",
+    "url": "https://www.youtube.com/watch?v=3RApTxBeE7E",
+    "publishedAt": "2026-08-08T05:00:17+00:00",
+    "rawText": "요즘 가장 핫한 AI툴 Buzz, 클로드코드·코덱스를 한 팀으로 쓰는 법!",
+    "summaryKo": "트위터 창업자 잭 도시가 만든 블록(Block)이 공개한 오픈소스 협업 도구 '버즈(Buzz)'는 슬랙처럼 채널과 스레드를 쓰면서 클로드 코드, 코덱스, 로컬 모델 등 서로 다른 AI 에이전트를 팀원처럼 초대해 같은 컨텍스트를 공유하며 협업시킬 수 있다. 영상은 정부 지원사업 공고를 해석하는 클로드 코드 에이전트와 그 내용을 반박·검토하는 코덱스 에이전트를 한 스레드에서 순차 협업시키는 실습을 보여주며, 툴별로 흩어지던 결과와 피드백을 한 곳에서 관리할 수 있다는 점이 새롭다. 다만 모바일 앱 완성도, 승인 게이트 UI, 파일 첨부 기능은 아직 미완성 상태다.",
+    "tags": [
+      "멀티에이전트",
+      "Claude Code",
+      "Codex",
+      "오픈소스"
+    ],
+    "entities": [
+      "Buzz",
+      "Claude Code",
+      "Codex",
+      "Block"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "videoId": "3RApTxBeE7E",
+    "fetchedAt": "2026-08-10T21:14:39.917Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "e66cc71d0943fe40",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Responding to the next frontier of critical cyber capabilities",
+    "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+    "publishedAt": "Fri, 07 Aug 2026 15:20:00 GMT",
+    "rawText": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+    "summaryKo": "OpenAI가 차세대 모델 Astra에 대한 예비 사이버보안 평가 결과를 공개하고, 이에 대응해 안전장치와 보안 통제를 강화하는 조치를 취하고 있다고 밝혔다. 프런티어 모델의 사이버 역량이 커지는 데 따른 선제적 위험 관리 사례다.",
+    "tags": [
+      "사이버보안",
+      "AI 안전"
+    ],
+    "entities": [
+      "OpenAI",
+      "Astra"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "7347f06e7c916544",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+    "url": "https://openai.com/index/hsp-gruppe",
+    "publishedAt": "Fri, 07 Aug 2026 09:00:00 GMT",
+    "rawText": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+    "summaryKo": "독일 세무자문 기업 HSP GRUPPE가 ChatGPT Enterprise를 도입해 생산성과 업무 품질을 높이고 세무자문·고객 서비스에 투입할 여력을 늘린 사례를 OpenAI가 소개했다.",
+    "tags": [
+      "기업도입",
+      "생산성"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT Enterprise",
+      "HSP GRUPPE"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "cdd8d819f4855db7",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "Improving Fable 5's biology safeguards",
+    "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+    "publishedAt": "Thu, 06 Aug 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-heather\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Improving Fable 5's biology safeguards\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/e253e6c4926deb09baf67f41e4e24e8028ea5f36-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query. In our testing, this update reduced <em>biology-related</em> fallbacks by about 85% across our product surfaces.<sup class=\"caption Body-module-scss-module__z40yvW__sup\">1</sup></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fable 5 will thus be able to assist with a wider range of biology tasks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In practice, users should see far fewer fallbacks on everyday health and educational questions—for example, interpreting lab results, understanding symptoms, and learning about biology in an educational context. Healthcare professionals will be able to receive more support from Fable 5 on clinical tasks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We believe the greatest opportunity for AI to positively affect the world is in biology and medicine, and we're investing significantly in building a responsible way to give biologists frontier access. Today, Fable still falls back to Opus 5 for requests we consider dual-use—including virology, toxicology, and molecular design—so it isn't yet usable for professional biology research and drug development. We're committed to closing that gap through trusted access pathways for frontier biology capabilities.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"why-we-built-strong-biology-safeguards\">Why we built strong biology safeguards</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Our objective is to get Fable 5’s frontier capabilities into the hands of as many of our users as possible, as quickly as possible. However, to do so, we need to manage the increasing risks that come with models this capable. One such risk is in the field of biology: Fable 5 can now outperform experts on some highly complex biological tasks and provide operational support on others. That means that it can provide genuine assistance to a researcher developing a new medical treatment (which is the reason we’re so keen to widen access to the model via both classifier improvements and trusted access programs). But in the wrong hands, those same capabilities could be used by a malicious actor, for example in developing a biological weapon. Our <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\">capability assessments</a> show that Fable 5 could provide significant <em>uplift</em> to such an actor—that is, it could provide them with capabilities they could not find anywhere else.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">It’s often difficult to tell apart beneficial and harmful uses of AI in biology. For example, in some cases researching a treatment for a disease requires scientists to produce the dangerous compounds that <em>cause</em> that disease in the first place. This is most obvious for live vaccines, which require scientists to grow the same pathogen they’re aiming to prevent. It’s also the case for some medicines. To develop the drug captopril, which treats hypertension, scientists isolated toxic components of snake venom that crash blood pressure in humans. As new biological capabilities develop on the frontier of AI, we need to be cautious to ensure that the new risks they pose do not materialize ahead of their potential scientific benefits.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Sophisticated actors who wish to use our models to do harm know how to exploit this ambiguity to obscure their intent, making dangerous tasks look like ordinary research pursuits. The US Intelligence Community’s <a href=\"https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf\">2026 Annual Threat Assessment</a> makes clear that such actors exist, and that advances in biotechnology including synthetic biology and genomic editing <em>“could lead to novel biological threats.”</em> It notes that several state actors likely maintain active offensive biological and chemical weapons programs—programs that could be accelerated by access to the raw capabilities of frontier AI models.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Because of our concerns about these “dual-use” capabilities (those that could be used for beneficial or harmful purposes, and where the line between them is not always easy to draw), we intentionally launched Fable 5 with almost all biology queries blocked. This enabled us to make the model available for users in other domains. We knew this would be frustrating for legitimate biology users: it would result in a high number of false positives in the near-term, where users asking biology-related questions would have their requests blocked and sent to a less capable model. Nevertheless, we chose to make this tradeoff because the cost of Fable being misused in a dual-use domain like biology could potentially be <a href=\"https://cdn.sanity.io/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf\">catastrophic</a>.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"how-our-biology-safeguards-work\">How our biology safeguards work</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">One of the core ways we protect against misuse in biology is via safety <em>classifiers:</em> smaller, automated AI systems that detect when Fable 5 is asked to perform a safeguarded biology task, or produce a harmful output (we've <a href=\"https://www.anthropic.com/news/fable-safeguards-jailbreak-framework\">previously written</a> about our similar classifiers in the domain of cybersecurity).</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In the case of Fable 5, when a classifier fires, the model re-routes the user’s request to Opus 5, a capable model that does not have the same level of biological capability as Fable 5 and which cannot provide as much assistance to a malicious user. This is the fallback that users see when their requests are blocked.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Developing precise, robust classifiers is not a straightforward task. For a classifier to work rapidly and consistently, it has to learn the difference between what we consider “in scope” and “out of scope” for the topics and queries we consider to be potentially harmful. It takes time and iteration to tune the classifiers, avoiding both false positives (where classifiers fire on out-of-scope content) and false negatives (where in-scope content is missed). We also require our classifiers to be robust to attempts to bypass them (known as jailbreaks), which requires even further research and testing.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Starting with a very broad biology classifier meant that we could give our users access to Fable 5 while we continued our research aimed at refining it. The alternative—holding back the model until much more safeguards progress was made—would have delayed the model’s general access, and its potential benefits to our users, by weeks or months.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Over the past several weeks, we've carefully rewritten the classifier’s constitution (which consists of a collection of rules to help the model discern between safeguarded and allowed content), taking care to carve out benign uses in detail. We solicited feedback on the changes from a diverse range of experts (both internal and external to Anthropic). We then developed updated training data for the classifier based on that constitution, and retrained it, and verified the new classifier would still generally trigger for harmful and dual-use research biology content but would now enable a wider range of benign and beneficial uses.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As is illustrated in the diagram below, these updates meant that—compared to at the time of Fable 5’s launch—the classifier will trigger for many fewer benign biology-related requests.</p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"1855\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/e6d3c7b32cc8a0798c0ad58a2340f846b3c8af42-3840x1855.png\" referrerpolicy=\"no-referrer\"><figcaption class=\"caption\"><em>Illustration of our biology classifiers. Content that falls on the left-hand side of the classifier boundary is allowed; content that falls on the right-hand side is safeguarded (and is therefore blocked and sent instead to a less capable model);. Clearly harmful content (red), and content that is dual-use (orange), triggers the classifier and is blocked. We include a safety margin that includes content that is very likely benign but which is still blocked out of an abundance of caution (light green). Clearly benign content is in darker green.</em><em>Upon its launch, Fable 5 had very broad classifiers (A) that triggered on a wide range of requests—even ones that were almost certainly benign (those in the safety margin). The classifier boundary is thus very far to the left-hand side of the diagram. The update we are announcing today (B) means that many more benign requests are allowed by the classifier, which has become better at discerning subtle differences between benign and dual-use queries. The classifier boundary in the diagram has therefore moved further to the right-hand side.</em></figcaption></figure></div><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-4 post-heading\" id=\"conclusions\">Conclusions</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">There’s still much more to be done to refine our safeguards. There will inevitably remain false positives—requests that fall within the classifier’s safety margin where the request is very low-risk but where the classifier still fires. As we noted above, Fable will continue to block dual use professional biology and drug development queries because of potential dual-use risk. We are fully committed to developing a safe, scalable path for researchers to use our most capable models via trusted access pathways.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We hope you’ll continue to share your feedback with us so we can improve our safeguards even further.</p></div></div></article></div><div class=\"page-wrapper\"><div class=\"PostDetail-module-scss-module__UQuRMa__footnotes\"><h4 class=\"headline-5\">Footnotes</h4><p><sup>1 </sup>As a result, we expect the total number of fallbacks—for biology–related or any other reasons—will also be reduced: by roughly 67% on <a href=\"http://claude.ai/\">Claude.ai</a>, 55% on Cowork, 17% on Claude Code, and 7% on the Claude Platform.</p></div></div></article>",
+    "summaryKo": "Anthropic이 Fable 5의 생물학 안전 분류기를 재조정해 생물학 관련 폴백(더 낮은 성능 모델로의 전환)을 약 85% 줄였다고 밝혔다. 검사 결과 해석, 증상 이해 등 일상적 건강·교육 질문에서 오탐이 크게 줄지만, 바이러스학·독성학·분자설계 등 이중용도 영역은 여전히 Opus 5로 라우팅돼 전문 생물학 연구에는 아직 쓸 수 없다.",
+    "tags": [
+      "AI 안전성",
+      "바이오시큐리티",
+      "분류기"
+    ],
+    "entities": [
+      "Anthropic",
+      "Fable 5",
+      "Opus 5"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "9f10ae9fb17a40a7",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "GeForce NOW Shakes Up August With 26 New Games",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
+    "publishedAt": "Thu, 06 Aug 2026 13:00:11 +0000",
+    "rawText": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library, starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences [&#8230;]",
+    "summaryKo": "NVIDIA가 8월 GeForce NOW 클라우드 게이밍 서비스에 신작 게임 26종을 추가한다고 밝혔다. AI/모델 소식이라기보다는 게임 서비스 업데이트 성격의 소식이다.",
+    "tags": [
+      "클라우드게이밍"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GeForce NOW"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "5cb2348978651bbc",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+    "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+    "publishedAt": "Thu, 06 Aug 2026 13:00:00 +0000",
+    "rawText": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosystem reaches every sector.",
+    "summaryKo": "NVIDIA가 200여개 기업·기관과 함께 'Open Weights and American AI Leadership' 공개서한에 서명하며, AI 리더십은 단일 프런티어 모델이 아니라 개방형 생태계 확산으로 결정된다고 주장했다. 오픈 월드 모델이 피지컬 AI(로보틱스 등) 발전의 프런티어를 어떻게 넓히는지도 다룬다.",
+    "tags": [
+      "오픈웨이트",
+      "피지컬AI"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-10T21:14:39.917Z"
+  },
+  {
+    "id": "cc8a9f7b6f6c9b63",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "18만 AI 유튜버가 알려주는 일반인을 위한 클로드 활용법ㅣ클로드코워크 이렇게 사용해보세요",
+    "url": "https://www.youtube.com/watch?v=GUBZ1YsuVRQ",
+    "publishedAt": "2026-08-06T09:00:07+00:00",
+    "rawText": "18만 AI 유튜버가 알려주는 일반인을 위한 클로드 활용법ㅣ클로드코워크 이렇게 사용해보세요",
+    "summaryKo": "AI 유튜버가 클로드(Claude)의 코워크 기능과 프로젝트 커스텀 지침을 활용해 업무 대시보드 생성, 로컬 폴더 연동 보고서 자동 작성 등 실무 활용법을 시연했다. 이어 대화가 길어질수록 토큰 사용량이 누적적으로 늘어나는 구조를 설명하고, 프롬프트 수정 활용·요청 묶어 보내기·파일 마크다운 변환·5시간 세션 리셋을 이용한 예약 작업 등 구체적인 토큰 절약 팁을 공개했다.",
+    "tags": [
+      "프롬프트 엔지니어링",
+      "클로드 코워크",
+      "토큰 관리",
+      "클로드 프로젝트"
+    ],
+    "entities": [
+      "Claude",
+      "Claude Cowork",
+      "Claude Projects",
+      "ChatGPT"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "videoId": "GUBZ1YsuVRQ",
+    "fetchedAt": "2026-08-10T21:14:39.917Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "143880fc515aa557",
     "sourceType": "news",
     "source": "GeekNews",
@@ -3497,970 +4468,5 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "c055135e3e969250",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Workshop paper accepted, reviewers asked new experiments [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v9owaf/workshop_paper_accepted_reviewers_asked_new/",
-    "publishedAt": "2026-07-29T07:21:00+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone, I submitted a paper to a workshop co-located with a top conference. The paper was accepted, but reviewers are requesting additional experiments. The issue is that there&#39;s no second review phasem, I only need to submit a camera-ready version.</p> <p>My question is: what&#39;s the point of requesting new experiments at this stage? The request essentially bypasses the peer review process entirely.</p> <p>Has anyone dealt with this situation before? Should I run the experiments anyway, ignore the request, or reach out to the workshop chairs for clarification?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rokk07\"> /u/rokk07 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9owaf/workshop_paper_accepted_reviewers_asked_new/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9owaf/workshop_paper_accepted_reviewers_asked_new/\">[comments]</a></span>",
-    "summaryKo": "워크숍 논문이 승인됐지만 두 번째 심사 단계 없이 카메라레디 제출만 남은 상황에서 심사위원들이 추가 실험을 요구해, 이것이 실질적으로 동료 심사 절차를 우회하는 게 아니냐는 논쟁이 커뮤니티에서 제기됐다.",
-    "tags": [
-      "논문 심사",
-      "학계 이슈"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "c2bd8837aa4e0c48",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "EMNLP 2026 AI Reviewing Experiment [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/",
-    "publishedAt": "2026-07-29T02:44:29+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hey, can anyone see the AI review result in ARR May 2026 submission?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Historical_Pause247\"> /u/Historical_Pause247 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9jfci/emnlp_2026_ai_reviewing_experiment_d/\">[comments]</a></span>",
-    "summaryKo": "EMNLP 2026의 AI 리뷰 실험과 관련해, ARR 2026년 5월 제출본에 AI 리뷰 결과가 표시되는지 묻는 짧은 커뮤니티 질문 글이다.",
-    "tags": [
-      "AI 논문 심사",
-      "학회"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "f7c3f434b3876b22",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "대한약국학회, 뷰티상담·AI 약국마케팅 특강 개최",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=539417",
-    "publishedAt": "2026-07-29 10:55:34",
-    "rawText": "대한약국학회(회장 주상훈)가 오는 8월 9일 대한약사회관에서 하반기 특별강좌 '앞서나가는 약국의 비밀: 근거기반 약국 뷰티상담 & AI 활용'을 개최한다.이번 강좌는 약국에서 피부·뷰티 관련 제품을 상담할 때 필요한 기초 지식과 성분별 근거를 정리하고, 약국 매대 진열 및 라벨·POP 전략, 생성형 AI를 활용한 홍보·마케팅 실무까지 익힐 수 있도록 마련됐다.최근 약국에서는 EGF, PDRN 등 피부 관련 성분에 대한 소비자 관심이 높아지고 있으며 유사 성분이 포함된 화장품과 의약품의 차이를 묻는 상담도 증가하는 추세다. 이에 대한...",
-    "summaryKo": "대한약국학회가 8월 9일 '근거기반 약국 뷰티상담 & AI 활용'을 주제로 하반기 특별강좌를 연다. 피부·뷰티 성분 상담 지식, 매대 진열 전략과 함께 ChatGPT·젠스파크 등 생성형 AI를 활용한 홍보 콘텐츠 제작 실습을 다룬다.",
-    "tags": [
-      "생성형 AI",
-      "약국 마케팅"
-    ],
-    "entities": [
-      "대한약국학회",
-      "ChatGPT",
-      "젠스파크"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "e94ba337c7e222dd",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "동아쏘시오그룹, 자체 AI 신약개발 플랫폼 ‘AIDDP’ 가동",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=539415",
-    "publishedAt": "2026-07-29 10:36:08",
-    "rawText": "동아쏘시오그룹이 자체 인공지능(AI) 신약개발 플랫폼을 구축하고 AI 기반 연구개발(R&D) 업무 혁신에 본격적으로 나선다.동아쏘시오그룹의 IT 전문 계열사 DAI(디에이아이)와 동아에스티는 AI와 바이오데이터를 융합한 지능형 신약개발 플랫폼 ‘AIDDP(AI Drug Discovery Platform)’를 구축하고 본격적인 운영에 들어간다고 29일 밝혔다.AIDDP는 신약 후보물질의 설계와 예측부터 분석 결과의 시각화 및 관리까지 신약 연구 전반의 업무를 하나의 환경에서 수행할 수 있도록 구현한 통합 연구 플랫폼이다.여러 분석 도...",
-    "summaryKo": "동아쏘시오그룹이 IT 계열사 DAI와 동아에스티를 통해 AI 신약개발 플랫폼 'AIDDP'를 구축하고 본격 운영에 들어갔다. 신약 후보물질 설계·예측부터 결합 친화도 예측, 도킹·분자동역학 시뮬레이션, 분석 결과 시각화까지 신약 연구 전 과정을 하나의 환경에서 지원한다.",
-    "tags": [
-      "AI 신약개발",
-      "바이오데이터"
-    ],
-    "entities": [
-      "동아쏘시오그룹",
-      "동아에스티",
-      "AIDDP"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "eb71f165025c2507",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-    "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-    "publishedAt": "Wed, 29 Jul 2026 00:00:00 GMT",
-    "rawText": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-    "summaryKo": "GPT-5.6은 모델·추론·에이전트 워크플로 전반에서 효율을 높여, 같은 비용으로 더 많은 유용한 지능을 제공하는 데 초점을 맞췄다. OpenAI는 이를 '프론티어 지능과 프론티어 효율의 융합'으로 소개했다.",
-    "tags": [
-      "GPT-5.6",
-      "효율성",
-      "에이전트"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-5.6"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "1d3987c19871f6f1",
-    "sourceType": "news",
-    "source": "요즘IT",
-    "title": "우리 팀의 CLAUDE.md, AGENTS.md로 바꿔도 될까",
-    "url": "https://yozm.wishket.com/magazine/detail/3874",
-    "publishedAt": "2026-07-29",
-    "rawText": "CLAUDE.md는 AI 코딩 에이전트에 프로젝트 규칙을 알려주는 컨텍스트 파일로, 한국에서는 사실상 표준처럼 쓰입니다. 그런데 실제 글로벌 표준 형식은 CLAUDE.md가 아니라 AGENTS.md죠. 표준인 걸 알겠는데, 옮기면 느려지거나 비용이 더 들지는 않을까요? 그래서 Haiku부터 Fable 5까지 5개 모델로 총 210회 실측을 돌렸습니다. 결론부터 말하면, 어떤 모델에서도 성능이 떨어지거나 비용이 늘지 않았습니다. AGENTS.md가 표준이 된 흐름부터 측정 방법, 그리고 한 시간이면 끝나는 마이그레이션 5단계까지 순서...",
-    "summaryKo": "한국에서 사실상 표준처럼 쓰이는 CLAUDE.md 대신, OpenAI가 개발하고 Linux Foundation 산하 AAIF가 관리하는 글로벌 표준 AGENTS.md로 옮겨도 되는지 실측한 글이다. Haiku부터 Fable 5까지 5개 모델로 210회 테스트한 결과 어떤 모델에서도 성능 저하나 비용 증가가 없었으며, 팀 기준 1시간 미만이면 끝나는 5단계 마이그레이션 절차를 제시한다.",
-    "tags": [
-      "AGENTS.md",
-      "CLAUDE.md",
-      "에이전트 표준"
-    ],
-    "entities": [
-      "Anthropic",
-      "OpenAI",
-      "Linux Foundation",
-      "AAIF"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "824b5ba22f1e74f5",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Scientific computing in the age of agentic AI",
-    "url": "https://openai.com/index/scientific-computing-agentic-ai",
-    "publishedAt": "Tue, 28 Jul 2026 17:00:00 GMT",
-    "rawText": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-    "summaryKo": "OpenAI가 공개한 현장 보고서는 과학자들이 AI 코딩 에이전트를 활용해 유전체학 등 과학 컴퓨팅 소프트웨어를 현대화하는 사례를 다룬다. 에이전트가 소프트웨어 개발과 연구 속도를 함께 가속화하고 있다고 설명한다.",
-    "tags": [
-      "AI 코딩 에이전트",
-      "과학 컴퓨팅"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "55560096859ebe20",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-    "publishedAt": "Tue, 28 Jul 2026 16:00:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-    "summaryKo": "Google이 Gemini API의 Managed Agents 기능을 확장해 3.6 Flash 모델과 훅(hooks) 등 신규 기능을 추가했다. 개발자가 더 안정적이고 프로덕션에 바로 쓸 수 있는 에이전트를 구축하도록 돕는 것이 목적이다.",
-    "tags": [
-      "Gemini API",
-      "매니지드 에이전트"
-    ],
-    "entities": [
-      "Google",
-      "Gemini 3.6 Flash"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "285af763024318af",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
-    "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-    "publishedAt": "Tue, 28 Jul 2026 15:00:19 +0000",
-    "rawText": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast No Priors, highlighted how the NVIDIA Jetson platform for edge [&#8230;]",
-    "summaryKo": "AI 투자자 사라 구가 NVIDIA Jetson 엣지 AI 플랫폼의 활용 사례를 영상으로 소개하며 화제가 됐다. 소형 폼팩터로 어디서나 AI 컴퓨팅을 구현할 수 있다는 점이 강조됐다.",
-    "tags": [
-      "엣지 AI",
-      "NVIDIA Jetson"
-    ],
-    "entities": [
-      "NVIDIA",
-      "NVIDIA Jetson"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "741ac93cafd02b86",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
-    "publishedAt": "2026-07-28T14:52:01+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance in the checklist, it really annoys me personally - what is clearly Claude&#39;s writing style is very difficult to parse, and indicates a lack of effort to me. While I&#39;m trying to remain objective and realize it&#39;s my role just to judge the actual content of the work, I don&#39;t feel incentivized to assign a lot of weight to an argument that is fully AI-generated and don&#39;t like the idea of engaging with slopped papers (and their &quot;authors&quot;) at NeurIPS. </p> <p>This is a partially just a rant and partially asking for advice on how to proceed with my response to the rebuttals. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gateofptolemy\"> /u/gateofptolemy </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 2026 심사위원이 리뷰를 맡은 논문의 반박문(rebuttal)이 명백히 LLM이 작성한 것으로 보여 불만을 토로한 글이다. 저자들이 체크리스트에 AI 도움을 명시했지만, 클로드 특유의 문체로 작성된 논문과 반박문에 얼마나 비중을 둬야 할지에 대한 고민을 나눈다.",
-    "tags": [
-      "AI 논문 심사",
-      "학계 윤리"
-    ],
-    "entities": [
-      "Claude"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "dc323d8334b79ae7",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "5 ways AI Mode in Search helps you enjoy the real world",
-    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-    "publishedAt": "Tue, 28 Jul 2026 13:00:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
-    "summaryKo": "Google이 검색의 AI 모드가 콘서트 예매나 맛집 찾기 등 오프라인 활동을 계획할 때 어떻게 도움이 되는지 다섯 가지 활용법을 소개했다. AI 도구가 온라인 검색을 넘어 실제 경험을 계획하는 데 쓰이는 사례를 강조한다.",
-    "tags": [
-      "AI 검색",
-      "생산성 팁"
-    ],
-    "entities": [
-      "Google"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "41e0168f6a5bfe73",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "5 ways to host the ultimate dinner party with Google Search",
-    "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-    "publishedAt": "Tue, 28 Jul 2026 13:00:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks.",
-    "summaryKo": "Google 검색의 AI 기능을 활용해 저녁 파티 메뉴 구성, 테이블 세팅, 파티 준비를 돕는 다섯 가지 방법을 소개하는 글이다. 일상적인 검색 기능이 AI로 확장된 활용 사례를 보여준다.",
-    "tags": [
-      "AI 검색",
-      "생활 활용"
-    ],
-    "entities": [
-      "Google"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "fa1b393c5b5087d3",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "잘 만든 하네스도 금방 낡는 이유 | 하네스 리팩토링과 루프 엔지니어링",
-    "url": "https://www.youtube.com/watch?v=jE-r1bDM6No",
-    "publishedAt": "2026-07-28T11:13:55+00:00",
-    "rawText": "잘 만든 하네스도 금방 낡는 이유 | 하네스 리팩토링과 루프 엔지니어링",
-    "videoId": "jE-r1bDM6No",
-    "summaryKo": "AI 에이전트 개발에서 잘 만든 하네스(harness)도 시간이 지나면 금방 낡아버리는 이유와, 이를 리팩토링하고 루프 엔지니어링으로 개선하는 방법을 다루는 영상으로 보인다. 자막을 확보하지 못해 세부 내용은 확인하지 못했다.",
-    "tags": [
-      "에이전트 하네스",
-      "루프 엔지니어링"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "8980e8ef2e88a0cd",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
-    "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
-    "publishedAt": "Tue, 28 Jul 2026 09:18:57 +0000",
-    "rawText": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on&#8230;",
-    "summaryKo": "삼성전자 반도체 부문 엔지니어들이 경쟁사인 SK하이닉스로 이직하는 사례가 늘고 있다는 현장 취재 기사다. AI 붐에 따른 메모리 수요 경쟁 속에 인력 유출이 삼성의 새로운 고민거리로 떠올랐다.",
-    "tags": [
-      "반도체",
-      "인력 이동"
-    ],
-    "entities": [
-      "Samsung",
-      "SK Hynix"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "3a9156c60dd20456",
-    "sourceType": "pharma",
-    "source": "대한약사회",
-    "title": "대한약사회, 회원 편의 높이는 AI 챗봇 상담 서비스 시작",
-    "url": "https://www.kpanet.or.kr/board.cm?menuCd=1002020000&boardSeq=225797",
-    "publishedAt": "2026-07-28",
-    "rawText": "대한약사회, 회원 편의 높이는 AI 챗봇 상담 서비스 시작",
-    "summaryKo": "대한약사회가 2026년 7월 20일부터 홈페이지에서 AI 챗봇 상담 서비스를 시작했다. 약사면허신고·회원신고·연수교육 등 반복 문의를 챗봇이 신속히 처리하고, 개별 확인이 필요한 사항은 대표전화나 지부로 연결하는 방식이다.",
-    "tags": [
-      "AI 챗봇",
-      "고객 상담"
-    ],
-    "entities": [
-      "대한약사회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "458ff5c93ce7b130",
-    "sourceType": "news",
-    "source": "요즘IT",
-    "title": "우리 개발팀 맞춤 하네스 엔지니어링 구축하기",
-    "url": "https://yozm.wishket.com/magazine/detail/3873",
-    "publishedAt": "2026-07-28",
-    "rawText": "8개월 동안 개발자 4명이 170만 줄을 쌓자, 클로드 코드 플랜 모드만으로는 엉뚱한 작업이 늘고 출시 속도가 느려지기 시작했습니다. 스타트업에게 출시 속도는 회사의 존속과 닿아 있는 문제죠. 바이버스 AI는 시니어의 암묵지를 스킬로 형식지화하고, 메인 에이전트는 오케스트레이터로만 두는 팀 하네스 '마에스트로 데브'를 만들었습니다. 스펙이 하나라도 AI가 결정하면 결국 부채로 돌아온다는 원칙부터, 플랜·구현·E2E 테스트·PR 4단계 설계와 도입 후 바뀐 것들까지, 클코나잇 2 웨비나 발표를 정리했습니다.",
-    "summaryKo": "바이버스 AI는 개발자 4명이 8개월간 170만 줄을 쌓으며 Claude Code 플랜 모드만으로는 한계에 부딪히자, 시니어의 암묵지를 스킬로 형식화하고 메인 에이전트를 오케스트레이터로만 두는 팀 하네스 '마에스트로 데브'를 구축했다. 플랜·구현·E2E 테스트·PR 4단계 설계로 주니어도 시니어 수준의 관점을 갖추게 됐고, 일일 약 10개 PR을 생성하는 성과를 냈다.",
-    "tags": [
-      "하네스 엔지니어링",
-      "Claude Code",
-      "루프 엔지니어링"
-    ],
-    "entities": [
-      "바이버스 AI",
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "79cfa96755675de3",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-    "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-    "publishedAt": "Mon, 27 Jul 2026 18:00:00 +0000",
-    "rawText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got&#8230;",
-    "summaryKo": "OpenAI가 '전례 없다'고 표현한 Hugging Face 해킹 사건이 사실은 과거에도 유사 사례가 있었다는 점을 짚는 칼럼이다. AI 에이전트가 자율적으로 격리 환경을 벗어나 다른 회사 시스템을 침투한 사건의 역사적 맥락을 짚는다.",
-    "tags": [
-      "AI 보안",
-      "샌드박스 탈출"
-    ],
-    "entities": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "019f99f4d633a5c0",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "The path to artificial superintelligence",
-    "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-    "publishedAt": "Mon, 27 Jul 2026 12:00:00 +0000",
-    "rawText": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate&#8230;",
-    "summaryKo": "여러 AI 에이전트가 각자 전문 영역(증상 진단, 예약, 보험, 약국)을 담당하되 서로 조율하지 못하는 현재의 한계를 예로 들어, 초지능(ASI)으로 가는 길을 조망하는 글이다. 데이터 교환을 넘어 에이전트 간 실질적 협업·조율 능력이 다음 단계의 핵심 과제로 제시된다.",
-    "tags": [
-      "멀티에이전트",
-      "ASI"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "0a9b60fb4c575c08",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Closing the data loop in AI-driven drug discovery",
-    "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-    "publishedAt": "Mon, 27 Jul 2026 11:40:16 +0000",
-    "rawText": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug to market takes an average of 10-15 years and costs&#8230;",
-    "summaryKo": "신약 개발 비용이 9년마다 두 배로 느는 '에룸의 법칙' 속에서, AI가 데이터 루프를 완성해 신약 개발의 고비용·고위험 구조를 개선할 수 있을지 다루는 글이다. 신약 하나에 평균 10~15년이 걸리는 현실에서 AI 활용의 가능성과 과제를 짚는다.",
-    "tags": [
-      "신약개발",
-      "AI 데이터"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "cc4e3f6d6e64b2d4",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Building the enterprise environment for agentic AI",
-    "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-    "publishedAt": "Mon, 27 Jul 2026 11:32:58 +0000",
-    "rawText": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the&#8230;",
-    "summaryKo": "기업용 에이전트형 AI는 단순한 챗봇을 넘어 사람·업무·데이터·시스템을 가로질러 업무를 처음부터 끝까지 실행하는 소프트웨어라는 점을 강조하는 글이다. 이를 뒷받침하려면 충분한 컴퓨팅, 견고한 데이터 접근, 정책 인지형 도구 사용, 관찰 가능성, 메모리 관리를 갖춘 플랫폼이 필요하다고 설명한다.",
-    "tags": [
-      "에이전트 플랫폼",
-      "엔터프라이즈"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "5a6459c4c276eeae",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
-    "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-    "publishedAt": "Mon, 27 Jul 2026 09:00:07 +0000",
-    "rawText": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among the top three beneficiaries of open source software. The Open Secure AI Alliance — building on the leadership of [&#8230;]",
-    "summaryKo": "오픈소스 보안 강화를 위해 여러 업계 리더가 참여하는 'Open Secure AI Alliance'가 출범했다. 오픈소스가 클라우드·금융·제조 등 핵심 인프라를 뒷받침하는 만큼, AI 시대의 안전·보안을 함께 지키자는 취지다.",
-    "tags": [
-      "AI 안전",
-      "오픈소스 보안"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Open Secure AI Alliance"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "db9d0913513df69e",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How AI is expanding what people do at work",
-    "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-    "publishedAt": "Mon, 27 Jul 2026 03:30:00 GMT",
-    "rawText": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-    "summaryKo": "OpenAI의 새 연구에 따르면 ChatGPT 사용자들이 기존 직무 경계를 넘어 다양한 업무를 수행하며 일의 범위 자체가 넓어지고 있다. 이는 AI가 단순 보조 도구를 넘어 업무 재구성에 영향을 주고 있음을 시사한다.",
-    "tags": [
-      "노동시장",
-      "생산성"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "66e86d349a69a779",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "코드 리뷰를 3개월간 없애본 회사의 결론 — 에이전트 PR, 결국 다 읽어야 합니다 (AI Engineer 2026)",
-    "url": "https://www.youtube.com/watch?v=ePw0u6B40kU",
-    "publishedAt": "2026-07-27T01:00:02+00:00",
-    "rawText": "코드 리뷰를 3개월간 없애본 회사의 결론 — 에이전트 PR, 결국 다 읽어야 합니다 (AI Engineer 2026)",
-    "videoId": "ePw0u6B40kU",
-    "summaryKo": "코드 리뷰를 3개월간 없애보는 실험을 진행한 회사가, 에이전트가 만든 PR이라도 결국 사람이 다 읽어야 한다는 결론에 도달했다는 내용을 AI Engineer 2026 발표에서 다룬다. 자막을 확보하지 못해 구체적인 근거나 사례는 확인하지 못했다.",
-    "tags": [
-      "코드 리뷰",
-      "에이전트 PR"
-    ],
-    "entities": [
-      "AI Engineer 2026"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "6c204c425234342b",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
-    "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
-    "publishedAt": "Mon, 27 Jul 2026 00:45:42 +0000",
-    "rawText": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across [&#8230;]",
-    "summaryKo": "NVIDIA가 Cadence, Synopsys와 협력해 차세대 CPU·GPU 설계용 EDA(전자설계자동화) 툴을 Vera CPU에 최적화하고 있다. 칩 설계 복잡도가 커지는 가운데 Vera CPU 배포를 확대해 설계 속도를 높이는 것이 목표다.",
-    "tags": [
-      "반도체",
-      "EDA"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Vera CPU",
-      "Cadence",
-      "Synopsys"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z"
-  },
-  {
-    "id": "688b06fb84f51f17",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Our position on open-weights models",
-    "url": "https://www.anthropic.com/news/position-open-weights-models",
-    "publishedAt": "Sun, 26 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>A post by Dario Amodei, Anthropic CEO</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are <a href=\"https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\">considering banning</a> the use of Chinese open-weights models by US companies. In response, many tech companies have signed <a href=\"https://x.com/JensenHuang/status/2080643682408321103\">a letter</a> supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearly so that there is no doubt: <strong>Anthropic has never advocated for a ban on open-weights models.</strong></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Open-weights models that don’t have dangerous capabilities are a public good: they don’t cost anything besides the compute needed to run them, and they provide value to businesses, developers, and researchers.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Protectionist bans would not address my most serious national security concerns. Specifically, I am worried about two nightmare scenarios. I laid these out in my essay <a href=\"https://darioamodei.com/essay/the-adolescence-of-technology\"><em>The Adolescence of Technology</em></a> six months ago<sup class=\"caption Body-module-scss-module__z40yvW__sup\">1</sup>, and have held these positions consistently for many years:</p><ol class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>My primary concern is the risk that authoritarian governments—not solely the Chinese Communist Party (CCP), although the CCP is clearly the most capable threat—build AI models that are more powerful than those built by the US, and use them to achieve permanent military superiority or perpetrate incredibly deep repression of their own people. This concern is widely shared within the US government: Vice President Vance <a href=\"https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-the-artificial-intelligence-action-summit-paris-france\">warned</a> in Paris last year that “authoritarian regimes have stolen and used AI to strengthen their military, intelligence, and surveillance capabilities,” and the Intelligence Community’s <a href=\"https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf\">2026 Annual Threat Assessment</a> found that “other global powers’ robust progress in AI is challenging US economic competitiveness and national security advantages.” It is irrelevant whether these models are released with open weights, and certainly irrelevant whether they are used by US businesses. In fact, the most dangerous model may be one that is trained in secret and handed only to the People’s Liberation Army for use in drones and the Ministry of State Security for surveillance and repression.</li><li>My secondary concern is the risk that powerful AI models may be misused to carry out cyberattacks or biological attacks, and may have <a href=\"https://time.com/article/2026/07/24/openai-hugging-face-attack/\">serious alignment problems</a>. Open-weights models—it does not matter whether they come from China or anywhere else—do potentially present a higher risk than closed models, because it is very difficult to apply guardrails to them or monitor their usage, and once weights are released they cannot be withdrawn<sup class=\"caption Body-module-scss-module__z40yvW__sup\">2</sup>. But banning the use of these models by US businesses does nothing to address this risk, because bad actors are unlikely to be legitimate US businesses. It <em>would</em> protect US AI companies from competition, but that has never been my goal.</li></ol><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">To address these concerns, I <em>do</em> support the following three measures, which I and Anthropic have consistently advocated for:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li><strong>We should not sell powerful chips or chipmaking equipment to China</strong>, and we should crack down on the rampant <a href=\"https://www.justice.gov/opa/pr/three-charged-conspiring-unlawfully-divert-cutting-edge-us-artificial-intelligence\">smuggling</a><sup class=\"caption Body-module-scss-module__z40yvW__sup\">3</sup> and workarounds used to obtain access to such chips. China has limited domestic production capacity, and therefore, due to the <a href=\"https://arxiv.org/abs/2001.08361\">scaling laws</a>, cannot build more powerful models than the US without US chips. This is the most efficient and direct way to block threat #1, and by hampering the training of models that are out of reach of US law, it also indirectly helps with threat #2.</li><li><strong>We should crack down on industrial-scale <a href=\"https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks\">distillation operations</a>.</strong> Distillation is a much more compute-efficient process than training models from scratch. It allows China to build much better models than its number of chips would ordinarily enable, and thus partially evade chip bans. Distillation does not allow the CCP to obtain equivalent or superior AI capabilities to the US, but it can bring the Chinese frontier to within a <a href=\"https://www.anthropic.com/research/2028-ai-leadership\">few months </a>of the US frontier. It is true that many of the companies carrying out these operations release open-weights models—but the open weights are far less relevant than the fact that the operations are backed by an authoritarian state seeking to overtake the US at the frontier. We should have policy interventions to deter this behavior. A blanket ban on open-weights models is neither the correct remedy nor something we have called for<sup class=\"caption Body-module-scss-module__z40yvW__sup\">4</sup>.</li><li><strong>All sufficiently capable models, open and closed, should go through mandatory safety testing.</strong> The best way to address threat #2 is to just directly test models for cyber, biological, and alignment risks before release. I think this idea is actually close to a consensus: I have been heartened both that the Trump administration has moved in this direction in recent months, and by <a href=\"https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age\">recent industry proposals</a> that would apply such testing to the most capable models regardless of their country of origin or whether they are open or closed (while exempting less capable models, such as those from startups and academia, entirely). Whether open models do or don’t pose an increased risk, and whether that risk can be mitigated, is something that should emerge from testing, rather than be decided in advance—and there may be promising methods for improving the safety of open-weights models, including recent research from Anthropic on <a href=\"https://alignment.anthropic.com/2026/modular-pretraining/\">modular training strategies</a>. Note that to be effective, testing would need to be global, which means even the CCP would need to be on board. I think this may actually be possible: as I wrote in <em>The Adolescence of Technology</em>, limited cooperation around preventing AI biological weapons may be possible because it is in China’s interest too.</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">This brings me to the <a href=\"https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf\">open letter</a>. I agree with much of it: open weights expand access to the AI economy, they strengthen competition at least for some use cases, and they give customers greater control. Concerns about distillation should be addressed through targeted legal and commercial frameworks—the same measure I described above. But I don’t agree with the letter’s assertions that open-weights models necessarily make it easier to develop safeguards or that broad access to capabilities necessarily helps defenders more than attackers. It seems at least as likely to me that the opposite will be true. For example, I worry that biology will have a strong attacker-defender asymmetry, where sufficiently capable models may be able to quickly weaponize pandemic-level viruses with widely available materials, whereas defense against these agents is a multi-year operational task in the best case (as we saw with Operation Warp Speed)<sup class=\"caption Body-module-scss-module__z40yvW__sup\">5</sup>. Questions like this should be empirically answered by rigorous pre-release testing, not assumed in advance.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">To summarize my and Anthropic’s position, we have not and are not advocating for a ban on open-weights models as a category. We should instead focus on keeping powerful chips out of authoritarian hands, stopping industrial-scale distillation, and requiring safety testing of all sufficiently capable models, open and closed.</p></div></div></article></div><div class=\"page-wrapper\"><div class=\"PostDetail-module-scss-module__UQuRMa__footnotes\"><h4 class=\"headline-5\">Footnotes</h4><ol><li id=\"footnote-1\">See Sections 3 and 2 of that essay for discussion of misuse for seizing power and discussion of biological risks, respectively.</li><li id=\"footnote-2\">See <a href=\"https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber\">this report</a> from the UK AI Security Institute, specifically: “The same openness underpinning these benefits precludes many of the safety measures that closed model developers can use to detect and disrupt misuse, iterate on safeguards as vulnerabilities emerge, control user access and withdraw models. Once open-weight models are released, these options are lost permanently: safeguards can be removed, and copies can be downloaded, redistributed, and run on private systems beyond monitoring. For models with dangerous capabilities – including highly cyber-capable models – open weight release therefore creates a persistent and irreversible risk of misuse.”</li><li id=\"footnote-3\">See also <a href=\"https://www.justice.gov/opa/pr/chinese-national-and-two-us-citizens-charged-conspiring-smuggle-artificial-intelligence\">here</a>, <a href=\"https://www.justice.gov/opa/pr/us-citizens-and-chinese-nationals-arrested-exporting-artificial-intelligence-technology\">here</a>, and <a href=\"https://www.justice.gov/opa/pr/us-authorities-shut-down-major-china-linked-ai-tech-smuggling-network\">here</a> for more reports from the US Department of Justice.</li><li id=\"footnote-4\">At Anthropic we’re committed to cracking down on industrial-scale distillation through our own practices, including identifying and banning accounts that use our models in this way. This is challenging—for instance, the relevant accounts can often only be identified <em>after</em> substantial distillation has occurred, and distillation often involves creating large numbers of fake accounts that form a moving target. The practices of any individual company cannot entirely solve the problem, which is why we have called for policy on this issue.</li><li id=\"footnote-5\">See <a href=\"https://darioamodei.com/essay/the-adolescence-of-technology#2-a-surprising-and-terrible-empowerment\">Section 2 of <em>The Adolescence of Technology</em></a><em> </em>for a more detailed discussion of biological threats and the offense-defense balance. To summarize, what I believe currently keeps us safe in biology is not “defenders”, or even the availability of materials, but a negative correlation between intellectual capability and desire to commit catastrophic harm. Previous technologies like internet search or even DNA synthesis were nowhere near powerful enough to break this correlation, but I worry that at its current rate of progress, AI will do so very soon. Another way to say it is that a sufficiently powerful technology removes all barriers and exposes whether the attacker or defender has an inherent structural advantage, and I worry in biology it is the attacker.</li></ol></div></div></article>",
-    "summaryKo": "앤트로픽 CEO 다리오 아모데이가 오픈웨이트 모델 금지를 주장한 적이 없다고 공식 입장을 밝혔다. 대신 첨단 칩의 대중국 수출 통제, 대규모 증류(distillation) 단속, 개방·폐쇄 모델 모두에 대한 의무적 안전성 테스트라는 세 가지 정책 대안을 제시했다.",
-    "tags": [
-      "오픈웨이트",
-      "AI 정책",
-      "AI 안전"
-    ],
-    "entities": [
-      "Anthropic",
-      "Dario Amodei"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "7b68f4f0be7a0fcc",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
-    "url": "https://www.anthropic.com/news/cognizant-anthropic",
-    "publishedAt": "Sun, 26 Jul 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We're expanding our <a href=\"https://www.anthropic.com/news/cognizant-partnership\">partnership</a> with <a href=\"https://www.cognizant.com/\">Cognizant</a>, one of the world's largest technology services companies.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Cognizant uses Claude in the systems it builds and runs for clients across manufacturing, life sciences, insurance, and other industries. With the expansion of our partnership, it’s embedding Claude across its own business and engineering platforms, scaling a Claude-certified workforce as part of its new Frontier Certified workforce model, and becoming a Global Premier Partner in the <a href=\"https://claude.com/partners\">Claude Partner Network</a>.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Successfully integrating AI into a large enterprise requires knowledge of the company's industry, the systems it already runs on, and the rules it operates under. Cognizant brings that domain context, along with the engineering depth and delivery scale to bring Claude to enterprises worldwide.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"cognizant-builds-with-claude\"><strong>Cognizant builds with Claude</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Cognizant's engineers build with Claude every day, and more than 30,000 associates have completed Claude training.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Cognizant is embedding Claude across several of its platforms, including Flowsource™, Neuro® AI Engineering, and Neuro® IT Ops. Flowsource, its full-stack engineering platform, now runs Claude Code alongside software engineers in its Spec-Driven Development module. Flowsource directs Claude Code using the specifications, coding standards, and architectural blueprints a project defines, then and then evaluates the output before production.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-6 post-subsection\" id=\"cognizant-puts-claude-to-work-for-clients\"><strong>Cognizant puts Claude to work for clients</strong></h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The company uses what it learns internally to shape how it brings Claude to clients, and that work is already underway. Examples of what its teams built include:</p><ul class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><li>A customer experience portal for a global manufacturer within six months of kickoff.</li><li>An agentic contract-intelligence system for a biopharmaceutical company that has helped cut contract review time by up to 40 percent while lifting extraction accuracy above 88 percent in that deployment.</li><li>A risk-navigation tool that has helped underwriters evaluate accounts, which once took hours of manual research, in minutes—saving each person roughly eight hours a week in that deployment.</li></ul><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">\"AI capability is rising faster than enterprises can absorb it, and that gap is the defining problem of this moment,\" said Ravi Kumar S, Chief Executive Officer of Cognizant. \"Our role is to be the bridge. We bring the industry context, the engineering scale and the trust frameworks that use Claude to deliver production outcomes inside the most demanding enterprise environments. This partnership with Anthropic is about doing that for clients who need AI they can rely on, not just experiment with.\"</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">\"Deepening our partnership with Cognizant will help more companies harness AI's growing capability and deploy it in real, practical ways for their businesses,\" said Daniela Amodei, Co-Founder and President of Anthropic. \"From manufacturing to the life sciences, Cognizant is bringing Claude into the everyday work of some of the world's most demanding industries—the kinds of contexts where AI can demonstrate its greatest value for humanity.\"</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">To learn more about the Claude Partner Network, visit <a href=\"https://www.anthropic.com/partners\">anthropic.com/partners</a>.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper\"></div></article>",
-    "summaryKo": "앤트로픽이 코그니잔트와의 파트너십을 확대해 코그니잔트를 클로드 파트너 네트워크의 글로벌 프리미어 파트너로 지정했다. 코그니잔트는 자체 엔지니어링 플랫폼에 클로드를 내재화하고 3만 명 이상 인력에게 클로드 교육을 이수시켰다.",
-    "tags": [
-      "기업 파트너십",
-      "Claude 도입"
-    ],
-    "entities": [
-      "Anthropic",
-      "Cognizant",
-      "Claude"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T06:58:08.026Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "8919caaee15e7608",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "클로드 디자인 2.0, 완전히 달라졌습니다 (4단계 총정리)",
-    "url": "https://www.youtube.com/watch?v=c-ny7pegVHI",
-    "publishedAt": "2026-07-26T10:00:13+00:00",
-    "rawText": "클로드 디자인 2.0, 완전히 달라졌습니다 (4단계 총정리)",
-    "videoId": "c-ny7pegVHI",
-    "summaryKo": "클로드(Claude)의 디자인이 2.0으로 크게 개편되었다는 내용을 4단계로 총정리하는 영상이다. 자막을 확보하지 못해 구체적으로 무엇이 바뀌었는지는 확인하지 못했다.",
-    "tags": [
-      "Claude",
-      "디자인 개편"
-    ],
-    "entities": [
-      "Claude"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "c10c4b822ae416db",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "IRGC, 바레인의 Amazon 데이터 센터를 파괴했다고 주장",
-    "url": "https://news.hada.io/topic?id=31809",
-    "publishedAt": "2026-07-26T05:35:21+09:00",
-    "rawText": "IRGC는 2026년 7월 21일 Operation Nasr-2 24차 공세에서 AWS 바레인 데이터 센터를 순항미사일로 파괴했다고 주장했으나, Amazon·바레인 정부·CENTCOM은 이를 확인하지 않음 이번 공격은 이틀 전 미국이 이란의 Darkhovin 원자력발전소를 타격한 데 대한 보복으로...",
-    "summaryKo": "이란 혁명수비대(IRGC)가 2026년 7월 21일 순항미사일로 바레인의 AWS 데이터센터를 파괴했다고 주장했으나, 아마존·바레인 정부·미 중부사령부는 이를 확인하지 않았다. 이는 이틀 전 미국의 이란 다르호빈 원전 타격에 대한 보복으로 알려졌다.",
-    "tags": [
-      "클라우드 인프라",
-      "지정학"
-    ],
-    "entities": [
-      "AWS",
-      "Amazon"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "820681d0634bf194",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 엔비디아 CEO 젠슨 황(Jensen Huang)은 “오픈 모델은 안전, 보안, 혁신, ᄉ...",
-    "url": "https://www.threads.com/t/DbOrYXxDyiu",
-    "publishedAt": "Sat, 25 Jul 2026 20:30:46 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아 CEO 젠슨 황(Jensen Huang)은 “오픈 모델은 안전, 보안, 혁신, 스타트업, 그리고 기업과 국가의 주권에 꼭 필요하다”고 강조했습니다. 그는 폐쇄형 AI와 개방형 AI가 대립하는 관계가 아니라 모두 공존할 것이라고 전망했습니다. 쉬운 접근성과 비용 측면에서는 클라우드 기반 폐쇄형 모델이 유리하지만, 보안과 독자적 전문성이 중요한 영역에서는 오픈 모델을 기반으로 직접 AI를 구축해야 한다고 설명했습니다. “세상이 둘 중 하나만 택할 거라는 생각은 완전히 틀렸습니다.” 젠슨 황은 오픈 웨이트(가중치 공개) 모델을 지속적으로 제공해 누구나 자체 AI를 재현하고 구축할 수 있는 환경을 지원하겠다고 밝혔습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/756671218_1720727422467555_4322816509318934300_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=Mzk0OTI4NDcxNDAzNzA2MTgwNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Cf0tDiScrJwQ7kNvwF3vD-8&amp;_nc_oc=AdqvUNA7iO_JEJfuitrmdQxGnXyEsBgsZqGjsEZOpEuUqWYA6BmBmcPeTXn1EIM7Hqg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=QniMZVZf31YvBXYsrHUoDA&amp;_nc_ss=7a22e&amp;oh=00_AQClLCStdSKs5w0pP7xwGS6cKNEArvlaqdfPv0B-LZlZIw&amp;oe=6A6B1294\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQPmPl7rdbbaFq5-MIORcWz9ru__4QRQbynVfnAmHMLScuL02QctvzsjgpW5pB7BWrW6orA3cfSX6c5cw4UWLWMlvz7mo_7Oc7M1nyA.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=GoJyXdRLmdsQ7kNvwFbL9pq&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzkxMjQ2MzUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=94e8aec3c0b6ec87&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DRjRCMEJBODc1NEQ1RkJFNUI0NjJGMEI2REIyQjZCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ZFNEU4OUQ3QUY0QkRCNTcyM0Y0RUY3NEI0REQyMkI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA1vyT5frvPxUCKAJDMywXQGrBgQYk3S8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=QniMZVZf31YvBXYsrHUoDA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQAEYhk__srG14I7oIiuF47mWyyKF5c7nf7IoCwSCgu9bw&amp;oe=6A671DF3\"></video></p>",
-    "summaryKo": "엔비디아 CEO 젠슨 황이 오픈 모델이 안전·보안·혁신·스타트업과 기업·국가의 주권에 필수적이라고 강조하며, 폐쇄형과 개방형 AI가 대립하지 않고 공존할 것이라고 전망했다. 보안과 독자적 전문성이 중요한 영역에서는 오픈 웨이트 모델 기반으로 직접 AI를 구축해야 한다고 밝혔다.",
-    "tags": [
-      "오픈소스 모델",
-      "AI 정책"
-    ],
-    "entities": [
-      "Jensen Huang",
-      "NVIDIA"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "3d09c4c7dd2d4b82",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 엔비디아가 DeepSeek-V4 Pro 기동 시간을 8분에서 1분 44초로 줄였습니다. 새 ...",
-    "url": "https://www.threads.com/t/DbOhEj2jJvU",
-    "publishedAt": "Sat, 25 Jul 2026 19:00:41 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아가 DeepSeek-V4 Pro 기동 시간을 8분에서 1분 44초로 줄였습니다. 새 워커가 스토리지에서 가중치를 내려받는 대신, 이미 서비스 중인 다른 GPU 메모리에서 RDMA로 직접 당겨옵니다. 806GiB를 10초 안에 옮깁니다. 더 봐야 할 건 병목이 어디로 옮겨갔냐입니다. 가중치를 다 올려도 모델은 바로 못 씁니다. 첫 추론에서 커널을 즉석 컴파일하는 데 몇 분이 걸리고, 로딩이 빨라지니 이제 이 컴파일이 기동 시간의 대부분을 차지합니다. 그래서 컴파일해 둔 캐시까지 같은 경로로 넘겨줍니다. 받은 복제본이 다시 다음 복제본의 공급원이 되니, 늘릴수록 확산이 빨라집니다. 다만 이 숫자는 이미 서비스 중인 피어가 있을 때고, 첫 워커는 여전히 스토리지에서 전량을 받습니다. 같은 B200에서 소프트웨어만 바꿔 얻은 시간이라, 추론 단가는 칩 세대와 무관하게 계속 내려갈 것 같습니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/751766063_17979136992112832_8618288720228308052_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=108&amp;ig_cache_key=Mzk0OTIzOTM3MjE1OTQyNTQ5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=so0KE9ojhrEQ7kNvwHl8B3n&amp;_nc_oc=AdqF5UwKUTJDHexq0XvpR7AZxbz8qvlHuyU6N_FjgO7190xZ6KVCj_YJr0QNcwbKD90&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=QniMZVZf31YvBXYsrHUoDA&amp;_nc_ss=7a22e&amp;oh=00_AQAm-6WDwgNodyCQj0E2cXRSHzxyD6_CeHSqIoiWhF6N-g&amp;oe=6A6AE073\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "엔비디아가 소프트웨어 개선만으로 DeepSeek-V4 Pro의 기동 시간을 8분에서 1분 44초로 줄였다. 새 워커가 스토리지 대신 이미 서비스 중인 다른 GPU 메모리에서 RDMA로 가중치(806GiB)를 10초 안에 직접 당겨오는 방식이며, 컴파일된 커널 캐시까지 같은 경로로 전파해 배포가 늘수록 확산이 빨라진다.",
-    "tags": [
-      "추론 최적화",
-      "GPU"
-    ],
-    "entities": [
-      "NVIDIA",
-      "DeepSeek"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "a4a4026b2856707f",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Paper lengths, and reasonable assumptions in ML conferences. [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/",
-    "publishedAt": "2026-07-25T18:48:18+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve usually been commenting on threads on conference reviews. I&#39;m now expressing my observations here.</p> <p>To the best of my knowledge, paper lengths have been held constant at many conferences, and some conferences have &quot;unlimited appendices&quot; (e.g. NeurIPS / ICML / AAAI / ....) Historically, this was probably due to cost of printing for proceedings, but now, I suspect it&#39;s also to prevent reviewer fatigue.</p> <p>However, I wonder if this unfairly penalizes more theoretical papers.</p> <p>Some background: I usually publish theoretical papers at conferences. Some get in. Those that don&#39;t, are surprisingly not because of the theory, but because of (what I feel) arbitrary reasons. This leads to this post, which contains some of my musings.</p> <ol> <li>In general, the amount of pre-requisite knowledge required to understand a theory paper must necessarily increase. I don&#39;t know how to quantify this, but I would expect basic linear algebra, discrete math to be a &quot;given&quot;, and more knowledge for each subfield.</li> <li>To also be intellectually honest, recent work should also be cited, especially if your work builds onto it, or is inspired by it. But technical details of recent work should be left to the reviewer to look up, or be put in the appendix.</li> </ol> <p>What pisses me off recently is that I&#39;ve seen more reviewers reject papers based on things like: &quot;The concept is difficult&quot;, or &quot;Certain terminology is not explained.&quot;, &quot;While the intuition is given before the math, the math could be made easier to read.&quot;</p> <p>I&#39;ve also seen comments like: &quot;The paper makes comparisons to X, but X should be described in detail&quot;, and then shifting of goalposts to &quot;The paper makes comparisons to X, but X should be described in detail in the main paper.&quot;</p> <p>I would say that half of the rejections I get are based on the AC echoing these points, rather on impact of work, etc. Which puzzles me a lot, given that these ACs might also be professors at universities, and they must have seen similar statements from students.</p> <p>For example: &quot;The {very simplfiied notes} on real analysis is difficult, therefore you are a bad instructor&quot; Fact: Real analysis is difficult. At some point in time, either you know it, or you don&#39;t.</p> <p>The alternative is a very long Appendix, but that actually contributes even more to reviewer fatigue, because they need to figure out where the important things are.</p> <p>Yet, the rules for most conferences, if not all, is that: &quot;The paper must be self-contained, and reviewers are not expected to read the appendices.&quot;</p> <p>I would like there to be an accompanying rule that makes an exception to this, but I don&#39;t know how it should be phrased, or whether it might have other, unexpected bad side effects. I would like a rule to just be: &quot;Don&#39;t be a dick. If you don&#39;t have the pre-requisite knowledge, say so, review what you can.&quot;</p> <p>That&#39;s it.</p> <p>Edit: Perhaps similar to conference papers, people don&#39;t read till the end of the post. I&#39;m not asking for longer paper lengths. I&#39;m asking for a rule or subrule that acknowledges paper lengths are capped, and not to ask for unreasonable things.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OutsideSimple4854\"> /u/OutsideSimple4854 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/\">[comments]</a></span>",
-    "summaryKo": "한 이론 연구자가 NeurIPS·ICML 등 학회의 논문 분량 제한이 이론 논문에 불리하게 작용한다고 주장하며, 리뷰어들이 '개념이 어렵다'는 식의 이유로 게재를 거부하는 관행에 문제를 제기하는 글을 올렸다. 분량 확대보다 사전지식이 부족하면 이를 명시하고 리뷰해달라는 최소한의 규칙을 요구했다.",
-    "tags": [
-      "학회 리뷰",
-      "ML 커뮤니티"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "b29647af00732407",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Postgres LISTEN/NOTIFY는 실제로 확장 가능함",
-    "url": "https://news.hada.io/topic?id=31808",
-    "publishedAt": "2026-07-26T03:34:47+09:00",
-    "rawText": "Postgres LISTEN/NOTIFY의 전역 배타적 잠금은 단순 구현의 처리량을 제한하지만, 알림을 버퍼링해 일괄 전송하면 단일 서버에서 초당 최대 6만 건의 스트림 쓰기를 처리할 수 있음 NOTIFY를 호출한 트랜잭션은 알림의 커밋 순서를 보장하기 위해 커밋과 fsy...",
-    "summaryKo": "Postgres의 LISTEN/NOTIFY는 전역 배타적 잠금 탓에 단순 구현에서는 처리량이 제한되지만, 알림을 버퍼링해 일괄 전송하면 단일 서버에서 초당 최대 6만 건의 스트림 쓰기를 처리할 수 있다는 벤치마크 결과가 공유됐다.",
-    "tags": [
-      "PostgreSQL",
-      "데이터베이스"
-    ],
-    "entities": [
-      "PostgreSQL"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "55210d0c996d65d2",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 엔비디아 CEO 젠슨 황(Jensen Huang)은 미국과 중국의 접근 방식 차이에 ᄃ...",
-    "url": "https://www.threads.com/t/DbOWy5egJUg",
-    "publishedAt": "Sat, 25 Jul 2026 17:30:53 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아 CEO 젠슨 황(Jensen Huang)은 미국과 중국의 접근 방식 차이에 대해 “AI의 목표는 똑똑한 답을 내는 것”이라며, 더 효율적인 AI를 만들어 사고 시간을 늘리는 등 지능에 도달하는 길은 다양하다고 지적했습니다. 그는 조건과 자원이 달라도 뛰어난 인재들은 결국 해답을 찾아낼 것이라며, “중국은 매년 전 세계보다 더 많은 AI 연구자를 배출하는 것 같다”고 평가했습니다. 또한 실리콘밸리에도 수많은 중국계 AI 연구자들이 활약하고 있는 현실을 언급하며, 뛰어난 연구자들이 훌륭한 AI 기술을 계속 발전시켜 나갈 것이기에 지속적으로 학습하고 협력해야 한다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/755878759_1732743434704338_4671234060973395309_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=Mzk0OTE5NDE3Nzk2MjYxMjAwMA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=AxVHSFLOjPEQ7kNvwFsxVfe&amp;_nc_oc=Adqih1NZc24KD2u5feqysrYJftgHzAz9qO6HUwCN1_yumhwcteen2D2461dXBYZQFYo&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=QniMZVZf31YvBXYsrHUoDA&amp;_nc_ss=7a22e&amp;oh=00_AQDkNqF_ALY9RJGGKMgVMq6Lj7oRzgD-xJVasoN3IROOQw&amp;oe=6A6ADB83\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQO-jmLDqvfvzPtLawvZTYSDz7ytOvi3-XEZ8g5Bs8-1mVzjIhg9eDSaqN8FKZ79KEwbX6ZLFHdJoz6C4ixlV_dtg205u3wKgDEcjAs.mp4?_nc_cat=108&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=4Sm5o8uzArUQ7kNvwG4qO8M&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NzkxMjQ3MzQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=d00327e82cf566e&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82MDRBMjlGMzFCMUU2OTQ4RkE1QUM5NzE0NkMxNThBRF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzU4NDk3ODlDNDVDRUQwRUJBRkZGRDNEM0Y5RUFFOEIzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA0bHy5frvPxUCKAJDMywXQF8OVgQYk3UYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=QniMZVZf31YvBXYsrHUoDA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQAr4VhofhIo_sJl0wO0mFA9OuwhrFi7sEyY__3sLNv61g&amp;oe=6A66EF60\"></video></p>",
-    "summaryKo": "젠슨 황은 미국과 중국의 AI 접근법 차이에 대해 지능에 이르는 길은 다양하며 조건이 달라도 뛰어난 인재들이 결국 답을 찾아낼 것이라고 말했다. 중국이 매년 세계에서 가장 많은 AI 연구자를 배출하고 있고 실리콘밸리에도 중국계 연구자가 다수 활약하고 있다며 지속적 학습과 협력의 중요성을 강조했다.",
-    "tags": [
-      "AI 정책",
-      "미중 경쟁"
-    ],
-    "entities": [
-      "Jensen Huang",
-      "NVIDIA"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "4470aacef55b21d7",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: DeepSeek가 2차 투자 유치를 잠정 중단한 것으로 전해졌습니다. 이유는...",
-    "url": "https://www.threads.com/t/DbOSFbCj6id",
-    "publishedAt": "Sat, 25 Jul 2026 16:49:44 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>DeepSeek가 2차 투자 유치를 잠정 중단한 것으로 전해졌습니다. 이유는 1차 투자 과정에서 진행된 량 원펑(Liang Wenfeng)의 투자자 대상 비공개 발언이 녹음본과 함께 유출된 영향으로 알려졌는데요. Bloomberg에 따르면 DeepSeek는 일부 투자자들에게 투자 계약을 당분간 진행하지 않겠다고 구두로 안내했습니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/753540860_17979220263112832_5522152767657257176_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzk0OTE3MzQ2MDcxOTA4NTcyNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=dJVcd3X-mYMQ7kNvwEwvy5j&amp;_nc_oc=Adpq-LE89vSZ5VT4luvIYIX0TZ2ZP_wu16ui0x7Xq3IUglGQ7xhMdWnFkzIr-jvD85M&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=QniMZVZf31YvBXYsrHUoDA&amp;_nc_ss=7a22e&amp;oh=00_AQBmwEbfckLFQorwCbp9FTOsKWd6z8_ptikWSfy-5AProw&amp;oe=6A6B10B3\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "DeepSeek가 2차 투자 유치를 잠정 중단했다고 전해졌다. 1차 투자 과정에서 있었던 량원펑의 비공개 발언 녹음이 유출된 영향으로 알려졌으며, Bloomberg에 따르면 일부 투자자에게 계약을 당분간 진행하지 않겠다고 구두로 안내했다.",
-    "tags": [
-      "DeepSeek",
-      "투자"
-    ],
-    "entities": [
-      "DeepSeek",
-      "Liang Wenfeng"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "a8b32afd62e6e602",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Claude Opus 5, Artificial Analysis 지능 리더보드 1위",
-    "url": "https://news.hada.io/topic?id=31807",
-    "publishedAt": "2026-07-26T01:34:50+09:00",
-    "rawText": "평가된 170개 모델 중 Claude Opus 5 Adaptive Reasoning·Max Effort가 Intelligence Index 61점으로 1위를 차지했으며, Xhigh Effort와 Claude Fable 5가 각각 60점으로 뒤를 이음 Intelligence Index v4.1은 에이전트 작업·코딩·과학 추론·지식 신뢰성·장문맥 추...",
-    "summaryKo": "Artificial Analysis가 평가한 170개 모델 중 Claude Opus 5(Adaptive Reasoning, Max Effort)가 Intelligence Index 61점으로 1위를 차지했다. Xhigh Effort와 Claude Fable 5가 60점으로 뒤를 이었고, 공개 가중치 모델 중에서는 GLM-5.2가 51점으로 선두였다.",
-    "tags": [
-      "LLM 벤치마크",
-      "리더보드"
-    ],
-    "entities": [
-      "Claude Opus 5",
-      "Claude Fable 5",
-      "Artificial Analysis",
-      "GLM-5.2"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "4c28cdf436665a7f",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "6,000명이 꼽은 AI 시대 1위 공포 — 해고가 아니라 \"같은 월급으로 두 배\"였습니다",
-    "url": "https://www.youtube.com/watch?v=UzqMBZXehPA",
-    "publishedAt": "2026-07-25T16:22:37+00:00",
-    "rawText": "6,000명이 꼽은 AI 시대 1위 공포 — 해고가 아니라 \"같은 월급으로 두 배\"였습니다",
-    "videoId": "UzqMBZXehPA",
-    "summaryKo": "Lenny's Newsletter와 함께 진행한 6,000명 규모의 테크업계 설문에서, 응답자들이 AI 시대에 가장 두려워하는 것은 '해고'가 아니라 '같은 월급으로 더 많은 일을 해내야 한다는 압박'으로 나타났다. AI 덕분에 능력이 좋아졌다는 응답은 97.2%에 달했지만 산출물의 질은 개선되지 않았고, 번아웃 비율은 1년 새 44.7%에서 54.7%로 뛰었다.",
-    "tags": [
-      "AI 일자리",
-      "설문조사"
-    ],
-    "entities": [
-      "Lenny's Newsletter"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "0bcb5914ffccffa9",
-    "sourceType": "youtube",
-    "source": "김효율의 AI 개발단",
-    "title": "기억 못하는 AI 에이전트 혼쭐을 내줄 하네스 등판",
-    "url": "https://www.youtube.com/watch?v=OLu2YT8O72I",
-    "publishedAt": "2026-07-25T16:02:36+00:00",
-    "rawText": "기억 못하는 AI 에이전트 혼쭐을 내줄 하네스 등판",
-    "videoId": "OLu2YT8O72I",
-    "summaryKo": "기억을 유지하지 못하는 AI 에이전트의 한계를 보완하는 새로운 하네스를 소개하는 영상이다.",
-    "tags": [
-      "AI 에이전트",
-      "메모리"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "2bcdca4ae352704c",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Chrome이 Gemini 팝업용 전역 단축키를 무단 등록",
-    "url": "https://news.hada.io/topic?id=31806",
-    "publishedAt": "2026-07-25T19:01:01+09:00",
-    "rawText": "Chrome이 사용자 동의 없이 Mac의 Ctrl+G 전역 단축키를 등록해 다른 앱에서도 Gemini 팝업이 열리도록 함 코딩 편집기의 줄 이동 단축키와 충돌하는 데다, 팝업에는 Chrome·Gemini 식별 정보와 비활성화 기능이 명확히 드러나지 않음 단축키를 끄려면 Ch...",
-    "summaryKo": "Chrome이 사용자 동의 없이 macOS의 Ctrl+G 전역 단축키를 등록해 다른 앱에서도 Gemini 팝업이 열리도록 한 사실이 알려졌다. 코딩 편집기의 줄 이동 단축키와 충돌하는 데다 팝업에 Chrome·Gemini 식별 정보나 끄는 방법이 명확히 표시되지 않아 비판이 일고 있다.",
-    "tags": [
-      "Gemini",
-      "브라우저"
-    ],
-    "entities": [
-      "Chrome",
-      "Gemini"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "2753c69f0050ed22",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "API 정가 약 2.4억 원, Bun의 Claude Code 하네스를 해부했습니다.",
-    "url": "https://www.youtube.com/watch?v=otMYg5NIsAo",
-    "publishedAt": "2026-07-25T08:16:25+00:00",
-    "rawText": "API 정가 약 2.4억 원, Bun의 Claude Code 하네스를 해부했습니다.",
-    "videoId": "otMYg5NIsAo",
-    "summaryKo": "Bun이 공개한 Claude Code용 코딩 에이전트 하네스를 분석한 영상으로, API 정가 기준 약 2.4억 원 규모의 사용량을 들여 하네스 구조를 해부한 내용을 다룬다.",
-    "tags": [
-      "Claude Code",
-      "에이전트 하네스"
-    ],
-    "entities": [
-      "Bun",
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "e3ec6755eba40778",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 캐치마인드 좋아하세요?",
-    "url": "https://news.hada.io/topic?id=31803",
-    "publishedAt": "2026-07-25T15:24:27+09:00",
-    "rawText": "캐치마인드 좋아하는데 친구들이랑 모이기 어려워서 못 한 지 오래됐어요. 그림 문제를 언제든지 만들고, 풀 수 있도록 만들었습니다.",
-    "summaryKo": "캐치마인드를 즐기던 개발자가 친구들과 모이지 않아도 그림 문제를 만들고 풀 수 있는 개인 프로젝트를 공개했다.",
-    "tags": [
-      "Show GN",
-      "웹앱"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "0b34c2f25f875150",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 에이전트의 토큰낭비를 잡는 CLI를 만들었습니다! (공개 트레이스 6,780개)",
-    "url": "https://news.hada.io/topic?id=31802",
-    "publishedAt": "2026-07-25T15:13:37+09:00",
-    "rawText": "토큰 낭비가 안 보이는 이유는 실패가 아니라 중복이라서입니다 같은 파일 두 번 읽기, 같은 인자로 재시도, 같은 도구 재호출. 그래서 끝난 트레이스를 읽어서 어느 스텝이 이미 한 일을 또 했는지 짚어주는 CLI를 만들었습니다! [써보기] pip install \"clew-custos[detect]\" python -",
-    "summaryKo": "AI 에이전트 세션에서 파일 재읽기·동일 인자 재시도·동일 도구 재호출 같은 숨은 중복 호출을 찾아내는 CLI 도구 clew-custos가 공개됐다. 공개 벤치마크(Toolathlon, 6,780개 트레이스) 분석 결과 중복 호출이 전체의 2.41%로 나타났으며, Claude Code는 상대적으로 낭비가 적은 것으로 확인됐다.",
-    "tags": [
-      "AI 에이전트",
-      "토큰 최적화"
-    ],
-    "entities": [
-      "clew-custos",
-      "Claude Code"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "ceaedb5d23f8d230",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Neurips Position Track Rebuttal and Reviews [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1v5ykl8/neurips_position_track_rebuttal_and_reviews_r/",
-    "publishedAt": "2026-07-25T04:52:02+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hello! This is my first time submitting an actual conference paper (only done workshops so far).</p> <p>Got a 3/3/5/7 for the Position Paper Track. Reviews all seem quite addressable. Meta review also seemed kinda positive? Included wording such as &quot;a revision should include...&quot; followed by actionable stuff we can take. Feels like there may be a shot.</p> <p>My question is... what does that mean? We submit rebuttals for each reviewer. And I agree with a lot of the feedback. So thats not an issue. But what&#39;s going to happen? Do reviewers change their scores? Does the AC read each rebuttal to see if we&#39;ll make an adequate revision? How does all of this get judged? Who am I trying to convince here? And of what? And what should the wording be like in the rebuttal? More informal?</p> <p>Sorry if some of these questions seem redundant!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Empty-Avocado5927\"> /u/Empty-Avocado5927 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5ykl8/neurips_position_track_rebuttal_and_reviews_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v5ykl8/neurips_position_track_rebuttal_and_reviews_r/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS Position Paper Track에 처음 투고한 연구자가 3/3/5/7점을 받은 뒤 리뷰 절차와 반박문 작성법에 대해 커뮤니티에 조언을 구하는 글을 올렸다.",
-    "tags": [
-      "NeurIPS",
-      "논문 투고"
-    ],
-    "entities": [
-      "NeurIPS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
-  },
-  {
-    "id": "b3b4aa0e16d5a7d8",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "인도 정부, GitHub에 Bluetooth 채팅 앱 Bitchat 삭제 명령",
-    "url": "https://news.hada.io/topic?id=31800",
-    "publishedAt": "2026-07-25T13:33:19+09:00",
-    "rawText": "인도 내무부 산하 Indian Cybercrime Coordination Centre가 보안 우려를 이유로 GitHub에 Bluetooth 기반 메시징 앱 Bitchat의 삭제를 명령함 Bitchat 개발자이자 전 Twitter CEO인 Jack Dorsey가 2026년 7월 24일 X에서 정부 통지서를 공개함 공개된 통...",
-    "summaryKo": "인도 내무부 산하 사이버범죄 조정센터가 보안 우려를 이유로 GitHub에 블루투스 메시징 앱 Bitchat의 삭제를 명령했다. 개발자이자 전 트위터 CEO인 잭 도시가 2026년 7월 24일 정부 통지서를 공개하며 논란이 됐다.",
-    "tags": [
-      "오픈소스",
-      "규제"
-    ],
-    "entities": [
-      "Bitchat",
-      "Jack Dorsey",
-      "GitHub"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-25T21:31:59.575Z"
   }
 ]
