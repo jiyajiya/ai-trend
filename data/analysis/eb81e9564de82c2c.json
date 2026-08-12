@@ -1,0 +1,26 @@
+{
+  "points": [
+    "이미 열려 있는 SSH 포트 하나만으로 서버를 관리해 별도 에이전트 설치가 필요 없다.",
+    "로컬 PC의 Claude Code나 Codex CLI가 같은 어댑터·SSH 연결·Command Log를 통해 서버를 관리한다.",
+    "파일 변경 diff 확인, 변경 되돌리기, AI 명령 추적 등 보안 통제를 갖췄다.",
+    "CodeMirror 기반 내장 에디터와 CPU·메모리·디스크·systemd·Docker/Podman 모니터링을 제공한다.",
+    "Go+Wails+React로 만들어져 4.8~9.8MB의 가벼운 다운로드 용량을 가진다."
+  ],
+  "sections": [
+    {
+      "heading": "해결하려는 문제",
+      "body": "파일 하나 고치자고 vscode-server를 올리고, 관리 UI 하나 쓰자고 패키지를 깔고 포트를 열고, 최근엔 Claude Code나 Codex CLI까지 서버에 설치하면서 관리 대상이 계속 늘어나는 문제를 지적한다. LiteDeck은 이미 열려 있는 SSH 포트 하나만으로 이 모든 걸 대체한다."
+    },
+    {
+      "heading": "AI 연동 방식",
+      "body": "로컬 PC의 Claude Code나 Codex CLI가 앱을 거쳐 서버를 관리하며, GUI와 동일한 어댑터·SSH 연결·Command Log를 공유해 별도 전용 경로 없이 통합된다. 모든 AI 명령이 화면에 표시돼 투명성을 확보한다."
+    },
+    {
+      "heading": "기능과 사양",
+      "body": "파일 변경 diff 확인, 되돌리기, 임의 실행 방지 같은 보안 통제와 CodeMirror 기반 에디터, CPU·메모리·디스크·systemd·Docker/Podman 모니터링을 갖췄다. Go+Wails+React로 제작돼 다운로드 용량이 4.8~9.8MB에 불과하고 macOS·Windows·Ubuntu를 지원한다."
+    }
+  ],
+  "quotes": [
+    "이미 열려 있는 SSH 포트 하나만"
+  ]
+}

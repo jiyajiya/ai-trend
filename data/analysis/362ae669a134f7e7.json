@@ -1,0 +1,26 @@
+{
+  "points": [
+    "xAI가 Grok 4.6을 공개, Cursor와 Grok Build에서 당일부터 사용 가능하다.",
+    "파라미터 규모(1.5조, V9)는 Grok 4.5와 동일하지만 사후학습에 집중 투자했다.",
+    "추론 강화, 모델 생성 데이터, SFT 궤적 재생성, 에이전트 강화학습으로 성능을 끌어올렸다.",
+    "9개 벤치마크 종합 AA Intelligence Index에서 61점으로 GPT-5.6 Sol과 동률을 기록했다.",
+    "출시 첫 주 동안 Cursor·Grok Build의 무료 사용량을 2배로 제공한다."
+  ],
+  "sections": [
+    {
+      "heading": "무엇이 달라졌나",
+      "body": "Grok 4.6은 기반 모델 규모를 키우는 대신 추론 강화, 모델 생성 데이터, SFT 궤적 재생성, 에이전트 강화학습 등 사후학습에 집중 투자했다. 그 결과 여러 단계에 걸쳐 작업을 지속하는 능력과 자체 검증 행동이 강화됐다."
+    },
+    {
+      "heading": "벤치마크와 가격",
+      "body": "9개 벤치마크를 합산한 AA Intelligence Index에서 61점으로 GPT-5.6 Sol과 동률을 기록했으며 CursorBench, FrontierCode, AA-Briefcase에서 우위를 보였지만 DeepSWE, Terminal-Bench에서는 여전히 뒤처진다. 가격은 입력 100만 토큰당 $2, 출력 $6이며 고속 버전은 2배다."
+    },
+    {
+      "heading": "다음 단계",
+      "body": "몇 주 후 2.1조 파라미터 규모의 Grok 4.7이 출시될 예정이어서, 이번 4.6은 사후학습 최적화를 검증하는 중간 단계로 볼 수 있다."
+    }
+  ],
+  "quotes": [
+    "AA Intelligence Index 61점, GPT-5.6 Sol과 동률"
+  ]
+}

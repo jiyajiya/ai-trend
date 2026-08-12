@@ -1,5 +1,390 @@
 [
   {
+    "id": "fe131e442311a96e",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "애보트·구글 헬스 맞손…혈당 데이터에 AI 더해 ‘개인맞춤 건강 인사이트’ 제공",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540319",
+    "publishedAt": "2026-08-13 05:49:00",
+    "rawText": "애보트(Abbott)와 구글(Google)이 연속혈당측정(CGM) 데이터와 인공지능(AI)을 결합한 디지털 건강관리 서비스 구축에 나선다.양사는 애보트의 소비자용 혈당 웨어러블 ‘링고(Lingo)’와 구글 헬스(Google Health)의 AI 기술을 연계해 이용자에게 개인맞춤형 대사 건강 인사이트를 제공하는 파트너십을 체결했다고 밝혔다.혈당·수면·활동 데이터 한 화면에서 통합이번 협력에 따라 링고 이용자는 구글 헬스 앱에서 혈당 변화와 다른 건강·웰니스 지표를 함께 확인할 수 있다. 이를 통해 식사, 운동, 수면 등 일상 행동이",
+    "summaryKo": "애보트와 구글 헬스가 연속혈당측정(CGM) 웨어러블 '링고' 데이터와 AI를 결합해 개인 맞춤형 대사 건강 인사이트를 제공하는 파트너십을 체결했다. 구글 헬스 앱에서 혈당·수면·활동 데이터를 통합해 보고 맞춤 코칭과 당뇨병전단계 조기 발견 연구까지 확장할 계획이다.",
+    "tags": [
+      "디지털헬스",
+      "웨어러블"
+    ],
+    "entities": [
+      "애보트",
+      "구글 헬스",
+      "링고"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "19665b3dc4ccf93c",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "DeepSeek V4 Pro 0813",
+    "url": "https://news.hada.io/topic?id=32444",
+    "publishedAt": "2026-08-13T04:32:47+09:00",
+    "rawText": "OpenRouter에서 단일 공급자가 호스팅하며, 별도 라우팅 결정 없이 모든 요청을 해당 공급자에게 직접 전달함 실제 고객의 가중 평균 가격은 100만 토큰당 입력 $0.03508, 출력 $0.8697이며, 캐싱과 할인에 따라 게시 가격보다 낮아질 수 있음",
+    "summaryKo": "DeepSeek V4 Pro가 OpenRouter에서 단일 공급자 호스팅으로 제공되기 시작했다. 실제 가중평균 가격은 100만 토큰당 입력 $0.035, 출력 $0.87 수준으로, 캐싱·할인에 따라 게시가보다 더 낮아질 수 있다.",
+    "tags": [
+      "DeepSeek",
+      "가격정책"
+    ],
+    "entities": [
+      "DeepSeek",
+      "OpenRouter"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "01c059e20f5435e0",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "차량 번호판 과거 기록 검색에는 영장이 필요함",
+    "url": "https://news.hada.io/topic?id=32443",
+    "publishedAt": "2026-08-13T03:33:04+09:00",
+    "rawText": "자동 차량 번호판 판독기(ALPR)가 촘촘해지면 개인의 이동 전체를 재구성할 수 있으므로, 긴급한 실시간 조회와 달리 과거 기록 검색에는 영장이 필요함 ALPR 카메라는 대당 3,000달러 미만으로 저렴해 사건 해결에 기여할 수 있지만, 범죄 감소 효과를 뒷받침하는...",
+    "summaryKo": "자동 차량 번호판 판독기(ALPR)로 개인의 과거 이동 기록을 재구성할 수 있다는 우려가 제기되며, 실시간 조회와 달리 과거 기록 검색에는 영장이 필요하다는 주장이 나왔다. 대당 3천 달러 미만의 저렴한 장비 보급으로 감시 범위가 빠르게 넓어지고 있다는 점이 배경이다.",
+    "tags": [
+      "프라이버시",
+      "감시기술"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "96579f09f7e9fb75",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Tailscale이 데이터베이스 손상 원인을 16년 된 SQLite WAL-Reset 버그로 추적한 과정",
+    "url": "https://news.hada.io/topic?id=32442",
+    "publishedAt": "2026-08-13T02:38:46+09:00",
+    "rawText": "6개월간 발생한 19건의 데이터베이스 손상과 반복적인 제어 평면 장애를 조사한 끝에, SQLite 체크포인트와 쓰기 트랜잭션 사이의 희귀한 데이터 경쟁을 찾아냄 WAL 페이지가 주 데이터베이스에 복사되지 않았는데도 체크포인트가 완료된 것으로 처리돼 데이터가 영구 소실됐으며, S...",
+    "summaryKo": "Tailscale이 6개월간 19건 발생한 데이터베이스 손상의 원인을 16년 된 SQLite WAL-Reset 버그로 추적해 밝혔다. 체크포인트와 쓰기 트랜잭션 사이의 희귀한 데이터 경쟁이 원인이었으며, SQLite 3.51.3/3.53.0 패치 이후 4개월 이상 무사고로 운영 중이다.",
+    "tags": [
+      "SQLite",
+      "데이터베이스",
+      "디버깅"
+    ],
+    "entities": [
+      "Tailscale",
+      "SQLite"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "5509ecc71630ea0c",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI가 소프트웨어 엔지니어링의 중산층을 없애고 있음",
+    "url": "https://news.hada.io/topic?id=32441",
+    "publishedAt": "2026-08-13T02:35:46+09:00",
+    "rawText": "AI는 구현 속도의 제한을 없애 취약한 엔지니어링 문화를 가진 프로젝트가 복구 불가능한 복잡성에 도달하는 시간까지 크게 단축함 하루 만에 수만 줄을 생성할 수 있지만 사람이 이해하고 검토하는 속도는 그대로여서, 잘못된 결정과 추상화가 검토 역량을 압도함...",
+    "summaryKo": "AI가 구현 속도를 극적으로 높이지만 사람이 코드를 이해·검토하는 속도는 그대로여서, 잘못된 설계 결정이 검토 역량을 압도하는 상황이 벌어지고 있다는 진단이다. 판단력을 가진 소수 엔지니어의 가치는 오르고 나머지는 대체 위험에 놓이는 '중산층 소멸'이 소프트웨어 업계에서 일어나고 있다는 주장이다.",
+    "tags": [
+      "AI코딩",
+      "엔지니어링문화"
+    ],
+    "entities": [],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "ba210dcd32a4d3b1",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Scaling AI agents with trustworthy data",
+    "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+    "publishedAt": "Wed, 12 Aug 2026 16:51:57 +0000",
+    "rawText": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data&#8230;",
+    "summaryKo": "MIT 테크놀로지 리뷰는 기업이 AI 에이전트를 제대로 확장하려면 레거시 데이터 시스템부터 현대화해야 한다고 지적한다. 데이터 후발주자 기업은 전체 데이터의 30% 미만에만 접근 가능해 에이전트 신뢰도와 ROI가 떨어진다는 조사 결과를 제시했다.",
+    "tags": [
+      "데이터인프라",
+      "에이전트확장"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "db277aae49c8b3c5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "2026년 개기일식 웹캠",
+    "url": "https://news.hada.io/topic?id=32439",
+    "publishedAt": "2026-08-13T01:31:11+09:00",
+    "rawText": "개기일식 구간 시작까지 31분 39초가 남아 있음 일식이 첫 번째 웹캠에 도달하기까지 남은 시간은 1시간 11분 59초임 개기일식 시작과 첫 웹캠 도달 시점을 각각 카운트다운함 첫 웹캠 도달은 개기일식 시작보다 40분 20초 뒤임...",
+    "summaryKo": "2026년 개기일식을 실시간 웹캠 다중 중계로 카운트다운하며 지켜볼 수 있는 사이트가 소개됐다. 일식 시작과 각 웹캠 도달 시점을 초 단위로 보여주는 것이 특징이다.",
+    "tags": [
+      "이벤트"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "362ae669a134f7e7",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Grok 4.6 공개, 파라미터 확장 대신 사후학습에 투자한 모델",
+    "url": "https://news.hada.io/topic?id=32438",
+    "publishedAt": "2026-08-13T01:30:12+09:00",
+    "rawText": "xAI가 Grok 4.6을 공개함. Cursor와 Grok Build에서 당일부터 사용 가능하며, 첫 주 동안 두 서비스의 포함 사용량을 2배로 제공함 아홉 개 벤치마크를 합산한 Artificial Analysis Intelligence Index에서 GPT-5.6 Sol과 동률을 기록했다고 밝힘. 지수 값은 61이며, CursorBench와 FrontierCode, AA-...",
+    "summaryKo": "xAI가 Grok 4.6을 공개했다. 파라미터 수(1.5조)는 Grok 4.5와 동일하지만 추론 강화와 에이전트 강화학습 등 사후학습에 집중 투자해 9개 벤치마크 종합 지수에서 GPT-5.6 Sol과 동률(61점)을 기록했으며, Cursor와 Grok Build에서 즉시 사용할 수 있다.",
+    "tags": [
+      "xAI",
+      "Grok",
+      "사후학습"
+    ],
+    "entities": [
+      "xAI",
+      "Grok 4.6",
+      "Cursor"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "0aad2d133d771c16",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "llama.cpp: 내 컴퓨터에서 실행하는 오픈소스 AI",
+    "url": "https://news.hada.io/topic?id=32437",
+    "publishedAt": "2026-08-13T00:32:40+09:00",
+    "rawText": "llama.cpp는 API 키·텔레메트리·사용량 제한 없이 AI 모델을 실행하고, 모델과 대화 데이터를 컴퓨터 안에 유지하는 오픈소스 로컬 런타임임 개인용 노트북부터 클러스터까지 같은 바이너리와 모델을 사용하며, 여러 GPU·CPU 환경에 맞춘 수작업 최적화 커...",
+    "summaryKo": "llama.cpp는 API 키나 외부 서버 없이 개인 컴퓨터에서 직접 AI 모델을 실행하는 오픈소스 로컬 런타임이다. 노트북부터 클러스터까지 동일한 바이너리로 동작하며 Qwen 3.6, Gemma 4, GPT-OSS 등 다양한 모델을 지원해 프라이버시 중심의 로컬 AI 실행 트렌드를 대표한다.",
+    "tags": [
+      "로컬LLM",
+      "오픈소스"
+    ],
+    "entities": [
+      "llama.cpp"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "eb81e9564de82c2c",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: LiteDeck – EC2부터 홈서버까지, SSH 포트 하나로 Claude·Codex와 함께 개발 및 모니터링하기",
+    "url": "https://news.hada.io/topic?id=32436",
+    "publishedAt": "2026-08-12T23:56:52+09:00",
+    "rawText": "파일 하나 고치자고 서버에 vscode-server를 올립니다. 관리 UI 하나 쓰자고 패키지를 깔고 포트를 열고, 클라우드면 보안 그룹까지 건드립니다. 요즘은 AI까지 붙이려고 서버에 Claude Code나 Codex CLI를 깝니다. 그렇게 깔아둔 것들은 나중에 그것대로 관리 대상이 되고요.",
+    "summaryKo": "LiteDeck은 서버에 별도 에이전트나 관리 도구를 설치하지 않고 기존 SSH 포트 하나만으로 Claude Code·Codex CLI와 함께 개발·모니터링할 수 있게 해주는 도구다. 파일 변경 diff 확인, 명령 추적, 되돌리기 등 보안 통제를 갖춰 AI가 서버를 직접 조작할 때의 투명성을 확보한다.",
+    "tags": [
+      "서버관리",
+      "AI에이전트",
+      "SSH"
+    ],
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "LiteDeck"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "ccb8d606b747f3e0",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
+    "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
+    "publishedAt": "Wed, 12 Aug 2026 14:00:00 +0000",
+    "rawText": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the best — employees. Huang topped the list, with 99% of employees approving of the job he does. “As AI and shifting expectations [&#8230;]",
+    "summaryKo": "젠슨 황 NVIDIA CEO가 글래스도어 선정 2026년 최고의 CEO 1위에 올랐다. 직원 99%가 그의 리더십에 만족한다고 응답해 AI 붐 속에서도 조직 신뢰도가 높다는 점을 보여준다.",
+    "tags": [
+      "리더십"
+    ],
+    "entities": [
+      "NVIDIA",
+      "젠슨 황"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "9e44711a970ee777",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "제가 겪어본 진짜 문제들이 있었습니다.",
+    "url": "https://www.youtube.com/watch?v=xxVZ7zLR7II",
+    "publishedAt": "2026-08-12T10:19:29+00:00",
+    "rawText": "제가 겪어본 진짜 문제들이 있었습니다.",
+    "videoId": "xxVZ7zLR7II",
+    "summaryKo": "'신영선의 AI탐구' 채널에 올라온 영상으로, 제목 기준으로 진행자가 실제로 겪은 문제들을 다루는 것으로 보인다. 자막을 확보하지 못해 제목 정보만으로 정리한 요약이다.",
+    "tags": [],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "4850a843132b454b",
+    "sourceType": "youtube",
+    "source": "Jay Choi | 인디해커 라이프",
+    "title": "클로드 Fable 5 + Higgsfield로 몇 분 만에 고오오오급 웹사이트 만들기!",
+    "url": "https://www.youtube.com/watch?v=HeJwas0IP0A",
+    "publishedAt": "2026-08-12T10:00:05+00:00",
+    "rawText": "클로드 Fable 5 + Higgsfield로 몇 분 만에 고오오오급 웹사이트 만들기!",
+    "videoId": "HeJwas0IP0A",
+    "summaryKo": "'Jay Choi | 인디해커 라이프' 채널의 영상으로, 클로드 Fable 5와 Higgsfield를 조합해 몇 분 만에 고급 웹사이트를 만드는 과정을 다루는 것으로 보인다. 자막을 확보하지 못해 제목 정보만으로 정리한 요약이다.",
+    "tags": [
+      "웹사이트제작"
+    ],
+    "entities": [
+      "Claude",
+      "Fable 5",
+      "Higgsfield"
+    ],
+    "cats": [
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "e063daae6225e156",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "publishedAt": "Wed, 12 Aug 2026 06:00:00 GMT",
+    "rawText": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "summaryKo": "OpenAI가 기업의 AI 도입 현황을 조사한 리서치를 공개했다. ChatGPT와 Codex를 활용해 '보조'에서 '실행' 단계로 넘어가는 기업이 늘고 있으며, 선도 기업일수록 AI 도입 격차를 벌리고 있다는 점을 확인했다.",
+    "tags": [
+      "에이전트AI",
+      "기업도입"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "6453aa1882021bb3",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "덴티움, 중국 주요 도시서 ‘Digital Minimalism’ 학술 교류 확대",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540345",
+    "publishedAt": "2026-08-12 11:53:50",
+    "rawText": "치과 의료기기 기업 덴티움이 중국 주요 도시에서 디지털 진단과 최소침습 임플란트, 재생치료를 아우르는 임상 전략을 공유하며 현지 학술 네트워크 확대에 나섰다.덴티움은 지난 7월 20일부터 23일까지 중국 상하이와 제남, 베이징에서 현지 의료진을 대상으로 ‘Digital Minimalism’ 세미나를 개최했다고 12일 밝혔다. 이번 세미나에는 덴티움치과 정성민 원장이 연자로 참여해 디지털 진단과 최소침습 임플란트 치료, 재생치료를 연계한 임상 전략과 실제 적용 사례를 소개했다.‘Digital Minimalism’은 AI를 활용한 디지",
+    "summaryKo": "덴티움이 중국 상하이·제남·베이징에서 디지털 진단과 AI 기반 최소침습 임플란트·재생치료를 아우르는 'Digital Minimalism' 세미나를 열고 현지 학술 네트워크 확대에 나섰다. 임상 전략과 실제 적용 사례를 현지 의료진에 소개했다.",
+    "tags": [
+      "디지털헬스",
+      "치과AI"
+    ],
+    "entities": [
+      "덴티움"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
+  },
+  {
+    "id": "90efa435138feda2",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
+    "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+    "publishedAt": "Wed, 12 Aug 2026 00:38:21 +0000",
+    "rawText": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for NVIDIA and the AI industry. We have moved from an era in which companies [&#8230;]",
+    "summaryKo": "NVIDIA가 아폴로·블랙록·블랙스톤·골드만삭스·KKR 등과 손잡고 AI 인프라 구축에 5천억 달러 이상의 제3자 자본을 동원하는 금융 플랫폼을 발표했다. AI 컴퓨트를 단순 하드웨어가 아닌 지속적으로 가치가 상승하는 투자 자산으로 재정의하는 시도다.",
+    "tags": [
+      "AI인프라",
+      "투자"
+    ],
+    "entities": [
+      "NVIDIA",
+      "블랙록",
+      "골드만삭스",
+      "KKR"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "b207606e407d50e4",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "“잡는 것만으론 부족하다”…식약처 ‘셜록홈즈’, 수사 오류 제로화 겨냥",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540291",
+    "publishedAt": "2026-08-12 05:51:00",
+    "rawText": "식품의약품안전처가 식의약 분야 특별사법경찰의 수사 전문성을 끌어올리는 데 본격적으로 나섰다. 수사 건수를 늘리고 위반행위를 적발하는 데서 한발 더 나아가 빠르게 변화하는 디지털 범죄에 대응하면서도 수사 과정에서 발생할 수 있는 절차상 오류를 최소화하는 것이 핵심이다. 식약처가 최근 출범시킨 식의약 수사 연구모임 ‘셜록홈즈’ 역시 이러한 문제의식에서 시작됐다.특히 의료용 마약류까지 수사영역이 확대된 데다 인공지능(AI)을 활용해 실제 존재하지 않는 의사를 만들어 광고에 등장시키는 등 기존과 다른 형태의 범죄 수법이 나타나면서 식약처",
+    "summaryKo": "식약처가 식의약 분야 특별사법경찰의 수사 전문성을 높이기 위한 연구모임 '셜록홈즈'를 출범시켰다. 실존하지 않는 의사를 AI로 만들어 광고에 등장시키는 등 신종 AI 범죄에 대응하기 위해 디지털 포렌식과 절차적 정당성 확보에 무게를 두고 있다.",
+    "tags": [
+      "AI규제",
+      "디지털포렌식"
+    ],
+    "entities": [
+      "식약처"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "f8c748437f3cfa00",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -597,6 +982,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-11T21:17:37.793Z"
+  },
+  {
+    "id": "5d3aff0aba5d0b8a",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Daybreak models are now available on AWS",
+    "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "publishedAt": "Tue, 11 Aug 2026 10:00:00 GMT",
+    "rawText": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+    "summaryKo": "OpenAI의 사이버보안 기능 'Daybreak'가 AWS를 통해 제공되기 시작했다. Amazon Bedrock 경유로 기업들이 보안 워크플로에 Daybreak를 바로 연동할 수 있게 됐다.",
+    "tags": [
+      "사이버보안",
+      "클라우드"
+    ],
+    "entities": [
+      "OpenAI",
+      "AWS",
+      "Amazon Bedrock",
+      "Daybreak"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-12T21:16:28.797Z"
   },
   {
     "id": "02739a9d71f186c7",
@@ -4049,416 +4459,5 @@
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-02T23:45:12.983Z",
     "hasAnalysis": true
-  },
-  {
-    "id": "d45f638181fb558b",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "Kimi K3+GPT-5.6 Sol, Hermes MoA로 쓰면 더 좋아질까?!",
-    "url": "https://www.youtube.com/watch?v=4ACFbU1w8vU",
-    "publishedAt": "2026-08-01T03:30:36+00:00",
-    "rawText": "Kimi K3+GPT-5.6 Sol, Hermes MoA로 쓰면 더 좋아질까?!",
-    "videoId": "4ACFbU1w8vU",
-    "summaryKo": "Kimi K3를 단독으로 쓰는 대신 MoA(Mixture of Agents)의 레퍼런스 모델로 붙여 GPT-5.6 Sol을 애그리게이터로 세우자 단독 실행보다 점수가 올라갔다. 커피 브랜드 현금흐름 분석 과제에서 Kimi·DeepSeek는 시야를 넓히고 GPT는 제약 준수를 챙기며 서로의 약점을 걸러냈다.",
-    "tags": [
-      "MoA",
-      "멀티모델",
-      "Kimi K3"
-    ],
-    "entities": [
-      "Kimi K3",
-      "DeepSeek V4 Pro",
-      "GPT-5.6 Sol",
-      "OpenRouter"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "e299630b866e2d7e",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Ten advances in mathematics and theoretical computer science",
-    "url": "https://openai.com/index/ten-advances-in-mathematics",
-    "publishedAt": "Sat, 01 Aug 2026 00:00:00 GMT",
-    "rawText": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-    "summaryKo": "OpenAI가 기하학·암호학·복잡도 이론 등 오랫동안 풀리지 않던 수학·이론전산 난제 10건에서 진전을 냈다고 발표했다. 모델이 연구 보조를 넘어 미해결 문제에 기여하기 시작했다는 주장이다.",
-    "tags": [
-      "수학",
-      "추론"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z"
-  },
-  {
-    "id": "f8ec64126bdac17b",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Advancing responsible AI across Europe",
-    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-    "publishedAt": "Fri, 31 Jul 2026 15:00:00 GMT",
-    "rawText": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-    "summaryKo": "OpenAI가 유럽에서의 안전·보안·투명성·출처표시 관행을 정리해 공개했다. EU AI Act 시행에 맞춰 책임 있는 AI 거버넌스를 뒷받침하겠다는 내용이다.",
-    "tags": [
-      "AI규제",
-      "거버넌스"
-    ],
-    "entities": [
-      "OpenAI",
-      "EU AI Act"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z"
-  },
-  {
-    "id": "966cd163f8692d8c",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Building abundant intelligence",
-    "url": "https://openai.com/index/building-abundant-intelligence",
-    "publishedAt": "Fri, 31 Jul 2026 15:00:00 GMT",
-    "rawText": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-    "summaryKo": "OpenAI가 고성능 AI를 더 싸고 널리 쓰이게 만들기 위한 풀스택 접근을 밝혔다. 모델뿐 아니라 인프라까지 함께 확장하겠다는 전략이다.",
-    "tags": [
-      "인프라",
-      "스케일링"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z"
-  },
-  {
-    "id": "2b7edb602e37e3e4",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "8분만 주시면, 클로드 코드 1000시간의 꿀팁을 드립니다",
-    "url": "https://www.youtube.com/watch?v=GsInmND5zD8",
-    "publishedAt": "2026-07-31T10:00:08+00:00",
-    "rawText": "8분만 주시면, 클로드 코드 1000시간의 꿀팁을 드립니다",
-    "videoId": "GsInmND5zD8",
-    "summaryKo": "클로드 코드 1000시간에서 뽑은 4가지 원칙. AI의 칭찬은 검증이 아니니 만들기 전에 반박시키고, 완료 보고 대신 증거를 받고, 컨텍스트를 관리하고, 병목이 된 자신을 빼서 여러 작업을 동시에 굴리라는 내용이다.",
-    "tags": [
-      "Claude Code",
-      "AI활용법"
-    ],
-    "entities": [
-      "Claude Code",
-      "Andrej Karpathy"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "cd88270c00622daf",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Univé builds an AI-ready workforce",
-    "url": "https://openai.com/index/unive",
-    "publishedAt": "Fri, 31 Jul 2026 07:00:00 GMT",
-    "rawText": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-    "summaryKo": "네덜란드 보험사 Univé가 ChatGPT Enterprise로 전사 AI 활용 역량을 갖춘 사례. 리더십·거버넌스·직원 주도 혁신을 함께 묶어 업무 방식을 바꿨다.",
-    "tags": [
-      "엔터프라이즈",
-      "AI도입"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT Enterprise",
-      "Univé"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z"
-  },
-  {
-    "id": "8e90d59f92b7b0b2",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-    "publishedAt": "2026-07-31T02:30:08+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p><strong>For Job Postings</strong> please use this template</p> <blockquote> <p>Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you&#39;re looking for]</p> </blockquote> <p><strong>For Those looking for jobs</strong> please use this template</p> <blockquote> <p>Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time] Resume: [Link to resume] and [Brief overview, what you&#39;re looking for]</p> </blockquote> <p>&#x200B;</p> <p>Please remember that this community is geared towards those with experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/\">[comments]</a></span>",
-    "summaryKo": "r/MachineLearning의 월간 구인·구직 스레드 공지로, 채용 공고와 구직자가 각각 정해진 템플릿으로 글을 올리도록 안내하는 커뮤니티 운영 게시물이다.",
-    "tags": [],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-03T00:06:14.084Z"
-  },
-  {
-    "id": "ff7c1653ce2eb767",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Disrupting a Criminal Scam Operation",
-    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-    "publishedAt": "Fri, 31 Jul 2026 00:00:00 GMT",
-    "rawText": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-    "summaryKo": "OpenAI가 ChatGPT를 투자·로맨스·도박·사칭 사기에 활용하던 캄보디아 기반 범죄 조직을 적발해 차단했다. AI 오남용 대응 사례로 공개됐다.",
-    "tags": [
-      "AI안전",
-      "오남용"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z"
-  },
-  {
-    "id": "f552e66a149df439",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "[창간특집] AI 맞춤형 상담부터 피부 모형 활용한 설명까지",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=538816",
-    "publishedAt": "2026-07-31 05:55:00",
-    "rawText": "화장품 매장이 아닌 ‘약국’ 문을 열고 들어가 화장품을 고르는 풍경은 한동안 낯선 것이었습니다. 올리브영으로 대변되는 헬스앤뷰티(H&B) 스토어의 독주와 다이소 같은 가성비 채널의 급부상 속에서, 의약분업 초기, 화장품 시장의 한 축을 담당했던 약국 매대는 대중의 관심에서 조금씩 멀어지는 듯했습니다.그러나 시장의 유행은 돌고 도는 법, 최근 화장품 시장의 시선이 다시 ‘약국’으로 집결하고 있습니다. 바야흐로 약국화장품, 즉 더마코스메틱(Dermocosmetic) 시장의 화려한 귀환이자 ‘제2막’이 시작된 것입니다.동일성분 대체조제에",
-    "summaryKo": "H&B 스토어와 가성비 채널에 밀렸던 약국 화장품(더마코스메틱) 시장이 다시 주목받고 있다. AI 맞춤 상담과 피부 모형을 활용한 설명 등 약국의 상담 역량을 앞세운 '제2막'이 열렸다는 창간특집 기사다.",
-    "tags": [
-      "더마코스메틱",
-      "약국"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-02T23:45:12.983Z"
-  },
-  {
-    "id": "5d007494dcc3b2cf",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "UEFA와 55개 국가협회, FIFA 대회 불참 선언",
-    "url": "https://news.hada.io/topic?id=31999",
-    "publishedAt": "2026-07-31T05:37:19+09:00",
-    "rawText": "UEFA와 55개 회원 협회는 월드컵 등 FIFA 대회의 소유 지분을 민간 투자자에게 넘기는 제안을 만장일치로 거부하고, 제안이 유지되는 동안 국가대표팀을 출전시키지 않기로 함 월드컵은 여러 세대의 선수·국가대표팀·팬이 함께 만든 스포츠 유산으로, 투자 상품이나...",
-    "summaryKo": "UEFA와 55개 회원 협회가 FIFA 대회의 지분을 민간 투자자에게 매각하려는 제안을 만장일치로 거부하고, 제안이 유지되는 한 국가대표팀을 출전시키지 않겠다고 선언했다. 월드컵을 투자 상품이 아닌 여러 세대가 함께 만든 스포츠 유산으로 지켜야 한다는 취지다.",
-    "tags": [
-      "FIFA",
-      "스포츠 거버넌스"
-    ],
-    "entities": [
-      "UEFA",
-      "FIFA"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "f274fdc41bbbbbe6",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "GPT‑5.6, 가격 대비 성능의 한계를 확장",
-    "url": "https://news.hada.io/topic?id=31998",
-    "publishedAt": "2026-07-31T05:34:19+09:00",
-    "rawText": "OpenAI는 모델·추론 시스템·에이전트 하네스의 효율 향상을 가격과 처리 속도에 반영해 기업용 AI의 달러당 성능을 높임 7월 30일부터 Luna 가격은 80%, Terra 가격은 20% 인하되며, API 100만 토큰당 Luna는 입력 $0.20·출력 $1.20, Terra는 입력 $2·출력 $12가 적...",
-    "summaryKo": "OpenAI가 모델·추론 시스템·에이전트 하네스의 효율을 높여 7월 30일부터 API 가격을 대폭 인하했다. Luna는 최대 80%, Terra는 20% 인하돼 100만 토큰당 Luna 입력 $0.20·출력 $1.20, Terra 입력 $2·출력 $12로 책정되며, 달러당 성능 경쟁이 심화되고 있다.",
-    "tags": [
-      "GPT-5.6",
-      "API 가격",
-      "LLM"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-5.6",
-      "Luna",
-      "Terra"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "5c9ac67c0c9e0e57",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Gemini Robotics 2, 로봇에 전신 지능을 제공",
-    "url": "https://news.hada.io/topic?id=31997",
-    "publishedAt": "2026-07-31T04:33:03+09:00",
-    "rawText": "Google DeepMind가 시각·언어 입력을 동작으로 변환해 휴머노이드의 발부터 손끝까지 제어하고, 정교한 조작과 로봇 간 협업을 지원하는 Gemini Robotics 2 모델군을 공개함 모델군은 전신 제어용 VLA인 Gemini Robotics 2, 장기 작업을 계획·감독하는 Gemini Robo...",
-    "summaryKo": "Google DeepMind가 시각·언어 입력을 동작으로 변환해 휴머노이드의 전신을 제어하는 Gemini Robotics 2 모델군을 공개했다. 정교한 조작뿐 아니라 장기 작업 계획·감독, 로봇 간 협업까지 지원하는 것이 특징이다.",
-    "tags": [
-      "로보틱스",
-      "VLA",
-      "휴머노이드"
-    ],
-    "entities": [
-      "Google DeepMind",
-      "Gemini Robotics 2"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "e71011bcff6ab5d5",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "AI 기업들이 전기기사와 목수를 수천 명씩 채용 중",
-    "url": "https://news.hada.io/topic?id=31996",
-    "publishedAt": "2026-07-31T03:31:26+09:00",
-    "rawText": "AI 데이터센터 건설이 급증하면서 기술 기업들이 전기기사/목수 등 숙련 기능공을 확보하기 위해 교육기관과 노동조합에 수억 달러를 투입하고 있음 현금 동원력이 큰 기업들이 외곽 지역의 초대형 프로젝트를 동시에 추진하면서, 데이터센터 일자리는 유사한 설치/유지보수 직종보다...",
-    "summaryKo": "AI 데이터센터 건설이 급증하면서 기술 기업들이 전기기사·목수 등 숙련 기능공 확보를 위해 교육기관과 노동조합에 수억 달러를 투입하고 있다. 자금력 있는 기업들이 외곽 지역에서 초대형 프로젝트를 동시 추진하면서 관련 일자리 수요와 처우가 유사 직종보다 크게 높아지고 있다.",
-    "tags": [
-      "데이터센터",
-      "AI 인프라",
-      "고용"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "8cd1d0e724ac0593",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Anthropic의 새로운 AI 암호분석 결과에 대한 평가",
-    "url": "https://news.hada.io/topic?id=31995",
-    "publishedAt": "2026-07-31T03:02:34+09:00",
-    "rawText": "미공개 고급 모델 Claude Mythos가 HAWK 키 복구 공격과 7라운드 AES 공격 개선안을 만들어, 기존 암호분석 기법을 이해·결합·확장하는 AI의 능력을 보여줌 HAWK 공격은 배포된 체계를 즉시 깨지는 않지만 보안 비트 수를 대략 절반으로 낮춤. 키 크기를 두 배로 늘...",
-    "summaryKo": "Anthropic의 미공개 고급 모델 Claude Mythos가 HAWK 키 복구 공격과 7라운드 AES 공격에 대한 개선안을 스스로 만들어내며 기존 암호분석 기법을 이해·결합·확장하는 능력을 보여줬다. HAWK 공격은 즉시 체계를 깨지는 못하지만 보안 비트 수를 절반가량 낮춰, AI의 암호분석 잠재력에 대한 경계가 커지고 있다.",
-    "tags": [
-      "AI 안전",
-      "암호분석"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude Mythos"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "141fb91a18d7da36",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "HANDBOOK.md: 긴 정책 문서만으로는 에이전트를 안정적으로 통제할 수 없음",
-    "url": "https://news.hada.io/topic?id=31994",
-    "publishedAt": "2026-07-31T02:32:35+09:00",
-    "rawText": "HANDBOOK.md는 20~124쪽의 업무 절차가 장시간·다중 도구 작업에서도 에이전트 행동을 제약하는지 측정하는 65개 과제 벤치마크임 금융·의료 청구·보험·물류·인사 환경에서 과제마다 권한자·임계값·절차를 바꿔, 익숙한 규칙을 재사용하지 않고 해당 문서를 직접 ...",
-    "summaryKo": "HANDBOOK.md는 20~124쪽 분량의 업무 절차 문서가 장시간·다중 도구 작업에서도 AI 에이전트의 행동을 제대로 통제하는지 측정하는 65개 과제 벤치마크다. 금융·의료 청구·보험·물류·인사 등 환경별로 권한자·임계값·절차를 바꿔가며 테스트한 결과, 긴 정책 문서를 그대로 주는 것만으로는 에이전트를 안정적으로 통제하기 어렵다는 점을 보여준다.",
-    "tags": [
-      "에이전트 안전",
-      "벤치마크"
-    ],
-    "entities": [
-      "HANDBOOK.md"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "e497d51e00b2fd06",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "EU 법원, 저작권 판결에서 “VPN은 합법적인 기술 도구”라고 판단",
-    "url": "https://news.hada.io/topic?id=31991",
-    "publishedAt": "2026-07-31T00:31:26+09:00",
-    "rawText": "유럽연합 사법재판소(CJEU)는 이용자가 지역 제한을 우회해도 VPN 제공업체와 출판사가 저작권 침해 책임을 지지 않는다고 판결함 지역 차단(geo-blocking) 을 유지할 책임은 VPN 업체가 아닌 저작권자에게 있다고 판단함 이용자의 제한 우회를 가능하게 ...",
-    "summaryKo": "유럽연합 사법재판소(CJEU)가 이용자가 지역 제한을 우회하더라도 VPN 제공업체와 출판사에는 저작권 침해 책임이 없다고 판결했다. 지역 차단(geo-blocking) 유지 책임은 VPN 업체가 아닌 저작권자에게 있다고 판단해, VPN을 합법적인 기술 도구로 인정했다.",
-    "tags": [
-      "VPN",
-      "저작권",
-      "EU 규제"
-    ],
-    "entities": [
-      "CJEU"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "6c0321a30de6956b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: 프로필없는 SNS 익명 웹 ‘blank’",
-    "url": "https://news.hada.io/topic?id=31990",
-    "publishedAt": "2026-07-31T00:16:40+09:00",
-    "rawText": "클로드코드 이용해서 일단은 웹으로 먼저 만들어봤습니다. 피드백 받을겸 해서 올려봅니다! 서비스 이름: blank 링크: blank 주요 특징: 프로필 없는 가벼움 (No Profiles) 내 이름표나 과거 기록이 남지 않는 공간입니다. 타인의 시선이나 내 정체성에 대한 부담 없이, 지금 이",
-    "summaryKo": "GeekNews 사용자가 Claude Code로 만든 프로필 없는 익명 SNS 웹 서비스 'blank'를 공개하고 피드백을 받고 있다. 이름표나 과거 기록이 남지 않아 타인의 시선이나 정체성 부담 없이 지금 이 순간의 이야기만 남기는 것이 특징이다.",
-    "tags": [
-      "Claude Code",
-      "바이브코딩",
-      "SNS"
-    ],
-    "entities": [
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
-  },
-  {
-    "id": "dca7adc62d79fe1c",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Advancing the price-performance frontier with GPT-5.6",
-    "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-    "publishedAt": "Thu, 30 Jul 2026 10:00:00 GMT",
-    "rawText": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-    "summaryKo": "OpenAI가 GPT-5.6의 Luna·Terra 모델 가격을 낮췄다고 발표했다. 모델 효율을 높여 기업들이 더 낮은 비용으로 대규모 AI 워크플로를 배포할 수 있게 됐다는 내용이다.",
-    "tags": [
-      "GPT-5.6",
-      "API 가격"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-5.6",
-      "Luna",
-      "Terra"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-07-30T22:36:32.647Z"
   }
 ]
