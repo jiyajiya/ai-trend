@@ -1,0 +1,27 @@
+{
+  "points": [
+    "Woxi는 Rust로 작성된 오픈소스 Wolfram Language 인터프리터로 WebAssembly를 통해 브라우저 안에서 실행된다.",
+    "데이터를 외부로 전송하지 않고 Plot, BarChart, Graph 등 시각화와 소수 계산, 인수분해 등 연산을 지원한다.",
+    "웹 플레이그라운드, CLI, Jupyter 커널, 네이티브 노트북 편집기 Woxi Studio 등 다양한 실행 환경을 제공한다.",
+    ".ipynb, Markdown, LaTeX, Typst, PDF 등 다양한 형식으로 내보내기가 가능하다.",
+    "6개월 전 공개 이후 7,000회 이상 커밋이 쌓이며 기능이 빠르게 확장됐다.",
+    "커뮤니티는 SymPy·Sage·Maxima 대비 기대한 답을 내는 몇 안 되는 시스템이라 평가하면서도 비순차 실행과 PDE 기능 미지원을 지적했다."
+  ],
+  "sections": [
+    {
+      "heading": "기술 스택과 실행 방식",
+      "body": "Woxi는 Rust 기반 Wolfram Language 인터프리터로 WebAssembly를 통해 모든 연산을 브라우저 안에서 처리하며 데이터를 외부로 전송하지 않는다."
+    },
+    {
+      "heading": "지원 기능",
+      "body": "Plot, BarChart, Graph, TreeForm, NumberLinePlot, BubbleChart 등 시각화와 소수 계산, 인수분해, 순열, 행렬 전치 등 연산을 지원한다. 웹 플레이그라운드, CLI(woxi eval), Jupyter 커널, Woxi Studio 등 다양한 환경에서 사용할 수 있다."
+    },
+    {
+      "heading": "커뮤니티 반응",
+      "body": "SymPy, Sage, Maxima 등과 비교해 기대한 답을 낸 몇 안 되는 시스템이라는 긍정 평가와 함께, 비순차 실행·% 변수 미지원, 버전 호환성 이슈, PDE 기능 부재 등 개선 요청이 이어졌다."
+    }
+  ],
+  "quotes": [
+    "브라우저 내부에서 실행되며 데이터가 외부로 전송되지 않음"
+  ]
+}

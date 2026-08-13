@@ -1,0 +1,32 @@
+{
+  "points": [
+    "DeepSeek Harness는 Model Adapter, Tool, Session Log, Agent Loop까지 모든 구성요소를 플러그인화한 오픈소스 코딩 에이전트다.",
+    "고정된 Core를 수정하지 않고 플러그인을 추가·교체해 에이전트 동작과 실행 환경 전체를 조립할 수 있다.",
+    "DeepSeek, Anthropic, OpenAI 등 다양한 LLM과 자체 OpenAI-compatible 엔드포인트를 Model Adapter로 지원한다.",
+    "세션은 추가 전용 Event Log로 기록되어 Resume/Fork/Transcript 기능 구현이 가능하다.",
+    "npx 명령의 Web UI, Headless 실행, Python SDK 등 다양한 실행 환경을 지원하며 현재 Developer Preview 단계다.",
+    "커뮤니티에서는 아키텍처를 높이 평가하면서도 장기적인 플러그인 호환성과 거버넌스 부재를 우려하는 의견이 나왔다."
+  ],
+  "sections": [
+    {
+      "heading": "Everything is a Plugin 아키텍처",
+      "body": "DeepSeek Harness의 핵심 설계는 모든 구성요소를 플러그인으로 만드는 것이다. Model Adapter와 Tool뿐 아니라 Session Log, Agent Loop 자체까지 플러그인으로 구성해 고정된 Core를 직접 수정하는 대신 필요한 플러그인을 추가하거나 교체해 조립한다."
+    },
+    {
+      "heading": "주요 구성 요소",
+      "body": "Model Adapter는 DeepSeek·Anthropic·OpenAI 등 다양한 LLM을 지원하며 자체 엔드포인트도 등록 가능하다. Tool은 파일시스템, Shell/Terminal, Sandbox, 권한 승인, Subagent, Background Job 등을 포함한다."
+    },
+    {
+      "heading": "세션 관리와 실행 환경",
+      "body": "세션은 Event Log 중심으로 기록되어 Resume/Fork/Transcript 기능을 구현할 수 있다. npx 명령으로 즉시 실행되는 Web UI, CLI 자동화용 Headless 실행, 자체 애플리케이션에 내장 가능한 Python SDK를 제공한다."
+    },
+    {
+      "heading": "커뮤니티 평가",
+      "body": "한 개발자는 Trajectory 탭의 명시적 실행 표시를 칭찬하며 높은 점수를 줬지만, 일부는 기본 도구만 제공하는 방식이 초기에는 매력적이어도 장기적으로 호환 불가 플러그인과 거버넌스 부재 문제를 낳을 수 있다고 우려했다."
+    }
+  ],
+  "quotes": [
+    "10점 만점에 9점",
+    "기본 도구만 제공하는 방식이 회사에는 매력적이지만, 초기 6개월 후 호환 불가 플러그인과 거버넌스 부재 악몽"
+  ]
+}

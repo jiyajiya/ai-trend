@@ -1,0 +1,27 @@
+{
+  "points": [
+    "City2Graph는 지리공간 데이터를 이종(heterogeneous) 그래프로 변환하는 오픈소스 파이썬 라이브러리다.",
+    "건물, 도로, 대중교통(GTFS/GBFS), 이동(OD 매트릭스) 데이터 등을 그래프로 표현할 수 있다.",
+    "KNN, Delaunay, Gilbert, Waxman 등 다양한 근접성/인접성 그래프 생성 방식을 지원한다.",
+    "GeoDataFrame, NetworkX, rustworkx, PyTorch Geometric 간 왕복 변환을 지원해 기존 GIS·그래프 생태계와 연동된다.",
+    "라이브러리를 설명하는 논문이 Computers, Environment and Urban Systems 저널에 게재됐다.",
+    "저자는 다음으로 지원할 데이터 소스에 대한 커뮤니티 의견을 구하고 있다."
+  ],
+  "sections": [
+    {
+      "heading": "핵심 기능",
+      "body": "City2Graph는 건물, 거리, 도시 조직(tessellation)을 OpenStreetMap과 Overture Maps 데이터로부터 형태학적(morphological) 그래프로 만든다. GTFS/GBFS 교통 피드는 DuckDB로 로드해 정류장 간 대중교통 그래프로 집계할 수 있다."
+    },
+    {
+      "heading": "이종 그래프와 변환",
+      "body": "여러 노드/엣지 타입을 하나의 그래프에 담는 이종 그래프와 메타패스 기반 관계 파생을 지원한다. GeoDataFrame, NetworkX, rustworkx, PyTorch Geometric의 Data/HeteroData 간 왕복 변환이 가능하며 기하 정보와 속성이 유지된다."
+    },
+    {
+      "heading": "연구 배경",
+      "body": "저자들은 도시 데이터를 평면적인 피처 테이블보다 이종 그래프로 다루는 것이 낫다는 근거를 논문에서 제시했으며, 형태·교통·이동·근접성 구성 요소가 서로 어떻게 연결되는지 설명한다."
+    }
+  ],
+  "quotes": [
+    "Sato, Y., Pietrostefani, E., Mahabir, R., & Arribas-Bel, D. (2026). City2Graph: A Python library for Heterogeneous Graph Neural Networks and spatial analysis in urban systems. Computers, Environment and Urban Systems, 130, 102492."
+  ]
+}

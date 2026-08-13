@@ -1,0 +1,28 @@
+{
+  "points": [
+    "GitHub 스타 수를 기준으로 조사한 인기 에이전트 스킬 5위는 obra/superpowers, affaan-m/ECC, mattpocock/skills, andrej-karpathy-skills, anthropics/skills다.",
+    "superpowers는 설계부터 테스트, 병합까지 7단계를 강제하는 TDD 기반 스킬로 269,762개 스타를 받았다.",
+    "ECC는 284개 스킬을 명령어 기반으로 제공하지만 전량 설치 시 약 17,600토큰을 상시 점유한다.",
+    "anthropics/skills는 유일하게 PPT·PDF 등 결과물을 생성하는 프로덕션 스킬이며 문서 스킬 4종은 독점 라이선스다.",
+    "5개 스킬의 공통점은 통제형 설계, 개인 사고방식의 문서화, 결과 템플릿보다 의사결정 근거 중심이라는 점이다.",
+    "결국 자신의 업무에 큰 영향을 주는 스킬은 직접 만들어야 하며 반복되는 실수를 문서화한 스킬이 가장 효과적이라는 조언으로 마무리된다."
+  ],
+  "sections": [
+    {
+      "heading": "조사 방법과 Top 5 개요",
+      "body": "2026년 8월 10일 GitHub API로 스타 수를 직접 조회해 순위를 매겼다. 1위 obra/superpowers(269,762), 2위 affaan-m/ECC(239,034), 3위 mattpocock/skills(211,297), 4위 andrej-karpathy-skills(200,937), 5위 anthropics/skills(167,251) 순이다."
+    },
+    {
+      "heading": "각 스킬의 특징",
+      "body": "superpowers는 설계→테스트→병합까지 7단계를 강제하는 TDD 기반 스킬이다. ECC는 284개 스킬을 명령어(/ecc:plan 등)로 관리하지만 전량 설치 시 약 17,600토큰이 상시 점유된다. mattpocock/skills는 grill-me로 아이디어를 검증하는 인터뷰 절차를 제공하며, andrej-karpathy-skills는 카파시 본인 작품이 아닌 X 게시물에서 파생된 65줄짜리 지침이다. anthropics/skills는 유일하게 결과물을 생성하는 프로덕션 스킬로 문서 스킬 4종은 독점 라이선스다."
+    },
+    {
+      "heading": "공통점과 실무 조언",
+      "body": "다섯 스킬 모두 무엇을 하라는 지시보다 하지 말라는 제약을 강조하는 통제형이며, 특정인의 업무 방식을 문서화한 형태이고, 결과 템플릿보다 의사결정 근거 정리에 중점을 둔다. 저자는 결국 자신의 일에 큰 영향을 끼치는 스킬은 직접 만들어야 하며, Anthropic의 skill-creator로 테스트 기반으로 다듬을 수 있다고 조언한다."
+    }
+  ],
+  "quotes": [
+    "뭘 만들려는 낌새가 보이면 에이전트가 코드로 달려가지 않고 한 발 물러서서",
+    "결국 내 일에 큰 영향을 끼치는 스킬은 직접 만들어야"
+  ]
+}
