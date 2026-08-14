@@ -1,56 +1,57 @@
 [
   {
-    "id": "a6d644ce74e5595b",
+    "id": "890a56b0d2aff0c9",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "img2threejs/img2threejs",
-    "url": "https://github.com/img2threejs/img2threejs",
-    "publishedAt": "2026-07-15T02:58:39Z",
-    "rawText": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "score": 11580,
-    "lang": "Python",
+    "title": "deepseek-ai/deepseek-harness",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "publishedAt": "2026-08-13T11:56:32Z",
+    "rawText": "DeepSeek Harness: Everything is a Plugin.",
+    "score": 94581,
+    "lang": "TypeScript",
     "rank": 1,
-    "summaryKo": "참조 이미지 속 객체를 코드 기반의 절차적 Three.js 모델로 재구성해주는 오픈소스 도구다. 품질 검증과 애니메이션 준비까지 자동 처리하며, 토큰 효율적인 image-to-3D 파이프라인을 제공하는 점이 특징이다.",
+    "summaryKo": "DeepSeek가 공개한 에이전트 하네스로, 모든 기능을 플러그인으로 조립하는 구조를 표방한다. 짧은 소개만으로 GitHub 트렌딩 1위(9만 스타 이상)에 오르며 코딩 에이전트 개발자들의 큰 관심을 받고 있다.",
     "tags": [
-      "image-to-3D",
-      "Three.js",
-      "코드생성"
+      "에이전트하네스",
+      "플러그인아키텍처",
+      "DeepSeek"
     ],
     "entities": [
-      "Three.js"
+      "DeepSeek"
     ],
     "cats": [
-      "멀티모달"
+      "에이전트",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
-    "id": "1b4f9a603eeb29c1",
+    "id": "ca26bca182f697df",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "meta-models/Muse-Glimmer-30B",
-    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-    "publishedAt": "2026-08-09T17:51:35.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, muse_glimmer, image-text-to-text, conversational, arxiv:2504.13181, arxiv:2602.06036, license:apache-2.0",
-    "score": 1323,
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "publishedAt": "2026-08-05T08:22:59.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
+    "score": 8483,
     "rank": 1,
-    "summaryKo": "Meta가 공개한 300억 파라미터급 비전-언어 모델 Muse-Glimmer-30B로, transformers/safetensors 형식으로 배포되며 Apache 2.0 라이선스를 채택했다. 이미지와 텍스트를 함께 이해하는 대화형 멀티모달 작업에 활용할 수 있다.",
+    "summaryKo": "알리바바가 공개한 270억 파라미터급 이미지-텍스트-투-텍스트 모델로, 대화형 응답과 시각 이해를 함께 지원하는 Apache 2.0 오픈 웨이트다.",
     "tags": [
-      "VLM",
-      "멀티모달",
-      "오픈소스모델"
+      "오픈웨이트",
+      "멀티모달LLM",
+      "Qwen"
     ],
     "entities": [
-      "Meta",
-      "Muse-Glimmer-30B"
+      "Qwen",
+      "Alibaba"
     ],
     "cats": [
       "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "bb9f0adb0966586b",
@@ -80,6 +81,57 @@
     "fetchedAt": "2026-08-09T21:00:35.785Z"
   },
   {
+    "id": "a6d644ce74e5595b",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "img2threejs/img2threejs",
+    "url": "https://github.com/img2threejs/img2threejs",
+    "publishedAt": "2026-07-15T02:58:39Z",
+    "rawText": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+    "score": 11727,
+    "lang": "Python",
+    "rank": 2,
+    "summaryKo": "참조 이미지 속 객체를 코드 기반의 절차적 Three.js 모델로 재구성해주는 오픈소스 도구다. 품질 검증과 애니메이션 준비까지 자동 처리하며 토큰 효율적인 image-to-3D 파이프라인을 제공한다.",
+    "tags": [
+      "image-to-3D",
+      "Three.js",
+      "코드생성"
+    ],
+    "entities": [
+      "Three.js"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
+    "id": "1b4f9a603eeb29c1",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "meta-models/Muse-Glimmer-30B",
+    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "publishedAt": "2026-08-09T17:51:35.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, muse_glimmer, image-text-to-text, conversational, arxiv:2504.13181, arxiv:2602.06036, license:apache-2.0",
+    "score": 1410,
+    "rank": 2,
+    "summaryKo": "meta-models가 공개한 300억 파라미터 규모의 이미지-텍스트-투-텍스트 모델로, Apache 2.0 라이선스의 오픈 웨이트로 배포됐다.",
+    "tags": [
+      "오픈웨이트",
+      "멀티모달LLM"
+    ],
+    "entities": [
+      "Meta"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
     "id": "c47cbc7eb3e22410",
     "sourceType": "repo",
     "source": "GitHub",
@@ -87,10 +139,10 @@
     "url": "https://github.com/lidge-jun/opencodex",
     "publishedAt": "2026-06-18T23:03:18Z",
     "rawText": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
-    "score": 9811,
+    "score": 9966,
     "lang": "TypeScript",
-    "rank": 2,
-    "summaryKo": "OpenAI Codex와 Claude Code에서 Claude, Gemini, Grok, DeepSeek, Ollama 등 다양한 LLM을 자유롭게 연결해 쓸 수 있게 해주는 범용 프로바이더 프록시다. 코딩 에이전트 툴체인의 벤더 종속을 없애준다는 점이 흥미롭다.",
+    "rank": 3,
+    "summaryKo": "OpenAI Codex와 Claude Code에서 Claude, Gemini, Grok, DeepSeek, Ollama 등 다양한 LLM을 자유롭게 연결해 쓸 수 있게 해주는 범용 프로바이더 프록시다. 코딩 에이전트 툴체인의 벤더 종속을 없애준다는 점이 특징이다.",
     "tags": [
       "코딩에이전트",
       "프록시",
@@ -107,33 +159,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
-    "id": "1f0e60fded5cff01",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "MiniMaxAI/MiniMax-H3",
-    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-    "publishedAt": "2026-07-28T10:45:18.000Z",
-    "rawText": "image-text-to-video | minimax-h3, diffusers, safetensors, text-to-video, image-to-video, image-text-to-video, video-to-video, text-to-audio-video",
-    "score": 912,
-    "rank": 2,
-    "summaryKo": "MiniMax가 공개한 MiniMax-H3는 텍스트/이미지에서 영상은 물론 오디오까지 함께 생성하는 통합 멀티모달 생성 모델이다. text-to-video, image-to-video, video-to-video 등 다양한 영상 변환 태스크를 하나의 모델로 지원한다.",
-    "tags": [
-      "영상생성",
-      "멀티모달",
-      "Diffusion"
-    ],
-    "entities": [
-      "MiniMax",
-      "MiniMax-H3"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "f465bd989015fa8e",
@@ -160,6 +186,32 @@
     "fetchedAt": "2026-08-09T21:00:35.785Z"
   },
   {
+    "id": "2bc2cf30ffd56fe1",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Qwen/Qwen3.8-2.4T-A95B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "publishedAt": "2026-08-08T01:50:52.000Z",
+    "rawText": "text-generation | transformers, safetensors, qwen3_5_moe_text, text-generation, conversational, license:other, eval-results, endpoints_compatible",
+    "score": 874,
+    "rank": 3,
+    "summaryKo": "Qwen 3.8 계열의 초거대 MoE 텍스트 생성 모델로, 총 2.4조 파라미터 중 950억을 활성화하는 구조로 추정된다.",
+    "tags": [
+      "MoE",
+      "초거대모델",
+      "Qwen"
+    ],
+    "entities": [
+      "Qwen",
+      "Alibaba"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
     "id": "7af3ac00212dbeff",
     "sourceType": "repo",
     "source": "GitHub",
@@ -167,10 +219,10 @@
     "url": "https://github.com/drumih/turbo-fieldfare",
     "publishedAt": "2026-07-17T15:57:54Z",
     "rawText": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
-    "score": 5927,
+    "score": 5966,
     "lang": "Swift",
-    "rank": 3,
-    "summaryKo": "Gemma 4의 26B-A4B MoE 모델을 M시리즈 맥북에서 약 2GB RAM만으로 추론할 수 있게 해주는 경량 추론 엔진이다. 대형 모델을 일반 소비자용 하드웨어에서 구동 가능하게 만든 극단적인 최적화가 핵심이다.",
+    "rank": 4,
+    "summaryKo": "Gemma 4의 26B-A4B MoE 모델을 M시리즈 맥북에서 약 2GB RAM만으로 추론할 수 있게 해주는 경량 추론 엔진이다. 대형 모델을 소비자용 하드웨어에서 구동 가능하게 만든 극단적인 최적화가 핵심이다.",
     "tags": [
       "온디바이스추론",
       "MoE",
@@ -184,85 +236,32 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
-    "id": "2bc2cf30ffd56fe1",
+    "id": "1f0e60fded5cff01",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Qwen/Qwen3.8-2.4T-A95B",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-    "publishedAt": "2026-08-08T01:50:52.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3_5_moe_text, text-generation, conversational, license:other, eval-results, endpoints_compatible",
-    "score": 743,
-    "rank": 3,
-    "summaryKo": "Qwen 팀이 공개한 초대형 MoE 언어모델 Qwen3.8-2.4T-A95B로, 총 2.4조 파라미터 규모의 Mixture-of-Experts 구조를 사용한 텍스트 생성/대화 모델이다. 평가 결과가 함께 공개되어 성능을 바로 확인할 수 있다.",
-    "tags": [
-      "LLM",
-      "MoE",
-      "파운데이션모델"
-    ],
-    "entities": [
-      "Qwen",
-      "Qwen3.8-2.4T-A95B"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
-    "id": "91a11e5a1988dbb2",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "FareedKhan-dev/kimi-k3-in-c",
-    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-    "publishedAt": "2026-08-01T09:29:38Z",
-    "rawText": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-    "score": 5434,
-    "lang": "C",
+    "title": "MiniMaxAI/MiniMax-H3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "publishedAt": "2026-07-28T10:45:18.000Z",
+    "rawText": "image-text-to-video | minimax-h3, diffusers, safetensors, text-to-video, image-to-video, image-text-to-video, video-to-video, text-to-audio-video",
+    "score": 833,
     "rank": 4,
-    "summaryKo": "2.78조 파라미터 규모의 Kimi K3 모델을 GPU나 BLAS 없이 순수 C99 코드만으로 단일 CPU, 8.24GB RAM에서 추론하는 프로젝트다. 초대형 모델을 프레임워크 의존 없이 이식성 있게 구동한 극한의 경량화 사례로 주목받고 있다.",
-    "tags": [
-      "온디바이스추론",
-      "CPU추론",
-      "경량화"
-    ],
-    "entities": [
-      "Kimi K3"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
-    "id": "92c1824269f45469",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Lightricks/LTX-2.5",
-    "url": "https://huggingface.co/Lightricks/LTX-2.5",
-    "publishedAt": "2026-07-23T07:55:24.000Z",
-    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 612,
-    "rank": 4,
-    "summaryKo": "Lightricks가 공개한 LTX-2.5는 이미지·텍스트·영상·오디오 간 변환을 폭넓게 지원하는 디퓨전 기반 생성 모델이다. 단일 파일 디퓨전 형식으로 배포되어 image-to-video, text-to-video 등 다양한 생성 태스크를 하나로 커버한다.",
+    "summaryKo": "MiniMax가 공개한 이미지-텍스트-투-비디오 모델로, 텍스트·이미지 입력으로 영상을 생성하고 영상-투-영상 변환과 오디오 동반 생성까지 지원한다.",
     "tags": [
       "영상생성",
-      "Diffusion",
-      "멀티모달"
+      "멀티모달",
+      "MiniMax"
     ],
     "entities": [
-      "Lightricks",
-      "LTX-2.5"
+      "MiniMax"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "c53347638b893177",
@@ -293,6 +292,58 @@
     "fetchedAt": "2026-08-09T21:00:35.785Z"
   },
   {
+    "id": "91a11e5a1988dbb2",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "FareedKhan-dev/kimi-k3-in-c",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "publishedAt": "2026-08-01T09:29:38Z",
+    "rawText": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+    "score": 5605,
+    "lang": "C",
+    "rank": 5,
+    "summaryKo": "2.78조 파라미터 규모의 Kimi K3 모델을 GPU 없이 단일 CPU에서, BLAS나 프레임워크 없이 순수 C99만으로 8.24GB RAM에서 추론할 수 있게 만든 프로젝트다. 초거대 모델의 온디바이스·저자원 실행 가능성을 보여준다.",
+    "tags": [
+      "CPU추론",
+      "경량화",
+      "C언어"
+    ],
+    "entities": [
+      "Kimi K3"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
+    "id": "92c1824269f45469",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Lightricks/LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "publishedAt": "2026-07-23T07:55:24.000Z",
+    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
+    "score": 709,
+    "rank": 5,
+    "summaryKo": "Lightricks의 LTX 영상 생성 모델 최신판으로, 이미지·텍스트 기반 영상 생성과 오디오-투-비디오·비디오-투-오디오 변환까지 지원하는 디퓨전 모델이다.",
+    "tags": [
+      "영상생성",
+      "디퓨전",
+      "Lightricks"
+    ],
+    "entities": [
+      "Lightricks",
+      "LTX"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
     "id": "3e09ebb04c002f64",
     "sourceType": "repo",
     "source": "GitHub",
@@ -300,14 +351,14 @@
     "url": "https://github.com/Vincentwei1021/video-shotcraft",
     "publishedAt": "2026-07-19T11:44:41Z",
     "rawText": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
-    "score": 4934,
+    "score": 5017,
     "lang": "TypeScript",
-    "rank": 5,
-    "summaryKo": "Claude Code와 Codex용 AI 영상 제작 스킬로, Remotion 기반으로 152개의 촬영 구도 레시피와 209개의 모션 프리뷰를 제공해 시네마틱한 제품 영상을 자동 생성한다. 코딩 에이전트가 영상 제작 도구로 확장된 사례라는 점이 흥미롭다.",
+    "rank": 6,
+    "summaryKo": "Claude Code와 Codex용 AI 영상 제작 스킬로, Remotion 기반으로 152개 샷 레시피 카드와 209개 모션 프리뷰를 제공해 시네마틱한 제품 영상을 자동 생성한다. 제작 준비가 끝난 템플릿까지 포함한다.",
     "tags": [
       "영상생성",
-      "coding-agent",
-      "Remotion"
+      "Remotion",
+      "코딩에이전트"
     ],
     "entities": [
       "Claude Code",
@@ -319,59 +370,33 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
-    "id": "a1a747f4e1222f58",
+    "id": "bb6e58f548947f8d",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-    "publishedAt": "2026-07-31T07:30:24.000Z",
-    "rawText": "text-generation | transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results",
-    "score": 528,
-    "rank": 5,
-    "summaryKo": "DeepSeek이 공개한 DeepSeek-V4-Flash-0731은 경량·고속화에 초점을 맞춘 V4 계열의 텍스트 생성/대화 모델로, MIT 라이선스로 배포되어 상업적 활용이 자유롭다. 관련 논문과 평가 결과도 함께 공개됐다.",
+    "title": "unsloth/Qwen3.8-27B-GGUF",
+    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+    "publishedAt": "2026-08-13T08:28:40.000Z",
+    "rawText": "gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us",
+    "score": 679,
+    "rank": 6,
+    "summaryKo": "Qwen3.8-27B를 로컬 실행에 최적화된 GGUF 포맷으로 양자화한 버전으로, Unsloth가 공개했다.",
     "tags": [
-      "LLM",
-      "파운데이션모델",
-      "오픈소스모델"
+      "양자화",
+      "GGUF",
+      "온디바이스"
     ],
     "entities": [
-      "DeepSeek",
-      "DeepSeek-V4-Flash-0731"
+      "Qwen",
+      "Unsloth"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
-    "id": "b138a25ed2560f3b",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "oomol-lab/open-connector",
-    "url": "https://github.com/oomol-lab/open-connector",
-    "publishedAt": "2026-06-29T10:49:36Z",
-    "rawText": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-    "score": 4659,
-    "lang": "TypeScript",
-    "rank": 6,
-    "summaryKo": "1000개 이상의 SaaS 제공업체를 AI 에이전트와 연결해주는 오픈소스 인증 게이트웨이로, SDK·CLI·MCP·HTTP·OpenAPI 등 다양한 인터페이스를 지원한다. 에이전트가 외부 서비스에 접근할 때 필요한 인증 문제를 표준화해 해결해준다.",
-    "tags": [
-      "에이전트",
-      "MCP",
-      "인증"
-    ],
-    "entities": [
-      "MCP"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "c83ae65a5f0efc60",
@@ -451,25 +476,53 @@
     "fetchedAt": "2026-08-11T21:17:37.793Z"
   },
   {
-    "id": "8c1a63064bfb749f",
+    "id": "b138a25ed2560f3b",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "synthetic-sciences/openscience",
-    "url": "https://github.com/synthetic-sciences/openscience",
-    "publishedAt": "2026-07-03T15:06:45Z",
-    "rawText": "The open-source AI workbench for scientific research",
-    "score": 3229,
+    "title": "oomol-lab/open-connector",
+    "url": "https://github.com/oomol-lab/open-connector",
+    "publishedAt": "2026-06-29T10:49:36Z",
+    "rawText": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+    "score": 4680,
     "lang": "TypeScript",
     "rank": 7,
-    "summaryKo": "과학 연구를 위한 오픈소스 AI 워크벤치로, 연구 워크플로에 AI를 통합해 실험 설계와 분석을 지원하는 것을 목표로 한다.",
+    "summaryKo": "1,000개 이상의 SaaS 서비스를 AI 에이전트에 연결해주는 오픈소스 인증 게이트웨이로, SDK·CLI·MCP·HTTP·OpenAPI 등 다양한 방식으로 접근할 수 있다. 에이전트의 외부 서비스 연동 인증 문제를 표준화한다.",
     "tags": [
-      "AI4Science",
-      "연구도구"
+      "인증게이트웨이",
+      "MCP",
+      "에이전트연동"
     ],
     "entities": [],
-    "cats": [],
+    "cats": [
+      "에이전트"
+    ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
+    "id": "7f4a080681f7ab2f",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "MiniMaxAI/MiniMax-Music3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "publishedAt": "2026-08-07T12:23:29.000Z",
+    "rawText": "text-to-audio | diffusers, safetensors, minimax_music3, music-generation, text-to-music, pytorch, sglang-omni, text-to-audio",
+    "score": 621,
+    "rank": 7,
+    "summaryKo": "MiniMax가 공개한 텍스트-투-오디오 음악 생성 모델로, 텍스트 프롬프트로부터 음악을 만들어낸다.",
+    "tags": [
+      "음악생성",
+      "텍스트투오디오",
+      "MiniMax"
+    ],
+    "entities": [
+      "MiniMax"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "a2515949dde501f8",
@@ -522,34 +575,53 @@
     "fetchedAt": "2026-08-09T21:00:35.785Z"
   },
   {
-    "id": "0aeb376780235985",
+    "id": "8c1a63064bfb749f",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "microsoft/skill-recorder",
-    "url": "https://github.com/microsoft/skill-recorder",
-    "publishedAt": "2026-07-29T18:16:14Z",
-    "rawText": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
-    "score": 3041,
+    "title": "synthetic-sciences/openscience",
+    "url": "https://github.com/synthetic-sciences/openscience",
+    "publishedAt": "2026-07-03T15:06:45Z",
+    "rawText": "The open-source AI workbench for scientific research",
+    "score": 3233,
     "lang": "TypeScript",
     "rank": 8,
-    "summaryKo": "마이크로소프트가 공개한 데스크톱 앱으로, 사용자의 화면 작업 세션을 녹화한 뒤 GitHub Copilot CLI를 이용해 의도와 순서화된 단계로 재구성하고 이를 Microsoft Scout·Copilot Cowork·Copilot Studio용 재사용 가능한 스킬/자동화로 변환한다. 반복 업무를 화면 녹화만으로 에이전트 자동화 자산으로 바꿔준다는 점이 특징이다.",
+    "summaryKo": "과학 연구를 위한 오픈소스 AI 워크벤치로, 연구 워크플로 전반을 지원하는 것을 목표로 한다.",
     "tags": [
-      "에이전트",
-      "자동화",
-      "Copilot"
+      "연구AI",
+      "오픈소스",
+      "워크벤치"
     ],
-    "entities": [
-      "Microsoft",
-      "GitHub Copilot CLI",
-      "Microsoft Scout",
-      "Copilot Studio"
-    ],
+    "entities": [],
     "cats": [
-      "에이전트",
-      "기업·정책"
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
+    "id": "a1a747f4e1222f58",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "publishedAt": "2026-07-31T07:30:24.000Z",
+    "rawText": "text-generation | transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results",
+    "score": 496,
+    "rank": 8,
+    "summaryKo": "DeepSeek V4 계열의 경량·고속 버전으로, MIT 라이선스로 공개된 텍스트 생성 모델이다.",
+    "tags": [
+      "경량모델",
+      "오픈웨이트",
+      "DeepSeek"
+    ],
+    "entities": [
+      "DeepSeek"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "9e46d458613f25bf",
@@ -629,31 +701,33 @@
     "fetchedAt": "2026-08-09T21:00:35.785Z"
   },
   {
-    "id": "f03b6c686a597d54",
+    "id": "0aeb376780235985",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "kirodotdev/KiroCrew",
-    "url": "https://github.com/kirodotdev/KiroCrew",
-    "publishedAt": "2026-07-16T21:21:54Z",
-    "rawText": "A persistent workspace for development work that self-improves and continues beyond one session.",
-    "score": 2837,
-    "lang": "Python",
+    "title": "microsoft/skill-recorder",
+    "url": "https://github.com/microsoft/skill-recorder",
+    "publishedAt": "2026-07-29T18:16:14Z",
+    "rawText": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+    "score": 3111,
+    "lang": "TypeScript",
     "rank": 9,
-    "summaryKo": "세션이 끝나도 상태를 유지하며 스스로 개선해 나가는 개발용 지속형 워크스페이스다. 단발성 대화가 아닌 장기간 이어지는 개발 에이전트 작업 환경을 지향한다.",
+    "summaryKo": "화면 작업을 녹화한 뒤 GitHub Copilot CLI로 의도와 순서 있는 단계를 재구성해, Microsoft Scout·Copilot Cowork·Copilot Studio에서 재사용 가능한 스킬이나 자동화로 만들어주는 데스크톱 앱이다. 반복 업무를 관찰만으로 자동화 자산화할 수 있게 한다.",
     "tags": [
-      "코딩에이전트",
-      "에이전트",
-      "지속형워크스페이스"
+      "업무자동화",
+      "Copilot",
+      "스킬생성"
     ],
     "entities": [
-      "Kiro"
+      "Microsoft",
+      "GitHub Copilot",
+      "Copilot Studio"
     ],
     "cats": [
       "에이전트",
-      "코딩·개발"
+      "기업·정책"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "53a7b8f9e891d4b7",
@@ -679,32 +753,29 @@
     "fetchedAt": "2026-08-12T21:16:28.797Z"
   },
   {
-    "id": "84b5f6af5ad8118e",
+    "id": "b96a45c2e08370df",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "unsloth/Muse-Glimmer-30B-GGUF",
-    "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
-    "publishedAt": "2026-08-10T09:11:29.000Z",
-    "rawText": "image-text-to-text | transformers, gguf, unsloth, meta, image-text-to-text, arxiv:2504.13181, arxiv:2602.06036, base_model:meta-models/Muse-Glimmer-30B",
-    "score": 382,
+    "title": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+    "publishedAt": "2026-08-13T03:05:06.000Z",
+    "rawText": "text-generation | transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, endpoints_compatible",
+    "score": 415,
     "rank": 9,
-    "summaryKo": "Unsloth가 Meta의 Muse-Glimmer-30B 비전-언어 모델을 GGUF 포맷으로 변환해 배포한 버전으로, llama.cpp 등 경량 런타임에서 로컬 구동을 쉽게 해준다. 대형 VLM을 개인 환경에서도 돌릴 수 있도록 접근성을 높인 점이 특징이다.",
+    "summaryKo": "DeepSeek V4 계열의 상위 버전으로, MIT 라이선스로 공개된 텍스트 생성 모델이다. Flash 버전 대비 성능에 무게를 둔 것으로 보인다.",
     "tags": [
-      "VLM",
-      "GGUF",
-      "경량화"
+      "오픈웨이트",
+      "DeepSeek",
+      "텍스트생성"
     ],
     "entities": [
-      "Unsloth",
-      "Meta",
-      "Muse-Glimmer-30B"
+      "DeepSeek"
     ],
     "cats": [
-      "LLM·모델",
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "4e7a544a5f79a482",
@@ -730,32 +801,54 @@
     "fetchedAt": "2026-08-11T21:17:37.793Z"
   },
   {
-    "id": "9b77e1ca7eb19811",
+    "id": "f03b6c686a597d54",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "Alisa0808/vox-director",
-    "url": "https://github.com/Alisa0808/vox-director",
-    "publishedAt": "2026-07-10T15:32:05Z",
-    "rawText": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
-    "score": 1288,
+    "title": "kirodotdev/KiroCrew",
+    "url": "https://github.com/kirodotdev/KiroCrew",
+    "publishedAt": "2026-07-16T21:21:54Z",
+    "rawText": "A persistent workspace for development work that self-improves and continues beyond one session.",
+    "score": 2879,
     "lang": "Python",
     "rank": 10,
-    "summaryKo": "하나의 주제를 입력하면 Vox 스타일의 페이퍼 콜라주 설명/광고 영상으로 자동 완성해주는 에이전트 스킬이다. Atlas Cloud와 ffmpeg 기반으로 기획부터 렌더링까지 전 과정을 자동화한다.",
+    "summaryKo": "한 세션에 그치지 않고 스스로 개선하며 이어지는 지속형 개발 워크스페이스를 표방하는 프로젝트다.",
     "tags": [
-      "영상생성",
-      "에이전트",
-      "자동화"
+      "에이전트워크스페이스",
+      "자기개선"
     ],
-    "entities": [
-      "Atlas Cloud",
-      "ffmpeg"
-    ],
+    "entities": [],
     "cats": [
-      "멀티모달",
-      "에이전트"
+      "에이전트",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
+    "id": "84b5f6af5ad8118e",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "unsloth/Muse-Glimmer-30B-GGUF",
+    "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
+    "publishedAt": "2026-08-10T09:11:29.000Z",
+    "rawText": "image-text-to-text | transformers, gguf, unsloth, meta, image-text-to-text, arxiv:2504.13181, arxiv:2602.06036, base_model:meta-models/Muse-Glimmer-30B",
+    "score": 402,
+    "rank": 10,
+    "summaryKo": "Muse-Glimmer-30B를 로컬 구동용 GGUF 포맷으로 양자화한 버전이다.",
+    "tags": [
+      "양자화",
+      "GGUF",
+      "온디바이스"
+    ],
+    "entities": [
+      "Unsloth"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "e7129e9021b63e3a",
@@ -785,31 +878,29 @@
     "fetchedAt": "2026-08-13T21:17:33.606Z"
   },
   {
-    "id": "a1c19b4f6ea2b935",
+    "id": "9b77e1ca7eb19811",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "nexu-io/codex-slides",
-    "url": "https://github.com/nexu-io/codex-slides",
-    "publishedAt": "2026-07-10T10:14:34Z",
-    "rawText": "🎨 Open-source AI slide studio inside Codex: image-native decks, every slide a full visual canvas. ⚡ 10+ high-quality slides in ~4–5 minutes — Fast mode renders every page in parallel. 🔍 Watch the whole chain live: research → outline → style → render → edit → present → export PDF/PPTX. 🖥️ Browser-first · zero API keys · durable projects.",
-    "score": 811,
-    "lang": "TypeScript",
+    "title": "Alisa0808/vox-director",
+    "url": "https://github.com/Alisa0808/vox-director",
+    "publishedAt": "2026-07-10T15:32:05Z",
+    "rawText": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+    "score": 1297,
+    "lang": "Python",
     "rank": 11,
-    "summaryKo": "Codex 안에서 동작하는 오픈소스 AI 슬라이드 제작 스튜디오로, 리서치→개요→스타일→렌더링→편집→발표→PDF/PPTX 내보내기까지 전체 체인을 자동화한다. 이미지 네이티브 슬라이드를 4~5분 만에 10장 이상 생성하며 API 키 없이 브라우저에서 바로 쓸 수 있다.",
+    "summaryKo": "하나의 주제를 입력하면 Vox 스타일의 페이퍼 콜라주 설명·광고 영상을 Atlas Cloud와 ffmpeg로 처음부터 끝까지 자동 제작해주는 에이전트 스킬이다.",
     "tags": [
-      "에이전트",
-      "슬라이드생성",
-      "coding-agent"
+      "영상생성",
+      "에이전트스킬",
+      "자동화"
     ],
-    "entities": [
-      "Codex"
-    ],
+    "entities": [],
     "cats": [
-      "에이전트",
-      "코딩·개발"
+      "멀티모달",
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "c646eb1fc2a92144",
@@ -839,6 +930,33 @@
     "fetchedAt": "2026-08-09T21:00:35.785Z"
   },
   {
+    "id": "a1c19b4f6ea2b935",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "nexu-io/codex-slides",
+    "url": "https://github.com/nexu-io/codex-slides",
+    "publishedAt": "2026-07-10T10:14:34Z",
+    "rawText": "🎨 Open-source AI slide studio inside Codex: image-native decks, every slide a full visual canvas. ⚡ 10+ high-quality slides in ~4–5 minutes — Fast mode renders every page in parallel. 🔍 Watch the whole chain live: research → outline → style → render → edit → present → export PDF/PPTX. 🖥️ Browser-first · zero API keys · durable projects.",
+    "score": 816,
+    "lang": "TypeScript",
+    "rank": 12,
+    "summaryKo": "Codex 안에서 동작하는 오픈소스 AI 슬라이드 제작 도구로, 리서치→개요→스타일→렌더링→편집→발표→PDF/PPTX 내보내기까지 전 과정을 처리한다. 병렬 렌더링으로 10장 이상의 고품질 슬라이드를 4~5분 만에 만든다.",
+    "tags": [
+      "슬라이드생성",
+      "Codex",
+      "프레젠테이션"
+    ],
+    "entities": [
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
+  },
+  {
     "id": "c6264443ffd59c12",
     "sourceType": "repo",
     "source": "GitHub",
@@ -846,14 +964,13 @@
     "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
     "publishedAt": "2026-06-30T14:34:58Z",
     "rawText": "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file.",
-    "score": 522,
+    "score": 523,
     "lang": "TypeScript",
-    "rank": 12,
-    "summaryKo": "코딩 에이전트를 영상 제작 스튜디오로 바꿔주는 도구로, 자연어로 영상을 설명하면 에이전트가 타임라인을 작성해 실제 영상 파일을 만들어준다.",
+    "rank": 13,
+    "summaryKo": "코딩 에이전트를 영상 스튜디오로 바꿔주는 도구로, 자연어로 영상을 설명하면 에이전트가 타임라인을 작성해 영상 파일을 만들어낸다.",
     "tags": [
       "영상생성",
-      "coding-agent",
-      "에이전트"
+      "코딩에이전트"
     ],
     "entities": [],
     "cats": [
@@ -861,7 +978,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "92e545db7b487ac7",
@@ -871,22 +988,21 @@
     "url": "https://github.com/flatkey-ai/flatkey-cli",
     "publishedAt": "2026-07-17T03:35:56Z",
     "rawText": "Flatkey media generation CLI for images, videos, audio, text, credits, and model discovery.",
-    "score": 412,
+    "score": 429,
     "lang": "JavaScript",
-    "rank": 13,
-    "summaryKo": "이미지·영상·오디오·텍스트 생성과 모델 탐색을 하나의 CLI로 통합한 미디어 생성 도구다. 여러 생성형 모달리티를 단일 커맨드라인 인터페이스에서 다룰 수 있게 해준다.",
+    "rank": 14,
+    "summaryKo": "이미지·영상·오디오·텍스트 생성과 크레딧 관리, 모델 탐색까지 하나로 묶은 미디어 생성 CLI 도구다.",
     "tags": [
-      "멀티모달생성",
-      "CLI"
+      "미디어생성",
+      "CLI",
+      "멀티모달"
     ],
-    "entities": [
-      "Flatkey"
-    ],
+    "entities": [],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "120bb0cace626caa",
@@ -896,21 +1012,21 @@
     "url": "https://github.com/i3T4AN/KADATH",
     "publishedAt": "2026-08-08T15:49:55Z",
     "rawText": "Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across reproducible epochs to converge on optimization of a goal.",
-    "score": 348,
+    "score": 351,
     "lang": "Python",
-    "rank": 14,
-    "summaryKo": "자율 에이전트들을 세대별로 교배·평가·개선시켜 목표에 수렴하도록 만드는 진화형 멀티 에이전트 런타임이다. 재현 가능한 에폭 단위로 에이전트 집단을 반복 진화시키는 방식이 특징이다.",
+    "rank": 15,
+    "summaryKo": "재현 가능한 세대(epoch)를 거치며 자율 에이전트를 교배·평가·개선해 목표 최적화에 수렴시키는 진화적 멀티에이전트 런타임이다.",
     "tags": [
       "멀티에이전트",
       "진화알고리즘",
-      "에이전트"
+      "에이전트런타임"
     ],
     "entities": [],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
     "id": "83f2b8821371be1f",
