@@ -1,0 +1,24 @@
+{
+  "points": [
+    "Cursor가 자체 코드 호스팅 서비스 Origin을 모든 유료 플랜 사용자에게 얼리 베타로 공개했다.",
+    "Codebase 탭에서 새 Origin 저장소를 만들 수 있으며 CLI 설치와 clone·push 명령이 함께 안내된다.",
+    "GitHub 저장소와 Origin을 연동하면 실시간 양방향 동기화가 이뤄진다.",
+    "Origin 안에서 PR diff 리뷰, 댓글, 머지가 가능하고 GitHub와도 양방향으로 연동된다.",
+    "AI 에이전트가 코드·PR과 한 화면에서 질의응답, 수정, PR 업데이트, 브랜치 push까지 처리할 수 있다.",
+    "Vercel, Depot, Buildkite 등 외부 앱 연동도 지원하며 향후 확장될 예정이다."
+  ],
+  "sections": [
+    {
+      "heading": "Origin 출시 개요",
+      "body": "Cursor가 자체 코드 호스팅 기능 Origin을 모든 유료 플랜에 얼리 베타로 공개했다. 엔터프라이즈 조직은 관리자가 옵트아웃하면 대상에서 제외된다. Codebase 탭에서 저장소 이름을 정하면 CLI 설치 방법과 clone·push 명령이 안내된다."
+    },
+    {
+      "heading": "GitHub 연동과 PR 워크플로",
+      "body": "GitHub 저장소를 Origin과 연결하면 실시간 양방향 동기화가 이루어진다. Origin 안에서 PR의 diff 리뷰, 댓글 작성, 머지까지 처리할 수 있고 GitHub 쪽에서도 동일하게 반영된다."
+    },
+    {
+      "heading": "AI 에이전트 통합과 앱 확장",
+      "body": "코드, PR, AI 에이전트가 한 화면에 모여 있어 에이전트가 질문에 답하고 코드를 수정하며 PR을 업데이트하고 브랜치를 push하는 작업까지 이어서 처리할 수 있다. Vercel, Depot, Buildkite 등 외부 서비스 연동도 지원하며 저장소 설정 화면에서 동기화 상태와 접근 권한, 연결 앱을 관리할 수 있다."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-08-15",
-  "windowLabel": "2026년 8월 9~15일 기준",
-  "updatedAt": "2026-08-14T21:14:46Z",
+  "asOf": "2026-08-19",
+  "windowLabel": "2026년 8월 15~19일 기준",
+  "updatedAt": "2026-08-18T21:19:39Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -25,11 +25,9 @@
       "metric": "GPQA Diamond",
       "note": "대학원 수준 과학·전문 추론 — 약학·의학·화학·생물 등 전문 분야 정확도.",
       "ranks": [
-        { "rank": 1, "model": "GPT-5.6 Sol", "score": "94.6%", "basis": "GPQA Diamond 94.6% 1위 (Claude Mythos Preview 동점)", "source": "llm-stats" },
-        { "rank": 2, "model": "Claude Mythos Preview", "score": "94.6%", "basis": "GPQA Diamond 94.6% (GPT-5.6 Sol 동점)", "source": "llm-stats" },
-        { "rank": 3, "model": "Gemini 3.1 Pro", "score": "94.3%", "basis": "GPQA Diamond 94.3%", "source": "llm-stats" },
-        { "rank": 4, "model": "Claude Opus 4.7", "score": "94.2%", "basis": "GPQA Diamond 94.2%", "source": "llm-stats" },
-        { "rank": 5, "model": "Claude Opus 4.8", "score": "93.6%", "basis": "GPQA Diamond 93.6% (GPT-5.5 동점)", "source": "llm-stats" }
+        { "rank": 1, "model": "Grok 4.6 (high)", "score": "94.9%", "basis": "GPQA Diamond 94.9% 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "Gemini 3.7 Flash (high)", "score": "94.5%", "basis": "GPQA Diamond 94.5%", "source": "artificialanalysis" },
+        { "rank": 3, "model": "GPT-5.6 Sol (max)", "score": "94.1%", "basis": "GPQA Diamond 94.1%", "source": "artificialanalysis" }
       ]
     },
     {
@@ -85,16 +83,16 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1373", "basis": "Elo 1373, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Reve 2.1", "score": "Elo 1327", "basis": "Elo 1327", "source": "artificialanalysis" },
-        { "rank": 3, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1324", "basis": "Elo 1324", "source": "artificialanalysis" },
-        { "rank": 4, "model": "GPT Image 1.5 (high)", "score": "Elo 1314", "basis": "Elo 1314", "source": "artificialanalysis" },
-        { "rank": 5, "model": "MAI-Image-2.5", "score": "Elo 1310", "basis": "Elo 1310", "source": "artificialanalysis" },
-        { "rank": 6, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1300", "basis": "Elo 1300", "source": "artificialanalysis" },
-        { "rank": 7, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1293", "basis": "Elo 1293", "source": "artificialanalysis" },
-        { "rank": 8, "model": "Seedream 5.0 Pro", "score": "Elo 1284", "basis": "Elo 1284", "source": "artificialanalysis" },
-        { "rank": 9, "model": "grok-imagine-image-quality", "score": "Elo 1238", "basis": "Elo 1238", "source": "artificialanalysis" },
-        { "rank": 10, "model": "Qwen Image 2.0 Pro", "score": "Elo 1238", "basis": "Elo 1238", "source": "artificialanalysis" }
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1368", "basis": "Elo 1368, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "Reve 2.1", "score": "Elo 1321", "basis": "Elo 1321", "source": "artificialanalysis" },
+        { "rank": 3, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1320", "basis": "Elo 1320", "source": "artificialanalysis" },
+        { "rank": 4, "model": "GPT Image 1.5 (high)", "score": "Elo 1310", "basis": "Elo 1310", "source": "artificialanalysis" },
+        { "rank": 5, "model": "MAI-Image-2.5", "score": "Elo 1303", "basis": "Elo 1303", "source": "artificialanalysis" },
+        { "rank": 6, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1295", "basis": "Elo 1295", "source": "artificialanalysis" },
+        { "rank": 7, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1290", "basis": "Elo 1290", "source": "artificialanalysis" },
+        { "rank": 8, "model": "Qwen-Image-3.0-Pro", "score": "Elo 1284", "basis": "Elo 1284", "source": "artificialanalysis" },
+        { "rank": 9, "model": "Seedream 5.0 Pro", "score": "Elo 1280", "basis": "Elo 1280", "source": "artificialanalysis" },
+        { "rank": 10, "model": "Qwen-Image-3.0", "score": "Elo 1271", "basis": "Elo 1271", "source": "artificialanalysis" }
       ]
     },
     {
@@ -106,10 +104,11 @@
       "note": "가중치 공개 — API 비용 없이 로컬·자체서버 구동, 보안·파인튜닝.",
       "ranks": [
         { "rank": 1, "model": "Kimi K3", "score": "Index 60", "basis": "Intelligence Index 60 (max), 오픈웨이트 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "DeepSeek V4 Pro 0813", "score": "Index 53", "basis": "Intelligence Index 53 (Reasoning, Max Effort)", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GLM-5.2", "score": "Index 53", "basis": "Intelligence Index 53 (max)", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Motif 3", "score": "Index 47", "basis": "Intelligence Index 47", "source": "artificialanalysis" },
-        { "rank": 5, "model": "MiniMax M3", "score": "Index 45", "basis": "Intelligence Index 45, 네이티브 멀티모달", "source": "artificialanalysis" }
+        { "rank": 2, "model": "GLM-5.3", "score": "Index 60", "basis": "Intelligence Index 60 (max, Kimi K3 동점)", "source": "artificialanalysis" },
+        { "rank": 3, "model": "DeepSeek V4 Pro 0813", "score": "Index 53", "basis": "Intelligence Index 53 (Reasoning, Max Effort)", "source": "artificialanalysis" },
+        { "rank": 4, "model": "GLM-5.2", "score": "Index 53", "basis": "Intelligence Index 53 (max)", "source": "artificialanalysis" },
+        { "rank": 5, "model": "Motif 3", "score": "Index 47", "basis": "Intelligence Index 47", "source": "artificialanalysis" },
+        { "rank": 6, "model": "MiniMax M3", "score": "Index 45", "basis": "Intelligence Index 45, 네이티브 멀티모달", "source": "artificialanalysis" }
       ]
     },
     {
@@ -122,7 +121,8 @@
       "ranks": [
         { "rank": 1, "model": "DeepSeek V4 Flash", "score": "$0.14/M", "basis": "최저가 API (입력 $0.14 / 출력 $0.28 per 1M)", "source": "pricepertoken" },
         { "rank": 2, "model": "MiniMax M3", "score": "$0.60/M", "basis": "입력 $0.60 / 출력 $2.40, SWE-bench 80%+ 모델 중 최저가", "source": "pricepertoken" },
-        { "rank": 3, "model": "Claude Haiku 4.5", "score": "—", "basis": "가격 기준 상위권", "source": "ailab" }
+        { "rank": 3, "model": "Kimi K2.7 Code", "score": "$0.95/M", "basis": "입력 $0.95 / 출력 $4.00 per 1M", "source": "pricepertoken" },
+        { "rank": 4, "model": "GLM 5.2", "score": "$1.40/M", "basis": "입력 $1.40 / 출력 $4.40 per 1M", "source": "pricepertoken" }
       ]
     }
   ],
@@ -145,10 +145,10 @@
     { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
   ],
   "sources": [
-    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 8월 15일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 8월 15일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 8월 15일" },
+    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 8월 19일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 8월 19일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 8월 19일" },
     { "name": "LLM Stats", "url": "https://llm-stats.com", "updated": "2026년 8월 14일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 8월 15일" }
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 8월 19일" }
   ]
 }

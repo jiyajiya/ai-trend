@@ -1,0 +1,27 @@
+{
+  "points": [
+    "AI 기업들이 공개하는 사용 통계는 자체 선별 데이터라 독립적 검증 수단이 없다는 지적이 나온다.",
+    "Stanford, MIT 등이 참여한 AI Observatory가 24,521개 대화를 독립적으로 분석했다.",
+    "Anthropic Economic Index는 약 48%의 비업무 대화를 필터링해 제외했다.",
+    "실제 대화에서는 건강·관계 상담(44.2%), 성인 콘텐츠(16.7%), 괴롭힘(27.5%) 비중이 공식 발표보다 높게 나타났다.",
+    "모델별로 이용 목적이 다르다: Grok·Gemini는 정보 검색, Anthropic은 코딩, ChatGPT는 숙제 도움 중심이다."
+  ],
+  "sections": [
+    {
+      "heading": "문제 제기",
+      "body": "Anthropic과 OpenAI 등 AI 기업들은 자사 제품 사용 방식에 대한 보고서를 정기적으로 발표하지만, 공개하고 싶은 데이터만 선별해 보여준다는 비판이 제기된다. Stanford STAIR Lab의 Anka Reuel은 이를 검증할 독립적 출처가 없다고 지적한다."
+    },
+    {
+      "heading": "AI Observatory의 독립 연구",
+      "body": "Stanford, MIT Media Lab, Data Provenance Initiative 등이 참여한 AI Observatory는 2023~2025년 수집된 24,521개 대화를 독립적으로 분석했다. 이는 Anthropic(100만 건), OpenAI(150만 건) 자체 분석보다 규모는 작지만 필터링되지 않은 데이터라는 점에서 의미가 있다."
+    },
+    {
+      "heading": "공식 통계와의 격차",
+      "body": "Anthropic Economic Index는 약 48%의 비업무 관련 대화를 제외하고 발표했다. 하지만 실제 데이터에서는 건강·관계 상담이 44.2%, 성인 콘텐츠가 16.7%, 괴롭힘 관련 대화가 27.5%에 달해 공식 수치가 실제 이용 실태를 충분히 반영하지 못한다는 점이 드러났다."
+    },
+    {
+      "heading": "모델별 이용 목적 차이",
+      "body": "분석에 따르면 Grok과 Gemini는 정보 검색 용도로, Anthropic 모델은 코딩 작업으로, ChatGPT는 숙제 도움 용도로 주로 사용되는 등 모델마다 뚜렷한 이용 패턴 차이가 나타났다."
+    }
+  ]
+}
