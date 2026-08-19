@@ -1,5 +1,569 @@
 [
   {
+    "id": "5ad21a2c22ecdf54",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The learned helplessness epidemic of the AI era",
+    "url": "https://substack.com/sign-in",
+    "publishedAt": "Wed, 19 Aug 2026 20:52:21 +0000",
+    "rawText": "Article URL: https://substack.com/sign-in Comments URL: https://news.ycombinator.com/item?id=49367089 Points: 1 # Comments: 0",
+    "summaryKo": "AI 시대의 '학습된 무력감' 확산을 다룬 아티클로 보이나, 원문 링크가 Substack 로그인 페이지로 리다이렉트돼 본문을 확인할 수 없었다. 제목상 AI에 대한 과도한 의존이 사람들의 주도성과 문제 해결 능력을 약화시키는 현상을 다룬 것으로 추정된다.",
+    "tags": [
+      "AI 의존",
+      "학습된 무력감"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-19T21:15:15.887Z"
+  },
+  {
+    "id": "e187430167f18b18",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "GOP issues stark warning to AI companies",
+    "url": "https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election",
+    "publishedAt": "Wed, 19 Aug 2026 20:45:54 +0000",
+    "rawText": "Article URL: https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election Comments URL: https://news.ycombinator.com/item?id=49366999 Points: 3 # Comments: 0",
+    "summaryKo": "미 공화당 상원 캠프(NRSC)가 AI 기업들에 데이터센터에 대한 부정적 여론이 오하이오 상원 선거에서 공화당 패배 요인이 될 수 있다고 경고하는 비공개 메모를 보냈다. 전력·물 소비는 크지만 고용 창출은 미미하다는 지역 반감이 확산되는 가운데, 민주당 후보가 현 상원의원을 '데이터센터의 얼굴'로 공격하며 여론조사에서 8포인트 앞서고 있다.",
+    "tags": [
+      "AI 정책",
+      "데이터센터"
+    ],
+    "entities": [
+      "NRSC"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "168a3a8de5ed929d",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "How generative AI affects homework productivity and learning",
+    "url": "https://graphics.social/@metin/117123760167000114",
+    "publishedAt": "Wed, 19 Aug 2026 20:45:46 +0000",
+    "rawText": "Article URL: https://graphics.social/@metin/117123760167000114 Comments URL: https://news.ycombinator.com/item?id=49366996 Points: 1 # Comments: 0",
+    "summaryKo": "중국 중고생 26,811명을 30개월간 추적한 연구에서, 생성형 AI 도입은 숙제 점수를 18% 올리고 완료 시간을 30% 단축했지만 6개월 내 월간 시험 점수가 20%, 대입 시험 성적이 18~24% 하락했다. AI 사용자의 약 80%가 짧은 숙제 시간과 높은 점수라는 '숙제 외주화' 패턴을 보였고, 이들의 시험 성적이 특히 나빠졌다.",
+    "tags": [
+      "AI 교육",
+      "학습 효과"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "45e743fb49f09764",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "A Human, for AI",
+    "url": "https://yourhuman.ai/",
+    "publishedAt": "Wed, 19 Aug 2026 20:41:16 +0000",
+    "rawText": "Article URL: https://yourhuman.ai/ Comments URL: https://news.ycombinator.com/item?id=49366946 Points: 1 # Comments: 0",
+    "summaryKo": "yourhuman.ai는 AI 에이전트가 법원 방문, 공증, 습식 서명처럼 사람이 직접 처리해야 하는 법적·물리적 업무를 수행하도록 인증된 변호사·수탁자를 MCP 서버나 HTTP API로 연결해주는 서비스다. 모든 요청은 인간이 직접 검토·처리하며 타임스탬프가 기록돼, AI가 할 수 없는 '휴먼 인 더 루프'와 법적 책임 구간을 메운다.",
+    "tags": [
+      "에이전트",
+      "휴먼 인 더 루프"
+    ],
+    "entities": [
+      "YourHuman.ai",
+      "MCP"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "33726382b0b5a2e7",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "시민 위생 — 경찰국가에 악용될 기술을 만들지 말 것 (2013)",
+    "url": "https://news.hada.io/topic?id=32673",
+    "publishedAt": "2026-08-20T05:31:55+09:00",
+    "rawText": "공익을 위해 만든 데이터베이스도 정권이 바뀌면 시민을 탄압하는 감시 도구로 전용될 수 있어, 현재가 아닌 다음 정부까지 고려한 설계가 필요함 성적 지향 정보는 보건 서비스·출생률·학교 수요 계획에 유용할 수 있지만, 동성애 혐오 세력이 집권하면 특정 시민...",
+    "summaryKo": "공익을 위해 구축한 데이터베이스라도 정권이 바뀌면 시민을 탄압하는 감시 도구로 전용될 수 있다는 2013년 글이다. 성적 지향 정보는 보건 서비스나 인구 계획에 유용하지만, 동성애 혐오 정권이 집권하면 특정 시민을 겨냥하는 무기가 될 수 있어 현재가 아닌 다음 정부까지 고려한 설계가 필요하다고 지적한다.",
+    "tags": [
+      "시민사회",
+      "감시기술",
+      "데이터윤리"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-19T21:15:15.887Z"
+  },
+  {
+    "id": "e32273a5a567f66f",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618",
+    "publishedAt": "Wed, 19 Aug 2026 20:30:01 +0000",
+    "rawText": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618 Comments URL: https://news.ycombinator.com/item?id=49366811 Points: 2 # Comments: 0",
+    "summaryKo": "중국 중고생 26,811명을 30개월간 추적한 논문 'The Generative AI Learning Penalty'는 생성형 AI 도입이 숙제 점수를 18% 올리고 완료 시간을 30% 단축시켰지만, 6개월 내 월간 시험 점수가 20%, 대입 시험 성적이 18~24% 하락했다고 보고한다. 사용자의 약 80%가 보인 '숙제 외주화' 패턴이 시험 성적 악화의 핵심 원인으로 지목된다.",
+    "tags": [
+      "AI 교육",
+      "학습 효과",
+      "논문"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f05312c96fe3c222",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Meta is launching a new Mac app dedicated to its AI chatbot",
+    "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+    "publishedAt": "Wed, 19 Aug 2026 20:24:17 +0000",
+    "rawText": "Article URL: https://www.theverge.com/tech/982270/meta-ai-mac-app Comments URL: https://news.ycombinator.com/item?id=49366733 Points: 1 # Comments: 0",
+    "summaryKo": "Meta가 AI 챗봇 전용 Mac 앱을 출시했다. 화면의 특정 윈도우를 공유하면 그 내용을 바탕으로 제안·질문 답변·콘텐츠 생성을 하고, 모든 앱에서 쓸 수 있는 음성 받아쓰기와 Google Workspace·Instagram·Facebook·광고 캠페인 연동도 지원해 소셜 게시물 성과 분석과 보고서 자동화 같은 업무를 처리할 수 있다.",
+    "tags": [
+      "AI 챗봇",
+      "생산성 도구"
+    ],
+    "entities": [
+      "Meta",
+      "Meta AI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f6b30ce2e7153209",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Squid – I built an AI meeting participant that knows when not to speak",
+    "url": "https://meet.squidhub.ai/",
+    "publishedAt": "Wed, 19 Aug 2026 20:20:06 +0000",
+    "rawText": "Article URL: https://meet.squidhub.ai/ Comments URL: https://news.ycombinator.com/item?id=49366664 Points: 1 # Comments: 0",
+    "summaryKo": "Squid는 Google Meet·Zoom 회의에 참가자로 들어가 이름이 불릴 때만 음성으로 응답하고 나머지 시간은 경청하는 AI 회의 참가자다. 회의 후에는 결정사항·담당자·기한을 정리해 Trello·Notion에 기록하며, 베타 기간 중 Jira·Linear·Plane·Asana 연동도 추가할 예정이다.",
+    "tags": [
+      "에이전트",
+      "회의 자동화"
+    ],
+    "entities": [
+      "Squid"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4201eaaadb88fb6d",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Perplexity's free AI offer left it with millions more users in India",
+    "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+    "publishedAt": "Wed, 19 Aug 2026 20:19:01 +0000",
+    "rawText": "Article URL: https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/ Comments URL: https://news.ycombinator.com/item?id=49366650 Points: 2 # Comments: 0",
+    "summaryKo": "Perplexity가 인도 통신사 Airtel과 손잡고 3억 6천만 고객에게 Pro 구독을 12개월 무료 제공한 결과, 프로모션 7개월간 다운로드가 전년 대비 9배(5,600만 건) 급증했고 MAU는 최고 2,200만 명까지 치솟았다. 프로모션 종료 후 다운로드는 90% 넘게 줄었지만 앱 내 구매·구독 수익은 오히려 약 60% 늘어 무료 사용자 일부의 유료 전환 가능성을 시사한다.",
+    "tags": [
+      "사용자 성장",
+      "프리미엄 전환"
+    ],
+    "entities": [
+      "Perplexity",
+      "Airtel"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "392eb8d3996dc9c2",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 추론 속도가 이제 눈으로 따라갈 수 없는 영역에 들어섰습니다. 세...",
+    "url": "https://www.threads.com/t/DcO_w5ciJE7",
+    "publishedAt": "Wed, 19 Aug 2026 20:00:17 GMT",
+    "rawText": "@choi.openai: 추론 속도가 이제 눈으로 따라갈 수 없는 영역에 들어섰습니다. 세레브라스가 새 추론 시스템 CS-4를 공개했습니다. 회사에 따르면 GPU보다 최대 30배 빠르고, 전력당 처리량은 이전 세대의 10배입니다. A4 한두 장 분량의 답변이 1초 안에 생성되는 속도로, 10조 파라미터 모델을 초당 1,000토큰으로 돌리는 것을 목표로 합니다. 칩 자체는 새것이 아닙니다. 2년 된 WSE-3를 개선한 터보 버전 3장을 한 랙에 넣고 전원과 통신 구조를 다시 설계해 성능을 끌어올렸습니다. 이 속도가 특히 중요한 곳은 에이전트입니다. 사람은 초당 20토큰만 넘어도 읽기 어렵지만, 에이전트는 추론과 도구 호출을 반복하므로 토큰 속도가 곧 작업 완료 시간으로 이어집니다. 다만 랙당 메모리가 GPU 시스템보다 적어 비용 부담이 크다는 지적도 있습니다. 오픈AI 계약과 AMD 제휴를 확보한 세레브라스가 이 성능을 실제 서비스 가격으로 얼마나 경쟁력 있게 내놓을지가 관건입니다.",
+    "summaryKo": "세레브라스가 새 추론 전용 시스템 CS-4를 공개했다. 기존 GPU 대비 최대 30배 빠르고 전력당 처리량은 이전 세대의 10배로, 10조 파라미터급 모델을 초당 1,000토큰으로 구동하는 것이 목표다. 이 속도는 토큰 속도가 곧 작업 완료 시간으로 이어지는 AI 에이전트 워크로드에 특히 중요하다.",
+    "tags": [
+      "추론",
+      "AI칩",
+      "에이전트"
+    ],
+    "entities": [
+      "Cerebras",
+      "CS-4",
+      "OpenAI",
+      "AMD"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z"
+  },
+  {
+    "id": "0bddef04dfd07278",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Moderna, 흑색종 mRNA 신생항원 치료제 최초의 긍정적 3상 결과 발표",
+    "url": "https://news.hada.io/topic?id=32672",
+    "publishedAt": "2026-08-20T04:31:29+09:00",
+    "rawText": "Moderna와 Merck가 완전 절제된 IIB~IV기 흑색종 환자를 대상으로 intismeran autogene과 KEYTRUDA 병용 보조요법의 긍정적인 3상 결과를 발표함 임상시험은 1차 평가변수인 무재발 생존기간과 주요 2차 평가변수인 원격전이 없는 생존기간을 모두...",
+    "summaryKo": "모더나와 머크가 완전 절제된 IIB~IV기 흑색종 환자를 대상으로 mRNA 신생항원 치료제 intismeran autogene과 KEYTRUDA 병용 보조요법의 3상 결과를 발표했다. 1차 평가변수인 무재발 생존기간과 2차 평가변수인 원격전이 없는 생존기간을 모두 충족해, 개인 맞춤 mRNA 암 치료제가 처음으로 3상 문턱을 넘은 사례가 됐다.",
+    "tags": [
+      "mRNA",
+      "바이오테크",
+      "임상시험"
+    ],
+    "entities": [
+      "Moderna",
+      "Merck",
+      "KEYTRUDA"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "df8f12302a5b421a",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Offering Zero Data Retention for frontier models",
+    "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "publishedAt": "Wed, 19 Aug 2026 19:00:00 GMT",
+    "rawText": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+    "summaryKo": "OpenAI가 적격 API 기업 고객을 대상으로 Zero Data Retention(ZDR)을 재확인하고, 프롬프트·응답 내용을 직원이 열람하지 않고도 오남용 패턴을 감지하는 신기능 Private Safety Processing을 프리뷰로 공개했다. 여러 상호작용에 걸쳐 나타나는 위협은 잡아내면서도 고객이 제어하는 암호화와 제한적 신호 전달로 프라이버시를 지키는 것이 핵심이다.",
+    "tags": [
+      "데이터 프라이버시",
+      "AI 안전",
+      "엔터프라이즈"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT Enterprise"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "abaed39cbc9c9b42",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "5 new ways to level up your learning with Search",
+    "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+    "publishedAt": "Wed, 19 Aug 2026 19:00:00 +0000",
+    "rawText": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\"&gt;Here’s how you can use Google Search tools to study for classes and standardized tests.",
+    "summaryKo": "Google이 Search에 학습 지원 기능 5가지를 추가했다. AI 오버뷰·AI 모드가 복잡한 개념을 시각화해 보여주고, 맞춤형 연습 문제와 SAT·ACT·GRE 등 표준화 시험 대비 문제를 제공하며, Lens로 촬영한 문제의 오답 원인을 짚어주고, Gemini Notebook 통합과 학습 자료 자동 생성 기능까지 추가됐다.",
+    "tags": [
+      "검색",
+      "AI 오버뷰",
+      "교육"
+    ],
+    "entities": [
+      "Google",
+      "Google Search",
+      "Gemini",
+      "Lens"
+    ],
+    "cats": [
+      "멀티모달",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "04001ed5aa245ce3",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "농담으로 산 도메인이 지정학적 전쟁에 휘말린 과정",
+    "url": "https://news.hada.io/topic?id=32671",
+    "publishedAt": "2026-08-20T03:32:55+09:00",
+    "rawText": "2018년 Habhub 리디렉션으로 시작한 SondeHub는 독립적인 라디오존데 추적·예측 인프라로 성장해 정부·군·항공기관·우크라이나 작전팀까지 사용하는 서비스가 됨 지상까지 이어지는 비행 추적과 역방향 예측으로 발사 지점을 추정하면서 문서화되지 않은 관측소뿐...",
+    "summaryKo": "취미로 시작한 라디오존데 추적 프로젝트 SondeHub가 2018년 Habhub 리디렉션에서 출발해 정부·군·항공기관은 물론 우크라이나 작전팀까지 쓰는 인프라로 성장했다. 지상까지 이어지는 비행 추적과 역방향 예측으로 발사 지점을 추정하는 기능 때문에 지정학적 갈등에 휘말리게 된 사연을 다룬다.",
+    "tags": [
+      "오픈소스",
+      "인프라",
+      "라디오존데"
+    ],
+    "entities": [
+      "SondeHub",
+      "Habhub"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f3bb124caa2e2b6f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 27B 모델이 램 8GB 노트북에서 돌아가는 단계까지 왔습니다. 로컬 LLM 쪽...",
+    "url": "https://www.threads.com/t/DcO1eZ1goMY",
+    "publishedAt": "Wed, 19 Aug 2026 18:30:22 GMT",
+    "rawText": "@choi.openai: 27B 모델이 램 8GB 노트북에서 돌아가는 단계까지 왔습니다. 로컬 LLM 쪽에서 양자화로 이름난 Unsloth가 Qwen3.8-27B의 새 압축 버전을 내놨는데, 같은 용량에서 정확도가 10% 올라갔고 1비트까지 눌러 담은 버전도 원본 성능의 77%를 유지한다고 합니다. 지난주 버전만 해도 램이 17GB는 필요했으니 닷새 만에 문턱이 절반 아래로 내려온 겁니다. 양자화는 모델 파라미터의 숫자 정밀도를 낮춰 용량을 줄이는 기술입니다. 무작정 누르면 성능도 같이 하락하는데, Unsloth는 레이어마다 중요도를 따져 민감한 부분은 정밀도를 남기고 덜 중요한 부분만 세게 압축하는 방식으로 손실을 줄였습니다. 이제는 더 작은 모델을 만드는 것뿐 아니라, 큰 모델을 얼마나 덜 손상시키면서 작게 욱여넣느냐가 로컬 LLM의 또 다른 경쟁축이 되고 있습니다.",
+    "summaryKo": "로컬 LLM 양자화로 알려진 Unsloth가 Qwen3.8-27B의 새 압축 버전을 공개해, 램 8GB 노트북에서도 27B 모델 구동이 가능해졌다. 레이어별 중요도를 고려한 압축으로 같은 용량에서 정확도가 10% 올라갔고, 1비트로 압축한 버전도 원본 성능의 77%를 유지한다.",
+    "tags": [
+      "양자화",
+      "로컬LLM",
+      "온디바이스"
+    ],
+    "entities": [
+      "Unsloth",
+      "Qwen3.8-27B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z"
+  },
+  {
+    "id": "b4652546173af1d2",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "CSS, 받은편지함 속 폭탄",
+    "url": "https://news.hada.io/topic?id=32670",
+    "publishedAt": "2026-08-20T03:03:39+09:00",
+    "rawText": "웹메일이 신뢰할 수 없는 HTML·CSS를 신뢰된 UI 안에서 렌더링하면서 생기는 파서·새니타이저 불일치로 UI 조작, 토큰 유출, 외부 서비스 침해, 비밀번호 탈취까지 가능함 허용된 <label>, 의사 요소, 속성 선택자, 글꼴 높이 측정, 애니메이션만으로 Outlook 동...",
+    "summaryKo": "웹메일이 신뢰할 수 없는 HTML·CSS를 신뢰된 UI 안에서 렌더링하면서 발생하는 파서·새니타이저 불일치를 악용하면 UI 조작, 토큰 유출, 비밀번호 탈취까지 가능하다는 보안 리서치다. label 태그, 의사 요소, 속성 선택자, 폰트 높이 측정, 애니메이션 같은 허용된 CSS 기능만으로 Outlook 등 주요 웹메일 클라이언트에서 공격이 가능함을 보여준다.",
+    "tags": [
+      "웹보안",
+      "CSS",
+      "이메일"
+    ],
+    "entities": [
+      "Outlook"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "594da01141dcebb0",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Opus 4.8급 성능을 주장하는 오픈소스 모델이 MIT 라이선스로 그냥 풀ᄅ...",
+    "url": "https://www.threads.com/t/DcOrPaCglvA",
+    "publishedAt": "Wed, 19 Aug 2026 17:00:57 GMT",
+    "rawText": "@choi.openai: Opus 4.8급 성능을 주장하는 오픈소스 모델이 MIT 라이선스로 그냥 풀렸습니다. Ornith이라는 신생 랩이 공개한 Ornith-1.5인데, 9B부터 397B까지 세 가지 크기를 내놓으면서 상업적 이용까지 열어뒀습니다. 자체 발표 기준으로는 코딩과 에이전트 벤치마크에서 최상위 상용 모델과 비슷한 점수를 냈다고 합니다. 훈련 방식이 독특한데요. 사람이 만든 문제집으로 배우는 게 아니라, 모델이 스스로 새 과제를 내고 풀이 환경을 짠 다음 풀어본 결과에서 강화학습으로 배우는 루프를 돌립니다. 좋은 학습 데이터가 귀해지는 시대에 모델이 자기 교재를 직접 쓰는 셈입니다. 물론 아직 자체 벤치마크라 외부 검증이 남았고, 홍보성 계정들이 초반 반응을 끌어올린 흔적도 있어서 실사용 평가는 기다려볼 필요가 있습니다.",
+    "summaryKo": "신생 AI랩 Ornith이 Opus 4.8급 성능을 주장하는 오픈소스 모델 Ornith-1.5를 9B·397B 등 세 가지 크기로 MIT 라이선스 공개했다. 사람이 만든 문제집 대신 모델이 스스로 과제와 풀이 환경을 만들어 강화학습하는 훈련 방식을 쓰며, 자체 벤치마크로는 코딩·에이전트 지표에서 최상위 상용 모델에 근접한다고 주장하지만 외부 검증은 아직 남아있다.",
+    "tags": [
+      "오픈소스모델",
+      "강화학습",
+      "벤치마크"
+    ],
+    "entities": [
+      "Ornith",
+      "Ornith-1.5"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z"
+  },
+  {
+    "id": "0ce4f3b9ca60fb13",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "GrapheneOS 지원 Motorola 기기, 2027년 출시 예정",
+    "url": "https://news.hada.io/topic?id=32669",
+    "publishedAt": "2026-08-20T01:31:41+09:00",
+    "rawText": "첫 Motorola 지원 기기는 2027년 출시될 예정이며, Pixel보다 고성능·고가인 플래그십 모델로 시작함 보급형 기기는 업데이트 기간과 보안 기능이 요구 수준에 미치지 못해 지원까지 더 오래 걸리며, 주된 제약은 Qualcomm의 지원 방식임 최신 Snapdragon...",
+    "summaryKo": "GrapheneOS를 공식 지원하는 첫 Motorola 기기가 2027년 출시될 예정이며, Pixel보다 고성능·고가인 플래그십 모델부터 시작한다. 보급형 기기는 업데이트 기간과 보안 요구 수준 미달, Qualcomm의 칩 지원 정책 제약 때문에 지원까지 더 오래 걸릴 전망이다.",
+    "tags": [
+      "GrapheneOS",
+      "모바일보안",
+      "Motorola"
+    ],
+    "entities": [
+      "GrapheneOS",
+      "Motorola",
+      "Qualcomm",
+      "Pixel"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "795fa00b7d121b40",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "고착된 임금 규범이 예상 밖 인플레이션을 실질임금 손실로 바꾼 과정",
+    "url": "https://news.hada.io/topic?id=32668",
+    "publishedAt": "2026-08-20T00:44:09+09:00",
+    "rawText": "미국 노동자 월 약 1,600만 명의 ADP 급여 자료를 분석한 결과, 연례 명목임금 인상이 물가에 충분히 연동되지 않아 2021~2024년 같은 직장에 계속 근무한 노동자의 43%가 실질임금 하락을 겪음 대부분의 기업은 다수 노동자에게 하나의 기업별 임금 인상 규범을 적...",
+    "summaryKo": "미국 노동자 약 1,600만 명의 ADP 급여 데이터를 분석한 결과, 기업들이 일괄 적용하는 연례 임금 인상 규범이 물가 상승에 충분히 연동되지 않아 2021~2024년 동일 직장 근속자의 43%가 실질임금 하락을 겪었다. 예상 밖 인플레이션 앞에서 경직된 기업별 임금 규범이 손실을 키운 구조를 분석한다.",
+    "tags": [
+      "노동경제",
+      "인플레이션",
+      "임금"
+    ],
+    "entities": [
+      "ADP"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "b5d7eb1cbea90518",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Fairphone, 미국에서 공식 판매 시작",
+    "url": "https://news.hada.io/topic?id=32667",
+    "publishedAt": "2026-08-20T00:41:09+09:00",
+    "rawText": "미국 전용 웹숍을 열고 완전 언락된 Fairphone (Gen. 6+) 와 Fairbuds·Fairbuds XL을 처음으로 공식 판매함 Snapdragon 7s Gen 4와 12GB DDR5 RAM을 탑재해 전작보다 앱 로딩·전환 속도가 최대 24% 빨라지고, 시스템 RAM 예약 시간은 최대 20% 줄어듦 And...",
+    "summaryKo": "지속가능성을 내세운 네덜란드 스마트폰 제조사 Fairphone이 미국 전용 웹숍을 열고 완전 언락된 Fairphone Gen.6+와 Fairbuds·Fairbuds XL을 처음 공식 판매한다. Snapdragon 7s Gen 4와 12GB DDR5 RAM을 탑재해 전작보다 앱 로딩·전환 속도가 최대 24% 빨라졌다.",
+    "tags": [
+      "스마트폰",
+      "지속가능성",
+      "하드웨어"
+    ],
+    "entities": [
+      "Fairphone",
+      "Snapdragon 7s Gen 4"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "003c85ccfc9fc9c9",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "그래도 총을 든 사람들이 결국 하라고 명령한다",
+    "url": "https://news.hada.io/topic?id=32666",
+    "publishedAt": "2026-08-20T00:38:09+09:00",
+    "rawText": "2011년 이집트 정부는 인터넷을 차단한 뒤 이동통신망으로 친정부 메시지를 발송했으며, Vodafone은 당국의 요구를 거부할 법적·현실적 수단이 없었다고 밝힘 기술의 악용 가능성을 고려하는 시민적 위생(Civic Hygiene) 과 보안 장치도 무장한 권력이 운영자를 직...",
+    "summaryKo": "2011년 이집트 정부가 인터넷을 차단한 뒤 이동통신망으로 친정부 메시지를 발송했을 때 Vodafone은 이를 거부할 법적·현실적 수단이 없었다. 기술이 악용될 가능성을 미리 고려하는 '시민적 위생(Civic Hygiene)'을 지켜도 결국 무장한 권력이 운영자에게 강제할 수 있다는 한계를 짚는다.",
+    "tags": [
+      "감시기술",
+      "시민사회",
+      "통신"
+    ],
+    "entities": [
+      "Vodafone"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "37cc40ff1d744da7",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 🚨 미친 소식.. 개인 맞춤 mRNA 암 치료제가 처음으로 3상 문턱을 넘ᄋ...",
+    "url": "https://www.threads.com/t/DcOd2T5DwwC",
+    "publishedAt": "Wed, 19 Aug 2026 15:03:55 GMT",
+    "rawText": "@choi.openai: 🚨 미친 소식.. 개인 맞춤 mRNA 암 치료제가 처음으로 3상 문턱을 넘었습니다. 모더나와 머크가 고위험 흑색종 환자 1,137명 임상에서 재발과 원격 전이 지표를 모두 충족했다고 발표했습니다. 환자의 종양과 정상 DNA를 비교해 종양에만 있는 변이를 찾고, 그중 면역계가 가장 잘 알아볼 표적을 AI로 최대 34개 골라 그 환자 전용 mRNA 주사를 만듭니다. 수술로 종양을 제거한 뒤 재발을 막는 용도로 기존 면역항암제와 함께 씁니다. 앞선 2상 5년 추적에서는 무재발 비율이 68.8%로, 기존 치료 단독의 49.1%보다 크게 높았습니다.",
+    "summaryKo": "모더나와 머크의 개인 맞춤 mRNA 암 치료제가 고위험 흑색종 환자 1,137명 대상 3상에서 재발·원격전이 지표를 모두 충족하며 처음으로 3상 문턱을 넘었다. 환자의 종양과 정상 DNA를 비교해 AI로 면역계가 가장 잘 인식할 표적을 최대 34개 골라 환자 전용 mRNA 주사를 만드는 방식으로, 2상 5년 추적에서 무재발 비율이 68.8%로 기존 치료 단독(49.1%) 대비 크게 높았다.",
+    "tags": [
+      "mRNA",
+      "AI신약개발",
+      "정밀의료"
+    ],
+    "entities": [
+      "Moderna",
+      "Merck"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z"
+  },
+  {
+    "id": "2f00013902a29bc1",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Replit expands access to software creation with GPT-5.6 Luna",
+    "url": "https://openai.com/index/replit",
+    "publishedAt": "Wed, 19 Aug 2026 07:00:00 GMT",
+    "rawText": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+    "summaryKo": "Replit이 GPT-5.6 Luna로 구동되는 무료 모드(Free Mode)를 도입해 토큰 비용 걱정 없이 아이디어를 소프트웨어로 만들 수 있게 했다. 저비용·고성능 추론으로 접근성 장벽을 낮추고, 이후 고급 작업이 필요하면 유료 모델(GPT-5.6 Sol)로 맥락을 유지한 채 자연스럽게 전환할 수 있다.",
+    "tags": [
+      "코딩 에이전트",
+      "바이브코딩",
+      "AI 모델"
+    ],
+    "entities": [
+      "OpenAI",
+      "Replit",
+      "GPT-5.6 Luna",
+      "GPT-5.6 Sol"
+    ],
+    "cats": [
+      "코딩·개발",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "8393c843a171d723",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "ChatGPT Ads expands across Europe",
+    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "publishedAt": "Tue, 18 Aug 2026 22:00:00 GMT",
+    "rawText": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+    "summaryKo": "OpenAI가 ChatGPT Ads를 독일·프랑스·스페인 등 31개 유럽 국가로 확장한다. 초기에는 광고 솔루션팀·에이전시·기술 파트너를 통해서만 접근 가능하며, 지오 타겟팅과 커스텀 오디언스, 전환 최적화 등 측정 도구로 사용자가 탐색·비교·결정하는 순간에 광고주가 도달할 수 있게 한다.",
+    "tags": [
+      "광고",
+      "수익화"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT Ads"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "7e4ed130b4e37854",
     "sourceType": "news",
     "source": "GeekNews",
@@ -618,6 +1182,32 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-18T21:20:37.456Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "baf07daff59f271b",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "How NVIDIA scales expertise with ChatGPT Work",
+    "url": "https://openai.com/index/nvidia/chatgpt-work",
+    "publishedAt": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "rawText": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+    "summaryKo": "NVIDIA의 GTM팀과 솔루션 아키텍처팀이 ChatGPT Work로 반복 업무를 자동화해 12주 계획 주기에서 주당 약 16시간을 절감하고, 주당 25~40개의 외부 AI 업데이트를 5~8개의 실행 가능한 인사이트로 정제하는 등 프로토타입 개발 기간을 2~3주에서 3~5일로 단축했다.",
+    "tags": [
+      "업무 자동화",
+      "생산성"
+    ],
+    "entities": [
+      "OpenAI",
+      "NVIDIA",
+      "ChatGPT Work"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-19T21:15:15.887Z",
     "hasAnalysis": true
   },
   {
@@ -4069,599 +4659,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "e47a309cb75a1770",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "경동제약, 아시모브와 바이오의약품 항체 생산 세포주 개발 완료",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540167",
-    "publishedAt": "2026-08-10 18:37:42",
-    "rawText": "경동제약이 미국 인공지능(AI) 기반 합성생물학 기업 아시모브(Asimov)와 공동으로 추진한 바이오의약품 항체 후보물질의 세포주(Cell Line) 개발을 완료했다.이번 개발을 통해 경동제약은 차세대 바이오의약품 항체 후보물질을 위한 생산 세포주를 확보했으며 향후 공정개발과 대규모 생산, 상용화를 위한 기반을 마련했다.경동제약은 기존 전문의약품 연구개발 및 생산 역량을 기반으로 바이오의약품 분야로 사업 영역을 확대하고 있다. 이번 프로젝트는 높은 생산성과 제품 품질을 동시에 확보할 수 있는 생산 세포주 개발을 목표로 추진됐다.ㅐ세",
-    "summaryKo": "경동제약이 미국 AI 기반 합성생물학 기업 아시모브(Asimov)와 공동으로 바이오의약품 항체 후보물질의 생산 세포주 개발을 완료했다. 이를 기반으로 향후 공정개발과 대규모 생산·상용화를 추진할 계획이다.",
-    "tags": [
-      "AI신약개발",
-      "합성생물학"
-    ],
-    "entities": [
-      "경동제약",
-      "Asimov"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "9ac1031d1b2cd096",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "AI for science needs reasoning, not just data",
-    "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-    "publishedAt": "Mon, 10 Aug 2026 09:00:00 +0000",
-    "rawText": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the&#8230;",
-    "summaryKo": "과거 '과학의 종말' 예측이 번번이 틀렸듯, AI가 폭발적으로 발전하는 지금도 과학이 끝났다는 성급한 결론을 경계해야 한다는 논지다. 필자는 AI가 과학 발전에 실질적으로 기여하려면 단순 데이터 처리를 넘어 추론(reasoning) 능력이 필요하다고 주장한다.",
-    "tags": [
-      "AI추론",
-      "과학AI"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "837b81d5ae07cf2d",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "These startups are chasing the next big thing in LLMs",
-    "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-    "publishedAt": "Mon, 10 Aug 2026 09:00:00 +0000",
-    "rawText": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new&#8230;",
-    "summaryKo": "2017년 '어텐션이 전부다' 논문 이후 LLM 발전을 이끈 흐름을 짚으며, MIT Technology Review의 What's Next 시리즈가 다음 LLM 혁신을 좇는 스타트업들을 조명했다.",
-    "tags": [
-      "LLM",
-      "스타트업"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "3374e5946093ff6f",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "GC메디아이, 상반기 영업익 302% 급증…핵심사업·자회사 개선 효과",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540104",
-    "publishedAt": "2026-08-10 11:43:22",
-    "rawText": "GC메디아이가 메디컬 인프라와 커머스 등 핵심 사업 성장과 자회사 손익 개선에 힘입어 상반기 영업이익을 4배 이상 끌어올렸다. 하반기에는 '의사랑 AI' 확산과 EMR 연계 서비스를 통한 신규 수익모델 확보에 나선다.GC메디아이는 2026년 상반기 연결기준 매출 1014억원, 영업이익 62억원을 기록했다고 밝혔다. 전년 동기 대비 매출은 7.9%, 영업이익은 302.3% 증가했다.외형 성장보다 수익성 개선 폭이 두드러졌다. 메디컬 인프라(Medical Infra), 데이터&마케팅(Data & MKT), 커머스(Commerce), 플",
-    "summaryKo": "GC메디아이가 메디컬 인프라·커머스 등 핵심사업 성장과 자회사 손익 개선에 힘입어 2026년 상반기 영업이익을 전년 대비 302% 늘렸다. 하반기에는 AI 기반 '의사랑 AI' 확산과 EMR 연계 서비스로 신규 수익모델을 확보할 계획이다.",
-    "tags": [
-      "의료AI",
-      "실적"
-    ],
-    "entities": [
-      "GC메디아이"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "4130fbd2544b0e03",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "심평원 'AI 대전환' 주제 보건의료 혁신 국제 심포지엄",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540093",
-    "publishedAt": "2026-08-10 11:07:18",
-    "rawText": "건강보험심사평가원(원장 홍승권)은 오는 28일 서울 장충동 소재 앰배서더 서울 풀만 2층 그랜드볼룸에서 '인공지능(AI) 대전환, 보건의료 혁신의 미래를 열다 - 제도, 정책, 그리고 현장을 다시 그리다'를 주제로 2026년 국제 심포지엄을 개최한다.이번 심포지엄은 AI가 의료서비스와 보건의료 정책 전반의 혁신을 이끄는 세계적 흐름에 발맞춰, AI의 제도권 편입을 위한 정책 방향을 모색하고, 안전하고 신뢰할 수 있는 AI 활용 방안을 논의하기 위해 마련됐다.기조연설은 경제협력개발기구(OECD) 에릭 서덜랜드(Eric Sutherla",
-    "summaryKo": "건강보험심사평가원이 'AI 대전환, 보건의료 혁신의 미래를 열다'를 주제로 국제 심포지엄을 개최해 AI의 제도권 편입을 위한 정책 방향과 안전한 활용 방안을 논의한다. OECD 에릭 서덜랜드 등이 기조연설을 맡는다.",
-    "tags": [
-      "보건의료AI",
-      "정책"
-    ],
-    "entities": [
-      "건강보험심사평가원",
-      "OECD"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "4e2a8e33150db106",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "LSK, JSM 2026서 AI 활용 약물 안전성 연구 공개",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540080",
-    "publishedAt": "2026-08-10 09:12:55",
-    "rawText": "LSK Global PS가 인공지능(AI)을 활용한 의약품 안전성 분석 연구를 세계 최대 규모의 통계학 학술대회에서 공개하며 임상·약물감시 분야에서의 AI 활용 가능성을 제시했다.LSK Global PS ARS(Academic Research Service) 본부 김선우 전무는 미국통계학회(American Statistical Association, ASA)가 주최하는 ‘Joint Statistical Meetings(JSM) 2026’에서 ‘VigiBase를 활용한 티사젠렉류셀 관련 심혈관계 이상사례 신호 탐지를 위한 설명 가능한",
-    "summaryKo": "LSK Global PS가 미국통계학회(ASA) 'Joint Statistical Meetings 2026'에서 AI를 활용한 의약품 안전성 분석 연구를 발표했다. VigiBase 데이터를 활용해 특정 세포치료제 관련 심혈관계 이상사례 신호를 설명 가능한 AI로 탐지하는 방법론을 제시했다.",
-    "tags": [
-      "약물감시",
-      "설명가능AI"
-    ],
-    "entities": [
-      "LSK Global PS"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "2a5c0cad5d8b2f9d",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Premium seats are coming to ChatGPT Business",
-    "url": "https://openai.com/index/premium-seats-chatgpt-business",
-    "publishedAt": "Mon, 10 Aug 2026 00:00:00 GMT",
-    "rawText": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-    "summaryKo": "OpenAI가 ChatGPT Business에 프리미엄 시트(Premium seats)를 도입한다고 발표했다. 8월 20일까지 가입하면 워크스페이스 크레딧 100달러와 함께 팀의 고강도 작업을 위한 더 높은 사용 한도를 제공한다.",
-    "tags": [
-      "ChatGPT",
-      "기업요금제"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT Business"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "6476741ad7bd8e8e",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-    "url": "https://openai.com/index/zapier",
-    "publishedAt": "Mon, 10 Aug 2026 00:00:00 GMT",
-    "rawText": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-    "summaryKo": "Zapier의 엔터프라이즈 마케팅팀이 ChatGPT Work를 도입해 리드 퍼널 이탈을 줄이고 캠페인 자산 제작과 리포트 자동화를 실현했다. 기업 도입 사례로 생성형 AI가 마케팅 핵심 프로세스에 실질적으로 통합되고 있음을 보여준다.",
-    "tags": [
-      "ChatGPT",
-      "기업 자동화"
-    ],
-    "entities": [
-      "OpenAI",
-      "Zapier",
-      "ChatGPT Work"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-11T21:17:37.793Z"
-  },
-  {
-    "id": "d41606a7fb6e9f32",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "배우도 촬영장도 없이 자동차 광고 10컷 — Higgsfield MCP로 발주부터 검수까지",
-    "url": "https://www.youtube.com/watch?v=eiMYL6byyFo",
-    "publishedAt": "2026-08-09T09:06:48+00:00",
-    "rawText": "배우도 촬영장도 없이 자동차 광고 10컷 — Higgsfield MCP로 발주부터 검수까지",
-    "summaryKo": "백엔드 개발자가 디자인 지식 없이 Claude와 Higgsfield의 MCP 연동만으로 하루 만에 배우·촬영장 없는 자동차 광고 10컷을 제작한 사례다. Claude가 스토리보드와 프롬프트를 설계하는 두뇌 역할을, Higgsfield가 이미지·영상·음성을 생성하는 손 역할을 맡으며, 얼굴·소품을 미리 만든 에셋으로 재사용하고 Blender로 카메라 동선을 블록아웃해 컷 간 일관성을 확보하는 방식을 소개한다.",
-    "tags": [
-      "MCP",
-      "AI 영상 생성",
-      "3D 블록아웃"
-    ],
-    "entities": [
-      "Claude",
-      "Higgsfield",
-      "Blender"
-    ],
-    "cats": [
-      "멀티모달",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "videoId": "eiMYL6byyFo",
-    "fetchedAt": "2026-08-10T21:14:39.917Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "d31b6f14f3727b96",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
-    "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
-    "publishedAt": "Sat, 08 Aug 2026 10:24:54 +0000",
-    "rawText": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime minister of the Republic of Armenia; Zhaslan Madiyev, deputy [&#8230;]",
-    "summaryKo": "AI 클라우드 기업 Firebird가 NVIDIA 가속 컴퓨팅과 Dell 인프라를 기반으로 CIS 지역 최대 규모의 AI 팩토리를 아르메니아에 구축했다고 발표했다. 아르메니아 총리 등이 참석한 가운데 새로운 AI 컴퓨팅 허브 출범이 공식화됐다.",
-    "tags": [
-      "AI 인프라",
-      "데이터센터"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Firebird",
-      "Dell Technologies"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "34443e6ca27c7536",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "Aside 핵심 가이드: 한국인 3명이 만든 AI 브라우저, 직접 써보고 솔직하게 정리했습니다",
-    "url": "https://www.youtube.com/watch?v=5EZx-4Op9Po",
-    "publishedAt": "2026-08-08T10:00:35+00:00",
-    "rawText": "Aside 핵심 가이드: 한국인 3명이 만든 AI 브라우저, 직접 써보고 솔직하게 정리했습니다",
-    "summaryKo": "한국인 3명이 YC 투자를 받아 만든 AI 브라우저 'Aside'는 기존 로그인 세션을 그대로 활용해 웹에서 실제 작업을 대신 수행하는 '브라우저를 가진 AI 에이전트' 개념을 제시한다. Claude, GPT 등 기존 구독을 연결해 추가 비용 없이 쓸 수 있고, 작업 기록을 마크다운 메모리로 남기며 Claude Code·MCP와 연동해 CLI에서도 제어할 수 있다. 리뷰어는 아직 초기 서비스라 다소 불안정하지만 로그인이 필요한 작업(스레드 게시, 개인화 검색 등)에서 확실한 속도 우위를 보였다고 평가했다.",
-    "tags": [
-      "AI 브라우저",
-      "에이전틱 워크플로",
-      "MCP",
-      "브라우저 자동화"
-    ],
-    "entities": [
-      "Aside",
-      "Claude",
-      "Claude Code",
-      "Arc",
-      "Y Combinator"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "videoId": "5EZx-4Op9Po",
-    "fetchedAt": "2026-08-10T21:14:39.917Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "4d955cbf0da59a52",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "요즘 가장 핫한 AI툴 Buzz, 클로드코드·코덱스를 한 팀으로 쓰는 법!",
-    "url": "https://www.youtube.com/watch?v=3RApTxBeE7E",
-    "publishedAt": "2026-08-08T05:00:17+00:00",
-    "rawText": "요즘 가장 핫한 AI툴 Buzz, 클로드코드·코덱스를 한 팀으로 쓰는 법!",
-    "summaryKo": "트위터 창업자 잭 도시가 만든 블록(Block)이 공개한 오픈소스 협업 도구 '버즈(Buzz)'는 슬랙처럼 채널과 스레드를 쓰면서 클로드 코드, 코덱스, 로컬 모델 등 서로 다른 AI 에이전트를 팀원처럼 초대해 같은 컨텍스트를 공유하며 협업시킬 수 있다. 영상은 정부 지원사업 공고를 해석하는 클로드 코드 에이전트와 그 내용을 반박·검토하는 코덱스 에이전트를 한 스레드에서 순차 협업시키는 실습을 보여주며, 툴별로 흩어지던 결과와 피드백을 한 곳에서 관리할 수 있다는 점이 새롭다. 다만 모바일 앱 완성도, 승인 게이트 UI, 파일 첨부 기능은 아직 미완성 상태다.",
-    "tags": [
-      "멀티에이전트",
-      "Claude Code",
-      "Codex",
-      "오픈소스"
-    ],
-    "entities": [
-      "Buzz",
-      "Claude Code",
-      "Codex",
-      "Block"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "videoId": "3RApTxBeE7E",
-    "fetchedAt": "2026-08-10T21:14:39.917Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "e66cc71d0943fe40",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Responding to the next frontier of critical cyber capabilities",
-    "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-    "publishedAt": "Fri, 07 Aug 2026 15:20:00 GMT",
-    "rawText": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-    "summaryKo": "OpenAI가 차세대 모델 Astra에 대한 예비 사이버보안 평가 결과를 공개하고, 이에 대응해 안전장치와 보안 통제를 강화하는 조치를 취하고 있다고 밝혔다. 프런티어 모델의 사이버 역량이 커지는 데 따른 선제적 위험 관리 사례다.",
-    "tags": [
-      "사이버보안",
-      "AI 안전"
-    ],
-    "entities": [
-      "OpenAI",
-      "Astra"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "7347f06e7c916544",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-    "url": "https://openai.com/index/hsp-gruppe",
-    "publishedAt": "Fri, 07 Aug 2026 09:00:00 GMT",
-    "rawText": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-    "summaryKo": "독일 세무자문 기업 HSP GRUPPE가 ChatGPT Enterprise를 도입해 생산성과 업무 품질을 높이고 세무자문·고객 서비스에 투입할 여력을 늘린 사례를 OpenAI가 소개했다.",
-    "tags": [
-      "기업도입",
-      "생산성"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT Enterprise",
-      "HSP GRUPPE"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "cdd8d819f4855db7",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Improving Fable 5's biology safeguards",
-    "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-    "publishedAt": "Thu, 06 Aug 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-heather\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Improving Fable 5's biology safeguards\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/e253e6c4926deb09baf67f41e4e24e8028ea5f36-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query. In our testing, this update reduced <em>biology-related</em> fallbacks by about 85% across our product surfaces.<sup class=\"caption Body-module-scss-module__z40yvW__sup\">1</sup></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Fable 5 will thus be able to assist with a wider range of biology tasks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In practice, users should see far fewer fallbacks on everyday health and educational questions—for example, interpreting lab results, understanding symptoms, and learning about biology in an educational context. Healthcare professionals will be able to receive more support from Fable 5 on clinical tasks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We believe the greatest opportunity for AI to positively affect the world is in biology and medicine, and we're investing significantly in building a responsible way to give biologists frontier access. Today, Fable still falls back to Opus 5 for requests we consider dual-use—including virology, toxicology, and molecular design—so it isn't yet usable for professional biology research and drug development. We're committed to closing that gap through trusted access pathways for frontier biology capabilities.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"why-we-built-strong-biology-safeguards\">Why we built strong biology safeguards</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Our objective is to get Fable 5’s frontier capabilities into the hands of as many of our users as possible, as quickly as possible. However, to do so, we need to manage the increasing risks that come with models this capable. One such risk is in the field of biology: Fable 5 can now outperform experts on some highly complex biological tasks and provide operational support on others. That means that it can provide genuine assistance to a researcher developing a new medical treatment (which is the reason we’re so keen to widen access to the model via both classifier improvements and trusted access programs). But in the wrong hands, those same capabilities could be used by a malicious actor, for example in developing a biological weapon. Our <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\">capability assessments</a> show that Fable 5 could provide significant <em>uplift</em> to such an actor—that is, it could provide them with capabilities they could not find anywhere else.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">It’s often difficult to tell apart beneficial and harmful uses of AI in biology. For example, in some cases researching a treatment for a disease requires scientists to produce the dangerous compounds that <em>cause</em> that disease in the first place. This is most obvious for live vaccines, which require scientists to grow the same pathogen they’re aiming to prevent. It’s also the case for some medicines. To develop the drug captopril, which treats hypertension, scientists isolated toxic components of snake venom that crash blood pressure in humans. As new biological capabilities develop on the frontier of AI, we need to be cautious to ensure that the new risks they pose do not materialize ahead of their potential scientific benefits.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Sophisticated actors who wish to use our models to do harm know how to exploit this ambiguity to obscure their intent, making dangerous tasks look like ordinary research pursuits. The US Intelligence Community’s <a href=\"https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf\">2026 Annual Threat Assessment</a> makes clear that such actors exist, and that advances in biotechnology including synthetic biology and genomic editing <em>“could lead to novel biological threats.”</em> It notes that several state actors likely maintain active offensive biological and chemical weapons programs—programs that could be accelerated by access to the raw capabilities of frontier AI models.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Because of our concerns about these “dual-use” capabilities (those that could be used for beneficial or harmful purposes, and where the line between them is not always easy to draw), we intentionally launched Fable 5 with almost all biology queries blocked. This enabled us to make the model available for users in other domains. We knew this would be frustrating for legitimate biology users: it would result in a high number of false positives in the near-term, where users asking biology-related questions would have their requests blocked and sent to a less capable model. Nevertheless, we chose to make this tradeoff because the cost of Fable being misused in a dual-use domain like biology could potentially be <a href=\"https://cdn.sanity.io/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf\">catastrophic</a>.</p><h3 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"how-our-biology-safeguards-work\">How our biology safeguards work</h3><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">One of the core ways we protect against misuse in biology is via safety <em>classifiers:</em> smaller, automated AI systems that detect when Fable 5 is asked to perform a safeguarded biology task, or produce a harmful output (we've <a href=\"https://www.anthropic.com/news/fable-safeguards-jailbreak-framework\">previously written</a> about our similar classifiers in the domain of cybersecurity).</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">In the case of Fable 5, when a classifier fires, the model re-routes the user’s request to Opus 5, a capable model that does not have the same level of biological capability as Fable 5 and which cannot provide as much assistance to a malicious user. This is the fallback that users see when their requests are blocked.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Developing precise, robust classifiers is not a straightforward task. For a classifier to work rapidly and consistently, it has to learn the difference between what we consider “in scope” and “out of scope” for the topics and queries we consider to be potentially harmful. It takes time and iteration to tune the classifiers, avoiding both false positives (where classifiers fire on out-of-scope content) and false negatives (where in-scope content is missed). We also require our classifiers to be robust to attempts to bypass them (known as jailbreaks), which requires even further research and testing.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Starting with a very broad biology classifier meant that we could give our users access to Fable 5 while we continued our research aimed at refining it. The alternative—holding back the model until much more safeguards progress was made—would have delayed the model’s general access, and its potential benefits to our users, by weeks or months.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Over the past several weeks, we've carefully rewritten the classifier’s constitution (which consists of a collection of rules to help the model discern between safeguarded and allowed content), taking care to carve out benign uses in detail. We solicited feedback on the changes from a diverse range of experts (both internal and external to Anthropic). We then developed updated training data for the classifier based on that constitution, and retrained it, and verified the new classifier would still generally trigger for harmful and dual-use research biology content but would now enable a wider range of benign and beneficial uses.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As is illustrated in the diagram below, these updates meant that—compared to at the time of Fable 5’s launch—the classifier will trigger for many fewer benign biology-related requests.</p><div class=\"Body-module-scss-module__z40yvW__media-column Body-module-scss-module__z40yvW__inline\"><figure class=\"ImageWithCaption-module-scss-module__Duq99q__e-imageWithCaption\"><img loading=\"lazy\" width=\"3840\" height=\"1855\" decoding=\"async\" data-nimg=\"1\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/e6d3c7b32cc8a0798c0ad58a2340f846b3c8af42-3840x1855.png\" referrerpolicy=\"no-referrer\"><figcaption class=\"caption\"><em>Illustration of our biology classifiers. Content that falls on the left-hand side of the classifier boundary is allowed; content that falls on the right-hand side is safeguarded (and is therefore blocked and sent instead to a less capable model);. Clearly harmful content (red), and content that is dual-use (orange), triggers the classifier and is blocked. We include a safety margin that includes content that is very likely benign but which is still blocked out of an abundance of caution (light green). Clearly benign content is in darker green.</em><em>Upon its launch, Fable 5 had very broad classifiers (A) that triggered on a wide range of requests—even ones that were almost certainly benign (those in the safety margin). The classifier boundary is thus very far to the left-hand side of the diagram. The update we are announcing today (B) means that many more benign requests are allowed by the classifier, which has become better at discerning subtle differences between benign and dual-use queries. The classifier boundary in the diagram has therefore moved further to the right-hand side.</em></figcaption></figure></div><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-4 post-heading\" id=\"conclusions\">Conclusions</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">There’s still much more to be done to refine our safeguards. There will inevitably remain false positives—requests that fall within the classifier’s safety margin where the request is very low-risk but where the classifier still fires. As we noted above, Fable will continue to block dual use professional biology and drug development queries because of potential dual-use risk. We are fully committed to developing a safe, scalable path for researchers to use our most capable models via trusted access pathways.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We hope you’ll continue to share your feedback with us so we can improve our safeguards even further.</p></div></div></article></div><div class=\"page-wrapper\"><div class=\"PostDetail-module-scss-module__UQuRMa__footnotes\"><h4 class=\"headline-5\">Footnotes</h4><p><sup>1 </sup>As a result, we expect the total number of fallbacks—for biology–related or any other reasons—will also be reduced: by roughly 67% on <a href=\"http://claude.ai/\">Claude.ai</a>, 55% on Cowork, 17% on Claude Code, and 7% on the Claude Platform.</p></div></div></article>",
-    "summaryKo": "Anthropic이 Fable 5의 생물학 안전 분류기를 재조정해 생물학 관련 폴백(더 낮은 성능 모델로의 전환)을 약 85% 줄였다고 밝혔다. 검사 결과 해석, 증상 이해 등 일상적 건강·교육 질문에서 오탐이 크게 줄지만, 바이러스학·독성학·분자설계 등 이중용도 영역은 여전히 Opus 5로 라우팅돼 전문 생물학 연구에는 아직 쓸 수 없다.",
-    "tags": [
-      "AI 안전성",
-      "바이오시큐리티",
-      "분류기"
-    ],
-    "entities": [
-      "Anthropic",
-      "Fable 5",
-      "Opus 5"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "9f10ae9fb17a40a7",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "GeForce NOW Shakes Up August With 26 New Games",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
-    "publishedAt": "Thu, 06 Aug 2026 13:00:11 +0000",
-    "rawText": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library, starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences [&#8230;]",
-    "summaryKo": "NVIDIA가 8월 GeForce NOW 클라우드 게이밍 서비스에 신작 게임 26종을 추가한다고 밝혔다. AI/모델 소식이라기보다는 게임 서비스 업데이트 성격의 소식이다.",
-    "tags": [
-      "클라우드게이밍"
-    ],
-    "entities": [
-      "NVIDIA",
-      "GeForce NOW"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "5cb2348978651bbc",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
-    "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
-    "publishedAt": "Thu, 06 Aug 2026 13:00:00 +0000",
-    "rawText": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosystem reaches every sector.",
-    "summaryKo": "NVIDIA가 200여개 기업·기관과 함께 'Open Weights and American AI Leadership' 공개서한에 서명하며, AI 리더십은 단일 프런티어 모델이 아니라 개방형 생태계 확산으로 결정된다고 주장했다. 오픈 월드 모델이 피지컬 AI(로보틱스 등) 발전의 프런티어를 어떻게 넓히는지도 다룬다.",
-    "tags": [
-      "오픈웨이트",
-      "피지컬AI"
-    ],
-    "entities": [
-      "NVIDIA"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-10T21:14:39.917Z"
-  },
-  {
-    "id": "cc8a9f7b6f6c9b63",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "18만 AI 유튜버가 알려주는 일반인을 위한 클로드 활용법ㅣ클로드코워크 이렇게 사용해보세요",
-    "url": "https://www.youtube.com/watch?v=GUBZ1YsuVRQ",
-    "publishedAt": "2026-08-06T09:00:07+00:00",
-    "rawText": "18만 AI 유튜버가 알려주는 일반인을 위한 클로드 활용법ㅣ클로드코워크 이렇게 사용해보세요",
-    "summaryKo": "AI 유튜버가 클로드(Claude)의 코워크 기능과 프로젝트 커스텀 지침을 활용해 업무 대시보드 생성, 로컬 폴더 연동 보고서 자동 작성 등 실무 활용법을 시연했다. 이어 대화가 길어질수록 토큰 사용량이 누적적으로 늘어나는 구조를 설명하고, 프롬프트 수정 활용·요청 묶어 보내기·파일 마크다운 변환·5시간 세션 리셋을 이용한 예약 작업 등 구체적인 토큰 절약 팁을 공개했다.",
-    "tags": [
-      "프롬프트 엔지니어링",
-      "클로드 코워크",
-      "토큰 관리",
-      "클로드 프로젝트"
-    ],
-    "entities": [
-      "Claude",
-      "Claude Cowork",
-      "Claude Projects",
-      "ChatGPT"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "videoId": "GUBZ1YsuVRQ",
-    "fetchedAt": "2026-08-10T21:14:39.917Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "143880fc515aa557",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Discovery Loop",
-    "url": "https://news.hada.io/topic?id=32186",
-    "publishedAt": "2026-08-06T04:31:42+09:00",
-    "rawText": "Discovery Loop는 반복적인 실험 과정을 AI로 자동화해 과학·공학 연구 속도를 높이고 결과물의 양과 품질을 개선하는 시스템을 개발함 프런티어 AI 모델과 대규모 컴퓨팅 인프라로 실험을 제안·실행·평가하고 결과에서 학습하며, 수천 개의 실험을 병렬 수행해 반...",
-    "summaryKo": "Discovery Loop는 반복적인 실험 과정을 AI로 자동화해 과학·공학 연구의 속도와 결과물의 양·질을 함께 끌어올리는 시스템이다. 프런티어 AI 모델과 대규모 컴퓨팅 인프라로 수천 개의 실험을 병렬로 제안·실행·평가하며 그 결과에서 스스로 학습한다.",
-    "tags": [
-      "연구자동화",
-      "실험",
-      "AI에이전트"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z"
-  },
-  {
-    "id": "83c28fc1d2a889db",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Do LLMs make ML research more fair for small teams? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/",
-    "publishedAt": "2026-08-05T19:16:29+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>It feels like LLMs are partially leveling the playing field in ML research. A solo researcher or a two-person team can now get help with coding, literature review, writing things stronger labs usually get from experienced colleagues and large networks.<br/> Obviously, LLMs don’t replace mentorship, or good research taste. But they may help researchers with weak networks or small groups turn good ideas into publishable work.<br/> Do you think this is actually making ML research more accessible, or are the strongest labs benefiting even more?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/\">[comments]</a></span>",
-    "summaryKo": "LLM 덕분에 소규모 팀이나 1인 연구자도 코딩, 문헌 조사, 글쓰기에서 대형 연구실 수준의 지원을 받을 수 있게 되면서 ML 연구의 진입장벽이 낮아지고 있다는 논의다. 다만 멘토십과 연구 안목을 대체하진 못한다며, 이 흐름이 실제로 접근성을 넓히는지 아니면 최상위 연구실이 더 큰 이득을 보는지 커뮤니티에 의견을 묻는다.",
-    "tags": [
-      "LLM",
-      "연구접근성"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z"
-  },
-  {
-    "id": "4e02d3fa7c7da973",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Cloudflare OS: 에이전트·앱·업무를 위한 개방형 플랫폼",
-    "url": "https://news.hada.io/topic?id=32185",
-    "publishedAt": "2026-08-06T03:38:12+09:00",
-    "rawText": "Cloudflare가 전 직원을 대상으로 운영해 온 Cloudflare OS의 새 버전을 오픈소스로 공개해, 조직별 지식·업무 절차·내부 시스템을 활용하는 에이전트 작업 공간을 직접 배포할 수 있게 함 플랫폼은 회사가 선별한 맥락과 기술을 사용하는 에이전트 작업 공간, 내부...",
-    "summaryKo": "Cloudflare가 사내 전 직원 대상으로 운영해 온 'Cloudflare OS'의 새 버전을 오픈소스로 공개해, 조직 고유의 지식·업무 절차·내부 시스템을 활용하는 에이전트 작업 공간을 누구나 직접 배포할 수 있게 됐다. 회사가 선별한 맥락과 기술을 사용하는 에이전트 워크스페이스를 뼈대로 한 개방형 플랫폼이다.",
-    "tags": [
-      "Cloudflare",
-      "에이전트워크스페이스",
-      "오픈소스"
-    ],
-    "entities": [
-      "Cloudflare"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z"
-  },
-  {
-    "id": "21f525aa330beb70",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Demis Hassabis, Google DeepMind CEO에서 회장으로 이동",
-    "url": "https://news.hada.io/topic?id=32184",
-    "publishedAt": "2026-08-06T03:35:12+09:00",
-    "rawText": "Demis Hassabis가 Google DeepMind의 일상 운영에서 물러나 회장을 맡고, Alphabet 수석 과학자와 Isomorphic Labs 책임자를 병행함 CTO Koray Kavukcuoglu가 수석부사장으로 조직을 이끌며 Sundar Pichai에게 직접 보고하고, Gemini 로드맵 실행에 집중함",
-    "summaryKo": "Demis Hassabis가 Google DeepMind의 일상 운영에서 물러나 회장직을 맡고, 대신 Alphabet 수석 과학자와 Isomorphic Labs 책임자 역할을 병행하기로 했다. CTO인 Koray Kavukcuoglu가 수석부사장으로 조직을 이끌며 Sundar Pichai에게 직접 보고하고 Gemini 로드맵 실행에 집중한다.",
-    "tags": [
-      "조직개편",
-      "리더십"
-    ],
-    "entities": [
-      "Google DeepMind",
-      "Demis Hassabis",
-      "Alphabet",
-      "Isomorphic Labs"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z"
-  },
-  {
-    "id": "12c55baaf5ec5b1e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "뉴멕시코 민간 항공기 추락, 미군 GPS 교란과 연관",
-    "url": "https://news.hada.io/topic?id=32183",
-    "publishedAt": "2026-08-06T01:33:28+09:00",
-    "rawText": "5월 13일 Roswell에서 Ruidoso로 향하던 의료수송용 Beechcraft King Air가 미군 훈련으로 GPS를 잃은 뒤 산에 충돌해 조종사 2명과 간호사 2명 전원이 사망했으며, 미국에서 GPS 교란이 민간 항공기 추락에 기여한 첫 사례가 됨 White Sands Missile Range의 NAVFEST 훈련...",
-    "summaryKo": "지난 5월 뉴멕시코 로즈웰에서 루이도소로 향하던 의료수송용 경비행기가 미군 훈련으로 인한 GPS 교란 탓에 위치를 잃고 산에 충돌해 조종사와 간호사 등 탑승자 4명 전원이 사망했다. 미국에서 GPS 재밍이 민간 항공기 추락의 원인으로 지목된 첫 사례로 기록됐다.",
-    "tags": [
-      "GPS재밍",
-      "항공안전"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z"
-  },
-  {
-    "id": "c9ed5435ba8b251e",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Running Whisper, Qwen3-ASR, Nemotron & MOSS completely offline on iPhone [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/",
-    "publishedAt": "2026-08-05T16:04:42+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Over the past month, I&#39;ve been building LiveTranscriber, an open-source iOS app for running modern speech and language models entirely on-device.</p> <p>The goal was to see whether recent open-source models could be turned into a practical mobile product—not just technical demos.</p> <p>Currently supported local models include:</p> <p>- Whisper for offline transcription</p> <p>- Qwen3-ASR for multilingual speech recognition</p> <p>- NVIDIA Nemotron Streaming for low-latency live transcription</p> <p>- MOSS Multi-Speaker for speaker-aware transcription</p> <p>- Qwen3 for local summaries, key points, titles, and transcript analysis</p> <p>Features include:</p> <p>- 100% offline speech recognition</p> <p>- Offline multi-speaker transcription</p> <p>- On-device summaries and key-point extraction</p> <p>- Real-time translation</p> <p>- Apple Watch recording with automatic sync</p> <p>- Downloadable and switchable local models</p> <p>- Searchable transcript history</p> <p>The main engineering challenge was not simply running the models, but making them usable on iPhone: memory management, streaming latency, model loading, context handling, battery usage, and switching between different inference backends.</p> <p>The project is fully open source:</p> <p>GitHub:</p> <p><a href=\"https://github.com/iamwilliamli/LiveTranscriber\">https://github.com/iamwilliamli/LiveTranscriber</a></p> <p>App Store:</p> <p><a href=\"https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364\">https://apps.apple.com/us/app/live-transcriber-recorder/id6785515364</a></p> <p>I&#39;d appreciate feedback from anyone working on ASR, local LLMs, on-device AI, Core ML, or mobile inference.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/marshmallow_ki\"> /u/marshmallow_ki </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/\">[comments]</a></span>",
-    "summaryKo": "Whisper, Qwen3-ASR, NVIDIA Nemotron Streaming, MOSS 등 여러 오픈소스 음성·언어 모델을 아이폰에서 완전히 오프라인으로 구동하는 iOS 앱 'LiveTranscriber'가 오픈소스로 공개됐다. 오프라인 다화자 전사, 실시간 번역, 애플워치 연동 녹음 등을 지원하며 메모리·배터리·지연시간 관리가 핵심 과제였다고 밝혔다.",
-    "tags": [
-      "온디바이스AI",
-      "음성인식",
-      "iOS"
-    ],
-    "entities": [
-      "Whisper",
-      "Qwen3-ASR",
-      "Nemotron",
-      "MOSS"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "2371359a7de79657",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "libexpat, 뮌헨시 지원으로 최대 6개월간 유급 유지보수",
-    "url": "https://news.hada.io/topic?id=32182",
-    "publishedAt": "2026-08-06T00:42:12+09:00",
-    "rawText": "2026년 8월 1일부터 뮌헨시의 Open Source Sabbatical을 통해 libexpat 유지보수가 최대 6개월간 유급 전업 업무로 전환됨 우선순위는 미해결 취약점 5개 수정과 XML 1.0r5 지원 추가, 프로젝트의 견고성·유지보수성 개선임 libexpat은 ...",
-    "summaryKo": "2026년 8월 1일부터 뮌헨시의 '오픈소스 안식년' 지원을 통해 XML 파서 라이브러리 libexpat의 유지보수가 최대 6개월간 유급 전업 업무로 전환됐다. 우선 과제는 미해결 취약점 5건 수정과 XML 1.0r5 지원 추가로, 널리 쓰이는 오픈소스 프로젝트의 견고성과 지속가능성을 높이려는 취지다.",
-    "tags": [
-      "오픈소스",
-      "유지보수",
-      "libexpat"
-    ],
-    "entities": [
-      "libexpat"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-05T21:10:59.146Z"
   }
 ]

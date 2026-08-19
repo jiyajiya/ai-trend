@@ -1,0 +1,26 @@
+{
+  "points": [
+    "OpenAI가 적격 API 기업 고객 대상 Zero Data Retention(ZDR)을 재확인했다.",
+    "신기능 Private Safety Processing을 프리뷰로 공개해 직원이 콘텐츠를 열람하지 않고도 위협 패턴을 탐지한다.",
+    "고객이 제어하는 암호화 키로 데이터를 보호하고 위험 신호만 제한적으로 전달한다.",
+    "기업 고객 데이터는 명시적 opt-in 없이는 모델 학습에 쓰이지 않는다.",
+    "AI 오남용이 단일 요청이 아니라 여러 상호작용에 걸쳐 나타날 수 있어 기존 콘텐츠 보관 기반 안전 체계의 한계를 보완하려는 시도다."
+  ],
+  "sections": [
+    {
+      "heading": "Zero Data Retention 재확인",
+      "body": "OpenAI는 적격 API 고객의 프롬프트와 응답을 처리 후 보관하지 않으며, 고객 콘텐츠는 OpenAI 직원이 검토할 수 없다고 밝혔다. 기업 고객 데이터는 명시적으로 opt-in하지 않는 한 모델 학습에 사용되지 않는다."
+    },
+    {
+      "heading": "Private Safety Processing이란",
+      "body": "기존 ZDR의 한계를 보완하는 신기술로, 복수의 상호작용을 분석해 오남용 패턴을 감지하되 OpenAI 직원이 실제 콘텐츠에 접근하지 못하도록 차단한다. 고객이 제어하는 암호화 키로 데이터를 보호하며 위험 신호만 제한적으로 전달한다."
+    },
+    {
+      "heading": "기업 고객에게 미치는 영향",
+      "body": "AI가 더 복잡한 작업을 수행할수록 악용 행동이 여러 상호작용에 걸쳐 나타날 수 있다는 문제의식에서 출발했다. 규제 준수와 데이터 보안이 모두 필요한 기업 고객에게 보안과 안전성을 동시에 제공하는 것이 목표다."
+    }
+  ],
+  "quotes": [
+    "enterprise customer data is not used to train our models unless customers explicitly opt-in"
+  ]
+}
