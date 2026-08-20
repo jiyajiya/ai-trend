@@ -24,7 +24,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "ca26bca182f697df",
@@ -50,7 +50,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "a6d644ce74e5595b",
@@ -77,7 +77,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "bb6e58f548947f8d",
@@ -103,7 +103,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "c47cbc7eb3e22410",
@@ -161,7 +161,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "7f4a080681f7ab2f",
@@ -186,7 +186,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "91a11e5a1988dbb2",
@@ -212,7 +212,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "2bc2cf30ffd56fe1",
@@ -237,7 +237,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "3e09ebb04c002f64",
@@ -266,7 +266,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "b96a45c2e08370df",
@@ -291,7 +291,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "b138a25ed2560f3b",
@@ -318,7 +318,7 @@
       "기업·정책"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "034c2462b05d2238",
@@ -344,33 +344,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
-  },
-  {
-    "id": "c5b6b84a14412553",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "lightx2v/Minimax-h3-Turbo",
-    "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
-    "publishedAt": "2026-08-07T12:59:07.000Z",
-    "rawText": "image-to-video | diffusers, t2v, i2v, r2v, image-to-video, en, zh, base_model:MiniMaxAI/MiniMax-H3",
-    "score": 432,
-    "rank": 6,
-    "summaryKo": "MiniMax-H3를 기반으로 추론 속도를 높인 경량화 버전인 MiniMax-H3-Turbo로, 텍스트/이미지/참조 기반 영상 생성(t2v, i2v, r2v)을 더 빠르게 처리한다. 영어와 중국어를 함께 지원한다.",
-    "tags": [
-      "영상생성",
-      "속도최적화",
-      "Diffusion"
-    ],
-    "entities": [
-      "MiniMax-H3",
-      "lightx2v"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "2f7ad7badae3b49f",
@@ -400,7 +374,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "92c1824269f45469",
@@ -426,33 +400,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
-  },
-  {
-    "id": "a2515949dde501f8",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "larryvrh/MiniMax-H3-Turbo-Lora",
-    "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
-    "publishedAt": "2026-08-05T21:58:56.000Z",
-    "rawText": "text-to-video | text-to-video, text-to-audio, audio-video, lora, minimax-h3, comfyui, base_model:Comfy-Org/MiniMax-H3, base_model:adapter:Comfy-Org/MiniMax-H3",
-    "score": 417,
-    "rank": 7,
-    "summaryKo": "MiniMax-H3 기반의 LoRA 어댑터로, ComfyUI 환경에서 텍스트-투-비디오/오디오 생성을 가볍게 파인튜닝해 사용할 수 있게 해준다. 전체 모델 재학습 없이 특정 스타일이나 성능을 조정할 수 있는 경량 확장 모듈이다.",
-    "tags": [
-      "LoRA",
-      "영상생성",
-      "ComfyUI"
-    ],
-    "entities": [
-      "MiniMax-H3",
-      "ComfyUI"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "8c1a63064bfb749f",
@@ -473,7 +421,7 @@
     "entities": [],
     "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "aae57d1645f8f1d3",
@@ -499,7 +447,7 @@
       "기업·정책"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "a1a747f4e1222f58",
@@ -525,33 +473,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-14T21:15:15.381Z"
-  },
-  {
-    "id": "9e46d458613f25bf",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Comfy-Org/MiniMax-H3",
-    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-    "publishedAt": "2026-07-30T22:36:12.000Z",
-    "rawText": "diffusion-single-file, comfyui, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
-    "score": 384,
-    "rank": 8,
-    "summaryKo": "MiniMax-H3를 ComfyUI에서 바로 사용할 수 있도록 단일 파일 디퓨전 형식으로 변환·파인튜닝한 배포판이다. ComfyUI 워크플로에 손쉽게 통합해 영상 생성 파이프라인을 구성할 수 있다.",
-    "tags": [
-      "Diffusion",
-      "ComfyUI",
-      "영상생성"
-    ],
-    "entities": [
-      "MiniMax-H3",
-      "ComfyUI",
-      "Comfy-Org"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
   },
   {
     "id": "0aeb376780235985",
@@ -605,30 +526,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
-  },
-  {
-    "id": "53a7b8f9e891d4b7",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "shy3130/tickflow-stock-panel",
-    "url": "https://github.com/shy3130/tickflow-stock-panel",
-    "publishedAt": "2026-06-18T06:18:29Z",
-    "rawText": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
-    "score": 2784,
-    "lang": "Python",
-    "rank": 9,
-    "summaryKo": "TickFlow 데이터를 기반으로 중국 A주 종목 선정·모니터링·백테스트를 지원하는 셀프호스팅 퀀트 워크벤치로, LLM으로 전략 커스터마이즈와 개별 종목 분석을 수행한다.",
-    "tags": [
-      "퀀트",
-      "LLM활용"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "428a27df4a6b2283",
@@ -655,7 +553,7 @@
       "기업·정책"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "9b77e1ca7eb19811",
@@ -683,7 +581,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "74d511b26275213d",
@@ -709,7 +607,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "84b5f6af5ad8118e",
@@ -738,33 +636,6 @@
     "fetchedAt": "2026-08-14T21:15:15.381Z"
   },
   {
-    "id": "e7129e9021b63e3a",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "moonshotai/Kimi-K3",
-    "url": "https://huggingface.co/moonshotai/Kimi-K3",
-    "publishedAt": "2026-06-13T06:42:57.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, kimi_k3, feature-extraction, compressed-tensors, conversational, image-text-to-text, custom_code",
-    "score": 307,
-    "rank": 10,
-    "summaryKo": "Moonshot AI가 공개한 Kimi K3는 이미지와 텍스트를 함께 이해하는 대화형 비전-언어 모델로, compressed-tensors 형식을 활용해 효율적인 배포를 지원한다. 위 목록의 초경량 CPU 추론 프로젝트(kimi-k3-in-c)가 기반으로 삼은 원본 모델이기도 하다.",
-    "tags": [
-      "VLM",
-      "LLM",
-      "멀티모달"
-    ],
-    "entities": [
-      "Moonshot AI",
-      "Kimi K3"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
     "id": "a1c19b4f6ea2b935",
     "sourceType": "repo",
     "source": "GitHub",
@@ -789,7 +660,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "c6264443ffd59c12",
@@ -814,7 +685,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "92e545db7b487ac7",
@@ -840,7 +711,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "120bb0cace626caa",
@@ -864,30 +735,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-08-19T21:15:15.887Z"
-  },
-  {
-    "id": "83f2b8821371be1f",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Mr-funny/hbg-classical-poem-silk-video",
-    "url": "https://github.com/Mr-funny/hbg-classical-poem-silk-video",
-    "publishedAt": "2026-08-03T01:04:46Z",
-    "rawText": "Agent Skill for turning Chinese classical poems into vertical Chinese-art videos with ImageGen stills, Docker I2V, calligraphy captions, retained ambience, BGM and final MP4 QA.",
-    "score": 272,
-    "lang": "Shell",
-    "rank": 15,
-    "summaryKo": "중국 고전 시를 세로형 수묵화풍 영상으로 변환해주는 에이전트 스킬로, 이미지 생성 정지화면과 Docker 기반 I2V, 서예체 자막, BGM, 최종 MP4 QA까지 자동 처리한다.",
-    "tags": [
-      "영상생성",
-      "에이전트스킬"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
+    "fetchedAt": "2026-08-20T23:14:04.459Z"
   },
   {
     "id": "1b4f9a603eeb29c1",
