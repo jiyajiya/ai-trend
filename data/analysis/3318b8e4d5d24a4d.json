@@ -1,0 +1,23 @@
+{
+  "points": [
+    "AgentCheck는 AI 에이전트를 위한 회귀 테스트(Regression Testing) 도구다.",
+    "YAML 형식으로 평문 영어 테스트 케이스를 작성하며, 각 테스트는 입력값과 기대 응답 기준을 포함한다.",
+    "CLI 실행, HTTP 엔드포인트 호출, Python 함수 직접 호출(LangGraph, CrewAI 등과 호환)을 모두 지원한다.",
+    "LLM을 심판(judge)으로 사용해 각 응답을 자동 채점하고 통과/불통과와 사유를 제공한다.",
+    "GitHub Actions 등 CI에서 pytest처럼 사용할 수 있고, 베이스라인 대비 diff를 PR 코멘트로 자동 리포팅한다."
+  ],
+  "sections": [
+    {
+      "heading": "테스트 정의 방식",
+      "body": "AgentCheck는 YAML 파일에 평문 영어로 테스트 케이스를 작성하는 방식을 취한다. 각 테스트는 입력값과 그에 대해 기대되는 응답 기준을 명시한다."
+    },
+    {
+      "heading": "실행 및 통합 방식",
+      "body": "테스트는 CLI 명령어, HTTP 엔드포인트 호출, 또는 Python 함수 직접 호출로 실행할 수 있어 LangGraph, CrewAI 같은 에이전트 프레임워크와도 호환된다. LLM을 심판으로 활용해 각 응답을 자동으로 채점하고 통과 여부와 사유를 반환한다."
+    },
+    {
+      "heading": "CI 파이프라인 연동",
+      "body": "GitHub Actions 등에서 pytest처럼 실행 가능하며, 이전 실행(베이스라인)과 비교한 diff-aware 리포트를 PR 코멘트로 자동 게시해 배포 전 빠른 회귀 검증을 지원한다."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "points": [
+    "Nvidia 벤치마크에서 Claude Opus 5는 하네스 없이 30%, 맞춤형 하네스 적용 시 100% 성능을 기록했다.",
+    "장시간(long-horizon) 작업에서는 모델 자체보다 메모리 관리와 감시를 담당하는 하네스(스캐폴딩) 설계가 더 중요하다.",
+    "Nvidia VP는 \"It is the model. It is the scaffolding around the model, which we call the harness\"라고 설명했다.",
+    "Databricks 연구에 따르면 서로 다른 하네스가 비용을 최대 2배 차이나게 만들 수 있다.",
+    "이는 기업들이 AI 도입 시 모델 선택뿐 아니라 운영 기술 스택에도 투자해야 함을 시사한다."
+  ],
+  "sections": [
+    {
+      "heading": "실험 결과",
+      "body": "Nvidia는 Claude Opus 5를 대상으로 자체 하네스 유무에 따른 성능 차이를 측정했다. 하네스가 없을 때는 30% 점수에 그쳤지만, Nvidia가 설계한 맞춤형 하네스를 적용하자 100% 달성으로 성능이 급등했다."
+    },
+    {
+      "heading": "하네스의 역할",
+      "body": "하네스는 AI 모델을 감싸는 소프트웨어 구조로, 메모리 관리와 작업 감시 등의 기능을 담당한다. Nvidia VP는 모델 자체만큼이나 이 스캐폴딩이 에이전트의 실질적 가치를 결정한다고 강조했다."
+    },
+    {
+      "heading": "비용에 미치는 영향",
+      "body": "Databricks의 별도 연구에서도 하네스 차이가 운영 비용을 최대 2배까지 벌릴 수 있다는 결과가 나와, 하네스 설계가 단순 성능뿐 아니라 비용 효율성에도 직결됨을 보여준다."
+    }
+  ],
+  "quotes": [
+    "It is the model. It is the scaffolding around the model, which we call the harness",
+    "different harnesses...can 2x your cost"
+  ]
+}
