@@ -1,5 +1,330 @@
 [
   {
+    "id": "09e22e94caada9d7",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "한국메나리니, '엔잘엑스'로 항암 시장 출사표…Specialty Care 대전환",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=541217",
+    "publishedAt": "2026-08-24 05:50:00",
+    "rawText": "140년 역사의 글로벌 제약그룹 메나리니의 한국법인 한국메나리니가 취임 3년 차를 맞은 배한준 대표의 지휘 아래 대대적인 체질 개선과 외형 확장에 나서고 있다. 다국적 제약사의 안정적인 플랫폼에 배 대표의 융합적 리더십을 더해 기존 만성질환(Primary Care) 중심에서 항암·희귀질환 등 특수치료제(Specialty Care) 중심으로 포트폴리오를 대폭 전환 중이다.최근 첫 항암제인 전립선암 치료제 ‘엔잘엑스’를 출시한 한국메나리니는 고품질 제네릭을 통한 급여 사각지대 해소, 선제적 AI 업무 시스템 도입, 국내 CDMO 파트너",
+    "summaryKo": "한국메나리니가 항암제 '엔잘엑스' 출시를 계기로 만성질환 중심에서 항암·희귀질환 등 전문치료제 중심으로 사업을 전환하고 있다. 포트폴리오 전환·CDMO 파트너십과 함께 구글 제미나이 기반 업무 자동화 도입과 전사 AI 교육을 인력 전략의 한 축으로 추진 중이다.",
+    "tags": [
+      "제약",
+      "AI 업무자동화",
+      "구글 제미나이"
+    ],
+    "entities": [
+      "한국메나리니",
+      "엔잘엑스",
+      "구글 제미나이"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "cfb51c7444e1bd42",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 익명 모델 Ox Alpha의 정체가 Zhipu의 GLM 5.3 Flash로 좁혀지고 있습니다. OpenCode에ᄉ...",
+    "url": "https://www.threads.com/t/DcZWY2dAIRN",
+    "publishedAt": "Sun, 23 Aug 2026 20:30:23 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>익명 모델 Ox Alpha의 정체가 Zhipu의 GLM 5.3 Flash로 좁혀지고 있습니다. OpenCode에서 Z.ai 계열과 같은 오류가 발생했고, 토크나이저 30개 항목이 모두 일치했습니다. Zhipu 내부 API 클래스명이 담긴 자바 스택 트레이스까지 발견됐습니다. 성능도 DeepSWE 80%에서 113문제 전체 문제로 완주한 결과 58.4%로 Opus 4.8과 비슷했고, DeepSWE 연구자가 더 큰 표본으로 측정한 결과는 63%으로 나오고 있습니다. 중요한건 결국, 하루 100조 토큰 용량을 일주일간 무료로 풀고, 1M 컨텍스트에 이미지와 영상 입력까지 지원한다는 점 같은데요. DGX Spark 두 대면 로컬에서 돌릴 수 있다는 추정도 이어지고 있습니다. 중국 모델의 경쟁이 성능을 따라잡는 데서 가격과 공급량으로 시장을 압박하는 단계로 넘어가고 있습니다. 폐쇄형 모델이 높은 가격을 유지하기는 점점 어려워지고 있습니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/780771819_17983713237112832_2090976457703129538_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=Mzk3MDMwMzAwMzU0NTU4NzcwMA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA1Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=DUYxC9M8jCcQ7kNvwFqhzd8&amp;_nc_oc=AdpIKGmISf7vG8bY0ajSW8FoWAERKkTKtkG0bWX-6kPgAvyfGG_Pz69ulMwnZJVYRiM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=EXLAtXNIZAGAEpiGiiKvlg&amp;_nc_ss=7a22e&amp;oh=00_AQHaIlcashsuXkcT-ahs7whiMTSzr8cOXK4kyfnXeAJKFg&amp;oe=6A912E26\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/783985202_17983713252112832_5809911183835339443_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=Mzk3MDMwMzAwMzU5NTkyNDA5Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA1Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=zfLNtIlV69UQ7kNvwHEun-Z&amp;_nc_oc=Adp_PJUclvMe9xX6leeG7Q5iWj9T63Sm-bMw3gmIX9tAtloYzaZ1Q0ogi_rF9N5ykIE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=EXLAtXNIZAGAEpiGiiKvlg&amp;_nc_ss=7a22e&amp;oh=00_AQECUFQc_9tPMILmj-i8W3cE1MeUQT-Y98XxQNGaWSAT_w&amp;oe=6A911E09\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "익명 모델 'Ox Alpha'의 정체가 Zhipu GLM 5.3 Flash로 좁혀지고 있다는 분석이 제기됐다. OpenCode 오류 패턴, 토크나이저 30개 항목 일치, 내부 API 클래스명이 담긴 자바 스택 트레이스 등이 근거이며, 코딩 벤치마크 성능도 Opus 4.8과 유사한 수준으로 나타났다.",
+    "tags": [
+      "GLM 5.3 Flash",
+      "익명모델",
+      "벤치마크"
+    ],
+    "entities": [
+      "Zhipu",
+      "GLM 5.3 Flash",
+      "OpenCode",
+      "Opus 4.8"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z"
+  },
+  {
+    "id": "5b3469041bc55327",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Wi-Fi 8, 수년 만에 속도 경쟁에서 벗어난 무선 업그레이드",
+    "url": "https://news.hada.io/topic?id=32812",
+    "publishedAt": "2026-08-24T04:38:19+09:00",
+    "rawText": "IEEE가 Ultra High Reliability로 부르는 Wi-Fi 8은 최고 속도보다 간섭과 비이상적 환경에서의 신뢰성·실효 처리량·지연시간 개선에 집중함 Wi-Fi 7과 최대 전송률, 공간 스트림 수, 4096-QAM, 주파수 대역, 320MHz 채널 폭은 거의 같지만, SINR별 처리량 25% 향상...",
+    "summaryKo": "IEEE가 'Ultra High Reliability'로 명명한 차세대 무선 규격 Wi-Fi 8은 최대 전송 속도 경쟁 대신 간섭 환경에서의 신뢰성과 지연시간 개선에 초점을 맞춘다. Wi-Fi 7과 기본 사양은 유사하지만 처리량 25% 향상, 지연시간·패킷손실 25% 감소를 목표로 하며 표준은 2028년 5월 확정될 예정이다.",
+    "tags": [
+      "Wi-Fi 8",
+      "무선통신",
+      "네트워크표준"
+    ],
+    "entities": [
+      "IEEE",
+      "Wi-Fi 7",
+      "Wi-Fi 8"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "a94f2c80424b60f7",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "GLM-5.3 오픈 웨이트, Anthropic·OpenAI 모델을 5분의 1 비용으로 제침",
+    "url": "https://news.hada.io/topic?id=32811",
+    "publishedAt": "2026-08-24T04:35:19+09:00",
+    "rawText": "GLM-5.3은 28개 실무 과제를 모두 통과하고 품질 점수 9.3을 받았으며, 전체 비용도 약 $0.28로 gpt-5.5의 약 5분의 1에 그침 평가는 17개 모델에 동일한 프롬프트·API 호출·OpenRouter 스트리밍 경로와 결정론적 자동 채점을 적용한 단일 시험이...",
+    "summaryKo": "중국 Zhipu의 오픈 가중치 모델 GLM-5.3이 28개 실무 과제 평가에서 100% 통과, 품질 9.3점을 기록하며 GPT-5.5 대비 약 5분의 1 비용(0.28달러)으로 비슷하거나 더 나은 성능을 보였다. 다만 단일 시험·소규모 표본이라는 한계와 벤치마크 포화 논란도 함께 제기됐다.",
+    "tags": [
+      "GLM-5.3",
+      "LLM 벤치마크",
+      "오픈웨이트"
+    ],
+    "entities": [
+      "Zhipu",
+      "GLM-5.3",
+      "OpenAI",
+      "Anthropic",
+      "GPT-5.5"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "0d50159731a674b3",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 엔비디아가 장비 가격을 올리는 동시에, 그 장비를 돌릴 AI 모델까...",
+    "url": "https://www.threads.com/t/DcZME-xjouL",
+    "publishedAt": "Sun, 23 Aug 2026 19:00:17 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아가 장비 가격을 올리는 동시에, 그 장비를 돌릴 AI 모델까지 직접 만들기 시작했습니다. 메모리 원가 상승으로 GB300과 Vera Rubin 시스템 가격이 내년 초 출하분부터 15% 넘게 오를 전망입니다. Rubin NVL72 랙 하나는 약 800만 달러로, 1GW 데이터센터를 구축할 경우 인상분만 50억 달러 이상이라는 추산도 나옵니다. 같은 주 엔비디아는 Poolside의 모델 개발 기술을 60억 달러에 비독점 라이선스하고 10억 달러를 추가 투자했습니다. 직원 109명도 Nemotron 팀에 합류해 DeepSeek, Kimi와 경쟁할 오픈웨이트 모델 개발에 나섭니다. 칩을 파는 회사에서 모델까지 공급하는 회사로 영역을 넓히고 있습니다. 비싸져도 엔비디아 장비를 살 이유까지 직접 만드는 전략입니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/785281159_17983712838112832_8480956368020475941_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzk3MDI1NzY2NTM0MzI2MTU3OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTMwOC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=F2PYQEUg_TUQ7kNvwE77n5o&amp;_nc_oc=AdowwIilvrqGWROOteukCwYqiBBjvLjBYkSFvSF1XNxxtyhwQ8W5Ckh5BHWIDgJaEvM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=EXLAtXNIZAGAEpiGiiKvlg&amp;_nc_ss=7a22e&amp;oh=00_AQFn-aMRf6HuUY2Q-sKc76yT05DzXJzP8-mdd413OLrqRQ&amp;oe=6A914365\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "엔비디아가 메모리 원가 상승을 이유로 GB300·Vera Rubin 시스템 가격을 15% 이상 인상하는 동시에, 자사 장비를 구동할 AI 모델 개발에도 직접 나서고 있다. 같은 시기 Poolside의 모델 개발 기술을 60억 달러에 비독점 라이선스하는 등 하드웨어·모델을 함께 장악하려는 움직임이 포착됐다.",
+    "tags": [
+      "엔비디아",
+      "AI 인프라",
+      "GPU 가격"
+    ],
+    "entities": [
+      "Nvidia",
+      "Poolside",
+      "GB300",
+      "Vera Rubin"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z"
+  },
+  {
+    "id": "8776320557705ff4",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "슬로바키아, 과속 단속 카메라에서 러시아 백도어 발견",
+    "url": "https://news.hada.io/topic?id=32810",
+    "publishedAt": "2026-08-24T03:31:38+09:00",
+    "rawText": "슬로바키아 국가안보국 NBU는 NERO R-ONE 과속 단속 카메라에 SMS로 셸·네트워크 접근을 허용하는 백도어가 있다며 사용을 경고함 하드코딩된 러시아 전화번호에서 SMS를 받으면 백도어가 작동하며, 장비는 러시아 Semicon의 CORDON PRO.M을 리브랜딩한 제품으로 확...",
+    "summaryKo": "슬로바키아 국가안보국이 자국에 279대 설치 예정이던 NERO R-ONE 과속단속카메라에서 러시아 하드코딩 전화번호로 SMS 셸 접근이 가능한 백도어를 발견했다. 이 장비는 러시아 Semicon사의 CORDON PRO.M을 리브랜딩한 제품으로 확인돼 배치가 중단됐다.",
+    "tags": [
+      "보안",
+      "백도어",
+      "IoT 감시장비"
+    ],
+    "entities": [
+      "NBU",
+      "NERO R-ONE",
+      "Semicon"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "5db6b3c622960881",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "태블릿 소유권을 되찾는 데 266달러와 AI 모델 4개를 썼고, GLM-5.3이 하루 만에 끝냈다",
+    "url": "https://news.hada.io/topic?id=32809",
+    "publishedAt": "2026-08-24T02:33:05+09:00",
+    "rawText": "하루 최대 두 번 완전히 꺼지는 Amazon Fire HD 10에서 보호된 패키지를 제거하려고 5개월간 AI 모델 4개를 동원했으며, 태블릿 가격의 두 배가 넘는 266.15달러를 지출함 Kimi K3는 Fire OS 7.3.2.6에 남은 CVE-2022-38181을 찾아 30시간·621개 ...",
+    "summaryKo": "한 사용자가 자동 종료 문제를 겪는 Amazon Fire HD 10 태블릿을 루팅하기 위해 5개월간 Claude·Kimi K3·GLM-5.2·GLM-5.3 등 AI 모델 4개를 동원해 266달러를 지출했다. 결국 GLM-5.3이 커널 오프셋과 드라이버 결함을 찾아내 하루 만에 루트 권한을 확보하며 성공했고, 저자는 이를 'AI 모델 지휘' 사례로 소개했다.",
+    "tags": [
+      "AI 에이전트",
+      "리버스엔지니어링",
+      "루팅"
+    ],
+    "entities": [
+      "Claude",
+      "Kimi K3",
+      "GLM-5.2",
+      "GLM-5.3",
+      "Amazon Fire HD 10"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "965e8786400e57c4",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Qwen 3.8 27B, 리버스 엔지니어링 작업을 30분 만에 완료",
+    "url": "https://news.hada.io/topic?id=32808",
+    "publishedAt": "2026-08-24T01:32:39+09:00",
+    "rawText": "단일 머신에서 실행한 Qwen 3.8 27B가 상용 앱의 라이선스 체계를 정적 분석하고, 약 30분 만에 작동하는 인증 우회 개념증명까지 만들어냄 앱을 실행하지 않은 채 수천 줄의 arm64 코드와 보안 함수 호출 지점을 분석해 바이너리에 숨겨진 공개 검증 키와 라이선스...",
+    "summaryKo": "로컬에서 실행한 Qwen 3.8 27B 모델이 상용 앱을 실행하지 않고 arm64 바이너리를 정적 분석해 약 30분 만에 라이선스 인증 우회 개념증명을 완성했다. 소비자용 GPU에서 구동되는 로컬 모델도 프런티어급 보안 분석이 가능함을 보여주며 위협 모델 재평가가 필요하다는 점을 시사한다.",
+    "tags": [
+      "Qwen",
+      "로컬 LLM",
+      "보안 분석"
+    ],
+    "entities": [
+      "Qwen 3.8 27B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "dcbbf97492ea095e",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Linus Torvalds가 AI로 Intel GPU 드라이버 버그를 추적한 과정",
+    "url": "https://news.hada.io/topic?id=32807",
+    "publishedAt": "2026-08-24T01:01:31+09:00",
+    "rawText": "Intel Xe GPU 드라이버가 압축 하드웨어용 flat CCS 저장공간 일부를 VRAM으로 잘못 할당해 Battlemage G21 시스템에서 검은 화면과 gdm 재시작 루프를 일으킴 get_flat_ccs_offset()이 CCS 시작 주소를 128KiB 단위로 올림하면서 실제 경계와 계산값 사이의 메모리까지...",
+    "summaryKo": "Linus Torvalds가 AI와 협업해 Intel Xe GPU 드라이버의 CCS 오프셋 계산 버그를 추적, Battlemage 시스템의 검은 화면·재시작 루프 원인을 밝혀냈다. AI는 24개 디버그 패치와 18회 커널 재부팅을 반복하며 커밋 메시지까지 작성했지만, 근거 설명이 부족하다는 커뮤니티 비판도 있었다.",
+    "tags": [
+      "AI 디버깅",
+      "리눅스 커널",
+      "GPU 드라이버"
+    ],
+    "entities": [
+      "Linus Torvalds",
+      "Intel Xe GPU",
+      "Battlemage"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "da3c87733318f4be",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "끌어들이고, 붙잡고, 수집하고, 숨긴다: 중대 재판 첫 주에 공개된 Meta의 혐의 전략",
+    "url": "https://news.hada.io/topic?id=32805",
+    "publishedAt": "2026-08-24T00:32:20+09:00",
+    "rawText": "California를 비롯한 미국 29개 주는 Meta가 아동을 중독성 있게 설계된 서비스에 붙잡아 두고 데이터를 수집하며 피해를 숨겼다는 혐의로 소송을 제기함 핵심 쟁점은 부모 동의 없이 13세 미만 아동의 데이터를 수집해 연방 아동 개인정보 보호법과 각 주의 소비자...",
+    "summaryKo": "미국 29개 주가 Meta를 상대로 아동을 중독성 있게 설계된 서비스에 붙잡아두고 데이터를 몰래 수집·은폐했다며 소송을 제기했다. 조사 대상 청소년의 51%가 최근 7일간 유해 경험을 했음에도 관련 콘텐츠 삭제율은 0.02%에 그쳤다는 내부 수치가 재판 첫 주에 공개됐다.",
+    "tags": [
+      "빅테크 소송",
+      "아동안전",
+      "개인정보"
+    ],
+    "entities": [
+      "Meta",
+      "Facebook",
+      "Instagram"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "37f2123fff7945b2",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "성숙 과정에서 얻은 세 가지 중요한 깨달음",
+    "url": "https://news.hada.io/topic?id=32804",
+    "publishedAt": "2026-08-23T23:42:10+09:00",
+    "rawText": "아버지의 죽음과 자신보다 젊은 동료가 많은 회사로의 이직을 계기로, 20대 이후 세계관을 바꾼 세 가지 깨달음을 돌아봄 신념은 인정과 물질적 욕구 같은 인센티브 구조에 영향을 받으므로, 스스로 만든 영웅 서사를 의심하고 자신이 악역일 가능성도 살펴야 함...",
+    "summaryKo": "저자 Thomas Dullien이 아버지의 죽음과 이직을 계기로 얻은 세 가지 깨달음을 정리했다. 신념은 인센티브 구조에 좌우되므로 자기 서사를 의심해야 하고, 현실은 대부분 다중 원인의 확률적 결과이며, 이성과 감정의 이분법은 서구적 구성물일 뿐 감정도 중요한 판단 정보라는 내용이다.",
+    "tags": [
+      "에세이",
+      "의사결정",
+      "자기성찰"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "2bafed5f9b1e42cf",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 샘 알트만이 오픈AI의 미래를 직접 이야기했습니다. Codex에 밀려 Sora와...",
+    "url": "https://www.threads.com/t/DcYuIwKjw8k",
+    "publishedAt": "Sun, 23 Aug 2026 14:38:39 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>샘 알트만이 오픈AI의 미래를 직접 이야기했습니다. Codex에 밀려 Sora와 Atlas를 접은 이유부터, AI가 만들 창업 붐, 과학적 발견, 일자리와 안전 문제까지 꽤 구체적으로 밝혔는데요. 특히 중요한 발언 11가지를 정리했습니다🧵</p><p></p>",
+    "summaryKo": "샘 알트만이 오픈AI의 방향성에 대해 직접 언급하며, Codex에 밀려 Sora와 Atlas 프로젝트를 접은 배경을 설명했다. AI가 만들 창업 붐과 과학적 발견, 일자리·안전 문제 등 향후 전망에 대한 발언 11가지가 정리됐다.",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "AI 전망"
+    ],
+    "entities": [
+      "OpenAI",
+      "Sam Altman",
+      "Codex",
+      "Sora",
+      "Atlas"
+    ],
+    "cats": [
+      "기업·정책",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-08-23T21:11:24.701Z"
+  },
+  {
+    "id": "183f164b4089935f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 정말 중요한 AI 소식 50개를 정리했습니다 🧵",
+    "url": "https://www.threads.com/t/DcYfp8PD1MG",
+    "publishedAt": "Sun, 23 Aug 2026 12:32:07 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>정말 중요한 AI 소식 50개를 정리했습니다 🧵</p><p></p>",
+    "summaryKo": "AI 업계의 최신 소식 50건을 모아 정리한 스레드 게시물로, 개별 뉴스 항목의 세부 본문은 이 글에 포함되지 않았다.",
+    "tags": [
+      "AI 뉴스요약"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-08-23T21:11:24.701Z"
+  },
+  {
     "id": "03382cb4b1a38f41",
     "sourceType": "news",
     "source": "GeekNews",
@@ -4450,306 +4775,5 @@
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-12T21:16:28.797Z",
     "hasAnalysis": true
-  },
-  {
-    "id": "713aef1f419f8c81",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Would you choose a PhD advisor who gives you complete freedom but almost no guidance? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1vmhks7/would_you_choose_a_phd_advisor_who_gives_you/",
-    "publishedAt": "2026-08-12T15:36:44+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>It’s an ML PhD with secure funding for 4–5 years and a senior, respected advisor. You get almost complete freedom to choose your own topics, projects, and collaborations, with very little micromanagement.<br/> The downside is that the advisor is also very hands-off. You should expect little guidance, feedback, or technical input. In practice, you would mostly be on your own.<br/> Would you see that as a dream setup because of the freedom, or as a dealbreaker because of the lack of mentorship?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vmhks7/would_you_choose_a_phd_advisor_who_gives_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vmhks7/would_you_choose_a_phd_advisor_who_gives_you/\">[comments]</a></span>",
-    "summaryKo": "충분한 자금과 저명한 지도교수가 있지만 지도가 거의 없는 완전 자율형 ML 박사과정 오퍼를 받았을 때 선택할지 묻는 커뮤니티 토론 글이다. 자유로운 연구 주제 선택이 장점인지, 멘토링 부재가 단점인지에 대한 의견을 구한다.",
-    "tags": [
-      "대학원",
-      "커리어"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
-    "id": "0aad2d133d771c16",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "llama.cpp: 내 컴퓨터에서 실행하는 오픈소스 AI",
-    "url": "https://news.hada.io/topic?id=32437",
-    "publishedAt": "2026-08-13T00:32:40+09:00",
-    "rawText": "llama.cpp는 API 키·텔레메트리·사용량 제한 없이 AI 모델을 실행하고, 모델과 대화 데이터를 컴퓨터 안에 유지하는 오픈소스 로컬 런타임임 개인용 노트북부터 클러스터까지 같은 바이너리와 모델을 사용하며, 여러 GPU·CPU 환경에 맞춘 수작업 최적화 커...",
-    "summaryKo": "llama.cpp는 API 키나 외부 서버 없이 개인 컴퓨터에서 직접 AI 모델을 실행하는 오픈소스 로컬 런타임이다. 노트북부터 클러스터까지 동일한 바이너리로 동작하며 Qwen 3.6, Gemma 4, GPT-OSS 등 다양한 모델을 지원해 프라이버시 중심의 로컬 AI 실행 트렌드를 대표한다.",
-    "tags": [
-      "로컬LLM",
-      "오픈소스"
-    ],
-    "entities": [
-      "llama.cpp"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "eb81e9564de82c2c",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: LiteDeck – EC2부터 홈서버까지, SSH 포트 하나로 Claude·Codex와 함께 개발 및 모니터링하기",
-    "url": "https://news.hada.io/topic?id=32436",
-    "publishedAt": "2026-08-12T23:56:52+09:00",
-    "rawText": "파일 하나 고치자고 서버에 vscode-server를 올립니다. 관리 UI 하나 쓰자고 패키지를 깔고 포트를 열고, 클라우드면 보안 그룹까지 건드립니다. 요즘은 AI까지 붙이려고 서버에 Claude Code나 Codex CLI를 깝니다. 그렇게 깔아둔 것들은 나중에 그것대로 관리 대상이 되고요.",
-    "summaryKo": "LiteDeck은 서버에 별도 에이전트나 관리 도구를 설치하지 않고 기존 SSH 포트 하나만으로 Claude Code·Codex CLI와 함께 개발·모니터링할 수 있게 해주는 도구다. 파일 변경 diff 확인, 명령 추적, 되돌리기 등 보안 통제를 갖춰 AI가 서버를 직접 조작할 때의 투명성을 확보한다.",
-    "tags": [
-      "서버관리",
-      "AI에이전트",
-      "SSH"
-    ],
-    "entities": [
-      "Claude Code",
-      "Codex",
-      "LiteDeck"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "ccb8d606b747f3e0",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-    "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-    "publishedAt": "Wed, 12 Aug 2026 14:00:00 +0000",
-    "rawText": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the best — employees. Huang topped the list, with 99% of employees approving of the job he does. “As AI and shifting expectations [&#8230;]",
-    "summaryKo": "젠슨 황 NVIDIA CEO가 글래스도어 선정 2026년 최고의 CEO 1위에 올랐다. 직원 99%가 그의 리더십에 만족한다고 응답해 AI 붐 속에서도 조직 신뢰도가 높다는 점을 보여준다.",
-    "tags": [
-      "리더십"
-    ],
-    "entities": [
-      "NVIDIA",
-      "젠슨 황"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
-  },
-  {
-    "id": "9e44711a970ee777",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "제가 겪어본 진짜 문제들이 있었습니다.",
-    "url": "https://www.youtube.com/watch?v=xxVZ7zLR7II",
-    "publishedAt": "2026-08-12T10:19:29+00:00",
-    "rawText": "제가 겪어본 진짜 문제들이 있었습니다.",
-    "videoId": "xxVZ7zLR7II",
-    "summaryKo": "'신영선의 AI탐구' 채널에 올라온 영상으로, 제목 기준으로 진행자가 실제로 겪은 문제들을 다루는 것으로 보인다. 자막을 확보하지 못해 제목 정보만으로 정리한 요약이다.",
-    "tags": [],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
-  },
-  {
-    "id": "4850a843132b454b",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "클로드 Fable 5 + Higgsfield로 몇 분 만에 고오오오급 웹사이트 만들기!",
-    "url": "https://www.youtube.com/watch?v=HeJwas0IP0A",
-    "publishedAt": "2026-08-12T10:00:05+00:00",
-    "rawText": "클로드 Fable 5 + Higgsfield로 몇 분 만에 고오오오급 웹사이트 만들기!",
-    "videoId": "HeJwas0IP0A",
-    "summaryKo": "'Jay Choi | 인디해커 라이프' 채널의 영상으로, 클로드 Fable 5와 Higgsfield를 조합해 몇 분 만에 고급 웹사이트를 만드는 과정을 다루는 것으로 보인다. 자막을 확보하지 못해 제목 정보만으로 정리한 요약이다.",
-    "tags": [
-      "웹사이트제작"
-    ],
-    "entities": [
-      "Claude",
-      "Fable 5",
-      "Higgsfield"
-    ],
-    "cats": [
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
-  },
-  {
-    "id": "e063daae6225e156",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "From assistance to execution: How enterprises put AI to work",
-    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-    "publishedAt": "Wed, 12 Aug 2026 06:00:00 GMT",
-    "rawText": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-    "summaryKo": "OpenAI가 기업의 AI 도입 현황을 조사한 리서치를 공개했다. ChatGPT와 Codex를 활용해 '보조'에서 '실행' 단계로 넘어가는 기업이 늘고 있으며, 선도 기업일수록 AI 도입 격차를 벌리고 있다는 점을 확인했다.",
-    "tags": [
-      "에이전트AI",
-      "기업도입"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT",
-      "Codex"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
-  },
-  {
-    "id": "6453aa1882021bb3",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "덴티움, 중국 주요 도시서 ‘Digital Minimalism’ 학술 교류 확대",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540345",
-    "publishedAt": "2026-08-12 11:53:50",
-    "rawText": "치과 의료기기 기업 덴티움이 중국 주요 도시에서 디지털 진단과 최소침습 임플란트, 재생치료를 아우르는 임상 전략을 공유하며 현지 학술 네트워크 확대에 나섰다.덴티움은 지난 7월 20일부터 23일까지 중국 상하이와 제남, 베이징에서 현지 의료진을 대상으로 ‘Digital Minimalism’ 세미나를 개최했다고 12일 밝혔다. 이번 세미나에는 덴티움치과 정성민 원장이 연자로 참여해 디지털 진단과 최소침습 임플란트 치료, 재생치료를 연계한 임상 전략과 실제 적용 사례를 소개했다.‘Digital Minimalism’은 AI를 활용한 디지",
-    "summaryKo": "덴티움이 중국 상하이·제남·베이징에서 디지털 진단과 AI 기반 최소침습 임플란트·재생치료를 아우르는 'Digital Minimalism' 세미나를 열고 현지 학술 네트워크 확대에 나섰다. 임상 전략과 실제 적용 사례를 현지 의료진에 소개했다.",
-    "tags": [
-      "디지털헬스",
-      "치과AI"
-    ],
-    "entities": [
-      "덴티움"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z"
-  },
-  {
-    "id": "90efa435138feda2",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
-    "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
-    "publishedAt": "Wed, 12 Aug 2026 00:38:21 +0000",
-    "rawText": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for NVIDIA and the AI industry. We have moved from an era in which companies [&#8230;]",
-    "summaryKo": "NVIDIA가 아폴로·블랙록·블랙스톤·골드만삭스·KKR 등과 손잡고 AI 인프라 구축에 5천억 달러 이상의 제3자 자본을 동원하는 금융 플랫폼을 발표했다. AI 컴퓨트를 단순 하드웨어가 아닌 지속적으로 가치가 상승하는 투자 자산으로 재정의하는 시도다.",
-    "tags": [
-      "AI인프라",
-      "투자"
-    ],
-    "entities": [
-      "NVIDIA",
-      "블랙록",
-      "골드만삭스",
-      "KKR"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "9bafa93fe08b847d",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How RingCentral builds AI-native work from engineering to ops",
-    "url": "https://openai.com/index/ringcentral",
-    "publishedAt": "Wed, 12 Aug 2026 00:00:00 GMT",
-    "rawText": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-    "summaryKo": "RingCentral이 ChatGPT Work와 Codex를 도입해 AI 제품 개발 속도를 높이고 엔지니어링·운영 전반의 정보를 통합 관리하는 사례를 소개한다. 기업의 AI 네이티브 업무 전환 사례로 제시된다.",
-    "tags": [
-      "ChatGPT Work",
-      "Codex",
-      "기업 도입"
-    ],
-    "entities": [
-      "OpenAI",
-      "RingCentral",
-      "ChatGPT",
-      "Codex"
-    ],
-    "cats": [
-      "기업·정책",
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-08-13T21:17:33.606Z"
-  },
-  {
-    "id": "b207606e407d50e4",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "“잡는 것만으론 부족하다”…식약처 ‘셜록홈즈’, 수사 오류 제로화 겨냥",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540291",
-    "publishedAt": "2026-08-12 05:51:00",
-    "rawText": "식품의약품안전처가 식의약 분야 특별사법경찰의 수사 전문성을 끌어올리는 데 본격적으로 나섰다. 수사 건수를 늘리고 위반행위를 적발하는 데서 한발 더 나아가 빠르게 변화하는 디지털 범죄에 대응하면서도 수사 과정에서 발생할 수 있는 절차상 오류를 최소화하는 것이 핵심이다. 식약처가 최근 출범시킨 식의약 수사 연구모임 ‘셜록홈즈’ 역시 이러한 문제의식에서 시작됐다.특히 의료용 마약류까지 수사영역이 확대된 데다 인공지능(AI)을 활용해 실제 존재하지 않는 의사를 만들어 광고에 등장시키는 등 기존과 다른 형태의 범죄 수법이 나타나면서 식약처",
-    "summaryKo": "식약처가 식의약 분야 특별사법경찰의 수사 전문성을 높이기 위한 연구모임 '셜록홈즈'를 출범시켰다. 실존하지 않는 의사를 AI로 만들어 광고에 등장시키는 등 신종 AI 범죄에 대응하기 위해 디지털 포렌식과 절차적 정당성 확보에 무게를 두고 있다.",
-    "tags": [
-      "AI규제",
-      "디지털포렌식"
-    ],
-    "entities": [
-      "식약처"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-12T21:16:28.797Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "f8c748437f3cfa00",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "빅파마, ‘최강 슈퍼컴퓨터’ 경쟁…AI로 신약개발 속도 높인다",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=540260",
-    "publishedAt": "2026-08-12 05:49:00",
-    "rawText": "브리스톨마이어스스퀴브(Bristol Myers Squibb·BMS)가 엔비디아(Nvidia)와 협력을 확대하며 바이오제약 업계 최고 수준의 AI 슈퍼컴퓨터 구축에 나섰다.일라이릴리(Eli Lilly), 로슈(Roche)에 이어 대형 제약사들이 대규모 컴퓨팅 인프라 확보 경쟁에 뛰어드는 모습이다.기업마다 그래픽처리장치(GPU) 수, 단일 시스템 성능 등 평가 기준은 다르지만 목표는 더 큰 모델과 복잡한 실험을 통해 신약 발굴·개발의 속도와 효율성을 높이는 데 있다.BMS, 엔비디아 최신 슈퍼컴퓨터 도입BMS는 엔비디아의 DGX 슈퍼팟",
-    "summaryKo": "브리스톨마이어스스퀴브(BMS)가 엔비디아와 협력을 확대해 바이오제약 업계 최고 수준의 AI 슈퍼컴퓨터 구축에 나섰다. 일라이릴리·로슈에 이어 대형 제약사들이 신약 발굴·개발 속도를 높이기 위해 대규모 GPU 인프라 확보 경쟁에 뛰어들고 있다.",
-    "tags": [
-      "AI 신약개발",
-      "인프라"
-    ],
-    "entities": [
-      "BMS",
-      "NVIDIA",
-      "Eli Lilly",
-      "Roche"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-11T21:17:37.793Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "9333fdd968327f39",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Cut LLM turns in MCP interactions by 75%+",
-    "url": "https://github.com/Tura-AI/tura",
-    "publishedAt": "Tue, 11 Aug 2026 20:39:32 +0000",
-    "rawText": "Article URL: https://github.com/Tura-AI/tura Comments URL: https://news.ycombinator.com/item?id=49264157 Points: 8 # Comments: 0",
-    "summaryKo": "Hacker News에 소개된 Tura 프로젝트로, MCP(Model Context Protocol) 상호작용에서 LLM 턴 수를 75% 이상 줄였다고 주장하는 오픈소스 도구다. 원문이 GitHub 저장소 링크라 상세 설명은 제목 기반으로만 파악했다.",
-    "tags": [
-      "MCP",
-      "LLM"
-    ],
-    "entities": [
-      "Tura"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-08-11T21:17:37.793Z"
   }
 ]
