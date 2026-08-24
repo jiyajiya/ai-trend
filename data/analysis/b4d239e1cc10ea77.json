@@ -1,0 +1,30 @@
+{
+  "points": [
+    "NVIDIA가 Groq의 3세대 LPX 가속기를 Vera Rubin NVL72 랙스케일 시스템에 통합해 정식 양산에 돌입했다고 발표했다.",
+    "GPU(Rubin)와 LPU(LP30)를 통합한 '극단적 코디자인'으로 토큰 생성 지연시간을 최소화했다.",
+    "10만 토큰 규모 장문맥 처리에서 초당 3,400개 출력 토큰을 내며 가장 가까운 경쟁 플랫폼 대비 4배 빠르다.",
+    "Spectrum-X Multiplane 네트워크는 512,000개 GPU까지 확장 가능하고 장애 복구가 소프트웨어 대비 11배 빠르다.",
+    "Nebius가 Groq 3 LPX를 최초 도입한 AI 클라우드이며, CoreWeave와 SpaceX도 초기 파트너로 참여한다."
+  ],
+  "sections": [
+    {
+      "heading": "Groq 3 LPX 정식 출시",
+      "body": "NVIDIA는 Vera Rubin NVL72 플랫폼을 확장해 Groq의 3세대 LPX 가속기를 정식 양산에 투입한다고 발표했다. 이는 에이전트 AI의 장문맥 추론 성능을 강화하기 위한 것으로, 10만 토큰 규모 처리에서 초당 3,400개 출력 토큰을 내 경쟁 플랫폼 대비 4배 빠른 성능을 보인다."
+    },
+    {
+      "heading": "극단적 코디자인",
+      "body": "GPU(Rubin)와 LPU(LP30)를 통합해 토큰 생성 지연시간을 최소화하는 방식이다. 한 랙에 256개의 LP30 가속기를 연결할 수 있다."
+    },
+    {
+      "heading": "네트워크·보안 인프라",
+      "body": "Spectrum-X Multiplane은 512,000개 GPU까지 확장 가능한 평탄한 네트워크 구조로, 네트워크 장애 시 하드웨어 기반 복구가 소프트웨어 대비 11배 빠르다. BlueField-4 프로세서 기반의 Scale-In 인프라는 보안·관리를 가속한다."
+    },
+    {
+      "heading": "산업 파트너 채택",
+      "body": "Nebius는 Groq 3 LPX를 최초로 도입한 AI 클라우드이며, CoreWeave는 Spectrum-X Multiplane을 프로덕션에 배포했다. SpaceX는 Vera CPU 기반 에이전트 AI 구축을 계획하고 있다."
+    }
+  ],
+  "quotes": [
+    "10만 토큰 규모 장문맥 처리에서 초당 3,400개 출력 토큰, 경쟁 플랫폼 대비 4배 빠름"
+  ]
+}
