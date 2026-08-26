@@ -1,0 +1,22 @@
+{
+  "points": [
+    "Hunch는 macOS에서 LLM 에이전트가 포커스를 빼앗지 않고 백그라운드에서 Mac을 제어할 수 있게 하는 MCP 서버다.",
+    "OS API, AppleScript, 웹 드라이버, 접근성 프레임워크 등 여러 계층을 통해 Mail·Music 같은 네이티브 앱과 웹 브라우저를 자동 조작한다.",
+    "Python 라이브러리와 에이전트 루프 형태로도 제공되어 Claude나 ChatGPT 같은 모델이 직접 Mac 작업을 자동화하도록 연결할 수 있다."
+  ],
+  "sections": [
+    {
+      "heading": "핵심 개념",
+      "body": "Hunch는 사용자의 화면 포커스를 뺏지 않고 백그라운드에서 macOS를 제어하는 것을 목표로 하는 MCP(Model Context Protocol) 서버다."
+    },
+    {
+      "heading": "구현 방식",
+      "body": "OS 네이티브 API, AppleScript, 웹 드라이버, 접근성 프레임워크 등 다양한 계층을 조합해 Mail, Music 같은 앱과 브라우저를 자동으로 조작한다."
+    },
+    {
+      "heading": "활용 방법",
+      "body": "Python 라이브러리와 에이전트 루프 형태로도 제공돼, Claude나 ChatGPT 등의 모델을 통해 곧바로 Mac 작업을 자동화하는 데 쓸 수 있다."
+    }
+  ],
+  "quotes": []
+}

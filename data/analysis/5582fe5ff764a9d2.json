@@ -1,0 +1,27 @@
+{
+  "points": [
+    "Qwen3.8-Flash-Next는 Qwen4에 적용할 설계를 먼저 공개한 멀티모달 MoE 모델이다.",
+    "125B 본체와 51B N-gram 임베딩을 합쳐 총 176B 규모지만 토큰당 6B 매개변수만 활성화한다.",
+    "전체 레이어의 3/4는 Gated DeltaNet(GDN)으로 과거 정보를 압축하고, 1/4는 Qwen Sparse Attention(QSA)으로 중요 문맥을 마이크로 블록 단위로 검색한다.",
+    "1M 토큰 문맥에서 Attention Kernel의 Prefill을 최대 7.6배, Decode를 4.9배 가속했다.",
+    "훈련 비용은 Qwen3.7-Plus 대비 약 9분의 1로 줄었고, DeepSWE 1.1 58.7점·SWE-bench Pro 62.5점을 기록했다."
+  ],
+  "sections": [
+    {
+      "heading": "아키텍처 구성",
+      "body": "125B 본체와 51B N-gram 임베딩으로 총 176B 매개변수를 갖췄지만, 토큰당 실제 활성화되는 매개변수는 6B에 불과하다. 51B 규모의 N-gram 임베딩은 호스트 메모리에 저장할 수 있어 GPU 메모리를 절약한다."
+    },
+    {
+      "heading": "GDN·QSA와 4중 잔차 경로",
+      "body": "전체 레이어의 3/4는 Gated DeltaNet으로 과거 정보를 압축하고, 나머지 1/4는 Qwen Sparse Attention으로 마이크로 블록 단위 중요 문맥을 검색한다. 기존 단일 Residual Stream을 4개 병렬 브랜치로 확장하고 FP8로 저장해 메모리 접근 비용을 줄였다."
+    },
+    {
+      "heading": "성능과 비용",
+      "body": "1M 토큰 문맥에서 Attention Kernel의 Prefill은 최대 7.6배, Decode는 4.9배 빨라졌으며, 훈련 비용은 Qwen3.7-Plus 대비 약 9분의 1 수준으로 줄었다. 코딩 벤치마크에서 DeepSWE 1.1 58.7점, SWE-bench Pro 62.5점을 기록했고 QwenCloud 가격은 입력 100만 토큰당 $0.16, 출력당 $0.47이다."
+    }
+  ],
+  "quotes": [
+    "1M 토큰에서 Prefill 최대 7.6배, Decode 4.9배 속도 향상",
+    "훈련 비용 Qwen3.7-Plus 대비 약 1/9 감소"
+  ]
+}
