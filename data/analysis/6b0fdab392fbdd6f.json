@@ -1,0 +1,26 @@
+{
+  "points": [
+    "파이썬 팀 Pydantic이 타입 안전성을 갖춘 AI 에이전트 프레임워크 'Pydantic AI'를 공개했다.",
+    "OpenAI, Anthropic, Google, Bedrock 등 거의 모든 LLM 제공자를 문자열 한 줄로 교체할 수 있다.",
+    "구조화된 출력과 타입 지정 의존성 주입으로 런타임 이전에 오류를 발견할 수 있다.",
+    "CLI, 웹 채팅, 실시간 음성, 백그라운드 큐 작업 등 다양한 인터페이스에서 동일한 에이전트를 실행할 수 있다.",
+    "이미지 생성, 임베딩, MCP, 웹 검색, Temporal·DBOS·Prefect 기반 내구성 있는 실행 등 고급 기능도 지원한다."
+  ],
+  "sections": [
+    {
+      "heading": "프레임워크 개요",
+      "body": "Pydantic AI는 Pydantic 검증 라이브러리를 기반으로 만든 타입 안전 AI 에이전트 SDK다. OpenAI SDK와 Anthropic SDK 등 AI 생태계 전반에서 이미 널리 쓰이는 Pydantic의 검증 기능 위에 구축됐다."
+    },
+    {
+      "heading": "멀티 모델·타입 안전성",
+      "body": "여러 LLM 제공자를 문자열 한 줄로 교체할 수 있고, 구조화된 출력과 타입 검증 도구로 코드 작성 단계에서 오류를 미리 잡아낸다."
+    },
+    {
+      "heading": "인터페이스와 고급 기능",
+      "body": "동일한 에이전트를 CLI, 웹 채팅, 실시간 음성, 백그라운드 큐 작업 등 다양한 환경에서 실행할 수 있으며, 이미지 생성·임베딩·MCP·웹 검색과 Temporal·DBOS·Prefect를 활용한 내구성 있는 실행을 지원한다."
+    }
+  ],
+  "quotes": [
+    "Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end."
+  ]
+}

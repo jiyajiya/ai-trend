@@ -1,0 +1,28 @@
+{
+  "points": [
+    "Anthropic이 AI 에이전트의 물리 장비 제어를 위한 공통 표준 'Model Hardware Standard(MHS)'의 연구 프리뷰를 공개했다.",
+    "MHS는 현미경, 액체 취급 장치, 로봇 팔 등 여러 장비를 표준화된 드라이버로 통합해 통합 기간을 수주~수개월에서 수시간~수분으로 단축한다.",
+    "드라이버는 read/write 같은 단순 명령 체계와 자연어 태그를 통해 에이전트가 처음 보는 장비도 안전 한도까지 파악하고 조작할 수 있게 한다.",
+    "에이전트는 MCP, CLI, 코드 파일(API) 세 가지 방식으로 여러 장비를 한 줄의 명령으로 오케스트레이션할 수 있다.",
+    "Claude는 레이저 정렬 실험에서 조정→관찰→반복 과정을 거쳐 이를 결정론적 스크립트로 코드화하는 탐구적 방식을 보여주었다.",
+    "Genentech를 포함한 바이오·로보틱스·양자컴퓨팅 분야 파트너들과 초기 프로젝트를 진행하며 향후 오픈소스화를 계획하고 있다."
+  ],
+  "sections": [
+    {
+      "heading": "MHS란 무엇인가",
+      "body": "MHS는 AI 에이전트가 실험실과 제조 현장의 여러 장비를 안전하게 병렬 제어할 수 있도록 만든 공통 표준이다. Anthropic과 HHMI 재넬리아 리서치 캠퍼스의 협업으로 시작됐으며, 프로그래밍 인터페이스가 있는 모든 장비와 호환되고 특정 모델이나 에이전트 하네스에 종속되지 않는다."
+    },
+    {
+      "heading": "작동 방식",
+      "body": "MHS 드라이버는 read/write 같은 단순 명령 프리미티브로 장비를 표준화하고, 장비 특성을 자연어 태그로 기록해 참조 파일을 자동 생성한다. 에이전트는 MCP·CLI·코드 파일 세 가지 경로로 장비를 제어하며, 반복 작업은 코드 파일로 묶어 매번 추론하지 않고도 실행할 수 있다."
+    },
+    {
+      "heading": "초기 적용 사례와 향후 계획",
+      "body": "Genentech 등 바이오·로보틱스·양자컴퓨팅 분야 파트너들이 장비 통합 시간 단축과 실시간 오류 감지에 MHS를 활용하고 있다. Anthropic은 안전성 평가와 모범 사례를 구축한 뒤 표준을 오픈소스로 공개할 계획이다."
+    }
+  ],
+  "quotes": [
+    "MHS reduces this integration work to hours or minutes.",
+    "we observed Claude make an adjustment to a laser, observe the results through a camera to assess how its adjustment moved the laser beam, and repeat the process"
+  ]
+}

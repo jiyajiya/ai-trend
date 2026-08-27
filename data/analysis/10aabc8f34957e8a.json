@@ -1,0 +1,27 @@
+{
+  "points": [
+    "PayPal 앱이 GrapheneOS 기기를 루팅된 것으로 오탐지해 RootDetectionSecurityException 오류로 실행을 거부한다.",
+    "실제 기기는 루팅되지 않았음이 확인됐으며 비접촉 NFC 결제 활성화와의 연관성은 불분명하다.",
+    "익스플로잇 보호 호환 모드 활성화, 보안 앱 생성 비활성화, 동적 코드 로딩 허용 등 임시 우회 방법이 커뮤니티에서 공유됐다.",
+    "다수는 이를 PayPal의 루트 탐지 구현 오류로 보지만, 기업이 사용자의 OS 선택을 검사하는 것 자체가 문제라는 비판도 있다.",
+    "Volkswagen, HSBC, eBay 등 다른 기업들도 GrapheneOS 사용자를 차단해온 유사 사례가 있다."
+  ],
+  "sections": [
+    {
+      "heading": "문제 현상",
+      "body": "PayPal 앱이 GrapheneOS에서 실행되면 RootDetectionSecurityException과 'Security policy violation: s=root' 오류로 즉시 종료된다. 기기가 루팅되지 않았음이 확인됐고, NFC 결제 활성화 여부와의 연관성도 명확하지 않다."
+    },
+    {
+      "heading": "임시 우회 방법",
+      "body": "사용자들은 익스플로잇 보호 호환 모드 활성화, 보안 앱 생성 기능 비활성화, 동적 코드 로딩 허용, 브라우저 웹 버전 이용 등의 방법으로 문제를 우회하고 있다."
+    },
+    {
+      "heading": "더 넓은 맥락",
+      "body": "커뮤니티는 이를 PayPal의 루트 탐지 구현 오류로 보는 시각과, 기업이 사용자 기기의 OS 선택을 검사하는 것 자체가 문제라는 비판적 시각으로 나뉜다. Volkswagen, HSBC, eBay 등도 GrapheneOS를 차단해온 전례가 있어 Play Integrity API 강제화에 따른 우려가 커지고 있다."
+    }
+  ],
+  "quotes": [
+    "RootDetectionSecurityException",
+    "Security policy violation: s=root"
+  ]
+}
