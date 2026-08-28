@@ -1,0 +1,27 @@
+{
+  "points": [
+    "Z.ai가 GLM-5.2와 동일한 기반 모델을 사용한 오픈 웨이트 모델 GLM-5.3을 공개했다.",
+    "성능 향상은 사전학습이 아닌 후속 학습(post-training)에서 전적으로 나왔다.",
+    "자체 Z.ai Code Bench에서 GLM-5.2 대비 코딩 성능이 50% 향상됐다.",
+    "Terminal Bench 3.0과 Agent's Last Exam에서 오픈소스 모델 중 최고 수준을 기록했다.",
+    "Transformers, vLLM, SGLang 등 여러 추론 프레임워크와 Ascend NPU를 지원하며 OpenAI 호환 API로 배포 가능하다."
+  ],
+  "sections": [
+    {
+      "heading": "모델 개요",
+      "body": "GLM-5.3은 GLM-5.2와 동일한 기반 모델을 사용하며, 이번 버전의 성능 향상은 전적으로 후속 학습에서 나왔다."
+    },
+    {
+      "heading": "벤치마크 성과",
+      "body": "자체 Z.ai Code Bench에서 GLM-5.2보다 코딩 성능이 50% 향상됐고, Terminal Bench 3.0과 Agent's Last Exam에서 오픈소스 최고 수준을 기록했다. 사이버보안 벤치마크에서도 예상보다 빠른 발전을 보였다."
+    },
+    {
+      "heading": "인프라 지원",
+      "body": "Transformers, vLLM, SGLang 등 여러 추론 프레임워크와 Ascend NPU를 지원하며, OpenAI 호환 API나 Docker로 배포할 수 있다."
+    },
+    {
+      "heading": "사용 설정",
+      "body": "사고 예산(reasoning effort)은 low, high, max 중 선택 가능하며, 채팅 시나리오에서는 별도 파라미터 활성화가 필요하다."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "points": [
+    "Tencent Hunyuan이 770B 파라미터, 토큰당 49B 활성화되는 MoE 기반 오픈소스 LLM 'Hy4 Preview'를 공개했다.",
+    "78개 레이어 중 첫 레이어는 표준 FFN이며 나머지는 256개 라우팅 전문가와 1개 공유 전문가를 둔 MoE 구조다.",
+    "Gated DeepSeek Sparse Attention과 IndexCache, identity Hyper-Connections(iHC) 등 신규 기법을 적용했다.",
+    "최대 1M 토큰의 긴 컨텍스트를 지원한다.",
+    "자체 내부 평가에서 GLM 5.3, Kimi K3 등 경쟁 모델의 성능을 상회했다고 주장한다.",
+    "Apache 2.0 라이선스로 HuggingFace, ModelScope 등에서 이용 가능하다."
+  ],
+  "sections": [
+    {
+      "heading": "모델 규모와 구조",
+      "body": "Hy4 Preview는 770B 총 파라미터에 토큰당 49B가 활성화되는 MoE 아키텍처를 사용한다. 78개 계층 중 첫 계층만 표준 FFN이고 나머지는 256개 라우팅 전문가와 1개 공유 전문가로 구성된 MoE 계층이다."
+    },
+    {
+      "heading": "핵심 기술 혁신",
+      "body": "Gated DeepSeek Sparse Attention(Gated DSA)을 적용하고, IndexCache로 계층 간 인덱스를 재사용하며, identity Hyper-Connections(iHC)로 계층 간 정보 흐름을 확장했다. 최대 1M 토큰의 컨텍스트 길이를 지원한다."
+    },
+    {
+      "heading": "성능 및 포지셔닝",
+      "body": "저장소 설명에 따르면 이번 세대에서 가장 큰 성능 향상을 이뤘으며, 내부 평가에서 GLM 5.3, Kimi K3 등 경쟁 오픈소스 모델을 상회하는 결과를 냈다고 주장한다. 소프트웨어 엔지니어링, 문서 작성, 게임 개발, 과학 연구 등에 최적화됐다."
+    },
+    {
+      "heading": "라이선스 및 배포",
+      "body": "Apache 2.0 라이선스로 공개되어 HuggingFace, ModelScope 등 주요 플랫폼에서 다운로드할 수 있다."
+    }
+  ]
+}
