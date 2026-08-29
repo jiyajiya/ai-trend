@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-08-29",
-  "windowLabel": "2026년 8월 28~29일 기준",
-  "updatedAt": "2026-08-28T21:28:23Z",
+  "asOf": "2026-08-30",
+  "windowLabel": "2026년 8월 29~30일 기준",
+  "updatedAt": "2026-08-29T21:18:49Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -14,7 +14,7 @@
       "ranks": [
         { "rank": 1, "model": "Claude Opus 5", "score": "Index 63", "basis": "Artificial Analysis Intelligence Index 63 (max) 1위", "source": "artificialanalysis" },
         { "rank": 2, "model": "Claude Fable 5", "score": "Index 62", "basis": "Intelligence Index 62 (with fallback)", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT-5.6 Sol", "score": "Index 61", "basis": "Intelligence Index 61 (max)", "source": "artificialanalysis" }
+        { "rank": 3, "model": "Grok 4.6", "score": "Index 61", "basis": "Intelligence Index 60.9, GPT-5.6 Sol(58.9)을 제치고 3위", "source": "artificialanalysis" }
       ]
     },
     {
@@ -84,9 +84,9 @@
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
         { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1370", "basis": "Elo 1370, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "MAI-Image-2.6-Preview", "score": "Elo 1352", "basis": "Elo 1352", "source": "artificialanalysis" },
+        { "rank": 2, "model": "MAI-Image-2.6-Preview", "score": "Elo 1351", "basis": "Elo 1351", "source": "artificialanalysis" },
         { "rank": 3, "model": "Reve 2.1", "score": "Elo 1323", "basis": "Elo 1323", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1322", "basis": "Elo 1322", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)", "score": "Elo 1321", "basis": "Elo 1321", "source": "artificialanalysis" },
         { "rank": 5, "model": "GPT Image 1.5 (high)", "score": "Elo 1307", "basis": "Elo 1307", "source": "artificialanalysis" },
         { "rank": 6, "model": "MAI-Image-2.5", "score": "Elo 1304", "basis": "Elo 1304", "source": "artificialanalysis" },
         { "rank": 7, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1297", "basis": "Elo 1297", "source": "artificialanalysis" },
@@ -146,10 +146,10 @@
     { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
   ],
   "sources": [
-    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 8월 29일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 8월 29일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 8월 29일" },
-    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 8월 29일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 8월 29일" }
+    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 8월 30일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 8월 30일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 8월 30일" },
+    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 8월 30일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 8월 30일" }
   ]
 }
