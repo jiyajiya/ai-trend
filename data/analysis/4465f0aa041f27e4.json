@@ -1,0 +1,30 @@
+{
+  "points": [
+    "dev-sandbox는 Podman 컨테이너와 선택적 krun 마이크로VM으로 AI 코딩 에이전트를 격리 실행하는 단일 bash 스크립트다.",
+    "SSH 키, AWS 자격증명, 브라우저 쿠키, API 키 등 민감 정보와 호스트의 다른 디렉토리에 에이전트가 접근할 수 없도록 격리한다.",
+    "claude(기본)·research·agy(Antigravity)·vncgui(XFCE 데스크톱) 4가지 프로필을 제공한다.",
+    "네트워크를 완전 차단하거나 SOCKS 프록시·방화벽 설정으로 제어할 수 있고, VS Code Remote용 SSH 접속도 지원한다.",
+    "Podman만 있으면 실행 가능해 의존성이 최소화돼 있다."
+  ],
+  "sections": [
+    {
+      "heading": "개요",
+      "body": "dev-sandbox는 AI 코딩 에이전트를 Podman 컨테이너(및 선택적 krun 마이크로VM)로 격리해 실행하는 단일 bash 스크립트다."
+    },
+    {
+      "heading": "보안 격리 방식",
+      "body": "SSH 키(~/.ssh/), AWS 자격증명(~/.aws/), 브라우저 쿠키, API 키와 설정 파일, 호스트의 다른 디렉토리에 에이전트가 접근하지 못하도록 격리한다."
+    },
+    {
+      "heading": "핵심 특징과 사용법",
+      "body": "claude·research·agy·vncgui 4가지 프로필을 제공하며, 네트워크는 완전 차단·SOCKS 프록시·방화벽 설정 중 선택할 수 있다. VS Code Remote 접속을 위한 SSH도 지원하며, Podman만 있으면 되고 krun은 선택사항이다."
+    },
+    {
+      "heading": "주의사항",
+      "body": ".git/hooks에 에이전트가 훅을 심을 수 있어 다음 실행 시 호스트에서 실행될 위험이 있으므로 주의가 필요하다."
+    }
+  ],
+  "quotes": [
+    "\"An agent can read ~/.ssh/, ~/.aws/, browser cookies, API keys\" 없이 작동하도록 설계됐다."
+  ]
+}

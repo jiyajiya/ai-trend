@@ -1,0 +1,32 @@
+{
+  "points": [
+    "Anthropic이 제로 데이터 보존(ZDR)의 프라이버시와 오남용 탐지 안전장치를 결합한 'Enterprise Frontier Safeguards(EFS)'를 발표했다.",
+    "데이터는 Anthropic이 아닌 고객이 통제하는 클라우드 인프라(AWS S3, Azure Blob Storage, Google Cloud Storage 등)에 저장된다.",
+    "Fable 5.1 같은 Mythos급 모델의 지능·에이전트 능력 향상은 사기·사이버공격 등 오남용 위험도 함께 키워, 30일 데이터 보존 정책의 배경이 됐다.",
+    "100곳 이상의 금융·헬스케어·제조·통신·법률·소매·공공 부문 고객, 그리고 AWS·Google Cloud·Microsoft Azure와 협력해 개발했다.",
+    "모니터링이 탐지한 패턴은 신호로만 고객에 전달돼 Anthropic 직원의 인간 검토 없이 고객 자체 인력이 검토한다.",
+    "올가을부터 Claude Code, Claude Enterprise, Claude Platform, Amazon Bedrock, Google Agent Platform, Microsoft Foundry 등에 단계적으로 제공된다."
+  ],
+  "sections": [
+    {
+      "heading": "발표 내용",
+      "body": "Anthropic은 제로 데이터 보존(ZDR)의 프라이버시와 최신 오남용 탐지 안전장치를 결합한 Enterprise Frontier Safeguards(EFS)를 발표했다. 데이터는 Anthropic이 아닌 고객이 통제하는 클라우드 인프라에 저장되며, 전환 기간 동안 대상 고객은 Fable 5·5.1에서 ZDR을 제공받는다."
+    },
+    {
+      "heading": "보안과 프라이버시의 딜레마",
+      "body": "Mythos급 모델처럼 지능과 에이전트 능력이 커질수록 오남용과 자율적 오작동 위험도 커진다. 정교한 오남용은 여러 세션·계정에 걸쳐 이뤄져 즉시 데이터를 폐기하는 방식으로는 탐지가 어려워, Fable 5부터 30일 데이터 보존 정책을 도입했지만 규제 산업 고객들은 이를 부담스러워했다."
+    },
+    {
+      "heading": "고객과 함께 설계",
+      "body": "보안·규정준수·제품·딜리버리 팀 등 100곳 이상의 고객, 그리고 골드만삭스·모건스탠리·씨티 등이 속한 ARC(Analysis and Resilience Center for Systemic Risk)와 협력해 설계했다. 고객은 자체 클라우드 계정에 데이터를 저장하고 암호화 키·접근 정책·감사 로그를 직접 통제할 수 있다."
+    },
+    {
+      "heading": "모니터링과 검토 체계",
+      "body": "자동 모니터링이 탐지한 신호는 곧바로 고객에게 전달되며, 이미 훈련되고 승인된 고객 자체 인력이 검토를 수행해 Anthropic 직원의 인간 검토가 필요 없다. 이를 통해 규제 산업에서도 민감 정보 접근 권한 문제를 해결했다."
+    }
+  ],
+  "quotes": [
+    "\"Enterprise Frontier Safeguards gives us exactly what we asked for: our logs stay in a Wells-managed environment under Wells-managed keys.\" — Wells Fargo CISO Matt Chung",
+    "논의는 포춘 100대 기업의 4분의 1, 미국의 모든 시스템적으로 중요한 은행(G-SIB), 사실상 모든 규제 산업에 걸쳐 진행됐다."
+  ]
+}
