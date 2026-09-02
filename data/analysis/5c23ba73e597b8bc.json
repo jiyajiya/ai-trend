@@ -1,0 +1,27 @@
+{
+  "points": [
+    "엔비디아와 크라우드스트라이크가 Fal.Con 2026에서 에이전트 기반 보안 시스템 SafeMind를 발표했다.",
+    "SafeMind는 NVIDIA Nemotron 오픈 모델을 크라우드스트라이크의 위협 데이터로 학습시킨 시스템이다.",
+    "지난 1년간 AI 기반 공격이 89% 증가했고 평균 침투 시간이 27초로 단축된 배경에서 나온 대응책이다.",
+    "Blue Solano 모델은 기존 최고 수준 AI 대비 99% 낮은 비용으로 99% 정확도를 달성했다고 밝혔다.",
+    "Falcon IQ 플랫폼에서 50개 이상의 에이전트가 협력해 방어 작업을 수행한다."
+  ],
+  "sections": [
+    {
+      "heading": "발표 배경",
+      "body": "젠슨 황과 조지 커츠는 공격이 자동화된 만큼 방어도 자동화돼야 한다는 문제의식을 공유했다. AI 기반 공격 급증과 침투 시간 단축이라는 위협 통계가 발표의 근거로 제시됐다."
+    },
+    {
+      "heading": "SafeMind의 구조",
+      "body": "NVIDIA Nemotron 오픈 모델을 기반으로 크라우드스트라이크의 사이버보안 전문성과 위협 데이터를 결합해 만든 agentic 시스템이다. Falcon IQ 안에서 50개 이상의 에이전트가 협업 구조로 작동한다."
+    },
+    {
+      "heading": "성능과 규모",
+      "body": "Blue Solano 모델은 비용을 99% 절감하면서도 99% 정확도를 유지했다고 밝혔다. 행사에는 1만 명 이상의 보안 전문가가 참석해 관심을 반영했다."
+    }
+  ],
+  "quotes": [
+    "\"There are many applications where you must have the ability to fine-tune, to post-train — to create an AI that is super good\" — Jensen Huang",
+    "\"The real gap that I saw was that the attackers had frontier AI, and the defenders didn't\" — George Kurtz"
+  ]
+}

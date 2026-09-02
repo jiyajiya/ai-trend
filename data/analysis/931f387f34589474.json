@@ -1,0 +1,24 @@
+{
+  "points": [
+    "구글이 6주 사이 세 번째 Flash 모델로 Gemini 3.8 Flash와 보안 특화 모델 Flash Cyber를 공개했다.",
+    "3.8 Flash는 3.7 Flash와 동일한 가격(입력 $0.75/출력 $3.75, 100만 토큰당)을 유지하면서 장기 코딩·다단계 추론 성능을 높였다.",
+    "3.8 Flash는 HLE-Verified 54.9%를 기록했고 DeepSWE v1.1 평가에서 대형 프런티어 모델보다 우수했다.",
+    "Flash Cyber는 20개 언어 취약점 탐지에서 70% 이상 성공률, CWE-Bench 자동 패치 pass@1 47.2%를 달성했다.",
+    "Flash Cyber는 Fairwind Program을 통해 신뢰할 수 있는 방어자에게만 제한적으로 제공된다."
+  ],
+  "sections": [
+    {
+      "heading": "모델 공개 개요",
+      "body": "구글은 6주 만에 세 번째 Flash 계열 모델을 내놓으며 빠른 반복 출시 기조를 이어갔다. Gemini 3.8 Flash는 일반 개발자·기업·소비자(AI Pro/Ultra 구독자)에게 공개됐고, Flash Cyber는 Fairwind Program을 통한 제한 접근으로 제공된다."
+    },
+    {
+      "heading": "3.8 Flash 성능",
+      "body": "가격은 3.7 Flash와 동일하게 유지하면서 소프트웨어 엔지니어링과 다단계 추론 성능을 끌어올렸다. 복잡한 작업에서는 추론 단계와 도구 호출을 늘려 성능을 극대화하며, HLE-Verified 54.9%와 DeepSWE v1.1에서 대형 모델을 능가하는 결과를 보였다."
+    },
+    {
+      "heading": "Flash Cyber의 보안 특화 성능",
+      "body": "20개 프로그래밍 언어의 취약점 탐지에서 70% 이상 성공률을 기록했고, CWE-Bench 자동 패치 평가에서 pass@1 47.2%를 달성했다. Chrome Security 팀 평가에서는 상용 모델보다 2.6배 많은 올바른 취약점 패치를 생성했으며, Google Cloud 팀은 통상 수개월 걸리던 취약점을 2시간 이내에 발견한 사례도 있었다."
+    }
+  ],
+  "quotes": []
+}
