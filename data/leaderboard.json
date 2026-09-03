@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-09-03",
-  "windowLabel": "2026년 9월 2일~3일 기준",
-  "updatedAt": "2026-09-02T21:14:59Z",
+  "asOf": "2026-09-04",
+  "windowLabel": "2026년 9월 3일~4일 기준",
+  "updatedAt": "2026-09-03T21:17:27Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -25,9 +25,9 @@
       "metric": "GPQA Diamond",
       "note": "대학원 수준 과학·전문 추론 — 약학·의학·화학·생물 등 전문 분야 정확도.",
       "ranks": [
-        { "rank": 1, "model": "Grok 4.6 (high)", "score": "94.9%", "basis": "GPQA Diamond 94.9% 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Gemini 3.7 Flash (high)", "score": "94.5%", "basis": "GPQA Diamond 94.5%", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT-5.6 Sol (max)", "score": "94.1%", "basis": "GPQA Diamond 94.1%", "source": "artificialanalysis" }
+        { "rank": 1, "model": "GPT-6 Astra (xhigh)", "score": "96.3%", "basis": "GPQA Diamond 96.3% 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "GPT-6 Astra (max)", "score": "96.1%", "basis": "GPQA Diamond 96.1%", "source": "artificialanalysis" },
+        { "rank": 3, "model": "Gemini 3.8 Flash (high)", "score": "95.3%", "basis": "GPQA Diamond 95.3%", "source": "artificialanalysis" }
       ]
     },
     {
@@ -121,10 +121,11 @@
       "metric": "1M 토큰당 가격",
       "note": "최저가 API — 대규모 쿼리·장기 운영 비용 절감.",
       "ranks": [
-        { "rank": 1, "model": "DeepSeek V4 Flash", "score": "$0.14/M", "basis": "최저가 API (입력 $0.14 / 출력 $0.28 per 1M)", "source": "pricepertoken" },
-        { "rank": 2, "model": "MiniMax M3", "score": "$0.60/M", "basis": "입력 $0.60 / 출력 $2.40, SWE-bench 80%+ 모델 중 최저가", "source": "pricepertoken" },
-        { "rank": 3, "model": "Kimi K2.7 Code", "score": "$0.95/M", "basis": "입력 $0.95 / 출력 $4.00 per 1M", "source": "pricepertoken" },
-        { "rank": 4, "model": "GLM 5.2", "score": "$1.40/M", "basis": "입력 $1.40 / 출력 $4.40 per 1M", "source": "pricepertoken" }
+        { "rank": 1, "model": "Qwen3.7 Flash", "score": "$0.03/M", "basis": "최저가 API (입력 $0.03 / 출력 $0.13 per 1M)", "source": "benchlm" },
+        { "rank": 2, "model": "Ministral 3 3B", "score": "$0.10/M", "basis": "입력 $0.10 / 출력 $0.10 per 1M", "source": "benchlm" },
+        { "rank": 3, "model": "Step 3.5 Flash", "score": "$0.10/M", "basis": "입력 $0.10 / 출력 $0.30 per 1M", "source": "benchlm" },
+        { "rank": 4, "model": "Laguna S 2.1", "score": "$0.10/M", "basis": "입력 $0.10 / 출력 $0.20 per 1M", "source": "benchlm" },
+        { "rank": 5, "model": "Gemini 2.5 Flash-Lite", "score": "$0.10/M", "basis": "입력 $0.10 / 출력 $0.40 per 1M", "source": "benchlm" }
       ]
     }
   ],
@@ -147,10 +148,10 @@
     { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
   ],
   "sources": [
-    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 9월 3일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 9월 3일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 9월 3일" },
-    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 9월 3일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 9월 3일" }
+    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 9월 4일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 9월 4일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 9월 4일" },
+    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 9월 4일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 9월 4일" }
   ]
 }
