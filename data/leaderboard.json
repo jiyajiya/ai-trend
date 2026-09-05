@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-09-05",
-  "windowLabel": "2026년 9월 4일~5일 기준",
-  "updatedAt": "2026-09-04T21:23:36Z",
+  "asOf": "2026-09-06",
+  "windowLabel": "2026년 9월 5일~6일 기준",
+  "updatedAt": "2026-09-05T21:23:09Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -12,9 +12,9 @@
       "metric": "Artificial Analysis Intelligence Index",
       "note": "13개 벤치마크를 종합한 단일 점수 — 모델을 한 숫자로 빠르게 비교할 때.",
       "ranks": [
-        { "rank": 1, "model": "Claude Fable 5.1", "score": "Index 66", "basis": "Intelligence Index 66 (max with fallback) 1위, Opus 5보다 3점 우위로 신규 출시", "source": "artificialanalysis" },
-        { "rank": 2, "model": "Claude Opus 5", "score": "Index 63", "basis": "Intelligence Index 63 (max) 2위", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT-5.6 Sol (max)", "score": "Index 61", "basis": "Intelligence Index 61, 3위", "source": "artificialanalysis" }
+        { "rank": 1, "model": "Claude Fable 5.1", "score": "Index 57", "basis": "Intelligence Index v4.2 개편판 57점(max with fallback)으로 1위 탈환", "source": "artificialanalysis" },
+        { "rank": 2, "model": "GPT-6 Astra (max)", "score": "Index 55", "basis": "Intelligence Index v4.2 55점, 2위", "source": "artificialanalysis" },
+        { "rank": 3, "model": "Claude Opus 5 (max)", "score": "Index 54", "basis": "Intelligence Index v4.2 54점, 3위", "source": "artificialanalysis" }
       ]
     },
     {
@@ -83,16 +83,16 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1371", "basis": "Elo 1371, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "MAI-Image-2.6", "score": "Elo 1346", "basis": "Elo 1346, Preview에서 정식 출시로 전환", "source": "artificialanalysis" },
-        { "rank": 3, "model": "Reve 2.1", "score": "Elo 1324", "basis": "Elo 1324", "source": "artificialanalysis" },
-        { "rank": 4, "model": "Nano Banana 2 (Gemini 3.1 Flash Image)", "score": "Elo 1320", "basis": "Elo 1320", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Muse Image", "score": "Elo 1312", "basis": "Elo 1312, 신규 진입", "source": "artificialanalysis" },
-        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1304", "basis": "Elo 1304 (MAI-Image-2.5와 동점)", "source": "artificialanalysis" },
-        { "rank": 7, "model": "MAI-Image-2.5", "score": "Elo 1304", "basis": "Elo 1304 (GPT Image 1.5과 동점)", "source": "artificialanalysis" },
-        { "rank": 8, "model": "MAI-Image-2.6-Flash", "score": "Elo 1297", "basis": "Elo 1297, 신규 진입", "source": "artificialanalysis" },
-        { "rank": 9, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1296", "basis": "Elo 1296", "source": "artificialanalysis" },
-        { "rank": 10, "model": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)", "score": "Elo 1290", "basis": "Elo 1290", "source": "artificialanalysis" }
+        { "rank": 1, "model": "GPT Image 2 (high)", "score": "Elo 1177", "basis": "Elo 1177, Arena 1위 (평가 기준 개편 후 리스케일)", "source": "artificialanalysis" },
+        { "rank": 2, "model": "MAI-Image-2.6", "score": "Elo 1149", "basis": "Elo 1149", "source": "artificialanalysis" },
+        { "rank": 3, "model": "Reve 2.1", "score": "Elo 1127", "basis": "Elo 1127", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Nano Banana 2 (Gemini 3.1 Flash Image)", "score": "Elo 1121", "basis": "Elo 1121", "source": "artificialanalysis" },
+        { "rank": 5, "model": "Muse Image", "score": "Elo 1115", "basis": "Elo 1115", "source": "artificialanalysis" },
+        { "rank": 6, "model": "GPT Image 1.5 (high)", "score": "Elo 1114", "basis": "Elo 1114", "source": "artificialanalysis" },
+        { "rank": 7, "model": "MAI-Image-2.5", "score": "Elo 1112", "basis": "Elo 1112", "source": "artificialanalysis" },
+        { "rank": 8, "model": "MAI-Image-2.6-Flash", "score": "Elo 1099", "basis": "Elo 1099", "source": "artificialanalysis" },
+        { "rank": 9, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1099", "basis": "Elo 1099 (MAI-Image-2.6-Flash와 동점)", "source": "artificialanalysis" },
+        { "rank": 10, "model": "MAI-Image-2.5-Pro", "score": "Elo 1096", "basis": "Elo 1096, 신규 진입", "source": "artificialanalysis" }
       ]
     },
     {

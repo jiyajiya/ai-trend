@@ -1,5 +1,446 @@
 [
   {
+    "id": "04b40ab3e8a98d41",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "OpenRouter의 GPT-6 Astra 가격과 성능",
+    "url": "https://news.hada.io/topic?id=33265",
+    "publishedAt": "2026-09-06T05:32:35+09:00",
+    "rawText": "GPT-6 Astra는 고급 분석·소프트웨어 엔지니어링·심층 연구·과학·문서 제작을 겨냥한 OpenAI 플래그십 모델로, 컴퓨터와 브라우저를 활용하는 장기 에이전트 작업에 강점을 둠 1,050,000토큰 컨텍스트와 최대 128,000 출력 토큰을 지원하며, 기준 가격은 100만 토큰...",
+    "summaryKo": "OpenRouter 기준 GPT-6 Astra는 고급 분석, 소프트웨어 엔지니어링, 심층 연구 등 장기 에이전트 작업에 강점을 둔 OpenAI 플래그십 모델로 소개된다. 1,050,000 토큰의 초대형 컨텍스트와 최대 128,000 출력 토큰을 지원하며 100만 토큰당 요금이 책정돼 있다.",
+    "tags": [
+      "LLM",
+      "GPT-6",
+      "컨텍스트길이",
+      "가격정책"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "OpenRouter"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "1a2971f4b496092d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "교통 단속을 촬영한 해군 퇴역군인, Flock으로 100회 넘게 추적당해",
+    "url": "https://news.hada.io/topic?id=33264",
+    "publishedAt": "2026-09-06T04:32:09+09:00",
+    "rawText": "Wisconsin의 미 해군 퇴역군인 Napoleon Jones가 경찰의 교통 단속을 합법적으로 촬영한 뒤 체포됐고, 이후 보안관실은 Flock 번호판 인식 시스템에서 그의 차량을 100회 넘게 검색함 Waukesha County 보안관보 Brandon Shayhorn은 사유지에서 임시 번호판을 읽을 수 없다는 이유로 ...",
+    "summaryKo": "위스콘신주 해군 퇴역군인이 경찰의 교통 단속 장면을 촬영한 뒤 체포됐고, 이후 보안관실이 번호판 인식 시스템 Flock으로 그의 차량을 100회 넘게 조회한 사실이 드러났다. 합법적 촬영 행위에 대한 보복성 감시 우려를 보여주는 사례다.",
+    "tags": [
+      "번호판인식",
+      "감시기술",
+      "프라이버시"
+    ],
+    "entities": [
+      "Flock"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "1fef3b6904ccac5c",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
+    "publishedAt": "2026-09-05T19:11:16+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>A researcher has <a href=\"https://www.linkedin.com/posts/s-berezin_llm-aialignment-aisecurity-activity-7502013488412680192-IO6c/\">reported</a> a jailbreak of GPT-6 Astra within a day after release.</p> <p>The attack is described as combination of TIP (Task-in-Prompt) attack from <a href=\"https://aclanthology.org/2025.acl-long.334/\">ACL 2025 paper</a> with four other unnamed techniques.</p> <p>TIP attacks exploit the model’s reasoning/instruction-following behaviour by hidding the harmful objective inside another task, like solving a cipher or executing a Python code. For GPT-6, the researcher says the original minimal TIP attack was no longer sufficient and had to be reworked.</p> <p>They have reportedly disclosed the details privately to OpenAI rather than publishing the jailbreak.</p> <p>The same researcher reported jailbreaking GPT-5 within an hour of its release a year ago.</p> <p><strong>Source:</strong> <a href=\"https://www.linkedin.com/posts/s-berezin_llm-aialignment-aisecurity-activity-7502013488412680192-IO6c/\">screenshot/post from the researcher</a>; their <a href=\"https://aclanthology.org/2025.acl-long.334/\">ACL 2025 TIP paper</a> linked in the original post.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Asleep-Requirement13\"> /u/Asleep-Requirement13 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/\">[comments]</a></span>",
+    "summaryKo": "한 보안 연구자가 GPT-6 Astra를 출시 하루 만에 탈옥(jailbreak)했다고 밝혔다. ACL 2025 논문의 TIP(Task-in-Prompt) 공격 기법에 네 가지 미공개 기법을 결합했으며, 기존의 단순한 TIP 공격만으로는 더 이상 통하지 않아 공격을 새로 개량해야 했다고 전했다. 해당 연구자는 1년 전 GPT-5도 출시 한 시간 만에 탈옥시킨 바 있으며, 이번에도 세부 내용은 공개 대신 OpenAI에 비공개로 전달했다.",
+    "tags": [
+      "탈옥",
+      "AI보안",
+      "프롬프트인젝션",
+      "GPT-6"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "0b517e1c53d37235",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI가 장애를 처리할수록 엔지니어는 시스템 감각을 잃는다",
+    "url": "https://news.hada.io/topic?id=33263",
+    "publishedAt": "2026-09-06T02:37:53+09:00",
+    "rawText": "AI SRE가 경보 분석부터 가설 수립, 텔레메트리 조회, 배포 내역 연계, 수정까지 맡으면 평균 복구 시간은 줄어들지만, 엔지니어가 시스템의 동작과 장애 방식을 체득할 기회도 감소함 결국 AI가 풀지 못하는 낯설고 심각한 장애만 사람이 넘겨받게 되므로, 자동화...",
+    "summaryKo": "AI가 장애 대응(SRE) 업무를 도맡을수록 평균 복구 시간은 줄어들지만, 엔지니어가 시스템 동작 방식을 체득할 기회도 함께 줄어든다는 우려가 제기됐다. 결국 AI가 풀지 못하는 낯설고 심각한 장애만 사람에게 넘어오게 되면서, 정작 그런 상황에 대응할 감각은 약해질 수 있다는 역설을 지적한다.",
+    "tags": [
+      "SRE",
+      "AI자동화",
+      "장애대응"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "46f0bab0db376c1b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "네덜란드, 미국·캐나다 보관 금 86톤 회수",
+    "url": "https://news.hada.io/topic?id=33262",
+    "publishedAt": "2026-09-06T02:34:53+09:00",
+    "rawText": "네덜란드 중앙은행 DNB는 지정학적 불안에 대비해 미국·캐나다에 보관하던 금 86톤을 영국과 네덜란드로 옮겨 위기 대응력을 강화함 2026년 3~8월 북미 보관분 313톤 중 86톤을 이전했으며, 영란은행(Bank of England) 보관 금은 국제 거래 표준을 충족해 위기 때 ...",
+    "summaryKo": "네덜란드 중앙은행(DNB)이 지정학적 불안에 대비해 미국·캐나다에 보관하던 금 86톤을 영국과 네덜란드로 옮겼다. 2026년 3~8월 사이 북미 보관분 313톤 중 86톤을 이전하며 위기 대응력을 강화했다.",
+    "tags": [
+      "중앙은행",
+      "금보유",
+      "지정학"
+    ],
+    "entities": [
+      "DNB",
+      "Bank of England"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "1bec83d1c4ed50a8",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI는 이제 회로 기판도 설계할 수 있을까?",
+    "url": "https://news.hada.io/topic?id=33261",
+    "publishedAt": "2026-09-06T01:37:16+09:00",
+    "rawText": "AI는 일부 회로 설계 문제를 풀 수 있지만, 실제 부품의 오차와 비용까지 고려해 요구사항을 만족하는지는 시뮬레이션으로 검증해야 함 EEBench는 회로를 코드로 작성하고 SPICE로 시험하는 벤치마크로, CAD 화면을 조작하는 능력보다 부품 선택과 연결, 전기적 동작을 설계...",
+    "summaryKo": "AI는 일부 회로 설계 문제를 풀 수 있지만, 실제 부품 오차와 비용까지 고려해 요구사항을 충족하는지는 시뮬레이션 검증이 필요하다. EEBench라는 벤치마크는 회로를 코드로 작성하고 SPICE로 검증하는 방식으로, CAD 조작 능력보다 부품 선택과 전기적 동작 설계 능력을 평가한다.",
+    "tags": [
+      "AI",
+      "회로설계",
+      "벤치마크",
+      "EEBench"
+    ],
+    "entities": [
+      "EEBench",
+      "SPICE"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "e6fbf8b002c0c884",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "미국 기업들이 오픈소스 AI에 빠져들고 있다",
+    "url": "https://news.hada.io/topic?id=33260",
+    "publishedAt": "2026-09-06T01:34:16+09:00",
+    "rawText": "AT&T, Airbnb, Deloitte 등 미국 기업들이 비용 절감과 맞춤화를 위해 공개형 AI 모델 도입을 늘리고 있으며, AT&T는 연초 대비 AI 비용을 최대 80% 절감함 공개형 모델은 비용 지불이나 승인 없이 내려받아 수정할 수 있으며, 일부 중국 모델은 OpenAI/An...",
+    "summaryKo": "AT&T, Airbnb, Deloitte 등 미국 기업들이 비용 절감과 맞춤화를 위해 오픈소스(공개형) AI 모델 도입을 늘리고 있다. AT&T는 연초 대비 AI 비용을 최대 80%까지 절감했으며, 일부 중국산 오픈 모델도 채택 대상에 포함되고 있다.",
+    "tags": [
+      "오픈소스AI",
+      "기업도입",
+      "비용절감"
+    ],
+    "entities": [
+      "AT&T",
+      "Airbnb",
+      "Deloitte",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "c6331270a75e20b3",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "Anthropic 제안한 코드 짜기 전에 무조건 쓰라는 파일 | AI 네이티브 SDLC 도입 정리",
+    "url": "https://www.youtube.com/watch?v=4kXsF2S5MNY",
+    "publishedAt": "2026-09-05T15:45:08+00:00",
+    "rawText": "Anthropic 제안한 코드 짜기 전에 무조건 쓰라는 파일 | AI 네이티브 SDLC 도입 정리",
+    "videoId": "4kXsF2S5MNY",
+    "summaryKo": "Anthropic이 코드를 짜기 전에 의도를 정리하는, CLAUDE.md와는 성격이 다른 새 파일 표준 'INTENT.md'를 제안했다. 문제·기대 변화·영향받는 시스템·제약 조건·미해결 질문 다섯 섹션으로 구성되며, 계획(Plan) 단계의 산출물로 저장소 내 intent 폴더에 버전 관리된다. 영상은 이를 출발점으로 계획-설계-빌드-테스트-배포-운영 전 단계에 AI 에이전트가 개입하는 'AI 네이티브 SDLC' 구조를 설명하고, GitHub PR 기반 승인 워크플로 예시를 제시한다.",
+    "tags": [
+      "INTENT.md",
+      "SDLC",
+      "AI에이전트워크플로",
+      "Claude Code"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "9799daff1c547ddf",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "OpenTrailPaper - 오픈소스 전자잉크 자전거 컴퓨터",
+    "url": "https://news.hada.io/topic?id=33259",
+    "publishedAt": "2026-09-06T00:31:57+09:00",
+    "rawText": "OpenTrailPaper는 LilyGO T5S3 4.7\" E-Paper PRO에서 주행 데이터와 오프라인 지도를 표시하며, GPX 경로 안내·FIT 기록·Bluetooth 센서 연결을 지원하는 DIY 펌웨어임 지도와 경로를 미리 저장하면 휴대전화나 데이터 연결 없이 GPS 주행 기록, 턴바이턴 안내...",
+    "summaryKo": "OpenTrailPaper는 LilyGO T5S3 4.7인치 전자잉크 디스플레이 기반의 오픈소스 자전거 컴퓨터 펌웨어로, 주행 데이터와 오프라인 지도를 표시한다. GPX 경로 안내, FIT 기록, 블루투스 센서 연결을 지원해 휴대전화나 데이터 연결 없이도 GPS 주행 기록과 턴바이턴 안내가 가능하다.",
+    "tags": [
+      "오픈소스",
+      "하드웨어",
+      "전자잉크",
+      "DIY"
+    ],
+    "entities": [
+      "OpenTrailPaper",
+      "LilyGO T5S3"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4d639bb2e928d355",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: GPT-6 Astra, AI 모델 최초로 수능 만점.",
+    "url": "https://www.threads.com/t/Dc6SBvWDySz",
+    "publishedAt": "Sat, 05 Sep 2026 15:27:12 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>GPT-6 Astra, AI 모델 최초로 수능 만점.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/797150373_17985820077112832_6157134261069763131_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=Mzk3OTU3MjUwNTEyNzg4ODA1MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTI4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=CuQLXztBq1sQ7kNvwHDexLj&amp;_nc_oc=Adq7pa-Qs_rHZnwu5Dpi4dPI8OVes-OLv4YSEh_DZc0yGkx8jMJgPWQlCsHVpudCZxU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=wpGo5TQ4oYSq_dBsqFqg3g&amp;_nc_ss=7a22e&amp;oh=00_AQKNIewXMj_gaF5H2xrhA6xVWfPRttD2KW5KLU1r2yv_fw&amp;oe=6AA2646C\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "@choi.openai가 GPT-6 Astra가 AI 모델 최초로 한국 수능에서 만점을 받았다고 소개하는 짧은 Threads 게시물이다.",
+    "tags": [
+      "GPT-6",
+      "벤치마크"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "de70729fca3ec921",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: wifibox - 앱 설치와 계정 가입 없는 기기 간 실시간 파일·링크 공유",
+    "url": "https://news.hada.io/topic?id=33258",
+    "publishedAt": "2026-09-05T22:34:09+09:00",
+    "rawText": "아이폰, 갤럭시, 맥북, 윈도우 등 서로 다른 기기 간에 사진, 파일, 웹사이트 링크를 앱 설치나 로그인 없이 브라우저만 열어 즉시 주고받을 수 있는 웹 도구입니다. 교육 현장에서 노트북 여러 대를 세팅하고 아이들에게 자료를 배포할 때 겪는 번거로움을 해결하고자 만들었습니다. 어떻게 연",
+    "summaryKo": "wifibox는 아이폰, 갤럭시, 맥북, 윈도우 등 서로 다른 기기 간에 앱 설치나 계정 가입 없이 브라우저만으로 사진, 파일, 링크를 실시간 공유할 수 있는 웹 도구다. 교육 현장에서 여러 대의 기기에 자료를 배포할 때 겪는 번거로움을 해결하기 위해 만들어졌다.",
+    "tags": [
+      "파일공유",
+      "웹도구",
+      "크로스플랫폼"
+    ],
+    "entities": [
+      "wifibox"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "8bbcf05c0a2ef8b0",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 코딩을 몰라서 못 만든다는 핑계는 이제 끝났습니다. GPT-6 Astra에게 ...",
+    "url": "https://www.threads.com/t/Dc6DLf5DwS_",
+    "publishedAt": "Sat, 05 Sep 2026 13:17:28 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>코딩을 몰라서 못 만든다는 핑계는 이제 끝났습니다. GPT-6 Astra에게 원하는 걸 말하면 30분 만에 영상 편집 앱을 만들고, 게임 광고를 실제 플레이 가능한 게임으로 바꿔줍니다. 게임·앱·3D 모델까지 직접 만드는 GPT-6 Astra 활용 사례 20가지를 정리했습니다🧵</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/797775622_17985799407112832_713418487417788_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=108&amp;ig_cache_key=Mzk3OTUwNzIwNTAzMjMxNDA0Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNzU0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=-TP_JKDHRhYQ7kNvwGLe2Wb&amp;_nc_oc=Adrs89rm_etTo4AciMGnVIMigMZCrOMTWML1h8Wwwa45kaxxi0YR1YukHKmFlKNUZQc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=wpGo5TQ4oYSq_dBsqFqg3g&amp;_nc_ss=7a22e&amp;oh=00_AQLfT7_e3XEa6VfCDr8XYz6uJNXN8wfa7pbLnLUsTy11Ow&amp;oe=6AA25F3E\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "@choi.openai가 GPT-6 Astra를 활용하면 코딩 지식 없이도 30분 만에 영상 편집 앱을 만들거나 게임 광고를 실제 플레이 가능한 게임으로 바꿀 수 있다고 소개하며, 게임·앱·3D 모델 제작 활용 사례 20가지를 정리한 스레드를 예고하는 게시물이다.",
+    "tags": [
+      "GPT-6",
+      "바이브코딩",
+      "생성형AI"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "45095da33eb88239",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: AI로 3D 모델을 만들 때 앞모습만 보고 뒷면을 추측하던 문제가 주...",
+    "url": "https://www.threads.com/t/Dc5zjK4jRaA",
+    "publishedAt": "Sat, 05 Sep 2026 11:00:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI로 3D 모델을 만들 때 앞모습만 보고 뒷면을 추측하던 문제가 줄어들고 있습니다. Tripo가 P2.0 Preview에 멀티뷰 입력 기능을 추가했습니다. 하나의 이미지 대신 앞·왼쪽·오른쪽·뒤쪽 사진을 함께 넣으면 여러 각도를 참고해 원본에 더 가까운 3D 구조를 생성합니다. 캐릭터나 제품처럼 방향마다 형태가 다른 물체를 만들 때 특히 유용한 방식인데요. 단일 이미지 생성은 모든 사용자에게 2회 무료로 제공되며, 멀티뷰 입력은 구독자 전용입니다. 3D 생성 AI가 이제 ‘그럴듯하게 만들어주는 것’에서 원하는 형태를 얼마나 정확하게 재현하고 제어할 수 있느냐로 넘어가고 있네요.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/798017703_1385343227125593_2628279174429682297_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=Mzk3OTQzODQ2Mjk5ODQ4NDYwOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=YmqXrq8VdjcQ7kNvwHVOyYy&amp;_nc_oc=Adq4Tbj4P_lU9mpPiCwJDfZRM1nnj37cFhoQpsOmHOtnSUOu61PV6QtJH4IQ4mBK-l8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=wpGo5TQ4oYSq_dBsqFqg3g&amp;_nc_ss=7a22e&amp;oh=00_AQKSNNAsxtCHFKalvWZo63Wys2sReQvEpiaeZ6kD0lXA-A&amp;oe=6AA23FA0\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQPTaPJAOLSbkvv9ep7DvjnqYLq3FAYVIOWcLuVjMkMC9cfJdMdSy1rJqnGaJPZ6Ejz1_8N4RLpKZ26-d-dS7T579MwXpnb7rd5JnNY.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=RkRMXRk-jQoQ7kNvwHAYp7l&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODU3ODM3MzIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=d1ab249edcee0532&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82RjQyQTcxNDQwNzM0OTMzQzY2QTBGMzc1OEMxQzg4QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNENDIyMTUxOTZBQzlFQjI1ODNFM0QxNTEzNkJGNkJEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAt-Cls_7yPxUCKAJDMywXQDgiDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=wpGo5TQ4oYSq_dBsqFqg3g&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQLX_nN6z8p5qtB16rQ1ebVTpzFHNQG-K4ZLkbiuYdB6Hw&amp;oe=6A9E7CE1\"></video></p>",
+    "summaryKo": "3D 생성 도구 Tripo가 P2.0 프리뷰에 멀티뷰 입력 기능을 추가해, 앞·왼쪽·오른쪽·뒤쪽 이미지를 함께 입력하면 단일 이미지 기반보다 원본에 가까운 3D 구조를 생성할 수 있게 됐다. 단일 이미지 생성은 모든 사용자에게 2회 무료 제공되며 멀티뷰 입력은 구독자 전용이다.",
+    "tags": [
+      "3D생성",
+      "멀티뷰",
+      "이미지투3D"
+    ],
+    "entities": [
+      "Tripo"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "65bcc1c87210825c",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 320B급 AI 모델을 개인 PC에서 돌리는 속도가 최대 3.4배 빨라졌습니다. Un...",
+    "url": "https://www.threads.com/t/Dc5lwVwikkM",
+    "publishedAt": "Sat, 05 Sep 2026 09:00:21 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>320B급 AI 모델을 개인 PC에서 돌리는 속도가 최대 3.4배 빨라졌습니다. Unsloth가 GLM-5.3-Flash의 로컬 GGUF 추론을 최적화했습니다. 디코딩 최적화와 Multi-Token Prediction을 적용해 기존보다 1.6~3.4배 빠르게 실행할 수 있다고 합니다. GLM-5.3-Flash는 전체 320B 중 토큰당 18B만 활성화하는 MoE 모델로, 1M 컨텍스트와 멀티모달을 지원합니다. 3-bit 양자화를 사용하면 128GB 메모리 환경에서도 Unsloth Desktop이나 llama.cpp로 실행할 수 있습니다. 수천억 파라미터급 모델도 양자화와 추론 최적화를 통해 로컬에서 쓸 수 있는 범위로 계속 들어오고 있네요.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/794294731_17985728901112832_4066734099693946920_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzk3OTM3Nzc5NTM3NzI4NTM4OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA5MS5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=tkgDMKaHWDoQ7kNvwHQgC2_&amp;_nc_oc=AdpoHGZ7YGN2SCdCjIwDnkgahNkJN8oxSYTdte243eqQ8xCA3pBdfvwmyZEKbEPgEM0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=wpGo5TQ4oYSq_dBsqFqg3g&amp;_nc_ss=7a22e&amp;oh=00_AQKPC2fF3fAsUDVbE_ucEAufDe-4XQXluv0DlkuAnZABjA&amp;oe=6AA24C50\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Unsloth가 320B급 MoE 모델 GLM-5.3-Flash의 로컬 GGUF 추론을 최적화해 디코딩 속도를 최대 3.4배 높였다. 토큰당 18B 파라미터만 활성화하는 이 모델은 1M 컨텍스트와 멀티모달을 지원하며, 3-bit 양자화 시 128GB 메모리 환경에서도 llama.cpp 등으로 로컬 구동이 가능하다.",
+    "tags": [
+      "양자화",
+      "로컬추론",
+      "MoE",
+      "GGUF"
+    ],
+    "entities": [
+      "Unsloth",
+      "GLM-5.3-Flash"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "ad5bf302ad1b9ade",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "NeurIPS 2026 Automatic Reference Checker [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/",
+    "publishedAt": "2026-09-05T06:14:53+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Just received an email about the automatic reference/citation checker. Did anyone receive a follow up email about whether the checker was included in the paper&#39;s decision making too, along with the general instructional email? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Emergency_Plate241\"> /u/Emergency_Plate241 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/\">[comments]</a></span>",
+    "summaryKo": "NeurIPS 2026 자동 참고문헌(레퍼런스) 검증 시스템에 대한 안내 이메일을 받은 한 연구자가, 이 체크 결과가 실제 논문 채택 심사에 반영되는지 커뮤니티에 문의하는 짧은 게시물이다.",
+    "tags": [
+      "NeurIPS",
+      "논문심사",
+      "레퍼런스체크"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "05a5923f28faf1e4",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Language Models Can Control Their Own Attention [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/",
+    "publishedAt": "2026-09-05T06:07:09+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><h1>Abstract</h1> <p><em>Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tokens that matter. If the user asks about a previous detail in a 1M-token conversation, global attention layers must scan the full context to generate each token of the reply. A prominent approach mitigates this cost by pre-selecting relevant tokens via lightweight proxy scores, but this extrinsic scoring still incurs O(N) per step. We take an intrinsic approach motivated by the simple question: wouldn&#39;t the model already know which parts of the context are relevant? To this end, we introduce Declarative Attention (DA), a protocol that elicits the model to declare where it needs to attend within its chain-of-thought, partitioning generation into three modes: &lt;global&gt; (full context), &lt;focus&gt; (a specific region), and &lt;local&gt; (recent output only). The inference engine parses these declarations like tool calls and skips most of the KV cache read. Under zero-shot evaluation across 15 long-context tasks, DA on off-the-shelf models (Gemma-4-31B, Qwen-3.6-27B) significantly reduces total attended tokens during decoding (52.0%, 31.1%) with modest accuracy drops (1.27pp, 2.75pp) that shrink with model scale. DA unlocks a new axis of sparse attention, with further potential under training-based methods that future work can explore.</em><br/> Subjects:<br/> <strong>Computation and Language (cs.CL)</strong>; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)<br/> Cite as:<br/> <a href=\"https://arxiv.org/abs/2609.02737\">arXiv:2609.02737</a> <strong>[cs.CL]</strong><br/> <br/> (or <a href=\"https://arxiv.org/abs/2609.02737v1\">arXiv:2609.02737v1</a> <strong>[cs.CL]</strong> for this version)<br/> <br/> <a href=\"https://doi.org/10.48550/arXiv.2609.02737\">https://doi.org/10.48550/arXiv.2609.02737</a><br/> Focus to learn more</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eigenlaplace\"> /u/eigenlaplace </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/\">[comments]</a></span>",
+    "summaryKo": "언어모델이 긴 컨텍스트에서 매 토큰 생성 시 전체 KV 캐시를 훑는 비효율을 줄이기 위해, 모델 스스로 어디에 주의를 둘지 선언하게 하는 'Declarative Attention(DA)' 기법이 제안됐다. global/focus/local 세 모드로 주의 범위를 선언하면 추론 엔진이 이를 파싱해 대부분의 KV 캐시 읽기를 건너뛰며, Gemma-4-31B와 Qwen-3.6-27B에서 디코딩 시 주의 토큰 수를 각각 52.0%, 31.1% 줄이면서 정확도 하락은 1.27~2.75%포인트에 그쳤다.",
+    "tags": [
+      "LLM",
+      "어텐션",
+      "추론최적화",
+      "긴컨텍스트"
+    ],
+    "entities": [
+      "Gemma-4-31B",
+      "Qwen-3.6-27B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "6c13f29c9dfd5783",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Implementing Embedding Gemma from scratch in PyTorch [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w7scxc/implementing_embedding_gemma_from_scratch_in/",
+    "publishedAt": "2026-09-05T06:01:57+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1w7scxc/implementing_embedding_gemma_from_scratch_in/\"> <img src=\"https://external-preview.redd.it/2eCUkvW_p323pOzbzyjRi8YM4-bHeIfhFQpZVpGCnJY.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=bc93db0c8d1dedec5954d3a0207f9c9df8ae00a7\" alt=\"Implementing Embedding Gemma from scratch in PyTorch [P]\" title=\"Implementing Embedding Gemma from scratch in PyTorch [P]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Winter_Mistake_3185\"> /u/Winter_Mistake_3185 </a> <br/> <span><a href=\"https://www.youtube.com/watch?v=rxOUmSJTQBk&amp;t=2978s\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w7scxc/implementing_embedding_gemma_from_scratch_in/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "Reddit r/MachineLearning에 PyTorch로 Embedding Gemma를 처음부터 직접 구현하는 과정을 다룬 유튜브 영상 링크가 공유됐다. 별도의 설명 텍스트 없이 썸네일과 링크만 첨부돼 있다.",
+    "tags": [
+      "EmbeddingGemma",
+      "PyTorch",
+      "임베딩모델"
+    ],
+    "entities": [
+      "Gemma"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
+  },
+  {
+    "id": "217b864e282dfaf5",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "Buzz와 Hermes Agent 연결하기: 24시간 운영 구조 만들기",
+    "url": "https://www.youtube.com/watch?v=oCjG0S8R3F8",
+    "publishedAt": "2026-09-05T03:00:22+00:00",
+    "rawText": "Buzz와 Hermes Agent 연결하기: 24시간 운영 구조 만들기",
+    "videoId": "oCjG0S8R3F8",
+    "summaryKo": "AI 에이전트용 업무 메신저 Buzz를 Hostinger VPS에 셀프 호스팅하고, 별도 서버에서 24시간 돌아가는 Hermes 에이전트와 연동해 슬랙 없이도 상시 운영 가능한 구조를 만드는 방법을 소개한다. 원클릭 배포로 Buzz 릴레이·DB 등을 설치한 뒤 공개키 교환과 Buzz CLI를 통한 멤버 등록·프로필 발급 과정을 거쳐, 데스크톱·모바일 앱에서 Hermes 에이전트를 호출해 상시 작업을 요청할 수 있게 된다.",
+    "tags": [
+      "AI에이전트",
+      "셀프호스팅",
+      "업무자동화",
+      "Buzz"
+    ],
+    "entities": [
+      "Buzz",
+      "Hermes",
+      "Hostinger"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "47eab299d5826a04",
     "sourceType": "news",
     "source": "r/MachineLearning",
@@ -826,6 +1267,30 @@
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-04T21:24:07.035Z",
     "hasAnalysis": true
+  },
+  {
+    "id": "039a4975e102cb53",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "url": "https://openai.com/index/gpt-6-astra",
+    "publishedAt": "Thu, 03 Sep 2026 11:00:00 GMT",
+    "rawText": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+    "summaryKo": "OpenAI가 컴퓨터 사용, 코딩, 사이버보안, 과학 분야에서 최고 수준 성능을 보이는 신형 플래그십 모델 GPT-6 Astra를 공개했다. 이전 세대보다 지능과 정합성(alignment)이 개선된 모델로 소개된다.",
+    "tags": [
+      "LLM",
+      "GPT-6",
+      "플래그십모델"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-05T21:23:42.643Z"
   },
   {
     "id": "39210f987919e80e",
@@ -4030,435 +4495,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-08-29T21:19:18.874Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "4cd3c974e1f58437",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Should the press \"run toward\" AI?",
-    "url": "https://www.cjr.org/analysis/should-the-press-run-toward-ai-tom-rosenstiel-new-book-next-journalism-how-press-must-change-serve-democracy.php",
-    "publishedAt": "Sat, 29 Aug 2026 19:20:18 +0000",
-    "rawText": "Article URL: https://www.cjr.org/analysis/should-the-press-run-toward-ai-tom-rosenstiel-new-book-next-journalism-how-press-must-change-serve-democracy.php Comments URL: https://news.ycombinator.com/item?id=49492523 Points: 1 # Comments: 0",
-    "summaryKo": "언론학자 톰 로젠스틸이 신간 《다음 저널리즘》에서 언론사가 AI를 적극 수용해야 한다고 주장한 것을 CJR이 짚었다. 취재 공백 파악, 정치인 발언 검증 등 활용 사례를 제시하지만, 오류·편향·인간 저널리즘과의 구분 상실 같은 비판도 함께 소개된다.",
-    "tags": [
-      "AI 저널리즘",
-      "LLM",
-      "미디어 정책"
-    ],
-    "entities": [
-      "Tom Rosenstiel"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "e9980095d3a6f196",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "All-in-one AI job search platform, resume to offer",
-    "url": "https://rezoom.io/",
-    "publishedAt": "Sat, 29 Aug 2026 19:20:09 +0000",
-    "rawText": "Article URL: https://rezoom.io/ Comments URL: https://news.ycombinator.com/item?id=49492520 Points: 1 # Comments: 0",
-    "summaryKo": "rezoom.io는 이력서 작성부터 지원, 오퍼 수락까지 구직 전 과정을 지원하는 올인원 AI 채용 플랫폼으로 Show HN에 소개됐다.",
-    "tags": [
-      "에이전트",
-      "커리어",
-      "자동화"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "a1d1d4f759126b40",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "An infinite and interactive AI generated live stream of slop",
-    "url": "https://skunkworks.levels.io/infinite-slop/",
-    "publishedAt": "Sat, 29 Aug 2026 18:47:07 +0000",
-    "rawText": "Article URL: https://skunkworks.levels.io/infinite-slop/ Comments URL: https://news.ycombinator.com/item?id=49492243 Points: 4 # Comments: 1",
-    "summaryKo": "levels.io의 skunkworks 프로젝트가 시청자가 실시간으로 개입할 수 있는 무한 생성형 AI 라이브 스트림을 선보였다. 텍스트·이미지 생성 콘텐츠(‘슬롭’)를 계속 만들어내는 인터랙티브 데모다.",
-    "tags": [
-      "멀티모달",
-      "생성형 AI",
-      "라이브스트리밍"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "f5cb083b4743e4b3",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "독일 Sovereign Tech Agency, Flatpak에 50만 유로 투자",
-    "url": "https://news.hada.io/topic?id=33013",
-    "publishedAt": "2026-08-30T03:37:45+09:00",
-    "rawText": "전문 인력 부족과 유지보수 부담으로 개발이 둔화된 Flatpak에 독일 Sovereign Tech Agency가 2년간 €508,640를 투자하며, Modal과 Para-Real Ltd.가 운영을 지원함 Fedora Silverblue, openSUSE Aeon, SteamOS, GNOME OS의 주요 앱 배포 방식인 Flatpak은",
-    "summaryKo": "독일 Sovereign Tech Agency가 인력 부족으로 개발이 정체된 리눅스 배포 표준 Flatpak에 2년간 약 50만 유로(508,640유로)를 투자한다. Modal과 Para-Real Ltd.가 운영 지원을 맡으며, Fedora Silverblue·openSUSE Aeon·SteamOS·GNOME OS 등 주요 배포판의 앱 배포 방식인 Flatpak의 유지보수 강화가 목적이다.",
-    "tags": [
-      "오픈소스",
-      "리눅스",
-      "인프라 투자"
-    ],
-    "entities": [
-      "Flatpak",
-      "Sovereign Tech Agency"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "38c3b00cf65505a3",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "의료계가 항우울제 금단 관리법을 다시 배우기 시작함",
-    "url": "https://news.hada.io/topic?id=33012",
-    "publishedAt": "2026-08-30T03:34:45+09:00",
-    "rawText": "장기간 SSRI를 복용한 뒤 감량하거나 중단할 때 나타나는 금단 증상이 기존 인식보다 흔하고 심각할 수 있어, 의료계가 중단 시점과 방법을 재검토하고 있음 Mark Horowitz는 escitalopram을 10년간 복용한 뒤 수개월 동안 신중히 감량했지만 공황 발작·극심한 공포·어지럼...",
-    "summaryKo": "장기간 SSRI 항우울제를 복용한 뒤 감량·중단할 때 나타나는 금단 증상이 기존 인식보다 흔하고 심각할 수 있어, 의료계가 중단 시점과 방법을 재검토하고 있다는 내용이다. 10년간 에스시탈로프람을 복용한 뒤 신중히 감량했음에도 공황발작 등 심각한 증상을 겪은 사례가 소개된다.",
-    "tags": [
-      "의료",
-      "약물 금단",
-      "정신건강"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "26e360d62f994ecc",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "아이슬란드, EU 가입 협상 재개 여부 국민투표",
-    "url": "https://news.hada.io/topic?id=33011",
-    "publishedAt": "2026-08-30T02:36:49+09:00",
-    "rawText": "아이슬란드가 2013년 중단한 EU 가입 협상을 재개할지 국민투표로 결정하며, 최근 조사에서는 반대가 51.6%로 근소하게 앞섬 찬성표가 곧 가입을 뜻하지는 않으며, 협상 타결 뒤 2차 국민투표와 의회 승인, 개헌, EU 27개 회원국의 동의가 필요함 최대 쟁...",
-    "summaryKo": "아이슬란드가 2013년 중단했던 EU 가입 협상 재개 여부를 국민투표로 결정하며, 최근 여론조사에서는 반대가 51.6%로 근소하게 앞선다. 찬성이 나오더라도 실제 가입까지는 협상 타결 후 2차 국민투표, 의회 승인, 개헌, EU 27개국 동의가 추가로 필요하다.",
-    "tags": [
-      "EU",
-      "국민투표",
-      "정치"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "7dfeffa8fc53061c",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Debian, 생성형 AI의 ‘책임 있는 사용’을 허용하기로 결정",
-    "url": "https://news.hada.io/topic?id=33010",
-    "publishedAt": "2026-08-30T02:33:49+09:00",
-    "rawText": "대규모 언어 모델 사용에 관한 Debian 일반결의 투표에서 5번 선택지인 ‘생성형 AI의 책임 있는 사용’이 채택됨 소프트웨어 개발·유지보수·문서화와 패키징 등에서 생성형 AI 사용을 공식 지지하지도 금지하지도 않는 방침임 책임 있게 활용하면 자원봉...",
-    "summaryKo": "Debian이 생성형 AI 사용에 관한 일반결의 투표에서 '책임 있는 사용'을 공식 채택해, 개발·문서화·패키징 등에서 AI 활용을 지지도 금지도 하지 않는 중립 입장을 정했다. AI 사용 여부와 무관하게 모든 기여물은 기존과 동일한 품질·정확성·법률 준수 기준을 충족해야 하며 기여자가 결과물을 직접 검토·책임져야 한다.",
-    "tags": [
-      "오픈소스",
-      "AI 정책",
-      "거버넌스"
-    ],
-    "entities": [
-      "Debian"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "fc5b52406a570f56",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "일본 최초의 IC 교통카드, Suica의 탄생",
-    "url": "https://news.hada.io/topic?id=33009",
-    "publishedAt": "2026-08-30T00:38:33+09:00",
-    "rawText": "Sony의 FeliCa와 JR East의 철도 시스템을 결합해, 배터리나 실시간 인터넷 없이 승차권 인증·운임 계산·잔액 차감을 200밀리초 이내에 처리하도록 개발됨 중앙 서버를 매번 호출하지 않고 카드와 개찰기가 거래를 로컬에서 끝낸 뒤 기록만 주기적으로 동기화해, 네...",
-    "summaryKo": "Sony의 FeliCa 기술과 JR East 철도 시스템을 결합해 만든 일본 최초의 IC 교통카드 Suica의 개발 비화를 다룬다. 배터리나 실시간 인터넷 연결 없이도 200밀리초 이내에 승차권 인증과 운임 계산을 끝내도록 설계돼, 카드와 개찰기가 거래를 로컬에서 처리한 뒤 기록만 주기적으로 동기화하는 방식이 핵심이다.",
-    "tags": [
-      "임베디드",
-      "교통 시스템",
-      "하드웨어"
-    ],
-    "entities": [
-      "Sony",
-      "JR East",
-      "Suica"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "2c1b40e8ade2a5bc",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 뻥 안치고 제 계정 하나만 보기 위해서 스레드 시작해도 후회 없습니다...",
-    "url": "https://www.threads.com/t/DcoJ_A3j4gT",
-    "publishedAt": "Sat, 29 Aug 2026 14:30:36 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>뻥 안치고 제 계정 하나만 보기 위해서 스레드 시작해도 후회 없습니다. 스레드 자체가 한국 정보 최상위권 학습 플랫폼입니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/788584669_17984548551112832_6772023034010154689_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=Mzk3NDQ3MDU4MzgzMjI1MDM4Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=j368ev_RHcsQ7kNvwGA8uTd&amp;_nc_oc=AdqPeZ7Yfo3dhmrDcIIr4jy4s0soe9VZeXGMiQ2pSDbied9ufK9D3MV-G1BJDjmtm40&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=Vq-glvAUESNGiIvmLuus4w&amp;_nc_ss=7a22e&amp;oh=00_AQLnvs9EQURbUM33Hv6q-lVb4TAedkkr1OSuN3QfytWhfw&amp;oe=6A991FC7\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "OpenAI 관련 소식을 전하는 Threads 계정 운영자가 자신의 계정이 한국어권 AI 정보 습득에 유용하다고 소개하는 홍보성 게시물이다.",
-    "tags": [],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "db92c6944a2d5bc6",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 중국이 미국의 AI 데이터센터 건설을 늦추기 위해 온라인 여론전ᄋ...",
-    "url": "https://www.threads.com/t/Dcn_pokAAv7",
-    "publishedAt": "Sat, 29 Aug 2026 13:00:18 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국이 미국의 AI 데이터센터 건설을 늦추기 위해 온라인 여론전에 개입한 정황이 포착됐습니다. Axios에 따르면 X는 중국계로 의심되는 영향력 활동 계정 약 20만 개를 조사했고, 이 가운데 약 200개가 미국의 AI·에너지 정책 논쟁에 영향을 줄 수 있는 게시물을 올린 것으로 확인됐습니다. 데이터센터가 전력망에 부담을 주고 전기요금을 높인다는 내용부터, 데이터센터 사업자들이 주민을 희생해 돈을 번다는 내용의 만화까지 게시됐습니다. 미 의회도 중국·러시아·이란 등이 미국의 AI 개발과 데이터센터 확장을 방해하기 위한 선전 활동을 벌이고 있는지 조사하고 있습니다. 앞서 오픈AI도 지난 6월 ChatGPT를 이용해 AI의 전력 소비와 기술 관세 관련 미국 여론에 영향을 주려던 중국 연계 비밀 네트워크 2곳을 차단했다고 밝힌 바 있습니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/790113397_17984546295112832_4663639135816852074_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzk3NDQyNTEzNDE2MDE1MzU5NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYxMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=PTE8LJEnXeQQ7kNvwFdbbKR&amp;_nc_oc=AdqIJtQQolCWi89eaqpb3HTyWd5hOgfvGMigkTahvuTzVb5ipQ_9tE30QmDxS_QLeh8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=Vq-glvAUESNGiIvmLuus4w&amp;_nc_ss=7a22e&amp;oh=00_AQJTOmBuIdxyZZbscXbS8hMVq9iHuxWonkbuDji4WPyGTQ&amp;oe=6A992EDC\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Axios 보도에 따르면 X가 중국계로 의심되는 영향력 공작 계정 약 20만 개를 조사했고, 이 중 약 200개가 미국 AI·에너지 정책 논쟁에 영향을 미칠 수 있는 게시물을 올린 정황이 확인됐다. 미 의회도 중국·러시아·이란의 관련 선전 활동 여부를 조사 중이며, 앞서 OpenAI도 유사한 목적의 중국 연계 비밀 네트워크 2곳을 차단한 바 있다.",
-    "tags": [
-      "AI 정책",
-      "데이터센터",
-      "정보전"
-    ],
-    "entities": [
-      "Axios",
-      "X",
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "bebcda7155de2e76",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 구글의 Gemini 출시 속도가 상당히 빨라지고 있습니다. Business Insider에 따르...",
-    "url": "https://www.threads.com/t/Dcn42xAEulk",
-    "publishedAt": "Sat, 29 Aug 2026 12:00:55 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>구글의 Gemini 출시 속도가 상당히 빨라지고 있습니다. Business Insider에 따르면 구글 직원들이 내부 코딩 플랫폼 Jetski에서 Gemini 3.8 Flash Preview를 테스트하기 시작했습니다. Gemini 3.6 Flash가 7월에 출시되고 불과 3주 뒤 3.7 Flash가 나온 데 이어 벌써 다음 모델을 테스트하는 건데요. 직접 사용한 직원은 3.8 Flash가 3.7보다 눈에 띄게 좋아졌다고 평가했습니다. 순다 피차이도 앞서 거의 매달 새로운 모델을 출시하는 것을 목표로 한다고 밝혔는데, 실제로 그 주기에 가까워지고 있습니다. 아직 Gemini 3.8 Flash의 정식 출시는 확정되지 않았지만, 내부 테스트가 시작된 만큼 공개까지 오래 걸리지 않을 가능성이 있습니다. Gemini 3.5 Pro는 건너뛰고 Gemini 4 시리즈로 맞추기위한 가속처럼 보이기도합니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/789554355_17984546763112832_6052908333859827042_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzk3NDM5NTI1MDI0ODcwNjQwNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTAzMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=YxJWby0ysxIQ7kNvwFpDFFF&amp;_nc_oc=AdrvgEahDG0dhuADNCJT8BqC-54vOpjwmCZJN6avjgYFQMZBsImfewFMotLfp5XsHd4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=Vq-glvAUESNGiIvmLuus4w&amp;_nc_ss=7a22e&amp;oh=00_AQL_UzjPtbX-rv6-_CMy2-JuHbl7r-RYCiLdWYA9WLF6vw&amp;oe=6A992423\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Business Insider에 따르면 구글이 내부 코딩 플랫폼 Jetski에서 벌써 Gemini 3.8 Flash Preview를 테스트 중이다. 3.6 Flash 출시 이후 불과 3주 만에 3.7이 나온 데 이어 다음 모델까지 준비하는 것으로, 순다 피차이가 밝힌 매달 신모델 출시 목표에 가까워지고 있으며 3.5 Pro를 건너뛰고 Gemini 4 시리즈로 가속하려는 움직임으로 해석된다.",
-    "tags": [
-      "LLM·모델",
-      "Gemini",
-      "모델 출시 주기"
-    ],
-    "entities": [
-      "Google",
-      "Gemini",
-      "Sundar Pichai"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z"
-  },
-  {
-    "id": "ec3652ce83be6976",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "마이크로소프트 창업자의 AI 메모 — 위험 3가지, 해법 3가지, 그리고 \"계획을 세울 계획조차 없다\"",
-    "url": "https://www.youtube.com/watch?v=JuWaCZIYeBk",
-    "publishedAt": "2026-08-29T04:17:30+00:00",
-    "rawText": "마이크로소프트 창업자의 AI 메모 — 위험 3가지, 해법 3가지, 그리고 \"계획을 세울 계획조차 없다\"",
-    "videoId": "JuWaCZIYeBk",
-    "summaryKo": "빌 게이츠가 8월 26일 올린 글에서 AI 낙관론자였던 과거와 달리 톤을 바꿔, 일자리 소멸·오남용·아동 발달 저해라는 세 가지 위험과 전환관리기구·인간보류영역·AI세금이라는 세 가지 해법을 제시하며 '계획을 세울 계획조차 없다'고 경고했다. 영상은 그의 글과 CNN·애틀랜틱 인터뷰를 근거로 낙관과 경고 사이에서 달라진 입장을 짚는다.",
-    "tags": [
-      "AI 정책",
-      "일자리",
-      "AI 안전"
-    ],
-    "entities": [
-      "Bill Gates",
-      "Microsoft"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "0273e18f46d2cce3",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "구글시트 Gemini 8월 신기능 출시! 데이터 분석부터 앱 제작까지 완벽 정리",
-    "url": "https://www.youtube.com/watch?v=Ui3THZSgz50",
-    "publishedAt": "2026-08-29T03:24:41+00:00",
-    "rawText": "구글시트 Gemini 8월 신기능 출시! 데이터 분석부터 앱 제작까지 완벽 정리",
-    "videoId": "Ui3THZSgz50",
-    "summaryKo": "구글시트에 내장된 Gemini 기능이 올해 4월 표·차트·수식 생성, 6월 한국어 지원, 8월 미니 앱을 만드는 '캔버스' 기능까지 빠르게 진화했다. 영상은 매출·비용 데이터를 예시로 지표 생성, 오류 자동 수정, 대시보드·경영진 요약 작성, 칸반보드 앱 제작까지 실습으로 보여준다.",
-    "tags": [
-      "멀티모달",
-      "생산성 도구",
-      "LLM"
-    ],
-    "entities": [
-      "Google",
-      "Gemini",
-      "Google Sheets"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-29T21:19:18.874Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "564491c1467015d4",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "\"덴마크, AI로 인허가·약물감시\"...정부, 인프라 구축 시동",
-    "url": "https://www.dailypharm.com/user/news/341917",
-    "publishedAt": "2026-08-29",
-    "rawText": "\"덴마크, AI로 인허가·약물감시\"...정부, 인프라 구축 시동",
-    "summaryKo": "덴마크의약청은 의약품 인허가 심사부터 시판 후 약물감시까지 규제 업무 전반에 AI를 활용하고 있으며, 데이터 유출과 투명성 문제를 우려해 폐쇄망에 오픈소스 언어모델을 구축해 운영한다. 한국 정부도 보건복지부와 건강보험심사평가원을 중심으로 AI 인프라 구축을 추진하고 있다.",
-    "tags": [
-      "AI 의약품 규제",
-      "약물감시",
-      "오픈소스 LLM",
-      "AI 인프라"
-    ],
-    "entities": [
-      "덴마크의약청",
-      "보건복지부",
-      "건강보험심사평가원"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-28T21:28:50.404Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "9f24e52920196a92",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "When AI Memory Becomes Production State",
-    "url": "https://jasondoyle.ie/whitepapers/when-memory-becomes-production-state/",
-    "publishedAt": "Fri, 28 Aug 2026 21:08:59 +0000",
-    "rawText": "Article URL: https://jasondoyle.ie/whitepapers/when-memory-becomes-production-state/ Comments URL: https://news.ycombinator.com/item?id=49484280 Points: 4 # Comments: 0",
-    "summaryKo": "AI 에이전트의 지속형 메모리를 단순 편의 기능이 아니라 프로덕션 시스템으로 다뤄야 한다는 주장을 담은 백서. 메모리를 위험도에 따라 5단계로 분류하고, 포착부터 삭제·감사까지 11단계의 신뢰성 생명주기를 제시하며 잘못된 메모리가 재무·보안·규제 리스크로 이어질 수 있다고 경고한다.",
-    "tags": [
-      "AI 메모리",
-      "에이전트 아키텍처",
-      "프로덕션 신뢰성"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-28T21:28:50.404Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "3b5fe84405076298",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 🚨 GLM-5.3이 이제 오픈 웨이트로 제공됩니다!",
-    "url": "https://www.threads.com/t/DcmR0LKCVGD",
-    "publishedAt": "Fri, 28 Aug 2026 21:00:33 GMT",
-    "rawText": "@choi.openai: 🚨 GLM-5.3이 이제 오픈 웨이트로 제공됩니다!",
-    "summaryKo": "GLM-5.3 모델이 오픈 웨이트로 공개됐다는 소식이 Threads에 짧게 공유됐다. 게시물에는 공개 사실 외에 구체적인 성능이나 라이선스 정보는 포함되어 있지 않다.",
-    "tags": [
-      "GLM",
-      "오픈 웨이트",
-      "LLM"
-    ],
-    "entities": [
-      "GLM-5.3"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-08-28T21:28:50.404Z"
-  },
-  {
-    "id": "350d83bf65981751",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Bored with Python, should I learn C++? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w12ojy/bored_with_python_should_i_learn_c_d/",
-    "publishedAt": "2026-08-28T20:59:44+00:00",
-    "rawText": "I'm getting pretty bored with Python for ML. With GenAI tools now being able to write very good code, I feel like writing in a high-level language is becoming less interesting to me.",
-    "summaryKo": "한 ML 실무자가 파이썬에 지루함을 느껴 C++이나 C, Rust 같은 저수준 언어로 전환할지 커뮤니티에 조언을 구했다. GenAI 도구가 코드를 잘 작성해주면서 고수준 언어 작업의 흥미가 줄었고, ML의 초점이 아키텍처·수학보다 배포·추론 쪽으로 옮겨가는 데 대한 아쉬움도 드러냈다.",
-    "tags": [
-      "커리어",
-      "프로그래밍 언어"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-28T21:28:50.404Z"
-  },
-  {
-    "id": "38d8636f3befec48",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Is \"An agent with tools\" the only valid LLM application?",
-    "url": "https://news.ycombinator.com/item?id=49484000",
-    "publishedAt": "Fri, 28 Aug 2026 20:41:23 +0000",
-    "rawText": "Brex's CEO said this and I understand where he comes from, but is there a place for end to end workflows in LLM based applications? At the end of the day I agree that cutting edge software should be fully usable by agents, but I can't decide if every product should be an agent. I personally hate the UX of most agentic applications. I have this fantasy of future products where I can simply enter input X and get output Y without having to give feedback on every little thing. Of course when you're designing something it needs to be a process, but what if I can tell my phone to \"buy dinner\" and it just does it without bothering me at every step? What if it was just good enough? I think a conversable agent is necessary as long as the application is unsure of the accuracy of the output, but I wonder if the UX of LLM applications could be more like a rich person fixing their car, like here is my situation, just do what you need to do and don't bother me. Comments URL: https://news.ycombinator.com/item?id=49484000 Points: 3 # Comments: 0",
-    "summaryKo": "Brex CEO의 '모든 LLM 애플리케이션은 에이전트여야 한다'는 주장에 대해, 사용자가 매 단계마다 개입해야 하는 에이전트형 UX가 오히려 불편할 수 있다는 반론을 제기하는 HN 토론글. 글쓴이는 정확도가 보장된다면 대화형 상호작용 없이 입력만으로 결과를 내는 형태의 애플리케이션도 필요하다고 주장한다.",
-    "tags": [
-      "에이전트 UX",
-      "LLM 애플리케이션 설계"
-    ],
-    "entities": [
-      "Brex"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-28T21:28:50.404Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "8ebb9ab14533c0cb",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Tencent Hy4 Preview LLM",
-    "url": "https://github.com/Tencent-Hunyuan/Hy4-preview",
-    "publishedAt": "Fri, 28 Aug 2026 20:40:21 +0000",
-    "rawText": "Article URL: https://github.com/Tencent-Hunyuan/Hy4-preview Comments URL: https://news.ycombinator.com/item?id=49483991 Points: 2 # Comments: 0",
-    "summaryKo": "Tencent Hunyuan팀이 770B 파라미터(토큰당 49B 활성화)의 MoE 기반 오픈소스 LLM 'Hy4 Preview'를 공개했다. Gated DSA와 iHC 등 신규 기법을 적용하고 1M 토큰 컨텍스트를 지원하며, 자체 평가에서 GLM-5.3·Kimi K3 등 경쟁 모델을 능가했다고 주장한다.",
-    "tags": [
-      "MoE",
-      "오픈소스 LLM",
-      "긴 컨텍스트"
-    ],
-    "entities": [
-      "Tencent Hunyuan",
-      "Hy4",
-      "GLM-5.3",
-      "Kimi K3"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-08-28T21:28:50.404Z",
     "hasAnalysis": true
   }
 ]
