@@ -1,0 +1,26 @@
+{
+  "points": [
+    "글로벌 로보택시 시장은 2035년까지 4,000억 달러, 상용 차량 600만 대 규모로 성장할 전망이다.",
+    "NVIDIA는 DGX(학습)-Omniverse/Cosmos(시뮬레이션)-DRIVE Hyperion(차량 탑재)으로 이어지는 3계층 로보택시 기술 스택을 제공한다.",
+    "체인오브소트 추론 데이터를 추가하자 궤적 예측 오차율이 2.08에서 1.18로, 43% 개선됐다.",
+    "Uber, Lyft, Mercedes-Benz, Hyundai/Kia 등 주요 모빌리티·완성차 업체가 이 플랫폼을 채택하고 있다."
+  ],
+  "sections": [
+    {
+      "heading": "학습·시뮬레이션 인프라",
+      "body": "NVIDIA DGX는 비전-언어-행동(VLA) 모델 포트폴리오인 Alpamayo를 제공하며, 체인오브소트 추론 데이터를 추가한 결과 궤적 예측 오차율이 2.08에서 1.18로 43% 개선됐다. Omniverse NuRec은 실제 센서 데이터로 주행 시나리오를 재구성하고 Cosmos 세계 기초 모델이 이를 수백만 가지 조합의 주행·날씨 시나리오로 확장한다."
+    },
+    {
+      "heading": "차량 탑재 컴퓨팅",
+      "body": "DRIVE Hyperion은 Blackwell 기반 DRIVE AGX Thor 듀얼 시스템에 카메라 14개, 레이더 9개, 라이더 3개, 초음파 센서 12개를 통합했다. 센서와 컴퓨팅을 이중화해 안전성을 확보했다."
+    },
+    {
+      "heading": "파트너 생태계",
+      "body": "Uber는 2028년까지 28개 도시로 서비스를 확장할 계획이며 Lyft는 DRIVE Hyperion을 기준 아키텍처로 채택했다. Mercedes-Benz, Hyundai/Kia, Geely/Zeekr, Stellantis, Lucid, Nissan 등 완성차 업체와 Wayve, Pony.ai 등 자율주행 기술 기업도 이 플랫폼을 활용하고 있다."
+    }
+  ],
+  "quotes": [
+    "로보택시 시장 2035년까지 4,000억 달러, 상용 차량 600만 대 규모 전망",
+    "체인오브소트 추론 도입으로 궤적 예측 오차 43% 개선(2.08→1.18)"
+  ]
+}

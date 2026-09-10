@@ -1,0 +1,24 @@
+{
+  "points": [
+    "AI 추론 칩 기업 d-Matrix가 차세대 Raptor XPU를 NVIDIA NVLink Fusion으로 연결하기로 했다.",
+    "Vera CPU, ConnectX-9 SuperNICs, BlueField-4 DPU, Spectrum-X 네트워킹 등 NVIDIA 인프라와 통합된다.",
+    "NVLink Fusion과 MGX 랙 아키텍처를 통해 액체냉각 환경에 맞춤형 실리콘을 편입시켜 개발 시간과 비용, 배포 위험을 줄이려는 목적이다."
+  ],
+  "sections": [
+    {
+      "heading": "발표 내용",
+      "body": "d-Matrix는 차세대 Raptor XPU를 NVIDIA NVLink Fusion을 통해 NVIDIA AI 인프라 플랫폼과 연결한다고 발표했다. Sid Sheth d-Matrix 공동창립자 겸 CEO는 급증하는 추론 수요에 비해 자본·시간·에너지가 유한하다며, NVLink Fusion과 MGX를 통해 액체냉각 아키텍처에 Raptor XPU를 통합할 수 있다고 설명했다."
+    },
+    {
+      "heading": "기술 구성",
+      "body": "이번 배포에는 NVIDIA Vera CPU, ConnectX-9 SuperNICs, BlueField-4 DPU, Spectrum-X 이더넷 네트워킹이 포함된다. MGX 랙 아키텍처는 GPU, CPU, XPU를 함께 지원하는 통합 설계를 제공한다."
+    },
+    {
+      "heading": "전략적 의미",
+      "body": "NVLink Fusion은 맞춤형 실리콘 제조사가 NVIDIA의 검증된 플랫폼을 활용해 개발 시간과 비용을 줄이고 배포 위험을 낮출 수 있게 해준다."
+    }
+  ],
+  "quotes": [
+    "\"추론에 대한 수요가 급증하고 있지만, 자본, 시간, 에너지는 유한하다\" — Sid Sheth, d-Matrix CEO"
+  ]
+}
