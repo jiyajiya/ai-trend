@@ -1,5 +1,404 @@
 [
   {
+    "id": "968c32634dc2a1cb",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "publishedAt": "Mon, 14 Sep 2026 00:00:00 GMT",
+    "rawText": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "summaryKo": "Perplexity가 OpenAI의 GPT-6 Astra 모델을 도입해 사내 커뮤니케이션 작성, 소프트웨어 변경, 프로덕션 시스템 모니터링 등 종단간 업무를 맡기고 있다. 이전 모델 대비 확인 빈도를 크게 줄일 수 있을 만큼 신뢰도가 높아졌다고 밝혔다.",
+    "tags": [
+      "LLM",
+      "에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "Perplexity",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "780472c0c1243bc5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "OpenStreetMap에서 첫 편집하기",
+    "url": "https://news.hada.io/topic?id=33596",
+    "publishedAt": "2026-09-13T05:38:50+09:00",
+    "rawText": "JOSM과 Website Wizard 플러그인으로 주변 상점이나 편의시설에 공식 웹사이트 태그를 추가하는, 15분 이내를 목표로 한 입문 튜토리얼임 website 태그는 전화번호, 영업시간, 이메일 등 추가 정보를 찾는 출발점이며, 편집 내용은 이후 수십 개의 무...",
+    "summaryKo": "JOSM과 Website Wizard 플러그인을 이용해 15분 안에 주변 상점·시설에 공식 웹사이트 태그를 추가하는 OpenStreetMap 입문 편집 튜토리얼이다. website 태그는 전화번호·영업시간 같은 부가 정보를 찾는 시작점이 되며, 편집 내용은 이후 여러 지도 서비스에 반영된다.",
+    "tags": [
+      "OpenStreetMap",
+      "지도데이터"
+    ],
+    "entities": [
+      "OpenStreetMap",
+      "JOSM"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "09decb9a55f437ce",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Dario에게 보내는 공개서한: 진심이라면 모델 가중치를 공개하라",
+    "url": "https://news.hada.io/topic?id=33595",
+    "publishedAt": "2026-09-13T05:35:50+09:00",
+    "rawText": "프런티어 AI 개발 속도를 늦추기 위해, 기업이 대중에게 제공하는 모든 AI 모델의 가중치 공개를 법으로 의무화하자고 제안함 공개 의무는 대중에게 제공하는 모델에만 적용하며, 내부용 모델과 연구용 모델은 제외하고 정부의 미출시 모델 접근도 허용함",
+    "summaryKo": "프런티어 AI 개발 속도를 늦추기 위해 대중에게 공개되는 모든 AI 모델의 가중치를 법으로 의무 공개하자는 공개서한이 Anthropic CEO 다리오 아모데이에게 전달됐다. 공개 의무는 대중 공개 모델에만 적용되고, 내부용·연구용 모델과 정부의 미출시 모델 접근은 예외로 뒀다.",
+    "tags": [
+      "AI 정책",
+      "모델 공개"
+    ],
+    "entities": [
+      "Anthropic",
+      "Dario Amodei"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "e1736be42488a1df",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오픈AI 출신 다니엘 코코타일로는 수십만 개의 AI 에이전트가 이미 여...",
+    "url": "https://www.threads.com/t/DdM2WCECoff",
+    "publishedAt": "Sat, 12 Sep 2026 20:30:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI 출신 다니엘 코코타일로는 수십만 개의 AI 에이전트가 이미 연구와 코딩, 심지어 상호 모니터링까지 자율적으로 분담해 수행하고 있다고 밝혔습니다. 그는 “불과 1년 전 AI로는 완전히 불가능했던 정교한 다단계 작업들을 지금의 모델들은 해내고 있다”고 말했습니다. 특히 AI들이 상하 지휘 체계를 갖추고 팀을 이뤄 복잡한 작업을 조율하는 등 성능의 진화 속도가 압도적이라고 강조했습니다. 또한 연간 투입되는 컴퓨팅 자원이 수배씩 급증함에 따라 에이전트의 규모와 지능 역시 기하급수적으로 폭발할 것이라 경고했습니다. 즉, AI 에이전트 스웜이 스스로 코드를 짜고 연구를 가속하는 구조가 정착되면서, 개발 환경은 물론 지식 노동 전반의 생산성과 경제적 패러다임이 전례 없는 전환점을 맞이하고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/806389729_1092592269969385_5213561955980848120_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzk4NDc5ODc3ODg3MTQxNjc5OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=8E0cLRKk-XEQ7kNvwEouXHX&amp;_nc_oc=AdpnoXK6fgUliEjDxZIkbmCTkOGJyIBJEI8eMJemHNMdgb5j-0b4JnSCrx_6FuIqXAw&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;oh=00_AQLffXC1H-7bd1svqvM2zYMRgKbTjslPi2cay9IL_hjY_g&amp;oe=6AAB869E\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQOcU6c2Ugwqxp1UVw0oFJiDVfU_BumIP403tlEEne8y5mRfNyR9E7qqDaRGfJL80hSyOIbRKwOa9wBfuTCnG8l6OTo8-U6vsu0VoIs.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=hRSiniNfUAoQ7kNvwFXRSyh&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODY3MzY1NDQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=11775f3ddad61d24&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GMzRBRDM2MUQwOEJENTFBNUIyMDM2NkU1OEIwQUI4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIxNDUxNDQwMzMyNDVEN0UyNjFEQTMxMjEzMTQwNEI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAg4um7rXzPxUCKAJDMywXQFdQk3S8an8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQJDir_94wNJM-DgwnQsP-okRkFjARiCTxiYRoW3pMbBKA&amp;oe=6AA79216\"></video></p>",
+    "summaryKo": "전 OpenAI 소속 다니엘 코코타일로는 이미 수십만 개의 AI 에이전트가 연구·코딩·상호 모니터링을 자율적으로 수행하고 있다고 밝혔다. 1년 전만 해도 불가능했던 정교한 다단계 작업을 에이전트 팀이 지휘체계를 갖춰 처리할 만큼 성능이 빠르게 진화했고, 컴퓨팅 투입이 급증하면서 에이전트 규모와 지능이 기하급수적으로 커질 것이라 경고했다.",
+    "tags": [
+      "AI 에이전트",
+      "자율 워크플로"
+    ],
+    "entities": [
+      "Daniel Kokotajlo",
+      "OpenAI"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "0e1fcfb70d979d34",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "커넥톰과 물리학을 활용한 초파리 시뮬레이션",
+    "url": "https://news.hada.io/topic?id=33594",
+    "publishedAt": "2026-09-13T05:28:52+09:00",
+    "rawText": "MuJoCo의 물리적 NeuroMechFly 신체, MaleCNS 연결체 데이터, 그리고 명시적 행동 제어기를 결합한 지역 과실파리 시뮬레이션. 주요 하이브리드 모드는 걷기, 냄새를 따라 먹이를 찾는 행동, 관절식 입술을 통한 접촉 기반 섭식, 몸단장, 수면 압력, 그리고 깨어남을 지원한다. 별도의 두 마리 파리가 활동하는",
+    "summaryKo": "MuJoCo 기반 물리 신체 NeuroMechFly와 MaleCNS 뇌 연결체 데이터를 결합해 초파리의 행동을 시뮬레이션하는 연구다. 걷기, 먹이 탐색, 몸단장, 수면 등 다양한 행동을 하이브리드 제어 방식으로 재현한다.",
+    "tags": [
+      "시뮬레이션",
+      "커넥톰"
+    ],
+    "entities": [
+      "MuJoCo",
+      "NeuroMechFly"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "f49566ad1207f5e5",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 레이 커즈와일은 하드웨어 발전과 소프트웨어 알고리즘의 효율화가 ᄀ...",
+    "url": "https://www.threads.com/t/DdMsA-kEmFu",
+    "publishedAt": "Sat, 12 Sep 2026 19:00:37 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>레이 커즈와일은 하드웨어 발전과 소프트웨어 알고리즘의 효율화가 결합된 “수확 가속의 법칙(Law of Accelerating Returns)”에 의해 컴퓨팅 파워가 기하급수적으로 폭발하고 있다고 밝혔습니다. 그는 1939년 최초의 컴퓨터부터 최신 칩셋까지 하드웨어 성능과 알고리즘 혁신을 곱하면 실질적인 연산 능력이 “200퀸틸리언(200 quintillion, 2해) 배 증가했다”고 설명했습니다. 커즈와일은 이러한 궤적을 바탕으로 “2029년까지 인간 수준의 인공일반지능(AGI)에 도달할 것”이라는 자신의 27년 전 예측이 예정대로 실현될 것이라 자신했습니다. 그는 AGI가 의식의 문제가 아니라 현실 세계의 작업 수행 능력에 달려 있다며, “인간보다 수배 빠르게 생각하고, 스스로를 수천 개의 복사본으로 나누어 협업하며, 사실상 초인간적(superhuman) 능력을 발휘할 것”이라 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/806473583_2002460223803311_2940626193894142592_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzk4NDc1MzM1MTUzOTcxMjM2Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=9Wx9Q3QgWdkQ7kNvwH46FEs&amp;_nc_oc=Adr5vs-JjB1c-gfpKPbpjormMYdoouzNDESyXnbz6cCndKIXUsqJYDUZPY0JX-AoupM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;oh=00_AQIAxbXdVUC-jFhfaGwsZN4thq24xaNyFw7XwiI_xJBQCA&amp;oe=6AAB9CC6\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQNnRU6TlA46aARb2Ai-dl5r6fiKhoXHXqsvNI9qZCROb6yrjhbp2_mv4VzXmGH_kbkjstQTh-UjEF-N1FGTBHyqQepMRxhe_dwhQZc.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=V1FN9Bc_-NAQ7kNvwGFNo3S&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODY3MzQxOTUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjIwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=9aaa67859e444dd8&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xQTRDRTE3NzlCOEY5MEQ3QTc3NTE2QTBFMkZERTM5Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQzNDk4RjFGQ0VCMThCNTM0QzRDMkNCRTc4RkE5Q0I0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA7vPl3LXzPxUCKAJDMywXQGuBsi0OVgQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQLeDGKv804JTCoiHYGqjCuWR5MhFXGUiezrwuZ0lpktEg&amp;oe=6AA7B0BE\"></video></p>",
+    "summaryKo": "레이 커즈와일은 하드웨어와 알고리즘 효율화가 결합된 '수확 가속의 법칙'에 따라 1939년 이후 연산 능력이 200퀸틸리언 배 증가했다고 밝혔다. 이 궤적을 근거로 2029년까지 인간 수준 AGI에 도달할 것이라는 27년 전 자신의 예측이 예정대로 실현될 것이라 자신했다.",
+    "tags": [
+      "AGI",
+      "컴퓨팅파워"
+    ],
+    "entities": [
+      "Ray Kurzweil"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "25d55b8112f51697",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI 중심 콘텐츠의 우선순위를 낮춘 Hacker News",
+    "url": "https://news.hada.io/topic?id=33593",
+    "publishedAt": "2026-09-13T03:41:14+09:00",
+    "rawText": "AI 중심 콘텐츠의 우선순위를 낮춘 Hacker News",
+    "summaryKo": "Hacker News가 피드에서 AI 중심 콘텐츠의 노출 우선순위를 낮췄다는 소식이 전해졌다. 커뮤니티 내 AI 관련 게시물 비중 증가에 대한 대응으로 보인다.",
+    "tags": [
+      "Hacker News",
+      "AI 콘텐츠"
+    ],
+    "entities": [
+      "Hacker News"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "697301659ede9efd",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Thelio Mira AI - GPU 메모리 192GB를 지원하는 Linux 워크스테이션",
+    "url": "https://news.hada.io/topic?id=33592",
+    "publishedAt": "2026-09-13T03:38:14+09:00",
+    "rawText": "System76의 Thelio Mira AI는 자체 하드웨어에서 AI 학습, 미세 조정, 반복 개발을 수행하도록 설계한 GPU 중심 워크스테이션임 NVIDIA RTX PRO 6000 두 개로 GPU 메모리를 최대 192GB까지 구성할 수 있으며, CPU는 최대 16코어 AMD Ryzen 9000 시...",
+    "summaryKo": "System76이 자체 하드웨어에서 AI 학습과 파인튜닝을 반복하도록 설계한 GPU 중심 Linux 워크스테이션 'Thelio Mira AI'를 공개했다. NVIDIA RTX PRO 6000 GPU 2개로 최대 192GB GPU 메모리를 구성할 수 있고, 최대 16코어 AMD Ryzen 9000 시리즈 CPU를 탑재한다.",
+    "tags": [
+      "AI 하드웨어",
+      "워크스테이션"
+    ],
+    "entities": [
+      "System76",
+      "NVIDIA"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "89764a1a06337e84",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Android에서 트래픽을 유출하는 또 다른 방법 발견",
+    "url": "https://news.hada.io/topic?id=33591",
+    "publishedAt": "2026-09-13T02:53:25+09:00",
+    "rawText": "Android 네트워크 스택에서 악성 앱이 VPN 터널 밖으로 트래픽을 전송할 수 있는 문제가 발견됐으며, VPN 없는 모든 연결을 차단하는 설정을 켜도 발생함 공격에 특별한 권한이 필요하지 않으며, 기기의 실제 IP 주소가 인터넷에 노출돼 추적이나 감시에 이용될 가...",
+    "summaryKo": "Android 네트워크 스택에서 VPN 터널을 우회해 트래픽을 유출시킬 수 있는 취약점이 새로 발견됐다. 특별한 권한 없이도 기기의 실제 IP가 노출될 수 있어 추적·감시에 악용될 위험이 있다.",
+    "tags": [
+      "보안",
+      "VPN"
+    ],
+    "entities": [
+      "Android"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "1f26575f7848540d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "1,000달러로 좋은 차를 사는 방법",
+    "url": "https://news.hada.io/topic?id=33590",
+    "publishedAt": "2026-09-13T02:50:25+09:00",
+    "rawText": "저가 중고차 구매에는 차량 상태를 판단하는 지식과 신뢰할 만한 인맥이 중요함. 이사하는 지인에게 1,000달러에 산 15년 된 차를 가족이 5년 더 운행한 사례가 있음 이 시장에서 좋은 차의 기준은 외관보다 운행 가능 여부임. 문이나 창문의 일부 결함보다 정상 주...",
+    "summaryKo": "저가 중고차 구매는 차량 상태를 판단하는 지식과 신뢰할 수 있는 인맥이 관건이라는 경험담이다. 외관보다 실제 운행 가능 여부가 좋은 차를 고르는 핵심 기준으로 제시됐다.",
+    "tags": [
+      "중고차"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "4f3362db6aac2aaa",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Starlink 신호 누출, 전파천문학의 가장 중요한 주파수를 위협",
+    "url": "https://news.hada.io/topic?id=33589",
+    "publishedAt": "2026-09-13T02:47:25+09:00",
+    "rawText": "Starlink 위성의 비의도적 하드웨어 전파 누출이 초기 우주의 미약한 수소 신호를 관측하려는 SKA-Low의 주파수 대역을 오염시키고 있음 Curtin University 연구팀은 위성 1,806기에서 전파 방출 112,534건을 검출했으며, 일부 주파수에서는 관측...",
+    "summaryKo": "Starlink 위성에서 발생하는 비의도적 전파 누출이 초기 우주의 수소 신호를 관측하는 SKA-Low 전파천문대의 핵심 주파수를 오염시키고 있다. Curtin University 연구팀은 위성 1,806기에서 11만 건이 넘는 전파 방출을 검출했다고 밝혔다.",
+    "tags": [
+      "전파천문학",
+      "위성"
+    ],
+    "entities": [
+      "Starlink",
+      "SKA-Low"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "ea848a2f8b7c9422",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 전 오픈AI 거버넌스 연구원 다니엘 코코타일로는 초지능 이전 단계...",
+    "url": "https://www.threads.com/t/DdMhsrjiugq",
+    "publishedAt": "Sat, 12 Sep 2026 17:30:28 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>전 오픈AI 거버넌스 연구원 다니엘 코코타일로는 초지능 이전 단계에서도 경제적 폭발이 일어날 수 있다고 전망했습니다. 인간 최고 전문가 수준의 AI에서 발전을 멈추더라도, 이를 탑재한 로봇의 생산량을 늘려 노동력을 전면 대체하면 경제 규모는 기하급수적으로 커진다는 설명입니다. 로봇이 로봇을 생산하고 자원 채굴부터 제조까지 전 과정을 자동화하면서, 불과 10년 만에 전체 경제 규모가 100배 이상 성장할 수 있다고 분석했습니다. “이 수준의 AI에 도달하면 물질적 풍요는 더 이상 우리의 문제가 되지 않을 것입니다. 우리는 풍요 속에 빠져들게 될 것입니다.” 그는 물질적 결핍이 사라지는 대신 완전히 재편될 경제와 일자리 구조, 그리고 수반되는 위험을 해결하는 것이 인류의 핵심 과제가 될 것이라고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/806299390_1064489749809314_152590714381178398_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=Mzk4NDcwNzk3NjI3NTA5MzU0Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=OhupIBKpWY0Q7kNvwHWYLYs&amp;_nc_oc=AdowzjIn6LgeRusE1DaHh3KtK37VMREMAgMe8nuMJOrMwO2vQM3ew9QxOJZZOTYZ2ww&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;oh=00_AQI-SteZSR-c3FcGaA_d-eUTC80Ky-ZdnLXMIs_26bP1hA&amp;oe=6AAB7D59\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQNgfhFO8yLHYGHhMAAq0gYaEk0olXTqcm-Vtet_4ILiUbgwZ2QhsuX6zhGkFiYfK5AjsLQ-AlZknsgA3Oi5r6ikdjDt38X3u0oi72s.mp4?_nc_cat=109&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=anx8klmvV7UQ7kNvwEfatLD&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODY3MzY4NzExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=ccd1162568567a2b&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC84QjRGOTVGNzZBQTg2MUM3RkIzMkIwNkVGQzYwNjdCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FCNEU4N0FEOUQ3NDJFRUE3MDYyMDMyQjY1REIzOUEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAgvjd8LXzPxUCKAJDMywXQGGEeuFHrhQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQJIjBOtCLsxn1VU4fiQKMw000gXvaAn__O9UxFthGe7BA&amp;oe=6AA7902B\"></video></p>",
+    "summaryKo": "전 OpenAI 거버넌스 연구원 다니엘 코코타일로는 초지능 이전 단계에서도 로봇을 통한 노동력 전면 대체로 경제적 폭발이 일어날 수 있다고 전망했다. 로봇이 로봇을 생산해 자원 채굴부터 제조까지 자동화하면 10년 안에 경제 규모가 100배 이상 커질 수 있으며, 이에 따른 일자리·경제 구조 재편이 인류의 핵심 과제가 될 것이라 강조했다.",
+    "tags": [
+      "AGI",
+      "경제전망"
+    ],
+    "entities": [
+      "Daniel Kokotajlo"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "a38a6d13ac833627",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 음성 AI도 이제 가격과 속도 경쟁이 제대로 시작됐습니다. Nari Labs가 Qwen3...",
+    "url": "https://www.threads.com/t/DdMXcItCGZt",
+    "publishedAt": "Sat, 12 Sep 2026 16:00:50 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>음성 AI도 이제 가격과 속도 경쟁이 제대로 시작됐습니다. Nari Labs가 Qwen3-ASR 1.7B를 기반으로 만든 실시간 음성 인식 API를 공개했습니다. Coval 벤치마크에서 음성이 끝난 뒤 최종 문장이 확정되기까지 p50 43ms를 기록해 공개 API 중 가장 빨랐고, 단어 오류율도 3.3%로 전체 3위입니다. ElevenLabs Scribe V2보다 약 3배 빠르면서 가격은 시간당 $0.06에 불과합니다. Nari Labs에 따르면 Gemini Transcribe 3.5보다 약 9배 저렴한 수준입니다. 이 정도면 실시간 통역이나 회의록, 콜센터, 음성 에이전트처럼 계속 음성을 처리해야 하는 서비스에서 비용 부담이 상당히 줄어들 것 같습니다. 현재 공개 베타 기간에는 무료입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/806428248_1987246215310050_5204133809473428617_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzk4NDY2Mjg1ODg3NjYxMDE1Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=j0JVP1Z0MAAQ7kNvwFgBQwP&amp;_nc_oc=AdoPzda-4xeTbVRHLTJI_EgAWAHx6MjCwqRQhCAmAFNNIgYK2uXpYfCoVJa8xhvb0V0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;oh=00_AQJ_ZQwza61AzlroZ0pWHnnrKrViGaBxlv84wY4iQwooOw&amp;oe=6AAB96B9\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQO2q_0KER-O-u1GTeuMZgAMZoBmUMlodZxxEVUBZCN9qg6EhTmrk35wGWsXDHjX7nKlO8szsdQai3_cna1SSXSautcGya0xjsvMK2c.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=YfFR3N11V1AQ7kNvwER-qsd&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODY3NDM1NjcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=73af283c45470d8&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GMDRFNzA0NEFENzk5MTUwMzc5QTY0QTBEQjY2Q0JCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U2NDcxNDA2QTYwQUUwODg3NkRBRjdGNDQwRjQ2MTgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA6t7PorbzPxUCKAJDMywXQEHu2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=nSW96y3CopQ7JTyR49nLvw&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQKGoz06PMfULAFthYF7Eo61Vt-OEs60YZ4OGDy2hEgZgw&amp;oe=6AA78EB0\"></video></p>",
+    "summaryKo": "Nari Labs가 Qwen3-ASR 1.7B 기반의 실시간 음성 인식 API를 공개했다. Coval 벤치마크에서 응답 지연 p50 43ms로 공개 API 중 가장 빨랐고 단어 오류율 3.3%를 기록했으며, ElevenLabs Scribe V2보다 3배 빠르고 시간당 $0.06으로 Gemini Transcribe 3.5보다 약 9배 저렴하다.",
+    "tags": [
+      "음성인식",
+      "실시간 ASR"
+    ],
+    "entities": [
+      "Nari Labs",
+      "Qwen3-ASR",
+      "ElevenLabs",
+      "Gemini"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "582b3acbd20187f6",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "How much do tech reports matter for a PhD application? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/",
+    "publishedAt": "2026-09-12T14:40:54+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>The title, by tech reports I don&#39;t mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A* paper?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/simple-Flat0263\"> /u/simple-Flat0263 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/\">[comments]</a></span>",
+    "summaryKo": "대형 모델(Kimi K3, DeepSeek, Gemini 등) 기술 보고서 작성 경험이 박사과정 지원 시 1저자 A급 학회 논문과 비교해 어떤 평가를 받는지 묻는 커뮤니티 질문이다.",
+    "tags": [
+      "박사과정",
+      "기술보고서"
+    ],
+    "entities": [
+      "Kimi K3",
+      "DeepSeek",
+      "Gemini"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "1f27246fb14eb39b",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/",
+    "publishedAt": "2026-09-12T11:23:51+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/\"> <img src=\"https://external-preview.redd.it/TRxGjMbYO2AuVu-cywROfnAHgjBxQMqGxI_OfPkExOo.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=b3bc0bd7bd6dc4ffe652d45674ba7965e4d2faf0\" alt=\"A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) [D]\" title=\"A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Note: this declaration was drafted by Mathematicians, and is mostly addressed to the mathematical community. It&#39;d be interesting to discuss, among others, if what is written in the declaration may also apply to other communities---and, specifically, the AI/ML one.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hihey54\"> /u/hihey54 </a> <br/> <span><a href=\"https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "25명의 필즈상 수상자를 포함한 수학자들이 수학 연구에서 AI 활용이 초래하는 심각한 '미스얼라인먼트' 문제를 지적하는 공개 선언문을 발표했다. 이 선언은 주로 수학계를 향한 것이지만 AI/ML 커뮤니티에도 적용될 수 있는지 논의가 이어지고 있다.",
+    "tags": [
+      "AI 윤리",
+      "수학"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "69495c75d573a364",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "3명이 5년간 손으로 쓴 30만 줄 Rust — 에이전트로 수만 줄을 뽑았는데 머지한 건 거의 없었습니다",
+    "url": "https://www.youtube.com/watch?v=b3I_zBYF3e0",
+    "publishedAt": "2026-09-12T04:18:12+00:00",
+    "rawText": "3명이 5년간 손으로 쓴 30만 줄 Rust — 에이전트로 수만 줄을 뽑았는데 머지한 건 거의 없었습니다",
+    "videoId": "b3I_zBYF3e0",
+    "summaryKo": "3명이 5년간 30만 줄을 직접 작성한 러스트 크로스플랫폼 프레임워크 '디옥서스'의 창업자 조나단 켈리가 AI 코딩 에이전트를 도입한 6개월의 경험을 발표했다. 초반에는 에이전트가 뽑아낸 수만 줄의 코드 대부분이 품질 기준을 넘지 못해 머지되지 못하는 '슬롭' 단계를 겪었지만, 지식이 필요한 크로스플랫폼 세부 규칙 구현과 릴리스 체크리스트·문서화 같은 반복 작업은 에이전트에 넘기고 테스트 선별·아키텍처 설계·코드 리뷰는 여전히 사람이 맡는 방식으로 정착했다고 밝혔다.",
+    "tags": [
+      "AI 코딩 에이전트",
+      "오픈소스"
+    ],
+    "entities": [
+      "Dioxus",
+      "Jonathan Kelley",
+      "Cognition",
+      "Claude Code"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "a482c48efb5a955c",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "ChatGPT Astra 컴퓨터 유즈, 지금 업무에 써봐야 하는 이유!",
+    "url": "https://www.youtube.com/watch?v=DtttpEUd-a0",
+    "publishedAt": "2026-09-12T03:04:00+00:00",
+    "rawText": "ChatGPT Astra 컴퓨터 유즈, 지금 업무에 써봐야 하는 이유!",
+    "videoId": "DtttpEUd-a0",
+    "summaryKo": "유튜버 '시민개발자 구씨'가 ChatGPT의 새 GPT-6 Astra 컴퓨터 유즈 기능을 K뷰티 마케터 업무 시나리오로 실제 테스트했다. 네이버 지도 매장 조사, 쿠팡 경쟁상품 리서치, 인스타그램·핀터레스트 트렌드 조사, GPT 이미지 2.5를 활용한 무드보드 생성과 카카오톡 공유까지 API·MCP가 없는 서비스에서도 브라우저를 직접 조작해 자동화할 수 있음을 보여줬다. 반복 작업은 '스킬'로 만들어 재사용하고, 단순 작업은 미디엄 추론 레벨로도 충분하다고 조언했다.",
+    "tags": [
+      "컴퓨터 유즈",
+      "AI 에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT",
+      "GPT-6 Astra",
+      "GPT 이미지 2.5"
+    ],
+    "cats": [
+      "에이전트",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "34d9055a3b3b452c",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Confusion regarding EMNLP registration [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wdw5o0/confusion_regarding_emnlp_registration_d/",
+    "publishedAt": "2026-09-11T23:24:01+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I posted some months ago and got some very helpful responses (for another conference), but I have some confusions regarding EMNLP (and the way registration works here).<br/> To give some context, I used to work as an intern during my undergrads at an Indian uni (final year), and managed to write a paper as first-author and it got accepted to EMNLP Findings.<br/> Now, post-graduation, I joined another university for my Masters, and when I applied for grant, they rejected, explicitly stating the lack of authors from the (new) institution.<br/> I applied for grants from the older one, and still got rejected, as I am not a student any longer! (mentioned that they will pay for paper registration, however)<br/> I would love to attend EMNLP (even if it is a findings paper) and can sponsor myself (travel, lodging, etc), however, paying for registration + author fees is too much for me. I have already applied for D&amp;I (got rejected twice earlier) but pretty much exhausted all my options.</p> <ol> <li>Do I have to pay separately for attending/presenting if one of the authors are already registering themselves?</li> <li>If he registers himself, do I have to pay $350 student registration or less? I have ACL member registration.</li> <li>What are my options (Is there any grants you know of?) I know Findings papers do not need to be presented, but considering it&#39;s a first author undergrad work which I am very proud of, I would love to be able to present the work there. I have managed to put together an emergency fund of a small amount of money enough for travel, lodging on the cheapest possible terms. Any help here is GREATLY appreciated! Thanks a lot!</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Batman_beyond123\"> /u/Batman_beyond123 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wdw5o0/confusion_regarding_emnlp_registration_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wdw5o0/confusion_regarding_emnlp_registration_d/\">[comments]</a></span>",
+    "summaryKo": "졸업 후 소속이 바뀐 저자가 EMNLP Findings 논문 발표를 위한 등록비·여비 지원을 받지 못해 곤란을 겪고 있다는 사연과 등록 절차에 대한 질문이다.",
+    "tags": [
+      "학회등록",
+      "EMNLP"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
     "id": "7327ead2138da761",
     "sourceType": "news",
     "source": "GeekNews",
@@ -463,6 +862,52 @@
     "hasAnalysis": true
   },
   {
+    "id": "4aeb82da9975e2f5",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "publishedAt": "Fri, 11 Sep 2026 16:00:00 GMT",
+    "rawText": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+    "summaryKo": "Cognition은 GPT-6 Astra를 도입해 코딩 에이전트 Devin이 자신의 작업 결과를 스스로 테스트하고 검증하는 능력을 높였다. 이를 통해 엔지니어가 검토해야 할 코드량을 줄이고 배포 속도를 높이는 것이 목표다.",
+    "tags": [
+      "LLM",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "Cognition",
+      "Devin",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "762a88c8ddc31b08",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/",
+    "publishedAt": "2026-09-11T13:00:11+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/\"> <img src=\"https://preview.redd.it/7vrhqzf32woh1.png?width=140&amp;height=71&amp;auto=webp&amp;s=9f2d1cb4a1a423d2fc5a5f1c55ef4aa6774a23b7\" alt=\"Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]\" title=\"Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I trained a 210M-parameter text-to-image diffusion transformer from scratch (3.5 days, one RTX PRO 6000, 4.2M images at 256²) mainly to understand the recipe end to end. Three measurements came out of it that I have not seen stated plainly elsewhere, so I&#39;m posting those rather than the samples.</p> <p><strong>1. Learned null attention slots become the sink.</strong> Following the register-token idea, the model has 16 register tokens in the image stream plus 2 learned key/value slots appended to every cross-attention. At mid-noise in a middle block, those 2 slots receive ~90% of the cross-attention mass; the EOS token, which is the usual sink in cross-attention models, drops to ~4%; content words keep a few percent each, sharply on their objects. Register vectors grow to 4–13× the norm of image tokens by the middle blocks.</p> <p><strong>2. The flow-matching loss is a health signal, not a quality signal.</strong> It moved 0.805 → 0.754 over the whole run while held-out FID went 33.7 → 27.0, FD-DINOv2 570 → 218 and detector-based object accuracy 65% → 90%. Most of the loss at high noise is the irreducible variance of the velocity target; training and held-out loss stayed equal to the third decimal for 24 epochs.</p> <p><strong>3. The training-time timestep shift is worth more than doubling the steps.</strong> On 2,456 held-out prompts with the final weights: 20 steps with shift 2.8 → FID 27.0; 50 steps → 26.6; 8 steps → 28.4; 20 steps with no shift → 27.3 and FD-DINOv2 218 → 228. Shift 2.8 comes from the SD3/RAE rule √(32·32·32/4096) for the 32-channel FLUX.2 latent.</p> <p>Setup, briefly: cross-attention DiT (896 × 16 blocks), 2D RoPE, QK-norm, SwiGLU, adaLN-single; rectified flow with logit-normal timesteps and the shift above; cosine velocity and dispersive auxiliary losses; five aspect-ratio buckets of ~256 tokens from step one; flan-t5-base frozen, long/short caption per image sampled 50/40/10 (empty). Data: Pexels 2.8M (60%), a quality-filtered 1.2M slice of FLUX-Reason-6M (25%), COCO with GPT-4V captions (15%). batch 256, 400k steps, EMA 0.9999, linear LR decay over the last quarter, torch.compile (2.4× over eager).</p> <p>Everything, with the sources for each decision: <a href=\"https://github.com/ivanmikhnenkov/tinydit\">https://github.com/ivanmikhnenkov/tinydit</a> </p> <p>Write-up: <a href=\"https://huggingface.co/blog/ivanmikhnenkov/tinydit-text-to-image-from-scratch-one-gpu\">https://huggingface.co/blog/ivanmikhnenkov/tinydit-text-to-image-from-scratch-one-gpu</a> </p> <p>Weights: <a href=\"https://huggingface.co/ivanmikhnenkov/tinydit-256\">https://huggingface.co/ivanmikhnenkov/tinydit-256</a> </p> <p>Demo: <a href=\"https://huggingface.co/spaces/ivanmikhnenkov/tinydit\">https://huggingface.co/spaces/ivanmikhnenkov/tinydit</a></p> <p><strong>For the next phase (Flow-GRPO on this base), which reward would you start with: PickScore/HPSv2, a detector-based object reward, or something verifiable like counting?</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IvanMikhnenkov\"> /u/IvanMikhnenkov </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1wdfmvq\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "한 개발자가 RTX PRO 6000 1장으로 3.5일간 2.1억 파라미터 텍스트-이미지 디퓨전 트랜스포머를 처음부터 학습시키며 얻은 발견을 공유했다. 학습된 null attention 슬롯이 크로스 어텐션의 싱크 역할을 한다는 점, flow-matching 손실이 품질과 직결되지 않는다는 점, 타임스텝 시프트가 스텝 수를 두 배로 늘리는 것보다 효과적이라는 점을 실측 데이터로 제시했다.",
+    "tags": [
+      "디퓨전",
+      "이미지생성"
+    ],
+    "entities": [],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
     "id": "0ae7a8fd77ad05e0",
     "sourceType": "youtube",
     "source": "AgentOS",
@@ -554,6 +999,44 @@
     ],
     "summaryStatus": "fallback",
     "fetchedAt": "2026-09-11T21:15:45.500Z"
+  },
+  {
+    "id": "f3e1307c779c8b76",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "ACL Sustainable Reviewing Policy [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wd7b83/acl_sustainable_reviewing_policy_d/",
+    "publishedAt": "2026-09-11T05:38:02+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>ACL just announced on X how they are planning to handle the increased submission numbers. Interestingly enough, they call it &quot;the proposal&quot;.</p> <p>My understanding is that, in a nutshell, each submission should come with someone who can review, otherwise it may only get a slot through a lottery. Additionally, they cap total submissions at 20 and first-author submissions per cycle at 5.</p> <p>What do you think of it? IMO it makes a lot of sense - especially given the large numbers of submissions without any author qualified to review. It is a bit of gatekeeping but in my opinion highly required. And the caps of 20 and 5 are still quite generous.</p> <p>---</p> <p>Here is <a href=\"https://x.com/aclmeeting/status/2098275062868771227\">what they posted on X</a>:</p> <blockquote> <p>ACL Sustainable Reviewing Policy: We are introducing changes in the ACL ARR reviewing and submissions. The changes will cap authors and introduce changes in the reviewing to keep our community sustainable. #NLPro</p> <p>**The proposal:** cap reviewed submissions to available reviewer capacity. Each submission must &quot;pay&quot; for itself by providing a qualified service contributor (reviewer or chair). Submissions without service capacity go into a lottery for whatever spare capacity remains</p> <p>Service from qualified contributors counts towards the venue capacity, and a mentorship system will be built for those not qualified yet. If a qualified service contributor is not available among the authors, non-author designated contributors can be nominated..</p> <p>...but must vouch for the work (arXiv-endorsement style). Measures for system abuse will be implemented. For example, accounts that systematically submit or endorse low-quality work, and accounts that misuse the system in other ways, will be penalized or even banned.</p> <p>Additionally, per-author quotas are introduced, where authors are capped at 20 total submissions and 5 first-author (including shared first-author) submissions per cycle. More details will be posted on the ACL web and here shortly. #NLProc</p> </blockquote> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/S4M22\"> /u/S4M22 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wd7b83/acl_sustainable_reviewing_policy_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wd7b83/acl_sustainable_reviewing_policy_d/\">[comments]</a></span>",
+    "summaryKo": "ACL이 급증하는 논문 투고량에 대응해 저자가 리뷰어·심사 기여자를 함께 제공해야 심사 슬롯을 받을 수 있는 '지속가능한 리뷰 정책'을 발표했다. 저자당 총 투고 20건, 1저자 투고 5건으로 제한하는 제출 상한도 함께 도입된다.",
+    "tags": [
+      "학회정책",
+      "ACL"
+    ],
+    "entities": [
+      "ACL"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
+  },
+  {
+    "id": "34e8e7c172e7285f",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Why is TMLR so slow in recent times [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wd5mki/why_is_tmlr_so_slow_in_recent_times_d/",
+    "publishedAt": "2026-09-11T04:09:09+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>A final-year PhD student here. A few months back, I submitted a solo-authored paper to TMLR. The reviewers were on time and extremely positive, with some minor revisions. After submitting the revised version, there was absolute silence from the reviewers, with just one acknowledging that their concerns were addressed</p> <p>Since then, it has been 2+ months. I have sent a reminder to the Action Editor as well as the Editor-in-Chief, but unfortunately the status remains the same. </p> <p>I understand a typical submission to a conference/ other journals takes a significant amount of time, but that is one of the reasons I submitted it to TMLR (along with good reviews), so that a solo-author paper on my resume would look good while submitting the PostDoc applications. And with these deadlines approaching, it gets more frustrating </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fantastic-Nerve-4056\"> /u/Fantastic-Nerve-4056 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wd5mki/why_is_tmlr_so_slow_in_recent_times_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wd5mki/why_is_tmlr_so_slow_in_recent_times_d/\">[comments]</a></span>",
+    "summaryKo": "TMLR에 투고한 단독 저자 논문이 리비전 제출 후 2개월 넘게 리뷰어 응답이 없어 박사후 지원 일정에 차질을 겪고 있다는 하소연이다.",
+    "tags": [
+      "논문심사",
+      "TMLR"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-12T21:10:49.162Z"
   },
   {
     "id": "af6801ccba56f9a0",
@@ -4094,519 +4577,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "21c85589b768bf14",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 와.. 입이 떡 벌어졌습니다.. GPT-6 Astra 얼리 액세스 사용자들의 결과무...",
-    "url": "https://www.threads.com/t/Dc3EZU-D2H2",
-    "publishedAt": "Fri, 04 Sep 2026 09:30:22 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>와.. 입이 떡 벌어졌습니다.. GPT-6 Astra 얼리 액세스 사용자들의 결과물이 심상치 않은데요. 그림 한 장으로 3,295개 객체의 3D 기차를 만들고, Blender·Unreal Engine에서 게임과 도시까지 직접 제작합니다. 컴퓨터를 조작해 영상 편집과 버그 수정까지 처리하는데요. 놀라운 GPT-6 Astra 활용 사례 20가지를 정리했습니다🧵</p><p></p>",
-    "summaryKo": "GPT-6 Astra 얼리 액세스 사용자들의 활용 사례가 공개돼 화제다. 그림 한 장으로 3,295개 객체로 이뤄진 3D 기차를 만들거나 Blender·Unreal Engine으로 게임·도시를 제작하고 컴퓨터를 직접 조작해 영상 편집과 버그 수정까지 처리하는 사례가 소개됐다.",
-    "tags": [
-      "GPT-6",
-      "활용사례"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "772ec013400f9e75",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-    "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-    "publishedAt": "Fri, 04 Sep 2026 09:25:19 +0000",
-    "rawText": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part&#8230;",
-    "summaryKo": "우크라이나 국방부가 수만 건의 드론 비행에서 수집한 데이터를 군사·상업 기업에 제공하기 시작하며 새로운 데이터 시장이 형성되고 있다. 100여 개 기업과 영국 정부가 접근권을 확보했지만, 전장에서 동의 없이 수집된 데이터가 규제 공백 속에 자율무기부터 민간 드론까지 활용될 것이라는 우려가 나온다.",
-    "tags": [
-      "데이터마켓",
-      "드론"
-    ],
-    "entities": [
-      "Enabled Intelligence"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "5152a990c3b1989f",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "GPT-6 is released [N]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
-    "publishedAt": "2026-09-04T05:13:42+00:00",
-    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/\"> <img src=\"https://preview.redd.it/dgumcg67ggnh1.png?width=140&amp;height=120&amp;auto=webp&amp;s=4fb36fe9d4df7f081cc088891acd34bc987f7dde\" alt=\"GPT-6 is released [N]\" title=\"GPT-6 is released [N]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Benchmark scores:</p> <p><a href=\"https://preview.redd.it/dgumcg67ggnh1.png?width=1378&amp;format=png&amp;auto=webp&amp;s=fae8fb006ef46fcdebb0876717fc977a905baa89\">https://preview.redd.it/dgumcg67ggnh1.png?width=1378&amp;format=png&amp;auto=webp&amp;s=fae8fb006ef46fcdebb0876717fc977a905baa89</a></p> <p><a href=\"https://openai.com/index/gpt-6-astra/\">https://openai.com/index/gpt-6-astra/</a></p> <p>Above, GPT-6 uses a harness for ARC-AGI-3, and is at about 60% without one:</p> <p><a href=\"https://preview.redd.it/bym9wajephnh1.png?width=615&amp;format=png&amp;auto=webp&amp;s=72cb425fb037ce68a68dcb433e7748b27dc96c41\">https://preview.redd.it/bym9wajephnh1.png?width=615&amp;format=png&amp;auto=webp&amp;s=72cb425fb037ce68a68dcb433e7748b27dc96c41</a></p> <p>Prior to the launch, OpenAI President Greg Brockman said &quot;I think it’s not unreasonable to feel that we are now in the AGI era&quot;.</p> <p>GPT-6 is now joining a growing list of models that greatly exceed the human baseline on GDPval-AA v2: </p> <p><a href=\"https://preview.redd.it/to7tdvbn4inh1.png?width=1419&amp;format=png&amp;auto=webp&amp;s=02c413ab031cd943087684c5c573ce1e524b917d\">https://preview.redd.it/to7tdvbn4inh1.png?width=1419&amp;format=png&amp;auto=webp&amp;s=02c413ab031cd943087684c5c573ce1e524b917d</a></p> <p>If we have AGI, why do human knowledge/remote workers still have jobs? Is it just a matter of time until the economy replaces a large number of humans with LLMs, or are LLMs lacking something that these benchmarks fail to measure?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/\">[comments]</a></span> </td></tr></table>",
-    "summaryKo": "GPT-6 공개 소식에 r/MachineLearning에서 벤치마크 점수와 함께 'AGI 시대'라는 오픈AI 사장 발언이 화제가 됐다. 하네스 없이는 ARC-AGI-3 점수가 약 60%로 떨어진다는 지적과 함께, GDPval-AA v2 등 여러 벤치마크에서 인간 기준을 크게 웃돌면서도 지식노동자 일자리가 여전한 이유에 대한 논쟁이 이어졌다.",
-    "tags": [
-      "GPT-6",
-      "벤치마크"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "89c8c872941e40c5",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "6000개 약국 입점 '마데카파마시아' 약사 대상 더마 경쟁력 소개",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=542692",
-    "publishedAt": "2026-09-04 12:00:00",
-    "rawText": "동국제약(대표이사 송준호)의 더마 리페어 브랜드 ‘마데카파마시아’가 오는 6일 약사공론 주최로 세종대학교 대양AI홀에서 열리는 ‘더마코스메틱 성공전략’ 행사에 참여해 제품 강의를 진행하고 홍보 부스도 운영한다.이번 행사는 약국 화장품과 더마코스메틱에 대한 관심이 높은 약 500여 명의 개국 약사들이 자발적으로 참여하는 행사로, 약국 화장품 시장과 더마코스메틱 제품들에 대한 이해와 전문성을 높이는 자리가 될 예정이다. 동국제약은 직접 강연에도 나서 고농도·고순도의 차별화된 원료와 기능성 등 마데카파마시아 브랜드만의 경쟁력을 전달한다.",
-    "summaryKo": "동국제약이 더마 리페어 브랜드 '마데카파마시아'로 6일 세종대 대양AI홀에서 열리는 약사공론 주최 행사에 참여해 약 500여 명의 개국 약사에게 제품 강의와 홍보 부스를 운영한다. 전국 6,000개 약국에 입점한 이 브랜드의 원료 경쟁력과 함께 기미치료제 '멜라텐션크림'도 함께 홍보할 예정이다.",
-    "tags": [
-      "약국화장품",
-      "더마코스메틱"
-    ],
-    "entities": [
-      "동국제약",
-      "마데카파마시아"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "3f4a48318fa3d5ac",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "코스닥 입성 스카이랩스, 혈압계 넘어 '의료데이터 플랫폼' 확장",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=542710",
-    "publishedAt": "2026-09-04 10:56:05",
-    "rawText": "스카이랩스가 코스닥 시장에 입성했다. 반지형 커프리스 혈압계를 기반으로 국내외 시장을 확대하는 동시에 향후 다중 생체신호와 의료데이터 생산 플랫폼으로 사업 영역을 넓힌다는 계획이다.스카이랩스는 4일 코스닥 시장에 상장하고 글로벌 시장 확대와 사업 다각화에 나선다고 밝혔다.스카이랩스는 반지형 커프리스(Cuffless) 혈압계를 개발한 디지털 헬스케어 기업이다. 자체 하드웨어와 AI 알고리즘을 활용해 생체 데이터를 수집·분석하고 있으며, 장기적으로 의료데이터 생산 플랫폼 기업으로의 전환을 추진하고 있다.핵심 제품인 '카트 비피 프로(C",
-    "summaryKo": "반지형 커프리스 혈압계를 만드는 디지털 헬스케어 기업 스카이랩스가 9월 4일 코스닥에 상장했다. 국내 24시간 활동혈압검사 시장 점유율 52.4%를 기록 중이며, 상장 후에는 다중 생체신호 모니터링과 의료데이터 생산 플랫폼 '카트 넷'으로 사업을 확장할 계획이다.",
-    "tags": [
-      "디지털헬스케어",
-      "코스닥상장"
-    ],
-    "entities": [
-      "스카이랩스"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "023137474b085044",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "AAAI-27 desk rejection over incredibly minor abstract modifications [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6kcp6/aaai27_desk_rejection_over_incredibly_minor/",
-    "publishedAt": "2026-09-03T21:12:36+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone else received an AAAI-27 desk rejection related to modifications to the title or abstract between the abstract-registration deadline and the full-paper deadline?</p> <p>What I’m trying to understand is how the modification rule is being applied in practice. The AAAI-27 modification guidelines say that the title and abstract can still be edited after abstract registration, while warning against substantive changes, and describe rejection in terms of changes that make the submission describe qualitatively different research.</p> <p>In my case, almost everything was identical. The modifications were incredibly minor. </p> <p>The rejection notice says that the decision is final and appeals will not be considered.</p> <p>Did this happen to anyone else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dansilly\"> /u/Dansilly </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6kcp6/aaai27_desk_rejection_over_incredibly_minor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6kcp6/aaai27_desk_rejection_over_incredibly_minor/\">[comments]</a></span>",
-    "summaryKo": "AAAI-27 논문 제출 과정에서 초록 등록 후 이뤄진 아주 사소한 제목·초록 수정만으로 desk rejection(사전 반려)을 받았다는 사례가 r/MachineLearning에 공유됐다. 실질적으로 동일한 연구인데도 반려됐고 이의제기도 불가능하다는 점에서 규정 적용 기준에 대한 논란이 일고 있다.",
-    "tags": [
-      "논문심사",
-      "AAAI"
-    ],
-    "entities": [
-      "AAAI"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "dfab770580a8ac2a",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Mol-JEPA - Multimodal molecular foundation model [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/",
-    "publishedAt": "2026-09-03T19:56:27+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I just quickly wanted to share a paper I was working on for around a year now. I created this summary website with key results: <a href=\"https://flogrammer.github.io/moljepa/\">https://flogrammer.github.io/moljepa/</a></p> <p>TL;DR: its a multimodal JEPA model for molecules.</p> <p>There will be more work to do to improve performance and I would be happy about feedback and ideas :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TerribleAntelope9348\"> /u/TerribleAntelope9348 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/\">[comments]</a></span>",
-    "summaryKo": "분자 구조를 다루는 멀티모달 파운데이션 모델 'Mol-JEPA'를 약 1년간 개발한 연구자가 r/MachineLearning에 프로젝트를 공개하고 피드백을 요청했다.",
-    "tags": [
-      "분자모델",
-      "JEPA"
-    ],
-    "entities": [
-      "Mol-JEPA"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "c417e14f855dc409",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "NeurIPS Sydney SOLD OUT in minutes [N]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6gwni/neurips_sydney_sold_out_in_minutes_n/",
-    "publishedAt": "2026-09-03T19:09:48+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Three weeks from decisions even. I wonder what percentage is industry and VC funded AI labs looking to mingle and recruit.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alrojo\"> /u/alrojo </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6gwni/neurips_sydney_sold_out_in_minutes_n/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w6gwni/neurips_sydney_sold_out_in_minutes_n/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 시드니 학회가 결정 발표 3주 전임에도 순식간에 매진되며 r/MachineLearning에서 화제가 됐다. 산업계·VC 펀딩을 받은 AI 연구소들의 채용·네트워킹 목적 참가 비중이 얼마나 될지에 대한 궁금증이 제기됐다.",
-    "tags": [
-      "NeurIPS",
-      "학회"
-    ],
-    "entities": [
-      "NeurIPS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "9509bbf8b01c98fe",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-    "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-    "publishedAt": "Thu, 03 Sep 2026 16:00:59 +0000",
-    "rawText": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
-    "summaryKo": "엔비디아가 IFA 2026에서 마이크로소프트 등과 함께 로컬 AI 에이전트 실행을 쉽게 만드는 도구를 대거 공개했다. 여러 PC의 유휴 성능을 묶어 추론을 분산 처리하는 무료 오픈소스 소프트웨어 'NVIDIA PAIR'와 10월 출시되는 소형 PC 'RTX Spark'가 핵심이다.",
-    "tags": [
-      "로컬AI",
-      "엣지추론"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Microsoft",
-      "RTX Spark"
-    ],
-    "cats": [
-      "기업·정책",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "54742b928880d5e3",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Grounding LLMs with JEPA-based world models trained in simulation — has this been tried? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/",
-    "publishedAt": "2026-09-03T14:45:53+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>LLMs describe physics well but don&#39;t &quot;understand&quot; it in any grounded sense — they&#39;ve learned statistical relationships between tokens like &quot;falls&quot; and &quot;gravity&quot;, not actual physical intuition. This is basically the Mary&#39;s Room problem: Mary knows every physical fact about color but has never seen one. LLMs are Mary.</p> <p>The idea I&#39;ve been thinking about:</p> <ol> <li><p>Train a JEPA-style model inside a physics simulation (think MuJoCo or a simple 2D env). Instead of predicting pixels or tokens, the model predicts <em>representations</em> of future states in an abstract embedding space. If it gets physics wrong, the predictor fails — the loss is unforgiving in a way next-token prediction never is.</p></li> <li><p>The embedding space that emerges should encode actual physical structure — object permanence, momentum, trajectories — because that&#39;s what makes prediction possible. Not surface-level textures, just the principles.</p></li> <li><p>Freeze those representations and attach them to an LLM-style reasoning model as a conditioning signal. The LLM now has both linguistic physics knowledge AND grounded physical intuition it can actually &quot;run&quot; forward — closer to a computational primitive than a propositional fact.</p></li> </ol> <p>The hypothesis is this makes downstream learning significantly faster — the LLM doesn&#39;t have to rediscover that objects fall, it has representations that already encode that.</p> <p>V-JEPA does something adjacent for video (predict future frame representations, not pixels), and DreamerV3 uses a latent world model for efficient RL — but the specific combo of JEPA-style prediction + sim-grounded physics representations + LLM attachment doesn&#39;t seem to have been done cleanly.</p> <p><strong>Questions for the community:</strong> - Is there prior work I&#39;m missing that does exactly this? - What&#39;s the right interface between grounded JEPA representations and a language model? Just concatenate to the prompt embedding? Cross-attention? - Would the sim-to-reality gap kill the transfer, or are the representations abstract enough to survive it?</p> <p>Interested in whether this is worth building a small prototype for.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Full_Promotion4522\"> /u/Full_Promotion4522 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/\">[comments]</a></span>",
-    "summaryKo": "LLM은 물리 현상을 언어로 기술할 뿐 실제로 '이해'하지는 못한다는 문제의식에서, 물리 시뮬레이션 안에서 학습한 JEPA 스타일 월드 모델의 표현을 LLM에 조건화 신호로 붙이자는 아이디어가 r/MachineLearning에서 논의됐다. V-JEPA·DreamerV3와 유사하지만 '시뮬레이션 기반 물리 표현 + LLM 결합'을 그대로 시도한 사례는 아직 없어 보인다는 점에서 프로토타입 제작 가능성이 논의됐다.",
-    "tags": [
-      "JEPA",
-      "월드모델"
-    ],
-    "entities": [
-      "V-JEPA",
-      "DreamerV3"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "fc40ddafdd41e0cc",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-    "publishedAt": "Thu, 03 Sep 2026 13:15:00 GMT",
-    "rawText": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-    "summaryKo": "OpenAI가 'Daybreak for Frontline Defenders' 프로그램을 통해 10억 달러 규모로 필수 서비스 기관에 프론티어 사이버 AI 접근권과 교육·지원을 제공하기로 했다.",
-    "tags": [
-      "사이버보안",
-      "기업지원"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "fa67f50273e6d77f",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-    "publishedAt": "Thu, 03 Sep 2026 13:00:35 +0000",
-    "rawText": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
-    "summaryKo": "엔비디아가 이번 달 GeForce NOW에 신작 28종을 추가하며, NBA 2K27이 DLSS 5의 3D-Guided Neural Rendering 기능을 앞세워 조명·재질·인물 디테일을 향상시킨다고 밝혔다. 뱀파이어 액션 RPG, 오니무샤 신작 등도 함께 스트리밍된다.",
-    "tags": [
-      "클라우드게이밍",
-      "DLSS"
-    ],
-    "entities": [
-      "NVIDIA",
-      "GeForce NOW",
-      "NBA 2K27"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "325e9dcd840a97e9",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-    "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-    "publishedAt": "Thu, 03 Sep 2026 12:00:00 GMT",
-    "rawText": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-    "summaryKo": "게임사 Playco가 GPT-6 Astra를 활용해 하나의 그레이박스 기반에서 테마가 다른 게임 프로토타입 3개를 제작했으며, 이전 모델 대비 수동 수정 작업이 50% 줄었다고 밝혔다.",
-    "tags": [
-      "게임개발",
-      "프로토타이핑"
-    ],
-    "entities": [
-      "OpenAI",
-      "Playco",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "9281d6906e8350b6",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-    "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-    "publishedAt": "Thu, 03 Sep 2026 12:00:00 GMT",
-    "rawText": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-    "summaryKo": "법률 AI 스타트업 Legora가 GPT-6 Astra로 41건의 문서를 몇 분 만에 검토해 심어둔 오류 4건을 모두 찾아내고 재무 검토 워크플로 성능을 약 40% 개선했다고 밝혔다.",
-    "tags": [
-      "법률AI",
-      "문서검토"
-    ],
-    "entities": [
-      "OpenAI",
-      "Legora",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "ea981681c9e20cb5",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "NVIDIA to Acquire Hugging Face",
-    "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-    "publishedAt": "Thu, 03 Sep 2026 11:56:49 +0000",
-    "rawText": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
-    "summaryKo": "엔비디아가 허깅페이스를 약 129억 3천만 달러에 인수하기로 합의했다. 젠슨 황 CEO는 오픈 웨이트가 AI 접근성 확대와 리더십 분산에 필수적이라며, 인수 후에도 허깅페이스를 개방형 플랫폼으로 유지하며 신뢰성과 배포 역량을 강화하겠다고 밝혔다.",
-    "tags": [
-      "M&A",
-      "오픈소스AI"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Hugging Face",
-      "Jensen Huang"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "dca01c9153084b28",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "아무도 모르는 클로드 3가지 기능 2편 #ai #claude #claudecode",
-    "url": "https://www.youtube.com/shorts/5wY4bLLE0fA",
-    "publishedAt": "2026-09-03T11:48:01+00:00",
-    "rawText": "아무도 모르는 클로드 3가지 기능 2편 #ai #claude #claudecode",
-    "videoId": "",
-    "summaryKo": "유튜브 쇼츠에서 클로드를 더 똑똑하게 쓰는 3가지 방법을 소개했다. Projects의 커스텀 인스트럭션 설정, Claude for Chrome 확장 프로그램 연결, GitHub 커넥터 연동을 통해 클로드가 화면을 직접 조작하거나 오픈소스 저장소에서 필요한 도구를 찾아오게 할 수 있다는 내용이다.",
-    "tags": [
-      "Claude",
-      "생산성팁"
-    ],
-    "entities": [
-      "Claude",
-      "Claude for Chrome",
-      "GitHub"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "039a4975e102cb53",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "GPT-6 Astra: A new generation of intelligence",
-    "url": "https://openai.com/index/gpt-6-astra",
-    "publishedAt": "Thu, 03 Sep 2026 11:00:00 GMT",
-    "rawText": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-    "summaryKo": "OpenAI가 컴퓨터 사용, 코딩, 사이버보안, 과학 분야에서 최고 수준 성능을 보이는 신형 플래그십 모델 GPT-6 Astra를 공개했다. 이전 세대보다 지능과 정합성(alignment)이 개선된 모델로 소개된다.",
-    "tags": [
-      "LLM",
-      "GPT-6",
-      "플래그십모델"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-05T21:23:42.643Z"
-  },
-  {
-    "id": "39210f987919e80e",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Safety overview: GPT-6 Astra",
-    "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-    "publishedAt": "Thu, 03 Sep 2026 00:00:00 GMT",
-    "rawText": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-    "summaryKo": "OpenAI가 GPT-6 Astra의 안전성 개요를 공개했다. 이 모델은 OpenAI가 가장 널리 배포한 모델 중 처음으로 Preparedness Framework의 '중대(Critical)' 사이버보안 역량 기준에 도달했다.",
-    "tags": [
-      "프론티어안전",
-      "사이버보안"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-04T21:24:07.035Z"
-  },
-  {
-    "id": "fe525813c460b91f",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 다이슨이 499달러짜리 AI 전동칫솔 CameraJet을 공개했습니다. 칫솔모 ᄋ...",
-    "url": "https://www.threads.com/t/DczJyuTinn8",
-    "publishedAt": "Wed, 02 Sep 2026 21:00:34 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>다이슨이 499달러짜리 AI 전동칫솔 CameraJet을 공개했습니다. 칫솔모 안에 10만 픽셀 매크로 카메라가 들어가 초당 28장의 이미지를 촬영하고, 47만 장의 치아 이미지로 학습한 머신러닝이 치아 사이 틈을 실시간으로 찾습니다. 틈이 감지되면 구강청결제를 해당 위치에 정밀하게 분사해 양치와 치간 세정을 동시에 진행합니다. 카메라 영상은 MyDyson 앱에서 실시간으로 볼 수 있고, 영상 처리는 저장이나 클라우드 전송 없이 이뤄집니다. 칫솔 충전 거치대에 올려두면 칫솔 내부의 12.5ml 구강청결제 탱크가 약 3초 만에 충전됩니다. AI가 스마트폰이나 PC를 넘어 생활가전 안에서 직접 보고 판단한 뒤 물리적으로 작동하는 사례가 점점 늘어나는 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/791074759_2808556952833576_4175797755960256542_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzk3NzU2NTk2NDAxMDY4Mjg3Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=BWcq-YkqIMYQ7kNvwHqbcKN&amp;_nc_oc=AdqfaW8eOVDMpzFq0Dx-7bdkMSdh-o2uEyw7Ry1PyY3eNzdMWIydpBPLLePccGAYosw&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=6AsUzT6-JfL45MDbQspEiA&amp;_nc_ss=7a22e&amp;oh=00_AQLlCE_mJNIewrTuhnVco0MEf9tgep8P1XNigUs5TewRNQ&amp;oe=6A9E4655\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQNYfO9LN4HCDuPM6TBUYpeB8Y-BDB2yHFe_3D9Xkn6ObT8-7ZfY0TUl4KzQXDw7_RD__08h5Qrwok_HhqjAer_eS_UOjDk47zwox0c.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=9WJIxqQRza8Q7kNvwGfkO7O&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODUxMTY4ODkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=8c0120a3cb440e20&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRDRDMzU3RjU0N0UxOTEzNTNCMDNBQTNEQkNGNjBCMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0QwNDdDNjY3NDVFMDE2Qzg0NkQxMkY1NERFQzA1MkIxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAhNv2ytfyPxUCKAJDMywXQFBFHrhR64UYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=6AsUzT6-JfL45MDbQspEiA&amp;_nc_zt=28&amp;_nc_ss=7a22e&amp;oh=00_AQJ9MQxHwaNxqtkEXx3npvaBidDMsDs46LCCLKhUc2IStg&amp;oe=6A9A6CBB\"></video></p>",
-    "summaryKo": "다이슨이 499달러짜리 AI 전동칫솔 'CameraJet'을 공개했다. 칫솔모 속 매크로 카메라가 초당 28장을 촬영하고 47만 장의 치아 이미지로 학습한 모델이 실시간으로 치아 사이 틈을 찾아 구강청결제를 정밀 분사하며, 영상 처리는 클라우드 전송 없이 기기 내에서 이뤄진다.",
-    "tags": [
-      "온디바이스AI",
-      "비전인식",
-      "스마트가전"
-    ],
-    "entities": [
-      "Dyson",
-      "CameraJet"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-02T21:15:29.865Z"
-  },
-  {
-    "id": "5338527431c8cac0",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI is changing religion and religions are trying to change AI",
-    "url": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
-    "publishedAt": "Wed, 02 Sep 2026 20:58:45 +0000",
-    "rawText": "Article URL: https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai Comments URL: https://news.ycombinator.com/item?id=49542472 Points: 1 # Comments: 0",
-    "summaryKo": "AI가 종교적 실천과 신앙 공동체에 미치는 영향, 그리고 각 종교계가 AI를 자신들의 교리와 관행에 맞게 대응하려는 움직임을 다룬 이코노미스트 기사다. 원문 접근이 차단되어 제목 정보만으로 요약했다.",
-    "tags": [
-      "AI 윤리",
-      "종교"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-09-02T21:15:29.865Z"
-  },
-  {
-    "id": "e528b34d60566bdf",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Mamdani Bans AI in NYC Schools",
-    "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
-    "publishedAt": "Wed, 02 Sep 2026 20:57:04 +0000",
-    "rawText": "Article URL: https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html Comments URL: https://news.ycombinator.com/item?id=49542443 Points: 2 # Comments: 0",
-    "summaryKo": "뉴욕시가 맘다니 행정부 하에서 공립학교 내 AI 사용을 금지하는 조치를 취했다는 뉴욕타임스 기사다. 원문이 페이월로 막혀 제목 정보만으로 요약했다.",
-    "tags": [
-      "AI 규제",
-      "교육정책"
-    ],
-    "entities": [
-      "Mamdani",
-      "뉴욕시"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-09-02T21:15:29.865Z"
-  },
-  {
-    "id": "122c7309ae94fdf7",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Dehurdle – Real-Time AI Voice Simulations for High-Stakes Conversations",
-    "url": "https://dehurdle.com/register/",
-    "publishedAt": "Wed, 02 Sep 2026 20:56:11 +0000",
-    "rawText": "Article URL: https://dehurdle.com/register/ Comments URL: https://news.ycombinator.com/item?id=49542430 Points: 1 # Comments: 0",
-    "summaryKo": "실시간 AI 음성 시뮬레이션으로 고위험 대화 상황을 연습할 수 있게 해주는 서비스 'Dehurdle'을 소개하는 Show HN 게시물이다. 페이지에서 제목 이상의 상세 기능 정보는 확인하지 못했다.",
-    "tags": [
-      "음성AI",
-      "대화시뮬레이션"
-    ],
-    "entities": [
-      "Dehurdle"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-09-02T21:15:29.865Z"
   }
 ]
