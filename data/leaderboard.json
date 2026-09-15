@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-09-13",
-  "windowLabel": "2026년 9월 10일~13일 기준",
-  "updatedAt": "2026-09-12T21:10:10Z",
+  "asOf": "2026-09-16",
+  "windowLabel": "2026년 9월 13일~16일 기준",
+  "updatedAt": "2026-09-15T21:14:20Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -83,16 +83,16 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2.5 Flare (max)", "score": "Elo 1187", "basis": "Elo 1187, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "GPT Image 2.5 Sunburst (max)", "score": "Elo 1179", "basis": "Elo 1179, 2위", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT Image 2 (high)", "score": "Elo 1171", "basis": "Elo 1171", "source": "artificialanalysis" },
-        { "rank": 4, "model": "MAI-Image-2.6", "score": "Elo 1144", "basis": "Elo 1144", "source": "artificialanalysis" },
+        { "rank": 1, "model": "GPT Image 2.5 Flare (max)", "score": "Elo 1188", "basis": "Elo 1188, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "GPT Image 2.5 Sunburst (max)", "score": "Elo 1182", "basis": "Elo 1182, 2위", "source": "artificialanalysis" },
+        { "rank": 3, "model": "GPT Image 2 (high)", "score": "Elo 1172", "basis": "Elo 1172", "source": "artificialanalysis" },
+        { "rank": 4, "model": "MAI-Image-2.6", "score": "Elo 1148", "basis": "Elo 1148", "source": "artificialanalysis" },
         { "rank": 5, "model": "Reve 2.1", "score": "Elo 1127", "basis": "Elo 1127", "source": "artificialanalysis" },
         { "rank": 6, "model": "Nano Banana 2 (Gemini 3.1 Flash Image)", "score": "Elo 1122", "basis": "Elo 1122", "source": "artificialanalysis" },
-        { "rank": 7, "model": "Muse Image", "score": "Elo 1109", "basis": "Elo 1109", "source": "artificialanalysis" },
+        { "rank": 7, "model": "Muse Image", "score": "Elo 1111", "basis": "Elo 1111", "source": "artificialanalysis" },
         { "rank": 8, "model": "MAI-Image-2.5", "score": "Elo 1105", "basis": "Elo 1105", "source": "artificialanalysis" },
-        { "rank": 9, "model": "GPT Image 1.5 (high)", "score": "Elo 1102", "basis": "Elo 1102", "source": "artificialanalysis" },
-        { "rank": 10, "model": "MAI-Image-2.6-Flash", "score": "Elo 1098", "basis": "Elo 1098", "source": "artificialanalysis" }
+        { "rank": 9, "model": "GPT Image 1.5 (high)", "score": "Elo 1103", "basis": "Elo 1103", "source": "artificialanalysis" },
+        { "rank": 10, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1098", "basis": "Elo 1098", "source": "artificialanalysis" }
       ]
     },
     {
@@ -110,7 +110,7 @@
         { "rank": 5, "model": "DeepSeek V4.1 Flash", "score": "Index 40", "basis": "Intelligence Index v4.3 40 (Qwen3.8 2.4T A95B와 동점)", "source": "artificialanalysis" },
         { "rank": 6, "model": "DeepSeek V4 Pro 0813", "score": "Index 36", "basis": "Intelligence Index v4.3 36", "source": "artificialanalysis" },
         { "rank": 7, "model": "Qwen3.8 27B", "score": "Index 34", "basis": "Intelligence Index v4.3 34", "source": "artificialanalysis" },
-        { "rank": 8, "model": "MiniMax M3", "score": "Index 30", "basis": "Intelligence Index v4.3 30, 네이티브 멀티모달", "source": "artificialanalysis" }
+        { "rank": 8, "model": "K2 Horizon 375B A23B", "score": "Index 31", "basis": "Intelligence Index v4.3 31, MBZUAI Institute of Foundation Models 오픈웨이트", "source": "artificialanalysis" }
       ]
     },
     {
@@ -149,9 +149,9 @@
   ],
   "sources": [
     { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 9월 13일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 9월 13일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 9월 13일" },
-    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 9월 10일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 9월 13일" }
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 9월 16일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 9월 16일" },
+    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 9월 16일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 9월 16일" }
   ]
 }
