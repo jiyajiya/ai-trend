@@ -1,0 +1,31 @@
+{
+  "points": [
+    "Anthropic이 생명과학 전문가에게 Mythos·Opus·Sonnet 모델을 더 완화된 안전장치로 제공하는 생명과학 검증 프로그램(LSVP)을 베타로 출시했다.",
+    "검증 절차를 통과한 조직은 '표준(Standard Use)'과 '고위험(High-risk Use)' 두 종류의 그랜트를 신청할 수 있으며, 각각 접근 범위와 갱신 주기가 다르다.",
+    "실시간 차단 대신 사용 패턴을 30일간 보관해 사후 모니터링하는 방식으로 전환해, 정당한 연구는 방해받지 않으면서 오남용은 사후에 탐지한다.",
+    "접근 침해, 내부자 위협, 에이전트 오남용(스웜·장기 작업 중 의도치 않은 위험 행동)을 핵심 위협 모델로 설정해 안전장치를 설계했다.",
+    "Xaira Therapeutics, Edison Scientific, Manifold Bio 등 신약 개발 스타트업들이 이미 초기 접근 프로그램을 통해 도입했다."
+  ],
+  "sections": [
+    {
+      "heading": "프로그램 개요",
+      "body": "LSVP는 생명과학 전문가가 신약 개발, 연구 생물학, 임상 개발, 제조 등 기존 공개 모델에서는 막혀 있던 작업에 접근할 수 있도록 하는 프로그램이다. 이미 수십 개 조직이 초기 접근 프로그램으로 온보딩했고, 이제 더 넓은 생명과학 커뮤니티로 신청을 개방한다. 베타 단계에서는 팀·기관 단위로 시작하며, 향후 개인 Pro·Max 플랜으로 접근을 확대할 계획이다."
+    },
+    {
+      "heading": "검증과 접근 등급",
+      "body": "신청 조직은 연구 자격, 보안 표준, 윤리적 연구 감독 체계를 심사받는다. 통과하면 팀 전체가 매년 갱신하며 사용하는 'Standard Use' 그랜트, 또는 특정 고위험 프로젝트 단위로 6개월마다 갱신하는 'High-risk Use' 그랜트를 받을 수 있다. High-risk Use는 생명과학 관련 안전장치를 모두 해제하지만 단일 연구 프로젝트에만 적용되며, Claude Mythos용 고위험 그랜트는 아직 미국 정부와 협의 중인 소수 기관으로 제한된다."
+    },
+    {
+      "heading": "공유 책임 기반 모니터링",
+      "body": "Anthropic은 기업 CISO들과 협력해 접근 침해, 내부자 위협, 에이전트 오남용을 주요 위협 모델로 설정했다. 각 조직은 신청 시 명시한 용도 범위 내에서 스스로 안전한 사용 기준을 정의하고, Anthropic은 이 범위를 벗어나는 트래픽 패턴을 지속적으로 모니터링해 이상 징후를 조직 관리자에게 통보한다. 실시간 차단 대신 30일간 데이터를 보관하는 사후 모니터링 방식으로 전환했으며, 이 데이터는 모델 학습에 사용되거나 Anthropic 생명과학 연구팀이 접근할 수 없도록 엄격히 분리된다."
+    },
+    {
+      "heading": "적용 범위와 향후 계획",
+      "body": "LSVP는 현재 API 콘솔, Claude for Enterprise·Team 플랜에서 이용 가능하며 개인 플랜과 서드파티 플랫폼은 아직 지원하지 않는다. BAA(의료정보보호계약) 적용 조직은 베타 단계에서 지원하지 않아 PHI 데이터를 다루는 고객은 별도의 비HIPAA 조직을 사용해야 한다. Anthropic은 출시 첫 주에 수백 개 조직을 등록하고, 이후 몇 주 안에 생명과학 커뮤니티 대부분을 지원하는 규모로 확대할 계획이라고 밝혔다."
+    }
+  ],
+  "quotes": [
+    "We are shifting safeguards from real-time blocking... to offline monitoring, which allows us to more clearly identify potential misuse across patterns of behavior.",
+    "We expect to enroll hundreds of organizations within the first week, and to scale the program further to support the majority of the life science community in the coming weeks."
+  ]
+}
