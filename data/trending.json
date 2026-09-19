@@ -7,7 +7,7 @@
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "publishedAt": "2026-08-13T11:56:32Z",
     "rawText": "DeepSeek Harness: Everything is a Plugin.",
-    "score": 226565,
+    "score": 229076,
     "lang": "TypeScript",
     "rank": 1,
     "summaryKo": "DeepSeek이 'Everything is a Plugin'을 표방하며 공개한 플러그인 기반 에이전트 하네스 프레임워크 'DeepSeek Harness'.",
@@ -23,34 +23,32 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
-    "id": "5c348986a15182f2",
+    "id": "6f2a3553732373b6",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "deepseek-ai/DeepSeek-V4.1-Flash",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-    "publishedAt": "2026-09-10T02:17:58.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, deepseek_v41, text-generation, image-text-to-text, license:mit, eval-results, endpoints_compatible",
-    "score": 2440,
+    "title": "Edge0/Edge0-35B-A3B-preview",
+    "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+    "publishedAt": "2026-09-08T13:56:18.000Z",
+    "rawText": "text-generation | mlx, safetensors, qwen3_5_moe, moe, edge-inference, prerouter, lora, ssd-offload",
+    "score": 2488,
     "rank": 1,
-    "summaryKo": "DeepSeek이 공개한 이미지-텍스트-투-텍스트 경량 모델 'DeepSeek-V4.1-Flash'(MIT 라이선스).",
+    "summaryKo": "MoE 구조와 SSD 오프로딩을 활용해 엣지 추론에 최적화한 프리뷰 모델 'Edge0-35B-A3B'.",
     "tags": [
-      "멀티모달 LLM",
-      "경량 모델",
-      "MIT 라이선스"
+      "MoE",
+      "엣지 추론",
+      "SSD 오프로딩"
     ],
     "entities": [
-      "DeepSeek",
-      "DeepSeek-V4.1-Flash"
+      "Edge0"
     ],
     "cats": [
-      "LLM·모델",
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "a6d644ce74e5595b",
@@ -75,6 +73,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-14T21:00:39.020Z"
+  },
+  {
+    "id": "a61bb70c5a02c143",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "hypit-ai/hypit",
+    "url": "https://github.com/hypit-ai/hypit",
+    "publishedAt": "2026-07-29T18:49:19Z",
+    "rawText": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+    "score": 10014,
+    "lang": "TypeScript",
+    "rank": 2,
+    "summaryKo": "바이럴 영상을 AI 에이전트로 통째로 복제하는 도구로, 얼굴·대사·B롤을 교체해 한 번의 명령으로 100개 변형 영상을 만들어내는 워크플로를 제공한다.",
+    "tags": [
+      "영상 생성",
+      "에이전트",
+      "콘텐츠 자동화"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "3e09ebb04c002f64",
@@ -106,29 +129,81 @@
     "fetchedAt": "2026-09-16T21:12:21.557Z"
   },
   {
-    "id": "6f2a3553732373b6",
+    "id": "5c348986a15182f2",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Edge0/Edge0-35B-A3B-preview",
-    "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
-    "publishedAt": "2026-09-08T13:56:18.000Z",
-    "rawText": "text-generation | mlx, safetensors, qwen3_5_moe, moe, edge-inference, prerouter, lora, ssd-offload",
-    "score": 2296,
+    "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "publishedAt": "2026-09-10T02:17:58.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, deepseek_v41, text-generation, image-text-to-text, license:mit, eval-results, endpoints_compatible",
+    "score": 1039,
     "rank": 2,
-    "summaryKo": "MoE 구조와 SSD 오프로딩을 활용해 엣지 추론에 최적화한 프리뷰 모델 'Edge0-35B-A3B'.",
+    "summaryKo": "DeepSeek이 공개한 이미지-텍스트-투-텍스트 경량 모델 'DeepSeek-V4.1-Flash'(MIT 라이선스).",
     "tags": [
-      "MoE",
-      "엣지 추론",
-      "SSD 오프로딩"
+      "멀티모달 LLM",
+      "경량 모델",
+      "MIT 라이선스"
     ],
     "entities": [
-      "Edge0"
+      "DeepSeek",
+      "DeepSeek-V4.1-Flash"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
+  },
+  {
+    "id": "4eb733afdb6b8b30",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "deeplethe/utopia",
+    "url": "https://github.com/deeplethe/utopia",
+    "publishedAt": "2026-08-07T19:33:17Z",
+    "rawText": "World's first open-source enterprise world model.",
+    "score": 8081,
+    "lang": "Rust",
+    "rank": 3,
+    "summaryKo": "세계 최초 오픈소스 엔터프라이즈 월드모델을 표방하는 프로젝트 'Utopia'.",
+    "tags": [
+      "월드모델",
+      "오픈소스"
+    ],
+    "entities": [
+      "Utopia"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
+  },
+  {
+    "id": "fd3b761a63e06136",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "publishedAt": "2026-09-16T23:40:56.000Z",
+    "rawText": "text-generation | llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device",
+    "score": 831,
+    "rank": 3,
+    "summaryKo": "2비트 삼진(ternary) 양자화로 경량화한 270억 파라미터 온디바이스 모델 'Ternary-Bonsai-2-27B'의 GGUF 버전.",
+    "tags": [
+      "삼진 양자화",
+      "GGUF",
+      "온디바이스"
+    ],
+    "entities": [
+      "Ternary-Bonsai-2-27B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "91a11e5a1988dbb2",
@@ -138,9 +213,9 @@
     "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
     "publishedAt": "2026-08-01T09:29:38Z",
     "rawText": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-    "score": 7994,
+    "score": 8041,
     "lang": "C",
-    "rank": 3,
+    "rank": 4,
     "summaryKo": "2.78조 파라미터 Kimi K3를 GPU 없이 단일 CPU·8.24GB RAM에서 추론시키는, BLAS·프레임워크 의존성 없는 순수 C99 구현체.",
     "tags": [
       "Kimi K3",
@@ -154,7 +229,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "ca26bca182f697df",
@@ -164,8 +239,8 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
     "publishedAt": "2026-08-05T08:22:59.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
-    "score": 590,
-    "rank": 3,
+    "score": 612,
+    "rank": 4,
     "summaryKo": "알리바바가 공개한 이미지-텍스트-투-텍스트 대화형 모델 'Qwen3.8-27B'(Apache 2.0).",
     "tags": [
       "멀티모달 LLM",
@@ -180,81 +255,35 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
-    "id": "4eb733afdb6b8b30",
+    "id": "3c87705c98eedbc9",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "deeplethe/utopia",
-    "url": "https://github.com/deeplethe/utopia",
-    "publishedAt": "2026-08-07T19:33:17Z",
-    "rawText": "World's first open-source enterprise world model.",
-    "score": 7646,
-    "lang": "Rust",
-    "rank": 4,
-    "summaryKo": "세계 최초 오픈소스 엔터프라이즈 월드모델을 표방하는 프로젝트 'Utopia'.",
-    "tags": [
-      "월드모델",
-      "오픈소스"
-    ],
-    "entities": [
-      "Utopia"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "2d1e190b309f2b26",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "m-a-p/YuE2-3B",
-    "url": "https://huggingface.co/m-a-p/YuE2-3B",
-    "publishedAt": "2026-09-09T18:30:33.000Z",
-    "rawText": "text-to-audio | safetensors, yue2, music-generation, symbolic-planning, agentic-editing, custom_code, text-to-audio, zh",
-    "score": 585,
-    "rank": 4,
-    "summaryKo": "심볼릭 플래닝과 에이전틱 편집을 결합한 텍스트-투-오디오 음악 생성 모델 'YuE2-3B'.",
-    "tags": [
-      "음악 생성",
-      "텍스트-투-오디오",
-      "에이전틱 편집"
-    ],
-    "entities": [
-      "YuE2-3B"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "204aad5d566a77c1",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "yjh051108/dsh-routing-suite",
-    "url": "https://github.com/yjh051108/dsh-routing-suite",
-    "publishedAt": "2026-08-14T21:20:55Z",
-    "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-    "score": 7193,
-    "lang": "JavaScript",
+    "title": "google/artemis",
+    "url": "https://github.com/google/artemis",
+    "publishedAt": "2026-08-13T17:59:37Z",
+    "rawText": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+    "score": 7876,
+    "lang": "Python",
     "rank": 5,
-    "summaryKo": "런타임 인젝터와 작업 인지형 추론모드 라우터 프리셋(P1-P23)으로 구성된 LLM 라우팅 툴킷 'dsh-routing-suite'.",
+    "summaryKo": "구글이 공개한 ARTEMIS는 자연어 지시를 안드로이드 자동화로 변환하는 도구로, 전체 워크플로 자동화와 로그 캡처를 지원하고 Antigravity·Codex·Claude Code 같은 AI 코딩 어시스턴트와 연동되며 AndroidWorld 벤치마크에서 99% 이상의 성공률을 기록했다.",
     "tags": [
-      "라우팅",
-      "추론모드",
-      "LLM 툴킷"
+      "안드로이드 자동화",
+      "에이전트",
+      "벤치마크"
     ],
-    "entities": [],
+    "entities": [
+      "Google",
+      "ARTEMIS"
+    ],
     "cats": [
-      "LLM·모델"
+      "에이전트",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "6db7a09f6b2d61e8",
@@ -283,6 +312,31 @@
     "fetchedAt": "2026-09-17T21:08:20.748Z"
   },
   {
+    "id": "2d1e190b309f2b26",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "m-a-p/YuE2-3B",
+    "url": "https://huggingface.co/m-a-p/YuE2-3B",
+    "publishedAt": "2026-09-09T18:30:33.000Z",
+    "rawText": "text-to-audio | safetensors, yue2, music-generation, symbolic-planning, agentic-editing, custom_code, text-to-audio, zh",
+    "score": 540,
+    "rank": 5,
+    "summaryKo": "심볼릭 플래닝과 에이전틱 편집을 결합한 텍스트-투-오디오 음악 생성 모델 'YuE2-3B'.",
+    "tags": [
+      "음악 생성",
+      "텍스트-투-오디오",
+      "에이전틱 편집"
+    ],
+    "entities": [
+      "YuE2-3B"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
+  },
+  {
     "id": "3e587c7e7418aff9",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -306,32 +360,55 @@
     "fetchedAt": "2026-09-14T21:00:39.020Z"
   },
   {
-    "id": "3c87705c98eedbc9",
+    "id": "204aad5d566a77c1",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "google/artemis",
-    "url": "https://github.com/google/artemis",
-    "publishedAt": "2026-08-13T17:59:37Z",
-    "rawText": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
-    "score": 6404,
-    "lang": "Python",
+    "title": "yjh051108/dsh-routing-suite",
+    "url": "https://github.com/yjh051108/dsh-routing-suite",
+    "publishedAt": "2026-08-14T21:20:55Z",
+    "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+    "score": 7195,
+    "lang": "JavaScript",
     "rank": 6,
-    "summaryKo": "구글이 공개한 ARTEMIS는 자연어 지시를 안드로이드 자동화로 변환하는 도구로, 전체 워크플로 자동화와 로그 캡처를 지원하고 Antigravity·Codex·Claude Code 같은 AI 코딩 어시스턴트와 연동되며 AndroidWorld 벤치마크에서 99% 이상의 성공률을 기록했다.",
+    "summaryKo": "런타임 인젝터와 작업 인지형 추론모드 라우터 프리셋(P1-P23)으로 구성된 LLM 라우팅 툴킷 'dsh-routing-suite'.",
     "tags": [
-      "안드로이드 자동화",
-      "에이전트",
-      "벤치마크"
+      "라우팅",
+      "추론모드",
+      "LLM 툴킷"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
+  },
+  {
+    "id": "811fa142889c37fc",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "TokenRhythm/NeoHorse-1-4B",
+    "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
+    "publishedAt": "2026-09-05T08:21:53.000Z",
+    "rawText": "text-generation | transformers, safetensors, qwen3_5_text, text-generation, agentic, tool-use, coding, reasoning",
+    "score": 478,
+    "rank": 6,
+    "summaryKo": "에이전틱 툴 사용과 코딩·추론에 특화된 소형 언어모델 'NeoHorse-1-4B'.",
+    "tags": [
+      "에이전틱",
+      "코딩",
+      "추론"
     ],
     "entities": [
-      "Google",
-      "ARTEMIS"
+      "NeoHorse-1-4B"
     ],
     "cats": [
+      "LLM·모델",
       "에이전트",
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "6d999a50c5c7edff",
@@ -386,31 +463,6 @@
     "fetchedAt": "2026-09-14T21:00:39.020Z"
   },
   {
-    "id": "a61bb70c5a02c143",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "hypit-ai/hypit",
-    "url": "https://github.com/hypit-ai/hypit",
-    "publishedAt": "2026-07-29T18:49:19Z",
-    "rawText": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
-    "score": 6400,
-    "lang": "TypeScript",
-    "rank": 7,
-    "summaryKo": "바이럴 영상을 AI 에이전트로 통째로 복제하는 도구로, 얼굴·대사·B롤을 교체해 한 번의 명령으로 100개 변형 영상을 만들어내는 워크플로를 제공한다.",
-    "tags": [
-      "영상 생성",
-      "에이전트",
-      "콘텐츠 자동화"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
     "id": "dcc411eb2d826755",
     "sourceType": "repo",
     "source": "GitHub",
@@ -418,7 +470,7 @@
     "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
     "publishedAt": "2026-08-28T12:57:24Z",
     "rawText": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "score": 5182,
+    "score": 5446,
     "lang": "TypeScript",
     "rank": 7,
     "summaryKo": "ChatGPT를 플래닝(설계) 두뇌로 쓰고 실제 실행은 기존 Codex 하네스가 맡도록 연결한 오픈소스 도구다. Codex의 실행 능력은 유지하면서 계획 단계만 ChatGPT로 대체하는 조합을 제공한다.",
@@ -434,7 +486,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "229b322ed982d40b",
@@ -498,7 +550,7 @@
     "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
     "publishedAt": "2026-08-28T18:38:03.000Z",
     "rawText": "image-text-to-text | gguf, gsq, rco, quantization, mixed-precision, ist-daslab, multimodal, vision",
-    "score": 419,
+    "score": 443,
     "rank": 7,
     "summaryKo": "IST 오스트리아 DASLab이 GSQ·RCO 혼합정밀 양자화로 경량화한 Qwen3.8-27B의 GGUF 버전.",
     "tags": [
@@ -515,7 +567,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "5ea1503fa8e6ce35",
@@ -525,7 +577,7 @@
     "url": "https://github.com/bojieli/ai-infra-book",
     "publishedAt": "2026-08-22T15:30:41Z",
     "rawText": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "score": 3861,
+    "score": 4371,
     "lang": "Python",
     "rank": 8,
     "summaryKo": "하드웨어 제약과 모델 구조에서 출발해 LLM 추론·학습 시스템 설계를 정량적으로 다루는 오픈소스 도서 《深入理解 AI Infra》(리보제 지음)로, 본문·PDF·계산 도구·실험 자료를 함께 제공한다.",
@@ -539,7 +591,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "92c1824269f45469",
@@ -549,7 +601,7 @@
     "url": "https://huggingface.co/Lightricks/LTX-2.5",
     "publishedAt": "2026-07-23T07:55:24.000Z",
     "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 405,
+    "score": 427,
     "rank": 8,
     "summaryKo": "Lightricks가 공개한 이미지·텍스트·오디오를 넘나드는 통합 영상 생성 디퓨전 모델 'LTX-2.5'.",
     "tags": [
@@ -565,7 +617,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "f03b6c686a597d54",
@@ -594,6 +646,30 @@
     "fetchedAt": "2026-09-14T21:00:39.020Z"
   },
   {
+    "id": "1e97fcf6e4c7f154",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "Human-Agent-Society/reef",
+    "url": "https://github.com/Human-Agent-Society/reef",
+    "publishedAt": "2026-08-31T01:39:18Z",
+    "rawText": "Continual learning infra for self-improving agents",
+    "score": 3553,
+    "lang": "Python",
+    "rank": 9,
+    "summaryKo": "자기개선형(self-improving) AI 에이전트를 위한 지속학습(continual learning) 인프라 'reef'.",
+    "tags": [
+      "지속학습",
+      "자기개선 에이전트",
+      "인프라"
+    ],
+    "entities": [],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
+  },
+  {
     "id": "68b71d54addfabbd",
     "sourceType": "repo",
     "source": "GitHub",
@@ -618,33 +694,6 @@
     "fetchedAt": "2026-09-17T21:08:20.748Z"
   },
   {
-    "id": "811fa142889c37fc",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "TokenRhythm/NeoHorse-1-4B",
-    "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B",
-    "publishedAt": "2026-09-05T08:21:53.000Z",
-    "rawText": "text-generation | transformers, safetensors, qwen3_5_text, text-generation, agentic, tool-use, coding, reasoning",
-    "score": 385,
-    "rank": 9,
-    "summaryKo": "에이전틱 툴 사용과 코딩·추론에 특화된 소형 언어모델 'NeoHorse-1-4B'.",
-    "tags": [
-      "에이전틱",
-      "코딩",
-      "추론"
-    ],
-    "entities": [
-      "NeoHorse-1-4B"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
     "id": "8c2aa81a2d6a6bea",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -652,7 +701,7 @@
     "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
     "publishedAt": "2026-09-08T13:35:21.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, qwen3_8, efficient-thinking, reasoning, token-efficient",
-    "score": 366,
+    "score": 414,
     "rank": 9,
     "summaryKo": "Qwen3.5/3.8 계열을 기반으로 한 270억 파라미터급 이미지-텍스트-투-텍스트 모델 Swift-Qwen3.8-27b가 HuggingFace에 공개됐다. 효율적인 사고(efficient-thinking)와 토큰 절약형 추론에 초점을 맞춘 것이 특징이다.",
     "tags": [
@@ -668,32 +717,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "3d72f61333f55bdf",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "google/timesfm-3.0-pytorch",
-    "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
-    "publishedAt": "2026-08-24T22:05:51.000Z",
-    "rawText": "time-series-forecasting | safetensors, time-series, forecasting, pretrained, pytorch, google, time-series-forecasting, arxiv:2310.10688",
-    "score": 319,
-    "rank": 9,
-    "summaryKo": "구글이 공개한 사전학습 시계열 예측 파운데이션 모델의 PyTorch 3.0 버전.",
-    "tags": [
-      "LLM·모델",
-      "시계열예측"
-    ],
-    "entities": [
-      "Google",
-      "TimesFM"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-10T21:19:52.658Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "023d224fedcde1ec",
@@ -730,7 +754,7 @@
     "url": "https://github.com/ant-research/4DAnyone",
     "publishedAt": "2026-08-10T07:46:06Z",
     "rawText": "[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-    "score": 1328,
+    "score": 1352,
     "lang": "Python",
     "rank": 10,
     "summaryKo": "SIGGRAPH Asia 2026 발표작으로, 캐주얼한 단안(모노큘러) 비디오만으로 누구든 4D(시공간) 형태로 복원·생성하는 '4DAnyone'.",
@@ -746,7 +770,33 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
+  },
+  {
+    "id": "73e1243414bd6b3f",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+    "publishedAt": "2026-09-01T07:01:09.000Z",
+    "rawText": "image-text-to-text | gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants",
+    "score": 368,
+    "rank": 10,
+    "summaryKo": "DavidAU가 Qwen3.8-27B를 기반으로 Heretic 기법의 무검열(uncensored) 파인튜닝과 MTP 방식 GGUF 양자화를 결합해 배포한 실험적 커스텀 모델.",
+    "tags": [
+      "파인튜닝",
+      "GGUF",
+      "무검열 모델"
+    ],
+    "entities": [
+      "DavidAU",
+      "Qwen3.8-27B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "bb6e58f548947f8d",
@@ -774,57 +824,6 @@
     "fetchedAt": "2026-09-14T21:00:39.020Z"
   },
   {
-    "id": "73e1243414bd6b3f",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-    "publishedAt": "2026-09-01T07:01:09.000Z",
-    "rawText": "image-text-to-text | gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants",
-    "score": 332,
-    "rank": 10,
-    "summaryKo": "DavidAU가 Qwen3.8-27B를 기반으로 Heretic 기법의 무검열(uncensored) 파인튜닝과 MTP 방식 GGUF 양자화를 결합해 배포한 실험적 커스텀 모델.",
-    "tags": [
-      "파인튜닝",
-      "GGUF",
-      "무검열 모델"
-    ],
-    "entities": [
-      "DavidAU",
-      "Qwen3.8-27B"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "b462c08e3741dd25",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
-    "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
-    "publishedAt": "2026-08-30T10:46:54.000Z",
-    "rawText": "text-generation | safetensors, glm_moe_dsa, abliterated, crack, refusal-removed, domain-specific, cybersecurity, offensive-security",
-    "score": 290,
-    "rank": 10,
-    "summaryKo": "dealignai가 GLM-5.3을 사이버보안 도메인에 특화시키고 안전장치를 제거(abliterated)한 FP8 모델을 공개했다. 공격적/오펜시브 시큐리티 용도로 만들어져 오남용 우려가 있는 모델이다.",
-    "tags": [
-      "사이버보안",
-      "안전장치 제거"
-    ],
-    "entities": [
-      "GLM-5.3"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-11T21:15:45.500Z"
-  },
-  {
     "id": "b34ca6dfe4254569",
     "sourceType": "repo",
     "source": "GitHub",
@@ -832,7 +831,7 @@
     "url": "https://github.com/calmrocks/ai-engineer-notebooks",
     "publishedAt": "2026-08-11T23:17:17Z",
     "rawText": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps, and customer craft. Runs on the free Groq API.",
-    "score": 633,
+    "score": 637,
     "lang": "Jupyter Notebook",
     "rank": 11,
     "summaryKo": "AI 엔지니어·Forward Deployed Engineer를 위한 프레임워크 없는 실습형 Colab 노트북 모음으로, 모델 API·구조화 출력·툴콜링·RAG·평가·에이전트(MCP·스킬 포함)·파인튜닝·프롬프트 인젝션 보안·LLMOps까지 다루며 무료 Groq API로 실행된다.",
@@ -849,7 +848,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "92e545db7b487ac7",
@@ -883,7 +882,7 @@
     "url": "https://github.com/NoizAI/HelixWorld",
     "publishedAt": "2026-08-03T03:34:11Z",
     "rawText": "🪐 HelixWorld: real-time interactive audio-visual world model.",
-    "score": 605,
+    "score": 606,
     "lang": "Python",
     "rank": 12,
     "summaryKo": "실시간 상호작용이 가능한 오디오-비주얼 월드모델 'HelixWorld'.",
@@ -900,7 +899,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   },
   {
     "id": "e20a99a658f54478",
@@ -910,7 +909,7 @@
     "url": "https://github.com/worldbench/DiffusionOPSD",
     "publishedAt": "2026-07-29T15:40:30Z",
     "rawText": "🔥 On-Policy Self-Distillation in Diffusion Models",
-    "score": 430,
+    "score": 460,
     "lang": "Python",
     "rank": 13,
     "summaryKo": "디퓨전 모델에서 온폴리시 자기증류(On-Policy Self-Distillation)를 적용한 연구 코드 'DiffusionOPSD'.",
@@ -925,33 +924,6 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "776452196977e360",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Carasibana/ComfyUI-H3-FaceRefine",
-    "url": "https://github.com/Carasibana/ComfyUI-H3-FaceRefine",
-    "publishedAt": "2026-08-12T11:18:15Z",
-    "rawText": "Refine and improve the quality of small faces in MiniMax H3 video. Per-frame face tracking, crop, refine with H3, stitch back.",
-    "score": 364,
-    "lang": "Python",
-    "rank": 15,
-    "summaryKo": "MiniMax H3로 생성한 영상 속 작게 나온 얼굴을 프레임별로 추적·크롭한 뒤 H3로 다시 보정해 붙여넣는 ComfyUI 노드.",
-    "tags": [
-      "멀티모달",
-      "영상생성",
-      "ComfyUI"
-    ],
-    "entities": [
-      "MiniMax H3",
-      "ComfyUI"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-10T21:19:52.658Z"
+    "fetchedAt": "2026-09-19T02:58:41.975Z"
   }
 ]
