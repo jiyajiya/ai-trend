@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-09-18",
-  "windowLabel": "2026년 9월 13일~18일 기준",
-  "updatedAt": "2026-09-17T21:07:44Z",
+  "asOf": "2026-09-20",
+  "windowLabel": "2026년 9월 15일~20일 기준",
+  "updatedAt": "2026-09-19T21:17:32Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -57,7 +57,7 @@
         { "rank": 2, "model": "Inkling", "score": "97.1%", "basis": "AIME 2026 97.1%, A.X K2와 동점", "source": "benchlm" },
         { "rank": 3, "model": "A.X K2", "score": "97.1%", "basis": "AIME 2026 97.1%, Inkling과 동점 (신규 진입)", "source": "benchlm" },
         { "rank": 4, "model": "Kimi K2.6", "score": "96.4%", "basis": "AIME 2026 96.4%", "source": "benchlm" },
-        { "rank": 5, "model": "GLM-5", "score": "95.8%", "basis": "AIME 2026 95.8%", "source": "benchlm" }
+        { "rank": 5, "model": "Ternary Bonsai 2 27B", "score": "95.8%", "basis": "AIME 2026 95.8%, GLM-5·Kimi K2.5와 동점 중 출처 순위 상위 (신규 진입)", "source": "benchlm" }
       ]
     },
     {
@@ -83,16 +83,16 @@
       "metric": "Text-to-Image Elo (Arena)",
       "note": "이미지 품질·텍스트 정확성 — 카드뉴스·썸네일·제품 이미지 제작.",
       "ranks": [
-        { "rank": 1, "model": "GPT Image 2.5 Flare (max)", "score": "Elo 1186", "basis": "Elo 1186, Arena 1위", "source": "artificialanalysis" },
-        { "rank": 2, "model": "GPT Image 2.5 Sunburst (max)", "score": "Elo 1180", "basis": "Elo 1180, 2위", "source": "artificialanalysis" },
-        { "rank": 3, "model": "GPT Image 2 (high)", "score": "Elo 1169", "basis": "Elo 1169", "source": "artificialanalysis" },
-        { "rank": 4, "model": "MAI-Image-2.6", "score": "Elo 1146", "basis": "Elo 1146", "source": "artificialanalysis" },
-        { "rank": 5, "model": "Reve 2.1", "score": "Elo 1129", "basis": "Elo 1129", "source": "artificialanalysis" },
-        { "rank": 6, "model": "Nano Banana 2 (Gemini 3.1 Flash Image)", "score": "Elo 1122", "basis": "Elo 1122", "source": "artificialanalysis" },
-        { "rank": 7, "model": "Muse Image", "score": "Elo 1113", "basis": "Elo 1113", "source": "artificialanalysis" },
-        { "rank": 8, "model": "GPT Image 1.5 (high)", "score": "Elo 1102", "basis": "Elo 1102", "source": "artificialanalysis" },
-        { "rank": 9, "model": "MAI-Image-2.5", "score": "Elo 1101", "basis": "Elo 1101", "source": "artificialanalysis" },
-        { "rank": 10, "model": "Nano Banana Pro (Gemini 3 Pro Image)", "score": "Elo 1099", "basis": "Elo 1099", "source": "artificialanalysis" }
+        { "rank": 1, "model": "GPT Image 2.5 Flare (max)", "score": "Elo 1188", "basis": "Elo 1188, Arena 1위", "source": "artificialanalysis" },
+        { "rank": 2, "model": "GPT Image 2.5 Sunburst (max)", "score": "Elo 1182", "basis": "Elo 1182, 2위", "source": "artificialanalysis" },
+        { "rank": 3, "model": "GPT Image 2 (high)", "score": "Elo 1171", "basis": "Elo 1171", "source": "artificialanalysis" },
+        { "rank": 4, "model": "Grok Imagine Image 2.0", "score": "Elo 1154", "basis": "Elo 1154 (신규 진입)", "source": "artificialanalysis" },
+        { "rank": 5, "model": "MAI-Image-2.6", "score": "Elo 1147", "basis": "Elo 1147", "source": "artificialanalysis" },
+        { "rank": 6, "model": "Reve 2.1", "score": "Elo 1129", "basis": "Elo 1129", "source": "artificialanalysis" },
+        { "rank": 7, "model": "Nano Banana 2 (Gemini 3.1 Flash Image)", "score": "Elo 1122", "basis": "Elo 1122", "source": "artificialanalysis" },
+        { "rank": 8, "model": "Muse Image", "score": "Elo 1111", "basis": "Elo 1111", "source": "artificialanalysis" },
+        { "rank": 9, "model": "GPT Image 1.5 (high)", "score": "Elo 1102", "basis": "Elo 1102", "source": "artificialanalysis" },
+        { "rank": 10, "model": "MAI-Image-2.5", "score": "Elo 1102", "basis": "Elo 1102, GPT Image 1.5와 동점 중 출처 순위 하위", "source": "artificialanalysis" }
       ]
     },
     {
@@ -148,10 +148,10 @@
     { "name": "Lowest Price", "meaning": "API 비용 절감", "area": "대규모 운영", "detail": "1M 토큰당 가격이 가장 낮은 모델. 대규모 쿼리·장기 운영 비용 절감." }
   ],
   "sources": [
-    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 9월 17일" },
-    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 9월 17일" },
-    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 9월 17일" },
-    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 9월 16일" },
-    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 9월 17일" }
+    { "name": "LMSYS Chatbot Arena", "url": "https://arena.ai/leaderboard", "updated": "2026년 9월 20일" },
+    { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai/leaderboards/models", "updated": "2026년 9월 20일" },
+    { "name": "Text-to-Image Arena", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "updated": "2026년 9월 20일" },
+    { "name": "BenchLM.ai", "url": "https://benchlm.ai/benchmarks/aime2026", "updated": "2026년 9월 20일" },
+    { "name": "Vellum LLM Leaderboard", "url": "https://www.vellum.ai/llm-leaderboard", "updated": "2026년 9월 20일" }
   ]
 }
