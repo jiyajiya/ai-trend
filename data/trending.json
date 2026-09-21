@@ -23,7 +23,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "6f2a3553732373b6",
@@ -51,30 +51,6 @@
     "fetchedAt": "2026-09-20T23:02:47.617Z"
   },
   {
-    "id": "a6d644ce74e5595b",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "img2threejs/img2threejs",
-    "url": "https://github.com/img2threejs/img2threejs",
-    "publishedAt": "2026-07-15T02:58:39Z",
-    "rawText": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "score": 15859,
-    "lang": "Python",
-    "rank": 2,
-    "summaryKo": "참조 이미지 속 객체를 코드로만 재현해 애니메이션 가능한 Three.js 3D 모델로 만들어주는 오픈소스 도구다. 토큰 효율적인 이미지-투-3D 파이프라인을 제공한다.",
-    "tags": [
-      "이미지투3D",
-      "Three.js"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-14T21:00:39.020Z"
-  },
-  {
     "id": "a61bb70c5a02c143",
     "sourceType": "repo",
     "source": "GitHub",
@@ -97,7 +73,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "3e09ebb04c002f64",
@@ -153,7 +129,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "4eb733afdb6b8b30",
@@ -178,7 +154,32 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
+  },
+  {
+    "id": "3cc50d0356230bcb",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Qwen/Qwen-Image-2.1",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "publishedAt": "2026-09-14T03:47:26.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other",
+    "score": 1343,
+    "rank": 3,
+    "summaryKo": "Qwen 팀이 텍스트 기반 이미지 생성·편집 모델 'Qwen-Image-2.1'을 공개했다. RGBA(투명 배경) 출력을 지원하며 diffusers/safetensors 포맷으로 배포된다.",
+    "tags": [
+      "텍스트투이미지",
+      "디퓨전",
+      "Qwen"
+    ],
+    "entities": [
+      "Qwen"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "fd3b761a63e06136",
@@ -203,7 +204,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "91a11e5a1988dbb2",
@@ -229,7 +230,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "ca26bca182f697df",
@@ -255,7 +256,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "afdfa90a322d67d8",
@@ -280,7 +281,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "3c87705c98eedbc9",
@@ -308,7 +309,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "6db7a09f6b2d61e8",
@@ -359,30 +360,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
-  },
-  {
-    "id": "3e587c7e7418aff9",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "XHToken/Spark-X2.5-4B",
-    "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-    "publishedAt": "2026-08-24T06:34:34.000Z",
-    "rawText": "text-generation | transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code",
-    "score": 520,
-    "rank": 5,
-    "summaryKo": "XHToken이 40억 파라미터 텍스트 생성 모델 'Spark-X2.5-4B'를 공개했다.",
-    "tags": [
-      "소형 LLM"
-    ],
-    "entities": [
-      "Spark"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-14T21:00:39.020Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "204aad5d566a77c1",
@@ -406,7 +384,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "811fa142889c37fc",
@@ -463,31 +441,6 @@
     "fetchedAt": "2026-09-16T21:12:21.557Z"
   },
   {
-    "id": "7af3ac00212dbeff",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "drumih/turbo-fieldfare",
-    "url": "https://github.com/drumih/turbo-fieldfare",
-    "publishedAt": "2026-07-17T15:57:54Z",
-    "rawText": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
-    "score": 6716,
-    "lang": "Swift",
-    "rank": 7,
-    "summaryKo": "M시리즈 맥북에서 약 2GB RAM만으로 Gemma 4 26B-A4B 모델을 추론할 수 있게 해주는 프로젝트다.",
-    "tags": [
-      "온디바이스 추론",
-      "경량화"
-    ],
-    "entities": [
-      "Gemma 4"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-14T21:00:39.020Z"
-  },
-  {
     "id": "dcc411eb2d826755",
     "sourceType": "repo",
     "source": "GitHub",
@@ -511,7 +464,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "229b322ed982d40b",
@@ -539,6 +492,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-15T21:14:46.045Z"
+  },
+  {
+    "id": "b6e973a398e2cd47",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "abenzerps/Qwen-Image-2.1-GGUF",
+    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
+    "publishedAt": "2026-09-20T15:51:13.000Z",
+    "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1",
+    "score": 511,
+    "rank": 7,
+    "summaryKo": "Qwen-Image-2.1을 GGUF로 양자화한 버전으로, ComfyUI에서 바로 불러와 쓸 수 있도록 최적화됐다. 원본보다 가벼운 용량으로 로컬 환경에서 이미지 생성·편집이 가능하다.",
+    "tags": [
+      "GGUF",
+      "양자화",
+      "ComfyUI"
+    ],
+    "entities": [
+      "Qwen"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "003d94a7ff4cba00",
@@ -591,7 +569,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "fcfbb6fadfe01384",
@@ -618,7 +596,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "5ea1503fa8e6ce35",
@@ -642,7 +620,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "92c1824269f45469",
@@ -671,32 +649,6 @@
     "fetchedAt": "2026-09-20T23:02:47.617Z"
   },
   {
-    "id": "f03b6c686a597d54",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "kirodotdev/KiroCrew",
-    "url": "https://github.com/kirodotdev/KiroCrew",
-    "publishedAt": "2026-07-16T21:21:54Z",
-    "rawText": "A persistent workspace for development work that self-improves and continues beyond one session.",
-    "score": 3871,
-    "lang": "Python",
-    "rank": 9,
-    "summaryKo": "한 세션을 넘어 스스로 개선하며 이어지는 지속형(persistent) 개발 워크스페이스 도구다.",
-    "tags": [
-      "에이전트",
-      "개발워크스페이스"
-    ],
-    "entities": [
-      "Kiro"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-14T21:00:39.020Z"
-  },
-  {
     "id": "1e97fcf6e4c7f154",
     "sourceType": "repo",
     "source": "GitHub",
@@ -718,7 +670,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "68b71d54addfabbd",
@@ -821,7 +773,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "b52909325615ce37",
@@ -847,7 +799,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "73e1243414bd6b3f",
@@ -876,31 +828,6 @@
     "fetchedAt": "2026-09-20T23:02:47.617Z"
   },
   {
-    "id": "bb6e58f548947f8d",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "unsloth/Qwen3.8-27B-GGUF",
-    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-    "publishedAt": "2026-08-13T08:28:40.000Z",
-    "rawText": "gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, endpoints_compatible, region:us",
-    "score": 340,
-    "rank": 10,
-    "summaryKo": "Unsloth가 Qwen3.8-27B의 GGUF 양자화 버전을 공개해 로컬 환경에서 가볍게 구동할 수 있게 했다.",
-    "tags": [
-      "양자화",
-      "로컬추론"
-    ],
-    "entities": [
-      "Qwen",
-      "Unsloth"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-14T21:00:39.020Z"
-  },
-  {
     "id": "b34ca6dfe4254569",
     "sourceType": "repo",
     "source": "GitHub",
@@ -925,31 +852,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
-  },
-  {
-    "id": "92e545db7b487ac7",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "flatkey-ai/flatkey-cli",
-    "url": "https://github.com/flatkey-ai/flatkey-cli",
-    "publishedAt": "2026-07-17T03:35:56Z",
-    "rawText": "Flatkey media generation CLI for images, videos, audio, text, credits, and model discovery.",
-    "score": 933,
-    "lang": "JavaScript",
-    "rank": 12,
-    "summaryKo": "이미지·영상·오디오·텍스트 미디어 생성과 크레딧, 모델 탐색을 하나로 묶은 CLI 도구다.",
-    "tags": [
-      "미디어생성",
-      "CLI"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-14T21:00:39.020Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "d0f1542d4711962a",
@@ -976,7 +879,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   },
   {
     "id": "e20a99a658f54478",
@@ -1001,6 +904,6 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-20T23:02:47.617Z"
+    "fetchedAt": "2026-09-21T21:18:38.972Z"
   }
 ]

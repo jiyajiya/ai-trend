@@ -1,0 +1,28 @@
+{
+  "points": [
+    "2035년까지 자율주행차 4900만 대, 산업용 로봇 6000만 대가 배치될 것으로 전망된다.",
+    "Physical AI 안전은 하드웨어·소프트웨어·AI·운영환경·배포 생명주기 전반을 아우르는 개념으로 정의된다.",
+    "정적 안전장치만으로는 부족하며 동적 환경 대응, AI 행동 검증, 지속적 배포 대응, 대규모 시뮬레이션 검증이 새로운 기준으로 요구된다.",
+    "NVIDIA는 자율주행차용과 로봇용으로 나뉜 통합 안전 플랫폼 'Halos'를 제시했다.",
+    "TÜV SÜD, TÜV Rheinland 등 독립 인증기관이 ISO 26262 등 국제 표준에 따라 Halos를 검증했다."
+  ],
+  "sections": [
+    {
+      "heading": "배경: Physical AI의 급속한 확산",
+      "body": "자율주행차와 산업용 로봇이 연구 단계를 넘어 대규모 배포 단계로 이동하고 있다. ABI Research와 Omdia 전망에 따르면 2035년까지 각각 4900만 대와 6000만 대 규모로 늘어나며, 사람과 공유하는 도로·공장·창고 환경에서의 안전이 중요해졌다."
+    },
+    {
+      "heading": "새로운 안전 기준 4가지",
+      "body": "정적 구역이나 물리적 장벽만으로는 변화하는 상황에 대응할 수 없어 동적 환경 감지가 필요하다. 또한 설계·런타임·검증 시점의 AI 행동 가드레일, 지속적인 소프트웨어 업데이트에 대응하는 안전 테스트, 실제 테스트를 보완하는 시뮬레이션·합성데이터 기반 대규모 검증이 요구된다."
+    },
+    {
+      "heading": "Halos 플랫폼 구조",
+      "body": "자율주행차 계층은 안전 인증 컴퓨팅인 DRIVE AGX Thor, ASIL-D 인증 Halos OS, 설명 가능한 비전-언어-행동 모델 Alpamayo로 구성된다. 로봇 계층은 Functional Safety Island를 포함한 IGX Thor, 결함 감지 소프트웨어 Halos Core, 외부 카메라 기반 Outside-In Safety Blueprint로 이뤄진다."
+    },
+    {
+      "heading": "독립 인증과 생태계",
+      "body": "TÜV SÜD, TÜV Rheinland가 ISO 26262, ISO 21434 등 국제 표준에 따라 Halos를 검증했고, ANAB는 Halos AI Systems Inspection Lab을 공식 검사기구로 인정했다. Geely, Nissan, Uber, Grab, Lyft, Agility Robotics 등이 이 플랫폼 기반으로 개발 중이다."
+    }
+  ],
+  "quotes": []
+}
