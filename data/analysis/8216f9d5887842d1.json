@@ -1,0 +1,20 @@
+{
+  "points": [
+    "개선된 DingusPPC 에뮬레이터로 Apple Copland의 마지막 빌드 D11E4를 웹 브라우저에서 부팅할 수 있게 됐다.",
+    "실물 하드웨어에서도 실행이 어렵고 이전에는 에뮬레이션으로 이용할 수 없었던 빌드다.",
+    "부팅 시간은 약 30초이며 WebAssembly로 실물과 동일한 속도를 구현했다.",
+    "필요한 11개 패치가 GitHub 브랜치에 공개돼 있다.",
+    "Copland는 System 7을 대체하려 한 마이크로커널 프로젝트였으나 무산됐고, 이후 Apple은 NeXTSTEP 인수로 Mac OS X 기반을 마련했다."
+  ],
+  "sections": [
+    {
+      "heading": "기술적 성과",
+      "body": "개선된 DingusPPC로 Copland D11E4를 브라우저에서 약 30초 만에 부팅할 수 있게 됐으며, WebAssembly로 실물 하드웨어와 동등한 속도를 낸다."
+    },
+    {
+      "heading": "역사적 배경",
+      "body": "Copland는 System 7을 마이크로커널 기반으로 대체하려던 프로젝트였지만 실현되지 못했고, Apple은 결국 NeXTSTEP을 인수해 Mac OS X를 만들었다."
+    }
+  ],
+  "quotes": []
+}
