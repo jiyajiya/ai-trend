@@ -1,0 +1,25 @@
+{
+  "points": [
+    "Playwright 플러그인을 설치하면 Claude가 브라우저를 직접 열어 만든 화면을 검증한다.",
+    "TasteSkill을 설치하면 고급 웹사이트의 디자인 감각을 배워 AI티 나는 화면을 피할 수 있다.",
+    "마음에 드는 이미지 한 장을 올리면 코드로 변환돼 '이렇게 만들어 줘'라는 지시가 필요 없다.",
+    "세 가지 모두 무료다."
+  ],
+  "sections": [
+    {
+      "heading": "1. Playwright로 화면 검증",
+      "body": "설정의 Plugins에서 Browse를 눌러 Playwright를 검색해 설치한다. 그러면 Claude가 스스로 브라우저를 열어 만든 모든 화면을 확인한다."
+    },
+    {
+      "heading": "2. TasteSkill로 디자인 감각 주입",
+      "body": "TasteSkill은 Claude에게 고급 웹사이트의 디자인 감각을 가르친다. 없으면 누가 봐도 AI가 만든 듯한 화면이 나온다고 설명한다."
+    },
+    {
+      "heading": "3. 이미지를 코드로",
+      "body": "이미지도 코드라는 관점에서, 마음에 드는 사진을 올리면 그대로 코드로 바뀐다. 참고 이미지를 따라 만들라는 지시를 따로 하지 않아도 된다."
+    }
+  ],
+  "quotes": [
+    "\"Do this one thing, and the screens Claude builds will change completely.\""
+  ]
+}
