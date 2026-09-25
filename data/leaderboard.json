@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-09-25",
-  "windowLabel": "2026년 9월 24일~25일 기준",
-  "updatedAt": "2026-09-24T21:03:08Z",
+  "asOf": "2026-09-26",
+  "windowLabel": "2026년 9월 25일~26일 기준",
+  "updatedAt": "2026-09-25T21:08:39Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -240,8 +240,8 @@
         {
           "rank": 4,
           "model": "Grok Imagine Image 2.0",
-          "score": "Elo 1154",
-          "basis": "Elo 1154",
+          "score": "Elo 1156",
+          "basis": "Elo 1156",
           "source": "artificialanalysis"
         },
         {
@@ -254,15 +254,15 @@
         {
           "rank": 6,
           "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": "Elo 1122",
-          "basis": "Elo 1122",
+          "score": "Elo 1123",
+          "basis": "Elo 1123",
           "source": "artificialanalysis"
         },
         {
           "rank": 7,
           "model": "Muse Image",
-          "score": "Elo 1112",
-          "basis": "Elo 1112",
+          "score": "Elo 1111",
+          "basis": "Elo 1111",
           "source": "artificialanalysis"
         },
         {
@@ -274,16 +274,16 @@
         },
         {
           "rank": 9,
-          "model": "MAI-Image-2.5",
+          "model": "MAI-Image-2.6-Flash",
           "score": "Elo 1102",
-          "basis": "Elo 1102",
+          "basis": "Elo 1102, MAI-Image-2.5와 동점",
           "source": "artificialanalysis"
         },
         {
           "rank": 10,
-          "model": "MAI-Image-2.6-Flash",
-          "score": "Elo 1100",
-          "basis": "Elo 1100 (신규 진입, Nano Banana Pro 대체)",
+          "model": "MAI-Image-2.5",
+          "score": "Elo 1102",
+          "basis": "Elo 1102, MAI-Image-2.6-Flash와 동점",
           "source": "artificialanalysis"
         }
       ]
@@ -487,27 +487,27 @@
     {
       "name": "LMSYS Chatbot Arena",
       "url": "https://arena.ai/leaderboard",
-      "updated": "2026년 9월 25일"
+      "updated": "2026년 9월 26일"
     },
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 9월 25일"
+      "updated": "2026년 9월 26일"
     },
     {
       "name": "Text-to-Image Arena",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updated": "2026년 9월 25일"
+      "updated": "2026년 9월 26일"
     },
     {
       "name": "BenchLM.ai",
       "url": "https://benchlm.ai/benchmarks/aime2026",
-      "updated": "2026년 9월 25일"
+      "updated": "2026년 9월 26일"
     },
     {
       "name": "Vellum LLM Leaderboard",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "updated": "2026년 9월 25일"
+      "updated": "2026년 9월 26일"
     }
   ]
 }
