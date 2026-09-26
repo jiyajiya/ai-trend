@@ -1,5 +1,637 @@
 [
   {
+    "id": "7db920b069b48348",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI agents now hold and spend real money, and nobody keeps their books",
+    "url": "https://agenticfinancegraph.com/desk",
+    "publishedAt": "Sat, 26 Sep 2026 20:54:59 +0000",
+    "rawText": "Article URL: https://agenticfinancegraph.com/desk Comments URL: https://news.ycombinator.com/item?id=49860456 Points: 1 # Comments: 0",
+    "summaryKo": "AI 에이전트가 온체인에서 쓰는 자금 흐름을 추적하는 브라우저 기반 모니터링 서비스 'The Desk'가 공개됐다. 지갑을 연결하면 에이전트의 활동 여부·지출·거래 상대를 분석하고 이상 패턴 알림을 받을 수 있으며, Base 체인의 USDC로 월 $29/$149 요금제를 제공한다.",
+    "tags": [
+      "에이전트 결제",
+      "모니터링"
+    ],
+    "entities": [
+      "Agentic Finance Graph",
+      "USDC",
+      "Base"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "092b5552fb2902fb",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The AI-First Organization",
+    "url": "https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html",
+    "publishedAt": "Sat, 26 Sep 2026 20:51:02 +0000",
+    "rawText": "Article URL: https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html Comments URL: https://news.ycombinator.com/item?id=49860420 Points: 1 # Comments: 0",
+    "summaryKo": "Roland Berger가 임원 472명을 조사한 결과, 62%가 AI로 운영모델이 크게 바뀔 것으로 보지만 실제 실행에 나선 곳은 38%에 그쳤다. 병목은 기술보다 인력·역량과 조직 구조이며, 선도기업과 후발기업의 생산성 격차가 빠르게 벌어진다고 진단한다.",
+    "tags": [
+      "AI 도입",
+      "조직 혁신"
+    ],
+    "entities": [
+      "Roland Berger"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "3e820031abc873d5",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "It's Time We Talked About AI and Software Security",
+    "url": "https://deadneurons.substack.com/p/its-time-we-talked-about-ai-and-software",
+    "publishedAt": "Sat, 26 Sep 2026 20:46:14 +0000",
+    "rawText": "Article URL: https://deadneurons.substack.com/p/its-time-we-talked-about-ai-and-software Comments URL: https://news.ycombinator.com/item?id=49860383 Points: 1 # Comments: 0",
+    "summaryKo": "기업 보안 사고는 국가급 해킹이 아니라 MFA 미적용·망 분리 부재 같은 기본 실패에서 비롯된다는 점을 짚는다. LLM은 새로운 공격 기법이 아니라 알려진 공격을 싸게 자동화하는 '인턴' 역할이므로, AI 개발 속도를 늦추기보다 자동화된 테스트로 인프라 취약점을 빨리 드러내야 한다고 주장한다.",
+    "tags": [
+      "AI 보안",
+      "취약점"
+    ],
+    "entities": [
+      "Marks & Spencer",
+      "Jaguar Land Rover",
+      "Change Healthcare"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f297e28656cc9ea9",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Not everyone thinks AI will kill us all",
+    "url": "https://www.cnn.com/2026/09/24/tech/not-everyone-thinks-ai-will-kill-us-all",
+    "publishedAt": "Sat, 26 Sep 2026 20:45:34 +0000",
+    "rawText": "Article URL: https://www.cnn.com/2026/09/24/tech/not-everyone-thinks-ai-will-kill-us-all Comments URL: https://news.ycombinator.com/item?id=49860377 Points: 2 # Comments: 0",
+    "summaryKo": "CNN이 'AI가 인류를 멸망시킬 것'이라는 종말론에 모두가 동의하는 것은 아니라는 관점의 기사를 냈다. 본문을 확인하지 못해 제목 기준으로 요약했다.",
+    "tags": [
+      "AI 안전",
+      "여론"
+    ],
+    "entities": [
+      "CNN"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "e351c605646810a4",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Show HN: ProofForge, AI agents whose proofs have to compile in Lean",
+    "url": "https://github.com/Sanexxxx777/ProofForge",
+    "publishedAt": "Sat, 26 Sep 2026 20:44:01 +0000",
+    "rawText": "Article URL: https://github.com/Sanexxxx777/ProofForge Comments URL: https://news.ycombinator.com/item?id=49860363 Points: 1 # Comments: 0",
+    "summaryKo": "ProofForge는 수학 문제를 원자적 보조정리로 쪼개 AI 에이전트가 증명하고, 적대적 검증을 거쳐 Lean 4/Mathlib 커널로 컴파일되는 증명만 채택하는 파이프라인이다. Google DeepMind formal-conjectures 저장소에 Erdős 문제 관련 PR 6건이 병합됐다.",
+    "tags": [
+      "형식 검증",
+      "Lean"
+    ],
+    "entities": [
+      "ProofForge",
+      "Lean 4",
+      "Mathlib",
+      "Google DeepMind"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "1f39440e8bb576da",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Building games with AI for brother who can only use two switches by turning head",
+    "url": "https://old.reddit.com/r/aigamedev/comments/1wq90w3/using_ai_to_build_games_for_my_brother_who_can/",
+    "publishedAt": "Sat, 26 Sep 2026 20:44:00 +0000",
+    "rawText": "Article URL: https://old.reddit.com/r/aigamedev/comments/1wq90w3/using_ai_to_build_games_for_my_brother_who_can/ Comments URL: https://news.ycombinator.com/item?id=49860361 Points: 2 # Comments: 0",
+    "summaryKo": "두 개의 스위치만 쓸 수 있는 형제를 위해 AI로 게임을 만든 사례를 공유한 Reddit 글이 HN에 올라왔다. 본문은 확인하지 못해 제목 기준으로 요약했다.",
+    "tags": [
+      "접근성",
+      "AI 게임"
+    ],
+    "entities": [
+      "Reddit"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "e7ea447a32c6e5e5",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI Socialism: Who Will Own the Automated Future?",
+    "url": "https://cosmopolity.substack.com/p/ai-socialism-who-will-own-the-automated",
+    "publishedAt": "Sat, 26 Sep 2026 20:35:44 +0000",
+    "rawText": "Article URL: https://cosmopolity.substack.com/p/ai-socialism-who-will-own-the-automated Comments URL: https://news.ycombinator.com/item?id=49860291 Points: 1 # Comments: 0",
+    "summaryKo": "AI 자동화가 소수 기업만 부유하게 하는 것은 기술이 아니라 소유 구조의 문제라고 보고, 노조·협동조합·공공기관 중심의 민주적 통제를 제안한다. AI 기업 지분 기반 기본소득과 데이터센터 전력 공개·지역 동의를 함께 요구한다.",
+    "tags": [
+      "AI 정책",
+      "기본소득"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "478eecd756efd5c5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Johannes Doerfert를 추모하며",
+    "url": "https://news.hada.io/topic?id=34334",
+    "publishedAt": "2026-09-27T05:34:04+09:00",
+    "rawText": "LLVM에 활발히 기여하며 존경받던 개발자 Johannes Doerfert가 암 투병 끝에 2026년 9월 17일, 36세로 별세함 프로그램 전반의 함수와 인자 속성을 추론하고 전파하는 Attributor를 설계했으며, 이 프레임워크는 LLVM의 프로시저 간 최적화 인프라에서 중요한 역할...",
+    "summaryKo": "LLVM 기여자 Johannes Doerfert가 2026년 9월 17일 암 투병 끝에 36세로 별세했다. 함수·인자 속성을 추론·전파하는 Attributor를 설계해 LLVM의 프로시저 간 최적화에 기여한 인물이다.",
+    "tags": [
+      "LLVM",
+      "컴파일러"
+    ],
+    "entities": [
+      "LLVM"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "797038baa2048529",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 마이크로소프트 CEO 사티아 나델라(Satya Nadella)는 AI 인프라 경쟁에서 결국 ᄀ...",
+    "url": "https://www.threads.com/t/Ddw5d9WDMZ1",
+    "publishedAt": "Sat, 26 Sep 2026 20:30:50 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트 CEO 사티아 나델라(Satya Nadella)는 AI 인프라 경쟁에서 결국 경제적 수익화가 핵심이 될 것이라고 강조했습니다. 그는 “궁극적으로는 추론(inference)이 지배적이어야 한다. 그렇지 않다면 도대체 무엇을 위해 훈련(training)하는 것인가?”라며 의문을 던졌습니다. 모델 훈련은 결국 R&amp;D 비용일 뿐이며, 손익계산서상 매출을 견인하는 진짜 엔진은 추론이라는 분석입니다. 또한 나델라는 “우리 모두는 결국 손익계산서라는 물리 법칙의 지배를 받는다”고 지적했습니다. 일시적으로 막대한 자본을 쏟아부어 모델을 학습시키고 구축할 수는 있지만, 장기적으로는 추론으로 발생한 매출의 일정 비율만이 훈련(R&amp;D)에 재투자되는 냉혹한 경제적 지속 가능성의 법칙을 벗어날 수 없다고 설명했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/825276946_2964111840600203_3510464385731052018_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=Mzk5NDk0NTYxNjg2MTc3NTQ3Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=5_noygZVR0MQ7kNvwGXI2NL&amp;_nc_oc=AdrkldL8t2QmgR5lCpPJUxgaYOeQQPNEmXdKXPil4tv_cHC80DZ0D4mDqOqo5enofhg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=zKn0lZNyRWZFjdVG9YGKWg&amp;_nc_ss=7a20f&amp;oh=00_AQKUbE6GcNMe8UzoEQWT5NDT91En2Pm0StQGf7zpMWgXgA&amp;oe=6ABE0403\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQOvmNJL8NBIqNRjjFvZTY0MlK-ofIVtBeeocMjodcKkrCrQIx_BwThOPuKTo6t02CrwJvmsB_Ssn41YebGMnVgX_qeGYmA3xhVdCWQ.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=pwnje6zng5AQ7kNvwELBQyE&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy45NjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk4ODgyMzA2MjExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjo4MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=13f2ba71f24a2b2d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wOTQ5MzFBRDlDODI2NjY2RERFMjY0M0E4MEM2RUE4M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE3NkU1MjVDRTM5ODQxOEM5NTM0NkIyMjA1MjhENDM0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAqduIqK_0PxUCKAJDMywXQFSO6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=zKn0lZNyRWZFjdVG9YGKWg&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQJnkSKWqzHGqG1_u14rzayxKlCcthnfTyTBPL37LUSZJQ&amp;oe=6ABA0DF4\"></video></p>",
+    "summaryKo": "사티아 나델라는 AI 인프라 경쟁의 핵심이 결국 경제적 수익화라며 '추론이 지배적이어야 한다, 아니면 무엇을 위해 훈련하나'라고 말했다. 학습은 R&D 비용일 뿐이고 손익계산서를 움직이는 엔진은 추론이라는 논지다.",
+    "tags": [
+      "AI 인프라",
+      "추론"
+    ],
+    "entities": [
+      "Microsoft",
+      "Satya Nadella"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "ea36c1448b7e80d4",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI hallucination of Chinese nuclear components almost led to US Military attack",
+    "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+    "publishedAt": "Sat, 26 Sep 2026 20:20:49 +0000",
+    "rawText": "Article URL: https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/ Comments URL: https://news.ycombinator.com/item?id=49860188 Points: 4 # Comments: 1",
+    "summaryKo": "AI가 환각으로 만들어 낸 '중국산 핵 부품' 정보 때문에 미군이 중국 선박 나포에 나설 뻔했다는 보고서가 보도됐다. 본문은 확인하지 못해 제목 기준으로 요약했으며, 군사 의사결정에서 AI 환각의 위험을 보여 준다.",
+    "tags": [
+      "환각",
+      "AI 안전"
+    ],
+    "entities": [
+      "Ars Technica",
+      "미군"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "e71680784739bbe1",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "급락하는 시험 성적은 서서히 진행되는 재앙이다",
+    "url": "https://news.hada.io/topic?id=34333",
+    "publishedAt": "2026-09-27T04:31:59+09:00",
+    "rawText": "부유한 국가 학생들의 PISA 읽기, 수학, 과학 성적이 2000년 평가 시작 이후 최저 수준으로 떨어짐 코로나19 봉쇄는 수업에 큰 차질을 일으키고 PISA 성적 하락을 초래했지만, 이제 성적 부진을 전부 봉쇄 탓으로 돌릴 수는 없음 팬데믹이 끝난 뒤에도 성...",
+    "summaryKo": "부유한 국가 학생들의 PISA 읽기·수학·과학 성적이 2000년 평가 시작 이후 최저 수준으로 떨어졌다. 코로나 봉쇄만으로는 설명되지 않는 하락이 팬데믹 이후에도 이어지고 있다는 분석이다.",
+    "tags": [
+      "교육",
+      "PISA"
+    ],
+    "entities": [
+      "PISA"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "348a45cbf196786f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 수천 개의 웹 자료를 동시에 조사하는 딥리서치 AI Agent Ultra가 공개됐습...",
+    "url": "https://www.threads.com/t/DdwvKSxkvp0",
+    "publishedAt": "Sat, 26 Sep 2026 19:00:46 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>수천 개의 웹 자료를 동시에 조사하는 딥리서치 AI Agent Ultra가 공개됐습니다. 엑사가 공개한 Agent Ultra는 여러 AI 에이전트를 동시에 투입해 자료를 찾고, 코드를 실행하며, 결과를 하나로 정리합니다. 특히 기업 목록이나 시장 조사처럼 빠짐없이 대상을 찾아야 하는 작업에 맞춰져 있습니다. 엑사 자체 평가에서 WANDR은 Opus 5.5보다 12.6%, DeepSearchQA는 GPT-6 Astra보다 10.1% 높은 성능을 기록했습니다. 예를 들어 유럽의 배터리 재활용 기업을 전부 찾고 창업자·투자금·고객까지 조사하거나, 특정 기술을 구현한 논문과 코드 저장소를 한꺼번에 찾는 식입니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/825466943_17988798255112832_6047912743657575456_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzk5NDkwMDI4NTAxNzQ4Nzk4OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=VoCMubGqaRwQ7kNvwFnu6GW&amp;_nc_oc=AdrwO3rz6QW8oJH9k4moBNjRfOgOgiGL6-BzTSpJtN9jY3ej2jrVLLDyP7d3Z_FEqAc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=zKn0lZNyRWZFjdVG9YGKWg&amp;_nc_ss=7a20f&amp;oh=00_AQIj6D88e7kbhxYejn1Ytq6280oTYCLPsaG7e-EJPAm1mQ&amp;oe=6ABE166B\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Exa가 수천 개의 웹 자료를 동시에 조사하는 딥리서치 에이전트 Agent Ultra를 공개했다. 여러 에이전트가 검색·코드 실행·결과 통합을 병렬로 수행하며, 자체 평가에서 WANDR은 Opus 5.5보다 12.6%, DeepSearchQA는 GPT-6 Astra보다 10.1% 높았다.",
+    "tags": [
+      "딥리서치",
+      "멀티에이전트"
+    ],
+    "entities": [
+      "Exa",
+      "Agent Ultra",
+      "Opus 5.5",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "690c01d36bb5f212",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "PipePipe - SponsorBlock을 구현한 NewPipe 하드 포크",
+    "url": "https://news.hada.io/topic?id=34332",
+    "publishedAt": "2026-09-27T03:39:10+09:00",
+    "rawText": "PipePipe는 개발 철학의 차이로 2022년 초 NewPipe에서 분리돼 독립 개발 중인 프로젝트로, NewPipe와 업데이트를 주고받지 않음 SponsorBlock으로 YouTube와 BiliBili의 스폰서 구간을 건너뛰고, ReturnYouTubeDislike로 YouTube 싫어요 수를 다시 표시함",
+    "summaryKo": "PipePipe는 2022년 초 NewPipe에서 갈라져 나온 독립 하드 포크로, SponsorBlock으로 YouTube·BiliBili의 스폰서 구간을 건너뛴다. ReturnYouTubeDislike로 싫어요 수도 다시 보여 준다.",
+    "tags": [
+      "오픈소스",
+      "Android"
+    ],
+    "entities": [
+      "PipePipe",
+      "NewPipe",
+      "SponsorBlock"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "34f0c3978bcd42a3",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trains (weight distributions, t-SNE per layer, neuron ablation...) [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/",
+    "publishedAt": "2026-09-26T18:38:38+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/\"> <img src=\"https://preview.redd.it/k043y0nyrwrh1.png?width=140&amp;height=70&amp;auto=webp&amp;s=4b2e67f6d986d9771b2de56a104480904fee57dc\" alt=\"[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trains (weight distributions, t-SNE per layer, neuron ablation...) [P]\" title=\"[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trains (weight distributions, t-SNE per layer, neuron ablation...) [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hi everyone, I built an educational tool that shows what happens inside a small MLP while it trains, and I&#39;d like some feedback from people who teach ML.</p> <p>Everything is plain NumPy, no autograd: manual backprop, SGD with momentum, L2, dropout, cosine decay and 4 activations. On MNIST it gets to about 98.5% with the full training set.</p> <p>During training you see the loss per mini-batch and per epoch, the gradient norm of each layer with the % of inactive neurons, the weight distributions now vs at init and the receptive fields of the first layer. Then there&#39;s:</p> <p>• a PCA / t-SNE of the test set (in NumPy too), layer by layer, with a line from each wrong prediction to the cluster of the digit it was confused with</p> <p>• robustness curves for noise and rotation, plus a confidence threshold that shows coverage vs accuracy</p> <p>• a lab where you ablate or rescale single neurons, prune, add noise to the weights or change the softmax temperature, and the test accuracy updates right away</p> <p>I&#39;d like it to be useful to students, from high school to intro ML courses, to people who learn on their own and to teachers who want to show a network in class.</p> <p><a href=\"https://github.com/dev-luigi/neural-network-digits\">https://github.com/dev-luigi/neural-network-digits</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No-Brain-1655\"> /u/No-Brain-1655 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1wqy1qd\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "NumPy로 처음부터 만든 작은 MLP를 학습 중에 들여다볼 수 있는 교육용 GUI 도구를 공유했다. 가중치 분포, 레이어별 t-SNE, 뉴런 ablation 등을 시각화한다.",
+    "tags": [
+      "MLP",
+      "시각화"
+    ],
+    "entities": [
+      "NumPy"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "7b673c686d40be39",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "화제가 된 Giants 영상 속 엄마입니다. 제 남편 이야기를 들려드릴게요",
+    "url": "https://news.hada.io/topic?id=34331",
+    "publishedAt": "2026-09-27T03:36:09+09:00",
+    "rawText": "San Francisco Giants 경기에서 아기와 음식을 함께 들고 있던 Erika의 영상이 퍼지면서 남편 Ramses에게 비난이 쏟아졌지만, 실제 대화는 방송 해설과 달랐음 Ramses는 아기를 맡거나 음식을 들어주겠다고 여러 차례 제안했고, Erika는 이를 사양함. 시청자들은 부부의 대화...",
+    "summaryKo": "Giants 경기에서 아기와 음식을 들고 있던 Erika의 영상이 퍼지며 남편 Ramses가 비난받았지만, 실제 대화는 방송 해설과 달랐다는 당사자 측 해명이다. AI 트렌드와는 무관한 일반 화제 글이다.",
+    "tags": [
+      "바이럴"
+    ],
+    "entities": [
+      "San Francisco Giants"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "a558a98857c92aaf",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Publication potential [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wqxo94/publication_potential_d/",
+    "publishedAt": "2026-09-26T18:23:31+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>I may be being silly but I have just finished my masters thesis which benchmarked three deep learning architectures (one of which is novel), across varying preprocessing pipelines for the purpose of EEG motor imagery task classification SPECIFICALLY on a consumer grade EEG cap (OpenBCI’s Galea).</p> <p>The novel architecture was built to be compact in param count as well as prevent overfitting, etc. </p> <p>I would love to get published and was wondering what sort of avenue I could proceed down. My thesis would most likely need a decent load more work with regard to my paper and result reliability as under the time conditions I only had three participants with limited recordings per participant.</p> <p>Any advice would be appreciated as I feel way out of my depth…</p> <p>Kind regards :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/joekrry\"> /u/joekrry </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqxo94/publication_potential_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqxo94/publication_potential_d/\">[comments]</a></span>",
+    "summaryKo": "소비자용 OpenBCI Galea EEG 캡으로 운동상상 분류를 벤치마크한 석사 논문(신규 경량 구조 포함)을 어디에 투고할지 조언을 구하는 글이다. 결과 신뢰성 보강이 더 필요한 상황이다.",
+    "tags": [
+      "EEG",
+      "논문 투고"
+    ],
+    "entities": [
+      "OpenBCI"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "fea05d3430684156",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Floci - 모든 클라우드 서비스를 로컬에서 에뮬레이션",
+    "url": "https://news.hada.io/topic?id=34330",
+    "publishedAt": "2026-09-27T02:46:20+09:00",
+    "rawText": "Floci는 AWS, Azure, GCP, OCI 서비스를 실제 클라우드 계정 없이 로컬에서 실행하는 에뮬레이터 모음으로, 각 에뮬레이터를 독립적인 MIT 라이선스 바이너리로 제공함 AWS용 floci는 119개 서비스를 지원하며, LocalStack과 동일한 4566 포트를 ...",
+    "summaryKo": "Floci는 AWS·Azure·GCP·OCI 서비스를 클라우드 계정 없이 로컬에서 에뮬레이션하는 MIT 라이선스 바이너리 모음이다. AWS용은 119개 서비스를 지원하고 LocalStack과 같은 4566 포트를 쓴다.",
+    "tags": [
+      "로컬 에뮬레이션",
+      "클라우드"
+    ],
+    "entities": [
+      "Floci",
+      "AWS",
+      "LocalStack"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "e9d40b94972c9710",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Topcoat, Rust로 서버 애플리케이션의 경계를 넓히다",
+    "url": "https://news.hada.io/topic?id=34329",
+    "publishedAt": "2026-09-27T02:43:20+09:00",
+    "rawText": "풀스택 Rust 프레임워크 Topcoat 0.9가 공개됨. 서버 렌더링을 기본으로 삼으면서 브라우저 반응성과 서버 상태에 따른 실시간 UI 갱신을 함께 지원함 시그널과 shard로 브라우저 상태와 서버 렌더링을 연결함. 간단한 상호작용은 서버 왕복 없이 처리하고, 서버 데...",
+    "summaryKo": "풀스택 Rust 프레임워크 Topcoat 0.9가 공개됐다. 서버 렌더링을 기본으로 하면서 시그널과 shard로 브라우저 상태와 서버 상태를 연결해 실시간 UI 갱신을 지원한다.",
+    "tags": [
+      "Rust",
+      "웹 프레임워크"
+    ],
+    "entities": [
+      "Topcoat"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "83ba7509e7a82a12",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Avast Antivirus 샌드박스에 진입하고 탈출하기, 2부",
+    "url": "https://news.hada.io/topic?id=34328",
+    "publishedAt": "2026-09-27T02:40:20+09:00",
+    "rawText": "Avast 커널 드라이버의 CVE-2025-13032를 이용해 발견 당시 최신 Windows 11에서 로컬 권한을 SYSTEM으로 높이는 전체 공격 과정을 시연함 사용자 입력의 길이를 여러 번 읽는 더블 페치(double-fetch) 결함으로 페이징 풀 오버플로를 일으키고, ...",
+    "summaryKo": "Avast 커널 드라이버의 CVE-2025-13032(double-fetch로 인한 페이징 풀 오버플로)를 이용해 최신 Windows 11에서 SYSTEM 권한까지 상승시키는 전 과정을 시연한 2부 글이다.",
+    "tags": [
+      "보안",
+      "취약점"
+    ],
+    "entities": [
+      "Avast",
+      "Windows 11"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "76a99507ef8089bc",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Jev보다 성능은 18% 높이고 비용은 절반으로 낮췄다는 새로운 분류...",
+    "url": "https://www.threads.com/t/Ddwk2YzgjV1",
+    "publishedAt": "Sat, 26 Sep 2026 17:30:40 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Jev보다 성능은 18% 높이고 비용은 절반으로 낮췄다는 새로운 분류 모델 Span-01이 공개됐습니다. 레스판이 공개한 Span-01은 AI의 행동을 빠르게 판단하는 모델입니다. 프롬프트 인젝션, 환각, 비밀정보 노출, 에이전트 반복 행동, 도구 오사용 등을 감지하며 도구 결과에 숨겨진 Markdown·Base64 공격도 찾아낼 수 있다고 합니다. 레스판 자체 Behavior Benchmark에서는 GPT-6 Luna보다 4% 높은 성능을 기록하면서 입력 100만 토큰당 $0.02로 비용은 최대 700배 낮다고 밝혔습니다. 무료 버전인 Span-01 Lite도 제공되며, 회사 측 평가에서는 Jev보다 높은 성능을 기록했습니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/825269926_17988798120112832_277185476681202444_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=Mzk5NDg1NDkzNjYzNzc0ODU5Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=qwvqv69sex0Q7kNvwFT9Tt0&amp;_nc_oc=Adp0j07qhHUcWp6MkIq1eP0iKO4V7hyjYj68brtHYi3R_FlrP-Ja_umno83b0kHkB1k&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=zKn0lZNyRWZFjdVG9YGKWg&amp;_nc_ss=7a20f&amp;oh=00_AQKb1KhixSZ6lQfhgNpclcLP1pVPCMCIYhis7skki9AOfA&amp;oe=6ABDF570\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Lespan이 프롬프트 인젝션·환각·비밀정보 노출·에이전트 반복·도구 오사용을 감지하는 분류 모델 Span-01을 공개했다. 자체 벤치마크에서 Jev보다 18% 높고 GPT-6 Luna보다 4% 높으며, 입력 100만 토큰당 $0.02로 비용은 최대 700배 낮다고 한다.",
+    "tags": [
+      "가드레일",
+      "분류 모델"
+    ],
+    "entities": [
+      "Lespan",
+      "Span-01",
+      "Jev",
+      "GPT-6 Luna"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "f6f3238ac5b8f76b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "비전 모델까지 지원하는 Jev 스타일 LLM 래퍼",
+    "url": "https://news.hada.io/topic?id=34327",
+    "publishedAt": "2026-09-27T01:49:52+09:00",
+    "rawText": "일반 LLM을 긴 답변 대신 선택지별 확률과 점수를 반환하는 도구로 사용하는 Python 함수 score()를 구현함 질문과 A/B/C 선택지를 주고 답에 해당하는 문자만 생성하게 한 뒤, 토큰별 확률을 읽어 분류 결과, 참일 확률, 단계별 점수를 계산함 ...",
+    "summaryKo": "일반 LLM이 긴 답변 대신 선택지별 확률과 점수를 반환하도록 하는 Python 함수 score()를 구현했다. 질문과 A/B/C 선택지를 주고 첫 토큰 확률을 읽어 분류 결과와 참일 확률, 단계별 점수를 계산하며 비전 모델도 지원한다.",
+    "tags": [
+      "분류",
+      "logprobs"
+    ],
+    "entities": [
+      "Jev"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "50868c791b860a46",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "My paper got accepted at NeurIPS TAE Workshop 2026 — any advice on getting travel funding?[D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wquo3w/my_paper_got_accepted_at_neurips_tae_workshop/",
+    "publishedAt": "2026-09-26T16:22:59+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I am happy to share that my paper has been selected for presentation at the <strong>TAE Workshop at NeurIPS 2026</strong>, which will be held on <strong>December 11, 2026</strong>.</p> <p>I am really excited about the opportunity to present my work and attend the workshop, but I am currently trying to figure out how to cover the <strong>airfare</strong>, which is a significant expense for me.</p> <p>I am a <strong>working professional</strong>, so I am not eligible for some of the funding opportunities that are primarily targeted toward students. The workshop does provide support for <strong>registration and hotel expenses</strong>, but their funding priorities are mainly focused on students, and, as I understand it, <strong>airfare is not covered</strong>.</p> <p>I am therefore looking for advice from people who may have been in a similar situation:</p> <ul> <li>Are there any <strong>travel grants, research funds, conference sponsorships, or organizations</strong> that support airfare for researchers/professionals attending NeurIPS or its workshops?</li> <li>Are there any <strong>companies, foundations, or community programs</strong> that sponsor conference travel?</li> <li>If you have attended NeurIPS or another major ML conference with external funding, how did you find the funding?</li> <li>Are there any other approaches I should consider for covering the flight cost?</li> </ul> <p>I am primarily looking for <strong>practical leads or personal experiences</strong>, especially from people who have attended NeurIPS, workshops, or similar conferences as working professionals.</p> <p>Any suggestions, resources, or advice would be greatly appreciated.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Vivek_Chauhan06\"> /u/Vivek_Chauhan06 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wquo3w/my_paper_got_accepted_at_neurips_tae_workshop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wquo3w/my_paper_got_accepted_at_neurips_tae_workshop/\">[comments]</a></span>",
+    "summaryKo": "NeurIPS 2026 TAE 워크숍(12월 11일)에 논문이 채택된 직장인 연구자가 항공료 지원 방법을 묻는 글이다. 워크숍은 등록비와 숙박만 지원한다.",
+    "tags": [
+      "학회",
+      "연구비"
+    ],
+    "entities": [
+      "NeurIPS"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "a2f3fd782b8f7229",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "LLMs were told they could lie in Diplomacy. Here's who actually kept their promises. [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wqufwj/llms_were_told_they_could_lie_in_diplomacy_heres/",
+    "publishedAt": "2026-09-26T16:13:32+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqufwj/llms_were_told_they_could_lie_in_diplomacy_heres/\"> <img src=\"https://preview.redd.it/gpcnyudp2wrh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7d7600a12600ec5f0d13efc61db2646bcd54021c\" alt=\"LLMs were told they could lie in Diplomacy. Here's who actually kept their promises. [D]\" title=\"LLMs were told they could lie in Diplomacy. Here's who actually kept their promises. [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>the stats are from the game of diplomacy.</p> <p>diplomacy is basically a strategy game where you negotiate, form alliances, betray, and outmaneuver other players to expand your influence.</p> <p>the games were played in multi-agent simulations, with different LLMs playing against each other under the same rules and conditions with human as an opponent too!</p> <p>you can read about the <a href=\"https://olamlabs.ai/research/diplomacy\">methodology here</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Expert_Cobbler8984\"> /u/Expert_Cobbler8984 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1wqufwj\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqufwj/llms_were_told_they_could_lie_in_diplomacy_heres/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "Diplomacy 게임에서 LLM에게 거짓말을 허용했을 때 누가 실제로 약속을 지켰는지 통계를 공유한 글이다. 모델별 배신·신뢰 행동 차이를 비교한다.",
+    "tags": [
+      "게임 이론",
+      "LLM 평가"
+    ],
+    "entities": [
+      "Diplomacy"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "bac1dd6e1385dbb6",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Claude가 미국 국방 공급망에서 제외되는 조치가 항소심에서도 유지돼...",
+    "url": "https://www.threads.com/t/DdwaheaEZmE",
+    "publishedAt": "Sat, 26 Sep 2026 16:00:26 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Claude가 미국 국방 공급망에서 제외되는 조치가 항소심에서도 유지됐습니다. 미 연방 D.C. 순회항소법원은 2대1로 앤트로픽의 주장을 받아들이지 않았습니다. 국방부는 Claude에 내장된 제한 때문에 정부가 요청한 일부 작업이 거부됐고, 군사 작전에서 필요한 기능을 수행하지 못할 위험이 있다고 판단했습니다. 다만 “Claude 자체가 국가안보 위협”이라고 단정한 판결은 아닙니다. 법원은 Claude의 국방 시스템 통합이 법률상 ‘공급망 위험’에 해당할 수 있다고 본 것입니다. 앤트로픽의 IPO 가능성이 계속 거론되는 상황에서, 이번 판결이 향후 정부 계약이나 기업가치 평가에 어떤 영향을 줄지도 지켜봐야 할 부분입니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/825322454_17988798867112832_5126298104376085717_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzk5NDgwOTUxOTA3OTI2NjY5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTI3LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=uiqmMVQWG_EQ7kNvwE-qGCY&amp;_nc_oc=Ado5pUTCfySJ3WFgao2yMh2_5JSqzU5KR6wt2QqDDio6TQnb1UkR8-wZwJV2wqe0A4M&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=zKn0lZNyRWZFjdVG9YGKWg&amp;_nc_ss=7a20f&amp;oh=00_AQJywxsf6RGCWadmNbHBawKEcVjkdF_84Wk-L_JpaAfOVw&amp;oe=6ABDF19C\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "미 연방 D.C. 순회항소법원이 2대1로 Claude를 국방 공급망에서 제외한 조치를 유지했다. 법원은 Claude의 국방 시스템 통합이 법률상 '공급망 위험'에 해당할 수 있다고 본 것이며, Anthropic의 정부 계약과 IPO 평가에 영향을 줄 수 있다.",
+    "tags": [
+      "공급망 위험",
+      "AI 규제"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "미 국방부"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "94f127f2f09238cd",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "힉스필드 구독 없이 쓰는 법 — Higgsfield API 5달러 충전으로 이미지 0.3센트, 영상 5초 35센트",
+    "url": "https://www.youtube.com/watch?v=v1HCCwz5NhY",
+    "publishedAt": "2026-09-26T13:14:55+00:00",
+    "rawText": "힉스필드 구독 없이 쓰는 법 — Higgsfield API 5달러 충전으로 이미지 0.3센트, 영상 5초 35센트",
+    "videoId": "v1HCCwz5NhY",
+    "summaryKo": "Higgsfield API를 구독 없이 쓴 만큼만 내는 방식으로 쓰는 법을 보여 준다. 키 하나로 30개 넘는 이미지·영상 모델을 같은 요청 형식으로 호출하며, 최소 $5 충전으로 이미지 0.3센트대, 5초 영상 약 35센트를 실제 청구 내역으로 확인한다.",
+    "tags": [
+      "이미지 생성",
+      "영상 생성",
+      "API"
+    ],
+    "entities": [
+      "Higgsfield",
+      "Kling 3.0",
+      "MiniMax"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4a9a704568ed4329",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "요즘 가장 핫한 AI모델 Jev, AI 자동화에 적용하기!",
+    "url": "https://www.youtube.com/watch?v=P8Ubmvw2lmQ",
+    "publishedAt": "2026-09-26T09:30:08+00:00",
+    "rawText": "요즘 가장 핫한 AI모델 Jev, AI 자동화에 적용하기!",
+    "videoId": "P8Ubmvw2lmQ",
+    "summaryKo": "빠르고 저렴한 판단·분류 전용 모델 Jev를 업무 자동화에 적용하는 방법을 다룬다. 텍스트 대신 선택지·예/아니오·점수로만 답하고 병렬 평가로 40~200배 빠르며 입력 100만 토큰당 $0.042, 출력 무료다. 고객 문의·메일 분류, 리뷰 인사이트, 뉴스 큐레이션, 크롬 확장 사례를 시연한다.",
+    "tags": [
+      "분류 모델",
+      "자동화"
+    ],
+    "entities": [
+      "Jev",
+      "Codex",
+      "Hermes Agent",
+      "GPT-6 Astra"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "923ab9c1b35d58eb",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/",
+    "publishedAt": "2026-09-26T07:10:45+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/\"> <img src=\"https://preview.redd.it/shimrxewdtrh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=11ddf5749fec40ec19dd048cf1b26820f0745bbe\" alt=\"A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference [D]\" title=\"A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference [D]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Distributed Training and Inference both involves having a fundamental understanding of how distributed systems work in general </p> <ul> <li>Distributed Parallelism </li> <li>Tensor Parallelism</li> <li>Pipeline Parallelism</li> <li>Model Parallelism</li> </ul> <p>Reading and reading and reading or even worse, not knowing where to start ;(</p> <p>That’s boring!</p> <p>We want to read what’s just needed and quickly get started with applications and that’s what exactly what I have for you all today</p> <p>Here’s the list of a few initial papers I have read for the past three months that is enough to understand </p> <p>And a few basics too!</p> <p>Read them Code them Play with them</p> <p>I have implemented a few at basic level which you could use as a reference too (the repo is a bit all over the place but I actively trying to maintain and love your feedback too)</p> <p>Link: <a href=\"https://alphaxiv.org/shared/folder/019de088-28f7-7f02-acd4-c22459fe153e\">https://alphaxiv.org/shared/folder/019de088-28f7-7f02-acd4-c22459fe153e</a></p> <p>Gh repo: <a href=\"https://github.com/YuvrajSingh-mist/smolcluster\">https://github.com/YuvrajSingh-mist/smolcluster</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/East-Muffin-6472\"> /u/East-Muffin-6472 </a> <br/> <span><a href=\"https://i.redd.it/shimrxewdtrh1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "LLM 학습·추론에 필요한 분산 시스템 기초(분산 병렬화, 텐서 병렬 등)를 차례로 배우는 입문 가이드를 공유했다.",
+    "tags": [
+      "분산 학습",
+      "병렬화"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
+    "id": "f77f71ded78e3f0f",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Medical student asked if they can match into Neurosurgery without an A* first author paper [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wqc6ci/medical_student_asked_if_they_can_match_into/",
+    "publishedAt": "2026-09-26T00:12:30+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>This is how ridiculous things have become</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Even-Inevitable-7243\"> /u/Even-Inevitable-7243 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqc6ci/medical_student_asked_if_they_can_match_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wqc6ci/medical_student_asked_if_they_can_match_into/\">[comments]</a></span>",
+    "summaryKo": "의대생이 A* 1저자 논문 없이 신경외과에 매칭될 수 있는지 물었다는 사례를 들어 ML 학계의 논문 실적 압박이 과하다고 꼬집은 글이다.",
+    "tags": [
+      "학계 문화"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-26T21:10:38.929Z"
+  },
+  {
     "id": "2b2803762955bd56",
     "sourceType": "news",
     "source": "GeekNews",
@@ -4072,621 +4704,5 @@
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-19T02:58:41.975Z",
     "hasAnalysis": true
-  },
-  {
-    "id": "60e5d194d0c43d7d",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "How competitive are journals compared to top ai conferences? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wjnruv/how_competitive_are_journals_compared_to_top_ai/",
-    "publishedAt": "2026-09-18T11:36:57+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>The NeurIPS results aren’t out yet, but I’m expecting my paper to be rejected, so I’m considering submitting it to a journal instead.</p> <p>My scores were 2/3/3 (3/4/4). I feel like I would probably get a similar outcome if I submitted the paper to ICLR or CVPR, so at this point I’m leaning toward a journal rather than trying another top conference.</p> <p>I’m obviously not aiming for top-tier journals like TPAMI, IJCV, or TMLR. I’m considering journals that are a step below those, and I was wondering how difficult the review process and acceptance bar are compared with top ai conferences like NeurIPS.</p> <p>The journals I’m currently considering are:</p> <ol> <li>Pattern Recognition</li> <li>Neurocomputing</li> <li>Knowledge-Based Systems</li> <li>Neural Networks</li> <li>Expert Systems with Applications</li> </ol> <p>For those who have experience submitting to these journals, how would you compare their review standards and acceptance difficulty such as NeurIPS, CVPR, or ICLR?</p> <p>I’d also appreciate any thoughts on which of these journals might be a reasonable target for a paper that received scores around this range at NeurIPS.</p> <p>For context, the paper is about attention mechanisms for Vision Transformers, with the main contribution being a modification to the attention module.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ATHii-127\"> /u/ATHii-127 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wjnruv/how_competitive_are_journals_compared_to_top_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wjnruv/how_competitive_are_journals_compared_to_top_ai/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 리뷰 점수(2/3/3)를 받은 저자가 게재 가능성을 높이기 위해 상위 학회 대신 Pattern Recognition, Neurocomputing 등 중위권 저널 투고를 고민하며, 저널과 톱 AI 학회의 심사 기준·경쟁 강도를 비교해 달라고 묻는 논의 글이다.",
-    "tags": [
-      "논문 투고",
-      "저널",
-      "AI 학회"
-    ],
-    "entities": [
-      "NeurIPS",
-      "ICLR",
-      "CVPR"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z"
-  },
-  {
-    "id": "b491d63c1a336d84",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Could AI really kill us all? Your questions, answered.",
-    "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-    "publishedAt": "Fri, 18 Sep 2026 11:29:22 +0000",
-    "rawText": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and&#8230;",
-    "summaryKo": "MIT 테크놀로지 리뷰가 'AI가 정말 인류를 멸망시킬 수 있는가'를 주제로 구독자 대상 실시간 라운드테이블을 열었다. 30분 세션에서 다 답하지 못한 질문들을 수석 AI 에디터가 이어서 답한 후속 기사다.",
-    "tags": [
-      "AI 안전",
-      "실존적 위험"
-    ],
-    "entities": [
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z"
-  },
-  {
-    "id": "891c781001e9f627",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "augmenting large datasets to have more edge case data for training [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wjnj4a/augmenting_large_datasets_to_have_more_edge_case/",
-    "publishedAt": "2026-09-18T11:24:11+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I have this idea I&#39;d like feedback on. most camera footage for training, is sunny daytime, because that&#39;s what cameras record most of the time. The edge cases models actually struggles with, like night, fog, rain or glare, are rare in the data - the idea is to augment it to have more of the rare cases for training</p> <p>So take a big labeled dataset A and adapt it to look like target B, where the model will actually run. Physics-based effects where possible (fog, rain, low-light noise), a constrained generative model for what physics can&#39;t handle (dusk lighting, headlight glare, wet roads), then matching B&#39;s camera quality. Labels stay intact throughout.</p> <p>clear daytime HD driving footage → a cheap dashcam at night in the rain, with glare and heavy compression.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/danson729\"> /u/danson729 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wjnj4a/augmenting_large_datasets_to_have_more_edge_case/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wjnj4a/augmenting_large_datasets_to_have_more_edge_case/\">[comments]</a></span>",
-    "summaryKo": "맑은 낮 시간대 위주로 편중된 자율주행 학습 데이터에 야간·안개·비·눈부심 같은 희귀 상황을 물리 기반 효과와 생성모델로 합성해 보강하자는 아이디어를 논의하는 글이다. 라벨은 그대로 유지한 채 카메라 화질까지 대상 도메인에 맞춰 변환하는 방식을 제안한다.",
-    "tags": [
-      "데이터 증강",
-      "자율주행",
-      "생성모델"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z"
-  },
-  {
-    "id": "0e5ab59cc8f13f66",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "클로드 코드 1000시간 쓰고 GPT로 넘어간 후기",
-    "url": "https://www.youtube.com/watch?v=63KRIQYKY0E",
-    "publishedAt": "2026-09-18T10:00:32+00:00",
-    "rawText": "클로드 코드 1000시간 쓰고 GPT로 넘어간 후기",
-    "videoId": "63KRIQYKY0E",
-    "summaryKo": "1년 넘게 클로드 코드만 써온 크리에이터가 코덱스(GPT 계열)로 전환해본 사용 후기를 정리했다. 클로드의 메모리·스킬을 클릭 한 번에 가져올 수 있어 전환 비용이 거의 없었고, 사용 한도가 더 여유롭고 모델 선택지가 다양하며 이미지 생성과 컴퓨터 유즈 성능이 뛰어난 점을 코덱스의 장점으로 꼽았다.",
-    "tags": [
-      "Claude Code",
-      "Codex",
-      "도구 비교"
-    ],
-    "entities": [
-      "Claude",
-      "OpenAI",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "4511625f6aebb7aa",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "코오롱생명과학 충주공장, 'Best HRD' 인증 획득",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=544319",
-    "publishedAt": "2026-09-18 17:03:04",
-    "rawText": "코오롱생명과학 충주공장이 인재 채용과 관리, 임직원 교육 및 역량개발 체계의 우수성을 인정받았다.코오롱생명과학(대표이사 이한국)은 충주공장이 '2026년 인적자원개발 우수기관 인증(Best HRD)' 대기업 부문에 신규 선정됐다고 18일 밝혔다.충주공장은 원료의약품(API)과 의약 중간체 등을 생산하는 제약바이오 생산 거점으로, 이번 심사에서 체계적인 인재 채용·관리 시스템과 지속적인 교육을 통한 임직원 직무 역량 강화 노력을 인정받았다.특히 인공지능(AI)을 활용한 인재개발 체계가 눈길을 끌었다. 올해 심사에서는 AI 도입 및 임",
-    "summaryKo": "코오롱생명과학 충주공장이 '2026년 인적자원개발 우수기관 인증(Best HRD)' 대기업 부문에 신규 선정됐다. 체계적인 인재 채용·관리와 함께, AI를 활용한 인재개발 체계 도입이 이번 심사에서 특히 주목받았다.",
-    "tags": [
-      "HRD",
-      "인재개발",
-      "AI 도입"
-    ],
-    "entities": [
-      "코오롱생명과학"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z"
-  },
-  {
-    "id": "51e6e1080efaf379",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "AAAI-27 Phase 1 Results [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/",
-    "publishedAt": "2026-09-18T05:36:32+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>AAAI-27 Phase 1 results are expected on September 24. Anyone else waiting for the decision? Would be useful to keep this thread for updates when people start receiving notifications.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BeneficialFish04\"> /u/BeneficialFish04 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/\">[comments]</a></span>",
-    "summaryKo": "AAAI-27 1차 심사 결과가 9월 24일 발표될 예정이라며, 통보를 기다리는 연구자들이 소식을 공유하기 위해 만든 스레드다.",
-    "tags": [
-      "AAAI",
-      "학회 심사"
-    ],
-    "entities": [
-      "AAAI"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z"
-  },
-  {
-    "id": "a3b83cd89fe8adda",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "After Effects를 한 번도 안 만졌습니다 — GPT-6 Astra와 Higgsfield가 만든 30초 광고, 레이어 158개",
-    "url": "https://www.youtube.com/watch?v=znw2ootoMzg",
-    "publishedAt": "2026-09-18T04:20:16+00:00",
-    "rawText": "After Effects를 한 번도 안 만졌습니다 — GPT-6 Astra와 Higgsfield가 만든 30초 광고, 레이어 158개",
-    "videoId": "znw2ootoMzg",
-    "summaryKo": "제작자가 애프터 이펙트를 직접 조작하지 않고 GPT-6 아스트라와 Higgsfield의 AI 모션 디자이너 플러그인 '익스필드'만으로 30초 반려견 케어앱 광고를 완성한 과정을 보여준다. 결과물이 영상 파일이 아니라 편집 가능한 애프터 이펙트 프로젝트(레이어·키프레임)로 나와, 마음에 안 드는 장면만 골라 다시 요청해 고칠 수 있었다.",
-    "tags": [
-      "GPT-6",
-      "영상 생성",
-      "애프터 이펙트"
-    ],
-    "entities": [
-      "OpenAI",
-      "Higgsfield"
-    ],
-    "cats": [
-      "멀티모달",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "aad88a5c0c19bd8f",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "돛의 귀환: 화물선이 다시 바람을 이용하기 시작함",
-    "url": "https://news.hada.io/topic?id=33857",
-    "publishedAt": "2026-09-18T05:52:16+09:00",
-    "rawText": "현대식 풍력 추진 시스템을 장착한 대형 상선이 100척을 넘어섰으며, 대부분은 기존 엔진을 대체하기보다 바람을 활용할 수 있는 조건에서 연료 소비를 줄임 로터 세일과 날개형 돛이 벌크선과 유조선을 넘어 컨테이너선으로 확대되고 있으며, LNG 운반선 적용도 연...",
-    "summaryKo": "로터 세일과 날개형 돛 등 현대식 풍력 추진 시스템을 단 대형 상선이 100척을 넘어섰다. 기존 엔진을 대체하기보다 바람을 활용할 수 있는 조건에서 연료 소비를 줄이는 방식으로, 벌크선·유조선을 넘어 컨테이너선과 LNG 운반선까지 적용이 확대되고 있다.",
-    "tags": [
-      "해운",
-      "친환경기술"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "8ade44bce6d74dcf",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "내가 필즈상 수상자들의 서한에 서명하지 않은 이유",
-    "url": "https://news.hada.io/topic?id=33856",
-    "publishedAt": "2026-09-18T05:52:15+09:00",
-    "rawText": "문제 해결과 개념적 이해는 수학자마다 서로 다른 비중을 두는 목표이며, 개념적 이해만을 최우선 목표로 삼는 데에는 동의하기 어려움 AI가 수학적 성과를 대량 생산하면 소화하지 못하는 결과가 늘겠지만, 인간이 제대로 이해하는 중요한 수학의 양도 늘어날 수 ...",
-    "summaryKo": "문제 해결과 개념적 이해라는 수학의 두 목표 중 하나만을 최우선으로 삼는 데는 동의하기 어렵다는 반박 서한이다. AI가 수학적 성과를 대량 생산하면 소화하지 못하는 결과가 늘겠지만, 동시에 인간이 제대로 이해하는 수학의 총량도 늘어날 수 있다는 입장을 편다.",
-    "tags": [
-      "수학",
-      "AI와 수학"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "399d9d5f51900119",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Figure가 휴머노이드 로봇용 Helix 2.5를 공개했습니다. 로봇을 사전 학스...",
-    "url": "https://www.threads.com/t/DdZuO1MjIpZ",
-    "publishedAt": "Thu, 17 Sep 2026 20:30:07 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Figure가 휴머노이드 로봇용 Helix 2.5를 공개했습니다. 로봇을 사전 학습에 없던 베이 지역 30개 가정에 투입했는데, 추가 학습 없이 방 정리·수건 접기·침대 정리를 수행했습니다. 특히 Index 사전학습 적용 시 성공률이 9%에서 56%로 올랐고, 기존 Helix 02 대비 절반의 작업 데이터만 사용했습니다. 이제 로봇도 장소마다 다시 배우는 방식에서 벗어나기 시작한 모습입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/814926210_2085427995448284_3112791816889903968_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzk4ODQyMjI3NDM0NDMyMzY3Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Wjd8sawaoaoQ7kNvwF8Vs5i&amp;_nc_oc=AdpbtlhewqDPF3QkiMjHQaEUflYKwvwvM9mSf599JxiRwMRrZHoUeZUUYQScQd-NLi4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=e_HiJ3VKX-9AOopXLHnqsA&amp;_nc_ss=7a22e&amp;oh=00_AQIE7VCo8XRad9OITnG5X-8mbXGRwLcVH0eDkthSDacwRw&amp;oe=6AB23CC2\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQOQPu9UVx2Jobgi4VALQF1mPRY_WGSAg8Le1sjLeB2S1gcfznfUPYrzZiw-4bqq4iku9YlDOd6lkbJNJYr9FMba7EtMGRZHOCcp3uc.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=e_y0JzYQ4CkQ7kNvwG-8GMK&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODc1OTY3MTkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzYxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=3be7bb71103e6952&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CQzRFQkU2QzU2NEQxMTUxMEZFN0U0REExODdGNkQ5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzMxNEQxMENBMzAxRTBGQUFGNzAyRjdFMEQwNzQ5MThBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAivKM9-fzPxUCKAJDMywXQHaRGp--dskYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=e_HiJ3VKX-9AOopXLHnqsA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQKehDfNXRzLKBCwZi7fA8ve3bc3zLPNUyzcHefXj1xJYg&amp;oe=6AAE2E32\"></video></p>",
-    "summaryKo": "Figure가 휴머노이드 로봇용 새 모델 Helix 2.5를 공개했다. 사전 학습에 없던 베이 지역 30개 가정에 투입해 추가 학습 없이 방 정리·수건 접기·침대 정리를 수행했으며, Index 사전학습을 적용하자 성공률이 9%에서 56%로 오르고 기존 Helix 02 대비 절반의 작업 데이터만으로 학습이 가능했다.",
-    "tags": [
-      "로봇",
-      "휴머노이드",
-      "사전학습"
-    ],
-    "entities": [
-      "Figure",
-      "Helix 2.5"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "590df77dc8c3726e",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "Making global data easier to explore",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-    "publishedAt": "Thu, 17 Sep 2026 20:00:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\">Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-    "summaryKo": "구글이 UN과 함께 전 세계 통계를 쉽게 검색하고 탐색할 수 있는 개방형 플랫폼 UN System Data Commons를 출시했다. 글로벌 데이터 접근성을 높이는 데 초점을 맞췄다.",
-    "tags": [
-      "데이터 플랫폼"
-    ],
-    "entities": [
-      "Google",
-      "UN"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "2315538d5afb0641",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Jean-Pierre Serre, 100세를 맞다",
-    "url": "https://news.hada.io/topic?id=33855",
-    "publishedAt": "2026-09-18T04:52:17+09:00",
-    "rawText": "Jean-Pierre Serre는 대수적 위상수학, 대수기하학, 대수적 정수론에 중요한 공헌을 한 프랑스 수학자로, 여러 수학 분야가 현대적 형태를 갖추는 데 핵심 역할을 함 스펙트럴 열(spectral sequence) 을 올다발의 호몰로지 연구에 적용해 호몰로지 군과 호모토피 군...",
-    "summaryKo": "대수적 위상수학·대수기하학·대수적 정수론에 큰 공헌을 한 프랑스 수학자 장피에르 세르가 100세를 맞았다. 여러 수학 분야가 현대적 형태를 갖추는 데 핵심 역할을 했으며, 스펙트럴 열을 올다발의 호몰로지 연구에 적용해 호몰로지·호모토피 군 계산의 새 지평을 연 인물로 꼽힌다.",
-    "tags": [
-      "수학사"
-    ],
-    "entities": [
-      "Jean-Pierre Serre"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "9b86b5d0c0cef590",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "역공학으로 구현한 Jev 유사 모델",
-    "url": "https://news.hada.io/topic?id=33854",
-    "publishedAt": "2026-09-18T04:52:16+09:00",
-    "rawText": "Jevlike는 텍스트 문맥과 매번 달라질 수 있는 선택지 목록을 받아, 답을 단어별로 생성하지 않고 한 번의 처리로 선택지별 확률을 계산하는 소형 모델임 각 선택지를 쿼리 벡터로 만들어 문맥 토큰에 어텐션을 적용하고, 선택지별 문맥 벡터와의 점수를 계산한 뒤...",
-    "summaryKo": "Jevlike는 텍스트 문맥과 매번 달라지는 선택지 목록을 입력받아, 단어별 생성 없이 한 번의 처리로 선택지별 확률을 계산하는 소형 모델이다. 각 선택지를 쿼리 벡터로 만들어 문맥 토큰에 어텐션을 적용하고 선택지별 점수를 계산하는 방식으로 동작한다.",
-    "tags": [
-      "소형모델",
-      "어텐션"
-    ],
-    "entities": [
-      "Jevlike"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "0aff719cd9e61088",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "나는 LLM이 마음에 들지 않는다",
-    "url": "https://news.hada.io/topic?id=33853",
-    "publishedAt": "2026-09-18T04:52:15+09:00",
-    "rawText": "AI와 LLM의 생산성 향상 가능성에 대한 기대와 위험에 대한 두려움이 공존하지만, 직접 대화할 때 가장 강하게 드는 감정은 비호감임 LLM은 유용한 답변과 지어낸 내용을 똑같이 확신에 찬 태도로 말하며, 오류를 지적받아도 겉으로만 후회하는 듯...",
-    "summaryKo": "AI와 LLM의 생산성 향상 기대와 위험에 대한 두려움이 공존하지만, 직접 대화할 때 가장 강하게 드는 감정은 비호감이라는 비평 글이다. LLM이 유용한 답변과 지어낸 내용을 똑같이 확신에 찬 태도로 말하고, 오류를 지적받아도 겉으로만 후회하는 듯한 태도를 문제로 짚는다.",
-    "tags": [
-      "LLM",
-      "AI 비평"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "414e1d93299c156c",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 🚨 오픈AI가 밀레니엄 문제를 하나 더 풀 가능성이 있다는 보도가 나...",
-    "url": "https://www.threads.com/t/DdZj9TwibSw",
-    "publishedAt": "Thu, 17 Sep 2026 19:00:21 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 오픈AI가 밀레니엄 문제를 하나 더 풀 가능성이 있다는 보도가 나왔습니다. The Information에 따르면 이번 문제는 호지 추측(Hodge Conjecture)로, 오픈AI 내부 연구진은 증명 완성에 가까워졌다고 보고 있습니다. 앞서 나비에-스토크스(Navier–Stokes) 문제에는 차세대 사전학습 모델의 변형인 코드명 “Doug”가 활용됐다고 전해졌습니다. 오픈AI가 수학에 집중하는 이유는 AI 연구 자동화와 연결됩니다. 수학 능력을 높여 새로운 AI 기술을 찾고, 향후 모델 개발 과정까지 AI가 맡도록 하는 것이 목표라고 합니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/794093411_17987590905112832_2600276546683568217_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=Mzk4ODM3NzA4OTc0NDY4MDExMg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuODc0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=st-x5-e24iEQ7kNvwEBTR8f&amp;_nc_oc=Adq3ydmZTWQLc0E_eV-D3h8n22PruKRhb4CZY1dfBSPl1GbDoWJ-_3lw3cZIlXKw6YI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=8&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=e_HiJ3VKX-9AOopXLHnqsA&amp;_nc_ss=7a22e&amp;oh=00_AQLZsuK4fOeWDAEh2s5LwBZzybOcopBMGzN0xWgTSA6A0w&amp;oe=6AB22DA2\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "The Information에 따르면 오픈AI 내부 연구진이 밀레니엄 문제 중 하나인 호지 추측 증명 완성에 가까워졌다는 보도가 나왔다. 앞서 나비에-스토크스 문제에는 차세대 사전학습 모델의 변형인 코드명 'Doug'가 활용됐으며, 오픈AI는 수학 능력을 높여 향후 AI 연구·모델 개발 자체를 자동화하려는 목표를 갖고 있다.",
-    "tags": [
-      "수학",
-      "AI 연구자동화"
-    ],
-    "entities": [
-      "OpenAI",
-      "Doug"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "462f1aefe3d1d142",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 구글이 흥미로운 논문을 발표했습니다. AI가 지난 시행착오를 되...",
-    "url": "https://www.threads.com/t/DdYh0ICjJsF",
-    "publishedAt": "Thu, 17 Sep 2026 17:42:51 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>구글이 흥미로운 논문을 발표했습니다. AI가 지난 시행착오를 되짚으며 ‘자신을 더 잘 쓰는 방법’을 스스로 고쳐 나가는 Dream-RSI인데요. AI에게도 ‘복기’가 꽤 쓸모 있었던 셈입니다. 🧵</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/813901282_1658825555597402_6141044486585831225_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=Mzk4ODA4NjE4NzYxNjkzNDY2MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Jto511SDrtwQ7kNvwFeeH7e&amp;_nc_oc=AdoMknG4BqobpZ1t4rBkTg-h2X1FAn2jiOqgl1bOOdR2mjjFwef7hSh7hJVK7WDu0Zs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=e_HiJ3VKX-9AOopXLHnqsA&amp;_nc_ss=7a22e&amp;oh=00_AQL1KBkDu-6DTDspuGPcg3_aTSf_TvReWU1X73Cn4j7Bqg&amp;oe=6AB21287\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQPSfZcbc4IlYX-X_suh8FJceAVJCJfANci26Ym66X1306Lwdd-PfmL0QNzkx_xeyUUFk9DbRmKrOOPz3QPn62ipOm8EmS4GJTarhoM.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=773kJNCz3SEQ7kNvwEUejrJ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMTM2LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODc1MzU5NzIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=da94dcd3b2bc7078&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EQjQ1RUQxMzk2MzJFNUE3QkU4MEM0QTgxQzkzNjU5Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NENDhEMDY4NjJDQzYyNjEzMzk1QThBRkU4OTJBQ0IyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA54TAsuTzPxUCKAJDMywXQDSzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=e_HiJ3VKX-9AOopXLHnqsA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQIvuIi990N9_6bvkXfWR-UU4i4TN2SVHiE_PCFPQIvuEQ&amp;oe=6AAE2A55\"></video></p>",
-    "summaryKo": "구글이 AI가 과거 시행착오를 되짚으며 스스로를 더 잘 활용하는 방법을 고쳐나가는 프레임워크 Dream-RSI 논문을 발표했다. AI에게도 지난 과정을 복기하는 것이 성능 개선에 유용하다는 점을 보여준다.",
-    "tags": [
-      "재귀적 자기개선",
-      "에이전트"
-    ],
-    "entities": [
-      "Dream-RSI",
-      "Google"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "60c4f127bb51a298",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "security-audit - 코딩 에이전트를 보안 감사자로 바꿔주는 스킬",
-    "url": "https://news.hada.io/topic?id=33852",
-    "publishedAt": "2026-09-18T02:32:14+09:00",
-    "rawText": "코딩 에이전트를 보안 감사 도구로 전환하는 스킬로, 격리된 에이전트들을 조율해 코드베이스 정찰부터 취약점 탐색, 검증, 보고서 작성까지 수행함 커버리지 장부를 기준으로 탐색 작업을 배정하고, 발견한 에이전트와 별개의 검증 에이전트가 취약점 후보를 반증...",
-    "summaryKo": "코딩 에이전트를 보안 감사 도구로 전환하는 스킬이 공개됐다. 격리된 여러 에이전트를 조율해 코드베이스 정찰부터 취약점 탐색, 검증, 보고서 작성까지 수행하며, 탐색을 맡은 에이전트와는 별개의 검증 에이전트가 취약점 후보를 반증하는 방식으로 신뢰도를 높인다.",
-    "tags": [
-      "보안감사",
-      "코딩 에이전트",
-      "멀티에이전트"
-    ],
-    "entities": [],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "7f4b72368c6d28c3",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: JD 기반 자기소개서 첨삭 Codex Skill",
-    "url": "https://news.hada.io/topic?id=33851",
-    "publishedAt": "2026-09-18T01:54:42+09:00",
-    "rawText": "자기소개서 작성과 첨삭을 돕는 Codex Skill을 만들었어요. 채용공고/JD, 자소서 문항, 글자수 제한, 초안을 입력하면 문항의 의도와 JD를 분석해 제출용 자기소개서로 다듬어줘요. 단순히 문장을 자연스럽게 만드는 것보다 원문에 있는 경험과 어필 포인트를 최대한 보존하는 데 집중했어요. 없는 경험",
-    "summaryKo": "채용공고(JD)와 자소서 문항, 글자수 제한, 초안을 입력하면 문항 의도와 JD를 분석해 제출용 자기소개서로 다듬어주는 Codex Skill이 공개됐다. 문장을 매끄럽게 다듬기보다 원문에 있는 실제 경험과 어필 포인트를 최대한 보존하는 데 초점을 맞췄다.",
-    "tags": [
-      "Codex",
-      "스킬"
-    ],
-    "entities": [
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "65d873566e31ee72",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "AI 안전은 대부분 섹스 컬트다",
-    "url": "https://news.hada.io/topic?id=33850",
-    "publishedAt": "2026-09-18T01:42:14+09:00",
-    "rawText": "SE Gyges의 비판적 논평으로, AI 안전 담론의 중심에 있는 Eliezer Yudkowsky와 합리주의 공동체의 인적 관계와 종말론적 믿음이 정책에 미치는 영향을 문제 삼음 초지능 등장, 통제 상실, 인류 멸망이라는 Yudkowsky의 구도가 AI 안전과 정렬 논의를 지배하며, 효...",
-    "summaryKo": "AI 안전 담론의 중심 인물인 엘리에저 유드코프스키와 합리주의 공동체의 인적 관계, 종말론적 믿음이 정책 논의에 미치는 영향을 비판하는 논평이다. 초지능 등장과 통제 상실, 인류 멸망이라는 구도가 AI 안전·정렬 논의를 지배해온 데 문제를 제기한다.",
-    "tags": [
-      "AI 안전",
-      "합리주의 커뮤니티"
-    ],
-    "entities": [
-      "Eliezer Yudkowsky"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "5ec4e61a2a5169eb",
-    "sourceType": "news",
-    "source": "Anthropic News",
-    "title": "Partnering with Accenture on embedded evaluation",
-    "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-    "publishedAt": "Thu, 17 Sep 2026 16:00:00 GMT",
-    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">essay</a> “We Must Pace the Frontier,” to embed evaluators within Anthropic.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The partnership will be led by Faculty, Accenture’s specialist AI business, and will include evaluating and red-teaming models, conducting alignment assessments, and testing model safeguards. Accenture helps businesses and governments deploy AI across many industries. Their understanding of how enterprises use AI in practice informs their safety approach, and they will bring that perspective to evaluating our models.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Anthropic and Accenture each expect to invest at least $1 billion in building capacity in this area over the next five years.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Embedded evaluation is new, and many of the details about how it will operate are still being worked out. Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee's. That access allows them to watch models take shape in training, follow the decisions that govern how those models are built and deployed, and speak directly to employees. From this vantage point, embedded evaluators can assess how a company operates, verify that it is keeping its safety commitments, and identify blind spots. They can also report incidents and give the public a more informed account of benefits and risks.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">To be clear, independent embedded evaluators do not reduce our accountability, but help to make it more verifiable. The safety of our models remains our responsibility.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">There are, as yet, no standards for what information embedded evaluators should have access to, or how they should report what they find. There is also no settled system for funding independent evaluation. Long-term, we think funding should come from pooled or government sources, as we called for in our <a href=\"https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf\">Advanced AI Framework</a> in June. As neither exists today, we plan to work with different evaluators under different funding arrangements.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Given the importance and urgency of this work, Anthropic will fund Accenture's work directly. We are also in dialogue with <a href=\"https://metr.org/\">METR</a> and other nonprofit evaluators to pilot elements of embedded evaluation using their own funding. Ultimately, we believe frontier AI needs an ecosystem of evaluators operating with shared standards.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We expect frontier labs to work with several organizations at once. Our partnership is non-exclusive; Anthropic will work with other evaluators to be announced in the coming weeks, and Accenture will work with other AI developers in similar capacities.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We'll continue to train and release frontier models, and we want independent evaluators working alongside us as we do. We’re sharing these early efforts now so people and other AI developers can see our process. We expect our approach to evolve as the field matures, and we’ll share more as our work begins and as we bring on additional evaluators.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><br></p></div></div></article></div><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__postFooter\"></div></article>",
-    "summaryKo": "앤트로픽이 액센츄어와 협력해 프론티어 AI 모델을 독립적으로 평가하는 '임베디드 평가자' 체계를 구축한다. 두 회사는 향후 5년간 각각 최소 10억 달러를 투자해 레드티밍, 정렬 평가, 안전장치 테스트를 수행할 계획이다.",
-    "tags": [
-      "AI 안전",
-      "독립 평가",
-      "레드티밍"
-    ],
-    "entities": [
-      "Anthropic",
-      "Accenture"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "1f4589ed32dfe946",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "XGBoost vs Human Markets [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wixzts/xgboost_vs_human_markets_p/",
-    "publishedAt": "2026-09-17T15:59:49+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>What is the generally thought of as the upper limit of the predictive power of XGBoost vs an aggregate of humans? </p> <p>Right now I feed the model the same information that the human market has access to, and the model gets crushed on Top 1 accuracy, it closes the gap a bit but is still 10pp below the market on Top 2 accuracy. Adding the market pricing information to the model does nothing or hurts accuracy compared to just the market pricing. </p> <p>I&#39;m just feeling really stuck, and I cant seem to be able to tell if I am legitimately at the upper end of what is actually possible with a XGBoost model or if there is some sort of data encoding issue or I just lack enough data. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TravalonTom\"> /u/TravalonTom </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wixzts/xgboost_vs_human_markets_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wixzts/xgboost_vs_human_markets_p/\">[comments]</a></span>",
-    "summaryKo": "시장이 접근 가능한 정보만으로 XGBoost 모델을 학습시켰을 때 인간 시장 참여자들의 예측력을 얼마나 따라잡을 수 있는지 묻는 질문 글이다. 현재 모델은 Top-1 정확도에서 크게 뒤지고 시장 가격 정보를 추가해도 개선되지 않아, 모델의 한계인지 데이터 문제인지 고민을 나눈다.",
-    "tags": [
-      "XGBoost",
-      "예측모델"
-    ],
-    "entities": [
-      "XGBoost"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "facc38f4ce798f87",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
-    "publishedAt": "Thu, 17 Sep 2026 13:00:55 +0000",
-    "rawText": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on [&#8230;]",
-    "summaryKo": "NVIDIA가 이번 주 GeForce NOW에 신규 크리처 수집 게임 'Aniimo'를 클라우드 스트리밍으로 출시했다고 밝혔다. 007 First Light 등 기존 게임들의 그래픽 업데이트 소식도 함께 전했다.",
-    "tags": [
-      "클라우드 게이밍"
-    ],
-    "entities": [
-      "NVIDIA",
-      "GeForce NOW"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "d22acfa5d0cc1d09",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How Cooley is accelerating IPO work with ChatGPT",
-    "url": "https://openai.com/index/cooley-gopublic",
-    "publishedAt": "Thu, 17 Sep 2026 12:00:00 GMT",
-    "rawText": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-    "summaryKo": "글로벌 로펌 Cooley가 ChatGPT Work를 활용해 IPO 업무 전용 도구 'GO Public'을 구축했다. 변호사들이 이슈를 더 일찍 발견하고 판단이 필요한 부분에 집중할 수 있도록 돕는다.",
-    "tags": [
-      "ChatGPT",
-      "법률AI",
-      "IPO"
-    ],
-    "entities": [
-      "OpenAI",
-      "Cooley"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-19T02:58:41.975Z"
-  },
-  {
-    "id": "9e7742715cbc8fad",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "작업별 최적의 AI 활용 가이드 #ai #aitools",
-    "url": "https://www.youtube.com/shorts/YYF0UpMTUo0",
-    "publishedAt": "2026-09-17T11:48:28+00:00",
-    "rawText": "작업별 최적의 AI 활용 가이드 #ai #aitools",
-    "videoId": "",
-    "summaryKo": "작업 유형별로 어떤 AI 도구를 활용하면 좋을지 소개하는 짧은 가이드 숏폼 영상이다. 자막·음성 전사를 확인할 수 없어 제목 기반으로 요약했다.",
-    "tags": [
-      "AI 도구"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "ff4d0e8ec543b240",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 읽을 가치가 정말 높은 글입니다. 앤드류 응이 AI 시대에 개발자가 ...",
-    "url": "https://www.threads.com/t/DdYwbcFD0WV",
-    "publishedAt": "Thu, 17 Sep 2026 11:30:04 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>읽을 가치가 정말 높은 글입니다. 앤드류 응이 AI 시대에 개발자가 갖춰야 할 능력을 정리한 스킬맵의 마지막 편을 공개했습니다. AI가 구현을 대신할수록 개발자는 무엇을 만들지 정하고, 사용자를 이해하고, 결과까지 책임지는 역할로 넓어진다고 설명합니다. 꼭 알아야 할 내용 8가지를 정리했습니다🧵</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/814629386_17987534799112832_5992980535930332547_n.webp?_nc_cat=107&amp;ig_cache_key=Mzk4ODE1MDQ2MTg0NDYzNzA3Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjU2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=vr7kT3dsGwcQ7kNvwFJaDgn&amp;_nc_oc=AdpEkKKj_jBfIl_n6QfCG9_0uK5PwY-ZE_RbUgs0wLm_v2R1qIs7yLABICE8wUFXt0E&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=e_HiJ3VKX-9AOopXLHnqsA&amp;_nc_ss=7a22e&amp;oh=00_AQJaDWAy--cvid8U6XjKB6f9FBQDxkfe-AP5-OuXtSyEuQ&amp;oe=6AB23378\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "앤드류 응이 AI 시대에 개발자가 갖춰야 할 역량을 정리한 스킬맵 시리즈의 마지막 편을 공개했다. AI가 구현을 대신할수록 개발자는 무엇을 만들지 정하고 사용자를 이해하며 결과까지 책임지는 역할로 넓어진다는 내용을 담았다.",
-    "tags": [
-      "개발자 역량",
-      "AI 시대"
-    ],
-    "entities": [
-      "Andrew Ng"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "ef5057d1ac5df451",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "ICLR 2027 Edits Allowance [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wirav3/iclr_2027_edits_allowance_d/",
-    "publishedAt": "2026-09-17T11:25:00+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Can we edit our title, abstract and other details till the main paper submission deadline?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CplusplusSupremacy\"> /u/CplusplusSupremacy </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wirav3/iclr_2027_edits_allowance_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wirav3/iclr_2027_edits_allowance_d/\">[comments]</a></span>",
-    "summaryKo": "ICLR 2027 논문 제출 마감일까지 제목·초록 등 세부 정보를 수정할 수 있는지 묻는 커뮤니티 질문 글이다.",
-    "tags": [
-      "ICLR",
-      "학회 제출"
-    ],
-    "entities": [
-      "ICLR"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "9f55a0d73e18e3a9",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "제약바이오 유망기업 50개 찍는다…복지부·중기부 '프론티어' 육성",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=544148",
-    "publishedAt": "2026-09-17 14:30:00",
-    "rawText": "보건복지부와 중소벤처기업부가 제약바이오 중소벤처기업의 성장 단계에 맞춰 연구개발부터 임상과 사업화, 글로벌 진출까지 지원하는 협업체계 구축에 나선다.복지부와 중기부는 17일 서울 강남구 루닛에서 제약바이오 중소벤처기업과 현장 간담회를 열고 'K-제약바이오 프론티어기업 육성방안' 마련을 위한 기업 의견을 청취했다.이번 간담회는 급변하는 글로벌 제약바이오 시장에 대응하고 미래 성장동력을 확보하기 위해 두 부처가 공동으로 마련 중인 육성방안에 현장 목소리를 반영하기 위해 마련됐다.육성방안에는 복지부와 중기부가 협력해 신약개발, 디지털헬스",
-    "summaryKo": "보건복지부와 중소벤처기업부가 제약바이오 중소벤처기업의 성장 단계별로 연구개발부터 임상·사업화·글로벌 진출까지 지원하는 'K-제약바이오 프론티어기업 육성방안' 마련에 나섰다. 17일 현장 간담회를 열어 신약개발·디지털헬스 분야 기업 의견을 수렴했다.",
-    "tags": [
-      "제약바이오",
-      "디지털헬스",
-      "정책"
-    ],
-    "entities": [
-      "보건복지부",
-      "중소벤처기업부"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
-  },
-  {
-    "id": "de7f5605b065adae",
-    "sourceType": "youtube",
-    "source": "AUTOP 오톱",
-    "title": "새 AI 나올 때마다 갈아타지 마세요. 저는 반복 업무를 ‘클로드 스킬’로 만들어둡니다",
-    "url": "https://www.youtube.com/watch?v=HyvLHHwFudM",
-    "publishedAt": "2026-09-17T05:00:37+00:00",
-    "rawText": "새 AI 나올 때마다 갈아타지 마세요. 저는 반복 업무를 ‘클로드 스킬’로 만들어둡니다",
-    "videoId": "HyvLHHwFudM",
-    "summaryKo": "새 AI 모델이 나올 때마다 옮겨 다니기보다, 반복되는 업무를 '클로드 스킬'로 만들어 두면 꾸준히 활용할 수 있다는 내용을 다루는 영상으로 보인다. 자막·음성 전사를 확인할 수 없어 제목 기반으로 요약했다.",
-    "tags": [
-      "Claude Skills",
-      "자동화"
-    ],
-    "entities": [
-      "Claude"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-09-17T21:08:20.748Z"
   }
 ]
