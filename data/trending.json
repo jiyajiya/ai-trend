@@ -7,10 +7,10 @@
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "publishedAt": "2026-08-13T11:56:32Z",
     "rawText": "DeepSeek Harness: Everything is a Plugin.",
-    "score": 239936,
+    "score": 241042,
     "lang": "TypeScript",
     "rank": 1,
-    "summaryKo": "DeepSeek이 '모든 것이 플러그인'이라는 콘셉트의 DeepSeek Harness를 공개했다. 에이전트 하네스를 플러그인 구조로 확장하는 도구로 보인다.",
+    "summaryKo": "DeepSeek가 '모든 것이 플러그인'을 내세운 하네스 deepseek-harness를 공개했다. 설명이 한 줄뿐이라 세부 구조는 확인되지 않는다.",
     "tags": [
       "에이전트 하네스",
       "플러그인"
@@ -23,32 +23,31 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
-    "id": "5d885f2b9705cba0",
+    "id": "833035880c08a7e1",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "convaiinnovations/laya",
-    "url": "https://huggingface.co/convaiinnovations/laya",
-    "publishedAt": "2026-09-18T05:05:55.000Z",
-    "rawText": "text-classification | transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing",
-    "score": 1842,
+    "title": "Edge0/Audio8-ASR-Infinite",
+    "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+    "publishedAt": "2026-09-21T15:03:21.000Z",
+    "rawText": "automatic-speech-recognition | transformers, safetensors, audio8_asr_infinite, text-generation, streaming, realtime, speech-recognition, audio",
+    "score": 1481,
     "rank": 1,
-    "summaryKo": "보정된 의사결정과 라우팅을 위한 텍스트 분류 모델 laya가 HuggingFace에 올라왔다.",
+    "summaryKo": "Edge0의 Audio8-ASR-Infinite는 스트리밍·실시간 처리를 지원하는 음성 인식(ASR) 모델이다.",
     "tags": [
-      "분류",
-      "라우팅"
+      "ASR",
+      "스트리밍"
     ],
     "entities": [
-      "convaiinnovations",
-      "laya"
+      "Audio8"
     ],
     "cats": [
-      "LLM·모델"
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "a61bb70c5a02c143",
@@ -84,50 +83,50 @@
     "url": "https://github.com/google/artemis",
     "publishedAt": "2026-08-13T17:59:37Z",
     "rawText": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
-    "score": 10650,
+    "score": 10729,
     "lang": "Python",
     "rank": 2,
-    "summaryKo": "Google의 ARTEMIS는 자연어 지시를 안정적인 안드로이드 자동화로 바꾼다. 로그를 수집하고 Antigravity·Codex·Claude Code 같은 코딩 어시스턴트와 연동되며 AndroidWorld에서 99% 이상 성공률을 낸다.",
+    "summaryKo": "Google의 ARTEMIS는 자연어 지시를 안정적인 Android 자동화로 바꿔 종단 워크플로를 수행하고 로그를 남긴다. Antigravity·Codex·Claude Code 같은 AI 코딩 도구와 연동되며 AndroidWorld 벤치마크에서 99% 이상 성공률을 주장한다.",
     "tags": [
-      "모바일 자동화",
+      "Android 자동화",
       "에이전트"
     ],
     "entities": [
       "Google",
       "ARTEMIS",
-      "AndroidWorld"
+      "Claude Code",
+      "Codex"
     ],
     "cats": [
       "에이전트",
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
-    "id": "833035880c08a7e1",
+    "id": "5d885f2b9705cba0",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Edge0/Audio8-ASR-Infinite",
-    "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-    "publishedAt": "2026-09-21T15:03:21.000Z",
-    "rawText": "automatic-speech-recognition | transformers, safetensors, audio8_asr_infinite, text-generation, streaming, realtime, speech-recognition, audio",
-    "score": 1303,
+    "title": "convaiinnovations/laya",
+    "url": "https://huggingface.co/convaiinnovations/laya",
+    "publishedAt": "2026-09-18T05:05:55.000Z",
+    "rawText": "text-classification | transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing",
+    "score": 1433,
     "rank": 2,
-    "summaryKo": "실시간 스트리밍 음성 인식을 위한 Audio8-ASR-Infinite 모델이 공개됐다.",
+    "summaryKo": "convaiinnovations의 laya는 보정된 의사결정과 라우팅에 쓰는 텍스트 분류 모델이다. System-one 계열 태그가 붙어 있다.",
     "tags": [
-      "ASR",
-      "스트리밍"
+      "분류",
+      "라우팅"
     ],
     "entities": [
-      "Edge0",
-      "Audio8"
+      "laya"
     ],
     "cats": [
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "91a11e5a1988dbb2",
@@ -156,6 +155,32 @@
     "fetchedAt": "2026-09-29T21:03:30.055Z"
   },
   {
+    "id": "4eb733afdb6b8b30",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "deeplethe/utopia",
+    "url": "https://github.com/deeplethe/utopia",
+    "publishedAt": "2026-08-07T19:33:17Z",
+    "rawText": "World's first open-source enterprise world model.",
+    "score": 7975,
+    "lang": "Rust",
+    "rank": 3,
+    "summaryKo": "deeplethe/utopia는 '세계 최초의 오픈소스 엔터프라이즈 월드 모델'을 표방하는 프로젝트다. 설명이 한 줄이라 구체 기능은 확인되지 않는다.",
+    "tags": [
+      "World Model",
+      "엔터프라이즈"
+    ],
+    "entities": [
+      "Utopia"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
     "id": "209a41baf2960185",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -163,9 +188,9 @@
     "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
     "publishedAt": "2026-09-20T15:51:13.000Z",
     "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1",
-    "score": 1097,
+    "score": 874,
     "rank": 3,
-    "summaryKo": "Qwen-Image-2.1의 검열 완화 GGUF 양자화 버전으로 ComfyUI에서 쓸 수 있는 텍스트-이미지 모델이다.",
+    "summaryKo": "Qwen-Image-2.1의 검열 해제(Uncensored) 버전을 GGUF로 양자화한 배포본이다. ComfyUI GGUF 노드로 로컬에서 텍스트-이미지 생성에 쓸 수 있다.",
     "tags": [
       "이미지 생성",
       "GGUF"
@@ -178,32 +203,32 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
-    "id": "4eb733afdb6b8b30",
+    "id": "1e97fcf6e4c7f154",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "deeplethe/utopia",
-    "url": "https://github.com/deeplethe/utopia",
-    "publishedAt": "2026-08-07T19:33:17Z",
-    "rawText": "World's first open-source enterprise world model.",
-    "score": 7985,
-    "lang": "Rust",
+    "title": "Human-Agent-Society/reef",
+    "url": "https://github.com/Human-Agent-Society/reef",
+    "publishedAt": "2026-08-31T01:39:18Z",
+    "rawText": "Infrastructure for continually self‑improving agents",
+    "score": 7392,
+    "lang": "Python",
     "rank": 4,
-    "summaryKo": "'세계 최초 오픈소스 엔터프라이즈 월드 모델'을 표방하는 utopia 저장소다.",
+    "summaryKo": "Human-Agent-Society의 reef는 지속적으로 자기 개선하는 에이전트를 위한 인프라를 표방한다. 설명이 한 줄이다.",
     "tags": [
-      "월드 모델"
+      "자기개선 에이전트",
+      "인프라"
     ],
     "entities": [
-      "utopia"
+      "Reef"
     ],
     "cats": [
-      "LLM·모델",
-      "기업·정책"
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "684bb42cf75ebb99",
@@ -213,9 +238,9 @@
     "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
     "publishedAt": "2026-08-14T06:15:03.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, qwen2_5_vl, image-text-to-text, ocr, document-parsing, multimodal, conversational",
-    "score": 730,
+    "score": 867,
     "rank": 4,
-    "summaryKo": "Qwen2.5-VL 기반의 OCR·문서 파싱 멀티모달 모델 TeleOCR이 공개됐다.",
+    "summaryKo": "XingChen-AGI의 TeleOCR은 Qwen2.5-VL 기반의 OCR·문서 파싱용 멀티모달 모델이다.",
     "tags": [
       "OCR",
       "문서 파싱"
@@ -228,56 +253,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
-  },
-  {
-    "id": "1e97fcf6e4c7f154",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Human-Agent-Society/reef",
-    "url": "https://github.com/Human-Agent-Society/reef",
-    "publishedAt": "2026-08-31T01:39:18Z",
-    "rawText": "Infrastructure for continually self‑improving agents",
-    "score": 7320,
-    "lang": "Python",
-    "rank": 5,
-    "summaryKo": "지속적으로 스스로 개선하는 에이전트를 위한 인프라 reef 저장소다.",
-    "tags": [
-      "자기개선 에이전트"
-    ],
-    "entities": [
-      "reef"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
-  },
-  {
-    "id": "3cc50d0356230bcb",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Qwen/Qwen-Image-2.1",
-    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "publishedAt": "2026-09-14T03:47:26.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other",
-    "score": 724,
-    "rank": 5,
-    "summaryKo": "Qwen이 이미지 생성·편집과 RGBA 출력을 지원하는 Qwen-Image-2.1을 공개했다.",
-    "tags": [
-      "Diffusion",
-      "이미지 편집"
-    ],
-    "entities": [
-      "Qwen",
-      "Qwen-Image-2.1"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "35eff775ba433a91",
@@ -287,47 +263,50 @@
     "url": "https://github.com/jev-chat/jev-chat-jarvis",
     "publishedAt": "2026-09-21T11:12:53Z",
     "rawText": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-    "score": 7097,
+    "score": 7181,
     "lang": "Kotlin",
-    "rank": 6,
-    "summaryKo": "QQ·X·페이슈 대화를 화면만 읽어(비침습) 상대 의도를 파악하고 답장 후보를 제안해 입력창에 채워 주는 모바일 대화 副驾 앱이다. 전송은 사용자가 결정한다.",
+    "rank": 5,
+    "summaryKo": "jev-chat-jarvis는 QQ·X·Feishu에서 상대 메시지를 이해하고 답변 후보를 제시해 입력창에 채워 주는 휴대폰용 대화 보조 도구다. 화면만 읽는 비침습 방식이며 전송은 사용자가 결정한다.",
     "tags": [
-      "대화 어시스턴트",
+      "대화 보조",
       "모바일"
     ],
     "entities": [
-      "jev-chat-jarvis"
+      "QQ",
+      "X",
+      "Feishu"
     ],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
-    "id": "0b272935f82c063d",
+    "id": "3cc50d0356230bcb",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Contrastive-LM/CLM-v0.1-8B",
-    "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
-    "publishedAt": "2026-09-21T20:09:04.000Z",
-    "rawText": "text-ranking | contrastive-lm, clm, contrastive-learning, verifier, reranker, agents, text-ranking, en",
-    "score": 511,
-    "rank": 6,
-    "summaryKo": "에이전트용 검증기·리랭커로 쓰는 대조 학습 기반 8B 텍스트 랭킹 모델 CLM-v0.1-8B가 공개됐다.",
+    "title": "Qwen/Qwen-Image-2.1",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "publishedAt": "2026-09-14T03:47:26.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other",
+    "score": 573,
+    "rank": 5,
+    "summaryKo": "Qwen이 이미지 생성과 편집, RGBA 출력을 지원하는 Qwen-Image-2.1을 공개했다. diffusers 형식으로 제공된다.",
     "tags": [
-      "리랭커",
-      "대조학습"
+      "이미지 생성",
+      "Diffusion"
     ],
     "entities": [
-      "Contrastive-LM"
+      "Qwen",
+      "Qwen-Image-2.1"
     ],
     "cats": [
-      "LLM·모델",
-      "에이전트"
+      "멀티모달",
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "204aad5d566a77c1",
@@ -337,22 +316,73 @@
     "url": "https://github.com/yjh051108/dsh-routing-suite",
     "publishedAt": "2026-08-14T21:20:55Z",
     "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-    "score": 6998,
+    "score": 6990,
     "lang": "JavaScript",
-    "rank": 7,
-    "summaryKo": "런타임 인젝터와 태스크 인식형 추론 모드 라우터 프리셋을 묶은 dsh-routing-suite 키트다.",
+    "rank": 6,
+    "summaryKo": "dsh-routing-suite는 런타임 인젝터와, 작업에 맞춰 추론 모드를 고르는 라우터 프리셋을 묶은 키트다. 인젝터를 먼저 설치한 뒤 라우터를 적용하며 P1-P23으로 측정했다고 한다.",
     "tags": [
-      "라우팅",
-      "추론 모드"
+      "추론 라우팅",
+      "프리셋"
     ],
-    "entities": [
-      "dsh-routing-suite"
-    ],
+    "entities": [],
     "cats": [
-      "LLM·모델"
+      "LLM·모델",
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
+    "id": "0b272935f82c063d",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Contrastive-LM/CLM-v0.1-8B",
+    "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+    "publishedAt": "2026-09-21T20:09:04.000Z",
+    "rawText": "text-ranking | contrastive-lm, clm, contrastive-learning, verifier, reranker, agents, text-ranking, en",
+    "score": 554,
+    "rank": 6,
+    "summaryKo": "Contrastive-LM의 CLM-v0.1-8B는 검증기·리랭커로 쓰는 8B 대조학습 기반 텍스트 랭킹 모델이며 에이전트 용도를 태그로 내세운다.",
+    "tags": [
+      "Reranker",
+      "대조학습"
+    ],
+    "entities": [
+      "CLM-v0.1-8B"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
+    "id": "dcc411eb2d826755",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "XiaoDuoYa/codex-with-chatgpt",
+    "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+    "publishedAt": "2026-08-28T12:57:24Z",
+    "rawText": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+    "score": 6945,
+    "lang": "TypeScript",
+    "rank": 7,
+    "summaryKo": "codex-with-chatgpt는 ChatGPT를 기획용 두뇌로, Codex 하네스를 실행용으로 함께 쓰게 하는 프로젝트다. 계획과 작업을 분리하는 구성이다.",
+    "tags": [
+      "코딩 에이전트",
+      "계획/실행 분리"
+    ],
+    "entities": [
+      "ChatGPT",
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "9831ca8a8ec40c7d",
@@ -416,9 +446,9 @@
     "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
     "publishedAt": "2026-09-01T13:16:57.000Z",
     "rawText": "voice-activity-detection | nemo, safetensors, gguf, nemotron3_diarization, audio-frame-classification, speaker-diarization, streaming-sortformer, speaker-tagging",
-    "score": 491,
+    "score": 436,
     "rank": 7,
-    "summaryKo": "NVIDIA가 스트리밍 Sortformer 기반 화자 분리 모델 Nemotron-3-Diarization을 공개했다.",
+    "summaryKo": "NVIDIA가 스트리밍 Sortformer 기반의 화자 분리 모델 Nemotron-3-Diarization을 NeMo·GGUF 형식으로 공개했다.",
     "tags": [
       "화자 분리",
       "음성"
@@ -431,34 +461,30 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
-    "id": "dcc411eb2d826755",
+    "id": "5ea1503fa8e6ce35",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "XiaoDuoYa/codex-with-chatgpt",
-    "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-    "publishedAt": "2026-08-28T12:57:24Z",
-    "rawText": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "score": 6883,
-    "lang": "TypeScript",
+    "title": "bojieli/ai-infra-book",
+    "url": "https://github.com/bojieli/ai-infra-book",
+    "publishedAt": "2026-08-22T15:30:41Z",
+    "rawText": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+    "score": 5690,
+    "lang": "Python",
     "rank": 8,
-    "summaryKo": "ChatGPT를 계획 담당 두뇌로 쓰고 Codex 하네스가 실제 작업을 수행하게 하는 연동 도구다.",
+    "summaryKo": "《深入理解 AI Infra》는 하드웨어 제약과 모델 아키텍처에서 출발해 LLM 추론·학습 시스템 설계를 정량적으로 도출하는 오픈소스 서적이다. 본문·PDF·계산 도구와 실험 코드를 포함한다.",
     "tags": [
-      "Codex",
-      "플래닝"
+      "AI Infra",
+      "LLM 추론"
     ],
-    "entities": [
-      "ChatGPT",
-      "Codex"
-    ],
+    "entities": [],
     "cats": [
-      "코딩·개발",
-      "에이전트"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "5c348986a15182f2",
@@ -539,27 +565,55 @@
     "fetchedAt": "2026-09-29T21:03:30.055Z"
   },
   {
-    "id": "5ea1503fa8e6ce35",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "bojieli/ai-infra-book",
-    "url": "https://github.com/bojieli/ai-infra-book",
-    "publishedAt": "2026-08-22T15:30:41Z",
-    "rawText": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "score": 5616,
-    "lang": "Python",
-    "rank": 9,
-    "summaryKo": "리보제(李博杰)의 『AI Infra 깊이 이해하기』 오픈소스 원고로, 하드웨어 제약과 모델 구조에서 LLM 추론·학습 시스템 설계를 정량적으로 유도한다. PDF와 계산 도구, 실험이 포함된다.",
+    "id": "ca26bca182f697df",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "publishedAt": "2026-08-05T08:22:59.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
+    "score": 367,
+    "rank": 8,
+    "summaryKo": "Qwen이 Apache-2.0 라이선스의 27B 이미지-텍스트 멀티모달 모델 Qwen3.8-27B를 공개했다. 평가 결과가 포함되어 있다.",
     "tags": [
-      "AI Infra",
-      "LLM 시스템"
+      "멀티모달 LLM",
+      "오픈 웨이트"
     ],
-    "entities": [],
+    "entities": [
+      "Qwen",
+      "Qwen3.8-27B"
+    ],
     "cats": [
-      "LLM·모델"
+      "LLM·모델",
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
+    "id": "7cd1fb3eb9d9482c",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "KKKKhazix/AIHOT",
+    "url": "https://github.com/KKKKhazix/AIHOT",
+    "publishedAt": "2026-09-28T23:40:05Z",
+    "rawText": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+    "score": 4043,
+    "lang": "TypeScript",
+    "rank": 9,
+    "summaryKo": "AIHOT은 스스로 핫이슈를 찾고 일일 리포트를 쓰는 웹사이트 프레임워크다. 정보원과 선별 기준을 바꾸면 자신의 업계용 핫이슈 사이트가 된다.",
+    "tags": [
+      "뉴스 큐레이션",
+      "자동화"
+    ],
+    "entities": [
+      "AIHOT"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "00e93445a44aed8b",
@@ -585,58 +639,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-27T21:16:51.488Z"
-  },
-  {
-    "id": "b52909325615ce37",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "harshatheg/Qwen-2.5-1B-RLCD",
-    "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-    "publishedAt": "2026-09-16T01:35:33.000Z",
-    "rawText": "text-generation | mlx, structured-generation, parallel-decoding, constrained-decoding, apple-silicon, classification, json, text-generation",
-    "score": 523,
-    "rank": 9,
-    "summaryKo": "애플 실리콘(MLX)에서 구조화 출력과 병렬 디코딩, 제약 디코딩을 지원하는 경량 모델 'Qwen-2.5-1B-RLCD'가 공개됐다. JSON 등 정형 출력이 필요한 분류 작업에 최적화됐다.",
-    "tags": [
-      "MLX",
-      "구조화출력",
-      "경량모델"
-    ],
-    "entities": [
-      "Qwen"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-22T21:17:26.666Z"
-  },
-  {
-    "id": "ca26bca182f697df",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Qwen/Qwen3.8-27B",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-    "publishedAt": "2026-08-05T08:22:59.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
-    "score": 501,
-    "rank": 9,
-    "summaryKo": "Qwen3.8-27B가 Apache-2.0 라이선스로 공개됐다. 이미지-텍스트 입력을 지원하는 27B 대화 모델이며 평가 결과가 게시돼 있다.",
-    "tags": [
-      "LLM",
-      "멀티모달",
-      "오픈 모델"
-    ],
-    "entities": [
-      "Qwen",
-      "Qwen3.8-27B"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
   },
   {
     "id": "a5fd23b1353975b1",
@@ -665,6 +667,31 @@
     "fetchedAt": "2026-09-29T21:03:30.055Z"
   },
   {
+    "id": "92c1824269f45469",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Lightricks/LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "publishedAt": "2026-07-23T07:55:24.000Z",
+    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
+    "score": 361,
+    "rank": 9,
+    "summaryKo": "Lightricks가 이미지·텍스트·영상·오디오 입력을 영상으로, 또는 텍스트·영상에서 오디오를 만들 수 있는 LTX-2.5를 공개했다.",
+    "tags": [
+      "영상 생성",
+      "오디오 생성"
+    ],
+    "entities": [
+      "Lightricks",
+      "LTX-2.5"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
     "id": "200c435efc591364",
     "sourceType": "repo",
     "source": "GitHub",
@@ -672,23 +699,23 @@
     "url": "https://github.com/ant-research/4DAnyone",
     "publishedAt": "2026-08-10T07:46:06Z",
     "rawText": "[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-    "score": 1389,
+    "score": 1390,
     "lang": "Python",
     "rank": 10,
-    "summaryKo": "SIGGRAPH Asia 2026 논문 4DAnyone의 코드로, 일반 단안 영상 하나에서 임의 인물을 4D로 생성한다.",
+    "summaryKo": "ant-research의 4DAnyone은 일반 단안 영상 하나로 임의의 인물을 4D로 생성하는 SIGGRAPH Asia 2026 논문 구현체다.",
     "tags": [
       "4D 생성",
-      "비전"
+      "Vision"
     ],
     "entities": [
       "4DAnyone",
-      "ant-research"
+      "Ant Research"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "1147d1da23858f52",
@@ -716,28 +743,6 @@
     "fetchedAt": "2026-09-23T21:04:17.038Z"
   },
   {
-    "id": "fd3b761a63e06136",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "publishedAt": "2026-09-16T23:40:56.000Z",
-    "rawText": "text-generation | llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device",
-    "score": 466,
-    "rank": 10,
-    "summaryKo": "27B 모델을 2비트 삼진(ternary) 양자화해 온디바이스에서 구동하도록 만든 'Ternary-Bonsai-2'가 공개됐다. llama.cpp 기반으로 CUDA·Metal 환경을 지원한다.",
-    "tags": [
-      "양자화",
-      "온디바이스"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-28T21:13:20.207Z"
-  },
-  {
     "id": "cc02ca5d84b07cb3",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -763,6 +768,31 @@
     "fetchedAt": "2026-09-29T21:03:30.055Z"
   },
   {
+    "id": "fd3b761a63e06136",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "publishedAt": "2026-09-16T23:40:56.000Z",
+    "rawText": "text-generation | llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device",
+    "score": 326,
+    "rank": 10,
+    "summaryKo": "prism-ml의 Ternary-Bonsai-2-27B는 2비트 삼진(ternary) 양자화 27B 텍스트 생성 모델의 GGUF 배포본이다. llama.cpp, CUDA, Metal 기반 온디바이스 실행을 겨냥한다.",
+    "tags": [
+      "양자화",
+      "온디바이스"
+    ],
+    "entities": [
+      "Ternary-Bonsai-2",
+      "llama.cpp"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
     "id": "4c4e9e4faa27af44",
     "sourceType": "repo",
     "source": "GitHub",
@@ -770,25 +800,26 @@
     "url": "https://github.com/scenario-labs/skills",
     "publishedAt": "2026-08-12T10:08:49Z",
     "rawText": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-    "score": 738,
+    "score": 794,
     "lang": "Python",
     "rank": 11,
-    "summaryKo": "Scenario MCP로 AI 에이전트가 이미지·영상·오디오·3D를 만들도록 돕는 스킬 모음이다. 모델 선택, 사전 가격 확인, 캐릭터·브랜드 일관성 유지, Blender·Maya·Unreal 등 연동 팀을 제공한다.",
+    "summaryKo": "scenario-labs/skills는 AI 에이전트가 Scenario MCP를 통해 이미지·영상·오디오·3D를 만들 때 적합한 모델을 고르고 비용을 사전 확인하게 하는 스킬 모음이다. 캐릭터·브랜드 일관성을 유지하며 Blender·Maya·Unreal·Unity를 다루는 전문가 팀도 포함한다.",
     "tags": [
-      "MCP",
-      "에셋 생성"
+      "에이전트 스킬",
+      "콘텐츠 생성"
     ],
     "entities": [
       "Scenario",
+      "MCP",
       "Blender",
-      "Unreal"
+      "Unity"
     ],
     "cats": [
       "멀티모달",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "b34ca6dfe4254569",
@@ -798,10 +829,10 @@
     "url": "https://github.com/calmrocks/ai-engineer-notebooks",
     "publishedAt": "2026-08-11T23:17:17Z",
     "rawText": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps, and customer craft. Runs on the free Groq API.",
-    "score": 647,
+    "score": 663,
     "lang": "Jupyter Notebook",
     "rank": 12,
-    "summaryKo": "모델 API부터 RAG, 평가, 에이전트, 파인튜닝, 프롬프트 인젝션, LLMOps까지 프레임워크 없이 익히는 AI 엔지니어용 Colab 노트북 모음이다. 무료 Groq API로 실행된다.",
+    "summaryKo": "ai-engineer-notebooks는 AI/FDE 엔지니어용 프레임워크 없는 Colab 노트북 모음이다. 모델 API, 구조화 출력, 도구 호출, RAG, 평가, 에이전트, LoRA, 프롬프트 인젝션, LLMOps를 무료 Groq API로 실습한다.",
     "tags": [
       "교육",
       "RAG",
@@ -809,40 +840,39 @@
     ],
     "entities": [
       "Groq",
-      "Colab"
+      "MCP"
     ],
     "cats": [
-      "코딩·개발",
-      "에이전트"
+      "에이전트",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
-    "id": "d0f1542d4711962a",
+    "id": "ca82f9b3fbd0d05e",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "NoizAI/HelixWorld",
-    "url": "https://github.com/NoizAI/HelixWorld",
-    "publishedAt": "2026-08-03T03:34:11Z",
-    "rawText": "🪐 HelixWorld: real-time interactive audio-visual world model.",
-    "score": 610,
-    "lang": "Python",
+    "title": "Inkloom-art/inkloom",
+    "url": "https://github.com/Inkloom-art/inkloom",
+    "publishedAt": "2026-09-20T07:54:30Z",
+    "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
+    "score": 643,
+    "lang": "TypeScript",
     "rank": 13,
-    "summaryKo": "실시간으로 상호작용하는 시청각 월드 모델 HelixWorld 저장소다.",
+    "summaryKo": "Inkloom은 로고 디자인 특화 AI 모델 묶음으로, 브랜드 분석 모델이 제약을 만들고 타이포·심볼 모델이 마크를 구성하며 조합 엔진이 실제 락업과 여백 규칙을 만든다. 얼리 액세스를 받고 있다.",
     "tags": [
-      "월드 모델",
-      "오디오비주얼"
+      "로고 생성",
+      "디자인 AI"
     ],
     "entities": [
-      "NoizAI",
-      "HelixWorld"
+      "Inkloom"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "e20a99a658f54478",
@@ -869,29 +899,30 @@
     "fetchedAt": "2026-09-25T21:08:49.991Z"
   },
   {
-    "id": "ca82f9b3fbd0d05e",
+    "id": "d0f1542d4711962a",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "Inkloom-art/inkloom",
-    "url": "https://github.com/Inkloom-art/inkloom",
-    "publishedAt": "2026-09-20T07:54:30Z",
-    "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "score": 485,
-    "lang": "TypeScript",
+    "title": "NoizAI/HelixWorld",
+    "url": "https://github.com/NoizAI/HelixWorld",
+    "publishedAt": "2026-08-03T03:34:11Z",
+    "rawText": "🪐 HelixWorld: real-time interactive audio-visual world model.",
+    "score": 614,
+    "lang": "Python",
     "rank": 14,
-    "summaryKo": "브랜드 분석 모델이 제약을 만들고 타이포·심볼 모델이 로고를 구성하며 조합 엔진이 락업과 여백 규칙을 만드는 로고 디자인 특화 AI 모델 묶음이다. 얼리 액세스 중이다.",
+    "summaryKo": "NoizAI의 HelixWorld는 실시간 상호작용이 가능한 오디오-비주얼 월드 모델이다. 설명이 한 줄이라 세부 사양은 확인되지 않는다.",
     "tags": [
-      "로고 디자인",
-      "특화 모델"
+      "World Model",
+      "실시간 생성"
     ],
     "entities": [
-      "Inkloom"
+      "HelixWorld",
+      "NoizAI"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
     "id": "776452196977e360",
