@@ -7,10 +7,10 @@
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "publishedAt": "2026-08-13T11:56:32Z",
     "rawText": "DeepSeek Harness: Everything is a Plugin.",
-    "score": 241042,
+    "score": 241702,
     "lang": "TypeScript",
     "rank": 1,
-    "summaryKo": "DeepSeek가 '모든 것이 플러그인'을 내세운 하네스 deepseek-harness를 공개했다. 설명이 한 줄뿐이라 세부 구조는 확인되지 않는다.",
+    "summaryKo": "DeepSeek이 모든 것을 플러그인으로 구성하는 에이전트 하네스 deepseek-harness를 공개한 레포다.",
     "tags": [
       "에이전트 하네스",
       "플러그인"
@@ -23,7 +23,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "833035880c08a7e1",
@@ -48,6 +48,30 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
+    "id": "5d885f2b9705cba0",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "convaiinnovations/laya",
+    "url": "https://huggingface.co/convaiinnovations/laya",
+    "publishedAt": "2026-09-18T05:05:55.000Z",
+    "rawText": "text-classification | transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing",
+    "score": 1239,
+    "rank": 1,
+    "summaryKo": "laya는 보정된 의사결정과 라우팅을 위한 텍스트 분류 모델이다.",
+    "tags": [
+      "텍스트 분류",
+      "라우팅"
+    ],
+    "entities": [
+      "convaiinnovations"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "a61bb70c5a02c143",
@@ -83,13 +107,13 @@
     "url": "https://github.com/google/artemis",
     "publishedAt": "2026-08-13T17:59:37Z",
     "rawText": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
-    "score": 10729,
+    "score": 10810,
     "lang": "Python",
     "rank": 2,
-    "summaryKo": "Google의 ARTEMIS는 자연어 지시를 안정적인 Android 자동화로 바꿔 종단 워크플로를 수행하고 로그를 남긴다. Antigravity·Codex·Claude Code 같은 AI 코딩 도구와 연동되며 AndroidWorld 벤치마크에서 99% 이상 성공률을 주장한다.",
+    "summaryKo": "Google의 ARTEMIS는 자연어 지시를 안정적인 안드로이드 자동화로 바꿔주는 도구다. Claude Code·Codex 등과 연동되며 AndroidWorld 벤치마크에서 99% 이상 성공률을 보인다.",
     "tags": [
-      "Android 자동화",
-      "에이전트"
+      "모바일 에이전트",
+      "Android 자동화"
     ],
     "entities": [
       "Google",
@@ -102,31 +126,32 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
-    "id": "5d885f2b9705cba0",
+    "id": "684bb42cf75ebb99",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "convaiinnovations/laya",
-    "url": "https://huggingface.co/convaiinnovations/laya",
-    "publishedAt": "2026-09-18T05:05:55.000Z",
-    "rawText": "text-classification | transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing",
-    "score": 1433,
+    "title": "XingChen-AGI/TeleOCR",
+    "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+    "publishedAt": "2026-08-14T06:15:03.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen2_5_vl, image-text-to-text, ocr, document-parsing, multimodal, conversational",
+    "score": 880,
     "rank": 2,
-    "summaryKo": "convaiinnovations의 laya는 보정된 의사결정과 라우팅에 쓰는 텍스트 분류 모델이다. System-one 계열 태그가 붙어 있다.",
+    "summaryKo": "TeleOCR은 Qwen2.5-VL 기반의 OCR·문서 파싱용 이미지-텍스트 모델이다.",
     "tags": [
-      "분류",
-      "라우팅"
+      "OCR",
+      "문서 파싱"
     ],
     "entities": [
-      "laya"
+      "TeleOCR",
+      "Qwen2.5-VL"
     ],
     "cats": [
-      "LLM·모델"
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "91a11e5a1988dbb2",
@@ -162,23 +187,23 @@
     "url": "https://github.com/deeplethe/utopia",
     "publishedAt": "2026-08-07T19:33:17Z",
     "rawText": "World's first open-source enterprise world model.",
-    "score": 7975,
+    "score": 7995,
     "lang": "Rust",
     "rank": 3,
-    "summaryKo": "deeplethe/utopia는 '세계 최초의 오픈소스 엔터프라이즈 월드 모델'을 표방하는 프로젝트다. 설명이 한 줄이라 구체 기능은 확인되지 않는다.",
+    "summaryKo": "utopia는 세계 최초의 오픈소스 엔터프라이즈 월드 모델을 표방하는 레포다.",
     "tags": [
-      "World Model",
+      "월드 모델",
       "엔터프라이즈"
     ],
     "entities": [
-      "Utopia"
+      "utopia"
     ],
     "cats": [
       "LLM·모델",
       "기업·정책"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "209a41baf2960185",
@@ -188,9 +213,9 @@
     "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
     "publishedAt": "2026-09-20T15:51:13.000Z",
     "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1",
-    "score": 874,
+    "score": 790,
     "rank": 3,
-    "summaryKo": "Qwen-Image-2.1의 검열 해제(Uncensored) 버전을 GGUF로 양자화한 배포본이다. ComfyUI GGUF 노드로 로컬에서 텍스트-이미지 생성에 쓸 수 있다.",
+    "summaryKo": "Qwen-Image-2.1의 무검열 GGUF 양자화본으로 ComfyUI에서 쓸 수 있는 텍스트-이미지 모델이다.",
     "tags": [
       "이미지 생성",
       "GGUF"
@@ -203,7 +228,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "1e97fcf6e4c7f154",
@@ -213,47 +238,46 @@
     "url": "https://github.com/Human-Agent-Society/reef",
     "publishedAt": "2026-08-31T01:39:18Z",
     "rawText": "Infrastructure for continually self‑improving agents",
-    "score": 7392,
+    "score": 7452,
     "lang": "Python",
     "rank": 4,
-    "summaryKo": "Human-Agent-Society의 reef는 지속적으로 자기 개선하는 에이전트를 위한 인프라를 표방한다. 설명이 한 줄이다.",
+    "summaryKo": "reef는 지속적으로 스스로 개선하는 에이전트를 위한 인프라를 제공하는 레포다.",
     "tags": [
-      "자기개선 에이전트",
-      "인프라"
+      "자기개선 에이전트"
     ],
     "entities": [
-      "Reef"
+      "Human-Agent-Society"
     ],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
-    "id": "684bb42cf75ebb99",
+    "id": "3cc50d0356230bcb",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "XingChen-AGI/TeleOCR",
-    "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
-    "publishedAt": "2026-08-14T06:15:03.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen2_5_vl, image-text-to-text, ocr, document-parsing, multimodal, conversational",
-    "score": 867,
+    "title": "Qwen/Qwen-Image-2.1",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "publishedAt": "2026-09-14T03:47:26.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other",
+    "score": 455,
     "rank": 4,
-    "summaryKo": "XingChen-AGI의 TeleOCR은 Qwen2.5-VL 기반의 OCR·문서 파싱용 멀티모달 모델이다.",
+    "summaryKo": "Qwen-Image-2.1은 이미지 생성과 편집, RGBA 출력을 지원하는 텍스트-이미지 확산 모델이다.",
     "tags": [
-      "OCR",
-      "문서 파싱"
+      "이미지 생성",
+      "Diffusion"
     ],
     "entities": [
-      "TeleOCR",
-      "Qwen2.5-VL"
+      "Qwen",
+      "Qwen-Image-2.1"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "35eff775ba433a91",
@@ -263,12 +287,12 @@
     "url": "https://github.com/jev-chat/jev-chat-jarvis",
     "publishedAt": "2026-09-21T11:12:53Z",
     "rawText": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-    "score": 7181,
+    "score": 7219,
     "lang": "Kotlin",
     "rank": 5,
-    "summaryKo": "jev-chat-jarvis는 QQ·X·Feishu에서 상대 메시지를 이해하고 답변 후보를 제시해 입력창에 채워 주는 휴대폰용 대화 보조 도구다. 화면만 읽는 비침습 방식이며 전송은 사용자가 결정한다.",
+    "summaryKo": "휴대폰 화면을 읽어 QQ·X·Feishu 대화에 후보 답장을 제안하고 입력창에 채워주는 대화 코파일럿이다. 화면만 읽는 비침투 방식이며 전송은 사용자가 결정한다.",
     "tags": [
-      "대화 보조",
+      "대화 코파일럿",
       "모바일"
     ],
     "entities": [
@@ -280,57 +304,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
-  },
-  {
-    "id": "3cc50d0356230bcb",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Qwen/Qwen-Image-2.1",
-    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "publishedAt": "2026-09-14T03:47:26.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other",
-    "score": 573,
-    "rank": 5,
-    "summaryKo": "Qwen이 이미지 생성과 편집, RGBA 출력을 지원하는 Qwen-Image-2.1을 공개했다. diffusers 형식으로 제공된다.",
-    "tags": [
-      "이미지 생성",
-      "Diffusion"
-    ],
-    "entities": [
-      "Qwen",
-      "Qwen-Image-2.1"
-    ],
-    "cats": [
-      "멀티모달",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
-  },
-  {
-    "id": "204aad5d566a77c1",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "yjh051108/dsh-routing-suite",
-    "url": "https://github.com/yjh051108/dsh-routing-suite",
-    "publishedAt": "2026-08-14T21:20:55Z",
-    "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-    "score": 6990,
-    "lang": "JavaScript",
-    "rank": 6,
-    "summaryKo": "dsh-routing-suite는 런타임 인젝터와, 작업에 맞춰 추론 모드를 고르는 라우터 프리셋을 묶은 키트다. 인젝터를 먼저 설치한 뒤 라우터를 적용하며 P1-P23으로 측정했다고 한다.",
-    "tags": [
-      "추론 라우팅",
-      "프리셋"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "0b272935f82c063d",
@@ -340,22 +314,70 @@
     "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
     "publishedAt": "2026-09-21T20:09:04.000Z",
     "rawText": "text-ranking | contrastive-lm, clm, contrastive-learning, verifier, reranker, agents, text-ranking, en",
-    "score": 554,
-    "rank": 6,
-    "summaryKo": "Contrastive-LM의 CLM-v0.1-8B는 검증기·리랭커로 쓰는 8B 대조학습 기반 텍스트 랭킹 모델이며 에이전트 용도를 태그로 내세운다.",
+    "score": 452,
+    "rank": 5,
+    "summaryKo": "CLM-v0.1-8B는 에이전트용 검증기·리랭커로 쓸 수 있는 대조학습 기반 8B 텍스트 랭킹 모델이다.",
     "tags": [
-      "Reranker",
+      "리랭커",
       "대조학습"
     ],
     "entities": [
-      "CLM-v0.1-8B"
+      "Contrastive-LM",
+      "CLM"
     ],
     "cats": [
       "LLM·모델",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "204aad5d566a77c1",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "yjh051108/dsh-routing-suite",
+    "url": "https://github.com/yjh051108/dsh-routing-suite",
+    "publishedAt": "2026-08-14T21:20:55Z",
+    "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+    "score": 6994,
+    "lang": "JavaScript",
+    "rank": 6,
+    "summaryKo": "런타임 인젝터와 작업 인지형 추론 모드 라우터 프리셋으로 구성된 라우팅 키트다. 작업에 맞춰 추론 모드를 고르게 한다.",
+    "tags": [
+      "추론 라우팅"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "92c1824269f45469",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Lightricks/LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "publishedAt": "2026-07-23T07:55:24.000Z",
+    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
+    "score": 369,
+    "rank": 6,
+    "summaryKo": "Lightricks의 LTX-2.5는 텍스트·이미지·오디오에서 영상을, 영상에서 오디오를 생성하는 영상 확산 모델이다.",
+    "tags": [
+      "영상 생성",
+      "Diffusion"
+    ],
+    "entities": [
+      "Lightricks",
+      "LTX-2.5"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "dcc411eb2d826755",
@@ -365,13 +387,12 @@
     "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
     "publishedAt": "2026-08-28T12:57:24Z",
     "rawText": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "score": 6945,
+    "score": 6962,
     "lang": "TypeScript",
     "rank": 7,
-    "summaryKo": "codex-with-chatgpt는 ChatGPT를 기획용 두뇌로, Codex 하네스를 실행용으로 함께 쓰게 하는 프로젝트다. 계획과 작업을 분리하는 구성이다.",
+    "summaryKo": "ChatGPT를 계획용 두뇌로, Codex를 실행 하네스로 함께 쓰게 해주는 도구 레포다.",
     "tags": [
-      "코딩 에이전트",
-      "계획/실행 분리"
+      "코딩 에이전트"
     ],
     "entities": [
       "ChatGPT",
@@ -382,7 +403,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "9831ca8a8ec40c7d",
@@ -439,29 +460,30 @@
     "fetchedAt": "2026-09-28T21:13:20.207Z"
   },
   {
-    "id": "4895ed02d15fc268",
+    "id": "ca26bca182f697df",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "nvidia/Nemotron-3-Diarization",
-    "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-    "publishedAt": "2026-09-01T13:16:57.000Z",
-    "rawText": "voice-activity-detection | nemo, safetensors, gguf, nemotron3_diarization, audio-frame-classification, speaker-diarization, streaming-sortformer, speaker-tagging",
-    "score": 436,
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "publishedAt": "2026-08-05T08:22:59.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
+    "score": 350,
     "rank": 7,
-    "summaryKo": "NVIDIA가 스트리밍 Sortformer 기반의 화자 분리 모델 Nemotron-3-Diarization을 NeMo·GGUF 형식으로 공개했다.",
+    "summaryKo": "Qwen3.8-27B는 이미지-텍스트 입력을 지원하는 Apache-2.0 라이선스 27B 모델이다.",
     "tags": [
-      "화자 분리",
-      "음성"
+      "LLM",
+      "멀티모달"
     ],
     "entities": [
-      "NVIDIA",
-      "Nemotron-3"
+      "Qwen",
+      "Qwen3.8"
     ],
     "cats": [
+      "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "5ea1503fa8e6ce35",
@@ -471,12 +493,12 @@
     "url": "https://github.com/bojieli/ai-infra-book",
     "publishedAt": "2026-08-22T15:30:41Z",
     "rawText": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "score": 5690,
+    "score": 5742,
     "lang": "Python",
     "rank": 8,
-    "summaryKo": "《深入理解 AI Infra》는 하드웨어 제약과 모델 아키텍처에서 출발해 LLM 추론·학습 시스템 설계를 정량적으로 도출하는 오픈소스 서적이다. 본문·PDF·계산 도구와 실험 코드를 포함한다.",
+    "summaryKo": "리보제의 『AI Infra 깊이 이해하기』 오픈소스 원고로, 하드웨어 제약과 모델 구조에서 LLM 추론·학습 시스템 설계를 정량적으로 도출한다. PDF와 계산 도구를 포함한다.",
     "tags": [
-      "AI Infra",
+      "AI 인프라",
       "LLM 추론"
     ],
     "entities": [],
@@ -484,7 +506,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "5c348986a15182f2",
@@ -565,30 +587,29 @@
     "fetchedAt": "2026-09-29T21:03:30.055Z"
   },
   {
-    "id": "ca26bca182f697df",
+    "id": "4528afcf38aa495a",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Qwen/Qwen3.8-27B",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-    "publishedAt": "2026-08-05T08:22:59.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
-    "score": 367,
+    "title": "SupersonicLabs/Julia-1",
+    "url": "https://huggingface.co/SupersonicLabs/Julia-1",
+    "publishedAt": "2026-09-23T15:29:46.000Z",
+    "rawText": "text-classification | pytorch, safetensors, decision-model, text-classification, multilingual, routing, base_model:jhu-clsp/mmBERT-small, base_model:finetune:jhu-clsp/mmBERT-small",
+    "score": 323,
     "rank": 8,
-    "summaryKo": "Qwen이 Apache-2.0 라이선스의 27B 이미지-텍스트 멀티모달 모델 Qwen3.8-27B를 공개했다. 평가 결과가 포함되어 있다.",
+    "summaryKo": "Julia-1은 mmBERT-small을 파인튜닝한 다국어 결정·라우팅용 텍스트 분류 모델이다.",
     "tags": [
-      "멀티모달 LLM",
-      "오픈 웨이트"
+      "라우팅",
+      "분류"
     ],
     "entities": [
-      "Qwen",
-      "Qwen3.8-27B"
+      "SupersonicLabs",
+      "mmBERT"
     ],
     "cats": [
-      "LLM·모델",
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -598,13 +619,12 @@
     "url": "https://github.com/KKKKhazix/AIHOT",
     "publishedAt": "2026-09-28T23:40:05Z",
     "rawText": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-    "score": 4043,
+    "score": 4610,
     "lang": "TypeScript",
     "rank": 9,
-    "summaryKo": "AIHOT은 스스로 핫이슈를 찾고 일일 리포트를 쓰는 웹사이트 프레임워크다. 정보원과 선별 기준을 바꾸면 자신의 업계용 핫이슈 사이트가 된다.",
+    "summaryKo": "스스로 핫이슈를 찾고 일간 리포트를 쓰는 사이트 프레임워크다. 신호원과 선별 기준만 바꾸면 업종별 핫이슈 사이트가 된다.",
     "tags": [
-      "뉴스 큐레이션",
-      "자동화"
+      "자동 큐레이션"
     ],
     "entities": [
       "AIHOT"
@@ -613,7 +633,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "00e93445a44aed8b",
@@ -667,29 +687,29 @@
     "fetchedAt": "2026-09-29T21:03:30.055Z"
   },
   {
-    "id": "92c1824269f45469",
+    "id": "4895ed02d15fc268",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Lightricks/LTX-2.5",
-    "url": "https://huggingface.co/Lightricks/LTX-2.5",
-    "publishedAt": "2026-07-23T07:55:24.000Z",
-    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 361,
+    "title": "nvidia/Nemotron-3-Diarization",
+    "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+    "publishedAt": "2026-09-01T13:16:57.000Z",
+    "rawText": "voice-activity-detection | nemo, safetensors, gguf, nemotron3_diarization, audio-frame-classification, speaker-diarization, streaming-sortformer, speaker-tagging",
+    "score": 301,
     "rank": 9,
-    "summaryKo": "Lightricks가 이미지·텍스트·영상·오디오 입력을 영상으로, 또는 텍스트·영상에서 오디오를 만들 수 있는 LTX-2.5를 공개했다.",
+    "summaryKo": "NVIDIA의 Nemotron-3-Diarization은 스트리밍 Sortformer 기반 화자 분리·음성 활동 감지 모델이다.",
     "tags": [
-      "영상 생성",
-      "오디오 생성"
+      "화자 분리",
+      "음성"
     ],
     "entities": [
-      "Lightricks",
-      "LTX-2.5"
+      "NVIDIA",
+      "Nemotron"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "200c435efc591364",
@@ -699,13 +719,13 @@
     "url": "https://github.com/ant-research/4DAnyone",
     "publishedAt": "2026-08-10T07:46:06Z",
     "rawText": "[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-    "score": 1390,
+    "score": 1393,
     "lang": "Python",
     "rank": 10,
-    "summaryKo": "ant-research의 4DAnyone은 일반 단안 영상 하나로 임의의 인물을 4D로 생성하는 SIGGRAPH Asia 2026 논문 구현체다.",
+    "summaryKo": "SIGGRAPH Asia 2026 논문 4DAnyone의 코드로, 평범한 단안 영상 하나에서 4D 인물을 만들어낸다.",
     "tags": [
       "4D 생성",
-      "Vision"
+      "비전"
     ],
     "entities": [
       "4DAnyone",
@@ -715,57 +735,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
-  },
-  {
-    "id": "1147d1da23858f52",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "AlexWortega/openjev",
-    "url": "https://huggingface.co/AlexWortega/openjev",
-    "publishedAt": "2026-09-16T18:25:10.000Z",
-    "rawText": "text-classification | transformers, safetensors, nli, cross-encoder, qwen3.5, reranker, text-classification, image-text-to-text",
-    "score": 499,
-    "rank": 10,
-    "summaryKo": "AlexWortega의 openjev는 Qwen3.5 기반 NLI 크로스 인코더·리랭커 성격의 텍스트 분류 모델이다.",
-    "tags": [
-      "리랭커",
-      "NLI"
-    ],
-    "entities": [
-      "openjev",
-      "Qwen3.5"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "cc02ca5d84b07cb3",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Viggle/Qwen-Image-2.1-viggle-turbo",
-    "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
-    "publishedAt": "2026-09-22T04:14:56.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, lora, text-to-image, image-to-image, image-editing, distillation, dmd",
-    "score": 393,
-    "rank": 10,
-    "summaryKo": "Viggle이 DMD 증류를 적용한 Qwen-Image-2.1 터보 LoRA를 공개해 빠른 이미지 생성·편집을 지원한다.",
-    "tags": [
-      "증류",
-      "LoRA"
-    ],
-    "entities": [
-      "Viggle",
-      "Qwen-Image-2.1"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-29T21:03:30.055Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "fd3b761a63e06136",
@@ -793,6 +763,31 @@
     "fetchedAt": "2026-09-30T21:03:02.517Z"
   },
   {
+    "id": "cc02ca5d84b07cb3",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Viggle/Qwen-Image-2.1-viggle-turbo",
+    "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+    "publishedAt": "2026-09-22T04:14:56.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, gguf, lora, text-to-image, image-to-image, image-editing, distillation",
+    "score": 291,
+    "rank": 10,
+    "summaryKo": "Viggle의 Qwen-Image-2.1 증류(터보) LoRA 변형으로 빠른 이미지 생성과 편집을 지원한다.",
+    "tags": [
+      "이미지 생성",
+      "증류"
+    ],
+    "entities": [
+      "Viggle",
+      "Qwen-Image-2.1"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
     "id": "4c4e9e4faa27af44",
     "sourceType": "repo",
     "source": "GitHub",
@@ -800,18 +795,19 @@
     "url": "https://github.com/scenario-labs/skills",
     "publishedAt": "2026-08-12T10:08:49Z",
     "rawText": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-    "score": 794,
+    "score": 819,
     "lang": "Python",
     "rank": 11,
-    "summaryKo": "scenario-labs/skills는 AI 에이전트가 Scenario MCP를 통해 이미지·영상·오디오·3D를 만들 때 적합한 모델을 고르고 비용을 사전 확인하게 하는 스킬 모음이다. 캐릭터·브랜드 일관성을 유지하며 Blender·Maya·Unreal·Unity를 다루는 전문가 팀도 포함한다.",
+    "summaryKo": "Scenario MCP를 통해 AI 에이전트가 이미지·영상·오디오·3D를 만들게 하는 스킬 모음이다. 모델 선택, 비용 사전 확인, 캐릭터 일관성 유지, Blender·Unreal 등 연동을 지원한다.",
     "tags": [
-      "에이전트 스킬",
-      "콘텐츠 생성"
+      "생성 에셋",
+      "MCP"
     ],
     "entities": [
       "Scenario",
-      "MCP",
       "Blender",
+      "Maya",
+      "Unreal",
       "Unity"
     ],
     "cats": [
@@ -819,7 +815,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "b34ca6dfe4254569",
@@ -829,25 +825,25 @@
     "url": "https://github.com/calmrocks/ai-engineer-notebooks",
     "publishedAt": "2026-08-11T23:17:17Z",
     "rawText": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps, and customer craft. Runs on the free Groq API.",
-    "score": 663,
+    "score": 674,
     "lang": "Jupyter Notebook",
     "rank": 12,
-    "summaryKo": "ai-engineer-notebooks는 AI/FDE 엔지니어용 프레임워크 없는 Colab 노트북 모음이다. 모델 API, 구조화 출력, 도구 호출, RAG, 평가, 에이전트, LoRA, 프롬프트 인젝션, LLMOps를 무료 Groq API로 실습한다.",
+    "summaryKo": "AI 엔지니어·FDE를 위한 프레임워크 없는 Colab 노트북 모음이다. 모델 API, 툴 호출, RAG, 평가, 에이전트, LoRA, 보안을 다루며 무료 Groq API로 실행한다.",
     "tags": [
-      "교육",
       "RAG",
-      "에이전트"
+      "에이전트",
+      "교육"
     ],
     "entities": [
       "Groq",
-      "MCP"
+      "Colab"
     ],
     "cats": [
-      "에이전트",
-      "코딩·개발"
+      "코딩·개발",
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "ca82f9b3fbd0d05e",
@@ -857,10 +853,10 @@
     "url": "https://github.com/Inkloom-art/inkloom",
     "publishedAt": "2026-09-20T07:54:30Z",
     "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "score": 643,
+    "score": 663,
     "lang": "TypeScript",
     "rank": 13,
-    "summaryKo": "Inkloom은 로고 디자인 특화 AI 모델 묶음으로, 브랜드 분석 모델이 제약을 만들고 타이포·심볼 모델이 마크를 구성하며 조합 엔진이 실제 락업과 여백 규칙을 만든다. 얼리 액세스를 받고 있다.",
+    "summaryKo": "로고 디자인 전용 AI 모델 묶음이다. 브랜드 분석 모델이 제약을 만들고 타이포·심볼 모델이 마크를 구성하며 합성 엔진이 락업과 여백 규칙을 만든다. 얼리 액세스 중이다.",
     "tags": [
       "로고 생성",
       "디자인 AI"
@@ -872,7 +868,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "e20a99a658f54478",
@@ -906,23 +902,23 @@
     "url": "https://github.com/NoizAI/HelixWorld",
     "publishedAt": "2026-08-03T03:34:11Z",
     "rawText": "🪐 HelixWorld: real-time interactive audio-visual world model.",
-    "score": 614,
+    "score": 616,
     "lang": "Python",
     "rank": 14,
-    "summaryKo": "NoizAI의 HelixWorld는 실시간 상호작용이 가능한 오디오-비주얼 월드 모델이다. 설명이 한 줄이라 세부 사양은 확인되지 않는다.",
+    "summaryKo": "HelixWorld는 실시간 상호작용이 가능한 시청각 월드 모델을 표방하는 레포다.",
     "tags": [
-      "World Model",
-      "실시간 생성"
+      "월드 모델",
+      "실시간"
     ],
     "entities": [
-      "HelixWorld",
-      "NoizAI"
+      "NoizAI",
+      "HelixWorld"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-09-30T21:03:02.517Z"
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
   },
   {
     "id": "776452196977e360",

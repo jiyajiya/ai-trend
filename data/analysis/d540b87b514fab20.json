@@ -1,0 +1,26 @@
+{
+ "points": [
+  "DEER와 일반화 교사강제(GTF)를 결합해 비선형 RNN 학습을 100배 이상 가속했다.",
+  "DEER는 전체 시퀀스에 뉴턴형 고정점 반복을 적용해 O[(log T)²] 스케일을 얻는다.",
+  "혼돈계에서는 DEER가 O[T log T]로 느려지고 발산하는 문제가 있다.",
+  "GTF가 발산을 막고 교사강제의 노출 편향을 줄인다.",
+  "길이 100만 이상 시계열에서 Mamba 등 SSM을 크게 앞선다."
+ ],
+ "sections": [
+  {
+   "heading": "문제",
+   "body": "비선형 RNN 학습을 긴 혼돈계 시계열에서 효율적으로 병렬화하면서 빠른 수렴을 유지할 수 있는지가 질문이다."
+  },
+  {
+   "heading": "DEER",
+   "body": "DEER는 순전파를 시퀀스 전체에 대한 뉴턴형 고정점 반복으로 풀어 GPU 병렬화를 가능하게 한다. 이론상 O[T] 대신 O[(log T)²]이지만 혼돈 동역학에서는 O[T log T]로 저하된다."
+  },
+  {
+   "heading": "GTF 결합",
+   "body": "GTF로 혼돈에 의한 발산을 막아 DEER를 안정화하고 기존 교사강제의 노출 편향도 줄였다. 두 기법의 결합으로 안정적 병렬 학습이 가능해졌다."
+  }
+ ],
+ "quotes": [
+  "speed up training of nonlinear RNNs ... by more than 2 orders of magnitude (>100x)"
+ ]
+}

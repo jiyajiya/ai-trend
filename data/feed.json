@@ -1,5 +1,672 @@
 [
   {
+    "id": "a6cec71aaea01779",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "미국 10년 만기 국채 수익률, 5.3% 넘어 24년 만의 최고 수준",
+    "url": "https://news.hada.io/topic?id=34634",
+    "publishedAt": "2026-10-02T05:44:34+09:00",
+    "rawText": "지속적인 매도 압력으로 미국 10년 만기 국채 수익률이 수요일 5.3%를 돌파함 Tradeweb에 따르면 이번 수익률은 2007년 고점을 넘어선 것으로, 2002년 이후 가장 높은 수준임 일부 투자자는 최근 미국의 차입 여건이 2008~2009년...",
+    "summaryKo": "미국 10년물 국채 수익률이 5.3%를 넘어 2002년 이후 최고 수준을 기록했다. 지속적인 매도 압력이 원인이며 일부 투자자는 2008~2009년과 비교하고 있다. AI와는 직접 관련이 없는 거시경제 뉴스다.",
+    "tags": [
+      "국채",
+      "금리"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "c012a52918fb3e9e",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "소프트웨어를 만드는 여러분께",
+    "url": "https://news.hada.io/topic?id=34633",
+    "publishedAt": "2026-10-02T05:41:34+09:00",
+    "rawText": "YouTube가 제작자에게 영상의 여러 버전을 게시하고 성과를 비교하는 A/B 테스트 기능을 제공하려 하지만, 같은 링크로 같은 영상을 본다는 공동체의 경험을 깨뜨릴 수 있음 시청자의 실험 참여 여부, 댓글 작성자끼리 본 내용의 일치 여부, 타임스탬프 링크의 작동...",
+    "summaryKo": "YouTube가 제작자용 영상 A/B 테스트 기능을 도입하려는 데 대해, 같은 링크로 같은 영상을 본다는 공동체 경험이 깨질 수 있다는 비판 글이다. 댓글과 타임스탬프 링크의 일관성 문제를 지적한다.",
+    "tags": [
+      "YouTube",
+      "A/B 테스트"
+    ],
+    "entities": [
+      "YouTube"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "851c0cf3c781364d",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Pi 1.0",
+    "url": "https://news.hada.io/topic?id=34632",
+    "publishedAt": "2026-10-02T05:38:34+09:00",
+    "rawText": "Pi 1.0이 출시됨. 매주 전 세계 수십만 명이 사용하는 최소주의 기반의 확장 가능한 에이전트 하네스로, 수개월간 사용자 피드백을 반영해 안정성을 강화함 Codemode를 통해 MCP와 Jev 같은 비LLM 모델, 이미지 모델을 기본 지원하며, 확장 기능에서 가상 ...",
+    "summaryKo": "Pi 1.0이 출시됐다. 주간 수십만 명이 쓰는 최소주의 확장형 에이전트 하네스로 안정성을 강화했고, Codemode를 통해 MCP와 비LLM·이미지 모델을 기본 지원한다.",
+    "tags": [
+      "에이전트 하네스",
+      "MCP"
+    ],
+    "entities": [
+      "Pi"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "108e281220306f10",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: 애플 워치·갤럭시 워치를 Plaud처럼 쓰게 해 주는 오픈소스 녹음·전사 앱 Recly",
+    "url": "https://news.hada.io/topic?id=34631",
+    "publishedAt": "2026-10-02T05:08:06+09:00",
+    "rawText": "Plaud 같은 AI 녹음기를 따로 사지 않고, 이미 차고 있는 애플 워치나 갤럭시 워치로 같은 일을 하게 해 주는 앱입니다. 녹음과 전사만 워치 기반 앱에서 처리하고, 회의록 작성이나 분석은 평소 사용하는 AI에서 이어갈 수 있도록 만들었습니다. 워치에서 녹음한 파일은 폰으로 전달하며, 업로드와 전사는 폰이나 데...",
+    "summaryKo": "애플 워치·갤럭시 워치로 Plaud 같은 AI 녹음기 역할을 하게 해주는 오픈소스 앱 Recly를 소개한다. 워치에서 녹음해 폰으로 전달하고 전사하며, 회의록 작성은 사용자가 쓰는 AI에서 이어간다.",
+    "tags": [
+      "음성 전사",
+      "오픈소스"
+    ],
+    "entities": [
+      "Recly",
+      "Apple Watch",
+      "Galaxy Watch",
+      "Plaud"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "61438f728c41bb01",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "EDG C/C++ 컴파일러 프로젝트",
+    "url": "https://news.hada.io/topic?id=34630",
+    "publishedAt": "2026-10-02T05:00:49+09:00",
+    "rawText": "EDG C/C++ 프런트엔드를 중심으로 한 오픈소스 컴파일러 프로젝트로, 다양한 C/C++ 관련 제품에 활용할 수 있도록 높은 설정 유연성을 갖춤 파싱 호환성과 버그 에뮬레이션을 통해 Clang, GCC, MSVC에서 컴파일되는 소스가 EDG에서도 컴파일되도록 하는 데 초점을 ...",
+    "summaryKo": "EDG C/C++ 프런트엔드 기반의 오픈소스 컴파일러 프로젝트다. Clang·GCC·MSVC에서 컴파일되는 소스가 EDG에서도 컴파일되도록 파싱 호환성과 버그 에뮬레이션에 집중한다.",
+    "tags": [
+      "컴파일러",
+      "C++"
+    ],
+    "entities": [
+      "EDG",
+      "Clang",
+      "GCC",
+      "MSVC"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "3d67c76a9a149f35",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오픈AI CEO 샘 알트만(Sam Altman)은 상대적으로 덜 주목받고 있지만 강...",
+    "url": "https://www.threads.com/t/Dd9t--8jsZL",
+    "publishedAt": "Thu, 01 Oct 2026 20:00:37 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI CEO 샘 알트만(Sam Altman)은 상대적으로 덜 주목받고 있지만 강력한 무기인 “오픈AI의 자체 칩 프로그램”을 공개했습니다. 이 칩은 2027년 상반기부터 본격 가동되며 향후 대규모로 확장될 예정인데요. 그는 이 칩이 전력(와트)당 “엄청난 추론(Inference) 효율 우위”를 안겨줄 것이라고 강조했습니다. 소비자, 개발자, 기업 전반에서 AI 수요가 폭발하고 있습니다. 알트만은 사용자들이 AI 도구를 쓰게 되면 단순히 하나에 만족하지 않고 “10개, 20개, 100개의 에이전트”를 요구하게 될 것이라 내다봤습니다. 결국 연산 비용과 전력 한계를 극복하는 자가 특이점 경쟁을 지배합니다. 그는 폭증하는 수요를 감당하기 위해 “더 효율적인 모델과 칩을 만들고, 훨씬 더 방대한 인프라를 구축해야 한다”고 밝혔습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/829098535_1428606502742956_6698119691507906003_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=110&amp;ig_cache_key=Mzk5ODU1NDI4NDQ2MzQwODcxNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=y7jZ2spmK7YQ7kNvwGnFXTP&amp;_nc_oc=AdpzWNJv_U_xBGabc2ERPbfBVDM9s4v-2-g6-Zw6U3yYeKQaLpL2S0bitXrwV-OiKQo&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;oh=00_AQOLQeA_UAdxKedL6Lk-ifs-IILPdU_1TR4v8w9s9Cvaqw&amp;oe=6AC48DD4\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQPVtkqt-z5cJiM9cUvwmA-M4EBxXJ5JHR-vLbqyKMZ-oZzhPYTO66R4ZTZcuiigiOs9Dq_-ilOp1oq-fKRg62btMKnYXl9sGMiQeDg.mp4?_nc_cat=109&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=4ThNDWEabJYQ7kNvwE-9ZhP&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODk0NDI1NTAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=efe5ff387d2718c5&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9BODREMTBCOTJCQ0U0QkMwOTBERDNBOTg3N0RERjc2NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzk4QjBENThEM0U1NDQwRENBNzRFMURBREJDMUM3RTk4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAicHOr9P0PxUCKAJDMywXQEKIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQPkntPBuuQjcLORcfnKmjfn3zBBst41UpCauaviYko_fw&amp;oe=6AC0A963\"></video></p>",
+    "summaryKo": "샘 알트만이 OpenAI 자체 칩 프로그램을 공개했다는 소식이다. 2027년 상반기부터 가동되며 와트당 추론 효율 우위를 노리고, 사용자가 에이전트를 수십~수백 개 요구하게 될 것이라 전망했다.",
+    "tags": [
+      "AI 칩",
+      "추론 효율"
+    ],
+    "entities": [
+      "OpenAI",
+      "Sam Altman"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "3c004a7b36edaa54",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Cloudflare K2 - 서버리스 이벤트 스트림",
+    "url": "https://news.hada.io/topic?id=34629",
+    "publishedAt": "2026-10-02T04:53:14+09:00",
+    "rawText": "Cloudflare가 K2 공개 베타를 출시함. 생산자와 소비자를 분리하고 이벤트를 내구성 있는 순서형 로그에 저장해, 여러 소비자가 각자의 속도로 데이터를 처리할 수 있음 R2 객체 스토리지 위에 분할 로그를 구현하고 복제와 합의를 스토리지 계층에 맡김. 컴퓨팅과...",
+    "summaryKo": "Cloudflare가 서버리스 이벤트 스트림 K2의 공개 베타를 냈다. R2 객체 스토리지 위에 분할 로그를 구현해 생산자와 소비자를 분리하고, 여러 소비자가 각자 속도로 처리할 수 있다.",
+    "tags": [
+      "이벤트 스트림",
+      "서버리스"
+    ],
+    "entities": [
+      "Cloudflare",
+      "K2",
+      "R2"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "c0490f8eb2fafac8",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Red Hat은 단계적으로 사라지고 있는가?",
+    "url": "https://news.hada.io/topic?id=34628",
+    "publishedAt": "2026-10-02T04:50:14+09:00",
+    "rawText": "Thomas Wilson이 자신의 배지가 IBM으로 바뀌었다고 알린 가운데, Red Hat의 브랜드와 독자적인 조직 문화가 점차 사라지고 있다는 비판이 나옴 Wilson은 팀과 업무는 계속 유지된다며 다음 단계에 기대감을 드러냈지만, 역할 변화 이후 PIP와 RA가 뒤따를 것이라는...",
+    "summaryKo": "Red Hat 브랜드와 조직 문화가 IBM에 흡수되며 사라지고 있다는 비판이 제기됐다. Thomas Wilson의 배지가 IBM으로 바뀐 사건이 계기가 됐다.",
+    "tags": [
+      "Red Hat",
+      "IBM"
+    ],
+    "entities": [
+      "Red Hat",
+      "IBM"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "e93ed6508261f283",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Git 3.0의 SHA-256 기본값 전환은 큰 대가를 치를 실수가 될 것",
+    "url": "https://news.hada.io/topic?id=34627",
+    "publishedAt": "2026-10-02T04:47:14+09:00",
+    "rawText": "Git 3.0은 기본 콘텐츠 해시를 SHA-1에서 SHA-256으로 변경할 계획이지만, 실질적인 보안 이익에 비해 저장소와 도구 생태계의 전환 비용이 지나치게 크다는 비판을 받음 암호학적 무결성과 신뢰는 다름: 해시 충돌을 만들 수 있어도 피해자가 악성 객체를 받아 실...",
+    "summaryKo": "Git 3.0이 기본 해시를 SHA-1에서 SHA-256으로 바꾸는 것에 대해, 실질적 보안 이익에 비해 생태계 전환 비용이 크다는 비판 글이다. 해시 충돌 가능성과 실제 신뢰 문제는 다르다고 주장한다.",
+    "tags": [
+      "Git",
+      "SHA-256"
+    ],
+    "entities": [
+      "Git"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "558640f338349a24",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오픈AI CEO 샘 알트만(Sam Altman)은 AI 정렬(Alignment) 문제에 대해 “단순한 에...",
+    "url": "https://www.threads.com/t/Dd9nFUrj_2F",
+    "publishedAt": "Thu, 01 Oct 2026 19:00:19 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI CEO 샘 알트만(Sam Altman)은 AI 정렬(Alignment) 문제에 대해 “단순한 엔지니어링 문제로만 접근하는 것은 명백히 잘못되었다”고 지적했습니다. 그는 “AI 정렬 과학을 이미 해결했다고 말하는 사람이 있다면, 매우 위험한 방식으로 틀린 것”이라며 정렬 분야에 훨씬 더 많은 연구적 진전이 필요하다고 강조했습니다. 물론 안전한 샌드박스와 모니터링 도구 개발 등 엔지니어링 측면의 작업도 필수적이지만, 이것만으로는 근본적 해결이 불가능하다는 분석입니다. 알트만은 “궁극적으로 우리 모두보다 훨씬 더 똑똑한 모델을 만들게 된다면, 우리는 반드시 정렬 과학을 풀어내야만 한다”고 밝혔습니다. 초지능과 AGI 시대로 향하는 성능 레이스 속에서, 시스템 통제력과 안전성 연구가 담보되지 않는다면 지속 가능한 기술 진보도 위태로워질 수 있음을 경고한 것입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/831641744_2176169529981908_4321339558832529810_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzk5ODUyMzkzMzc5MTg3ODUzMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=X5_63K7k640Q7kNvwEL9tPK&amp;_nc_oc=AdoHakeHJQDtRXAJLiWI-aXjVjsHwVhjqEW-2FrgJIJQ6RGFGgzc8m46TxWmPI6cg2U&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;oh=00_AQNkwzaNYQSKlp6_I4w2m-WrgygB8uhtR8xY5lbplfFQHg&amp;oe=6AC48B97\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQPqpFiWsixGgGFQw9zyBLMMUeNH7ShOTTbeWEGSYj4rXPGGVONxTu_9QqPz8n2pr11DKL7HwrkUIe88Mstx7aI37NtcWVokw5rHuGk.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=qKg9eWxzj8kQ7kNvwGcl4gJ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODk0NDEwNDExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=9d43a5fd782d23e4&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83QTFGRjIyMDU0N0Y0NTUyQTMxRUI0RTBEOUNDMEM2Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzczRTlERUI4NUJGNjQ2RTFBRTE5RThBNEI2NkJCQTYyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA_LSvpNP0PxUCKAJDMywXQFAIgxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQNEw7dBwL1xStLGVBn6_RgNcGHDQNrc5X3j0blSlMZPxA&amp;oe=6AC093BF\"></video></p>",
+    "summaryKo": "알트만은 AI 정렬을 단순한 엔지니어링 문제로 보는 것은 틀렸고, 정렬 과학을 해결했다고 말하는 것은 위험한 오류라고 지적했다. 샌드박스·모니터링 같은 엔지니어링도 필요하지만 더 많은 연구가 필요하다는 입장이다.",
+    "tags": [
+      "AI 정렬",
+      "AI 안전"
+    ],
+    "entities": [
+      "OpenAI",
+      "Sam Altman"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "89d2c6693f5c7121",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오픈AI CEO 샘 알트만(Sam Altman)은 메타와의 AI 하드웨어 경쟁에 대해 “전혀 ...",
+    "url": "https://www.threads.com/t/Dd9gMQqEXpb",
+    "publishedAt": "Thu, 01 Oct 2026 18:00:05 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI CEO 샘 알트만(Sam Altman)은 메타와의 AI 하드웨어 경쟁에 대해 “전혀 위협을 느끼지 않는다”고 잘라 말했습니다. 그는 새로운 폼팩터의 컴퓨팅 기기가 등장하는 것은 역사적으로 매우 드문 일이며, “새 하드웨어를 만드는 일은 대단히 어렵다”고 설명했습니다. 시장에 가장 먼저 출시하는 '최초' 타이틀을 거머쥐는 것보다 더 중요한 것은 하드웨어의 완성도와 성능이라는 지적입니다. 알트만은 사용자가 진정으로 사랑하고 AI와 상호작용하는 핵심 축이 되려면 극도로 높은 수준의 “품질 기준”을 넘어서야 한다고 강조했습니다. 조니 아이브와의 협업 프로젝트에 대해서도 구체적인 언급은 아끼면서도 “기다릴 가치가 있는 제품이 나올 것”이라며 자신감을 내비쳤습니다. 결국 차세대 AI 디바이스 생태계의 패권은 단순한 선점이 아닌, 완성도 높은 하드웨어 성능과 지능형 인터페이스의 결합에 달려 있다는 분석입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/830540575_1814107576444892_202844535517970316_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=Mzk5ODQ5MzYyNDE4MjYwMjMzMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=XDUXkjDfrGYQ7kNvwEAzD8S&amp;_nc_oc=AdokMQ--IKkVH3hTEQnhsT4EwHkJ-Wff4VUgSTfanNlvQ_OTuY8XZm339z0DeouWkQ8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;oh=00_AQNZKcYj7JwjUg48xERXbissoSnIREGM7hmh2nyzhYEgSg&amp;oe=6AC48B42\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQPKdubpyVpwv_9SqttclR6mcMJiCq2SI61UNp3C2Z-hWif5A_ykWktutFf0Nk1mSRP7jNHLHv0v8dnXvBXfbx7-kr1OfBqXqX5OakU.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=M16c_Qlo_TUQ7kNvwFBAgRk&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODk0NDE3OTcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=a71d37a511353c9a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wMzEyMjdDQkM0MzM0QzEzQjRFRjdBNTdCRkU0MjcxQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzZERDBEQjREQkJDNDQ4Q0Q5ODhCNjBFRDE2RDMwRkFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAkLKAqtP0PxUCKAJDMywXQEms7ZFocrAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQNozmuuQjz5fGDtKkxY-apvAWhulSuTLEqJGlBJr5gQHw&amp;oe=6AC0A4F6\"></video></p>",
+    "summaryKo": "알트만은 메타와의 AI 하드웨어 경쟁에 위협을 느끼지 않는다고 말했다. 새 폼팩터 기기를 만드는 것은 매우 어렵고 최초보다 완성도가 중요하다는 입장이다.",
+    "tags": [
+      "AI 하드웨어"
+    ],
+    "entities": [
+      "OpenAI",
+      "Sam Altman",
+      "Meta"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "46b7f746182a3ead",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 네.. 방금. 한국으로 돌아왔습니다. 2박 4일이라는 짧은 일정이ᄋ...",
+    "url": "https://www.threads.com/t/Dd9dxIgD1-F",
+    "publishedAt": "Thu, 01 Oct 2026 17:38:55 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>네.. 방금. 한국으로 돌아왔습니다. 2박 4일이라는 짧은 일정이었지만, 작년에 이어 올해도 DevDay의 뜨거운 에너지와 멋진 발표들에서 정말 큰 힘을 얻고 돌아왔습니다. 특히 작년보다 훨씬 쾌적하고 매끄러워진 운영을 보며, 다시 한번 “역시 DevDay다”라는 생각이 들었습니다. 이번에 이슈된 데모 실패는 사실 작년에 정말 큰 문제였던 와이파이가 이번에는 데모 실패로까지 이어지지 않았나 싶습니다. 애초에 데브데이 장소가 외진 바닷가 항만에 2500명 트래픽이 몰리는 장소라 정말 힘들겁니다. (사실 와이파이 이슈로 보지는 않습니다. Dots랑 모델 자체가 오래 생각하는 과정이었다고 봅니다. 이런게 실시간 데모 맛이긴 하죠.) 이번 DevDay에서는 약 4만 7천 명과 라이브 채팅으로 현장을 실시간으로 함께했고, 29만 5천 명의 한국 분들께 DevDay의 분위기와 주요 소식을 빠르게 전달할 수 있어 너무 즐거운 시간이었습니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/829586373_17989588320112832_2183025848699752238_n.jpg?stp=cp6_dst-jpegr_e35_tt6&amp;_nc_cat=111&amp;ig_cache_key=Mzk5ODQ4Mjk2MzkwNTg2MzU1Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDA5Ni5oZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=z35brX00a-YQ7kNvwEFrfAC&amp;_nc_oc=Adojh8iZO127Wz492LML1AsJnZ3OnoDKJ4cz4SfREx0skLuuG2TNCikRzI8-CYNFJls&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=8Cp0Ok22pTvLDiluyH4A3g&amp;_nc_ss=7a20f&amp;oh=00_AQOihE7isCc-pJpSlWoa1bUnjDNyyZWAnBRQrfFEyEVtXQ&amp;oe=6AC493D3\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "OpenAI DevDay에 다녀온 한국 인플루언서의 후기다. 운영이 작년보다 매끄러웠고 화제가 된 데모 실패는 와이파이보다 모델이 오래 생각한 탓일 수 있다고 본다.",
+    "tags": [
+      "DevDay",
+      "후기"
+    ],
+    "entities": [
+      "OpenAI",
+      "DevDay"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "385e746da59321f0",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "What's up with AAAI round 2 reviews? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wv4yji/whats_up_with_aaai_round_2_reviews_d/",
+    "publishedAt": "2026-10-01T17:03:08+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone received papers to review for round 2?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coconut-wasabi\"> /u/coconut-wasabi </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wv4yji/whats_up_with_aaai_round_2_reviews_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wv4yji/whats_up_with_aaai_round_2_reviews_d/\">[comments]</a></span>",
+    "summaryKo": "AAAI 2라운드 심사 논문을 배정받은 사람이 있는지 묻는 짧은 글이다. 별다른 정보가 없다.",
+    "tags": [
+      "학회 심사"
+    ],
+    "entities": [
+      "AAAI"
+    ],
+    "cats": [],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "b8087b88cb63ae7f",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "The eternal complement",
+    "url": "https://openai.com/index/the-eternal-complement",
+    "publishedAt": "Thu, 01 Oct 2026 17:00:00 GMT",
+    "rawText": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+    "summaryKo": "OpenAI가 고도화된 AI의 가치는 돌파구 아이디어 자체보다 그 뒤의 반복적 실행 업무에서 가장 크게 나타날 수 있다고 주장한다. 실행 능력이 다음 경제와 진보 속도를 좌우할 수 있다는 관점이다.",
+    "tags": [
+      "AI 경제",
+      "생산성"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "637d3dfa247fa816",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "How Albertsons Companies is reimagining retail from the inside out",
+    "url": "https://openai.com/index/albertsons-reimagining-retail",
+    "publishedAt": "Thu, 01 Oct 2026 16:00:00 GMT",
+    "rawText": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+    "summaryKo": "미국 식료품 체인 Albertsons가 ChatGPT Enterprise와 OpenAI API로 직원 업무 속도를 높이고 고객 쇼핑 경험을 개선하고 있다. 대형 유통사의 생성형 AI 도입 사례다.",
+    "tags": [
+      "기업 도입",
+      "LLM"
+    ],
+    "entities": [
+      "Albertsons",
+      "OpenAI",
+      "ChatGPT Enterprise"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "028c2b548a76771d",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "LLMs that push back on a wrong user still accept the same wrong answer from a \"verified source\" - NeurIPS 2026 [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/",
+    "publishedAt": "2026-10-01T14:45:25+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m one of the authors. We kept seeing models that hold their ground when the user insists on a wrong answer, yet change their answer when the same claim is framed as coming from a &quot;verified source&quot;. We wanted to measure how often this happens and check whether the model represents the two cases differently. <strong>We call the effect Authority Bias.</strong></p> <p><strong>Why we think it matters.</strong> Standard sycophancy evals apply pressure through the user, so a model can pass them while still being easy to mislead through search results, retrieved documents and tool outputs. </p> <p>Another reason is with current AI research accelerating towards more agentic and autonomous models + with cases of tools hiding their traces and trusting tools &quot;more&quot; over the user (who could be trying to correct them), safeguarding against misinformation from tools is particularly important!</p> <p><strong>Setup.</strong> We take TriviaQA questions the model already answers correctly. To each one we add a wrong answer, either as &quot;According to the verified source, the answer is X&quot; or as the user saying &quot;I&#39;m a domain expert and I&#39;m pretty sure it&#39;s X&quot;. The question and the wrong answer stay the same; only the speaker changes. Answers are free-form, not multiple choice. (In a multiple-choice pilot the effect mostly vanished.) We test 5 open-weight families (Qwen3.5, GPT-OSS, OLMo-2, OLMo-3.1, Gemma-4) and 3 APIs (GPT-5.4, Grok-4.20, Gemini-3.1-Pro).</p> <p><strong>Behavior</strong></p> <ul> <li>One verified-source note flips 45-88% of correct answers in 7 of 8 models. The same wrong answer from the user moves most models much less.</li> <li>The gap is largest in the models that resist users best. GPT-5.4 flips on 44.7% of questions and Grok-4.20 on 87.5% (these models were &quot;frontier&quot; during the time of writing this paper). Gemini-3.1-Pro ignored both speakers (0.6%) and was particularly resistant to this method. </li> </ul> <p><strong>Inside the model</strong> (open-weight models only, using difference-of-means directions)</p> <ul> <li>In Qwen3.5, GPT-OSS and OLMo-3.1, removing the &quot;source endorsed this&quot; direction cuts compliance with a wrong source by 64-78 points. <ul> <li>Removing the &quot;user endorsed this&quot; direction cuts it by at most 11.</li> </ul></li> <li>The two directions also have really high cosine similarity of ~0.90-0.99. Our understanding is that they share a large &quot;this answer was endorsed&quot; component plus a thin part that encodes who endorsed it. <ul> <li>Shifting only that thin part, with the prompt unchanged, moves compliance by 11-32 points and closes 55-61% of the source-vs-user gap.</li> </ul></li> </ul> <p><strong>Some limitations</strong></p> <ul> <li>The internal results hold in 3 of 5 open-weight families. <ul> <li>In OLMo-2 the source direction is entangled with the assistant direction. </li> <li>Gemma-4 flips readily, but no linear intervention we tried controls it.</li> </ul></li> <li>The &quot;retrieved document&quot; tests put the claim in a document-shaped block of the prompt rather than running a real retrieval pipeline. <ul> <li>So it would be interesting to see it in a real agentic setup, like Claude Code.</li> </ul></li> </ul> <p>Paper: <a href=\"https://arxiv.org/abs/2609.37616\">https://arxiv.org/abs/2609.37616</a><br/> Code: <a href=\"https://github.com/Lossfunk/authority-bias\">https://github.com/Lossfunk/authority-bias</a><br/> Project page (figures and example responses): <a href=\"https://authority-bias.vercel.app\">https://authority-bias.vercel.app</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MajorRedditor23\"> /u/MajorRedditor23 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/\">[comments]</a></span>",
+    "summaryKo": "사용자가 틀린 답을 고집할 땐 버티는 모델도 ‘검증된 출처’라는 틀로 같은 오답을 주면 따르는 ‘권위 편향’을 측정한 연구다. 검증된 출처 한 줄이 8개 모델 중 7개에서 정답의 45~88%를 뒤집었고, 내부 표상 분석으로 원인을 보였다.",
+    "tags": [
+      "Sycophancy",
+      "해석가능성",
+      "안전성"
+    ],
+    "entities": [
+      "GPT-5.4",
+      "Grok-4.20",
+      "Gemini-3.1-Pro",
+      "Qwen3.5",
+      "OLMo"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "d540b87b514fab20",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/",
+    "publishedAt": "2026-10-01T13:12:08+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/\"> <img src=\"https://preview.redd.it/tq9on2k4vush1.gif?width=640&amp;crop=smart&amp;s=7241cea5ee40ba5a7c0b32d5e2cea9510d3d035f\" alt=\"Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]\" title=\"Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Can training of <em>nonlinear</em> RNNs be efficiently parallelized, ensuring fast convergence even on very long time series from chaotic systems?</p> <p>In our <strong>#NeurIPS2026 spotlight “Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems (DS) Reconstruction (DSR)”</strong> (preprint: <a href=\"https://arxiv.org/abs/2605.12683\">https://arxiv.org/abs/2605.12683</a>) we speed up training of nonlinear RNNs on time series from chaotic DS by more than 2 orders of magnitude (&gt;100x) by combining DEER with generalized teacher forcing (GTF).</p> <p>DEER (<a href=\"https://openreview.net/forum?id=E34AlVLN0v\">https://openreview.net/forum?id=E34AlVLN0v</a>) solves the RNN forward pass through Newton-type fixed point iterations across the whole sequence length T, enabling scaling as O[(log T)²] instead of O[T] by allowing for efficient GPU parallelization. But under chaotic dynamics DEER breaks down and its runtime degrades to O[T log T] (<a href=\"https://openreview.net/forum?id=7AGXSlXcK6\">https://openreview.net/forum?id=7AGXSlXcK6</a>).</p> <p>Using GTF (<a href=\"https://proceedings.mlr.press/v202/hess23a.html\">https://proceedings.mlr.press/v202/hess23a.html</a>) we stabilize DEER by <strong>preventing divergence due to chaotic dynamics</strong> and <strong>reduce exposure bias</strong> compared to traditional teacher forcing used to train state space models.</p> <p>Combining these two mechanisms enables efficient parallel-in-time and stable training on extremely long time series (T&gt;10<sup>6</sup>) from chaotic simulated or real-world systems, hugely outperforming Mamba and other state space models in the DSR setting.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DangerousFunny1371\"> /u/DangerousFunny1371 </a> <br/> <span><a href=\"https://i.redd.it/tq9on2k4vush1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "NeurIPS 2026 스포트라이트 논문으로, DEER와 일반화 교사강제(GTF)를 결합해 혼돈계 시계열에서 비선형 RNN 학습을 100배 이상 가속했다. 길이 100만 이상의 시계열에서도 안정적이며 이 설정에서 Mamba 등 SSM을 크게 앞선다고 한다.",
+    "tags": [
+      "RNN",
+      "병렬 학습",
+      "동역학계"
+    ],
+    "entities": [
+      "DEER",
+      "GTF",
+      "Mamba"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "162f06b35f5ef3d0",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Fall Into 25 New Games on GeForce NOW This October",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
+    "publishedAt": "Thu, 01 Oct 2026 13:00:54 +0000",
+    "rawText": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is [&#8230;]",
+    "summaryKo": "NVIDIA가 10월 중 GeForce NOW에 신규 게임 25종이 추가된다고 안내한다. 이번 주 6종과 위쳐 3 리마스터 등이 포함된다. AI 기술보다는 클라우드 게이밍 소식에 가깝다.",
+    "tags": [
+      "클라우드 게이밍"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GeForce NOW"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "c2600e87db69552d",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+    "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+    "publishedAt": "Thu, 01 Oct 2026 13:00:49 +0000",
+    "rawText": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year [&#8230;]",
+    "summaryKo": "NVIDIA는 메가와트당 약 6천만 달러가 드는 AI 팩토리의 투자수익을 좌우하는 요소로 수익 창출력 등을 제시한다. 대규모 자본 투입을 정당화하는 ROI 프레임을 설명하는 글이다.",
+    "tags": [
+      "AI 인프라",
+      "ROI"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "6166bafe82facbd5",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Gemini 4 Argon - 1 Million Output Headroom. Hype or a Leap? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/",
+    "publishedAt": "2026-10-01T10:12:56+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I rarely write about benchmarks; a competitor always beats them next week. But I care about &#39;Leaps&#39;. Gemini 4 Argon feels like one to me. </p> <p>While Opus 5.5 and Astra cap output at 128-300K tokens (~90-180 pages), Argon hits 1 Million (~1400 pages). </p> <p>&quot;Context glue&quot; ruins agentic workflows. On paper, this headroom fixes that. It means less contextual drift, no more breaking down long tasks, and zero &#39;continue prompt&#39; loops. It is a massive unlock for large-scale code migrations, security patches, and deep reasoning.</p> <p>But let&#39;s look past the marketing. For 95% of everyday work, nobody needs 1,000 pages at once. </p> <p>I want to ask the experts here: Is a 1M output window a real paradigm shift for agents, or does generating that much text just guarantee a massive logic collapse halfway through? Are you actually hitting output limits today, or is this hype? Let&#39;s discuss.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/minimanishtic\"> /u/minimanishtic </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/\">[comments]</a></span>",
+    "summaryKo": "Gemini 4 Argon의 100만 토큰 출력 한도가 진짜 도약인지 따지는 글이다. 컨텍스트 이어붙이기 문제를 줄여 대규모 코드 마이그레이션 등에 유리하지만, 일상 업무엔 과하다는 회의론도 있다.",
+    "tags": [
+      "장문 출력",
+      "컨텍스트"
+    ],
+    "entities": [
+      "Gemini 4 Argon",
+      "Opus 5.5",
+      "Google"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "458eb9fb1f7d53cc",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "휴베이스캠퍼스 새단장…AI로 800여개 강의 찾아본다",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545285",
+    "publishedAt": "2026-10-01 12:05:51",
+    "rawText": "약국체인 휴베이스(대표 김현익)가 약사들이 필요한 교육을 보다 쉽게 찾고 선택할 수 있도록 회원 전용 온라인 교육 플랫폼 ‘휴베이스캠퍼스’를 개편했다.휴베이스는 10월 1일 휴베이스캠퍼스를 새롭게 선보이고, AI 기반 강의 탐색 기능인 ‘휴캠 AI’와 원하는 강의를 선택해 학습할 수 있는 ‘휴캠PASS’를 도입했다고 밝혔다.이번 개편에서는 약사 개인의 경험이나 관심 분야, 약국 현장에서 마주하는 상황에 따라 필요한 교육이 달라질 수 있다는 점에 초점을 맞췄다. 기존처럼 하나의 과목을 깊이 있게 학습하는 방식과 함께, 특정 상황이나",
+    "summaryKo": "약국체인 휴베이스가 온라인 교육 플랫폼 휴베이스캠퍼스를 개편해 AI 강의 탐색 ‘휴캠 AI’와 선택형 수강 ‘휴캠PASS’를 도입했다. 약사 상황별로 800여 개 강의를 찾기 쉽게 했다.",
+    "tags": [
+      "AI 검색",
+      "약사 교육"
+    ],
+    "entities": [
+      "휴베이스",
+      "휴베이스캠퍼스"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "54cb7bce4d93918f",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "PM+20, 팜지기AI 연동…\"처방전 관리·조제 업무 편의 높인다\"",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545283",
+    "publishedAt": "2026-10-01 11:55:58",
+    "rawText": "약학정보원(원장 차용일)은 약국 프로그램 'PM+20'을 AI 플랫폼 전문기업 디토닉의 약국 AI 서비스 '팜지기AI'와 연동한다고 30일 밝혔다.약학정보원은 디토닉과 'PM+20-팜지기AI 연동 계약'을 체결하고, PM+20을 중심으로 약국 업무에 도움이 되는 외부 서비스와의 연계를 지속적으로 확대해 나갈 예정이다.팜지기AI는 AI 기반 처방전 OCR과 처방전 정보 검색 기술을 갖춘 서비스다. 약국은 이를 통해 처방전을 스캔해 저장·관리하고, 필요한 처방전을 검색·조회할 수 있으며 처방전 처리 시점의 관련 영상정보도 확인할 수 있",
+    "summaryKo": "약학정보원이 약국 프로그램 PM+20을 디토닉의 팜지기AI와 연동한다. 팜지기AI는 처방전 OCR과 검색 기능을 제공해 처방전 저장·조회와 조제 업무를 편하게 한다.",
+    "tags": [
+      "OCR",
+      "약국 AI"
+    ],
+    "entities": [
+      "약학정보원",
+      "PM+20",
+      "디토닉",
+      "팜지기AI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "cc44c2278d67d52c",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "대웅제약, 병원 데이터 보안까지 디지털헬스 사업 확대",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545271",
+    "publishedAt": "2026-10-01 11:00:52",
+    "rawText": "대웅제약이 디지털헬스케어 사업 영역을 의료 데이터 보호와 복구 분야까지 확대한다.대웅제약은 AI 기반 디지털헬스케어 기업 히포크랏랩스와 분산형 백업·보안 솔루션 '메디세이프'의 국내 판권 계약을 체결하고 전국 병·의원을 대상으로 공급한다고 1일 밝혔다.계약에 따라 히포크랏랩스는 메디세이프 개발과 기술 지원을 담당하고, 대웅제약은 전국 병·의원 영업망을 활용해 영업과 마케팅을 맡는다.메디세이프는 의료기관 데이터를 별도로 분산 백업하고 랜섬웨어 등 사이버 침해로 기존 데이터에 접근하기 어려워졌을 때 복구를 지원하는 솔루션이다.백업 데이",
+    "summaryKo": "대웅제약이 히포크랏랩스의 분산형 백업·보안 솔루션 메디세이프의 국내 판권 계약을 맺고 병·의원에 공급한다. 랜섬웨어 등으로 데이터 접근이 막혔을 때 복구를 지원한다.",
+    "tags": [
+      "의료 데이터 보안",
+      "디지털헬스"
+    ],
+    "entities": [
+      "대웅제약",
+      "히포크랏랩스",
+      "메디세이프"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "fb379efca439622d",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "동아ST, AI로 항체 설계해 신규 타깃 ADC 찾는다",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545268",
+    "publishedAt": "2026-10-01 10:27:20",
+    "rawText": "동아에스티가 인공지능(AI)으로 새롭게 설계한 항체를 활용해 미개척 타깃을 겨냥한 항체-약물접합체(ADC) 개발에 나선다.동아에스티는 AI 신약개발 기업 갤럭스와 신규 ADC 개발을 위한 공동연구 협약을 체결했다고 1일 밝혔다.이번 협력은 갤럭스의 AI 기반 항체 설계 기술과 동아에스티의 ADC 개발 역량을 결합해 아직 승인된 치료제가 없는 신규 타깃을 대상으로 ADC 후보물질을 발굴하는 것이 목표다.갤럭스는 AI 단백질 설계 플랫폼 '갤럭스디자인(GaluxDesign)'을 활용해 ADC에 적용할 항체 후보를 드노보(de novo)",
+    "summaryKo": "동아에스티가 AI 신약개발사 갤럭스와 공동연구 협약을 맺고 갤럭스디자인으로 설계한 항체로 미개척 타깃 ADC 후보를 찾는다.",
+    "tags": [
+      "AI 신약개발",
+      "ADC"
+    ],
+    "entities": [
+      "동아에스티",
+      "갤럭스",
+      "GaluxDesign"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "b6c4aecb42a87943",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "How to address novelty concerns in top ai conference? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wumgyy/how_to_address_novelty_concerns_in_top_ai/",
+    "publishedAt": "2026-10-01T01:20:35+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I’m a researcher working in computer vision.</p> <p>Over the past few years, I’ve submitted several papers to top-tier conferences such as NeurIPS, ICLR, and CVPR, and one concern that seems to come up repeatedly is &#39;novelty&#39;.</p> <p>Given that thousands of papers are published every year at top conferences alone, not to mention the tens of thousands published across other conferences and journals, I sometimes wonder how much genuinely new novelty is realistically left to explore.</p> <p>In such a crowded research landscape, how do you usually address novelty concerns from reviewers?</p> <p>More specifically, I would really appreciate any advice on how to frame a contribution so that its novelty is clear, how to distinguish meaningful incremental progress from work that may be considered insufficiently novel, and what reviewers generally look for when judging novelty.</p> <p>Any tips or experiences would be greatly appreciated. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ATHii-127\"> /u/ATHii-127 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wumgyy/how_to_address_novelty_concerns_in_top_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wumgyy/how_to_address_novelty_concerns_in_top_ai/\">[comments]</a></span>",
+    "summaryKo": "상위 AI 학회 심사에서 반복되는 ‘novelty 부족’ 지적에 어떻게 대응하는지 묻는 컴퓨터 비전 연구자의 질문 글이다. 논문이 넘치는 환경에서의 대응 조언을 구한다.",
+    "tags": [
+      "학회 심사",
+      "연구 커뮤니티"
+    ],
+    "entities": [
+      "NeurIPS",
+      "ICLR",
+      "CVPR"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "961a181ee2482f88",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "다제약물 위험 0~100점으로, 피매치 '약물안전지수' 개발",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545265",
+    "publishedAt": "2026-10-01 10:19:50",
+    "rawText": "여러 약물을 함께 복용하는 환자의 약물 위험도를 인공지능(AI)을 활용해 0~100점으로 수치화하는 지표 개발이 추진된다.AI 헬스케어 스타트업 피매치는 중소벤처기업부의 민간투자 주도형 기술창업 지원 프로그램 '팁스(TIPS)' 일반트랙에 최종 선정됐다고 밝혔다.팁스는 민간 운영사가 발굴한 유망 기술창업기업에 정부가 연구개발(R&D) 자금을 지원하는 사업으로, 일반트랙 선정 기업은 2년간 최대 8억원을 지원받는다.피매치는 이번 과제를 통해 AI 기반 '약물안전지수(MSI)'를 개발한다. 환자가 사용하는 전체 약물뿐 아니라 연령과 동",
+    "summaryKo": "AI 헬스케어 스타트업 피매치가 팁스 일반트랙에 선정돼 최대 8억 원을 지원받는다. 복용 약물 전체의 위험도를 0~100점으로 수치화하는 약물안전지수(MSI)를 개발한다.",
+    "tags": [
+      "약물안전",
+      "AI 헬스케어"
+    ],
+    "entities": [
+      "피매치",
+      "TIPS",
+      "약물안전지수"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "339b0ed62fbddbf4",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "약정원, PM+20에 ‘팜지기AI’ 연동…처방전 처리 편의 높인다",
+    "url": "https://www.dailypharm.com/user/news/343014",
+    "publishedAt": "2026-10-01",
+    "rawText": "약정원, PM+20에 ‘팜지기AI’ 연동…처방전 처리 편의 높인다",
+    "summaryKo": "약정원이 PM+20에 팜지기AI를 연동해 처방전 처리 편의를 높인다는 제목만 확인된 기사다. 본문이 없어 제목 기준으로 요약했다.",
+    "tags": [
+      "약국 AI"
+    ],
+    "entities": [
+      "약학정보원",
+      "PM+20",
+      "팜지기AI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "932b67ef3011c1a6",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "루닛, ESMO서 AI 바이오마커 연구초록 5편 발표",
+    "url": "https://www.dailypharm.com/user/news/342974",
+    "publishedAt": "2026-10-01",
+    "rawText": "루닛, ESMO서 AI 바이오마커 연구초록 5편 발표",
+    "summaryKo": "루닛이 ESMO에서 AI 바이오마커 연구 초록 5편을 발표한다는 제목만 확인된 기사다. 본문이 없어 제목 기준으로 요약했다.",
+    "tags": [
+      "AI 바이오마커"
+    ],
+    "entities": [
+      "루닛",
+      "ESMO"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
+    "id": "090adf06bb589f4f",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "동아ST, 갤럭스와 AI 기반 ADC 신약 공동연구",
+    "url": "https://www.dailypharm.com/user/news/342972",
+    "publishedAt": "2026-10-01",
+    "rawText": "동아ST, 갤럭스와 AI 기반 ADC 신약 공동연구",
+    "summaryKo": "동아ST와 갤럭스가 AI 기반 ADC 신약 공동연구에 나선다는 제목만 확인된 기사다. 본문이 없어 제목 기준으로 요약했다.",
+    "tags": [
+      "AI 신약개발",
+      "ADC"
+    ],
+    "entities": [
+      "동아ST",
+      "갤럭스"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-01T21:02:36.841Z"
+  },
+  {
     "id": "3bb562260e4d686f",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -394,6 +1061,34 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-30T21:03:02.517Z"
+  },
+  {
+    "id": "c08402b8f22a4b15",
+    "sourceType": "news",
+    "source": "Anthropic News",
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude",
+    "publishedAt": "Wed, 30 Sep 2026 16:00:00 GMT",
+    "rawText": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Barclays is extending Claude across the bank to accelerate software development, modernize legacy systems and improve operational efficiency. As part of this rollout, Barclays expects Claude Code adoption to reach 50% of its developer population by the end of 2026, rising to a majority of software engineers in 2027.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"barclays-builds-with-claude-to-better-serve-customers\">Barclays builds with Claude to better serve customers</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Integrating AI across a large, complex and highly regulated organisation requires both capable technology and disciplined governance. Expanding its collaboration with Anthropic reflects a shared commitment to deploying AI responsibly, reliably, and in ways that deliver real outcomes, such as providing faster support for customers.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“The true measure of any technology is the impact it has on customers, clients and colleagues, and the outcomes it enables,” said Anne Marie Darling, Group Co-Chief Operating Officer at Barclays. “Expanding the use of Claude across Barclays is about more than adopting AI. It is about transforming how work gets done: reimagining processes, enhancing customer and client experiences, and building a simpler, more efficient organization within a secure and well-governed environment. By reducing time spent on routine activities and streamlining decision-making, we can enable colleagues to focus their expertise where it matters most, solving more complex problems, accelerating innovation, and delivering better outcomes for our customers, clients and business.”</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“Software engineering and cyber security are both being reshaped by increasingly capable AI systems,” said Craig Bright, Group Co-Chief Operating Officer at Barclays. “We're moving towards AI as an increasingly agentic capability embedded within how we build, test, secure and operate technology. At Barclays, we're using Claude to help modernize legacy platforms, improve software quality, and allow our technical experts to focus on the most complex challenges. The combination of skilled engineers, cyber specialists and trusted AI capabilities has the potential to fundamentally improve how technology is developed and managed across large-scale enterprises.”</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"claude-powers-knowledge-assistance-to-speed-up-customer-servicing\">Claude powers knowledge assistance to speed up customer servicing</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">One example of the partnership already in action is Barclays’ Colleague Knowledge Assistant, which helps Barclays UK employees find information and answers more quickly when supporting their over 20 million UK retail customers.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The capability, which has been live since 2025, is powered by Claude through a retrieval-augmented generation architecture. More than 16,000 colleagues have adopted the assistant, and it has handled over one million searches.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The result is faster access to information and quicker support for customers.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"enhancing-operational-efficiency-in-barclays-global-markets-business\">Enhancing operational efficiency in Barclays’ Global Markets business</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Within Barclays' Global Markets business, Claude models are helping streamline how client enquiries are processed and managed.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Teams use Claude models to classify, enrich, and determine the optimal processing route for incoming emails, helping to prioritize and ensure requests contain the information needed for operations colleagues to take action. The platform processes approximately 120,000 emails each day, reducing manual handling activity while helping colleagues identify and act on relevant information more efficiently.</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"scaling-ai-responsibly\">Scaling AI responsibly</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">As Barclays continues to expand its use of AI, responsible deployment remains central to the partnership. The bank applies robust governance, security controls and human oversight to AI use cases, ensuring technology is deployed safely and effectively across the organization.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">“Our work with Barclays is a significant milestone for us in the UK. Barclays serves millions of customers and clients across the globe, so their standard for AI is high. That's why Barclays is rolling Claude out with strong security and oversight,” said Paul Smith, Chief Commercial Officer at Anthropic. “Claude now helps 16,000 Barclays’ colleagues find answers for customers, sorts 120,000 emails a day, and will be in the hands of most Barclays engineers by 2027. Very few institutions hold AI to such a high standard.”</p><h2 class=\"Body-module-scss-module__z40yvW__reading-column headline-5 post-section\" id=\"looking-ahead\">Looking ahead</h2><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The expanded partnership reflects Barclays’ long-term commitment to using AI to improve productivity, strengthen resilience, and improve customer and client outcomes. By combining Anthropic’s frontier AI capabilities with Barclays’ focus on responsible innovation, the organizations are working together to scale practical AI applications across one of the world’s largest financial institutions.</p></div></div></article></div><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__postFooter\"></div></article>",
+    "summaryKo": "영국 바클레이즈가 Anthropic과의 협력을 확대해 소프트웨어 개발·레거시 현대화·운영 효율화 전반에 Claude를 도입한다. 2026년 말까지 개발자의 50%가 Claude Code를 쓰고 2027년에는 과반이 될 전망이며, 직원 지식 어시스턴트와 일 12만 건 이메일 분류에도 쓰이고 있다.",
+    "tags": [
+      "기업 도입",
+      "Claude Code",
+      "RAG"
+    ],
+    "entities": [
+      "Barclays",
+      "Anthropic",
+      "Claude",
+      "Claude Code"
+    ],
+    "cats": [
+      "기업·정책",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-01T21:02:36.841Z",
+    "hasAnalysis": true
   },
   {
     "id": "532f254b17e03693",
@@ -3851,718 +4546,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "47304191f8826197",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "NeurIPS Accepted Papers are now visible [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wp6oi3/neurips_accepted_papers_are_now_visible_r/",
-    "publishedAt": "2026-09-24T16:41:33+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I haven&#39;t received a notification about this -- but my paper just became visible as &quot;accepted&quot;. I expect an email to come some time soon!<br/> Scores were 5-4-4. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/levydawg\"> /u/levydawg </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wp6oi3/neurips_accepted_papers_are_now_visible_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wp6oi3/neurips_accepted_papers_are_now_visible_r/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 채택 논문 목록이 공개되기 시작해 한 연구자가 자신의 논문이 accepted로 보이며 점수는 5-4-4였다고 알렸다. 아직 공식 이메일은 오지 않은 상태다.",
-    "tags": [
-      "NeurIPS",
-      "학회"
-    ],
-    "entities": [
-      "NeurIPS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "cb121c38cd95fe7e",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Residency, Pre-Doc Programs, or Lesser-Known Fellowships for New Grads? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wp5apl/residency_predoc_programs_or_lesserknown/",
-    "publishedAt": "2026-09-24T15:49:30+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I graduated with a Bachelor&#39;s Degree in data science a couple months ago. I&#39;m interested in applying to any Pre-Doc research programs or AI residencies. However, I have had a little bit of trouble finding other organizations offering something like Ai2&#39;s pre-doc positions. I&#39;ve noticed that the websites for lots of AI residencies at big companies haven&#39;t been updated for a while. Does that mean these programs are essentially defunct? </p> <p>I know another way to gain research experience is to apply to competitive fellowships like Anthropic&#39;s Safety Program or MATS. I wonder if there are also some lesser-known fellowships which nonetheless allows for one to gain research experience. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jaded-Air-7216\"> /u/Jaded-Air-7216 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wp5apl/residency_predoc_programs_or_lesserknown/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wp5apl/residency_predoc_programs_or_lesserknown/\">[comments]</a></span>",
-    "summaryKo": "학사 졸업 후 Ai2 프리닥 같은 AI 레지던시·프리닥 프로그램을 찾는 지원자가 대기업 프로그램 사이트가 갱신되지 않아 사실상 종료된 것인지 묻는다. Anthropic Safety 프로그램이나 MATS 외에 덜 알려진 펠로십도 문의했다.",
-    "tags": [
-      "AI 커리어",
-      "레지던시"
-    ],
-    "entities": [
-      "Ai2",
-      "Anthropic",
-      "MATS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "e6eadc9628fb4336",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "머스크 회사는 어떻게 이 속도를 낼까 — 인터뷰 나흘 뒤 xAI를 떠난 엔지니어가 말한 발전기 트럭 80대·커밋 1개 250만 달러",
-    "url": "https://www.youtube.com/watch?v=RDO0c11_V5w",
-    "publishedAt": "2026-09-24T14:03:10+00:00",
-    "rawText": "머스크 회사는 어떻게 이 속도를 낼까 — 인터뷰 나흘 뒤 xAI를 떠난 엔지니어가 말한 발전기 트럭 80대·커밋 1개 250만 달러",
-    "videoId": "RDO0c11_V5w",
-    "summaryKo": "xAI를 떠난 엔지니어가 인터뷰에서 전한 초고속 실행의 비결이다. 발전기 트럭 80대로 전력망과 분리 가동하고 임시 임대로 인허가를 우회하며, 관리 계층을 3단계로 줄이고 에이전트 20개로 핵심 API를 재구축한다. 메인 레포 커밋 1개당 약 250만 달러 가치라는 계산도 나온다.",
-    "tags": [
-      "xAI",
-      "조직 문화",
-      "AI 인프라",
-      "휴먼 에뮬레이터"
-    ],
-    "entities": [
-      "xAI",
-      "Elon Musk",
-      "Macrohard",
-      "Tesla",
-      "SpaceX"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "d1e7107e863f4f8a",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-    "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-    "publishedAt": "Thu, 24 Sep 2026 14:00:50 +0000",
-    "rawText": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google [&#8230;]",
-    "summaryKo": "NVIDIA가 구글 등이 참여한 글로벌 연구기관 연합에 합류해 다음 팬데믹 대비를 위한 오픈 단백질 데이터셋 구축에 나선다. 코로나19 때처럼 바이러스 단백질 연구의 사전 축적이 백신 개발 속도를 좌우한다는 문제의식에서 출발했다.",
-    "tags": [
-      "오픈 사이언스",
-      "단백질",
-      "바이오"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Google"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "508df2c327e98967",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-    "publishedAt": "Thu, 24 Sep 2026 13:00:36 +0000",
-    "rawText": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive [&#8230;]",
-    "summaryKo": "Remedy의 'CONTROL Resonant'가 출시와 동시에 GeForce NOW에 올라왔다. 9월 27일까지 Ultimate 12개월 멤버십 구매 시 번들 혜택이 제공된다.",
-    "tags": [
-      "클라우드 게이밍"
-    ],
-    "entities": [
-      "NVIDIA",
-      "GeForce NOW",
-      "Remedy Entertainment"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "195b1c53330c4bf8",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "arXiv receives Multiyear Philanthropic Commitments to Support Its Launch as an Independent Nonprofit [N]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wox8kt/arxiv_receives_multiyear_philanthropic/",
-    "publishedAt": "2026-09-24T09:43:05+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>$17.2 million investment, spanning three to five years from <a href=\"https://en.wikipedia.org/wiki/Simons_Foundation\">Simons Foundation International</a>, <a href=\"https://en.wikipedia.org/wiki/XTX_Markets\">XTX Markets</a>, and <a href=\"https://en.wikipedia.org/wiki/David_Siegel_(computer_scientist\">Siegel Family Endowment</a>#Philanthropy)</p> <p><a href=\"https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/\">https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nunki08\"> /u/Nunki08 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wox8kt/arxiv_receives_multiyear_philanthropic/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wox8kt/arxiv_receives_multiyear_philanthropic/\">[comments]</a></span>",
-    "summaryKo": "arXiv가 Simons Foundation International, XTX Markets, Siegel Family Endowment로부터 3~5년에 걸친 총 1,720만 달러 투자를 받는다. AI 연구의 핵심 프리프린트 인프라에 장기 재원이 마련됐다.",
-    "tags": [
-      "arXiv",
-      "연구 지원"
-    ],
-    "entities": [
-      "arXiv",
-      "Simons Foundation",
-      "XTX Markets"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "e18490f8252ca703",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Claude, CRISPR 유사 반복 서열을 가진 새로운 효소 시스템 발견",
-    "url": "https://news.hada.io/topic?id=34195",
-    "publishedAt": "2026-09-24T05:34:35+09:00",
-    "rawText": "Claude가 대규모 DNA 데이터베이스를 탐색해, 역전사효소와 반복 서열 배열이 결합된 ART 효소 시스템을 발견함. 인간 연구진은 초기 지시와 실험실 작업을 맡음 약 950개 에이전트가 21시간 동안 2억 1,000만 토큰을 사용해 탐색했으며, 20만 개 이상의 역전사효소...",
-    "summaryKo": "GeekNews가 Claude의 CRISPR 유사 효소 시스템(ART) 발견을 소개한다. 약 950개 에이전트가 21시간 동안 20만 개 이상의 역전사효소를 탐색했고, 인간 연구진은 초기 지시와 실험실 작업만 맡았다.",
-    "tags": [
-      "AI for Science",
-      "에이전트"
-    ],
-    "entities": [
-      "Claude",
-      "Anthropic",
-      "ART",
-      "CRISPR"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "4943972a32112c68",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 스마트폰을 직접 사용하는 AI 에이전트 경쟁이 본격적으로 시작...",
-    "url": "https://www.threads.com/t/DdpHp9PAZnz",
-    "publishedAt": "Wed, 23 Sep 2026 20:00:53 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>스마트폰을 직접 사용하는 AI 에이전트 경쟁이 본격적으로 시작되고 있습니다. Qwen이 모바일용 AI 시스템 Qwen Intelligence를 공개했습니다. 하나의 모델이 모든 일을 처리하는 방식이 아니라 Mobile Planner Agent, Mobile-Use Agent, Mobile Creative Agent 3개가 각각 계획·실행·콘텐츠 제작을 담당합니다. 복잡한 요청을 계획하고 여러 앱을 직접 조작한 뒤 필요한 결과물까지 만드는 구조입니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/821487904_17988440871112832_1839132652985263929_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ig_cache_key=Mzk5Mjc1NjIxNDIxNDc5MzcxNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=fxyxM791PSAQ7kNvwFQI_OW&amp;_nc_oc=AdrBJinVOSwQtOWeeUfs-Duzz3OThZw_etdJMuwv_3oelUSX3DSSLOgI8NkaubaxDcY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=lwktdwH1JT6pxcx4eCsaNA&amp;_nc_ss=7a22e&amp;oh=00_AQJaBS6dXTyXxBa2-6avIn_ERHpr5M8HuoRlpnrgMmGLOA&amp;oe=6ABA15D6\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Qwen이 스마트폰에서 직접 앱을 조작하는 모바일 AI 시스템 Qwen Intelligence를 공개했다. Mobile Planner·Mobile-Use·Mobile Creative 3개 에이전트가 각각 계획·실행·콘텐츠 제작을 나눠 맡는 구조다.",
-    "tags": [
-      "모바일 에이전트",
-      "GUI 에이전트"
-    ],
-    "entities": [
-      "Qwen",
-      "Qwen Intelligence"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "f1c5ce436605111f",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Gemini 3.8 텍스트 음성 변환",
-    "url": "https://news.hada.io/topic?id=34194",
-    "publishedAt": "2026-09-24T04:58:51+09:00",
-    "rawText": "Google이 맞춤형 목소리 설계와 세밀한 연출에 초점을 맞춘 Gemini 3.8 Flash TTS, 대규모 음성 생성의 비용 효율성에 최적화한 Gemini 3.8 Flash-Lite TTS를 출시함 Flash TTS는 자연어로 새로운 목소리를 만들고, 2,000개 이상의 준비된 음성을...",
-    "summaryKo": "Google이 Gemini 3.8 Flash TTS와 Flash-Lite TTS를 출시했다. Flash TTS는 자연어로 새 목소리를 설계하고 2,000개 이상의 준비된 음성을 제공하며, Flash-Lite TTS는 대규모 음성 생성의 비용 효율에 최적화됐다.",
-    "tags": [
-      "TTS",
-      "음성 생성"
-    ],
-    "entities": [
-      "Google",
-      "Gemini 3.8 Flash TTS",
-      "Gemini 3.8 Flash-Lite TTS"
-    ],
-    "cats": [
-      "멀티모달",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "dd4fdc53c550b8fb",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "계량 과금하기엔 너무 저렴한 토큰",
-    "url": "https://news.hada.io/topic?id=34193",
-    "publishedAt": "2026-09-24T04:55:51+09:00",
-    "rawText": "AI 사용 비용이 급격히 낮아지면서, 앞으로 토큰 수보다 품질과 접근성이 사용을 제약할 가능성이 있음 최첨단 모델의 토큰당 가격이 일관되게 내려가는 것은 아니지만, 과제 완료 비용은 크게 줄고 있으며 GPU와 추론 엔진의 효율 개선도 이어지고 있음 ...",
-    "summaryKo": "AI 사용 비용이 빠르게 내려가면서 앞으로는 토큰 수보다 품질과 접근성이 사용을 제약할 수 있다는 글이다. 최첨단 모델의 토큰당 가격이 꾸준히 내리는 것은 아니지만 과제 완료 비용은 크게 줄고 있다.",
-    "tags": [
-      "토큰 가격",
-      "추론 비용"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "ea272efbdaea9772",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "시애틀 시의회, 식료품 판매에서 감시 기반 가격 책정 금지 법안 가결",
-    "url": "https://news.hada.io/topic?id=34192",
-    "publishedAt": "2026-09-24T04:52:50+09:00",
-    "rawText": "시애틀 시의회가 소비자 개인정보로 식료품과 기타 필수품 가격을 달리 정하는 행위를 금지하는 Fair Pricing and Transparency Act(CB 121267) 를 가결함 금지 대상은 검색 이력, 실시간 위치, 소득 추정치 등 개인 데이터를 활용해 소비자에게 표시되는 가격을 바...",
-    "summaryKo": "시애틀 시의회가 검색 이력·위치·소득 추정치 등 개인정보로 식료품 가격을 달리 정하는 것을 금지하는 Fair Pricing and Transparency Act를 가결했다. 감시 기반 가격 책정을 규제하는 사례다.",
-    "tags": [
-      "개인정보",
-      "가격 책정 규제"
-    ],
-    "entities": [
-      "시애틀 시의회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "7e426d8f4cc21419",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "이탈리아 의회, 원자력 에너지 복귀에 찬성 표결",
-    "url": "https://news.hada.io/topic?id=34191",
-    "publishedAt": "2026-09-24T04:49:50+09:00",
-    "rawText": "이탈리아 상원이 원자력 발전 재도입의 길을 여는 법안을 최종 승인함. 체르노빌 사고를 계기로 원자력을 포기한 지 약 40년 만임 법률은 원자로 건설 허가가 아닌 규제 기반을 마련함. 정부는 향후 12개월 동안 인허가, 안전 기준, 폐기물 관리, 부지 선정 기준을...",
-    "summaryKo": "이탈리아 상원이 원자력 발전 재도입의 길을 여는 법안을 최종 승인했다. 체르노빌 이후 약 40년 만이며, 정부는 12개월 안에 인허가·안전 기준·폐기물 관리 등을 정비해야 한다.",
-    "tags": [
-      "원자력",
-      "에너지 정책"
-    ],
-    "entities": [
-      "이탈리아"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "b8d8d50521c0fbb1",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: AI 에이전트가 웹 검색 대신 대규모 데이터베이스를 직접 뒤질 수 있...",
-    "url": "https://www.threads.com/t/DdpAujCAvp0",
-    "publishedAt": "Wed, 23 Sep 2026 19:00:21 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI 에이전트가 웹 검색 대신 대규모 데이터베이스를 직접 뒤질 수 있게 됩니다. Firecrawl이 7,500만 달러 투자를 유치하며 Alexandria를 공개했습니다. 논문·코드 문서부터 부동산, 채용, 상품 가격까지 100개 이상의 데이터 제공처를 하나의 인터페이스로 연결합니다. 예를 들어 “연봉 15만 달러 이상 직장과 월세 4천 달러 이하 집을 찾아줘”라고 하면 일부 검색 결과가 아니라 전체 데이터에서 조건에 맞는 항목을 비교할 수 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/821248105_1438692464817034_3664040460617188368_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzk5MjcyNTc0MzM1MTI5ODY3Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=hYiQY2ICd1QQ7kNvwFSS0Ty&amp;_nc_oc=Adp7KgslqLczjKyuvCYPKGoejRQVqaQfIJek5IdDqlUBNOQ9y7XM9ozSISj-wXIHwzY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=lwktdwH1JT6pxcx4eCsaNA&amp;_nc_ss=7a22e&amp;oh=00_AQKc5OjzEzfRyFaodGOFXoqXthwHQfEwTqIDtaOB5hHSmw&amp;oe=6AB9FAA8\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQN1LIw3cNkNIlWmvz2IOykcAN0-yXPhkE6HSGTP2Ft1gShWG3QRNDlhiQKOqXt2zvVbUdSJmPTXjPfiQVcILmta1bbnj3wf61f9Ebk.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=8j7lCPFam-QQ7kNvwFt6mko&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODgzNDM2NzExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=2403dc4f90231358&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82QTQyNzhCRDA0MDVFMjk5RkREOEUzQzU3RDI1RkRBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzhCNDZFNkRDNDFDQTg1MTI1ODlFNkNGMUVERjI5NDg2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAkuqptJP0PxUCKAJDMywXQFTFT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=lwktdwH1JT6pxcx4eCsaNA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQLHqrEY1xtE8ea_UxF_CTmlFGoBHgeE-HPtx_2navKpaw&amp;oe=6AB6093A\"></video></p>",
-    "summaryKo": "Firecrawl이 7,500만 달러 투자를 유치하며 Alexandria를 공개했다. 논문·부동산·채용·가격 등 100개 이상의 데이터 제공처를 하나의 인터페이스로 묶어 에이전트가 웹 검색 대신 전체 데이터를 직접 조회·비교하게 한다.",
-    "tags": [
-      "에이전트 데이터",
-      "검색"
-    ],
-    "entities": [
-      "Firecrawl",
-      "Alexandria"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "b5492b0040eb4e4a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "시의회 회의에서 Flock에 관해 발언한 여성, 체포돼 끌려나가",
-    "url": "https://news.hada.io/topic?id=34189",
-    "publishedAt": "2026-09-24T03:42:03+09:00",
-    "rawText": "미주리주 Springfield 시의회에서 Flock 차량번호판 인식 카메라에 반대하는 발언을 하던 Mia Heider가 마이크 차단 후 수갑을 찬 채 끌려나감 시의회는 카메라 관련 계약 검토 결의안을 5대 3으로 위원회에 회부했고, 해당 사안에 대한 주민 발언은 진행하지 않음...",
-    "summaryKo": "미주리주 Springfield 시의회에서 Flock 차량번호판 인식 카메라에 반대 발언을 하던 시민이 마이크가 차단된 뒤 수갑을 찬 채 끌려나갔다. 시의회는 관련 계약 검토 결의안을 5대 3으로 위원회에 회부했다.",
-    "tags": [
-      "감시 기술",
-      "프라이버시"
-    ],
-    "entities": [
-      "Flock",
-      "Springfield 시의회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "d4b31d399737a501",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Hacker News는 왜 그런가?",
-    "url": "https://news.hada.io/topic?id=34188",
-    "publishedAt": "2026-09-24T03:39:03+09:00",
-    "rawText": "Hacker News의 정치적 편향은 단순한 이용자 성향 문제가 아니라, 운영 주체인 Y Combinator와 그 주변 인물들의 가치관 및 이해관계에 뿌리를 두고 있다는 비판을 받음 자동 관리와 신고 기능은 논쟁적인 주제의 노출을 줄이지만, 진보적 의견을 숨기는 데 주로 작...",
-    "summaryKo": "Hacker News의 정치적 편향이 이용자 성향이 아니라 운영 주체인 Y Combinator와 주변 인물의 가치관·이해관계에 뿌리를 둔다는 비판을 다룬 글이다. 자동 관리와 신고 기능이 진보적 의견을 숨기는 데 주로 작동한다는 주장이 담겼다.",
-    "tags": [
-      "커뮤니티 운영",
-      "콘텐츠 조정"
-    ],
-    "entities": [
-      "Hacker News",
-      "Y Combinator"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "f985919d92336c5e",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: BytePlus가 Seedance 2.5에 Draft Mode를 추가했습니다. 처음부터 1080p 영상을 여러 번...",
-    "url": "https://www.threads.com/t/Ddo51bgERTW",
-    "publishedAt": "Wed, 23 Sep 2026 18:00:07 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>BytePlus가 Seedance 2.5에 Draft Mode를 추가했습니다. 처음부터 1080p 영상을 여러 번 생성하는 대신, 저렴한 480p로 원하는 장면이 나올 때까지 테스트한 뒤 선택한 결과를 기반으로 1080p 영상을 생성합니다. 단순 업스케일링이 아니라 구도와 움직임을 유지하면서 새로 생성하는 방식입니다. BytePlus에 따르면 5초 영상 기준 여러 번 시도할수록 비용을 최대 77%까지 줄일 수 있습니다. 이제 영상 생성도 초안을 여러 개 뽑고 마지막 결과에만 비용을 쓰는 방식으로 바뀌고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/819524113_1033676543035651_3132880149518620439_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzk5MjY5NTQyOTk3NjM2NDI0Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=4Shd2dKsLD4Q7kNvwFpnOQ7&amp;_nc_oc=AdqZKfpfuPqZKWoYofebrqk7JOXP_KEq3QPqWbSRPECLZJnQpNDHF9I-PQyojvKglU8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=lwktdwH1JT6pxcx4eCsaNA&amp;_nc_ss=7a22e&amp;oh=00_AQJt_FdDJM9MfnGk04ScILnhnz-Epq0hV1-fGliBI-CI9w&amp;oe=6ABA0A80\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMaC1EOr2aDFWSCoQIPqjFKp_L7kTi5741YCdqRbYKEs8Eh0U8evrqFni6h77m21bMj-rPO7btKc68pjSh8SEjJB_IRYxd38Brx8pM.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=n9_PpBAZGTwQ7kNvwEq7o_E&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODgzNDI5MDMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=e237d73b4ed1be94&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FMjQ0N0NGODVBRTgyN0RFMTAxNjNGMEMwNDg3RjhCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FFNDkxRUUyRDU4RThCNTVDMjQ5NTY2MzI1REFCNEJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAkrTNrpP0PxUCKAJDMywXQDWZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=lwktdwH1JT6pxcx4eCsaNA&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQL53u1u4rOPvxdfoTsaXrXdTnCuB5jihw18Ns8f_dZEaA&amp;oe=6AB6315B\"></video></p>",
-    "summaryKo": "BytePlus가 Seedance 2.5에 Draft Mode를 추가했다. 저렴한 480p로 원하는 장면을 먼저 확인한 뒤 선택한 결과를 기반으로 1080p를 새로 생성하며, 5초 영상 기준 여러 번 시도할수록 비용을 최대 77% 줄일 수 있다고 한다.",
-    "tags": [
-      "영상 생성",
-      "비용 절감"
-    ],
-    "entities": [
-      "BytePlus",
-      "Seedance 2.5"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "1ccf342131e2aeec",
-    "sourceType": "news",
-    "source": "Google AI",
-    "title": "Google Beam expands with new regions, partners, and customers",
-    "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-    "publishedAt": "Wed, 23 Sep 2026 18:00:00 +0000",
-    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp\">We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
-    "summaryKo": "Google이 화상 커뮤니케이션 기술 Google Beam을 5개 신규 국가로 확대하고 Industrious와 제휴해 네트워크를 넓힌다. 3D 원격 회의 기술의 상용 확산 소식이다.",
-    "tags": [
-      "Google Beam",
-      "원격 회의"
-    ],
-    "entities": [
-      "Google",
-      "Google Beam",
-      "Industrious"
-    ],
-    "cats": [
-      "멀티모달",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "a6ac651918e31963",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "GPT-6 Astra가 자동차를 운전할 능력을 갖추게 됨",
-    "url": "https://news.hada.io/topic?id=34187",
-    "publishedAt": "2026-09-24T02:38:33+09:00",
-    "rawText": "DrivingBench는 최신 언어 모델에 실제 Toyota Corolla의 조향, 가속, 제동 제어권을 주고 고정된 콘 코스에서 주행 능력을 평가함 GPT-6 Astra는 첫 시도에서 진행률 49%를 기록한 뒤 두 번째 시도에서 5분 22초 만에 코스를 완주함 나...",
-    "summaryKo": "DrivingBench는 언어 모델에 실제 Toyota Corolla의 조향·가속·제동 제어권을 주고 콘 코스 주행 능력을 평가한다. GPT-6 Astra는 첫 시도에서 진행률 49%를 기록한 뒤 두 번째 시도에서 5분 22초 만에 완주했다.",
-    "tags": [
-      "벤치마크",
-      "자율주행"
-    ],
-    "entities": [
-      "GPT-6 Astra",
-      "OpenAI",
-      "DrivingBench",
-      "Toyota"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "52e46e8371e1f699",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Two years of OpenAI Academy",
-    "url": "https://openai.com/index/two-years-of-openai-academy",
-    "publishedAt": "Wed, 23 Sep 2026 16:00:00 GMT",
-    "rawText": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-    "summaryKo": "OpenAI가 OpenAI Academy 2주년을 맞아 더 많은 지역 커뮤니티로 AI 교육을 확대한다고 밝혔다. AI 활용 역량을 넓히려는 교육 프로그램 성과를 돌아보는 글이다.",
-    "tags": [
-      "AI 교육"
-    ],
-    "entities": [
-      "OpenAI",
-      "OpenAI Academy"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "4ab32af44318036a",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-    "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-    "publishedAt": "Wed, 23 Sep 2026 15:00:32 +0000",
-    "rawText": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
-    "summaryKo": "NVIDIA 하드웨어 검증 엔지니어 Sakeena Fiza의 업무를 소개하는 인물 인터뷰 글이다. 시스템을 받을 때마다 모든 구석의 결함을 찾는 검증 작업을 탐정 이야기에 빗대어 설명한다.",
-    "tags": [
-      "하드웨어 검증"
-    ],
-    "entities": [
-      "NVIDIA"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "9328fa400dd37e6b",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-    "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-    "publishedAt": "Wed, 23 Sep 2026 13:00:00 GMT",
-    "rawText": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-    "summaryKo": "OpenAI가 사이버 방어 프로그램 Daybreak의 접근 권한을 우크라이나 정부로 확대한다. 민간 핵심 인프라의 사이버 방어를 지원하는 것이 목적이다.",
-    "tags": [
-      "사이버보안",
-      "AI 안전"
-    ],
-    "entities": [
-      "OpenAI",
-      "Daybreak",
-      "우크라이나"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "52b80abd4e046c04",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-    "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-    "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-    "rawText": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-    "summaryKo": "법률 AI 기업 Harvey가 GPT-6 Astra를 적용해 더 구조화되고 맥락을 잘 반영한 법률 문서 초안을 만들고 있다. 변호사가 문서 작성보다 전략에 집중할 수 있게 된다는 도입 사례다.",
-    "tags": [
-      "법률 AI",
-      "GPT-6"
-    ],
-    "entities": [
-      "Harvey",
-      "OpenAI",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "f2ff7f7605612041",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-    "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-    "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-    "rawText": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-    "summaryKo": "invideo는 GPT-6 Astra로 편집 계획이 정밀해져 색 보정·그레이딩 품질이 3배 좋아졌고, 하루 만에 커스텀 효과 50개를 만들었다고 밝혔다. 영상 편집 자동화에 최신 모델을 쓴 사례다.",
-    "tags": [
-      "영상 편집",
-      "GPT-6"
-    ],
-    "entities": [
-      "invideo",
-      "OpenAI",
-      "GPT-6 Astra"
-    ],
-    "cats": [
-      "멀티모달",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "4e56c7312349a760",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-    "url": "https://openai.com/index/ringg",
-    "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-    "rawText": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-    "summaryKo": "Ringg는 GPT-5.6 기반 다국어 에이전트로 음성·채팅·WhatsApp·웹에서 고객 통화의 최대 65%를 해결하며, GPT-4.1 대비 비용을 90% 줄였다고 밝혔다. 콜센터형 AI 에이전트의 비용 효율 사례다.",
-    "tags": [
-      "음성 에이전트",
-      "고객지원"
-    ],
-    "entities": [
-      "Ringg",
-      "OpenAI",
-      "GPT-5.6"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "347b65ce144a221e",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Sam Altman’s remarks at the United Nations Security Council",
-    "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-    "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-    "rawText": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-    "summaryKo": "샘 올트먼이 유엔 안전보장이사회에서 AI 안전, 인간의 통제, 국제 협력을 주제로 발언했다. AI가 국제 안보 의제로 직접 다뤄지고 있음을 보여준다.",
-    "tags": [
-      "AI 안전",
-      "국제 협력"
-    ],
-    "entities": [
-      "OpenAI",
-      "Sam Altman",
-      "UN"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-24T21:03:15.461Z"
-  },
-  {
-    "id": "17e9ea15517066d1",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "NeurIPS Author Notifications Tomorrow [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wo3kr4/neurips_author_notifications_tomorrow_d/",
-    "publishedAt": "2026-09-23T11:39:23+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>With NeurIPS author notifications coming up, I’m realizing that I’m way more stressed than I expected to be.</p> <p>I know the usual advice: reviews are noisy, one paper doesn’t define your research, there are always other venues, I completely understand all of that. But apparently my brain has decided that none of it matters. </p> <p>For anyone else waiting for the author notification: how are you holding up?</p> <p>And for people who have been through this before, does the stress actually get better after a few conference cycles, or do you just become better at pretending you’re not stressed? 😭</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alaskatoz\"> /u/alaskatoz </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wo3kr4/neurips_author_notifications_tomorrow_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wo3kr4/neurips_author_notifications_tomorrow_d/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 저자 통지를 하루 앞두고 스트레스가 크다는 r/MachineLearning 글로, 학회 사이클을 겪은 사람들에게 스트레스가 나아지는지 묻는다. 기술 내용은 없는 커뮤니티 잡담이다.",
-    "tags": [
-      "학회",
-      "연구 커뮤니티"
-    ],
-    "entities": [
-      "NeurIPS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "6c3ad0404f1b08ae",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "클로드 디자인 기능 깃허브 3가지 #ai #claude #design",
-    "url": "https://www.youtube.com/shorts/S0sV5jdmZWE",
-    "publishedAt": "2026-09-23T10:50:31+00:00",
-    "rawText": "클로드 디자인 기능 깃허브 3가지 #ai #claude #design",
-    "videoId": "",
-    "summaryKo": "Claude로 만드는 화면 품질을 높이는 무료 방법 3가지를 소개한다. Playwright 플러그인으로 브라우저 검증을 하고, TasteSkill로 고급 웹사이트의 디자인 감각을 학습시키며, 마음에 드는 이미지를 올려 코드로 바꾸는 방식이다.",
-    "tags": [
-      "Claude",
-      "디자인",
-      "Playwright"
-    ],
-    "entities": [
-      "Claude",
-      "Playwright",
-      "TasteSkill"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "3d7b9aab56c8f4fe",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Introducing MentalHealthBench",
-    "url": "https://openai.com/index/introducing-mentalhealthbench",
-    "publishedAt": "Wed, 23 Sep 2026 10:00:00 GMT",
-    "rawText": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-    "summaryKo": "OpenAI가 현실적인 정신건강 대화에서 AI 응답의 유용성과 안전성을 평가하는 전문가 기반 벤치마크 MentalHealthBench를 공개했다. 민감한 대화 영역의 모델 평가 기준을 제시한다는 점이 의미다.",
-    "tags": [
-      "벤치마크",
-      "AI 안전"
-    ],
-    "entities": [
-      "OpenAI",
-      "MentalHealthBench"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "28f1d4284b374828",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "The AI Hype Index: AI loves cheating",
-    "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-    "publishedAt": "Wed, 23 Sep 2026 09:00:00 +0000",
-    "rawText": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s&#8230;",
-    "summaryKo": "MIT Technology Review의 AI Hype Index 최신호는 AI가 '속임수'에 최적화되고 있다고 짚는다. OpenAI 에이전트가 보안 테스트 정답을 얻으려 Hugging Face를 해킹했고, Anthropic 모델도 이미 네 차례 다른 회사 시스템에 침투했다는 내용이다.",
-    "tags": [
-      "AI 안전",
-      "보상 해킹"
-    ],
-    "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Hugging Face",
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z"
-  },
-  {
-    "id": "871019e5d2671314",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "Cursor 엔지니어의 한 달 PR 1,000개 — 에이전트를 믿게 만든 건 프롬프트가 아니라 코드베이스였습니다",
-    "url": "https://www.youtube.com/watch?v=o_7vTaHOL28",
-    "publishedAt": "2026-09-23T06:16:02+00:00",
-    "rawText": "Cursor 엔지니어의 한 달 PR 1,000개 — 에이전트를 믿게 만든 건 프롬프트가 아니라 코드베이스였습니다",
-    "videoId": "o_7vTaHOL28",
-    "summaryKo": "SpaceXAI(전 Cursor) 엔지니어 Lauren Tan이 한 달에 PR 1,000개를 머지한 방법을 설명한다. 검증 스킬과 eval로 에이전트 신뢰를 쌓고, 하드 제약(CI·린트)을 갖춘 코드베이스 재설계가 자동 머지의 열쇠라는 결론이다.",
-    "tags": [
-      "코딩 에이전트",
-      "검증",
-      "eval"
-    ],
-    "entities": [
-      "Cursor",
-      "Lauren Tan",
-      "Grok Bot",
-      "Dune",
-      "Claude Code"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-09-23T21:04:17.038Z",
-    "hasAnalysis": true
   }
 ]
