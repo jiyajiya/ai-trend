@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-03",
-  "windowLabel": "2026년 10월 2~3일 기준",
-  "updatedAt": "2026-10-02T21:09:52Z",
+  "asOf": "2026-10-04",
+  "windowLabel": "2026년 10월 2~4일 기준",
+  "updatedAt": "2026-10-03T21:12:42Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -181,8 +181,8 @@
         {
           "rank": 1,
           "model": "Claude Fable 5",
-          "score": "Elo 1310",
-          "basis": "Vision Arena 1위, Elo 1310",
+          "score": "Elo 1309",
+          "basis": "Vision Arena 1위, Elo 1309",
           "source": "lmarena"
         },
         {
@@ -202,15 +202,15 @@
         {
           "rank": 4,
           "model": "Claude Opus 4.7",
-          "score": "Elo 1299",
-          "basis": "Vision Arena Elo 1299, Opus 4.6 (high)와 동점",
+          "score": "Elo 1298",
+          "basis": "Vision Arena Elo 1298, Opus 4.7 (high)와 동점",
           "source": "lmarena"
         },
         {
           "rank": 5,
           "model": "Claude Opus 4.7 (high)",
           "score": "Elo 1298",
-          "basis": "Vision Arena Elo 1298",
+          "basis": "Vision Arena Elo 1298, Opus 4.7과 동점",
           "source": "lmarena"
         }
       ]
@@ -494,27 +494,27 @@
     {
       "name": "LMSYS Chatbot Arena",
       "url": "https://arena.ai/leaderboard",
-      "updated": "2026년 10월 3일"
+      "updated": "2026년 10월 4일"
     },
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 10월 3일"
+      "updated": "2026년 10월 4일"
     },
     {
       "name": "Text-to-Image Arena",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updated": "2026년 10월 3일"
+      "updated": "2026년 10월 4일"
     },
     {
       "name": "BenchLM.ai",
       "url": "https://benchlm.ai/benchmarks/aime2026",
-      "updated": "2026년 10월 3일"
+      "updated": "2026년 10월 4일"
     },
     {
       "name": "Vellum LLM Leaderboard",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "updated": "2026년 10월 3일"
+      "updated": "2026년 10월 4일"
     }
   ]
 }
