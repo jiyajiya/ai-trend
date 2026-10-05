@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-05",
-  "windowLabel": "2026년 10월 3~5일 기준",
-  "updatedAt": "2026-10-04T21:04:10Z",
+  "asOf": "2026-10-06",
+  "windowLabel": "2026년 10월 2~6일 기준",
+  "updatedAt": "2026-10-05T21:02:46Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -149,30 +149,30 @@
         },
         {
           "rank": 2,
+          "model": "Beam",
+          "score": "97.8%",
+          "basis": "AIME 2026 97.8% (Reflection AI, 신규 진입)",
+          "source": "benchlm"
+        },
+        {
+          "rank": 3,
           "model": "Inkling",
           "score": "97.1%",
           "basis": "AIME 2026 97.1%, A.X K2와 동점",
           "source": "benchlm"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "model": "A.X K2",
           "score": "97.1%",
-          "basis": "AIME 2026 97.1%, Inkling과 동점 (신규 진입)",
-          "source": "benchlm"
-        },
-        {
-          "rank": 4,
-          "model": "Kimi K2.6",
-          "score": "96.4%",
-          "basis": "AIME 2026 96.4%",
+          "basis": "AIME 2026 97.1%, Inkling과 동점",
           "source": "benchlm"
         },
         {
           "rank": 5,
-          "model": "Ternary Bonsai 2 27B",
-          "score": "95.8%",
-          "basis": "AIME 2026 95.8%, GLM-5·Kimi K2.5와 동점 중 출처 순위 상위 (신규 진입)",
+          "model": "Kimi K2.6",
+          "score": "96.4%",
+          "basis": "AIME 2026 96.4%",
           "source": "benchlm"
         }
       ]
@@ -501,27 +501,27 @@
     {
       "name": "LMSYS Chatbot Arena",
       "url": "https://arena.ai/leaderboard",
-      "updated": "2026년 10월 5일"
+      "updated": "2026년 10월 6일"
     },
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 10월 5일"
+      "updated": "2026년 10월 6일"
     },
     {
       "name": "Text-to-Image Arena",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updated": "2026년 10월 5일"
+      "updated": "2026년 10월 6일"
     },
     {
       "name": "BenchLM.ai",
       "url": "https://benchlm.ai/benchmarks/aime2026",
-      "updated": "2026년 10월 5일"
+      "updated": "2026년 10월 6일"
     },
     {
       "name": "Vellum LLM Leaderboard",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "updated": "2026년 10월 5일"
+      "updated": "2026년 10월 6일"
     }
   ]
 }
