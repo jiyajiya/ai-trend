@@ -1,0 +1,31 @@
+{
+ "points": [
+  "Anthropic이 사이버 검증 프로그램(CVP)을 Defense·Red Team·Specialized 3개 접근 티어로 확대했다.",
+  "각 티어는 Claude Opus 5.5, Sonnet 5.5, Mythos 5.1 등 최신 모델의 고급 사이버 역량을 허용한다.",
+  "기존 Project Glasswing 참여 조직은 Specialized 티어로 이전되며 재승인이 필요 없다.",
+  "Opus 5.5의 CyScenarioBench에서 Defense 티어는 50회 중 46회 차단, Red Team 티어는 차단 없이 34회 성공했다.",
+  "Glasswing 파트너는 4~7월에 검증된 취약점 12만 9천 건 이상을 발견했다."
+ ],
+ "sections": [
+  {
+   "heading": "3개 접근 티어",
+   "body": "Defense Access는 SOC·침해 대응·악성코드 분석 등 방어 업무용으로 많은 조직이 해당되며 며칠 내 응답을 목표로 한다. Red Team Access는 승인된 모의해킹을 추가하고 심사에 몇 주가 걸리며 조직에만 열려 있다. Specialized Access는 항공·전력망·통신·은행 간 이체 등 인명·시장에 영향이 큰 시스템을 시험하는 소수 검증 조직용으로, 미국 정부와 협력해 심층 심사한다."
+  },
+  {
+   "heading": "데이터 보존과 EFS",
+   "body": "프로그램 참여 조직은 오용 모니터링을 위해 데이터 보존이 필요하다. 올가을 출시 예정인 Enterprise Frontier Safeguards(EFS)가 나오면 조직이 통제하는 클라우드에 데이터를 둘 수 있다. 그때까지 Fable 5.1·Mythos 5.1에서는 ZDR로도 CVP를 쓸 수 있다."
+  },
+  {
+   "heading": "효과 검증",
+   "body": "CyScenarioBench 10개 과제를 티어별로 5회씩 돌렸다. CVP 없이는 모든 과제가 첫 프롬프트에서 차단됐고 Defense는 46/50 차단, Red Team은 무차단으로 34/50 성공해 안전장치 없는 상태의 67.6%와 사실상 같았다."
+  },
+  {
+   "heading": "방어자의 이점",
+   "body": "Glasswing를 통해 파트너들은 4~7월 사이 검증된 취약점 12만 9천 건 이상을 찾았고, Anthropic 자체 오픈소스 스캔은 4~10월에 5,500건을 추가했다. 이 중 3만 3천 건 이상이 치명·높음 등급이며 실제 영향은 최소 5배일 것으로 추정한다."
+  }
+ ],
+ "quotes": [
+  "Glasswing 파트너가 4~7월에 발견한 검증된 취약점: 129,000건 이상",
+  "Red Team 티어 CyScenarioBench: 50회 중 34회 성공(무안전장치 67.6%와 동등)"
+ ]
+}
