@@ -1,0 +1,26 @@
+{
+  "points": [
+    "NVIDIA와 Microsoft가 Windows PC에서 AI 에이전트를 돌리기 위해 하드웨어와 소프트웨어를 함께 설계한다고 발표했다.",
+    "RTX Spark는 Blackwell RTX GPU(최대 6,144코어)와 Grace CPU(최대 20코어)를 묶었다.",
+    "통합 메모리 최대 128GB, FP4 기준 1 petaflop의 AI 성능을 낸다.",
+    "노트북은 10월 7일 사전주문, 10월 16일 배송이고 컴팩트 데스크톱은 11월에 나온다.",
+    "Microsoft Execution Containers(MXC)가 OS 수준에서 에이전트의 백그라운드 실행을 관리한다."
+  ],
+  "sections": [
+    {
+      "heading": "RTX Spark",
+      "body": "Blackwell GPU와 Grace CPU를 600GB/s로 연결한 구성이다. 통합 메모리 128GB 덕분에 기존 노트북에 올라가지 않던 모델을 로컬에서 돌릴 수 있다고 한다."
+    },
+    {
+      "heading": "출시와 파트너",
+      "body": "Acer, ASUS, Dell, HP, Lenovo, Microsoft, MSI, Gigabyte가 제품을 낸다. 노트북은 10월 16일부터 배송된다."
+    },
+    {
+      "heading": "Windows 에이전트 기반",
+      "body": "MXC는 에이전트가 백그라운드에서 안전하게 실행되도록 하는 OS 수준 보안 기능이다. 엔터프라이즈용으로는 GB300을 탑재한 DGX Station for Windows(20 petaFLOPS, 748GB 메모리)도 소개됐다."
+    }
+  ],
+  "quotes": [
+    "통합 메모리 128GB와 1 petaflop AI 컴퓨팅 성능으로 기존 머신에 맞지 않는 모델을 실행할 수 있다 (Microsoft Pavan Davuluri)"
+  ]
+}
