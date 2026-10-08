@@ -1,0 +1,26 @@
+{
+  "points": [
+    "Anthropic이 핵심 인프라와 오픈소스 보안을 위한 장기 프로젝트 Cyber Mission을 시작했다.",
+    "전력·수도·교통의 OT 방어를 위한 Critical Infrastructure Defense Program(CIDP)을 출범했고, Accenture·CrowdStrike·Palo Alto Networks 등 11개사가 창립 파트너다.",
+    "오픈소스 프로젝트에 최상위 모델의 정기 보안 스캔을 무료로 주는 OSS Scanner를 내놨다.",
+    "Project Glasswing은 확장된 Cyber Verification Program에 통합돼 더 많은 방어자가 최상위 모델을 쓸 수 있다.",
+    "취약점 발견은 쉬워졌지만 검증·우선순위화·수정이 여전히 병목이라는 인식이 출발점이다."
+  ],
+  "sections": [
+    {
+      "heading": "핵심 인프라 방어",
+      "body": "OT 장비는 패치를 위해 가동을 멈추기 어려워 알려진 취약점이 수년간 방치되곤 한다. CIDP는 운영사가 의존하는 신뢰 제공자들에게 프론티어 모델, 현장 엔지니어, 위협 연구를 제공해 취약점 수정을 돕는다. 우선 소수 제공자 그룹으로 효과적인 전략을 배운다."
+    },
+    {
+      "heading": "오픈소스 보안",
+      "body": "대부분의 소프트웨어가 의존하는 공유 코드에서 취약점을 찾고 패치를 제안하며 기반 코드를 강화한다. OSS Scanner는 신청한 오픈소스 프로젝트에 정기 스캔을 무료로 제공한다."
+    },
+    {
+      "heading": "Glasswing의 교훈과 확장",
+      "body": "Project Glasswing 파트너들이 많은 취약점을 찾았지만 사이버 위험이 충분히 줄지는 않았다. 이를 바탕으로 엔지니어 인력과 도구, 자금을 방어자에게 투입하고, 6월에 시작한 주·지방 정부 대상 사이버 방어 프로그램에 이어 새 영역으로 확장할 계획이다."
+    }
+  ],
+  "quotes": [
+    "It’s easier than ever to find vulnerabilities, but verifying, prioritizing, and fixing these findings remains challenging."
+  ]
+}
