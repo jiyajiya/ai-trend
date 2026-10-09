@@ -1,0 +1,27 @@
+{
+  "points": [
+    "Deno 팀 전체가 Cloudflare에 합류해 Workers·Durable Objects 팀과 공통 서버 플랫폼을 개발한다.",
+    "Deno 런타임은 1년간 월별 버그·보안 릴리스 후 개발이 종료되며 오픈소스는 유지된다.",
+    "Deno Deploy는 6개월 뒤 종료되고 유료 고객의 Cloudflare Workers 이전이 지원된다.",
+    "JSR은 Cloudflare 인프라로 옮겨 계속 운영되고 rusty_v8은 workerd 통합을 추진한다.",
+    "에이전트 하네스에 유용한 Durable Objects 기반 추상화에 초점을 둔다."
+  ],
+  "sections": [
+    {
+      "heading": "합류 배경",
+      "body": "Deno는 서버 소프트웨어 개발을 단순화하려 했지만 하부 인프라 복잡성이 남아 있다고 판단했다. 이를 줄이려는 시도가 celld로 이어졌고, Cloudflare Workers 프로그래밍 모델 위에서 분산 앱을 단순하게 운영하는 것이 목표다."
+    },
+    {
+      "heading": "제품별 일정",
+      "body": "런타임은 12개월 유지보수 후 종료, Deno Deploy는 6개월 후 종료된다. JSR과 rusty_v8은 Cloudflare에서 지원이 이어진다."
+    },
+    {
+      "heading": "커뮤니티 반응",
+      "body": "Hacker News에서는 런타임 지원 종료로 인한 기업 도입 리스크와 rusty_v8의 장래에 대한 우려가 컸다. Cloudflare 플랫폼의 단순한 설계와 Deno의 개발자 경험을 높게 평가하는 의견도 있었다."
+    }
+  ],
+  "quotes": [
+    "Deno 런타임: 1년간 월별 릴리스 후 개발 종료",
+    "Deno Deploy: 6개월간 운영 후 종료"
+  ]
+}

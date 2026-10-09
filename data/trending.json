@@ -7,12 +7,12 @@
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "publishedAt": "2026-08-13T11:56:32Z",
     "rawText": "DeepSeek Harness: Everything is a Plugin.",
-    "score": 245658,
+    "score": 246308,
     "lang": "TypeScript",
     "rank": 1,
-    "summaryKo": "DeepSeek이 공개한 DeepSeek Harness 저장소로, 모든 것이 플러그인이라는 구조를 내세운다.",
+    "summaryKo": "deepseek-ai/deepseek-harness는 'Everything is a Plugin'을 내세운 DeepSeek의 에이전트 하네스 저장소다. 모든 기능을 플러그인으로 구성하는 구조를 지향한다.",
     "tags": [
-      "하네스",
+      "에이전트 하네스",
       "플러그인"
     ],
     "entities": [
@@ -23,7 +23,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "7073395c0f949110",
@@ -53,6 +53,32 @@
     "fetchedAt": "2026-10-08T21:03:28.603Z"
   },
   {
+    "id": "4e50efa7abaa8516",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "google/embeddinggemma-2",
+    "url": "https://huggingface.co/google/embeddinggemma-2",
+    "publishedAt": "2026-09-14T14:53:42.000Z",
+    "rawText": "feature-extraction | transformers, safetensors, embedding_gemma2, feature-extraction, embedding, sentence-transformers, multimodal-embedding, multimodal",
+    "score": 1284,
+    "rank": 1,
+    "summaryKo": "Google이 embeddinggemma-2를 Hugging Face에 공개했다. 멀티모달 임베딩을 지원하는 feature-extraction 모델이다.",
+    "tags": [
+      "임베딩",
+      "멀티모달"
+    ],
+    "entities": [
+      "Google",
+      "EmbeddingGemma"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
     "id": "9d064369411829e6",
     "sourceType": "repo",
     "source": "GitHub",
@@ -76,6 +102,35 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-10-08T21:03:28.603Z"
+  },
+  {
+    "id": "3c87705c98eedbc9",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "google/artemis",
+    "url": "https://github.com/google/artemis",
+    "publishedAt": "2026-08-13T17:59:37Z",
+    "rawText": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+    "score": 11232,
+    "lang": "Python",
+    "rank": 2,
+    "summaryKo": "google/artemis는 자연어 지시를 안정적인 Android 자동화로 바꿔 주는 도구로, AndroidWorld 벤치마크에서 99% 이상 성공률을 낸다. 로그를 수집하며 Antigravity·Codex·Claude Code 같은 AI 코딩 어시스턴트와 연동된다.",
+    "tags": [
+      "모바일 자동화",
+      "에이전트"
+    ],
+    "entities": [
+      "Google",
+      "Android",
+      "Claude Code",
+      "Codex"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "82ed428159c76108",
@@ -104,35 +159,6 @@
     "fetchedAt": "2026-10-08T21:03:28.603Z"
   },
   {
-    "id": "3c87705c98eedbc9",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "google/artemis",
-    "url": "https://github.com/google/artemis",
-    "publishedAt": "2026-08-13T17:59:37Z",
-    "rawText": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
-    "score": 11148,
-    "lang": "Python",
-    "rank": 3,
-    "summaryKo": "Google의 ARTEMIS는 자연어 지시를 안정적인 Android 자동화로 바꿔 주는 도구다. 로그를 수집하고 Claude Code 같은 코딩 어시스턴트와 연동하며 AndroidWorld에서 성공률 99% 이상을 낸다고 한다.",
-    "tags": [
-      "Android 자동화",
-      "모바일 에이전트"
-    ],
-    "entities": [
-      "Google",
-      "ARTEMIS",
-      "Claude Code",
-      "Codex"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
-  },
-  {
     "id": "e4ec1e84959ae2fd",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -140,24 +166,73 @@
     "url": "https://huggingface.co/Cloudflare/clef",
     "publishedAt": "2026-09-30T21:15:35.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, clef, cloudflare, systemone, decision-model",
-    "score": 1465,
-    "rank": 3,
-    "summaryKo": "Cloudflare가 Qwen3.5 기반 이미지-텍스트 의사결정 모델 clef를 Hugging Face에 공개했다.",
+    "score": 1008,
+    "rank": 2,
+    "summaryKo": "Cloudflare가 Qwen3.5 기반 image-text-to-text 모델 clef를 Hugging Face에 공개했다. 'decision-model'·systemone 태그로 보아 의사결정용 모델로 보인다.",
     "tags": [
-      "VLM",
+      "비전-언어",
       "의사결정 모델"
     ],
     "entities": [
       "Cloudflare",
-      "Qwen3.5",
-      "clef"
+      "Qwen"
     ],
     "cats": [
       "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "35eff775ba433a91",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "jev-chat/jev-chat-jarvis",
+    "url": "https://github.com/jev-chat/jev-chat-jarvis",
+    "publishedAt": "2026-09-21T11:12:53Z",
+    "rawText": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+    "score": 7521,
+    "lang": "Kotlin",
+    "rank": 3,
+    "summaryKo": "jev-chat/jev-chat-jarvis는 채팅 상대의 의도와 위험을 먼저 파악해 답장 초안을 제안하는 의사결정 보조 앱이다. 전송은 사용자가 직접 하며 Android·Windows·macOS·iOS를 지원한다.",
+    "tags": [
+      "채팅 보조",
+      "어시스턴트"
+    ],
+    "entities": [
+      "Jev"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "e2fde687321fd689",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Aleph-Alpha/Kolibri-1",
+    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+    "publishedAt": "2026-10-02T05:54:02.000Z",
+    "rawText": "text-generation | vllm, safetensors, kolibri1, reasoning, moe, text-generation, conversational, de",
+    "score": 776,
+    "rank": 3,
+    "summaryKo": "Aleph-Alpha가 MoE 구조의 추론 지향 텍스트 생성 모델 Kolibri-1을 공개했다. vLLM을 지원한다.",
+    "tags": [
+      "MoE",
+      "추론"
+    ],
+    "entities": [
+      "Aleph Alpha",
+      "Kolibri-1"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "4eb733afdb6b8b30",
@@ -192,97 +267,98 @@
     "url": "https://github.com/Human-Agent-Society/reef",
     "publishedAt": "2026-08-31T01:39:18Z",
     "rawText": "Infrastructure for continually self‑improving agents",
-    "score": 7507,
+    "score": 7519,
     "lang": "Python",
     "rank": 4,
-    "summaryKo": "reef는 에이전트가 지속적으로 스스로 개선하도록 돕는 인프라다.",
+    "summaryKo": "Human-Agent-Society/reef는 지속적으로 스스로 개선하는 에이전트를 위한 인프라를 표방하는 저장소다.",
     "tags": [
-      "자기개선 에이전트"
+      "자가개선 에이전트",
+      "인프라"
     ],
-    "entities": [
-      "reef"
-    ],
+    "entities": [],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
-    "id": "4e50efa7abaa8516",
+    "id": "097c2ef4d87a406d",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "google/embeddinggemma-2",
-    "url": "https://huggingface.co/google/embeddinggemma-2",
-    "publishedAt": "2026-09-14T14:53:42.000Z",
-    "rawText": "feature-extraction | transformers, safetensors, embedding_gemma2, feature-extraction, embedding, sentence-transformers, multimodal-embedding, multimodal",
-    "score": 1134,
+    "title": "jialinyyzz/humanizer",
+    "url": "https://huggingface.co/jialinyyzz/humanizer",
+    "publishedAt": "2026-09-11T05:00:16.000Z",
+    "rawText": "text-generation | gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting",
+    "score": 684,
     "rank": 4,
-    "summaryKo": "Google의 EmbeddingGemma 2는 멀티모달 임베딩을 지원하는 임베딩 모델이다. sentence-transformers로 쓸 수 있다.",
+    "summaryKo": "jialinyyzz/humanizer는 Gemma 계열 기반의 텍스트 재작성(humanizer) 모델로 GGUF와 safetensors 형식으로 공개됐다.",
     "tags": [
-      "임베딩",
-      "멀티모달"
+      "텍스트 재작성",
+      "Gemma"
     ],
     "entities": [
-      "Google",
-      "EmbeddingGemma 2"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
-  },
-  {
-    "id": "35eff775ba433a91",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "jev-chat/jev-chat-jarvis",
-    "url": "https://github.com/jev-chat/jev-chat-jarvis",
-    "publishedAt": "2026-09-21T11:12:53Z",
-    "rawText": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
-    "score": 7483,
-    "lang": "Kotlin",
-    "rank": 5,
-    "summaryKo": "Jev는 답장 전에 채팅을 읽고 의도와 위험을 판단해 답변 초안을 만들어 주는 채팅 결정 보조 앱이다. 전송은 사용자가 직접 하며 Android·Windows·macOS·iOS를 지원한다.",
-    "tags": [
-      "채팅 보조",
-      "의사결정"
-    ],
-    "entities": [
-      "Jev"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
-  },
-  {
-    "id": "e2fde687321fd689",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Aleph-Alpha/Kolibri-1",
-    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-    "publishedAt": "2026-10-02T05:54:02.000Z",
-    "rawText": "text-generation | vllm, safetensors, kolibri1, reasoning, moe, text-generation, conversational, de",
-    "score": 748,
-    "rank": 5,
-    "summaryKo": "Aleph Alpha의 Kolibri-1은 추론에 강한 MoE 구조의 텍스트 생성 모델이다. vLLM으로 서빙할 수 있다.",
-    "tags": [
-      "MoE",
-      "추론"
-    ],
-    "entities": [
-      "Aleph Alpha",
-      "Kolibri-1"
+      "Gemma"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "4683cd570ef39deb",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "yetone/magpie",
+    "url": "https://github.com/yetone/magpie",
+    "publishedAt": "2026-09-23T16:22:35Z",
+    "rawText": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "score": 7418,
+    "lang": "Go",
+    "rank": 5,
+    "summaryKo": "yetone/magpie는 메뉴바에서 에이전트별 모델을 한곳에서 바꿔 주는 도구로, Codex를 DeepSeek에, Claude Code를 Kimi에 연결하는 식의 사용을 지원한다.",
+    "tags": [
+      "모델 라우팅",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "Codex",
+      "Claude Code",
+      "DeepSeek",
+      "Kimi"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "209a41baf2960185",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "publishedAt": "2026-09-20T15:51:13.000Z",
+    "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1",
+    "score": 653,
+    "rank": 5,
+    "summaryKo": "abenzerps가 Qwen-Image-2.1 Uncensored 모델을 ComfyUI용 GGUF로 양자화해 공개했다.",
+    "tags": [
+      "이미지 생성",
+      "양자화"
+    ],
+    "entities": [
+      "Qwen-Image-2.1",
+      "ComfyUI"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "0b272935f82c063d",
@@ -317,12 +393,12 @@
     "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
     "publishedAt": "2026-08-28T12:57:24Z",
     "rawText": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "score": 7134,
+    "score": 7168,
     "lang": "TypeScript",
     "rank": 6,
-    "summaryKo": "ChatGPT를 계획용 두뇌로, Codex 하네스를 실행용으로 함께 쓰게 하는 프로젝트다.",
+    "summaryKo": "XiaoDuoYa/codex-with-chatgpt는 ChatGPT를 계획 담당 두뇌로, Codex 하네스를 실행 담당으로 쓰도록 연결하는 프로젝트다.",
     "tags": [
-      "Codex",
+      "코딩 에이전트",
       "하네스"
     ],
     "entities": [
@@ -334,111 +410,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
-  },
-  {
-    "id": "209a41baf2960185",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-    "publishedAt": "2026-09-20T15:51:13.000Z",
-    "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, text-to-image, base_model:Qwen/Qwen-Image-2.1, base_model:quantized:Qwen/Qwen-Image-2.1",
-    "score": 674,
-    "rank": 6,
-    "summaryKo": "Qwen-Image-2.1의 검열 해제 GGUF 양자화본으로, ComfyUI에서 로컬로 이미지를 생성하는 용도다.",
-    "tags": [
-      "이미지 생성",
-      "GGUF"
-    ],
-    "entities": [
-      "Qwen-Image-2.1",
-      "ComfyUI"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
-  },
-  {
-    "id": "5d885f2b9705cba0",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "convaiinnovations/laya",
-    "url": "https://huggingface.co/convaiinnovations/laya",
-    "publishedAt": "2026-09-18T05:05:55.000Z",
-    "rawText": "text-classification | transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing",
-    "score": 545,
-    "rank": 6,
-    "summaryKo": "convaiinnovations의 laya는 보정된 의사결정과 라우팅을 위한 텍스트 분류 모델로 RLCD 방식이 언급된다. 태그 기반 요약이다.",
-    "tags": [
-      "분류",
-      "라우팅"
-    ],
-    "entities": [
-      "convaiinnovations",
-      "laya"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-06T21:03:27.154Z"
-  },
-  {
-    "id": "204aad5d566a77c1",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "yjh051108/dsh-routing-suite",
-    "url": "https://github.com/yjh051108/dsh-routing-suite",
-    "publishedAt": "2026-08-14T21:20:55Z",
-    "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-    "score": 6999,
-    "lang": "JavaScript",
-    "rank": 7,
-    "summaryKo": "dsh-routing-suite는 런타임 인젝터를 먼저 설치한 뒤 작업 특성에 맞춰 추론 모드를 고르는 라우터 프리셋(실측 P1-P23)을 얹는 키트다. 작업별로 추론 모드를 자동 선택하는 것이 목적이다.",
-    "tags": [
-      "모델 라우팅",
-      "추론 모드"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z"
-  },
-  {
-    "id": "4683cd570ef39deb",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "yetone/magpie",
-    "url": "https://github.com/yetone/magpie",
-    "publishedAt": "2026-09-23T16:22:35Z",
-    "rawText": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "score": 6730,
-    "lang": "Go",
-    "rank": 7,
-    "summaryKo": "magpie는 메뉴바에서 에이전트마다 모델을 고르게 해 주는 도구다. Codex를 DeepSeek으로, Claude Code를 Kimi로 돌리는 식이다.",
-    "tags": [
-      "모델 라우팅",
-      "코딩 에이전트"
-    ],
-    "entities": [
-      "magpie",
-      "Codex",
-      "DeepSeek",
-      "Claude Code",
-      "Kimi"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "5282b8e550cb40df",
@@ -448,22 +420,69 @@
     "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
     "publishedAt": "2026-09-17T18:37:31.000Z",
     "rawText": "text-generation | transformers, safetensors, gguf, xing4_0, text-generation, conversational, custom_code, arxiv:2512.24157",
-    "score": 611,
-    "rank": 7,
-    "summaryKo": "Venastine Research의 Xing4.0-29B-A4B GGUF 버전으로, 총 290억에 활성 40억 파라미터의 MoE 텍스트 모델이다.",
+    "score": 559,
+    "rank": 6,
+    "summaryKo": "Venastine-Research가 Xing4.0-29B-A4B(총 29B, 활성 4B 추정) 대화형 텍스트 생성 모델의 GGUF 버전을 공개했다.",
     "tags": [
       "MoE",
       "GGUF"
     ],
     "entities": [
-      "Venastine Research",
       "Xing4.0"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "204aad5d566a77c1",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "yjh051108/dsh-routing-suite",
+    "url": "https://github.com/yjh051108/dsh-routing-suite",
+    "publishedAt": "2026-08-14T21:20:55Z",
+    "rawText": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+    "score": 7014,
+    "lang": "JavaScript",
+    "rank": 7,
+    "summaryKo": "yjh051108/dsh-routing-suite는 런타임 인젝터를 먼저 설치하고 작업 유형에 맞는 추론 모드 라우터 프리셋을 적용하는 키트다. 프리셋 P1-P23을 측정해 제공한다고 설명한다.",
+    "tags": [
+      "추론 라우팅",
+      "프롬프트"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "92c1824269f45469",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Lightricks/LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "publishedAt": "2026-07-23T07:55:24.000Z",
+    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
+    "score": 475,
+    "rank": 7,
+    "summaryKo": "Lightricks가 LTX-2.5를 공개했다. 텍스트·이미지·오디오에서 영상을, 영상에서 오디오를 만드는 등 다양한 변환을 지원하는 영상 생성 모델이다.",
+    "tags": [
+      "영상 생성",
+      "Diffusion"
+    ],
+    "entities": [
+      "Lightricks",
+      "LTX-2.5"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -473,45 +492,46 @@
     "url": "https://github.com/KKKKhazix/AIHOT",
     "publishedAt": "2026-09-28T23:40:05Z",
     "rawText": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-    "score": 6703,
+    "score": 6903,
     "lang": "TypeScript",
     "rank": 8,
-    "summaryKo": "AIHOT은 스스로 핫이슈를 찾고 일일 리포트를 쓰는 사이트 프레임워크다. 정보원과 선별 기준을 바꾸면 각자의 업계 핫이슈 사이트가 된다.",
+    "summaryKo": "KKKKhazix/AIHOT은 스스로 핫이슈를 찾아 일일 리포트를 쓰는 웹사이트 프레임워크다. 신호원과 선별 기준만 바꾸면 각자의 업계 핫이슈 사이트로 쓸 수 있다.",
     "tags": [
-      "뉴스 자동화",
-      "큐레이션"
+      "자동 큐레이션",
+      "웹사이트"
     ],
-    "entities": [
-      "AIHOT"
-    ],
+    "entities": [],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
-    "id": "097c2ef4d87a406d",
+    "id": "2fca604ef19223c0",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "jialinyyzz/humanizer",
-    "url": "https://huggingface.co/jialinyyzz/humanizer",
-    "publishedAt": "2026-09-11T05:00:16.000Z",
-    "rawText": "text-generation | gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting",
-    "score": 572,
+    "title": "Cloudflare/clef-flash",
+    "url": "https://huggingface.co/Cloudflare/clef-flash",
+    "publishedAt": "2026-09-30T21:15:36.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, clef, cloudflare, systemone, decision-model",
+    "score": 399,
     "rank": 8,
-    "summaryKo": "humanizer는 Gemma4 기반의 글 다듬기·재작성 모델로, AI 티 나는 문장을 자연스럽게 바꾸는 용도다.",
+    "summaryKo": "Cloudflare가 clef의 경량 버전 clef-flash를 Hugging Face에 공개했다. Qwen3.5 기반 image-text-to-text 의사결정 모델이다.",
     "tags": [
-      "텍스트 재작성"
+      "비전-언어",
+      "의사결정 모델"
     ],
     "entities": [
-      "Gemma 4"
+      "Cloudflare",
+      "Qwen"
     ],
     "cats": [
-      "LLM·모델"
+      "LLM·모델",
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "4528afcf38aa495a",
@@ -571,49 +591,20 @@
     "url": "https://github.com/bojieli/ai-infra-book",
     "publishedAt": "2026-08-22T15:30:41Z",
     "rawText": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "score": 6070,
+    "score": 6153,
     "lang": "Python",
     "rank": 9,
-    "summaryKo": "《깊이 이해하는 AI Infra》 오픈소스 책 원고로, 하드웨어 제약과 모델 구조에서 LLM 추론·훈련 시스템 설계를 수치로 유도한다. 본문·PDF·계산 도구와 실험을 포함한다.",
+    "summaryKo": "bojieli/ai-infra-book은 《깊이 이해하는 AI Infra: 정량 분석과 시스템 설계》의 오픈소스 원고다. 하드웨어 제약과 모델 구조에서 출발해 LLM 추론·훈련 시스템을 정량적으로 유도하며 계산 도구와 실험을 포함한다.",
     "tags": [
-      "AI Infra",
+      "AI 인프라",
       "LLM 추론"
     ],
-    "entities": [
-      "bojieli"
-    ],
+    "entities": [],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
-  },
-  {
-    "id": "2fca604ef19223c0",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Cloudflare/clef-flash",
-    "url": "https://huggingface.co/Cloudflare/clef-flash",
-    "publishedAt": "2026-09-30T21:15:36.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, clef, cloudflare, systemone, decision-model",
-    "score": 552,
-    "rank": 9,
-    "summaryKo": "Cloudflare의 clef-flash는 clef의 경량판으로 보이는 Qwen3.5 기반 이미지-텍스트 의사결정 모델이다.",
-    "tags": [
-      "VLM",
-      "의사결정 모델"
-    ],
-    "entities": [
-      "Cloudflare",
-      "clef-flash",
-      "Qwen3.5"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "ca26bca182f697df",
@@ -623,23 +614,23 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
     "publishedAt": "2026-08-05T08:22:59.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
-    "score": 339,
+    "score": 336,
     "rank": 9,
-    "summaryKo": "Qwen이 Apache-2.0 라이선스로 Qwen3.8-27B를 Hugging Face에 공개했다. 이미지-텍스트 입력을 받는 270억 파라미터 대화형 모델이다.",
+    "summaryKo": "Qwen이 Apache-2.0 라이선스의 Qwen3.8-27B를 공개했다. 이미지와 텍스트를 함께 다루는 대화형 모델이다.",
     "tags": [
-      "LLM",
-      "오픈 웨이트"
+      "오픈 가중치",
+      "멀티모달"
     ],
     "entities": [
       "Qwen",
-      "Qwen3.8"
+      "Alibaba"
     ],
     "cats": [
       "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-05T21:02:54.797Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "cc02ca5d84b07cb3",
@@ -675,13 +666,13 @@
     "url": "https://github.com/Inkloom-art/inkloom",
     "publishedAt": "2026-09-20T07:54:30Z",
     "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "score": 1471,
+    "score": 1485,
     "lang": "TypeScript",
     "rank": 10,
-    "summaryKo": "Inkloom은 로고 디자인에 특화한 AI 모델 묶음이다. 브랜드 분석 모델이 제약을 만들면 타이포·심벌 모델이 마크를 구성하고 합성 엔진이 락업과 여백 규칙을 낸다. 얼리 액세스 중이다.",
+    "summaryKo": "Inkloom-art/inkloom은 로고 디자인에 특화된 AI 모델 모음이다. 브랜드 분석 모델이 제약을 정하고 타이포·심볼 모델이 마크를 만든 뒤 구성 엔진이 로크업과 여백 규칙까지 만든다.",
     "tags": [
-      "로고 디자인",
-      "이미지 생성"
+      "로고 생성",
+      "디자인"
     ],
     "entities": [
       "Inkloom"
@@ -690,32 +681,31 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
-    "id": "92c1824269f45469",
+    "id": "5d885f2b9705cba0",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Lightricks/LTX-2.5",
-    "url": "https://huggingface.co/Lightricks/LTX-2.5",
-    "publishedAt": "2026-07-23T07:55:24.000Z",
-    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 491,
+    "title": "convaiinnovations/laya",
+    "url": "https://huggingface.co/convaiinnovations/laya",
+    "publishedAt": "2026-09-18T05:05:55.000Z",
+    "rawText": "text-classification | transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing",
+    "score": 323,
     "rank": 10,
-    "summaryKo": "Lightricks의 LTX-2.5는 이미지·텍스트·오디오에서 영상을 만들고 영상에서 오디오도 만드는 확산 모델이다.",
+    "summaryKo": "convaiinnovations/laya는 보정된 의사결정과 라우팅을 겨냥한 텍스트 분류 모델로 system-one, RLCD 태그가 붙어 있다.",
     "tags": [
-      "Diffusion",
-      "영상 생성"
+      "분류",
+      "라우팅"
     ],
     "entities": [
-      "Lightricks",
-      "LTX-2.5"
+      "Laya"
     ],
     "cats": [
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "12f522fd941ed8b7",
@@ -774,27 +764,27 @@
     "url": "https://github.com/scenario-labs/skills",
     "publishedAt": "2026-08-12T10:08:49Z",
     "rawText": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-    "score": 925,
+    "score": 940,
     "lang": "Python",
-    "rank": 12,
-    "summaryKo": "Scenario의 스킬 모음으로, 어떤 AI 에이전트에서든 이미지·영상·오디오·3D를 만들게 한다. 모델 선택, 비용 사전 안내, 캐릭터·브랜드 일관성을 지원하고 Blender·Unity 등을 다루는 전문가 팀도 둔다.",
+    "rank": 11,
+    "summaryKo": "scenario-labs/skills는 AI 에이전트가 Scenario MCP로 이미지·영상·오디오·3D를 만들게 하는 스킬 모음이다. 모델 선택, 비용 사전 안내, 캐릭터·브랜드 일관성 유지를 돕고 Blender·Maya·Unreal·Unity 등을 다루는 전문 팀도 포함한다.",
     "tags": [
       "스킬",
       "MCP",
-      "3D 생성"
+      "생성 에셋"
     ],
     "entities": [
       "Scenario",
       "Blender",
-      "Unity",
-      "Unreal"
+      "Unreal",
+      "Unity"
     ],
     "cats": [
       "멀티모달",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "b34ca6dfe4254569",
@@ -804,10 +794,10 @@
     "url": "https://github.com/calmrocks/ai-engineer-notebooks",
     "publishedAt": "2026-08-11T23:17:17Z",
     "rawText": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps, and customer craft. Runs on the free Groq API.",
-    "score": 689,
+    "score": 692,
     "lang": "Jupyter Notebook",
-    "rank": 13,
-    "summaryKo": "AI 엔지니어와 FDE를 위한 프레임워크 없는 Colab 노트북 모음이다. 모델 API, RAG, 평가, 에이전트, MCP, 파인튜닝, 프롬프트 인젝션을 무료 Groq API로 실습한다.",
+    "rank": 12,
+    "summaryKo": "calmrocks/ai-engineer-notebooks는 AI/FDE 엔지니어용 프레임워크 없는 Colab 노트북 모음이다. 모델 API, 구조화 출력, 툴 호출, RAG, 평가, 에이전트, 파인튜닝, 보안, LLMOps를 무료 Groq API로 실습한다.",
     "tags": [
       "RAG",
       "에이전트",
@@ -815,14 +805,14 @@
     ],
     "entities": [
       "Groq",
-      "MCP"
+      "Colab"
     ],
     "cats": [
       "에이전트",
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   },
   {
     "id": "776452196977e360",
@@ -832,22 +822,49 @@
     "url": "https://github.com/Carasibana/ComfyUI-H3-FaceRefine",
     "publishedAt": "2026-08-12T11:18:15Z",
     "rawText": "Refine and improve the quality of small faces in MiniMax H3 video. Per-frame face tracking, crop, refine with H3, stitch back.",
-    "score": 458,
+    "score": 459,
     "lang": "Python",
-    "rank": 14,
-    "summaryKo": "ComfyUI-H3-FaceRefine은 MiniMax H3 영상에서 작은 얼굴의 품질을 개선하는 노드다. 프레임별 얼굴 추적·크롭·H3 정제·합성 순으로 처리한다.",
+    "rank": 13,
+    "summaryKo": "Carasibana/ComfyUI-H3-FaceRefine은 MiniMax H3 영상에서 작은 얼굴의 품질을 높이는 ComfyUI 노드다. 프레임별 얼굴 추적·크롭·H3 보정 후 다시 합성한다.",
     "tags": [
-      "ComfyUI",
-      "영상 후처리"
+      "영상 보정",
+      "ComfyUI"
     ],
     "entities": [
-      "ComfyUI",
-      "MiniMax"
+      "MiniMax",
+      "ComfyUI"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-08T21:03:28.603Z"
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
+  },
+  {
+    "id": "304449f663f818da",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "modelscope/ms-cookbook",
+    "url": "https://github.com/modelscope/ms-cookbook",
+    "publishedAt": "2026-09-11T14:27:35Z",
+    "rawText": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
+    "score": 415,
+    "lang": "HTML",
+    "rank": 14,
+    "summaryKo": "modelscope/ms-cookbook은 모델 선택·추론·파인튜닝·평가·RAG·Agent·AIGC를 다루는 ModelScope의 실전 오픈소스 가이드다. 첫 모델 실행부터 실제 애플리케이션 구축까지 안내한다.",
+    "tags": [
+      "오픈소스 모델",
+      "RAG",
+      "가이드"
+    ],
+    "entities": [
+      "ModelScope"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-09T21:06:37.859Z"
   }
 ]
