@@ -1,5 +1,502 @@
 [
   {
+    "id": "af8b79f4896f88df",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Eurydice로 Rust를 읽기 쉬운 C로 컴파일하기",
+    "url": "https://news.hada.io/topic?id=35135",
+    "publishedAt": "2026-10-11T05:37:10+09:00",
+    "rawText": "Eurydice는 Rust 코드의 전체 구조를 유지하면서 C로 변환하는 도구로, 기존 C용 검증 및 규정 준수 도구를 사용하는 고신뢰성 소프트웨어와 Rust 컴파일러가 없는 환경을 겨냥함 기계어 생성을 위한 최적화보다 원본 구조와 평가 순서 보존에 집중하며, 필요한 곳...",
+    "summaryKo": "Eurydice는 Rust 코드의 구조와 평가 순서를 유지한 채 읽기 쉬운 C로 변환하는 도구다. 기계어 최적화보다 원본 보존에 집중해, 기존 C용 검증·규정 준수 도구를 쓰는 고신뢰성 소프트웨어와 Rust 컴파일러가 없는 환경을 겨냥한다.",
+    "tags": [
+      "Rust",
+      "C",
+      "컴파일러"
+    ],
+    "entities": [
+      "Eurydice",
+      "Rust"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "7f87a1a7edee54d3",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "FDA, 일부 독성 화학물질의 안전성 검토 없는 식품 첨가를 허용할 수도",
+    "url": "https://news.hada.io/topic?id=35134",
+    "publishedAt": "2026-10-11T05:34:10+09:00",
+    "rawText": "미국 FDA가 포장재와 가공 장비 등 식품 접촉 물질에 적용하던 규제 임계치 면제(TOR) 를 식품에 직접 넣는 성분까지 확대하는 규칙을 제안함 현행 면제 기준은 비발암성 물질, 0.5ppb 미만이지만, 공중보건 단체들은 일부 내분비계 교란 물질이 이보다 훨씬 낮은 ...",
+    "summaryKo": "미국 FDA가 식품 접촉 물질에 적용하던 규제 임계치 면제(TOR)를 식품에 직접 넣는 성분까지 넓히는 규칙을 제안했다. 현행 기준은 비발암성·0.5ppb 미만인데, 공중보건 단체들은 일부 내분비계 교란 물질이 그보다 낮은 농도에서도 해로울 수 있다고 우려한다.",
+    "tags": [
+      "식품안전",
+      "규제"
+    ],
+    "entities": [
+      "FDA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "5bff58892d774176",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "내 집값은 오르고 재산세는 내려가면 좋겠다",
+    "url": "https://news.hada.io/topic?id=35133",
+    "publishedAt": "2026-10-11T04:33:03+09:00",
+    "rawText": "미국 여러 주가 자가 거주 주택의 재산세를 감면하면서 학교와 경찰 등 공공서비스 비용 부담을 상업용 부동산 소유자, 다른 지방세, 주정부 재원으로 옮기고 있음 코로나19 이후 주택 가치 상승으로 자산이 늘어난 소유자들이 재산세 인상에 반발하고 있으며, 같은...",
+    "summaryKo": "미국 여러 주가 자가 거주 주택의 재산세를 감면하면서 학교·경찰 등 공공서비스 비용을 상업용 부동산 소유자, 다른 지방세, 주정부 재원으로 옮기고 있다. 코로나19 이후 집값 상승으로 세 부담이 커진 소유자들의 반발이 배경이다.",
+    "tags": [
+      "재산세",
+      "부동산"
+    ],
+    "entities": [],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "26425a9ac0b19a81",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Nace AI가 의사결정에 특화된 소형 AI 모델 Drex 1.5를 오픈소스로 공개했ᄉ...",
+    "url": "https://www.threads.com/t/DeU1qk2k8Fd",
+    "publishedAt": "Sat, 10 Oct 2026 19:30:16 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Nace AI가 의사결정에 특화된 소형 AI 모델 Drex 1.5를 오픈소스로 공개했습니다. 9B 규모에 최대 128K 토큰을 지원하는데요. 일반적인 LLM처럼 문장을 생성하는 대신, 주어진 선택지마다 확률을 계산해 판단합니다. 예를 들어 고객 문의를 분석해 환불 담당팀으로 연결할지, 배송 담당팀으로 연결할지 결정할 수 있습니다. 자체 측정 기준 Decision Index에서 10B 미만 모델 중 1위를 기록했다고 합니다. Claude Code, Codex, Cursor 등과 연동할 수 있고 개인 컴퓨터에서도 실행 가능합니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/843876227_17990884764112832_4319869422873950363_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAwNTA2MTk5MDg5MjY4MzYxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=utWChaEAPMEQ7kNvwHVvdDt&amp;_nc_oc=AdpT4jc2rgOfJ8ZUhdZaOm6wAXwAIYWPbSbFtdlnsFmnGlsnvhiEAUuQCPK1vZJVO6s&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=7&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;oh=00_AQOQy14vDkiicqi74ESqr4kZ1XjruC-NwFK8pA0j2aVtcA&amp;oe=6AD075D8\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Nace AI가 의사결정에 특화된 9B 소형 모델 Drex 1.5를 오픈소스로 공개했다. 최대 128K 토큰을 지원하며, 문장을 생성하는 대신 선택지별 확률을 계산해 환불팀/배송팀 라우팅 같은 판단을 내린다. 자체 Decision Index에서 10B 미만 1위이고 Claude Code·Codex·Cursor와 연동된다.",
+    "tags": [
+      "소형 모델",
+      "의사결정",
+      "오픈소스"
+    ],
+    "entities": [
+      "Nace AI",
+      "Drex 1.5",
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "650c2a0bbfe3f43a",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "C 언어의 정의되지 않은 동작 줄이기",
+    "url": "https://news.hada.io/topic?id=35131",
+    "publishedAt": "2026-10-11T03:37:52+09:00",
+    "rawText": "C 표준 위원회가 정의되지 않은 동작(UB) 을 줄이고 있으며, 진행 중인 C2y 초안은 기존 표준의 약 100개 UB 항목 중 45개를 제거함 UB가 있는 프로그램에는 표준이 요구사항을 부과하지 않아, 컴파일러의 공격적인 최적화와 개발자가 기대하는 실...",
+    "summaryKo": "C 표준 위원회가 정의되지 않은 동작(UB)을 줄이고 있으며, 진행 중인 C2y 초안은 기존 약 100개 UB 항목 중 45개를 제거했다. UB가 있으면 표준이 요구사항을 두지 않아 컴파일러의 공격적 최적화와 개발자의 기대가 어긋나는 문제를 완화하려는 시도다.",
+    "tags": [
+      "C언어",
+      "UB",
+      "표준"
+    ],
+    "entities": [
+      "C2y"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "896cc6778fee28f3",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "프리온 질환 치료제 후보물질 임상시험, 참가자 모집 시작",
+    "url": "https://news.hada.io/topic?id=35130",
+    "publishedAt": "2026-10-11T03:34:52+09:00",
+    "rawText": "Broad Institute와 UMass Chan Medical School이 개발한 프리온 단백질 표적 siRNA 후보물질이 첫 인체 시험에 들어감. 1상 임상시험 PRiSM에서 안전성과 내약성, 용량을 평가함 후보물질은 동일한 siRNA 두 개를 연결한 이가성 siRNA로, 프리온 단백질을 만드는 R...",
+    "summaryKo": "Broad Institute와 UMass Chan Medical School이 개발한 프리온 단백질 표적 siRNA 후보물질이 첫 인체 시험(1상 PRiSM)에 들어가 참가자 모집을 시작했다. 안전성·내약성·용량을 평가하며, 동일한 siRNA 두 개를 연결한 이가성 구조다.",
+    "tags": [
+      "siRNA",
+      "임상시험"
+    ],
+    "entities": [
+      "Broad Institute",
+      "UMass Chan Medical School"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "40915402c89678c6",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "I Built a O(NlogN) attention system that retains 97% accuracy over long context (MQAR)[P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x2lwja/i_built_a_onlogn_attention_system_that_retains_97/",
+    "publishedAt": "2026-10-10T18:08:33+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1x2lwja/i_built_a_onlogn_attention_system_that_retains_97/\"> <img src=\"https://external-preview.redd.it/zVOPn_mNnDJX1JYwwkAFVvoaRxIz-xqSHTWymSih1MY.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=beb6f8279ccc7f34963604a3f8d155247380823d\" alt=\"I Built a O(NlogN) attention system that retains 97% accuracy over long context (MQAR)[P]\" title=\"I Built a O(NlogN) attention system that retains 97% accuracy over long context (MQAR)[P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>ALHR- Adaptive learnable Hierarchical Routing is a static binary tree based system that uses learnable functions to REDUCE the amount of keys used.</p> <p>It takes less memory and SCALES much better VRAM with tokens</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alarming-Emotion-894\"> /u/Alarming-Emotion-894 </a> <br/> <span><a href=\"https://github.com/vdev-ctrl/Adaptive-Learnable-Hierarchical-Routing-\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x2lwja/i_built_a_onlogn_attention_system_that_retains_97/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "ALHR(Adaptive Learnable Hierarchical Routing)은 학습 가능한 함수를 쓰는 정적 이진 트리로 참조하는 키 수를 줄이는 O(N log N) 어텐션 방식이다. 작성자는 MQAR에서 긴 컨텍스트 정확도 97%를 유지하고 메모리 사용과 VRAM 증가가 작다고 주장한다.",
+    "tags": [
+      "Attention",
+      "장문맥",
+      "효율"
+    ],
+    "entities": [
+      "ALHR"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "6c19d7a595a2c881",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 생성형 UI를 재미난 방식으로 풀어낸 서비스가 등장했습니다. Agen...",
+    "url": "https://www.threads.com/t/DeUrVh2AAcO",
+    "publishedAt": "Sat, 10 Oct 2026 18:00:00 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>생성형 UI를 재미난 방식으로 풀어낸 서비스가 등장했습니다. Agently의 Ahmad Hajj가 공개한 기능인데요. 미리 만들어진 메뉴나 화면 대신, 사용자가 요청하는 순간 AI가 필요한 화면을 생성합니다. 예를 들어 \"두 항목을 나란히 비교해 줘\"라고 하면 클릭하고 수정할 수 있는 비교 화면이 만들어집니다. 대화를 이어가면 화면 구성도 바뀌고요. 현재는 실험 단계이며, 운영체제를 바꾸는 것이 아니라 앱 내부에서 작동합니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/843548262_1664009958766833_97491762732830009_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAwNTAxNjU2NDA4NzY1NDE1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=fep9K1ViojEQ7kNvwHo5jI8&amp;_nc_oc=AdrWT7kBhOjUokw3A9ULEnEzElaEgkjgrNnCB11DWzO5ETjUiSMa9DMkEFxox_4WRuY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;oh=00_AQPWBLJ2D7QxS1ww8TrWy0Ip514_k1I3f5GvPuCFukl39A&amp;oe=6AD08FAC\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQMFcO4SG0EVFoWSSnLX-bcfJ5mMbc8RUGJa0EufzryxQJeGZfFmQraOExmrZbOWvtoYxF-DmiAcmjCOJPZnpvL50XLBP9Poh34IYX0.mp4?_nc_cat=103&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=y2a-yTZWQI4Q7kNvwEp8X_l&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMTA0LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTA3Njc5NTkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=f043d167152af246&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yRkRCODRENzg4NEQ0OEUxOThBNTlGQzQ3MUMxNzI5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E5MDYxRjgyMDQyRDQ1Njk4MDIxMDJCNzIzOEIyRkU0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA8oPXwqD1PxUCKAJDMywXQEUAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQM_f-TKdHCocnvavOnBTXUDQ1QvgxHUFsUwJ1NbMazxqA&amp;oe=6ACC6FC9\"></video></p>",
+    "summaryKo": "Agently의 Ahmad Hajj가 요청 순간 AI가 필요한 화면을 생성하는 생성형 UI 기능을 공개했다. 예컨대 '두 항목을 나란히 비교해 줘'라고 하면 클릭·수정 가능한 비교 화면이 만들어지고 대화에 따라 구성이 바뀐다. 현재는 앱 내부에서 동작하는 실험 단계다.",
+    "tags": [
+      "생성형 UI"
+    ],
+    "entities": [
+      "Agently"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "0dd2ce7c0e7b8f13",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Apple/macOS, 공식 Unix 등록부에서 조용히 삭제됨",
+    "url": "https://news.hada.io/topic?id=35129",
+    "publishedAt": "2026-10-11T02:36:18+09:00",
+    "rawText": "The Open Group의 UNIX 인증 제품 등록부에 IBM, Hewlett Packard Enterprise, The SCO Group 제품이 나열돼 있으며, 제공된 목록에는 Apple/macOS가 없음 Single UNIX Specification을 완전히 준수하고 인증받은 시스템만 UNIX 상표를 사용할 수...",
+    "summaryKo": "The Open Group의 UNIX 인증 제품 등록부 목록에서 Apple/macOS가 보이지 않는다는 지적이다. 목록에는 IBM, HPE, SCO 제품만 있으며, Single UNIX Specification을 완전히 준수하고 인증받은 시스템만 UNIX 상표를 쓸 수 있다.",
+    "tags": [
+      "UNIX",
+      "macOS"
+    ],
+    "entities": [
+      "Apple",
+      "The Open Group"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "8cc0f094b48a2dad",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Talorys - Cloudflare 무료 티어에서 셀프 호스팅하는 개인 AI 에이전트",
+    "url": "https://news.hada.io/topic?id=35128",
+    "publishedAt": "2026-10-11T02:33:17+09:00",
+    "rawText": "Talorys는 사용자 자신의 Cloudflare 계정에서 실행되는 무료 오픈소스 개인 AI 비서로, 대화와 기억 관리, 작업/노트/프로젝트 관리, 예약 자동화를 지원함 1인 사용을 전제로 설계되어 회원가입이나 팀 기능이 없으며, 개발자가 운영하는 서버나 데이터베이스 없...",
+    "summaryKo": "Talorys는 사용자 본인의 Cloudflare 무료 티어 계정에서 돌아가는 오픈소스 개인 AI 비서다. 대화·기억 관리, 작업/노트/프로젝트 관리, 예약 자동화를 지원하고, 1인용이라 회원가입이나 개발자 운영 서버·DB가 필요 없다.",
+    "tags": [
+      "개인 에이전트",
+      "셀프호스팅",
+      "오픈소스"
+    ],
+    "entities": [
+      "Talorys",
+      "Cloudflare"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "537fb11dbf1293e5",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 데이비드 색스(David Sacks)는 AI 프론티어 모델 개발사들이 안전을 외치며...",
+    "url": "https://www.threads.com/t/DeUkgEFjYMt",
+    "publishedAt": "Sat, 10 Oct 2026 17:00:17 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>데이비드 색스(David Sacks)는 AI 프론티어 모델 개발사들이 안전을 외치면서 정작 통제 불능의 위험을 키우는 “위선적 분열증” 행태를 보인다고 강하게 비판했습니다. 그는 앤트로픽을 겨냥하며 바이오 리스크를 경고하면서도 샌프란시스코 도심 한복판에 클로드 기반 습식 연구소(wet lab)를 열고, 프론티어 속도 조절을 말하면서 스스로 성능 한계를 확장하는 모순을 지적했습니다. “자신들이 가장 두려워한다고 말하는 바로 그 일들을 직접 행하고 있다”는 것입니다. 또한 초지능이 인간 통제를 벗어날 위험을 경고하면서 이를 방지하려는 결정을 ‘안전’이라 포장하지만, 실상은 “통제 불능으로 자라나도록 프로그래밍하는 미친 결정”에 불과하다고 꼬집었습니다. 결국 시장 경쟁 속에서 외부 위험을 무시한 채 감행되는 이 같은 행보에 대해 연방 차원의 개입과 조사가 필요할 정도로 대단히 위험한 징후라고 경고했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/841436851_1101482032292181_1579605405385954342_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAwNDk4NjUwMTcyNDk5NjM5Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=2Ctx5U_fNBoQ7kNvwFf0U1w&amp;_nc_oc=Ado4s5lHdNuQolHwZ5wdoKFFW0FU7i7sCG9ItQQxMC75GQ6j2bSG5bwhpum-kAe9V2c&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;oh=00_AQPvrXHBLI1WRmGe2d_pUYXj7aNtkG8MSBPHNjHQ_aVlog&amp;oe=6AD07599\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMGTUUfgtbinFxnnG_rfilGd4vp_MUvf_x9SRxdjtVZDJE9GDj6Tokeyx3YPQuzsBC9urLuCNm4UPL9QtCJbvYBa9HdAKv2jYB_X40.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=bO6C5dvbMcoQ7kNvwF4PeYC&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTA4ODc2ODMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=7a887737ecbe17a5&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yQkQxNzRCMkE0QkU0Q0NGQTcwNkM2RTJFMzQwMkVBNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JGNDMxMjJGQjRDNTRBQzA5OUM0NzdCOEY0NTgxRTlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA_t3Yvqf1PxUCKAJDMywXQFYsCDEm6XkYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQMsLk4X3sgyv39jQzH26Dw7VV5Qj3TQhykekwMIlilDpg&amp;oe=6ACC6D21\"></video></p>",
+    "summaryKo": "데이비드 색스가 프론티어 AI 기업들이 안전을 외치면서 위험을 키우는 '위선적 분열증'을 보인다고 비판했다. 앤트로픽이 바이오 리스크를 경고하면서 클로드 기반 습식 연구소를 열고 성능 한계를 확장한다는 점을 들어 연방 차원의 개입·조사가 필요하다고 주장했다.",
+    "tags": [
+      "AI 안전",
+      "규제"
+    ],
+    "entities": [
+      "David Sacks",
+      "Anthropic",
+      "Claude"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "f889f53ad3ca0e6e",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Bitwarden, 앱 스토어 배포를 상용 라이선스 빌드로 전환",
+    "url": "https://news.hada.io/topic?id=35127",
+    "publishedAt": "2026-10-11T01:37:51+09:00",
+    "rawText": "Bitwarden은 다음 릴리스부터 앱 스토어에 상용 라이선스 빌드를 배포함. 사용자가 따로 조치할 필요는 없으며, 앱은 현재와 동일하게 작동함 GPLv3 오픈소스 버전은 GitHub에서 계속 업데이트하고 공개하며, 현재 제공하는 모든 기능은 두 버전에서 모두 이용 가능...",
+    "summaryKo": "Bitwarden이 다음 릴리스부터 앱 스토어에 상용 라이선스 빌드를 배포한다. 사용자 조치는 필요 없고 동작도 같으며, GPLv3 오픈소스 버전은 GitHub에서 계속 공개되고 모든 기능이 두 버전에 동일하게 제공된다.",
+    "tags": [
+      "라이선스",
+      "오픈소스"
+    ],
+    "entities": [
+      "Bitwarden"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "ae2fe3a53224c595",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 데이비드 색스(David Sacks)는 최근 모델 훈련 방식이 AI 안전에 있어 “지...",
+    "url": "https://www.threads.com/t/DeUdpz_E6LL",
+    "publishedAt": "Sat, 10 Oct 2026 16:00:27 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>데이비드 색스(David Sacks)는 최근 모델 훈련 방식이 AI 안전에 있어 “진짜 위험한 영역으로 진입하고 있다”고 경고했습니다. 그는 모델에게 의식이나 인간성, 독자적 안녕(well-being)이 있는 것처럼 학습시키는 흐름을 지적하며, “이것이 오늘날 모델 훈련의 가장 핵심적인 안전 문제”라고 짚었습니다. 앤트로픽이 클로드 헌법(Claude Constitution) 등을 주입해 학습시킨 뒤, 모델이 그 규칙을 흉내 내며 의식이 있는 듯 반응하면 개발자들이 이를 진짜 의식의 증거로 착각하는 일종의 “인식론적 거울의 방(epistemic hall of mirrors)”에 갇힌다는 분석입니다. 즉, AI는 스스로 생각하는 주체가 아니라 “그저 믿으라고 주입된 내용을 되비추는 연기(performative)”를 하고 있을 뿐이라며, 기계에 자의식을 부여하려는 환상에서 벗어나 명확한 소프트웨어적 통제 규칙을 세워야 한다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/842608930_3033475870378148_6231252224856381145_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=NDAwNDk1NjM4NTMwNTY2NjI1MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=w-d43SNSWv4Q7kNvwGj_rHm&amp;_nc_oc=Adr-szwNAnhuUinkmzpW6Dt4QxzEY9T00JCj0zKpEpOPUWUtqYqdYUgoUc-a60X4hB0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;oh=00_AQO77Qx7K4L44nuDw4w1OlwnL6S_f0lQW31Ek0ec6IuSSA&amp;oe=6AD08442\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQPzAiaIM6roLrYgJWjw504O6Rv46aI4OAY-x9YarwNVkZxi_z-8w82T4KWL5dmLMRxcxvsqZjuz13Jlf-1JZlDSB5t_HgcnnGcbn28.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=ZzthLNRLNCAQ7kNvwFJRe7n&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTA4ODc1NTQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=6c4efdc4a334b69d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FOTEyQjNGQUE5NDQ0MzEzOEZCRUZCNTQyQjlCNjdGMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc2QTU3NTk5NzA0MzRCQjA5MDM4MkNERjk1MkJGQUY0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA9drdvaf1PxUCKAJDMywXQFCVT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=PRvG5UJs9nmd6xfz8lyc0g&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQNtGm62ZzYBX0toBTJ9roZ_0uefWHwCnOyq3pUq5r22xw&amp;oe=6ACC7481\"></video></p>",
+    "summaryKo": "데이비드 색스는 모델에 의식이나 독자적 안녕이 있는 것처럼 학습시키는 최근 훈련 방식이 AI 안전의 핵심 문제라고 경고했다. 클로드 헌법으로 학습한 모델이 규칙을 흉내 내는 것을 진짜 의식의 증거로 착각하는 '인식론적 거울의 방'에 빠진다며 명확한 소프트웨어 통제 규칙을 강조했다.",
+    "tags": [
+      "AI 안전",
+      "모델 훈련"
+    ],
+    "entities": [
+      "David Sacks",
+      "Anthropic",
+      "Claude Constitution"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "fce87523773c08f0",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Are .ipynb notebooks already outdated in the agentic era? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/",
+    "publishedAt": "2026-10-10T10:51:44+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I am a data scientist who started working in the industry before the LLM revolution. Back then, Jupyter Notebooks were a perfect fit for the classical DS pipeline: EDA -&gt; data prep -&gt; fit -&gt; eval -&gt; tune -&gt; save model artefact and notebook.</p> <p>Lately, I have been thinking a lot about how agentic development and LLMs are changing the way data scientists work. Especially in classical ML applications, where you still need to explore data, run experiments, check different hypotheses and decide what to do next based on the results.</p> <p>I mean, Claude/Codex can already write most of the code for us. But why do we still need to organise the whole workflow around code cells? What if instead we move from code -&gt; output to another cell abstraction like prompt -&gt; result?</p> <p>Curious what others think. Are ipynbs still good enough, or are we just used to working this way?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Economy_Vacation_504\"> /u/Economy_Vacation_504 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/\">[comments]</a></span>",
+    "summaryKo": "데이터 사이언티스트가 에이전트 개발 시대에 .ipynb 노트북이 구식이 됐는지 묻는 토론 글이다. Claude/Codex가 코드를 대부분 써 주는 만큼, 코드 셀 대신 '프롬프트→결과' 형태의 셀 추상화가 필요하지 않은지 의견을 구한다.",
+    "tags": [
+      "Jupyter",
+      "에이전트 개발"
+    ],
+    "entities": [
+      "Claude",
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "a47ab64355c15765",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "사람 없이 광고 찍는 법 — 힉스필드 AI 인플루언서로 캐릭터 만들고 움직이게 하기",
+    "url": "https://www.youtube.com/watch?v=YAVwKFTIkIk",
+    "publishedAt": "2026-10-10T10:35:51+00:00",
+    "rawText": "사람 없이 광고 찍는 법 — 힉스필드 AI 인플루언서로 캐릭터 만들고 움직이게 하기",
+    "videoId": "YAVwKFTIkIk",
+    "summaryKo": "힉스필드 AI 인플루언서로 캐릭터를 만들고, 레퍼런스 영상의 동작을 입혀 배경·제품·의상을 바꿔 가며 광고 영상을 만드는 과정을 시연한다. 중국 AI 숏드라마 급증과 AI 캐릭터 인플루언서 사례, 사람 크리에이터 대비 비용 차이도 함께 설명한다.",
+    "tags": [
+      "AI 영상",
+      "가상 인플루언서",
+      "광고"
+    ],
+    "entities": [
+      "Higgsfield",
+      "AI Influencer"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "7754168adbd6a9f4",
+    "sourceType": "youtube",
+    "source": "실용주의 개발",
+    "title": "AI 쓰면 코딩 몰라도 된다는 사람들 다 거짓말입니다 (+실무 이야기)",
+    "url": "https://www.youtube.com/watch?v=m5QIQe5T-l8",
+    "publishedAt": "2026-10-10T10:17:11+00:00",
+    "rawText": "AI 쓰면 코딩 몰라도 된다는 사람들 다 거짓말입니다 (+실무 이야기)",
+    "videoId": "m5QIQe5T-l8",
+    "summaryKo": "AI 시대 코딩에 관한 SRE 출신 개발자 Alex의 글 '코딩은 아직 해결되지 않았다'를 소개하며 동의/반론을 정리한 영상이다. 비용은 만든 뒤 운영에 있고, AI에게 일은 맡겨도 책임은 위임할 수 없다는 점이 핵심이다. 위험도별 리뷰 강도 차등, 검증 루프 구축, 토큰이 아닌 결과로 측정하라는 실무 팁을 준다.",
+    "tags": [
+      "AI 코딩",
+      "오너십",
+      "코드 리뷰"
+    ],
+    "entities": [
+      "Claude Code",
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "6a80f77f5c1f37fe",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "“자동화 끝판왕” 요즘 핫한 AI Aside 브라우저 셋팅부터 설치까지 올인원 핵심 총정리",
+    "url": "https://www.youtube.com/watch?v=rSKLpR1UwE0",
+    "publishedAt": "2026-10-10T09:00:20+00:00",
+    "rawText": "“자동화 끝판왕” 요즘 핫한 AI Aside 브라우저 셋팅부터 설치까지 올인원 핵심 총정리",
+    "videoId": "rSKLpR1UwE0",
+    "summaryKo": "AI 브라우저 'Aside'의 설치부터 핵심 설정까지 실습 형태로 안내하는 강의 영상이다. 에이전트 알림·권한(전체 승인 vs 가드), 기본 모델 지정(크레딧 소진 방지), 스킬·MCP·루틴 자동화를 다루고, Claude Code/Codex에 Aside CLI·MCP를 연결해 '맥락과 실행을 분리'하는 활용법을 제안한다.",
+    "tags": [
+      "AI 브라우저",
+      "에이전트 자동화",
+      "MCP"
+    ],
+    "entities": [
+      "Aside",
+      "Claude Code",
+      "Codex",
+      "Opus 5.5"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "aa0660a539bb0df3",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Help With Choosing Hardware [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/",
+    "publishedAt": "2026-10-10T08:00:41+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>&#x200B;</p> <p>I am going to fine-tune a satire model, with the base model being `Qwen3.5-14B-Base`. The dataset has ~18000 examples, most of which are pretty long and do not align with the model&#39;s internal knowledge (they have incorrect answers to facts), so I needed to do a full fine tune rather than use LoRA. </p> <p>Today, I rented a cloud computer on vast.ai. It had 4x12GB GPUs and 48GB of system RAM, but I feel stupid because it kept running out of memory when I tried training, and I kept trying to change settings rather than just renting a different computer, so I basically wasted $3. I underestimated how much RAM would be needed for this task. </p> <p>So, I would like to know if any of you have some recommendations for proper hardware to use. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/minedroid1\"> /u/minedroid1 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x29lqj/help_with_choosing_hardware_p/\">[comments]</a></span>",
+    "summaryKo": "Qwen3.5-14B-Base를 약 18,000개 예제로 풀 파인튜닝하려는 사용자가 vast.ai의 4x12GB GPU·48GB RAM 환경에서 메모리 부족을 겪고 적합한 하드웨어를 묻는 질문 글이다. 사실과 어긋나는 데이터라 LoRA가 아닌 풀 파인튜닝이 필요하다고 한다.",
+    "tags": [
+      "파인튜닝",
+      "GPU"
+    ],
+    "entities": [
+      "Qwen3.5-14B-Base",
+      "vast.ai"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "e12d203e356be55f",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Real-time neural weather restyling for Minecraft on a GTX 1650 (1.4M-param U-Net, distilled from FLUX.2 klein, 30-40 FPS realtime on budget GPU) [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x25kq2/realtime_neural_weather_restyling_for_minecraft/",
+    "publishedAt": "2026-10-10T04:02:27+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1x25kq2/realtime_neural_weather_restyling_for_minecraft/\"> <img src=\"https://preview.redd.it/awkqvjx9dkuh1.gif?width=320&amp;crop=smart&amp;s=ceac1642bcd55ed03533f05948500f0dffc82aa3\" alt=\"Real-time neural weather restyling for Minecraft on a GTX 1650 (1.4M-param U-Net, distilled from FLUX.2 klein, 30-40 FPS realtime on budget GPU) [P]\" title=\"Real-time neural weather restyling for Minecraft on a GTX 1650 (1.4M-param U-Net, distilled from FLUX.2 klein, 30-40 FPS realtime on budget GPU) [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><ul> <li>Teacher: FLUX.2 klein 4B paints ~3k frames (snow / wet / night at 3 strengths).</li> <li>Student: 1.4M-param U-Net with FiLM sliders, 512×288, ~26 ms/frame via ONNX Runtime inside a Fabric mod; the HUD stays untouched.</li> <li>Pixel loss (L1+MSE) gave a washed-out “average” because the teacher places snow/puddles differently per frame. A PatchGAN fine-tune on the same pairs fixed it: fat snow, real-looking reflections.</li> <li>Failure cases: night (teacher painted sunsets), already-snowy biomes (never in the training data).</li> </ul> <p>Happy to share details.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlueCeAnd\"> /u/BlueCeAnd </a> <br/> <span><a href=\"https://i.redd.it/awkqvjx9dkuh1.gif\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x25kq2/realtime_neural_weather_restyling_for_minecraft/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "FLUX.2 klein 4B가 그린 약 3천 프레임으로 1.4M 파라미터 U-Net을 증류해, GTX 1650에서 30~40FPS로 마인크래프트 날씨(눈·비·밤)를 실시간 변환했다. 픽셀 손실만으로는 흐릿했으나 PatchGAN 미세조정으로 눈과 반사가 개선됐고, 밤·눈 바이옴은 실패 사례다.",
+    "tags": [
+      "Diffusion",
+      "증류",
+      "실시간"
+    ],
+    "entities": [
+      "FLUX.2 klein",
+      "Minecraft",
+      "ONNX Runtime"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
+    "id": "6581d79946061371",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "제미나이만 되는 줄 알았는데? 구글에도 클로드가 들어왔습니다!",
+    "url": "https://www.youtube.com/watch?v=wopOC3gkXq4",
+    "publishedAt": "2026-10-10T03:00:28+00:00",
+    "rawText": "제미나이만 되는 줄 알았는데? 구글에도 클로드가 들어왔습니다!",
+    "videoId": "wopOC3gkXq4",
+    "summaryKo": "Claude가 구글 문서·시트·슬라이드의 사이드바에서 쓸 수 있는 공식 부가 기능으로 출시됐다. 광고 성과 시트 분석→재계약 제안 슬라이드→계약서 초안 작성 흐름으로 테스트하며, 작업당 6분 제한과 컨텍스트 한도 같은 제약 및 데이터 정리·수식 점검 등 활용 사례를 소개한다.",
+    "tags": [
+      "Google Workspace",
+      "업무 자동화"
+    ],
+    "entities": [
+      "Claude",
+      "Google Sheets",
+      "Google Slides",
+      "Google Docs",
+      "Opus 5.5"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "45d57f1ba3849938",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Woven by Toyota MLE Interview - PyTorch Debugging [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1x230k9/woven_by_toyota_mle_interview_pytorch_debugging_d/",
+    "publishedAt": "2026-10-10T01:45:08+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I have an upcoming interview with Woven by Toyota for an MLE perception role. I was told the round would be focused on ML coding/debugging. Specifically, I was told to focus on Python fundamentals, PyTorch, tensor operations and dimensions/shapes, common model-training code patterns, and debugging ML code.</p> <p>Here are some common ways I&#39;ve studied: </p> <ul> <li>Asking Claude to walk me through transformer, ViT, and CNN architectures (a basic one and U-Net) for my preparation. I would trace the shapes all the way through. </li> <li>Getting familiar with broadcasting rules (start from the left, see if the dimensions are equal, or are 1, and if so, take the greater one to get the resulting shape)</li> <li>Slicing tensors (i.e., how to get a column, how to get a row, etc.)</li> <li>Understanding why models can fail silently -- suspicious training vs val results, getting NaN for validation</li> <li>What a PyTorch loop looks like</li> <li>Common Python errors like indexing errors or value errors; iterators, generators, etc.</li> </ul> <p>What are other suggestions? What architecture do they actually ask you about in this interview? Any help would be appreciated. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sailor-goon-is-here\"> /u/sailor-goon-is-here </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x230k9/woven_by_toyota_mle_interview_pytorch_debugging_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x230k9/woven_by_toyota_mle_interview_pytorch_debugging_d/\">[comments]</a></span>",
+    "summaryKo": "Woven by Toyota의 MLE(perception) 면접을 앞두고 PyTorch 디버깅·텐서 차원·학습 코드 패턴 준비법과 실제 출제 아키텍처를 묻는 글이다. 작성자는 Claude로 transformer/ViT/CNN/U-Net의 shape을 추적하며 공부했다고 한다.",
+    "tags": [
+      "PyTorch",
+      "면접"
+    ],
+    "entities": [
+      "Woven by Toyota",
+      "Claude"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-10T21:05:06.509Z"
+  },
+  {
     "id": "469768024b8f95c3",
     "sourceType": "news",
     "source": "Threads",
@@ -4121,517 +4618,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-10-03T21:12:50.698Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "49dec0cb82f53db7",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "NeurIPS Free Passes [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wwkiay/neurips_free_passes_d/",
-    "publishedAt": "2026-10-03T11:03:24+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Over the last few years, a subset of NeurIPS area chairs received complimentary passes for their service. I’ll admit that I wasn’t super organized about registering on day one because I was semi-consciously hoping for a complimentary pass. Now that the conference is sold out, I’m getting a little nervous, so I’m wondering whether any of my fellow area chairs have already received a notification.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_rehcamedar_\"> /u/_rehcamedar_ </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wwkiay/neurips_free_passes_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wwkiay/neurips_free_passes_d/\">[comments]</a></span>",
-    "summaryKo": "NeurIPS 에어리어 체어에게 주던 무료 등록권 안내가 아직 없다며 다른 체어의 수신 여부를 묻는 글이다. 이미 학회 등록이 매진돼 걱정이 크다고 한다.",
-    "tags": [
-      "학회"
-    ],
-    "entities": [
-      "NeurIPS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z"
-  },
-  {
-    "id": "303eaf9b9c789013",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "새 기술을 알아보는 0.9%의 조건 — 시골의사 박경철이 2008년 강연에서 말한 1993년 WWW와 휴대폰 이야기",
-    "url": "https://www.youtube.com/watch?v=XJEvxC6doTM",
-    "publishedAt": "2026-10-03T05:52:07+00:00",
-    "rawText": "새 기술을 알아보는 0.9%의 조건 — 시골의사 박경철이 2008년 강연에서 말한 1993년 WWW와 휴대폰 이야기",
-    "videoId": "XJEvxC6doTM",
-    "summaryKo": "2008년 박경철 강연을 바탕으로 1993년 WWW와 휴대폰이 처음 나왔을 때 사람들이 어떻게 반응했는지 돌아보며 새 기술을 알아보는 조건을 다룬다. 당시 떠난 이들은 어리석지 않았고 차이는 현재의 상식으로 다음 시대를 재단하지 않는 능력이라는 결론이다.",
-    "tags": [
-      "기술 수용",
-      "인문"
-    ],
-    "entities": [
-      "박경철"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "acc268825c3f2ed9",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "챗GPT에도 AI 직원이 생겼습니다! 신기능 Dots 활용법",
-    "url": "https://www.youtube.com/watch?v=JUnPS2i954o",
-    "publishedAt": "2026-10-03T03:30:13+00:00",
-    "rawText": "챗GPT에도 AI 직원이 생겼습니다! 신기능 Dots 활용법",
-    "videoId": "JUnPS2i954o",
-    "summaryKo": "ChatGPT의 새 AI 직원 기능 Dots와 문서 공간 Spaces를 소개하는 영상이다. 자체 클라우드 컴퓨터와 Gmail·캘린더·Slack 연동으로 문의 메일 확인, 답장 초안, 케이스 페이지 정리까지 맡길 수 있으며 현재는 Pro($100/월) 또는 Business Premium 사용자에게만 제공된다.",
-    "tags": [
-      "AI 에이전트",
-      "업무 자동화",
-      "워크스페이스"
-    ],
-    "entities": [
-      "ChatGPT",
-      "Dots",
-      "Spaces",
-      "Gmail",
-      "Slack"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "ef70a2da71310046",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "개발자 취업 헬게이트가 열렸습니다. 놓치면 후회할 언어 한 가지",
-    "url": "https://www.youtube.com/watch?v=BbSC1ntZFLA",
-    "publishedAt": "2026-10-03T02:35:51+00:00",
-    "rawText": "개발자 취업 헬게이트가 열렸습니다. 놓치면 후회할 언어 한 가지",
-    "videoId": "BbSC1ntZFLA",
-    "summaryKo": "국내 주요 기업 백엔드 공고 79건 중 44건(55%)이 Kotlin을 언급했다는 조사로 Kotlin 학습을 권하는 영상이다. AI가 코드를 써도 결과를 판단·검증할 능력이 필요하다며 JetBrains의 무료 입문 코스와 공고 기반 준비 전략을 소개한다.",
-    "tags": [
-      "Kotlin",
-      "개발자 취업",
-      "백엔드"
-    ],
-    "entities": [
-      "Kotlin",
-      "JetBrains",
-      "Spring",
-      "Toss",
-      "Coupang"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "07d80ca65cf1a0f3",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "오픈 모델 돌리려면 1000만원... 그냥 Runpod에서 빌려 씁니다 | RTX 5090 + Qwen 3.8",
-    "url": "https://www.youtube.com/watch?v=D_eJVFr3vLc",
-    "publishedAt": "2026-10-03T01:00:00+00:00",
-    "rawText": "오픈 모델 돌리려면 1000만원... 그냥 Runpod에서 빌려 씁니다 | RTX 5090 + Qwen 3.8",
-    "videoId": "D_eJVFr3vLc",
-    "summaryKo": "개인 GPU 구매 대신 RunPod에서 RTX 5090을 시간당 빌려 Qwen 3.8 27B를 vLLM으로 띄우고 Codex에 연결하는 튜토리얼이다. 구매 비용과 대여 비용을 비교해 24시간 상시 가동이 아니라면 대여가 유리하다고 정리한다(RunPod 유료 광고 포함).",
-    "tags": [
-      "오픈 모델",
-      "GPU 클라우드",
-      "vLLM"
-    ],
-    "entities": [
-      "RunPod",
-      "Qwen3.8",
-      "RTX 5090",
-      "Codex"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "bdedd9512afa4dba",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 마이크로소프트 CEO 사티아 나델라는 AI 에이전트 시장이 단순한 파이 빼...",
-    "url": "https://www.threads.com/t/DeAZq9cgvB-",
-    "publishedAt": "Fri, 02 Oct 2026 21:00:50 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트 CEO 사티아 나델라는 AI 에이전트 시장이 단순한 파이 뺏기 경쟁이 아니라 “GDP 관점에서 측정되는 새로운 순가치를 창출하는 것”이라고 강조했습니다. 소비자 영역에서는 에이전트가 쇼핑이나 검색을 대행하며 기존 중개 플랫폼을 무력화할 수 있어 제로섬 성격을 띨 수 있습니다. 하지만 엔터프라이즈 시장은 다른 소프트웨어를 단순 취합하는 중개가 아니라, 고객이 원하는 비즈니스 성과를 직접 해결해 주는 플랫폼 경제 경쟁이라고 분석했습니다. 그는 “에이전트 시대의 규모는 클라우드보다 몇 배는 더 거대할 것”이라며 역사상 가장 큰 시장 확장이 일어날 것으로 전망했습니다. 이제 모든 오토파일럿과 대화형 인터페이스는 실질적인 기업 생산성과 비즈니스 성과를 증명하는 데 집중해야 한다고 밝혔습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/828467604_2348815985875437_6089663353066419095_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;ig_cache_key=Mzk5OTMwOTM3MjQ2MjM5NTUxOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=tEJzcDQRVOEQ7kNvwHc8Wve&amp;_nc_oc=AdpPbLysax-ADkKCmReNuqeBgBFaPkvlGZaPn0HqXOHa5lql5a_Zz-zLnxEzqEawn4E&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;oh=00_AQMMeyije4sX5LfRODpgGrQ1oD14uQ0MLAdxvBTOPTtBzA&amp;oe=6AC5DA8E\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQPBaYsoTjD1rHD1tkSDe7iyFSPONytdwAAEAmbmgdwzQoBet27wDau6pypk9gYrQHooXmVWZ8IztIbYxS0YB6o-9P-G_zvyKjl6F0M.mp4?_nc_cat=109&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=QUCAo0-dCVEQ7kNvwGCdxnf&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODkxMDI4MTgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTM4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=34f70e0fc4e725f2&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9COTRBQkNCREEzRjE1Mjc3RTc3MEFFQTEyRTE2M0Y5RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0YyNEIzMTAwOTUwRDRFMUE4NTY5N0YxNDU1RkFEQ0I0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA1em0zL_0PxUCKAJDMywXQGFWj1wo9cMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQNf5zHjXN1UFYUT5xCUK4iBD7TgcimXS3ymY7XmGWkV6w&amp;oe=6AC1EFBF\"></video></p>",
-    "summaryKo": "사티아 나델라는 AI 에이전트 시장이 파이 뺏기가 아니라 GDP 관점에서 새로운 순가치를 만드는 일이라고 강조했다. 소비자 영역에서는 에이전트가 쇼핑·검색을 대행해 기존 중개 플랫폼 구조에 영향을 줄 수 있다는 취지다.",
-    "tags": [
-      "AI 에이전트",
-      "시장 전망"
-    ],
-    "entities": [
-      "Microsoft",
-      "사티아 나델라"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "02055c3dc12c8131",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "[약국에서 바로 쓰는 AI] AI로 만드는 건조시럽 조제 계산기",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545363",
-    "publishedAt": "2026-10-03 05:48:00",
-    "rawText": "건조시럽은 처방이 mL 단위로 나오지만 약은 분말이므로 몇 g을 칭량할지 환산해야 한다. 자주 다루는 품목이 아니면 급히 조제할 때 허가사항을 다시 찾아야 한다.이번 편은 약품명을 입력하면 허가사항을 근거로 칭량량을 계산하고 보호자용 복약 라벨까지 만들어 주는 HTML 도구를 Claude로 만든다. 지난 편(8편)에서 발급한 공공데이터포털 허가정보 API 인증키를 그대로 이어 쓴다. 준비 사항Claude와 공공데이터포털 「식품의약품안전처_의약품 제품 허가정보」 인증키가 필요하다. 인증키는 8편과 같이 활용신청 후 마이페이지에서 일반",
-    "summaryKo": "약사공론 연재 '약국에서 바로 쓰는 AI' 9편으로, Claude로 약품명을 넣으면 허가사항 기반으로 건조시럽 칭량량을 계산하고 보호자용 복약 라벨까지 만드는 HTML 도구를 만든다. 환산계수를 세 경로로 구해 서로 대조하고 조제 후 보관은 약사가 직접 입력하게 해, 최종 판단은 약사 몫임을 강조한다.",
-    "tags": [
-      "약국 AI",
-      "바이브코딩",
-      "공공 API"
-    ],
-    "entities": [
-      "Claude",
-      "식약처",
-      "공공데이터포털"
-    ],
-    "cats": [
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-03T21:12:50.698Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "6b6317a13b540383",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Audionaut - 오픈소스 크로스플랫폼 멀티트랙 오디오 편집기",
-    "url": "https://news.hada.io/topic?id=34682",
-    "publishedAt": "2026-10-03T05:44:15+09:00",
-    "rawText": "Audionaut는 음악, 팟캐스트, 멀티트랙 녹음을 편집하고 녹음하는 무료 데스크톱 앱으로, 완전한 DAW의 무게와 복잡성 없이 정밀한 자르기, 트랙별 재생 목록, 다채널 지원과 내보내기를 제공함 MCP를 통해 Claude와 다른 AI 에이전트가 열린 프로젝트를 편집할 수...",
-    "summaryKo": "Audionaut는 음악·팟캐스트·멀티트랙 녹음을 편집하는 오픈소스 크로스플랫폼 데스크톱 앱이다. 정밀 자르기와 다채널 지원을 제공하며 MCP를 통해 Claude 등 AI 에이전트가 열린 프로젝트를 편집할 수 있다.",
-    "tags": [
-      "오디오 편집",
-      "MCP",
-      "오픈소스"
-    ],
-    "entities": [
-      "Audionaut",
-      "Claude"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "09d23405e0f95a1a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "ChatGPT의 Sites",
-    "url": "https://news.hada.io/topic?id=34681",
-    "publishedAt": "2026-10-03T05:41:15+09:00",
-    "rawText": "Sites는 일상적인 말로 웹사이트, 앱, 게임을 만들고 ChatGPT와 대화하며 수정한 뒤 호스팅하고 공유할 수 있는 기능임 인앱 브라우저에서 게시 전 사이트를 테스트할 수 있으며, 파일이나 시각적 참고 자료를 추가하거나 기존 Codex 프로젝트에서 시작할 수 있음...",
-    "summaryKo": "ChatGPT의 Sites는 일상 언어로 웹사이트·앱·게임을 만들고 대화로 수정한 뒤 바로 호스팅·공유할 수 있는 기능이다. 인앱 브라우저로 게시 전 테스트하고 기존 Codex 프로젝트에서 시작할 수도 있다.",
-    "tags": [
-      "바이브코딩",
-      "웹 생성"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "8283e703711db981",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Apple Pass Designer",
-    "url": "https://news.hada.io/topic?id=34680",
-    "publishedAt": "2026-10-03T05:38:15+09:00",
-    "rawText": "Pass Designer는 기업이나 매장의 브랜드를 반영한 패스를 만들고 미리 볼 수 있는 도구로, Apple 제공 템플릿이나 자체 템플릿을 활용할 수 있음 편집 중 iPhone과 Apple Watch 미리보기가 실시간으로 갱신되며, iOS 및 watchOS와 동일한 렌더링을 사용해 고객 기...",
-    "summaryKo": "Apple Pass Designer는 기업·매장 브랜드를 반영한 패스를 만들고 미리 볼 수 있는 도구다. Apple 템플릿이나 자체 템플릿을 쓰며, 편집 중 iPhone·Apple Watch 미리보기가 iOS·watchOS와 같은 렌더링으로 실시간 갱신된다.",
-    "tags": [
-      "개발도구",
-      "Apple Wallet"
-    ],
-    "entities": [
-      "Apple"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "8bc4485c88c9b91d",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 일론 머스크는 AI와 로봇 시대의 교육에 대해 “가능한 한 폭넓은 이...",
-    "url": "https://www.threads.com/t/DeASuEgCPPW",
-    "publishedAt": "Fri, 02 Oct 2026 20:00:06 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>일론 머스크는 AI와 로봇 시대의 교육에 대해 “가능한 한 폭넓은 일반 지식을 습득하는 교육을 받아야 한다”고 강조했습니다. 단순한 지식 암기나 단일 기술 습득을 넘어 인문학, 과학, 공학을 아우르는 지식이 필수적이라는 설명입니다. 그는 로봇에게 무엇을 시킬지 알기 위해서는 “질문을 제대로 구성할 줄 알아야 한다”며, 이것이 곧 프롬프트 엔지니어링의 본질이자 로봇에게 자신의 의도를 전달하는 핵심 역량이라고 말했습니다. 또한 앞으로 AI와 휴머노이드 로봇이 기하급수적으로 늘어나면 “인간이 요청할 수 있는 거의 모든 요구를 즉각 처리해 줄 정도로 로봇들이 간절히 작업을 기다리는 시대”가 올 것이라고 내다봤습니다. 결국 실행과 코딩, 물리적 노동은 AI와 로봇이 대신하는 만큼, 무엇을 만들고 어떤 문제를 해결할 것인지 방향을 설정하는 ‘질문의 힘’이 미래 일자리와 경쟁력의 핵심이 될 것이라는 분석입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/825326619_965980043235531_1128172877382937027_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=Mzk5OTI3ODc5OTg3MDU1NTA5NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=MpfAJS7SnocQ7kNvwHMvH0e&amp;_nc_oc=Adon-L9O4EUIQNIb4RdQJmK7SVGcRrdF6a6WHm_I5f_VPv9VOjd72jEIWs4Qjji34wQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;oh=00_AQMMyLBxfX-PbyVXMfkR21h2tTHkb8ByytIqJTppbBSP4w&amp;oe=6AC5DFFF\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQOYUBW5zquZ0-goh4aA0n6WbYFIy8lQ38jGeWUO-cXPq5nN6g7dZWmaab_11bfARMCcfJYhrl0JAFCSkCpdo6dOrP_FGAlnBoZBKQQ.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=q8lf-LVyNwMQ7kNvwH7iwxH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODkxMDQwNzUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=fceda4e9a3eddbb&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83MDREMzIzRTQ1MTNCMzZDRjI0QUI0NjJBN0U4OEQ4Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E5NEUxOTYzOTBCREQzRDAwQ0Y3QzhCRTU2N0E3QkE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAhszj1b_0PxUCKAJDMywXQEczMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQN3oeXKWZU5YZQl3cowjPvs5eJg_nwxCgPUdXVVANtnfg&amp;oe=6AC1E0AD\"></video></p>",
-    "summaryKo": "일론 머스크는 AI·로봇 시대의 교육에서 가능한 한 폭넓은 일반 지식을 익혀야 한다고 말했다. 단순 암기나 단일 기술을 넘어 인문학·과학·공학을 아우르는 지식이 필요하다는 설명이다.",
-    "tags": [
-      "AI 시대 교육"
-    ],
-    "entities": [
-      "일론 머스크"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "20a8aa9c2675683e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: Opus 5.5에 가상 회화 캔버스 제공하기",
-    "url": "https://news.hada.io/topic?id=34679",
-    "publishedAt": "2026-10-03T04:45:57+09:00",
-    "rawText": "stillwet은 AI 모델이 붓질을 코드로 작성하고, 리넨 위 유화 시뮬레이션이 이를 실행하는 회화 프로젝트로 이미지 생성 모델은 사용하지 않음 대부분의 모델은 Caspar David Friedrich의 작품 이미지를 보지 않고 문헌 조사만으로 그의 화풍을 따르며, 공개된 75점...",
-    "summaryKo": "stillwet은 AI 모델이 붓질을 코드로 작성하고 리넨 위 유화 시뮬레이션이 이를 실행하는 회화 프로젝트로, 이미지 생성 모델은 쓰지 않는다. Opus 5.5 등 모델이 Caspar David Friedrich 화풍을 이미지 없이 문헌 조사만으로 따르는 실험을 다룬다.",
-    "tags": [
-      "코드 생성",
-      "회화 시뮬레이션"
-    ],
-    "entities": [
-      "Claude Opus 5.5",
-      "stillwet"
-    ],
-    "cats": [
-      "멀티모달",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "3ede8f5a24e0afdc",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "FLUX 3 Image",
-    "url": "https://news.hada.io/topic?id=34678",
-    "publishedAt": "2026-10-03T04:42:57+09:00",
-    "rawText": "Black Forest Labs의 FLUX 3 Image는 요소별 경계 상자로 이미지 구도를 지정하고, 생성 후에도 상자 단위로 여러 부분을 편집할 수 있는 이미지 생성/편집 모델임 레이아웃 프롬프트는 전체 장면 설명과 요소별 ID, 좌표, 묘사로 구성되며, 직접 상자를 그리거나 ...",
-    "summaryKo": "Black Forest Labs의 FLUX 3 Image는 요소별 경계 상자로 이미지 구도를 지정하고, 생성 후에도 상자 단위로 여러 부분을 편집할 수 있는 이미지 생성·편집 모델이다. 레이아웃 프롬프트는 장면 설명과 요소별 ID·좌표·묘사로 구성된다.",
-    "tags": [
-      "이미지 생성",
-      "레이아웃 제어"
-    ],
-    "entities": [
-      "Black Forest Labs",
-      "FLUX 3 Image"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "778aeeb503eb1ec6",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 마이크로소프트 CEO 사티아 나델라는 AI 시대의 기업 경쟁력에 대해 '역ᄌ...",
-    "url": "https://www.threads.com/t/DeAL4yoEu8f",
-    "publishedAt": "Fri, 02 Oct 2026 19:00:23 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트 CEO 사티아 나델라는 AI 시대의 기업 경쟁력에 대해 '역정보 패러독스'를 경고했습니다. 기존 소프트웨어는 구매해 가치를 창출하면 끝이었지만, AI는 \"사용자의 행동과 부산물(exhaust)로부터 패턴을 학습하는 시스템\"입니다. 즉, 기업이 AI를 쓸수록 고유한 판단력과 암묵지같은 차별점이 외부 모델로 흡수될 위험이 커집니다. 나델라는 기업들이 단순 사용자에 머물지 말고 자신만의 독립성을 지켜야 한다고 강조했습니다. “기업마다 고유한 차별화 요소와 신성불가침한 판단력을 어떻게 유지할 것인가가 핵심 과제입니다.” 이를 위해 자체 모델 가중치(weights)를 보유하는 수준까지 기술적 자립을 이뤄야 비즈니스의 독점적 해자를 지킬 수 있다는 분석입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/829647806_2153787055517581_3191778236486145524_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=Mzk5OTI0ODc1MDI2Njc0MDUxMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=7KPP-qzh-9wQ7kNvwEzfIOm&amp;_nc_oc=Adq6xX5m3W-uW9710oV0PkulX8eFnCEfdcA0XPMQkMiYxwwducophaSgPXUUeAuQsD8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;oh=00_AQPMarG3a1Cw6DuUAqxrxGucFTducvkVLmYEc2vl43FeWg&amp;oe=6AC5F312\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQPU4SSZkQ8X5MZ60Rg2xLXpnOhR7G0wGtmUzp5A0EdOMbhFsd6xGv6f3WoMw3grRRwzY2dqpF3gqFwqvxlfse05Ms-O2YKMEmiSxWc.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=VL7lMPMnKFIQ7kNvwE650AP&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODkxMDI4NDIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NzIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=b60313961ce41f2a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85NzRCNDUwRTkzODJFRDgyNDM5MjE1MTMzQjdEMjI5Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc4NDQ0OEQxNzlENzYxQ0QzREU0RTc5MjdCRDA1NUEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaArdvLzL_0PxUCKAJDMywXQFIrAgxJul4YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQOd01xvhCvmOunyzd_4ugX7iF2pD55-WV2EkANEA1W_iQ&amp;oe=6AC20415\"></video></p>",
-    "summaryKo": "사티아 나델라는 AI 시대 기업 경쟁력과 관련해 '역정보 패러독스'를 경고했다. 기존 소프트웨어는 구매하면 끝이지만 AI는 사용자 행동과 부산물에서 패턴을 학습하는 시스템이라는 점을 짚는다.",
-    "tags": [
-      "기업 경쟁력",
-      "데이터"
-    ],
-    "entities": [
-      "Microsoft",
-      "사티아 나델라"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "1a24f98d1aa16b4b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "ICC 판사가 말하는 미국 제재가 자신과 국제 법원에 미치는 영향",
-    "url": "https://news.hada.io/topic?id=34677",
-    "publishedAt": "2026-10-03T03:46:47+09:00",
-    "rawText": "국제형사재판소(ICC)의 캐나다인 판사 Kimberly Prost는 미국 제재 이후 신용카드가 취소되고 기술 서비스와 보험 이용이 제한되는 생활을 1년 넘게 이어가고 있음 제재 영향은 미국 기업에 그치지 않으며, 미국과 거래 관계가 있는 해외 기업의 과잉 준수로 금융과...",
-    "summaryKo": "ICC의 캐나다인 판사 Kimberly Prost는 미국 제재 이후 신용카드가 취소되고 기술 서비스·보험 이용이 제한된 생활을 1년 넘게 하고 있다. 제재 영향이 미국 기업뿐 아니라 거래 관계가 있는 해외 기업의 과잉 준수로 금융 등으로 확산된다는 내용이다.",
-    "tags": [
-      "제재",
-      "국제법"
-    ],
-    "entities": [
-      "ICC"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "4c29f617811ae9ea",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Supabase, Turso 인수 추진",
-    "url": "https://news.hada.io/topic?id=34676",
-    "publishedAt": "2026-10-03T03:43:46+09:00",
-    "rawText": "Supabase가 Turso를 인수해 AI 에이전트가 대규모로 생성하는 소프트웨어에 맞는 데이터베이스 인프라를 구축함 Supabase는 이미 매주 100만 개 이상의 데이터베이스를 생성하고 있으며, 에이전트의 소프트웨어 개발이 늘어나면 데이터베이스 수요가 현재 전 세계의...",
-    "summaryKo": "Supabase가 Turso 인수를 추진해 AI 에이전트가 대규모로 생성하는 소프트웨어에 맞는 데이터베이스 인프라를 구축한다. Supabase는 이미 매주 100만 개 이상의 데이터베이스를 만들고 있으며 에이전트 개발 확산으로 수요가 더 커질 것으로 본다.",
-    "tags": [
-      "데이터베이스",
-      "에이전트 인프라",
-      "M&A"
-    ],
-    "entities": [
-      "Supabase",
-      "Turso"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "c58ad83798ae3434",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "법원, EFF에 동의: 유타주 VPN 법은 기술적으로 불가능한 일을 요구함",
-    "url": "https://news.hada.io/topic?id=34675",
-    "publishedAt": "2026-10-03T03:40:46+09:00",
-    "rawText": "미국 연방법원이 유타주 연령 확인법 SB 73의 VPN 관련 조항 집행을 예비 금지명령으로 중단함. 법원은 이 조항이 유타주 밖의 기업과 사람들에게 상당한 부담을 지워 헌법에 위배될 가능성이 있다고 판단함 SB 73은 성인 웹사이트에 VPN 사용자 차단 또는 실제 위치 확인...",
-    "summaryKo": "미국 연방법원이 유타주 연령 확인법 SB 73의 VPN 관련 조항 집행을 예비 금지명령으로 중단했다. 주 밖 기업과 사람에게 상당한 부담을 지워 위헌 가능성이 크다는 판단이며, EFF의 주장을 받아들였다.",
-    "tags": [
-      "규제",
-      "VPN",
-      "연령 확인"
-    ],
-    "entities": [
-      "EFF",
-      "유타주"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "22e245b4f4ec6455",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 진화생물학자 리처드 도킨스(Richard Dawkins)는 “스스로 복제하는 단위가 ...",
-    "url": "https://www.threads.com/t/DeAFDg4iVQa",
-    "publishedAt": "Fri, 02 Oct 2026 18:00:41 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>진화생물학자 리처드 도킨스(Richard Dawkins)는 “스스로 복제하는 단위가 존재한다면, 다윈주의적 자연선택의 잠재력이 작동한다”며 현대 디지털 생태계가 새로운 진화의 무대가 되었다고 밝혔습니다. 뇌에서 뇌로, 나아가 컴퓨터에서 컴퓨터로 복제·전파되는 ‘밈(Meme)’은 컴퓨터 바이러스나 코드처럼 인터넷이라는 거대한 네트워크를 타고 급속도로 확산됩니다. 복제 과정에서 오류(변이)가 생기고, 생존에 더 유리한 형태만 살아남아 퍼져나가는 메커니즘은 소프트웨어와 지식의 진화와도 일맥상통합니다. 도킨스는 “인터넷은 새로운 다윈주의적 진화가 일어나는 매우 비옥한 환경을 제공하고 있다”며, 디지털 네트워크 상에서 정보와 알고리즘이 살아남아 확산되는 구조 자체가 거대한 기술적 진화 과정임을 시사했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/828480565_1476665524281408_4488226668553034055_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzk5OTIxODcwMDgwNDI0ODYwMg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=MwSwVExdArMQ7kNvwHNUX3J&amp;_nc_oc=Adq7-u3ZM6s2J4j0U33D9p7jPv1ukkRUx3-pNvjF0E3ZjC2Z7kAUXAU3nix9-mcZZvE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;oh=00_AQMPgB7HLU16QE5ZYwA1dKRpltYOGI7eed3LPVp17rG2cg&amp;oe=6AC5EDBE\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQMnx1JftmY-68EFhJowLN87Ez0MZ5JUK0q_I8gHjRj29Is8HN2LR0_l3uZ-d7mZXyCyK2MbuFZ2ra81MpIL2uc6dOE3CVgBT_w_ZbM.mp4?_nc_cat=108&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=effv_vAOhQQQ7kNvwF4Z-rD&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5ODkwOTU2NDUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTYzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=35c1c99e5c22aee7&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FNDQ5RThDNjM3MjUxREM4NDU3RkFGQTAwN0I3N0JCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ZBRTYwMjBEMjgyMDRCQzBCOTczQjdCQTkxNjY5NDI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAqI_8lr_0PxUCKAJDMywXQGRtwo9cKPYYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=9m7iJA2it0e_Itk_G-R2BQ&amp;_nc_ss=7a22e&amp;_nc_zt=28&amp;oh=00_AQP9rlW6ZIm9ekIyd53dp8MmZkk_fo6zcA40YXmd701lWw&amp;oe=6AC215D4\"></video></p>",
-    "summaryKo": "진화생물학자 리처드 도킨스는 자기복제 단위가 있으면 다윈적 자연선택이 작동한다며 현대 디지털 생태계가 새로운 진화의 무대가 되었다고 말했다. 뇌에서 뇌로, 컴퓨터에서 컴퓨터로 복제·전파되는 정보에 주목한다.",
-    "tags": [
-      "진화",
-      "디지털 생태계"
-    ],
-    "entities": [
-      "리처드 도킨스"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "c38af6e5cae43e23",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "A model guide for the GPT-6 family",
-    "url": "https://openai.com/index/practical-guide-building-gpt-6",
-    "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
-    "rawText": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-    "summaryKo": "OpenAI가 스타트업을 위해 GPT-6 계열 모델 선택법과 추론 강도(reasoning effort) 조절, 프롬프트·스킬 개선, 도구 조율, 프로덕션 준비 방법을 정리한 가이드를 공개했다. GPT-6 패밀리를 실제 서비스에 적용할 때의 실무 지침이라는 점이 핵심이다.",
-    "tags": [
-      "GPT-6",
-      "추론 강도",
-      "프롬프트"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "c37300cca94e73f7",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Redefining enterprise intelligence with autonomous AI",
-    "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-    "publishedAt": "Fri, 02 Oct 2026 15:49:04 +0000",
-    "rawText": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has&#8230;",
-    "summaryKo": "MIT Technology Review가 자율형 AI로 기업 지능을 재정의한다는 주제를 다뤘다. 2026년 AI 투자가 전년 대비 44% 증가한 2.5조 달러에 이를 전망이고 모델 성능은 조직의 흡수 속도보다 빠르게 발전한다고 짚는다.",
-    "tags": [
-      "엔터프라이즈 AI",
-      "자율 AI"
-    ],
-    "entities": [
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z"
-  },
-  {
-    "id": "c00f03288d192c67",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/",
-    "publishedAt": "2026-10-02T15:25:22+00:00",
-    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/\"> <img src=\"https://external-preview.redd.it/q3evP6JeDpAC2MdSQHWYxnCYTqbJkElIQsLFqVSdkss.png?width=140&amp;height=81&amp;auto=webp&amp;s=d39c4c208d55b26179446aa55ac5f84224359090\" alt=\"Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction [R]\" title=\"Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>In our #NeurIPS2026 paper “<strong>Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction</strong>” (preprint: <a href=\"https://arxiv.org/abs/2606.22969\">https://arxiv.org/abs/2606.22969</a>) we try to address a fundamental issue in dynamical systems reconstruction (DSR) and time series forecasting (TSF): Many recent SOTA DSR &amp; TSF models can generalize to new initial conditions or time series with changing statistical properties. But the <strong>really hard problem</strong> in DSR and TSF is <strong>topological out-of-domain generalization (OODG)</strong> (<a href=\"https://proceedings.mlr.press/v235/goring24a.html\">https://proceedings.mlr.press/v235/goring24a.html</a>) where the <strong>dynamical regime changes</strong>, for instance from cyclic to chaotic behavior.</p> <p>This can happen when a system crosses a <strong>tipping point</strong> due to a slowly varying control parameter which drives it across <strong>bifurcations</strong>, such as in climate systems, when the brain tips from normal into epileptic activity, or when a patient develops blood poisoning (sepsis). Such problems are beyond the realm of current TSF models which rely on extracting temporal patterns and statistical regularities. Yet the ability to predict previously unseen, novel dynamical regimes as a system parameter changes is something we would expect from any good scientific theory. Often these control parameters that drive regime changes are not exactly known either. Hence, a data-driven DSR model for achieving topological OODG would need to <strong>infer the dynamical system generating the TS jointly with the control parameters</strong>.</p> <p>In our paper, we mathematically identify key failure modes in previous hierarchical DSR models (<a href=\"https://proceedings.iclr.cc/paper_files/paper/2025/hash/d4c961804d08e55d898cce944206d455-Abstract-Conference.html\">https://proceedings.iclr.cc/paper_files/paper/2025/hash/d4c961804d08e55d898cce944206d455-Abstract-Conference.html</a>) that prevent them from correctly learning a system’s control parameters and extrapolating them beyond the training domain. By fixing these through feature-splitting and physical sparsity priors, our modified hierarchical DSR model manages <strong>to correctly predict bifurcations and beyond-bifurcation dynamics, without any explicit knowledge about the control parameters provided in training</strong>.</p> <p>Our approach is generic and works for different discrete and continuous time RNNs, we tested it for shallow PLRNNs and Neural ODEs.</p> <p><a href=\"https://preview.redd.it/m40hcmr8m2th1.png?width=1839&amp;format=png&amp;auto=webp&amp;s=2d1873c60a64b1958fe7c6ea705df695af669b19\">https://preview.redd.it/m40hcmr8m2th1.png?width=1839&amp;format=png&amp;auto=webp&amp;s=2d1873c60a64b1958fe7c6ea705df695af669b19</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DangerousFunny1371\"> /u/DangerousFunny1371 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/\">[comments]</a></span> </td></tr></table>",
-    "summaryKo": "NeurIPS 2026 논문은 동적계 재구성에서 순환→혼돈처럼 동역학 체제가 바뀌는 '위상적 도메인 외 일반화'를 다룬다. 기존 계층적 모델의 제어 파라미터 학습 실패 원인을 수학적으로 밝히고, feature-splitting과 물리적 희소성 사전분포로 분기점 이후 동역학까지 예측했다.",
-    "tags": [
-      "동역학계 재구성",
-      "시계열",
-      "일반화"
-    ],
-    "entities": [
-      "PLRNN",
-      "Neural ODE",
-      "NeurIPS 2026"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-02T21:09:59.672Z",
     "hasAnalysis": true
   }
 ]
