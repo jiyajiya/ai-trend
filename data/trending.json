@@ -23,7 +23,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "7073395c0f949110",
@@ -76,7 +76,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "9d064369411829e6",
@@ -130,7 +130,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "82ed428159c76108",
@@ -180,7 +180,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -209,7 +209,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "e4ec1e84959ae2fd",
@@ -235,7 +235,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "81a7dc557ad3e7bb",
@@ -262,7 +262,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "4eb733afdb6b8b30",
@@ -313,7 +313,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "35eff775ba433a91",
@@ -338,7 +338,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "167c7efa09e6db36",
@@ -364,7 +364,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "1e97fcf6e4c7f154",
@@ -389,7 +389,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "92c1824269f45469",
@@ -415,7 +415,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "dcc411eb2d826755",
@@ -442,7 +442,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "e2fde687321fd689",
@@ -468,7 +468,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -493,7 +493,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "204aad5d566a77c1",
@@ -542,32 +542,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
-  },
-  {
-    "id": "3cc50d0356230bcb",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Qwen/Qwen-Image-2.1",
-    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "publishedAt": "2026-09-14T03:47:26.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, qwen, image-generation, image-editing, rgba, text-to-image, license:other",
-    "score": 316,
-    "rank": 8,
-    "summaryKo": "Qwen-Image-2.1은 이미지 생성과 편집, RGBA 출력을 지원하는 text-to-image 모델이다. diffusers·safetensors로 공개되었으며 라이선스는 other다.",
-    "tags": [
-      "Diffusion",
-      "이미지 편집"
-    ],
-    "entities": [
-      "Qwen",
-      "Qwen-Image-2.1"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-04T21:04:15.907Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "5ea1503fa8e6ce35",
@@ -615,7 +590,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "ca26bca182f697df",
@@ -642,7 +617,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "304449f663f818da",
@@ -669,7 +644,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "2fca604ef19223c0",
@@ -719,7 +694,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "5d885f2b9705cba0",
@@ -847,7 +822,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "b34ca6dfe4254569",
@@ -931,7 +906,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   },
   {
     "id": "0c49f71f40e435a3",
@@ -959,6 +934,6 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-11T21:03:20.597Z"
+    "fetchedAt": "2026-10-12T21:00:52.509Z"
   }
 ]
