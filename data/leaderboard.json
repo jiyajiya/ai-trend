@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-12",
-  "windowLabel": "2026년 10월 7~12일 기준",
-  "updatedAt": "2026-10-11T21:03:14Z",
+  "asOf": "2026-10-14",
+  "windowLabel": "2026년 10월 9~14일 기준",
+  "updatedAt": "2026-10-13T21:04:11Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -16,7 +16,7 @@
           "rank": 1,
           "model": "Claude Opus 5.5 (max)",
           "score": "Index 58",
-          "basis": "Intelligence Index 58점 1위, GPT-6 Astra·Claude Fable 5.1(53점) 대비 5점 우위 (2026-09-22 출시)",
+          "basis": "Intelligence Index 58점 1위, 2위권(56점) 대비 2점 우위 (2026-09-22 출시)",
           "source": "artificialanalysis"
         },
         {
@@ -30,21 +30,21 @@
           "rank": 3,
           "model": "Claude Sonnet 5.5 (max)",
           "score": "Index 56",
-          "basis": "Intelligence Index 56점, Opus 5.5 (xhigh)와 동점 (신규 진입)",
+          "basis": "Intelligence Index 56점, Opus 5.5 (xhigh)와 동점",
           "source": "artificialanalysis"
         },
         {
           "rank": 4,
-          "model": "Claude Opus 5.5 (high)",
-          "score": "Index 54",
-          "basis": "Intelligence Index 54점",
+          "model": "Muse Wonder Full (max)",
+          "score": "Index 56",
+          "basis": "Intelligence Index 56점, Opus 5.5 (xhigh)·Sonnet 5.5와 동점 (신규 진입)",
           "source": "artificialanalysis"
         },
         {
           "rank": 5,
-          "model": "Claude Fable 5.1 (max)",
-          "score": "Index 53",
-          "basis": "Intelligence Index 53점, GPT-6 Astra·Gemini 4 Argon (high)와 동점권",
+          "model": "Claude Opus 5.5 (high)",
+          "score": "Index 54",
+          "basis": "Intelligence Index 54점",
           "source": "artificialanalysis"
         }
       ]
@@ -233,15 +233,15 @@
         {
           "rank": 1,
           "model": "GPT Image 2.5 Sunburst (max)",
-          "score": "Elo 1198",
-          "basis": "Elo 1198, Arena 1위",
+          "score": "Elo 1199",
+          "basis": "Elo 1199, Arena 1위",
           "source": "artificialanalysis"
         },
         {
           "rank": 2,
           "model": "GPT Image 2.5 Flare (max)",
-          "score": "Elo 1191",
-          "basis": "Elo 1191",
+          "score": "Elo 1192",
+          "basis": "Elo 1192",
           "source": "artificialanalysis"
         },
         {
@@ -254,8 +254,8 @@
         {
           "rank": 4,
           "model": "Nano Banana 2.1",
-          "score": "Elo 1160",
-          "basis": "Elo 1160 (신규 진입)",
+          "score": "Elo 1159",
+          "basis": "Elo 1159",
           "source": "artificialanalysis"
         },
         {
@@ -268,8 +268,8 @@
         {
           "rank": 6,
           "model": "MAI-Image-2.6",
-          "score": "Elo 1151",
-          "basis": "Elo 1151",
+          "score": "Elo 1152",
+          "basis": "Elo 1152",
           "source": "artificialanalysis"
         },
         {
@@ -282,22 +282,22 @@
         {
           "rank": 8,
           "model": "FLUX 3 Image",
-          "score": "Elo 1116",
-          "basis": "Elo 1116 (신규 진입)",
+          "score": "Elo 1115",
+          "basis": "Elo 1115",
           "source": "artificialanalysis"
         },
         {
           "rank": 9,
           "model": "Muse Image",
-          "score": "Elo 1114",
-          "basis": "Elo 1114",
+          "score": "Elo 1115",
+          "basis": "Elo 1115",
           "source": "artificialanalysis"
         },
         {
           "rank": 10,
           "model": "GPT Image 1.5 (high)",
-          "score": "Elo 1108",
-          "basis": "Elo 1108",
+          "score": "Elo 1109",
+          "basis": "Elo 1109",
           "source": "artificialanalysis"
         }
       ]
@@ -506,12 +506,12 @@
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 10월 12일"
+      "updated": "2026년 10월 14일"
     },
     {
       "name": "Text-to-Image Arena",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updated": "2026년 10월 12일"
+      "updated": "2026년 10월 14일"
     },
     {
       "name": "BenchLM.ai",
@@ -521,7 +521,7 @@
     {
       "name": "Vellum LLM Leaderboard",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "updated": "2026년 10월 12일"
+      "updated": "2026년 10월 14일"
     }
   ]
 }

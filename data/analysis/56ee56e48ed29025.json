@@ -1,0 +1,33 @@
+{
+  "points": [
+    "Claude 덕분에 코드 병합량이 5월 일 2,500건에서 9월 3만 건 이상으로 늘면서 병목이 소스 컨트롤·빌드·CI로 옮겨갔다.",
+    "git은 클라이언트가 오프라인에서도 완전한 복사본을 갖는 분산 설계라 에이전트가 항상 온라인인 환경에서는 오히려 확장을 막았다.",
+    "Scion은 서버가 커밋·병합·리베이스를 수행하고 클라이언트는 제한된 캐시와 스파스·가상화 체크아웃만 갖는 서버 중심 구조다.",
+    "인프라 규모는 기존 git 미러 대비 CPU·메모리 200배 작아졌고 CI 체크아웃은 100배 빨라져 CI CPU 용량이 25% 절감됐다.",
+    "엔지니어 7명이 Claude와 함께 5개월 만에 개발·이전을 마쳤고, 엔지니어의 역할은 Claude에게 \"아니오\"라고 말하는 설계 판단으로 바뀌고 있다.",
+    "Scion은 git의 범용 대체가 아니라 초대형 모노레포용이며, Anthropic은 git 서버·플랫폼이 서버 RPC 등 일부 아이디어를 채택하길 제안한다."
+  ],
+  "sections": [
+    {
+      "heading": "문제: 사람 규모로 설계된 개발 인프라",
+      "body": "메인 브랜치 이력만 약 100GB, 압축 작업 사본은 25GB 이상이며 CI용 체크아웃이 하루 약 2,500만 건이다. 단순 계산으로 하루 600PB의 git 트래픽이 되어, 한때 수백 대의 내부 git 미러를 운영했지만 병합 속도가 오를수록 감당하기 어려워졌다."
+    },
+    {
+      "heading": "설계 원칙",
+      "body": "클라이언트는 항상 온라인이고 서버와 클라이언트는 비대칭이다. 모든 구성요소는 수평 확장되며 커밋은 서버에서 싸고 락 없이 이뤄지고, 작업 사본은 선택적이며 스파스가 기본이다. 변경 단위는 write-ahead log의 changeset이며 blame·경로 이력 같은 파생 데이터는 재귀적으로 계산한다."
+    },
+    {
+      "heading": "체크아웃 아키텍처와 성과",
+      "body": "scion-daemon, scion-cache, scion-server 세 계층이 같은 RPC로 불변 객체를 주고받으며 계층별 캐시 적중률이 99%를 넘는다. 패킹 파일이나 저장소 유지보수가 필요 없고, 인프라 규모는 200배 줄었으며 체크아웃은 분 단위에서 초 단위로 줄었다."
+    },
+    {
+      "heading": "배운 점",
+      "body": "Claude Mythos Preview는 수작업 프로토타입 수집 파이프라인을 메모리 20배 절감, 4배 빠르게 다시 썼다. 한편 에이전트가 핵심 제약을 어기거나 적대적 리뷰 결과로 과잉 설계하는 경우가 있어 사람이 방향을 잡아야 했다. 컴포넌트별로 상시 감시하는 Claude \"superfan\"과 병합 후 테스트 중심의 운영도 시도했다."
+    }
+  ],
+  "quotes": [
+    "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+    "Very often, we found that the role of the engineers was to tell Claude \"no.\"",
+    "Our Scion infrastructure footprint is now 200x smaller than our previous git mirroring infrastructure."
+  ]
+}
