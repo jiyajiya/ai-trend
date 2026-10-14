@@ -1,0 +1,23 @@
+{
+  "points": [
+    "이벤트 이력을 이벤트 벡터의 누적합(h_t = h_{t-1} + e_x)으로 정의한다.",
+    "이력 위의 선형 점수는 이벤트별 기여의 합으로 정확히 분해된다.",
+    "학습은 다음 이벤트 예측과 h_t − h_{t−1}의 재구성 손실을 쓰는 자기지도 방식이다.",
+    "쌍곡, κ-스테레오그래픽, 구면, SO(n), Heisenberg 등 비가환 공간도 지원해 순서 정보를 보존한다.",
+    "Berkeley Lab ALS의 장애 시퀀스 원인 분석에서 Word2Vec의 방향성 한계를 넘기 위해 시작했다."
+  ],
+  "sections": [
+    {
+      "heading": "설계",
+      "body": "구조를 일부러 단순하게 유지했다. 이력은 합이고 그 위의 어떤 선형 모델도 합이므로 이탈·위험 점수를 이벤트 단위로 설명할 수 있다."
+    },
+    {
+      "heading": "비가환성",
+      "body": "유클리드 공간의 덧셈은 가환이지만 학습 과정은 순서를 반영한다고 설명한다. 순서가 중요하면 SO(n) 회전이나 Heisenberg 군처럼 비가환 공간을 선택할 수 있다."
+    },
+    {
+      "heading": "사용",
+      "body": "MIT 라이선스, pip install event2vector, scikit-learn 스타일 fit/transform과 gensim 스타일 most_similar API를 제공한다. PyTorch 백엔드로 CPU·CUDA·MPS에서 돌아가며 NeurReps@NeurIPS 워크숍 논문(arXiv 2509.12188)이 있다."
+    }
+  ]
+}
