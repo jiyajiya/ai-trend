@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-15",
-  "windowLabel": "2026년 10월 10~15일 기준",
-  "updatedAt": "2026-10-14T21:04:23Z",
+  "asOf": "2026-10-16",
+  "windowLabel": "2026년 10월 11~16일 기준",
+  "updatedAt": "2026-10-15T21:02:51Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -21,16 +21,16 @@
         },
         {
           "rank": 2,
-          "model": "Claude Opus 5.5 (xhigh)",
+          "model": "Claude Sonnet 5.5 (max)",
           "score": "Index 56",
-          "basis": "Intelligence Index 56점",
+          "basis": "Intelligence Index 56점, Opus 5.5 (xhigh)·Muse Wonder Full과 동점",
           "source": "artificialanalysis"
         },
         {
           "rank": 3,
-          "model": "Claude Sonnet 5.5 (max)",
+          "model": "Claude Opus 5.5 (xhigh)",
           "score": "Index 56",
-          "basis": "Intelligence Index 56점, Opus 5.5 (xhigh)와 동점",
+          "basis": "Intelligence Index 56점, Sonnet 5.5와 동점",
           "source": "artificialanalysis"
         },
         {
@@ -240,29 +240,29 @@
         {
           "rank": 2,
           "model": "GPT Image 2.5 Flare (max)",
-          "score": "Elo 1209",
-          "basis": "Elo 1209",
+          "score": "Elo 1207",
+          "basis": "Elo 1207",
           "source": "artificialanalysis"
         },
         {
           "rank": 3,
           "model": "GPT Image 2 (high)",
-          "score": "Elo 1188",
-          "basis": "Elo 1188",
+          "score": "Elo 1187",
+          "basis": "Elo 1187",
           "source": "artificialanalysis"
         },
         {
           "rank": 4,
           "model": "Nano Banana 2.1",
-          "score": "Elo 1173",
-          "basis": "Elo 1173",
+          "score": "Elo 1172",
+          "basis": "Elo 1172",
           "source": "artificialanalysis"
         },
         {
           "rank": 5,
           "model": "Grok Imagine Image 2.0",
-          "score": "Elo 1167",
-          "basis": "Elo 1167",
+          "score": "Elo 1166",
+          "basis": "Elo 1166",
           "source": "artificialanalysis"
         },
         {
@@ -275,8 +275,8 @@
         {
           "rank": 7,
           "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": "Elo 1139",
-          "basis": "Elo 1139",
+          "score": "Elo 1138",
+          "basis": "Elo 1138",
           "source": "artificialanalysis"
         },
         {
@@ -295,9 +295,9 @@
         },
         {
           "rank": 10,
-          "model": "MAI-Image-2.6-Flash",
-          "score": "Elo 1117",
-          "basis": "Elo 1117",
+          "model": "MAI-Image-2.5",
+          "score": "Elo 1116",
+          "basis": "Elo 1116",
           "source": "artificialanalysis"
         }
       ]
@@ -506,12 +506,12 @@
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 10월 15일"
+      "updated": "2026년 10월 16일"
     },
     {
       "name": "Text-to-Image Arena",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updated": "2026년 10월 15일"
+      "updated": "2026년 10월 16일"
     },
     {
       "name": "BenchLM.ai",
