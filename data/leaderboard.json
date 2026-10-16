@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-16",
-  "windowLabel": "2026년 10월 11~16일 기준",
-  "updatedAt": "2026-10-15T21:02:51Z",
+  "asOf": "2026-10-17",
+  "windowLabel": "2026년 10월 12~17일 기준",
+  "updatedAt": "2026-10-16T21:10:59Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -149,30 +149,30 @@
         },
         {
           "rank": 2,
-          "model": "Beam",
-          "score": "97.8%",
-          "basis": "AIME 2026 97.8% (Reflection AI, 신규 진입)",
+          "model": "Beam 1.0 501B-A23B FP8",
+          "score": "98.0%",
+          "basis": "AIME 2026 98.0% (Reflection AI)",
           "source": "benchlm"
         },
         {
           "rank": 3,
-          "model": "Inkling",
-          "score": "97.1%",
-          "basis": "AIME 2026 97.1%, A.X K2와 동점",
+          "model": "Beam 1.0 501B-A23B",
+          "score": "97.7%",
+          "basis": "AIME 2026 97.7% (Reflection AI)",
           "source": "benchlm"
         },
         {
           "rank": 4,
-          "model": "A.X K2",
-          "score": "97.1%",
-          "basis": "AIME 2026 97.1%, Inkling과 동점",
+          "model": "Beam 1.0 501B-A23B NVFP4",
+          "score": "97.5%",
+          "basis": "AIME 2026 97.5% (Reflection AI)",
           "source": "benchlm"
         },
         {
           "rank": 5,
-          "model": "Kimi K2.6",
-          "score": "96.4%",
-          "basis": "AIME 2026 96.4%",
+          "model": "Inkling",
+          "score": "97.1%",
+          "basis": "AIME 2026 97.1%, A.X K2와 동점",
           "source": "benchlm"
         }
       ]
@@ -233,8 +233,8 @@
         {
           "rank": 1,
           "model": "GPT Image 2.5 Sunburst (max)",
-          "score": "Elo 1217",
-          "basis": "Elo 1217, Arena 1위",
+          "score": "Elo 1218",
+          "basis": "Elo 1218, Arena 1위",
           "source": "artificialanalysis"
         },
         {
@@ -247,8 +247,8 @@
         {
           "rank": 3,
           "model": "GPT Image 2 (high)",
-          "score": "Elo 1187",
-          "basis": "Elo 1187",
+          "score": "Elo 1185",
+          "basis": "Elo 1185",
           "source": "artificialanalysis"
         },
         {
@@ -261,22 +261,22 @@
         {
           "rank": 5,
           "model": "Grok Imagine Image 2.0",
-          "score": "Elo 1166",
-          "basis": "Elo 1166",
+          "score": "Elo 1165",
+          "basis": "Elo 1165",
           "source": "artificialanalysis"
         },
         {
           "rank": 6,
           "model": "MAI-Image-2.6",
-          "score": "Elo 1164",
-          "basis": "Elo 1164",
+          "score": "Elo 1165",
+          "basis": "Elo 1165",
           "source": "artificialanalysis"
         },
         {
           "rank": 7,
           "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": "Elo 1138",
-          "basis": "Elo 1138",
+          "score": "Elo 1139",
+          "basis": "Elo 1139",
           "source": "artificialanalysis"
         },
         {
@@ -289,15 +289,15 @@
         {
           "rank": 9,
           "model": "GPT Image 1.5 (high)",
-          "score": "Elo 1120",
-          "basis": "Elo 1120",
+          "score": "Elo 1122",
+          "basis": "Elo 1122",
           "source": "artificialanalysis"
         },
         {
           "rank": 10,
-          "model": "MAI-Image-2.5",
-          "score": "Elo 1116",
-          "basis": "Elo 1116",
+          "model": "MAI-Image-2.6-Flash",
+          "score": "Elo 1117",
+          "basis": "Elo 1117",
           "source": "artificialanalysis"
         }
       ]
@@ -506,17 +506,17 @@
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 10월 16일"
+      "updated": "2026년 10월 17일"
     },
     {
       "name": "Text-to-Image Arena",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updated": "2026년 10월 16일"
+      "updated": "2026년 10월 17일"
     },
     {
       "name": "BenchLM.ai",
       "url": "https://benchlm.ai/benchmarks/aime2026",
-      "updated": "2026년 10월 12일"
+      "updated": "2026년 10월 16일"
     },
     {
       "name": "Vellum LLM Leaderboard",

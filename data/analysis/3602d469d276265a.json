@@ -1,0 +1,25 @@
+{
+  "points": [
+    "Rust로 만든 PyTorch 호환 프레임워크 DenseCore가 `import torch` 대체만으로 nanoGPT를 수정 없이 실행한다.",
+    "초기 가중치·손실·그래디언트·가중치가 50스텝 동안 PyTorch와 비트 단위로 일치하며 드롭아웃을 켜도 같다.",
+    "PyTorch CPU 어텐션은 교과서 공식이 아닌 flash 커널이고 드롭아웃 여부에 따라 경로가 달라진다.",
+    "PyTorch 자체도 같은 버전이라도 머신(mac vs linux x86)에 따라 결과가 다르다."
+  ],
+  "sections": [
+    {
+      "heading": "무엇을 만들었나",
+      "body": "CS 학생이 며칠간 PyTorch 스타일 파이썬 API를 가진 소형 딥러닝 프레임워크를 Rust로 만들었다. torch를 이것으로 바꿔 끼우고 카파시의 nanoGPT를 그대로 돌려도 PyTorch와 동일한 수치를 얻는다."
+    },
+    {
+      "heading": "비트 단위 일치를 막던 함정들",
+      "body": "PyTorch의 Adam은 컴파일러가 꼬리 루프를 융합해 각 스레드 청크의 마지막 몇 원소 반올림이 다르다. clip_grad_norm_는 나눗셈 대신 reciprocal() * max_norm을 쓰는 등 문서에 없는 구현 디테일이 곳곳에 있었다."
+    },
+    {
+      "heading": "재현성에 대한 시사점",
+      "body": "작성자는 같은 버전의 PyTorch가 머신 간에도 일치하지 않는다는 점을 확인했고 시도한 26개 연산 중 일부만 같은 결과를 냈다고 한다. 글은 이 프로젝트를 계속할 가치가 있는지 커뮤니티에 묻는다."
+    }
+  ],
+  "quotes": [
+    "not \"close enough\", literally identical."
+  ]
+}
