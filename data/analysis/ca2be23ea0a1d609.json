@@ -1,0 +1,26 @@
+{
+  "points": [
+    "NVIDIA와 EBU가 유럽 공영방송을 위한 주권 AI 표준을 확장했다.",
+    "Microsoft, Nebius, Nemotron, 시스템 통합사가 참조 아키텍처에 참여한다.",
+    "방송사가 데이터·인프라·모델·보안을 직접 통제하며 에이전트를 배포하도록 하는 것이 목표다.",
+    "Adobe Frame.io 영상 검색이 GPU 가속으로 임베딩 생성 약 5배, 처리량 최대 4배 향상됐다.",
+    "UFA는 시맨틱·하이브리드 검색으로 수년 전 장면을 개념 단위로 찾는다."
+  ],
+  "sections": [
+    {
+      "heading": "EBU 주권 AI 프레임워크",
+      "body": "EBU는 55개국 115개 이상 회원사를 대표한다. 표준은 워크로드 실행 위치, 데이터 거버넌스, 모델, 수명주기 보안 요구사항을 정의한다."
+    },
+    {
+      "heading": "파트너별 역할",
+      "body": "Microsoft는 주권 클라우드와 Azure Local로 오프라인에서도 핵심 서비스를 유지하게 하고, Nebius는 유럽 인프라에서의 학습·운영을, Nemotron은 커스터마이즈 가능한 오픈 모델을 맡는다."
+    },
+    {
+      "heading": "Frame.io 영상 검색",
+      "body": "NVDEC, TensorRT, CUDA로 구성된 파이프라인이 검색 지연을 최대 5배 줄이고, 2fps 프록시는 기존 360p보다 약 80% 작다. 연 3,500시간 이상을 제작하는 UFA에서 아카이브 검색에 쓰인다."
+    }
+  ],
+  "quotes": [
+    "\"Sovereign cloud infrastructure and open models can help Europe's public service media innovate\" — Delphine Ernotte"
+  ]
+}
