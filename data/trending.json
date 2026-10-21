@@ -7,24 +7,25 @@
     "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
     "publishedAt": "2026-09-24T16:17:19Z",
     "rawText": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "score": 30789,
+    "score": 33696,
     "lang": "JavaScript",
     "rank": 1,
-    "summaryKo": "dsh 터미널에 플러그인을 설치하면 로그인·API 키 없이 DeepSeek V4.1 Flash, Kimi K3 같은 최신 모델을 무제한 무료로 쓸 수 있다고 내세우는 저장소다.",
+    "summaryKo": "dsh에 플러그인만 설치하면 로그인·가입·API 키 없이 DeepSeek V4.1 Flash, Kimi K3 등 프론티어 모델을 무제한 무료로 쓸 수 있다고 주장하는 저장소다.",
     "tags": [
-      "무료 LLM",
+      "무료 모델",
       "플러그인"
     ],
     "entities": [
+      "dsh",
       "DeepSeek V4.1 Flash",
       "Kimi K3"
     ],
     "cats": [
-      "LLM·모델",
-      "코딩·개발"
+      "코딩·개발",
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "cac24968e5aa0d5b",
@@ -34,11 +35,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "publishedAt": "2026-10-17T02:40:38.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, deepseek_v41, text-generation, image-text-to-text, license:mit, endpoints_compatible, 8-bit",
-    "score": 1727,
+    "score": 1897,
     "rank": 1,
-    "summaryKo": "DeepSeek-V4.1-Flash-1017 가중치가 MIT 라이선스로 HuggingFace에 올라왔다. 이미지-텍스트 입력을 받는 멀티모달 모델이며 8비트 양자화 버전이다.",
+    "summaryKo": "DeepSeek-V4.1-Flash-1017은 이미지-텍스트-to-텍스트를 지원하는 MIT 라이선스 모델로, 8비트 체크포인트가 Hugging Face에 공개됐다.",
     "tags": [
-      "오픈웨이트",
+      "MoE",
       "멀티모달 LLM"
     ],
     "entities": [
@@ -50,7 +51,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -60,15 +61,16 @@
     "url": "https://github.com/yetone/magpie",
     "publishedAt": "2026-09-23T16:22:35Z",
     "rawText": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "score": 17931,
+    "score": 18765,
     "lang": "Go",
     "rank": 2,
-    "summaryKo": "magpie는 메뉴바에서 Codex는 DeepSeek으로, Claude Code는 Kimi로 돌리는 식으로 각 에이전트의 모델을 한곳에서 바꿔주는 도구다.",
+    "summaryKo": "메뉴바에서 에이전트별 모델을 한곳에서 관리하는 도구로, Codex를 DeepSeek 위에서, Claude Code를 Kimi 위에서 돌리는 식의 조합을 지원한다.",
     "tags": [
       "모델 라우팅",
       "코딩 에이전트"
     ],
     "entities": [
+      "magpie",
       "Codex",
       "Claude Code",
       "DeepSeek",
@@ -79,7 +81,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "5a9bda72c1d1f834",
@@ -89,23 +91,23 @@
     "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
     "publishedAt": "2026-10-14T12:00:13.000Z",
     "rawText": "image-to-image | diffusion-single-file, comfyui, image-generation, image-editing, flux, flux-3, black-forest-labs, image-to-image",
-    "score": 820,
+    "score": 881,
     "rank": 2,
-    "summaryKo": "Black Forest Labs가 FLUX.3 image klein의 ComfyUI용 단일 파일 체크포인트를 공개했다. 이미지 생성·편집(image-to-image)을 지원한다.",
+    "summaryKo": "Black Forest Labs의 FLUX.3 Image Klein을 ComfyUI용 단일 파일 형태로 배포한 이미지 생성·편집 모델이다.",
     "tags": [
-      "이미지 편집",
       "Diffusion",
-      "ComfyUI"
+      "이미지 편집"
     ],
     "entities": [
       "Black Forest Labs",
-      "FLUX.3"
+      "FLUX.3",
+      "ComfyUI"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "e7b2c4bb55dea757",
@@ -142,10 +144,10 @@
     "url": "https://github.com/KKKKhazix/AIHOT",
     "publishedAt": "2026-09-28T23:40:05Z",
     "rawText": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-    "score": 8175,
+    "score": 8356,
     "lang": "TypeScript",
     "rank": 3,
-    "summaryKo": "신호원을 직접 지정해 핫이슈를 모으고 일보를 자동 작성하는 웹사이트 프레임워크다. 소스와 선별 기준만 바꾸면 업계별 핫이슈 사이트로 쓸 수 있다.",
+    "summaryKo": "신호원과 선별 기준만 바꾸면 자신의 업계 핫이슈 사이트가 되는, 핫이슈 탐색과 일일 리포트 작성을 자동화하는 웹사이트 프레임워크다.",
     "tags": [
       "뉴스 큐레이션",
       "자동화"
@@ -157,57 +159,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
-  },
-  {
-    "id": "6ee455e9d35511dc",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "fishaudio/drama-3",
-    "url": "https://huggingface.co/fishaudio/drama-3",
-    "publishedAt": "2026-10-01T04:34:57.000Z",
-    "rawText": "text-to-speech | safetensors, fish_omni, fish-audio, text-to-speech, multi-speaker, audio-editing, emotional-speech-generation, zh",
-    "score": 736,
-    "rank": 3,
-    "summaryKo": "Fish Audio가 다화자와 감정 표현 음성 합성, 오디오 편집을 지원하는 TTS 모델 drama-3를 공개했다. 중국어를 포함한 다국어를 다룬다.",
-    "tags": [
-      "TTS",
-      "음성 합성"
-    ],
-    "entities": [
-      "Fish Audio",
-      "drama-3"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
-  },
-  {
-    "id": "35eff775ba433a91",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "jev-chat/jev-chat-jarvis",
-    "url": "https://github.com/jev-chat/jev-chat-jarvis",
-    "publishedAt": "2026-09-21T11:12:53Z",
-    "rawText": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
-    "score": 7931,
-    "lang": "Kotlin",
-    "rank": 4,
-    "summaryKo": "Jev는 채팅 상대의 의도와 위험을 읽고 답장 초안을 제안하는 채팅 의사결정 보조 앱이다. 전송은 사용자가 직접 하며 Android·Windows·macOS·iOS를 지원한다.",
-    "tags": [
-      "채팅 어시스턴트",
-      "LLM 앱"
-    ],
-    "entities": [
-      "Jev"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "0ca06b6fd0946a71",
@@ -217,11 +169,10 @@
     "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
     "publishedAt": "2026-09-15T19:23:19.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, muse_spark, image-text-to-text, facebook, meta, pytorch, muse",
-    "score": 551,
-    "rank": 4,
-    "summaryKo": "Meta가 총 816B 파라미터, 활성 42B의 Muse-Spark-Open 모델 가중치를 HuggingFace에 올렸다. 이미지-텍스트를 입력받는 대형 MoE 계열 오픈 모델이다.",
+    "score": 575,
+    "rank": 3,
+    "summaryKo": "Meta의 Muse-Spark-Open-816B-A42B는 총 816B·활성 42B 규모로 보이는 이미지-텍스트 입력 오픈 모델이다. 이름과 태그에 근거한 요약이다.",
     "tags": [
-      "오픈웨이트",
       "MoE",
       "멀티모달 LLM"
     ],
@@ -234,7 +185,57 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
+  },
+  {
+    "id": "35eff775ba433a91",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "jev-chat/jev-chat-jarvis",
+    "url": "https://github.com/jev-chat/jev-chat-jarvis",
+    "publishedAt": "2026-09-21T11:12:53Z",
+    "rawText": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+    "score": 7965,
+    "lang": "Kotlin",
+    "rank": 4,
+    "summaryKo": "답장 전에 채팅을 읽고 상대 의도와 위험을 판단해 답변 초안을 제안하는 채팅 의사결정 보조 도구로, 전송은 사용자가 직접 한다. Android·Windows·macOS·iOS를 지원한다.",
+    "tags": [
+      "채팅 보조",
+      "의사결정 지원"
+    ],
+    "entities": [
+      "Jev"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
+  },
+  {
+    "id": "6ee455e9d35511dc",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "fishaudio/drama-3",
+    "url": "https://huggingface.co/fishaudio/drama-3",
+    "publishedAt": "2026-10-01T04:34:57.000Z",
+    "rawText": "text-to-speech | safetensors, fish_omni, fish-audio, text-to-speech, multi-speaker, audio-editing, emotional-speech-generation, zh",
+    "score": 550,
+    "rank": 4,
+    "summaryKo": "Fish Audio의 drama-3는 다화자와 감정 표현 음성 생성, 오디오 편집을 지원하는 텍스트-음성 변환(TTS) 모델이다.",
+    "tags": [
+      "TTS",
+      "감정 음성"
+    ],
+    "entities": [
+      "Fish Audio",
+      "drama-3"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "167c7efa09e6db36",
@@ -269,50 +270,47 @@
     "url": "https://github.com/Human-Agent-Society/reef",
     "publishedAt": "2026-08-31T01:39:18Z",
     "rawText": "Infrastructure for continually self‑improving agents",
-    "score": 7700,
+    "score": 7722,
     "lang": "Python",
     "rank": 5,
-    "summaryKo": "reef는 에이전트가 지속적으로 스스로 개선되도록 하는 인프라를 표방하는 Human-Agent-Society의 저장소다.",
+    "summaryKo": "지속적으로 스스로 개선하는 에이전트를 위한 인프라를 표방하는 저장소다.",
     "tags": [
       "자기개선 에이전트",
       "인프라"
     ],
     "entities": [
-      "Human-Agent-Society",
       "reef"
     ],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
-    "id": "4e50efa7abaa8516",
+    "id": "fdfa7d470e108afa",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "google/embeddinggemma-2",
-    "url": "https://huggingface.co/google/embeddinggemma-2",
-    "publishedAt": "2026-09-14T14:53:42.000Z",
-    "rawText": "feature-extraction | transformers, safetensors, embedding_gemma2, feature-extraction, embedding, sentence-transformers, multimodal-embedding, multimodal",
-    "score": 520,
+    "title": "black-forest-labs/flux-3-image-klein",
+    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+    "publishedAt": "2026-10-13T10:58:40.000Z",
+    "rawText": "image-to-image | diffusers, safetensors, image-generation, image-editing, flux, flux-3, black-forest-labs, image-to-image",
+    "score": 530,
     "rank": 5,
-    "summaryKo": "Google이 멀티모달 임베딩을 지원하는 EmbeddingGemma 2를 HuggingFace에 공개했다. 검색·RAG용 특징 추출 모델이다.",
+    "summaryKo": "Black Forest Labs의 FLUX.3 Image Klein은 diffusers로 쓰는 이미지 생성·편집 모델이다.",
     "tags": [
-      "임베딩",
-      "RAG",
-      "멀티모달"
+      "Diffusion",
+      "이미지 편집"
     ],
     "entities": [
-      "Google",
-      "EmbeddingGemma 2"
+      "Black Forest Labs",
+      "FLUX.3"
     ],
     "cats": [
-      "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "dcc411eb2d826755",
@@ -322,13 +320,13 @@
     "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
     "publishedAt": "2026-08-28T12:57:24Z",
     "rawText": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "score": 7477,
+    "score": 7487,
     "lang": "TypeScript",
     "rank": 6,
-    "summaryKo": "ChatGPT를 계획용 두뇌로 쓰면서 Codex 하니스를 그대로 유지해 실행시키는 연동 도구다.",
+    "summaryKo": "ChatGPT를 계획 담당 두뇌로 쓰면서 Codex 하니스를 유지해 실제 작업은 Codex가 수행하게 하는 조합 도구다.",
     "tags": [
       "코딩 에이전트",
-      "계획·실행 분리"
+      "하니스"
     ],
     "entities": [
       "ChatGPT",
@@ -339,32 +337,32 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
-    "id": "fdfa7d470e108afa",
+    "id": "d55e01a42324c233",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "black-forest-labs/flux-3-image-klein",
-    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-    "publishedAt": "2026-10-13T10:58:40.000Z",
-    "rawText": "image-to-image | diffusers, safetensors, image-generation, image-editing, flux, flux-3, black-forest-labs, image-to-image",
-    "score": 503,
+    "title": "OpenMOSS-Team/MOSS-Image-SFT",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+    "publishedAt": "2026-10-11T07:01:17.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, base_model:OpenMOSS-Team/MOSS-Image-Base",
+    "score": 490,
     "rank": 6,
-    "summaryKo": "Black Forest Labs의 FLUX.3 image klein을 diffusers 형식으로 공개한 이미지 생성·편집 모델이다.",
+    "summaryKo": "OpenMOSS 팀의 MOSS-Image-SFT는 MOSS-Image-Base를 지도 미세조정한 영/중 텍스트-이미지 생성 모델이다.",
     "tags": [
-      "이미지 편집",
-      "Diffusion"
+      "Diffusion",
+      "텍스트-이미지"
     ],
     "entities": [
-      "Black Forest Labs",
-      "FLUX.3"
+      "OpenMOSS",
+      "MOSS-Image"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "34dcacc1dfaec8f3",
@@ -425,10 +423,10 @@
     "url": "https://github.com/Louis-CFM/coucou",
     "publishedAt": "2026-09-27T21:54:12Z",
     "rawText": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-    "score": 5636,
+    "score": 5806,
     "lang": "Swift",
     "rank": 7,
-    "summaryKo": "Mac 노치와 iPhone에서 Claude Code, Codex, Cursor, Gemini CLI 등 코딩 에이전트를 감시하고 노치나 잠금화면에서 승인할 수 있는 앱이다.",
+    "summaryKo": "Mac 노치와 iPhone에서 Claude Code, Codex, Cursor, Gemini CLI 등 코딩 에이전트를 감시하고 노치나 잠금화면에서 승인할 수 있게 하는 작은 앱이다.",
     "tags": [
       "에이전트 모니터링",
       "macOS"
@@ -437,38 +435,66 @@
       "Claude Code",
       "Codex",
       "Cursor",
-      "Gemini CLI"
+      "Gemini CLI",
+      "Antigravity"
     ],
     "cats": [
       "코딩·개발",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
-    "id": "097c2ef4d87a406d",
+    "id": "07395aaab74e419c",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "jialinyyzz/humanizer",
-    "url": "https://huggingface.co/jialinyyzz/humanizer",
-    "publishedAt": "2026-09-11T05:00:16.000Z",
-    "rawText": "text-generation | gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting",
-    "score": 472,
+    "title": "OpenMOSS-Team/MOSS-Image-Base",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+    "publishedAt": "2026-10-11T06:49:17.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, license:apache-2.0",
+    "score": 437,
     "rank": 7,
-    "summaryKo": "Gemma4 기반으로 AI 문체를 사람처럼 바꿔주는 텍스트 재작성 모델 humanizer로, GGUF 버전도 제공한다.",
+    "summaryKo": "OpenMOSS 팀의 MOSS-Image-Base는 Apache-2.0 라이선스로 공개된 영/중 텍스트-이미지 생성 베이스 모델이다.",
     "tags": [
-      "텍스트 재작성",
-      "Gemma"
+      "Diffusion",
+      "텍스트-이미지"
     ],
     "entities": [
-      "Gemma 4"
+      "OpenMOSS",
+      "MOSS-Image"
     ],
     "cats": [
-      "LLM·모델"
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
+  },
+  {
+    "id": "4b38a9bc87a3188d",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "monid-ai/monid",
+    "url": "https://github.com/monid-ai/monid",
+    "publishedAt": "2026-08-26T03:45:18Z",
+    "rawText": "Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8",
+    "score": 5449,
+    "lang": "TypeScript",
+    "rank": 8,
+    "summaryKo": "'에이전트 도구를 위한 OpenRouter'를 표방하는 Monid 저장소로, 에이전트가 쓰는 도구를 한 곳에서 연결하는 것을 목표로 한다.",
+    "tags": [
+      "에이전트 도구",
+      "게이트웨이"
+    ],
+    "entities": [
+      "Monid",
+      "OpenRouter"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "08f7fccfef9f839f",
@@ -523,29 +549,30 @@
     "fetchedAt": "2026-10-19T21:05:45.537Z"
   },
   {
-    "id": "d55e01a42324c233",
+    "id": "4e50efa7abaa8516",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "OpenMOSS-Team/MOSS-Image-SFT",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-    "publishedAt": "2026-10-11T07:01:17.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, base_model:OpenMOSS-Team/MOSS-Image-Base",
-    "score": 461,
+    "title": "google/embeddinggemma-2",
+    "url": "https://huggingface.co/google/embeddinggemma-2",
+    "publishedAt": "2026-09-14T14:53:42.000Z",
+    "rawText": "feature-extraction | transformers, safetensors, embedding_gemma2, feature-extraction, embedding, sentence-transformers, multimodal-embedding, multimodal",
+    "score": 427,
     "rank": 8,
-    "summaryKo": "OpenMOSS 팀의 텍스트-이미지 모델 MOSS-Image의 SFT 버전으로, 영어·중국어를 지원한다.",
+    "summaryKo": "Google의 embeddinggemma-2는 멀티모달 입력까지 임베딩하는 특징 추출 모델로, sentence-transformers로 쓸 수 있다.",
     "tags": [
-      "이미지 생성",
-      "Diffusion"
+      "임베딩",
+      "멀티모달"
     ],
     "entities": [
-      "OpenMOSS",
-      "MOSS-Image"
+      "Google",
+      "EmbeddingGemma"
     ],
     "cats": [
+      "LLM·모델",
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "2fd1700434e497ff",
@@ -580,12 +607,12 @@
     "url": "https://github.com/Inkloom-art/inkloom",
     "publishedAt": "2026-09-20T07:54:30Z",
     "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "score": 2047,
+    "score": 2093,
     "lang": "TypeScript",
     "rank": 9,
-    "summaryKo": "브랜드 분석, 타이포·심볼 생성, 레이아웃 엔진으로 나뉜 로고 디자인 특화 AI 모델 모음 Inkloom이다. 얼리 액세스를 받고 있다.",
+    "summaryKo": "브랜드 분석 모델이 제약을 만들고 서체·심볼 모델이 마크를 구성하며 조합 엔진이 로크업과 여백 규칙까지 내는 로고 디자인 특화 AI 모델 모음이다. 얼리 액세스 중이다.",
     "tags": [
-      "로고 생성",
+      "로고 디자인",
       "특화 모델"
     ],
     "entities": [
@@ -595,7 +622,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "92c1824269f45469",
@@ -605,11 +632,11 @@
     "url": "https://huggingface.co/Lightricks/LTX-2.5",
     "publishedAt": "2026-07-23T07:55:24.000Z",
     "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 431,
+    "score": 426,
     "rank": 9,
-    "summaryKo": "Lightricks의 LTX-2.5는 텍스트·이미지·오디오를 입력으로 영상을 만들고 영상에서 오디오도 생성하는 비디오 생성 모델이다.",
+    "summaryKo": "Lightricks의 LTX-2.5는 텍스트·이미지·오디오에서 비디오를, 비디오에서 오디오를 만드는 등 다양한 조합을 지원하는 영상 생성 모델이다.",
     "tags": [
-      "영상 생성",
+      "비디오 생성",
       "Diffusion"
     ],
     "entities": [
@@ -620,7 +647,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "d4b568c20a8e5dfa",
@@ -630,14 +657,13 @@
     "url": "https://github.com/scenario-labs/blender-plugin",
     "publishedAt": "2026-08-30T10:06:41Z",
     "rawText": "Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents. Blender 5.0+ extension, GPL-3.0-or-later.",
-    "score": 541,
+    "score": 566,
     "lang": "Python",
     "rank": 10,
-    "summaryKo": "Scenario의 Blender 5.0+ 확장으로, 뷰포트에서 AI 이미지·영상·3D·PBR 소재를 만들고 에이전트용 로컬 MCP 서버도 제공한다.",
+    "summaryKo": "Scenario for Blender는 뷰포트에서 AI 이미지·비디오·3D·PBR 머티리얼을 생성하고 에이전트용 로컬 MCP 서버도 제공하는 Blender 5.0+ 확장이다. GPL-3.0 이상 라이선스다.",
     "tags": [
-      "3D 생성",
-      "MCP",
-      "Blender"
+      "Blender",
+      "MCP"
     ],
     "entities": [
       "Scenario",
@@ -648,7 +674,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "afc305b6db5c414f",
@@ -675,29 +701,28 @@
     "fetchedAt": "2026-10-17T21:11:49.001Z"
   },
   {
-    "id": "07395aaab74e419c",
+    "id": "097c2ef4d87a406d",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "OpenMOSS-Team/MOSS-Image-Base",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
-    "publishedAt": "2026-10-11T06:49:17.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, license:apache-2.0",
-    "score": 408,
+    "title": "jialinyyzz/humanizer",
+    "url": "https://huggingface.co/jialinyyzz/humanizer",
+    "publishedAt": "2026-09-11T05:00:16.000Z",
+    "rawText": "text-generation | gguf, safetensors, gemma4_unified, image-text-to-text, humanizer, transformers, text-rewriting, rewriting",
+    "score": 384,
     "rank": 10,
-    "summaryKo": "OpenMOSS 팀의 텍스트-이미지 모델 MOSS-Image의 베이스 체크포인트로, Apache-2.0 라이선스이며 영어·중국어를 지원한다.",
+    "summaryKo": "jialinyyzz/humanizer는 gemma4 계열을 기반으로 텍스트를 사람이 쓴 듯 다시 쓰는 리라이팅 모델로, GGUF 형식도 제공한다.",
     "tags": [
-      "이미지 생성",
-      "Diffusion"
+      "텍스트 리라이팅",
+      "GGUF"
     ],
     "entities": [
-      "OpenMOSS",
-      "MOSS-Image"
+      "Gemma"
     ],
     "cats": [
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "7657787479f736b8",
@@ -760,47 +785,50 @@
     "url": "https://github.com/modelscope/ms-cookbook",
     "publishedAt": "2026-09-11T14:27:35Z",
     "rawText": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
-    "score": 498,
+    "score": 502,
     "lang": "HTML",
     "rank": 11,
-    "summaryKo": "ModelScope의 개발자용 실전 가이드로 모델 선택, 추론, 파인튜닝, 평가, RAG, 에이전트, AIGC를 다룬다.",
+    "summaryKo": "ModelScope Cookbook은 모델 선택·추론·파인튜닝·평가·RAG·에이전트·AIGC를 아우르는 개발자용 오픈소스 모델 활용 실전 가이드다.",
     "tags": [
-      "오픈모델",
-      "RAG",
-      "튜토리얼"
+      "오픈소스 모델",
+      "실전 가이드"
     ],
     "entities": [
       "ModelScope"
     ],
     "cats": [
-      "LLM·모델",
-      "에이전트"
+      "코딩·개발",
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
-    "id": "762f94fe4084efbd",
+    "id": "0c49f71f40e435a3",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "Eurekaleo/awesome-ai-for-games",
-    "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
-    "publishedAt": "2026-09-04T01:05:57Z",
-    "rawText": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
-    "score": 397,
-    "lang": "TeX",
+    "title": "blendi-remade/dioramas",
+    "url": "https://github.com/blendi-remade/dioramas",
+    "publishedAt": "2026-09-30T00:07:56Z",
+    "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
+    "score": 414,
+    "lang": "JavaScript",
     "rank": 12,
-    "summaryKo": "게임 개발 전 과정에서 AI와 파운데이션 모델을 활용한 연구를 모은 검색 가능한 큐레이션 목록이다.",
+    "summaryKo": "Nano Banana 2와 Meshy 7.1(fal)로 생성한 AI 에셋을 쓰는 시네마틱 인터랙티브 3D 웹사이트용 무료 오픈소스 프레임워크로, 예제 사이트 20개가 있다.",
     "tags": [
-      "게임 AI",
-      "큐레이션"
+      "3D 웹",
+      "생성형 에셋"
     ],
-    "entities": [],
+    "entities": [
+      "Nano Banana 2",
+      "Meshy",
+      "fal"
+    ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   },
   {
     "id": "ca6195587ed8d6ed",
@@ -829,30 +857,26 @@
     "fetchedAt": "2026-10-15T21:02:58.759Z"
   },
   {
-    "id": "0c49f71f40e435a3",
+    "id": "762f94fe4084efbd",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "blendi-remade/dioramas",
-    "url": "https://github.com/blendi-remade/dioramas",
-    "publishedAt": "2026-09-30T00:07:56Z",
-    "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-    "score": 391,
-    "lang": "JavaScript",
+    "title": "Eurekaleo/awesome-ai-for-games",
+    "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
+    "publishedAt": "2026-09-04T01:05:57Z",
+    "rawText": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
+    "score": 400,
+    "lang": "TeX",
     "rank": 13,
-    "summaryKo": "Nano Banana 2와 Meshy 7.1(fal)로 AI 에셋을 만든 시네마틱 인터랙티브 3D 웹사이트용 오픈소스 프레임워크이며 예제 사이트 20개가 들어 있다.",
+    "summaryKo": "게임 개발 전 과정에서 AI와 파운데이션 모델을 다룬 연구를 모은 검색 가능한 큐레이션 목록이다.",
     "tags": [
-      "3D 웹",
-      "이미지 생성"
+      "게임 AI",
+      "논문 모음"
     ],
-    "entities": [
-      "Nano Banana 2",
-      "Meshy 7.1",
-      "fal"
-    ],
+    "entities": [],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-20T21:04:34.230Z"
+    "fetchedAt": "2026-10-21T21:02:57.940Z"
   }
 ]
