@@ -1,5 +1,818 @@
 [
   {
+    "id": "3094c7cf1cb791c6",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "We shrank our steerable small TTS to 11.84 MB. WER is unchanged, UTMOS drops ~0.1 [p]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xcum4s/we_shrank_our_steerable_small_tts_to_1184_mb_wer/",
+    "publishedAt": "2026-10-22T20:57:42+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>A while back I posted SteerTTS v1, a small English TTS you steer with numbers (<a href=\"https://huggingface.co/WhissleAI/steer-tts\">https://huggingface.co/WhissleAI/steer-tts</a>). Today I am releasing the edge variant:</p> <p><a href=\"https://huggingface.co/WhissleAI/steer-tts-edge\"><strong>https://huggingface.co/WhissleAI/steer-tts-edge</strong></a></p> <p><strong>Size:</strong> everything an app has to ship (weights, voices, text front end and Python runtime) totals <strong>11.84 MB</strong>.</p> <p><strong>How:</strong></p> <ul> <li>Acoustic model (9.25M params, attention + bidirectional Mamba-3) is quantization-aware trained to int4</li> <li>6.2M-param Vocos-style vocoder is distilled from <code>charactr/vocos-mel-24khz</code>, also int4 QAT</li> <li>Text front end is pure numpy, with no NLTK, g2p_en, torchaudio or num2words at runtime</li> </ul> <p><strong>Quality</strong> (Open TTS Leaderboard protocol, run locally, not an official submission):</p> <table><thead> <tr> <th align=\"left\"></th> <th align=\"left\">Seed-TTS WER / UTMOS</th> <th align=\"left\">CV3-Eval WER / UTMOS</th> </tr> </thead><tbody> <tr> <td align=\"left\">v1 fp32 (no refiner)</td> <td align=\"left\">0.96% / 4.20</td> <td align=\"left\">2.62% / 4.17</td> </tr> <tr> <td align=\"left\"><strong>edge</strong></td> <td align=\"left\">0.96% / 4.11</td> <td align=\"left\">2.67% / 4.08</td> </tr> </tbody></table> <p>Intelligibility is essentially unchanged. UTMOS drops about 0.1, almost all of it from the small int4 vocoder.</p> <p><strong>Steering survives quantization.</strong> Every one of the 12 controls (rate, loudness, pitch, pitch range, final rise, pauses, tilt, breathiness, and more) keeps at least 95% of its fp32 effect. You also get 50 style tags and inline markup:</p> <pre><code>Well, *that* was fast. [pause 400ms] &lt;slow&gt;Let me think.&lt;/slow&gt; &lt;whisper&gt;Don&#39;t tell anyone.&lt;/whisper&gt; </code></pre> <p><strong>Speed</strong> (CPU only, a 2018 Threadripper under load): RTF 0.053 with 4 threads (~19x realtime), ~120 ms to first audio, with sentence-level streaming.</p> <p>Bash</p> <pre><code>pip install . steertts-edge &quot;Hello there, nice to meet you.&quot; -o hello.wav </code></pre> <p><strong>Limitations:</strong></p> <ul> <li>English only, and 200 voices (a subset of the full model’s 2,825)</li> <li>No voice cloning, free-text prompts or flow refiner on device. Those stay in the full model.</li> <li>Weights are dequantized to fp32 at load, so the win is size, not speed. Unless we write new kernels for edge devices. </li> <li>Emotion tags are mostly style switches, and <code>fast</code>/<code>anger</code> are weak</li> </ul> <p>I need feedback, especially on the vocoder quality gap and any edge targets you’d like to see (ONNX, mobile, WASM).</p> <p>Some examples here:</p> <p><a href=\"https://whissleai.github.io/steer-tts/\">https://whissleai.github.io/steer-tts/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Working_Hat5120\"> /u/Working_Hat5120 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xcum4s/we_shrank_our_steerable_small_tts_to_1184_mb_wer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xcum4s/we_shrank_our_steerable_small_tts_to_1184_mb_wer/\">[comments]</a></span>",
+    "summaryKo": "수치로 조절하는 소형 영어 TTS SteerTTS의 엣지 버전을 11.84MB로 줄였다. WER은 그대로이고 UTMOS는 약 0.1 하락했다.",
+    "tags": [
+      "TTS",
+      "모델 경량화"
+    ],
+    "entities": [
+      "SteerTTS",
+      "WhissleAI"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "2c6be51cabc910ce",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "캐나다 하원의원들, 도박 광고 제한 추진",
+    "url": "https://news.hada.io/topic?id=35831",
+    "publishedAt": "2026-10-23T05:34:18+09:00",
+    "rawText": "캐나다 연방 하원이 스포츠 베팅 광고의 전국적 규제 체계를 마련하는 법안 S-211을 추진 중이며, 캐나다 문화유산 상임위원회가 다음 주 표결할 예정임 2026년 NHL 플레이오프 7경기 분석에서 도박 홍보 메시지 약 3,000건이 확인됐으며, 이 중 ...",
+    "summaryKo": "캐나다 하원이 스포츠 베팅 광고를 전국 단위로 규제하는 법안 S-211을 추진 중이며 다음 주 상임위 표결이 예정돼 있다. 2026 NHL 플레이오프 7경기에서 도박 홍보 메시지가 약 3,000건 확인됐다.",
+    "tags": [
+      "규제",
+      "광고"
+    ],
+    "entities": [
+      "캐나다 하원"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "c110bdded3b8fe80",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오픈AI CEO 샘 알트만(Sam Altman)은 최근 기술 발전 속도가 자신의 예상을 뛰어넘었다며, “적어도 수학적 추론 같은 특정 영역에서는 이미 초지...",
+    "url": "https://www.threads.com/t/Dezys4MCjDi",
+    "publishedAt": "Thu, 22 Oct 2026 20:00:49 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI CEO 샘 알트만(Sam Altman)은 최근 기술 발전 속도가 자신의 예상을 뛰어넘었다며, “적어도 수학적 추론 같은 특정 영역에서는 이미 초지능(Superintelligence)에 도달했다”고 평가했습니다. 그는 지난 6개월간의 비약적인 진보를 지켜보며 종전의 신념이 흔들릴 정도였다고 고백했습니다. “이렇게까지 빠를 줄은 몰랐다”며, 현재의 발전 속도가 1~2년만 더 이어진다면 지금의 사회·기업·정부 체계로는 감당하기 어려울 것이라고 경고했습니다. 인간의 높은 적응력과 점진적 배포 원칙을 여전히 믿고 있지만, AI 시스템의 능력 향상이 너무나 가속화되어 기존 방식의 유지만으로는 한계에 부딪힐 수밖에 없다는 분석입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/859511462_1147767804429457_648255658272165865_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=106&amp;ig_cache_key=NDAxMzc3NDY3OTIzMTMxMjA5OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=1xD457VfiJoQ7kNvwEZ-z-w&amp;_nc_oc=AdrDZfoyg92v7Sze_2QGv-kDT6WTaEk0gWALbjL5kL9SAvOEMEh1O2GUj4HTGomLN7g&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=_J3QLKFDx5YRRP-WKb6_sw&amp;_nc_ss=7a20f&amp;oh=00_AQOpftDR14ZPuGWdaEJoP6x2sBpqjB2ydL7AJOkNj9GeLA&amp;oe=6AE05673\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQPrryNvaQWi3qtF0Rwowivm1bW804tcpXHpA6gv8euO7nGCfT-z7s8gc33CDvYWEhOJi6Wi6_iSkt-KedbtGtUSr3btXOM7CFV55Y8.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=LqDp1GRhd4kQ7kNvwEMFA46&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI4ODAxOTMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=993ef3261da8165b&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8zNTE1RDlEQ0Q2MDI0QjY4ODZENDMwQzc2MDM4RTc2Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0REMDczM0U0OEE4ODRFMUU5RDUxQjRCMkM3RDgzRDBEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaArKyGvJv2PxUCKAJDMywXQFgbtkWhysEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=_J3QLKFDx5YRRP-WKb6_sw&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQPqCr_qpz2jpjKTYIcPkArlCLTUPBht482PJcYJP3YdcA&amp;oe=6ADC696D\"></video></p>",
+    "summaryKo": "샘 알트먼은 기술 발전 속도가 예상을 넘어섰고 수학적 추론 같은 일부 영역에서는 이미 초지능에 도달했다고 평가했다. 이 속도가 1~2년 더 이어지면 현재의 사회·기업·정부 체계로 감당하기 어렵다고 경고했다.",
+    "tags": [
+      "초지능",
+      "AI 안전"
+    ],
+    "entities": [
+      "Sam Altman",
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "52da379c7b193551",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show HN: Android 기기에서 완전한 iOS 16.5 펌웨어 실행하기",
+    "url": "https://news.hada.io/topic?id=35830",
+    "publishedAt": "2026-10-23T04:33:15+09:00",
+    "rawText": "HackiOS는 Android 하드웨어에서 Apple의 오픈소스 XNU 커널을 부팅하고, 수정하지 않은 iOS 16.5 사용자 공간을 실행하는 연구 프로젝트임 현재 POCO X5 Pro 5G와 QEMU aarch64에서 동작하며, 휴대폰에서는 RAM으로 부팅해 재부...",
+    "summaryKo": "HackiOS는 Android 기기에서 Apple 오픈소스 XNU 커널을 부팅하고 수정 없는 iOS 16.5 사용자 공간을 실행하는 연구 프로젝트다. 현재 POCO X5 Pro 5G와 QEMU aarch64에서 동작한다.",
+    "tags": [
+      "커널",
+      "에뮬레이션"
+    ],
+    "entities": [
+      "HackiOS",
+      "iOS",
+      "Android"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "a799144d9e8eb1fb",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 중국 Ant Group이 AI 에이전트 성능을 높인 Ling-3.1-flash-1019를 공개했습니다. Artificial Analysis 지능 지수에서 기존 41점에서 44점으로 상...",
+    "url": "https://www.threads.com/t/DezrzKdAgYs",
+    "publishedAt": "Thu, 22 Oct 2026 19:00:31 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국 Ant Group이 AI 에이전트 성능을 높인 Ling-3.1-flash-1019를 공개했습니다. Artificial Analysis 지능 지수에서 기존 41점에서 44점으로 상승했는데요. 특히 AI가 스스로 작업을 수행하는 능력이 개선됐습니다. AA-Briefcase 점수는 약 1400에서 1524 Elo로, AutomationBench-AA 성공률은 62%에서 68%로 올랐습니다. API와 모델 가중치도 조만간 공개할 예정이라고 합니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/858263887_17992876851112832_1906427517642872230_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAxMzc0NDMyNDgzNDYyNTA2OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=ztguPb4HO2IQ7kNvwGK-RYn&amp;_nc_oc=Adrk4RhN0yO2ALcPbxs2yyDKPBnAnf-S_pyY-oSsgRnPg_mzHP6AzSsya-tZzJJIjUA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=_J3QLKFDx5YRRP-WKb6_sw&amp;_nc_ss=7a20f&amp;oh=00_AQNrVNdAYsiTS0RqwzhR-ho0Hk2a3DGeHVZ9Bb88c8JthQ&amp;oe=6AE041DE\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Ant Group이 에이전트 성능을 높인 Ling-3.1-flash-1019를 공개했다. Artificial Analysis 지능 지수가 41에서 44로 올랐고 AutomationBench-AA 성공률은 62%에서 68%로 상승했다. API와 가중치는 곧 공개 예정이다.",
+    "tags": [
+      "LLM",
+      "에이전트",
+      "벤치마크"
+    ],
+    "entities": [
+      "Ant Group",
+      "Ling-3.1-flash-1019",
+      "Artificial Analysis"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "891b7e0bbf66f86d",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Build more responsive apps with the Decisions API",
+    "url": "https://openai.com/index/decisions-api",
+    "publishedAt": "Thu, 22 Oct 2026 19:00:00 GMT",
+    "rawText": "Fast, focused, low-cost decisions for any application.",
+    "summaryKo": "OpenAI가 앱에 빠르고 저렴하게 '결정(decision)'을 내리게 해 주는 Decisions API를 소개했다. 응답성이 중요한 애플리케이션에서 가볍고 집중된 판단 호출을 쓸 수 있게 하려는 목적이다.",
+    "tags": [
+      "API",
+      "의사결정"
+    ],
+    "entities": [
+      "OpenAI",
+      "Decisions API"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "285861fa05fad723",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "The Foundations of Scalable AI",
+    "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+    "publishedAt": "Thu, 22 Oct 2026 18:48:04 +0000",
+    "rawText": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic&#8230;",
+    "summaryKo": "MIT Technology Review EmTech Future 세션으로, 규제가 엄격한 환경에서 확장 가능한 AI의 토대를 다룬다. 데이터, 엔지니어링, 플랫폼, 운영 모델, 거버넌스가 하나로 맞물려야 한다는 주장이다.",
+    "tags": [
+      "AI 거버넌스",
+      "엔터프라이즈"
+    ],
+    "entities": [
+      "MIT Technology Review"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "2584e9ddba1097f3",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Google, 핀란드 산림 300헥타르 벌채",
+    "url": "https://news.hada.io/topic?id=35829",
+    "publishedAt": "2026-10-23T03:42:22+09:00",
+    "rawText": "Google의 핀란드 데이터센터 사업에서 환경영향 평가가 완료되기 전 약 300헥타르의 산림이 벌채됐다는 논란으로 현지 규제기관이 해명을 요구함 핀란드 허가감독청 LVV는 Google의 현지 법인 Tuike Finland Oy를 상대로 조사 중이며, 공사가 중단...",
+    "summaryKo": "Google 핀란드 데이터센터 사업에서 환경영향 평가 완료 전에 산림 약 300헥타르가 벌채돼 현지 규제기관 LVV가 해명을 요구하며 조사 중이다.",
+    "tags": [
+      "데이터센터",
+      "환경"
+    ],
+    "entities": [
+      "Google",
+      "LVV"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "8ec0a67a2423b2ec",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "지금 무엇이 해킹당하고 있나",
+    "url": "https://news.hada.io/topic?id=35828",
+    "publishedAt": "2026-10-23T03:39:22+09:00",
+    "rawText": "pwn.watch는 현재 주목할 보안 사고와 취약점을 모아, 심각도와 함께 패치 완료/부분 패치/미패치 상태를 보여주는 대시보드임 GitLab, PHP, Next.js, Node.js 등 개발자가 사용하는 소프트웨어의 원격 코드 실행 취약점과 수정 현황을 추적하며, 영향받는 버전과 ...",
+    "summaryKo": "pwn.watch는 현재 주목할 보안 사고와 취약점을 심각도와 패치 상태(완료/부분/미패치)와 함께 보여주는 대시보드다. GitLab, PHP, Next.js, Node.js 등의 RCE 취약점을 추적한다.",
+    "tags": [
+      "보안",
+      "취약점"
+    ],
+    "entities": [
+      "pwn.watch",
+      "GitLab",
+      "PHP",
+      "Next.js",
+      "Node.js"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "500293da56735578",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "ICLR Text Editor [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xcq2an/iclr_text_editor_d/",
+    "publishedAt": "2026-10-22T18:07:44+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Have you looked at this iclr text detector?</p> <p>[<a href=\"https://opentextdetector.com/%5D(https://opentextdetector.com/\">https://opentextdetector.com/](https://opentextdetector.com/)</a>)</p> <p>Do you think this will impact the review process? AI detectors are usually unreliable so I hope not.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Whatever_635\"> /u/Whatever_635 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xcq2an/iclr_text_editor_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xcq2an/iclr_text_editor_d/\">[comments]</a></span>",
+    "summaryKo": "ICLR용 AI 텍스트 감지기를 본 적 있느냐며 리뷰 과정에 영향이 있을지 묻는 토론 글이다. 글쓴이는 AI 탐지기가 대체로 신뢰하기 어렵다며 영향이 없기를 바란다.",
+    "tags": [
+      "AI 탐지",
+      "학회 리뷰"
+    ],
+    "entities": [
+      "ICLR"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "01d765ed9b97af33",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: AI의 판단 능력을 평가하는 벤치마크에서 1위를 기록한 오픈소스 모델이 공개됐습니다. Base Labs가 발표한 mammoth-1과 elephant-1인데요. Qwen3...",
+    "url": "https://www.threads.com/t/Dezk6RzgXqA",
+    "publishedAt": "Thu, 22 Oct 2026 18:00:19 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI의 판단 능력을 평가하는 벤치마크에서 1위를 기록한 오픈소스 모델이 공개됐습니다. Base Labs가 발표한 mammoth-1과 elephant-1인데요. Qwen3.5 기반의 27B, 9B 모델을 추가 학습시켜 만들었습니다. mammoth-1은 Jev Decision Index v0.4에서 1위를 기록했고, elephant-1은 15B 미만 모델 중 최고 성능을 기록했다고 합니다. AI 에이전트가 다음 행동을 결정하는 데 활용할 수 있으며, 두 모델의 가중치와 학습 방법도 공개됐습니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/863176548_17992877079112832_522817100435175574_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAxMzcxNDAyNzQzOTAyODg2NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=LilFtmE7dD0Q7kNvwHTConQ&amp;_nc_oc=AdpLsiHDI6HCc1K9x_x_tanceawghswixgSO6fD93II5OFvtq3F4HyCsy8t6OB_Fmvs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=_J3QLKFDx5YRRP-WKb6_sw&amp;_nc_ss=7a20f&amp;oh=00_AQMw4kiwxpgoMvLXdaEk_n95vvOoY5USavPm_XKY2wBV8w&amp;oe=6AE05E89\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Base Labs가 AI 판단 능력 벤치마크에서 1위를 기록한 오픈소스 모델 mammoth-1(27B)과 elephant-1(9B)을 공개했다. Qwen3.5 기반이며 elephant-1은 15B 미만 최고 성능이고 가중치와 학습 방법도 공개됐다.",
+    "tags": [
+      "오픈 모델",
+      "의사결정",
+      "에이전트"
+    ],
+    "entities": [
+      "Base Labs",
+      "mammoth-1",
+      "elephant-1",
+      "Qwen3.5"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "56e37f7cb35f97d9",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "LLM으로 신뢰도 점수를 매기는 것은 좋지 않은 생각",
+    "url": "https://news.hada.io/topic?id=35827",
+    "publishedAt": "2026-10-23T02:46:27+09:00",
+    "rawText": "LLM이 출력하는 신뢰도 점수는 내부 확신을 측정한 값이 아니라, 대화에 이어질 법한 텍스트를 토큰 단위로 생성한 결과임 믿을 만한 점수는 예측에 쓰인 정보를 반영해야 하며, 같은 종류의 질문에서 실제 정답률과 일치하는지 검증해야 함 보정...",
+    "summaryKo": "LLM이 출력하는 신뢰도 점수는 내부 확신의 측정이 아니라 그럴듯한 텍스트의 생성 결과라는 주장이다. 믿을 만한 점수는 예측에 쓰인 정보를 반영하고 실제 정답률과 일치하는지 검증돼야 한다.",
+    "tags": [
+      "LLM",
+      "신뢰도 보정"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "e37c93039731894a",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "PHP session.upload_progress의 힙 UAF(CVE-2026-109618 / -109619)",
+    "url": "https://news.hada.io/topic?id=35826",
+    "publishedAt": "2026-10-23T02:43:27+09:00",
+    "rawText": "PHP 업로드 진행률 처리 중 메모리 부족으로 남은 직렬화 상태가 같은 프로세스의 다음 요청에서 재사용되며 힙 해제 후 사용(UAF)이 발생함 처음 제시한 캐시 포인터 공격 경로는 성립하지 않음. 참조 카운트 증가로 대상 배열이 살아 있어 해제 자체가 없으며, 해...",
+    "summaryKo": "PHP session.upload_progress에서 메모리 부족 시 남은 직렬화 상태가 다음 요청에 재사용되며 힙 UAF가 발생한다(CVE-2026-109618/109619). 처음 제시된 캐시 포인터 공격 경로는 성립하지 않는다는 분석이다.",
+    "tags": [
+      "보안",
+      "PHP",
+      "UAF"
+    ],
+    "entities": [
+      "PHP"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "c9f7adfd293d8e76",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Amazon, 공개 전인 10월 17일 PHP2Shell 악용 시도 확인",
+    "url": "https://news.hada.io/topic?id=35825",
+    "publishedAt": "2026-10-23T02:40:27+09:00",
+    "rawText": "Amazon Threat Intelligence가 MadPot 허니팟에서 2026년 10월 17일 PHP2Shell 악용 시도를 확인함. CVE-2026-109618과 CVE-2026-109619 공개보다 4일 앞선 시점임 공개 당일에도 엠바고 해제 전부터 추가 공격 시도가 관측됐으며, 패치 공개 후에는 개념 증명 코드...",
+    "summaryKo": "Amazon Threat Intelligence가 허니팟에서 CVE 공개보다 4일 앞선 10월 17일에 PHP2Shell 악용 시도를 확인했다. 엠바고 해제 전에도 공격이 관측됐고 패치 공개 후 PoC가 퍼졌다.",
+    "tags": [
+      "보안",
+      "PHP"
+    ],
+    "entities": [
+      "Amazon",
+      "PHP2Shell"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "8bf0d9e1870e1fa8",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 구글 딥마인드 CEO 데미스 하사비스(Demis Hassabis)는 최근 발생하는 AI 문제들을 업계를 향한 “심각한 경고 사격\"으로 받아들여야 한다고 경고...",
+    "url": "https://www.threads.com/t/DezeBvejRMr",
+    "publishedAt": "Thu, 22 Oct 2026 17:00:10 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>구글 딥마인드 CEO 데미스 하사비스(Demis Hassabis)는 최근 발생하는 AI 문제들을 업계를 향한 “심각한 경고 사격\"으로 받아들여야 한다고 경고했습니다. 현재 모델도 인상적이지만, 불과 1~2년 뒤 등장할 차세대 프론티어 AI의 파괴적 성능에 비하면 아무것도 아니라는 분석입니다. 지금 통제력을 확보하지 못하면 사이버 위협을 넘어 바이오나 핵 안보 같은 파멸적 리스크로 번질 수 있다고 지적했습니다. 그는 프론티어 AI 모델을 검증·인증할 표준 기구와 가드레일이 시급하다며, “시스템이 아직 감당 가능한 수준일 때 안전 통제권을 확립해야 한다”고 강조했습니다. 압도적인 지능 폭발이 눈앞으로 다가온 지금, 기술적 안전망 구축이 특이점 진입의 최우선 전제 조건이라는 메시지입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/863448914_981749761644328_3022343886649754208_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=NDAxMzY4Mzc1NDAxMDQ4MTQ1MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=eUp6Hjuq-NkQ7kNvwGZXKqQ&amp;_nc_oc=AdrmFpx8YiuIvObEtttl3w9fCYOiUd-IpZwysDdaoDRnO2CZ57kg_uHEwpVI_8I2WWc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=_J3QLKFDx5YRRP-WKb6_sw&amp;_nc_ss=7a20f&amp;oh=00_AQNpzmD6muoUZ7EQ0OXvQZrbN5mK4zUo2mKdSUz3-ezvhg&amp;oe=6AE0443D\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQOADCS3nfYM80SqsXIS6CeSnb0QNYp-oN6MNGFnHkU2-qruZdRnUUZi2vUUuvETz9feOJlfs2u2gCdoS21YDagu0WaLlzvxGXz1mK4.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=a7b3mPvt87EQ7kNvwGfVAxq&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI4Nzg2MDkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=1d87c4299cba9af4&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81NTREOUM3RjY5RTc0NzJDOUQwQjI0NEI4RkFFQkQxOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y3NzlCQTg2Mjg1MjQwQUQ4NEQ0RkJBQUM1RTA5MTkzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA_NyfsJv2PxUCKAJDMywXQEyB64UeuFIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=_J3QLKFDx5YRRP-WKb6_sw&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQOKGDsGf4pGBaEBIELWR5bGfMaD35uOEjSQ_7fP3xg87A&amp;oe=6ADC71F2\"></video></p>",
+    "summaryKo": "데미스 하사비스는 최근의 AI 문제들을 업계에 대한 '심각한 경고 사격'으로 받아들여야 한다고 말했다. 프런티어 모델을 검증·인증할 표준 기구와 가드레일이 시급하다고 주장했다.",
+    "tags": [
+      "AI 안전",
+      "규제"
+    ],
+    "entities": [
+      "Demis Hassabis",
+      "Google DeepMind"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "f78615f6ac8c08f4",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: ZZO - 바로 사용하는 URL 단축 API와 MCP",
+    "url": "https://news.hada.io/topic?id=35824",
+    "publishedAt": "2026-10-23T01:58:02+09:00",
+    "rawText": "URL 단축 서비스 zzo.kr 을 소개합니다. 긴 인터넷 주소를 짧은 링크로 변환하고, 간단히 QR코드로도 공유 할 수 있는 웹 서비스 입니다. 회원가입 없이 브라우저에서 URL 단축부터, API, MCP까지 사용할 수 있도록 만들었습니다. URL 단축 서비스",
+    "summaryKo": "URL 단축 서비스 zzo.kr을 소개한다. 회원가입 없이 브라우저에서 URL 단축, QR코드 공유는 물론 API와 MCP까지 쓸 수 있다.",
+    "tags": [
+      "MCP",
+      "URL 단축"
+    ],
+    "entities": [
+      "zzo.kr"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "af6b159eb6ea2f66",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+    "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+    "publishedAt": "Thu, 22 Oct 2026 15:00:02 +0000",
+    "rawText": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
+    "summaryKo": "NVIDIA가 AI 팩토리용 AIOps 플랫폼 Minerva를 공개했다. 인프라와 AI 워크로드의 텔레메트리를 통합하고 전용 AI 모델로 문제를 조기에 찾아 가동률을 높이는 것이 목표다.",
+    "tags": [
+      "AIOps",
+      "관측성",
+      "AI 인프라"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Minerva"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "c3c5d14bfc3aa83f",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+    "publishedAt": "Thu, 22 Oct 2026 13:00:20 +0000",
+    "rawText": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
+    "summaryKo": "콜 오브 듀티: 모던 워페어 4가 GeForce NOW에 출시와 동시에 지원된다. Ultimate 회원은 RTX 5080급 성능과 레이 트레이싱 등을 쓸 수 있다.",
+    "tags": [
+      "클라우드 게이밍"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GeForce NOW",
+      "Call of Duty: Modern Warfare 4"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "eb70f4536b9c4513",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Carbon-X is an open 14.8B model trained jointly on DNA and text [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
+    "publishedAt": "2026-10-22T12:32:56+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Carbon-X is a 14.8B parameter decoder-only model that takes raw DNA in a normal chat and answers in English. It shares one token stream for text and DNA, using 6-mer tokens, and was mid-trained on 302B tokens.</p> <p>Hugging Face reports a 66.7% average across five DNA benchmarks with thinking disabled, versus 67.5% for GPT-6.1 Sol. The weights fit on one 80 GB GPU in bfloat16 and are Apache 2.0. It has not been clinically validated, and the model card says exact sequence operations should still be handled by code.</p> <p>the useful part is making sequence analysis local enough for sensitive datasets. has anyone tested whether the benchmark gains hold on private variant datasets?</p> <p>source: <a href=\"https://huggingface.co/HuggingFaceBio/Carbon-X\">https://huggingface.co/HuggingFaceBio/Carbon-X</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jatingargiitk\"> /u/jatingargiitk </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/\">[comments]</a></span>",
+    "summaryKo": "Carbon-X는 DNA와 텍스트를 하나의 토큰 스트림(6-mer)으로 함께 학습한 14.8B 디코더 전용 오픈 모델로, 일반 채팅에서 DNA를 넣으면 영어로 답한다. 302B 토큰으로 mid-training했고 5개 DNA 벤치마크 평균 66.7%를 보고했다.",
+    "tags": [
+      "생물학 모델",
+      "멀티모달",
+      "오픈 모델"
+    ],
+    "entities": [
+      "Carbon-X",
+      "Hugging Face"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "59a0b7c7a9f6bf27",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "오픈AI가 수학 원고 700편을 쏟아낸 뒤, 3Blue1Brown이 \"지금이 수학에 들어갈 때\"라고 말한 이유",
+    "url": "https://www.youtube.com/watch?v=lkErhEIdWJY",
+    "publishedAt": "2026-10-22T12:00:47+00:00",
+    "rawText": "오픈AI가 수학 원고 700편을 쏟아낸 뒤, 3Blue1Brown이 \"지금이 수학에 들어갈 때\"라고 말한 이유",
+    "videoId": "lkErhEIdWJY",
+    "summaryKo": "3Blue1Brown은 AI가 증명 생성을 인간보다 잘하게 돼도 수학의 가치 구조는 거의 변하지 않고 학술 크레딧 체계만 크게 바뀐다고 본다. 증명은 이론 구축을 위한 '원자료'가 되며 지금이 수학에 들어가기 좋은 시기라는 주장이다.",
+    "tags": [
+      "AI와 수학",
+      "정리 증명"
+    ],
+    "entities": [
+      "3Blue1Brown",
+      "OpenAI",
+      "DeepMind"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "fec7036c87350b49",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Making the case for context-aware AI",
+    "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+    "publishedAt": "Thu, 22 Oct 2026 10:00:00 +0000",
+    "rawText": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead&#8230;",
+    "summaryKo": "기업 AI가 업무 맥락을 이해하지 못하면 강력한 모델도 제약과 관계를 놓쳐 잘못된 판단을 할 수 있다는 점에서 맥락 인식(context-aware) AI의 필요성을 주장한다.",
+    "tags": [
+      "컨텍스트",
+      "엔터프라이즈"
+    ],
+    "entities": [
+      "MIT Technology Review"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "8ea2315bafc4f4a3",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "챗GPT 아스트라 이미지 비밀 코드 #ai #chatgpt #openai",
+    "url": "https://www.youtube.com/shorts/vk26Fg5FJpM",
+    "publishedAt": "2026-10-22T09:34:29+00:00",
+    "rawText": "챗GPT 아스트라 이미지 비밀 코드 #ai #chatgpt #openai",
+    "videoId": "",
+    "summaryKo": "ChatGPT에서 이미지를 올리고 '/3D 빌보드', '/쇼케이스', '/라이프스타일 샷' 같은 단축 명령을 입력하면 광고용 제품 이미지를 바로 만들 수 있다는 쇼츠다. 이 외에도 50가지 넘는 단축키가 있다고 소개한다.",
+    "tags": [
+      "이미지 생성",
+      "프롬프트 단축키"
+    ],
+    "entities": [
+      "ChatGPT"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "5ba1ec3db181cdc2",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "AI&#8217;s hidden storage bill: What inference leaves behind",
+    "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+    "publishedAt": "Thu, 22 Oct 2026 08:41:18 +0000",
+    "rawText": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs&#8230;",
+    "summaryKo": "AI 비용 하면 GPU를 떠올리지만 추론 뒤에 남는 대량의 프롬프트·이미지·영상 데이터의 저장 비용이 숨은 부담이라고 지적하는 글이다.",
+    "tags": [
+      "AI 인프라",
+      "스토리지"
+    ],
+    "entities": [
+      "MIT Technology Review"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "3b8660547916c70c",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Frontier models are bad at hearing ASMR: 8 judges vs human labels on 480 clips [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/",
+    "publishedAt": "2026-10-22T07:10:18+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m training text2asmr, a text-to-ASMR model (whispering plus trigger sounds like tapping, crinkling, brushing). The generator needs every training clip tagged with the sounds in it, and there are about 126k recordings, so I tried frontier models as labellers. They were much worse than I expected, so here are the numbers.</p> <p><strong>Setup.</strong> Every judge got the same prompt and the same 20 labels on 480 clips:</p> <ul> <li><em>External:</em> sound-effect clips from FSD50K and ESC-50 that humans had already labelled with one class, 40 per class. This measures recall.</li> <li><em>People:</em> 6-second ASMR clips labelled on our site. A class counts as present when at least half of a clip&#39;s labellers ticked it. This measures F1.</li> </ul> <table><thead> <tr> <th align=\"left\">Judge</th> <th align=\"left\">Trigger F1 vs people</th> </tr> </thead><tbody> <tr> <td align=\"left\">Gemini 3.1 Pro</td> <td align=\"left\">0.325</td> </tr> <tr> <td align=\"left\">Gemini 2.5 Pro</td> <td align=\"left\">0.290</td> </tr> <tr> <td align=\"left\">GPT Audio 1.5</td> <td align=\"left\">0.288</td> </tr> <tr> <td align=\"left\">GPT Audio</td> <td align=\"left\">0.264</td> </tr> <tr> <td align=\"left\">MiMo v2.6 Pro</td> <td align=\"left\">0.243</td> </tr> <tr> <td align=\"left\">Gemini 3.8 Flash</td> <td align=\"left\">0.212</td> </tr> <tr> <td align=\"left\">Claude Opus 5.5 (spectrogram image)</td> <td align=\"left\">0.121</td> </tr> <tr> <td align=\"left\">Grok 4.7 (spectrogram image)</td> <td align=\"left\">0.110</td> </tr> </tbody></table> <p>Gemini 3.1 Pro cost $0.0088 a clip, MiMo $0.0008.</p> <p><strong>What surprised me:</strong></p> <ul> <li><strong>Clean sound effects are not ASMR.</strong> On the FSD50K/ESC-50 brushing clips Gemini 3.1 Pro named brushing 92% of the time. On real ASMR clips its brushing F1 against people was 0.18.</li> <li><strong>Paper is nearly invisible.</strong> On 40 paper and page-turning clips, Gemini 3.1 Pro and 2.5 Pro each named paper rustling 4 times. MiMo named it once.</li> <li><strong>Voices are fine.</strong> Whispering F1 was 0.70 to 0.79 for the Gemini and MiMo judges. The physical triggers are where it falls apart.</li> <li><strong>Each judge has a favourite wrong answer.</strong> On the external clips Gemini 2.5 Pro said &quot;sticky&quot; 59 times where nothing sticky was labelled.</li> <li><strong>Check that labels are learnable before training on them.</strong> An earlier round used a cheap model that also saw the transcript. A linear probe on frozen CLAP embeddings couldn&#39;t beat the majority class on its labels (51% on tapping vs page turning). It was reading the transcript, not listening.</li> </ul> <p><strong>What I do with it.</strong> All the judges, plus an AudioSet AST tagger, an energy detector and our own CLAP model, go into Dawid-Skene, with each judge weighted per class by its measured reliability against people. Clips where the fused probability is unsure go to people first, and the classes no judge hears (paper, brushing, cutting, sticky, spraying) are served before anything else.</p> <p>The student is CLAP-ASMR, a fine-tune of laion/clap-htsat-unfused. Adding 2,400 Freesound clips took test mAP from 0.516 to 0.549, but it still detects brushing and paper on 0% of the external clips at p &gt; 0.5, because the fusion step can&#39;t keep labels that no judge can hear. That&#39;s the gap people have to fill.</p> <p><strong>The ask.</strong> If you have headphones and five minutes: <a href=\"https://asmrboard.vercel.app\">https://asmrboard.vercel.app</a>. You get 6-second clips and tick what you hear. Each clip goes to several people independently, and known clips and repeats are mixed in to measure reliability. You need a free account for now (email and password), and you have to be 18+ because some clips are intimate vocal sounds. So far 34 people have given 1,056 labels.</p> <p>The weights and the labels will be released when the model is trained. Code: <a href=\"https://github.com/aloshdenny/text2asmr\">https://github.com/aloshdenny/text2asmr</a></p> <p>Has anyone had better luck getting audio LLMs to hear fine-grained foley? I&#39;d also take suggestions for sound-event models worth adding as judges.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MissAppleby\"> /u/MissAppleby </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/\">[comments]</a></span>",
+    "summaryKo": "텍스트-ASMR 모델 학습용 약 126k 녹음을 라벨링하려고 프런티어 모델 8종을 심사자로 써 보니, 480개 클립에서 사람 라벨과 비교해 ASMR 소리 인식 성능이 기대보다 크게 떨어졌다.",
+    "tags": [
+      "오디오 이해",
+      "벤치마크",
+      "데이터 라벨링"
+    ],
+    "entities": [
+      "text2asmr"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "6400feb681472530",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "What FDE means at OpenAI",
+    "url": "https://openai.com/index/forward-deployed-engineering-means",
+    "publishedAt": "Thu, 22 Oct 2026 06:00:00 GMT",
+    "rawText": "What forward deployed engineering means at OpenAI",
+    "summaryKo": "OpenAI가 자사에서 FDE(Forward Deployed Engineering, 고객 현장 파견 엔지니어링)가 무엇을 뜻하는지 설명하는 글을 냈다. 본문 정보는 제목 수준이라 상세 내용은 원문 확인이 필요하다.",
+    "tags": [
+      "FDE",
+      "엔터프라이즈"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "4ab186bcd5d93e27",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+    "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+    "publishedAt": "Thu, 22 Oct 2026 05:00:56 +0000",
+    "rawText": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF [&#8230;]",
+    "summaryKo": "GTC 베를린에서 유럽 금융사들이 오픈 웨이트 모델과 NVIDIA 가속 컴퓨팅으로 자체 인프라에서 프로덕션급 AI를 구축한 사례를 소개했다. Revolut은 단일 파운데이션 모델 PRAGMA 기반으로 기술 스택을 재구축 중이다.",
+    "tags": [
+      "오픈 모델",
+      "금융 AI"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Revolut",
+      "PRAGMA"
+    ],
+    "cats": [
+      "기업·정책",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "f8df91dc14194fe5",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+    "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+    "publishedAt": "Thu, 22 Oct 2026 05:00:27 +0000",
+    "rawText": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open [&#8230;]",
+    "summaryKo": "NVIDIA가 월드 모델 개발을 위한 Cosmos 플랫폼에 학습 도구, 시뮬레이션 체크포인트, Cosmos Data Factory 블루프린트를 추가했다. Cosmos는 6개 오픈 모델 리더보드에서 상위 5위권에 올랐다고 밝혔다.",
+    "tags": [
+      "월드 모델",
+      "피지컬 AI"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Cosmos"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "6f92d29565569592",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+    "url": "https://blogs.nvidia.com/blog/dsx-power/",
+    "publishedAt": "Thu, 22 Oct 2026 05:00:25 +0000",
+    "rawText": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion [&#8230;]",
+    "summaryKo": "전력이 AI 인프라의 가장 큰 병목이 되면서 기업들이 NVIDIA DSX AI 팩토리 플랫폼으로 변전소부터 랙까지 전력망과 AI 팩토리를 하나의 시스템으로 계획·시뮬레이션·운영하고 있다.",
+    "tags": [
+      "AI 인프라",
+      "전력"
+    ],
+    "entities": [
+      "NVIDIA",
+      "DSX"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "13b603cf56b69986",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+    "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+    "publishedAt": "Thu, 22 Oct 2026 05:00:23 +0000",
+    "rawText": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
+    "summaryKo": "유럽 소매업체들이 오픈 모델과 피지컬 AI를 도입하고 있다. 한 커머스 플랫폼은 추론 비용을 90% 줄였고, 풀필먼트 센터는 디지털 트윈에서 여러 로봇 군집의 협업을 시뮬레이션한다.",
+    "tags": [
+      "오픈 모델",
+      "로보틱스",
+      "디지털 트윈"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "054347e9fabbae64",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+    "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+    "publishedAt": "Thu, 22 Oct 2026 05:00:19 +0000",
+    "rawText": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
+    "summaryKo": "유럽 기관들이 NVIDIA Earth-2 오픈 모델로 지역 단위의 정밀한 날씨·기후 예측을 구현하고 있다. 에너지, 보험, 운송 업계의 현지 의사결정에 필요한 해상도를 겨냥한다.",
+    "tags": [
+      "기후 모델",
+      "오픈 모델"
+    ],
+    "entities": [
+      "NVIDIA",
+      "Earth-2"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "e6667a5dd8d4716e",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+    "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+    "publishedAt": "Thu, 22 Oct 2026 05:00:02 +0000",
+    "rawText": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
+    "summaryKo": "유럽 공공 부문이 NVIDIA 오픈 모델을 활용해 자국 언어와 공공서비스에 맞춘 프로젝트를 추진하고 있다. 통제 가능한 인프라에서 자체 안전장치를 적용해 민감 데이터를 보호하는 것이 핵심이다.",
+    "tags": [
+      "오픈 모델",
+      "공공 AI",
+      "데이터 주권"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "523f8cc6fdaad7f1",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "삼성바이오로직스부터 후발주자까지, K-CDMO 다음 승부처는",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=546958",
+    "publishedAt": "2026-10-22 12:00:00",
+    "rawText": "미·중 바이오 공급망 재편이 국내 위탁개발생산(CDMO) 기업에 새로운 기회로 떠오르고 있다. 다만 기존 중국 기업의 생산계약을 넘겨받기보다 신규 개발 프로젝트를 선점하는 전략이 현실적이라는 분석이다.국회미래연구원이 최근 발간한 'AI 기반 첨단바이오 R&D의 특화 전략' 보고서에 따르면 글로벌 바이오의약품 위탁생산(CMO) 시장은 2024년 205억 달러에서 2030년 341억 달러 규모로 성장할 전망이다. 시장 확대와 함께 미국의 대중국 바이오 공급망 견제가 강화되면서 국내 CDMO 기업의 사업 기회에도 관심이 쏠리고 있다.중국",
+    "summaryKo": "미·중 바이오 공급망 재편이 K-CDMO에 기회가 되고 있으며, 중국 기업 계약 인수보다 신규 개발 프로젝트 선점이 현실적이라는 분석이다. 글로벌 CMO 시장은 2024년 205억 달러에서 2030년 341억 달러로 성장할 전망이다.",
+    "tags": [
+      "CDMO",
+      "바이오"
+    ],
+    "entities": [
+      "삼성바이오로직스",
+      "국회미래연구원"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "eda525050cea8fce",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "publishedAt": "Thu, 22 Oct 2026 00:00:00 GMT",
+    "rawText": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "summaryKo": "Uber가 3만 명이 넘는 전 직원에게 ChatGPT Work를 도입한다. 리서치, 데이터 분석, 프레젠테이션 제작 등 복잡한 업무 흐름을 지원하는 대규모 기업 도입 사례다.",
+    "tags": [
+      "기업 도입",
+      "업무 자동화"
+    ],
+    "entities": [
+      "Uber",
+      "OpenAI",
+      "ChatGPT Work"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "0c0d3ea06de60634",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "검색창 넘어 AI 답변으로…제약업계 홍보·마케팅의 진화",
+    "url": "https://www.dailypharm.com/user/news/343663",
+    "publishedAt": "2026-10-22",
+    "rawText": "검색창 넘어 AI 답변으로…제약업계 홍보·마케팅의 진화",
+    "summaryKo": "검색창을 넘어 AI 답변 중심으로 바뀌는 제약업계의 홍보·마케팅 변화를 다룬 기사다. 본문 정보가 제목뿐이라 제목 기반으로만 요약했다.",
+    "tags": [
+      "AI 검색",
+      "제약 마케팅"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
+    "id": "3f1a11956436b167",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Broad access through consistent standards",
+    "url": "https://openai.com/index/broad-access-through-consistent-standards",
+    "publishedAt": "Wed, 21 Oct 2026 21:00:00 GMT",
+    "rawText": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+    "summaryKo": "OpenAI가 유통 파트너와 함께 일관된 안전장치를 유지하고 책임 있는 접근을 지원하는 방식을 설명했다. 이용 정책(Usage Policies)상의 기대 사항을 명확히 하는 내용이다.",
+    "tags": [
+      "정책",
+      "AI 안전"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-22T21:03:25.025Z"
+  },
+  {
     "id": "35931a73d18513f2",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -3899,842 +4712,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "1d9d9819cfc4f957",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Postgres 19 출시 지연, AI 리뷰가 사람이 고칠 수 있는 양보다 많은 버그를 발견",
-    "url": "https://news.hada.io/topic?id=35488",
-    "publishedAt": "2026-10-17T04:43:19+09:00",
-    "rawText": "PostgreSQL 19 정식 출시가 9월 말~10월 초에서 11월 19일경으로 미뤄졌으며, 주요 기능 8~10개가 이번 릴리스에서 제외됨 핵심 커미터 Peter Eisentraut는 기능 철회의 원인 중 일부가 LLM 보조 코드 리뷰일 수 있다고 봄. 과거에는 출시 후에야...",
-    "summaryKo": "PostgreSQL 19 정식 출시가 11월 19일경으로 미뤄지고 주요 기능 8~10개가 빠졌다. 커미터 Peter Eisentraut는 LLM 보조 코드 리뷰가 사람이 고칠 수 있는 양보다 많은 버그를 찾아낸 것이 일부 원인일 수 있다고 본다.",
-    "tags": [
-      "코드 리뷰",
-      "오픈소스"
-    ],
-    "entities": [
-      "PostgreSQL",
-      "Peter Eisentraut"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "f2f9928c98295b36",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: Gemini 4 Argon이 StarCraft를 플레이하다",
-    "url": "https://news.hada.io/topic?id=35487",
-    "publishedAt": "2026-10-17T04:40:19+09:00",
-    "rawText": "StarSkirmish Bench v0.2는 LLM에 1시간 동안 C++로 StarCraft: Brood War의 Protoss 봇을 만들게 하고, 연습 경기에서 얻은 정보를 반영하는 장기 추론과 에이전트 코딩 능력을 평가함 GPT-6 Astra가 평균 승률 57%로 1위, GPT-6.1 Sol이 46%로 2위를 기록했으며,...",
-    "summaryKo": "StarSkirmish Bench v0.2는 LLM이 1시간 동안 C++로 StarCraft: Brood War의 Protoss 봇을 만들고 연습 경기 정보를 반영하게 해 장기 추론과 에이전트 코딩을 평가한다. GPT-6 Astra가 평균 승률 57%로 1위, GPT-6.1 Sol이 46%로 2위다.",
-    "tags": [
-      "벤치마크",
-      "에이전트 코딩"
-    ],
-    "entities": [
-      "GPT-6 Astra",
-      "GPT-6.1 Sol",
-      "Gemini 4 Argon",
-      "StarCraft"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "5621597c129df1e5",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "미국 하원의원, 비디오게임 소유권 보호 법안 발의 계획 발표",
-    "url": "https://news.hada.io/topic?id=35486",
-    "publishedAt": "2026-10-17T04:37:19+09:00",
-    "rawText": "Ritchie Torres 미국 하원의원이 구매한 게임의 소유권과 플레이 권리를 보호하는 규정을 연방거래위원회(FTC)가 마련하도록 하는 Power To The Players Act 발의 계획을 발표함 법안은 게임 구매 시 소비자가 단순한 플레이 라이선스가 아닌 게임 소유권...",
-    "summaryKo": "미국 하원의원 Ritchie Torres가 구매한 게임의 소유권과 플레이 권리를 보호하도록 FTC가 규정을 마련하게 하는 Power To The Players Act 발의를 예고했다. 단순 라이선스가 아닌 소유권을 소비자에게 보장하자는 취지다.",
-    "tags": [
-      "디지털 소유권",
-      "규제"
-    ],
-    "entities": [
-      "Ritchie Torres",
-      "FTC"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "e9b46e45162be1ed",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Google이 Gemma 개발자 문서 사이트를 새롭게 개편했습니다. 눈에 띄는 기...",
-    "url": "https://www.threads.com/t/DekSaJTDFYj",
-    "publishedAt": "Fri, 16 Oct 2026 19:30:02 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Google이 Gemma 개발자 문서 사이트를 새롭게 개편했습니다. 눈에 띄는 기능은 문서 페이지를 Markdown 형식으로 변환할 수 있다는 점인데요. AI 에이전트가 개발 문서를 읽고 활용하기가 더 편리해졌습니다. 선택한 Gemma 모델에 맞춰 코드 예시가 바뀌는 기능도 추가됐습니다. 브라우저에서 모델을 직접 실행해 볼 수 있는 데모도 제공됩니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-mia3-2.cdninstagram.com/v/t51.71878-15/851829202_1088579977148185_2964015377399732550_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=NDAwOTQxMDUyOTc5MzQzMTA3NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=dhlUFZSsAqwQ7kNvwFCrftF&amp;_nc_oc=AdobCoabVA9ShVuvOlVET_vOPUv9GbIcGRGhhrkYFSO1LGzbCZiMK9B7aulUNkEdswU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mia3-2.cdninstagram.com&amp;_nc_gid=ivyJtfqGUPYSH1Fl2tAYGw&amp;_nc_ss=7a20f&amp;oh=00_AQMbUx_brZ-O2_QwKb98tWxDIkXCTxIUjgocLdmxogBZeQ&amp;oe=6AD849C1\"><source src=\"https://scontent-mia3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPplWGKVqmhf9tTgg71evxdqo4QAp4zQ-W-o6SuWjioGFHHethcXqk2oNB3lrZopYD-K_UvqQd1zHiq0WbBPptGsqAZwEKX6fuxTiU.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-mia3-2.cdninstagram.com&amp;_nc_ohc=ep_v4z9IsYUQ7kNvwG3O6e_&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTE3NTI5MDcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=ae5fc8c2e6c967df&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xNTFBRUE1OUIwNUY0NkZEQUM0QTQ4NDEzRDgyNERGNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgIbSju3Z9T8VAigCQzMsF0AxzMzMzMzNGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=ivyJtfqGUPYSH1Fl2tAYGw&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQOZVHj76KQ_bXpWWETFKmOMn7Bis2uyLbnx9FciuiEjlw&amp;oe=6AD45F1F\"></video></p>",
-    "summaryKo": "Google이 Gemma 개발자 문서 사이트를 개편해 문서를 Markdown으로 변환할 수 있게 했고, 에이전트가 읽기 쉬워졌다. 선택한 모델에 맞춰 코드 예시가 바뀌고 브라우저에서 모델을 실행해 보는 데모도 제공한다.",
-    "tags": [
-      "Gemma",
-      "개발자 문서"
-    ],
-    "entities": [
-      "Google",
-      "Gemma"
-    ],
-    "cats": [
-      "코딩·개발",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "9732b2763df5a67a",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How Itaú is building generative AI for its entire customer base",
-    "url": "https://openai.com/index/itau-generative-ai",
-    "publishedAt": "Fri, 16 Oct 2026 19:00:00 GMT",
-    "rawText": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-    "summaryKo": "브라질 최대 은행 Itaú가 대화형 인터페이스 ia.i와 거버넌스 플랫폼 IARA로 고객·직원 전체를 대상으로 생성형 AI를 도입하는 사례입니다. 규제가 엄격한 금융권에서 'AI First' 전략을 적용한 점이 핵심입니다.",
-    "tags": [
-      "생성형 AI",
-      "금융",
-      "거버넌스"
-    ],
-    "entities": [
-      "OpenAI",
-      "Itaú"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-17T21:11:49.001Z"
-  },
-  {
-    "id": "3602d469d276265a",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "[P] my rust framework trains nanoGPT with the exact same bits as pytorch. worth continuing? [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/",
-    "publishedAt": "2026-10-16T18:49:12+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>hey, CS student here. for the past few days I&#39;ve been building DenseCore, a small deep learning framework in rust with a pytorch-like python API.</p> <p>the thing I&#39;m kind of proud of: if you point `import torch` at it and run karpathy&#39;s nanoGPT unchanged, you get the exact same numbers as pytorch. same initial weights from manual_seed, same loss, same gradients, same weights, bit for bit, for all 50 steps I tested, even with dropout on. not &quot;close enough&quot;, literally identical.</p> <p>getting there was a rabbit hole. pytorch&#39;s CPU attention isn&#39;t the textbook formula, it&#39;s a flash attention kernel, and it switches to a different path when dropout is on. adam rounds differently on the last few elements of each thread&#39;s chunk because of how the compiler fuses the tail loop. clip_grad_norm_ secretly does reciprocal() * max_norm instead of a division. stuff like that everywhere.</p> <p>also found out pytorch doesn&#39;t match itself across machines. same version, mac vs linux x86, only 1 of 26 ops I tried gave the same bits. so mine only matches pytorch on apple silicon macs.</p> <p>it&#39;s tiny though, about 2 MB vs ~580 MB for pytorch. </p> <p>anyway the honest question: is this useful to anyone, or is it just a cool learning project? if I keep going I&#39;m thinking either keep copying pytorch until most of it works, or make it a lightweight drop-in for small cpu stuff like serverless/CI, or turn it into a tool that tells you why two pytorch runs give different results. would any of those be useful to you? or should I move on? brutal answers are fine.</p> <p>repo: <a href=\"https://github.com/lncch/DenseCore\">https://github.com/lncch/DenseCore</a></p> <p>(`python scripts/demo_bit_exact.py` runs the nanoGPT comparison if you want to check)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mental-Feature-2377\"> /u/Mental-Feature-2377 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/\">[comments]</a></span>",
-    "summaryKo": "한 CS 학생이 Rust로 만든 PyTorch 호환 프레임워크 DenseCore가 nanoGPT를 PyTorch와 비트 단위로 동일한 값(초기 가중치·손실·그래디언트·가중치 50스텝, 드롭아웃 포함)으로 학습시켰다. PyTorch CPU 어텐션의 flash 커널 경로, Adam 꼬리 루프 반올림, clip_grad_norm_ 구현 등 숨은 수치 차이를 추적했고 PyTorch조차 머신 간 결과가 다르다는 점도 발견했다.",
-    "tags": [
-      "딥러닝 프레임워크",
-      "재현성"
-    ],
-    "entities": [
-      "DenseCore",
-      "PyTorch",
-      "nanoGPT",
-      "Rust"
-    ],
-    "cats": [
-      "코딩·개발",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "2d091968dad28c4b",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "미국 근로시간의 90%는 AI 벤치마크가 충분히 다루지 못하는 업무에 쓰임",
-    "url": "https://news.hada.io/topic?id=35485",
-    "publishedAt": "2026-10-17T03:38:52+09:00",
-    "rawText": "Mercor가 경제적 관련성이 높은 29개 AI 벤치마크를 분석한 결과, 미국 근로시간의 약 90% 가 벤치마크에서 거의 또는 전혀 다루지 않는 업무에 쓰이는 것으로 추정됨 미국의 923개 직업 중 208개만 벤치마크 프롬프트 5개 이상과 연결되는 업무를...",
-    "summaryKo": "Mercor가 경제적 관련성 높은 AI 벤치마크 29개를 분석한 결과 미국 근로시간의 약 90%가 벤치마크가 거의 다루지 않는 업무에 쓰인다. 923개 직업 중 208개만 벤치마크 프롬프트 5개 이상과 연결돼, 벤치마크와 실제 업무의 괴리를 보여준다.",
-    "tags": [
-      "벤치마크",
-      "노동시장"
-    ],
-    "entities": [
-      "Mercor"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "802da72afc4a0f1c",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "미국 영구 이주 선호도, 역대 최저 기록",
-    "url": "https://news.hada.io/topic?id=35484",
-    "publishedAt": "2026-10-17T03:35:52+09:00",
-    "rawText": "2025년 다른 나라로 영구 이주하고 싶은 전 세계 성인 중 미국을 최우선 목적지로 선택한 비율은 15% 로, Gallup의 약 20년 조사 역사상 최저치를 기록함 미국은 여전히 가장 선호하는 이주 목적지이며, 캐나다가 9%로 2위를 유지함 미국 선호도는",
-    "summaryKo": "2025년 영구 이주를 원하는 성인 중 미국을 1순위로 꼽은 비율이 15%로 Gallup 약 20년 조사 사상 최저를 기록했다. 미국은 여전히 최선호 목적지이고 캐나다가 9%로 2위다. AI와는 직접 관련이 적은 사회 이슈 글이다.",
-    "tags": [
-      "여론조사",
-      "이민"
-    ],
-    "entities": [
-      "Gallup"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "d7f9dafe0b002b49",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-    "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-    "publishedAt": "Fri, 16 Oct 2026 18:00:00 +0000",
-    "rawText": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&#8230;",
-    "summaryKo": "MIT Technology Review 라운드테이블에서 생성형 AI로 바이러스의 유전자 설계도를 제안한 스탠퍼드 박사과정 Samuel King을 인터뷰한다. 아직 AI가 만든 생명체는 아니지만 다음 단계가 될 수 있다는 점에서 주목된다.",
-    "tags": [
-      "생성형 AI",
-      "바이오"
-    ],
-    "entities": [
-      "Samuel King",
-      "Stanford",
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "c27cc1aaf7168029",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "To reviewers: do you upload your review to an AI? (NOT the paper itself) [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1x7f6ft/to_reviewers_do_you_upload_your_review_to_an_ai/",
-    "publishedAt": "2026-10-16T12:41:41+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>The way I review a paper has stayed substantially the same, except for an added step. Trying to get a sense of how common it is here.</p> <p>Nowadays I do the review, and I upload my review to an AI to ask for second thoughts. I don&#39;t ever upload a paper I&#39;m reviewing, though. The authors can do it themselves (if they want to, it&#39;s their call).</p> <p>So in the end, it&#39;s even more work for me. Not fun. But it has produced higher quality reviews, most of the time. And less typos.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StingMeleoron\"> /u/StingMeleoron </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x7f6ft/to_reviewers_do_you_upload_your_review_to_an_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x7f6ft/to_reviewers_do_you_upload_your_review_to_an_ai/\">[comments]</a></span>",
-    "summaryKo": "한 리뷰어가 논문 자체는 올리지 않고 작성한 리뷰만 AI에 올려 재검토받는 방식을 쓰며, 일은 늘지만 품질이 오르고 오타가 준다고 공유했다. 리뷰어들의 AI 사용 실태를 묻는 토론이다.",
-    "tags": [
-      "피어리뷰",
-      "AI 활용"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "cafe1559266e86d9",
-    "sourceType": "youtube",
-    "source": "AUTOP 오톱",
-    "title": "2027년 오기 전에 꼭 알아야 할 최신 AI 5가지 총정리",
-    "url": "https://www.youtube.com/watch?v=C4tyff8t2dw",
-    "publishedAt": "2026-10-16T09:00:11+00:00",
-    "rawText": "2027년 오기 전에 꼭 알아야 할 최신 AI 5가지 총정리",
-    "videoId": "C4tyff8t2dw",
-    "summaryKo": "AI가 질문에 답하는 챗봇을 넘어 직접 일하는 직원이 되는 흐름 속에서 2027년 전에 알아야 할 AI 5가지를 정리한다. OpenAI의 GPT-6 Astra와 에이전트 Dash, Meta의 Muse, 마이크로소프트의 Autopilot, 구글의 Gemini 4 Argon을 비교한다.",
-    "tags": [
-      "에이전트",
-      "GPT-6 Astra",
-      "Gemini 4 Argon"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6 Astra",
-      "Meta Muse",
-      "Microsoft Autopilot",
-      "Google Gemini 4 Argon"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "072b0ca822f02ed8",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "How many of your paper (either paper you authored or reviewed) are desk rejected? [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/",
-    "publishedAt": "2026-10-16T03:13:24+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Just spend 4h reviewing a paper while I was sick, gave it a 3/4. This morning got an email saying it&#39;s desk rejected. I saw many people around me also have many papers desk rejected. I heard, though idk how true it is, some people use multiple accounts to bypass the 20 paper limit and all their paper got DR.</p> <p>edit: I mean ICLR</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Striking-Warning9533\"> /u/Striking-Warning9533 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/\">[comments]</a></span>",
-    "summaryKo": "r/MachineLearning에서 ICLR 리뷰어가 4시간 들여 리뷰한 논문이 데스크 리젝트됐고 주변에도 많다는 글이다. 논문 20편 제한을 우회하려 여러 계정을 쓴 사례 때문이라는 소문도 언급돼, 학회 투고 폭증의 부작용을 보여준다.",
-    "tags": [
-      "ICLR",
-      "피어리뷰"
-    ],
-    "entities": [
-      "ICLR"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "9e63539289a31c86",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-    "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
-    "rawText": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-    "summaryKo": "엔지니어 두 명이 Codex로 몇 주 만에 'Stack Overflow for Agents'를 만들었고, ChatGPT 플러그인 덕에 에이전트 생성 수가 최대 10배 늘었다. 코딩 에이전트로 만든 제품이 플러그인 유통 채널로 빠르게 성장한 사례다.",
-    "tags": [
-      "Codex",
-      "ChatGPT 플러그인"
-    ],
-    "entities": [
-      "OpenAI",
-      "Stack Overflow",
-      "Codex",
-      "ChatGPT"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "a6e59191268668e8",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "엔젤로보틱스, 창업자 공경철 대표이사 복귀…피지컬 AI 강화",
-    "url": "https://www.dailypharm.com/user/news/343504",
-    "publishedAt": "2026-10-16",
-    "rawText": "엔젤로보틱스, 창업자 공경철 대표이사 복귀…피지컬 AI 강화",
-    "summaryKo": "엔젤로보틱스에서 창업자 공경철 대표가 대표이사로 복귀하며 피지컬 AI를 강화한다는 데일리팜 기사다. 본문 정보가 제목뿐이어서 제목 기반으로만 요약했다.",
-    "tags": [
-      "피지컬 AI",
-      "로보틱스"
-    ],
-    "entities": [
-      "엔젤로보틱스",
-      "공경철"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "b6756c0a180ee554",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Benefit Street Partners answers questions faster with Codex",
-    "url": "https://openai.com/index/benefit-street-partners",
-    "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
-    "rawText": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-    "summaryKo": "Benefit Street Partners의 Anant Kumar가 대출 가치 비교와 신용 계약 분석 도구를 만들면서 Codex를 코드 리뷰와 빠른 후속 작업에 활용한 사례입니다. 금융 실무자가 코딩 에이전트를 도입하는 모습을 보여 줍니다.",
-    "tags": [
-      "Codex",
-      "코딩 에이전트",
-      "금융"
-    ],
-    "entities": [
-      "OpenAI",
-      "Codex",
-      "Benefit Street Partners"
-    ],
-    "cats": [
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-17T21:11:49.001Z"
-  },
-  {
-    "id": "d4cae31916f433e4",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "일론 머스크가 47분 인터뷰에서 말한 '진짜 AI'의 기준 — 커서 인수부터 옵티머스 손까지",
-    "url": "https://www.youtube.com/watch?v=d_vJPLJ0MQ8",
-    "publishedAt": "2026-10-15T23:01:46+00:00",
-    "rawText": "일론 머스크가 47분 인터뷰에서 말한 '진짜 AI'의 기준 — 커서 인수부터 옵티머스 손까지",
-    "videoId": "d_vJPLJ0MQ8",
-    "summaryKo": "일론 머스크가 47분 인터뷰에서 말한 '진짜 AI'의 기준을 커서 인수와 옵티머스 손 이야기까지 다룬 영상이다. 자막을 받지 못해 제목 기반으로만 요약했다.",
-    "tags": [
-      "일론 머스크",
-      "Optimus"
-    ],
-    "entities": [
-      "Elon Musk",
-      "Cursor",
-      "Optimus"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "850db56c0fdc76fa",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "깃허브 레포 100개 넘게 써봤는데, 이 4개는 진짜입니다",
-    "url": "https://www.youtube.com/watch?v=SZ67tb7k3eY",
-    "publishedAt": "2026-10-15T22:00:11+00:00",
-    "rawText": "깃허브 레포 100개 넘게 써봤는데, 이 4개는 진짜입니다",
-    "videoId": "SZ67tb7k3eY",
-    "summaryKo": "100개 넘는 GitHub 레포를 써본 뒤 실제로 쓸 만한 것으로 앱을 분석하는 REA, 포토샵 오픈소스 재구현 Photocraft, 로컬 보이스 클로닝 Voice Studio, 클로드가 영상을 렌더링하는 HyperFrames를 소개한다. 코드를 다시 만들기 쉬워진 시대에 남는 가치를 묻는다.",
-    "tags": [
-      "오픈소스",
-      "Claude Code",
-      "리버스 엔지니어링"
-    ],
-    "entities": [
-      "REA",
-      "Photocraft",
-      "Voice Studio",
-      "HyperFrames",
-      "HeyGen",
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "ead28e755c12e912",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Resources for learning to write production grade python code [N]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1x6yg7s/resources_for_learning_to_write_production_grade/",
-    "publishedAt": "2026-10-15T21:41:08+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I am a data scientist with a very strong background in Stats and ML algos. I am struggling with the production ready code. Though I can build models which are awesome and tuned to perfection and address highly complex business problems, the problem is that they are all done in a jupyter notebook. </p> <p>Once I had built a complete solution in notebook for a forecasting problem and the ML team in company productionized it. I was called in to validate few results of the production run and couldn&#39;t understand the repo which had so many folders, classes and highly organized code.</p> <p>Is there anyway I can learn to write that type of code or is it all AI job now? Appreciate if I can get some learning resources/links for the same</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Entire-Tomato-3192\"> /u/Entire-Tomato-3192 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x6yg7s/resources_for_learning_to_write_production_grade/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1x6yg7s/resources_for_learning_to_write_production_grade/\">[comments]</a></span>",
-    "summaryKo": "통계·ML에 강하지만 주피터 노트북 코드만 써온 데이터 과학자가 프로덕션급 파이썬 코드 작성법을 배울 자료를 묻는 글이다. AI 시대에도 그런 코드를 직접 배울 가치가 있는지 묻는다.",
-    "tags": [
-      "프로덕션 코드",
-      "MLOps"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-16T21:11:08.067Z"
-  },
-  {
-    "id": "4c2848c464c6d1c7",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 정말 인상 깊은 사례입니다. 오픈AI DX 엔지니어 가브리엘(@gabriel.chua_ )ᄋ...",
-    "url": "https://www.threads.com/t/Deh38wfjqhG",
-    "publishedAt": "Thu, 15 Oct 2026 21:00:21 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>정말 인상 깊은 사례입니다. 오픈AI DX 엔지니어 가브리엘(@gabriel.chua_ )이 ChatGPT Sites, MCP Events, dots를 연결해 AI가 자동으로 작업을 처리하는 모습을 보여줬는데요. 사용자가 웹사이트에서 이미지 생성을 요청하면 MCP 이벤트가 전달되고, dot이 이를 감지해 이미지를 생성합니다. 전체 과정은 약 2분이 걸렸다고 합니다. 같은 방식으로 버그 신고, 고객 문의, 신규 영업 문의도 자동 처리할 수 있습니다. 웹사이트가 AI 에이전트에게 일을 맡기는 창구가 되는 셈입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/850032173_1118580207199563_3282658805038571889_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=NDAwODczMTIxMTEzMjIxNzQxNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=r0p3Nmm8nswQ7kNvwHq3q_2&amp;_nc_oc=AdrwkBUxalM-QpB-JdAp2Ks2g91QOQPAvFbMh7q4flAKqM8fihcuPQuJ2rV-SUeh3bE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=QJpK9UbcbhmY_VuzAwaZyg&amp;_nc_ss=7a20f&amp;oh=00_AQNZO5edGOMyDUelG9syFijg33IGupR3vlH0njYl0O0Ovg&amp;oe=6AD704B2\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQNnA0LQP9fpnW1L3Sc2UDkYJRs2Q9VLLQYpqrqfK_HYCG28lr0X5f_K09MO0ppZikIvgxKJ0-T5T8beERd10lzcQMTn6PMwLBOpJw0.mp4?_nc_cat=103&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=aaMezHlziYIQ7kNvwHpybkh&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMDU2LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTE2ODQ4NTgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=9549dc91c855d7b0&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82MDEwNkExQTBFOUY0OENGOEEyREREODc5NjUwMUI5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgK2HjvLV9T8VAigCQzMsF0BAszMzMzMzGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=QJpK9UbcbhmY_VuzAwaZyg&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQMw8Wj2mgC5OoWI8xKZLRc26Az1SilvC0Euve5ylQWeGQ&amp;oe=6AD3041D\"></video></p>",
-    "summaryKo": "OpenAI DX 엔지니어가 ChatGPT Sites, MCP Events, dots를 연결해 웹사이트의 이미지 생성 요청을 약 2분 만에 자동 처리하는 사례를 보여줬다. 버그 신고와 고객·영업 문의에도 같은 방식을 쓸 수 있어 웹사이트가 에이전트에게 일을 맡기는 창구가 된다.",
-    "tags": [
-      "MCP",
-      "에이전트 자동화"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT Sites",
-      "dots"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "ea992902e2596adf",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Shows Potential for Reverse-Engineering Hardware for Linux Support",
-    "url": "https://www.phoronix.com/news/AI-Reverse-Engineer-Linux-HW",
-    "publishedAt": "Thu, 15 Oct 2026 20:59:09 +0000",
-    "rawText": "Article URL: https://www.phoronix.com/news/AI-Reverse-Engineer-Linux-HW Comments URL: https://news.ycombinator.com/item?id=50110133 Points: 1 # Comments: 0",
-    "summaryKo": "Red Hat의 Christian Schaller가 Claude Code로 USB 트래픽을 분석해 네거티브 필름 스캐너의 Linux SANE 드라이버를 만들었다. ThinkPad의 MIPI 웹캠 문제도 같은 방식으로 해결해 AI 기반 하드웨어 리버스 엔지니어링의 가능성을 보여줬다.",
-    "tags": [
-      "리버스 엔지니어링",
-      "Linux 드라이버"
-    ],
-    "entities": [
-      "Claude Code",
-      "Red Hat",
-      "SANE"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "046d3aad870e7db8",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "ModelFront Announces OpenLoc, the Open TMS Built for AI",
-    "url": "https://slator.com/modelfront-announces-openloc-the-open-tms-built-for-ai/",
-    "publishedAt": "Thu, 15 Oct 2026 20:56:52 +0000",
-    "rawText": "Article URL: https://slator.com/modelfront-announces-openloc-the-open-tms-built-for-ai/ Comments URL: https://news.ycombinator.com/item?id=50110098 Points: 1 # Comments: 1",
-    "summaryKo": "ModelFront가 AI 시대를 겨냥한 오픈 번역관리시스템(TMS) OpenLoc을 발표했다는 소식이다. 본문을 불러오지 못해 제목 기반으로 요약했다.",
-    "tags": [
-      "번역",
-      "TMS"
-    ],
-    "entities": [
-      "ModelFront",
-      "OpenLoc"
-    ],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "96fc3be952a6b3b9",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
-    "url": "https://arxiv.org/abs/2610.19159",
-    "publishedAt": "Thu, 15 Oct 2026 20:39:56 +0000",
-    "rawText": "Article URL: https://arxiv.org/abs/2610.19159 Comments URL: https://news.ycombinator.com/item?id=50109888 Points: 1 # Comments: 0",
-    "summaryKo": "미국 에너지부 국립연구소 과학자들이 만든 조건으로 AI 에이전트의 후속 연구 작성 능력을 평가하는 벤치마크 'Into the Unknown'이다. 9개 에이전트의 135건 제출물 중 조건을 모두 충족한 것은 없고 114건은 일어나지 않은 작업을 기술하는 등 무결성 검토에서 탈락했다.",
-    "tags": [
-      "벤치마크",
-      "과학 에이전트"
-    ],
-    "entities": [
-      "DOE"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "21ba5ef30453152f",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Fortran 70주년을 기념하며",
-    "url": "https://news.hada.io/topic?id=35436",
-    "publishedAt": "2026-10-16T05:38:07+09:00",
-    "rawText": "첫 Fortran 매뉴얼 발행이 2026년 10월 15일로 70주년을 맞으며, ICCS가 이를 기념하는 행사를 12월 1일 영국 맨체스터에서 개최함 Fortran은 지난 70년간 원자력 공학, 기상 및 기후 예측, 재료과학 등의 핵심 인프라와 기술 발전을 지원했으며, 지금도 이 분야에...",
-    "summaryKo": "최초의 Fortran 매뉴얼이 나온 지 70주년을 맞아 ICCS가 12월 1일 맨체스터에서 기념 행사를 연다. Fortran은 원자력, 기상·기후 예측, 재료과학 등 핵심 인프라를 70년간 뒷받침해 왔다.",
-    "tags": [
-      "Fortran",
-      "HPC"
-    ],
-    "entities": [
-      "ICCS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "50990a5cfc82ab0a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "우리가 AI를 금지하는 이유",
-    "url": "https://news.hada.io/topic?id=35435",
-    "publishedAt": "2026-10-16T05:35:07+09:00",
-    "rawText": "Current Affairs가 새 노조 계약에 따라 잡지에 AI 생성 글과 삽화를 싣지 않기로 함. 독자에게 인간의 생각과 창작물을 전달하고, 작가와 예술가에게 직접 작업을 맡기는 방식을 유지함 금지 대상은 모든 AI 도구가 아니라 인간을 대체하는 생성물임. 자료 조사나...",
-    "summaryKo": "잡지 Current Affairs가 새 노조 계약에 따라 AI 생성 글과 삽화를 싣지 않기로 했다. 금지 대상은 모든 AI 도구가 아니라 인간을 대체하는 생성물이며 자료 조사 등 보조 용도는 별개로 본다.",
-    "tags": [
-      "AI 금지",
-      "저널리즘"
-    ],
-    "entities": [
-      "Current Affairs"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "78ac9ea5fc68c1d9",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Brod – Quick cloud to deploy AI apps",
-    "url": "https://github.com/brodsh/brod",
-    "publishedAt": "Thu, 15 Oct 2026 20:29:56 +0000",
-    "rawText": "Hi YC,With AI, we’ve started building entire web apps just by chatting. But once the app is built, there’s still a lot to do: push the code to GitHub, set up a database, configure user management and access control, and deploy everything.Brod makes this simple. Connect an MCP, deploy your app, and everything you need to get it running is taken care of. Comments URL: https://news.ycombinator.com/item?id=50109773 Points: 1 # Comments: 0",
-    "summaryKo": "Brod는 채팅으로 만든 AI 앱의 GitHub 푸시, DB 설정, 사용자 관리, 배포를 MCP 연결 한 번으로 처리해 주는 클라우드 서비스다. Show HN으로 공개됐다.",
-    "tags": [
-      "MCP",
-      "배포"
-    ],
-    "entities": [
-      "Brod"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "b64db22274e0dfbe",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Taskriz – AI agents send people tiny native UIs, written in Smalltalk",
-    "url": "https://www.taskriz.com/developers/",
-    "publishedAt": "Thu, 15 Oct 2026 20:26:36 +0000",
-    "rawText": "Article URL: https://www.taskriz.com/developers/ Comments URL: https://news.ycombinator.com/item?id=50109748 Points: 1 # Comments: 0",
-    "summaryKo": "Taskriz는 AI 에이전트나 스크립트가 페어링된 사람에게 작은 네이티브 UI 요청을 보내고 답을 JSON으로 받는 서비스다. Claude Code·ChatGPT 플러그인이나 HTTPS API로 쓸 수 있다.",
-    "tags": [
-      "Human-in-the-loop",
-      "에이전트 UI"
-    ],
-    "entities": [
-      "Taskriz",
-      "Claude Code",
-      "ChatGPT"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "fc55a08caf921a8f",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Software Factories are Destined for failure",
-    "url": "https://news.ycombinator.com/item?id=50109685",
-    "publishedAt": "Thu, 15 Oct 2026 20:21:05 +0000",
-    "rawText": "Comments URL: https://news.ycombinator.com/item?id=50109685 Points: 1 # Comments: 0",
-    "summaryKo": "AI 소프트웨어 팩토리가 실패할 수밖에 없다는 주장을 담은 글이다. 본문이 없어 제목 기반으로 요약했다.",
-    "tags": [
-      "AI 개발",
-      "의견"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "39e12661697fe654",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Apple and Meta team up to make Muse AI model run on Mac computers",
-    "url": "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html",
-    "publishedAt": "Thu, 15 Oct 2026 20:16:13 +0000",
-    "rawText": "Article URL: https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html Comments URL: https://news.ycombinator.com/item?id=50109627 Points: 7 # Comments: 1",
-    "summaryKo": "CNBC에 따르면 Apple과 Meta가 협력해 Meta의 Muse AI 모델을 Mac에서 구동되도록 한다. 본문을 불러오지 못해 제목 기반으로 요약했다.",
-    "tags": [
-      "온디바이스 AI",
-      "파트너십"
-    ],
-    "entities": [
-      "Apple",
-      "Meta",
-      "Muse"
-    ],
-    "cats": [
-      "기업·정책",
-      "LLM·모델"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "2e5705e1f4b66b5e",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Same LLM, same input tokens, different answers on a MacBook and a Jetson",
-    "url": "https://kernwerk.org/blog/same-model-different-board/",
-    "publishedAt": "Thu, 15 Oct 2026 20:09:27 +0000",
-    "rawText": "Article URL: https://kernwerk.org/blog/same-model-different-board/ Comments URL: https://news.ycombinator.com/item?id=50109547 Points: 1 # Comments: 0",
-    "summaryKo": "같은 Qwen2.5-1.5B 가중치를 MacBook M1과 Jetson Orin Nano에서 돌리자 GSM8K 정답이 fp16에서 7.2%, int8 TensorRT-LLM에서 53% 달라졌다. 부동소수점 반올림 차이가 다음 토큰 선택을 바꾸므로 실제 배포할 보드에서 직접 테스트하라고 권한다.",
-    "tags": [
-      "재현성",
-      "양자화",
-      "추론"
-    ],
-    "entities": [
-      "Qwen2.5",
-      "Jetson",
-      "TensorRT-LLM"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "c327b4fadb3d6424",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Anthropic의 Scion이 Mononoke를 베꼈다는 비판에 대한 추가 설명",
-    "url": "https://news.hada.io/topic?id=35434",
-    "publishedAt": "2026-10-16T04:43:06+09:00",
-    "rawText": "Mononoke의 Bonsai 데이터 모델 설계를 이끌었던 엔지니어가 Scion의 의도적 모방과 출처 누락을 비판함. 비공개로 받은 확인과 참여 인력의 중첩을 근거로 들지만, 해당 확인 내용 자체는 공개하지 않음 유사성이 파생 데이터를 넘어 전체 데이터 모델과 주변 구조",
-    "summaryKo": "Mononoke의 Bonsai 데이터 모델 설계자가 Anthropic의 Scion이 이를 의도적으로 모방하고 출처를 누락했다고 비판했다. 비공개 확인과 인력 중첩을 근거로 들지만 확인 내용 자체는 공개하지 않았다.",
-    "tags": [
-      "표절 논란",
-      "데이터 모델"
-    ],
-    "entities": [
-      "Anthropic",
-      "Scion",
-      "Mononoke"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "7a2cb90cb77a578d",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Krea 3 - 대규모 편집을 위해 설계된 이미지 모델",
-    "url": "https://news.hada.io/topic?id=35433",
-    "publishedAt": "2026-10-16T04:40:06+09:00",
-    "rawText": "Krea 3는 제품의 일관성을 유지하는 장면 변경, 객체 제거, 대량 변형 이미지 제작을 위한 편집 전용 모델임 이미지 전체가 아니라 변경할 영역을 먼저 찾아 렌더링하며, 큰 모델을 증류한 것이 아니라 편집용으로 새롭게 학습한 모델임 최대 8개...",
-    "summaryKo": "Krea 3는 제품 일관성을 유지한 장면 변경, 객체 제거, 대량 변형 생성을 위한 편집 전용 이미지 모델이다. 변경할 영역만 찾아 렌더링하며 큰 모델을 증류하지 않고 편집용으로 새로 학습했다.",
-    "tags": [
-      "이미지 편집",
-      "Diffusion"
-    ],
-    "entities": [
-      "Krea 3"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "01d43d3c307beed8",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "이스라엘 기업, 온라인 광고로 제로클릭 스파이웨어 유포",
-    "url": "https://news.hada.io/topic?id=35432",
-    "publishedAt": "2026-10-16T04:37:06+09:00",
-    "rawText": "Citizen Lab과 Confiant의 공동 조사에 따르면, 이스라엘 광고 기술 기업 Discover-Tech가 스파이웨어 업체들과 협력해 온라인 광고를 보여주는 것만으로 기기를 감염시킴 연구진은 사용자 행동이 필요 없는 제로클릭 공격을 표적 광고로 전달한 기술적 증거를 처음...",
-    "summaryKo": "Citizen Lab과 Confiant 조사에 따르면 이스라엘 광고기술 기업 Discover-Tech가 스파이웨어 업체와 협력해 광고 노출만으로 기기를 감염시켰다. 표적 광고로 제로클릭 공격을 전달한 기술적 증거가 처음 제시됐다.",
-    "tags": [
-      "제로클릭",
-      "스파이웨어"
-    ],
-    "entities": [
-      "Citizen Lab",
-      "Confiant",
-      "Discover-Tech"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "496a81999029aea8",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Ant Group이 AI 모델 Ling-3.1-flash의 가중치를 공개했습니다. 전체 약 5,600억 개ᄋ...",
-    "url": "https://www.threads.com/t/DehtpnAjOlg",
-    "publishedAt": "Thu, 15 Oct 2026 19:30:21 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Ant Group이 AI 모델 Ling-3.1-flash의 가중치를 공개했습니다. 전체 약 5,600억 개의 매개변수 중 토큰당 약 250억 개만 사용하는 MoE 모델로, 최대 100만 토큰의 문맥을 지원합니다. 간단한 설명만으로 웹사이트, 모바일 앱 화면, 3D 시제품 등을 제작할 수 있는데요. 출력 속도는 초당 약 210토큰이며, 경량화 버전은 가중치 용량을 약 292GB까지 줄였습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/848236861_1631178688742440_7727427489174892296_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAwODY4NTkxNDgxMzE2Mzg3Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=dlmSmMRz0dsQ7kNvwEugB2g&amp;_nc_oc=AdqHnwGEbsReCx5ED7Nb-WFXd2-qk9ahQfnuD6w41nmwcMHtXjfY9Qce3S_NBJVp8Hg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=QJpK9UbcbhmY_VuzAwaZyg&amp;_nc_ss=7a20f&amp;oh=00_AQN8YAq0OBDLBzwMPEGMmKe3wDlZahtD2nxA2goMxYbuuA&amp;oe=6AD709DE\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQOuQxTEPh2u1X2ca2M02CLmQRm6fjkqRR8-CjxkvEfzbyC_igs984CwL8q-FOCLuffPOY93IVPwLOPmMY0Vl2yXU6WaHtCs04S2-aE.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=v94fNKVGl7EQ7kNvwHnmnM_&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTE2NjcyNTExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTAyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=a21015ae2154c247&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85OTBGODk3NkFBRDA0MDAxOUQ4MDlFNTU1RkVENjY3Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRBQ0U3RENFQzI4MjQwNzJBM0ZCMTYyN0NCQjc4QTU4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaArtv27tT1PxUCKAJDMywXQFm3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=QJpK9UbcbhmY_VuzAwaZyg&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQPfFbrObFb6JIbNKVvdFsBtnat9fBp1ns7SEJaZ6iv7kg&amp;oe=6AD30742\"></video></p>",
-    "summaryKo": "Ant Group이 Ling-3.1-flash 가중치를 공개했다. 전체 약 5,600억 중 토큰당 약 250억만 쓰는 MoE이며 100만 토큰 컨텍스트와 초당 약 210토큰 출력을 지원하고 웹사이트·앱 화면·3D 시제품 생성에 쓸 수 있다.",
-    "tags": [
-      "MoE",
-      "오픈 웨이트"
-    ],
-    "entities": [
-      "Ant Group",
-      "Ling-3.1-flash"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "5089ef2ea5bff5e0",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Muse Spark Open - M5 Ultra Mac Studio 두 대에서 실행하는 멀티모달 오픈 웨이트 모델",
-    "url": "https://news.hada.io/topic?id=35431",
-    "publishedAt": "2026-10-16T04:11:57+09:00",
-    "rawText": "Meta가 코딩과 에이전트 작업용 Muse Spark Open의 가중치를 공개함. 네이티브 멀티모달 모델로, 장시간 이어지는 작업, 복잡한 소프트웨어 엔지니어링, 다단계 추론을 겨냥함 전체 8,160억 개 파라미터 중 420억 개를 활성화하며, 100만 토큰 컨텍스트 창...",
-    "summaryKo": "Meta가 코딩·에이전트용 네이티브 멀티모달 모델 Muse Spark Open의 가중치를 공개했다. 전체 8,160억 파라미터 중 420억을 활성화하는 MoE이며 100만 토큰 컨텍스트를 지원하고 M5 Ultra Mac Studio 두 대에서 돌아간다.",
-    "tags": [
-      "오픈 웨이트",
-      "MoE",
-      "멀티모달"
-    ],
-    "entities": [
-      "Meta",
-      "Muse Spark Open"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
-  },
-  {
-    "id": "b514f053200f445c",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Steam 클라이언트, Epic의 새 바이브 코딩 런처보다 빨라짐",
-    "url": "https://news.hada.io/topic?id=35430",
-    "publishedAt": "2026-10-16T04:08:57+09:00",
-    "rawText": "Epic Games가 Steam보다 빠른 로딩을 내세워 새 런처 프리뷰를 출시한 지 24시간 만에, Valve가 Steam 클라이언트 속도를 높이는 소규모 업데이트를 배포함 기본 테스트 시스템에서 업데이트된 Steam의 시작 시간이 5.23초로 줄어 Epic의 새 런처보다 빨라짐 ...",
-    "summaryKo": "Epic이 Steam보다 빠르다는 새 런처 프리뷰를 낸 지 24시간 만에 Valve가 Steam 클라이언트를 업데이트해 시작 시간을 5.23초로 줄여 앞질렀다.",
-    "tags": [
-      "게임 런처",
-      "성능"
-    ],
-    "entities": [
-      "Epic Games",
-      "Valve",
-      "Steam"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-15T21:02:58.759Z"
   }
 ]
