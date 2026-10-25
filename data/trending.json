@@ -27,6 +27,31 @@
     "fetchedAt": "2026-10-24T21:03:14.940Z"
   },
   {
+    "id": "ca82f9b3fbd0d05e",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "Inkloom-art/inkloom",
+    "url": "https://github.com/Inkloom-art/inkloom",
+    "publishedAt": "2026-09-20T07:54:30Z",
+    "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
+    "score": 2534,
+    "lang": "TypeScript",
+    "rank": 1,
+    "summaryKo": "Inkloom은 로고 디자인에 특화된 AI 모델 모음이다. 브랜드 분석 모델이 제약 조건을 만들고, 타이포·심볼 모델이 마크를 구성하며, 컴포지션 엔진이 락업과 여백 규칙까지 생성한다. 얼리 액세스를 공개 중이다.",
+    "tags": [
+      "로고 생성",
+      "디자인 AI"
+    ],
+    "entities": [
+      "Inkloom"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
     "id": "cac24968e5aa0d5b",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -34,12 +59,12 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "publishedAt": "2026-10-17T02:40:38.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, deepseek_v41, text-generation, image-text-to-text, license:mit, eval-results, endpoints_compatible",
-    "score": 1486,
+    "score": 1235,
     "rank": 1,
-    "summaryKo": "DeepSeek이 이미지-텍스트-투-텍스트를 지원하는 DeepSeek-V4.1-Flash-1017 가중치를 MIT 라이선스로 Hugging Face에 공개했다.",
+    "summaryKo": "DeepSeek-V4.1-Flash-1017은 이미지·텍스트 입력을 받는 DeepSeek V4.1 계열 경량 모델 체크포인트로, MIT 라이선스로 Hugging Face에 공개됐다. 트렌딩 1위에 올랐다.",
     "tags": [
-      "DeepSeek",
-      "멀티모달LLM"
+      "LLM",
+      "비전-언어"
     ],
     "entities": [
       "DeepSeek",
@@ -50,7 +75,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -83,6 +108,59 @@
     "fetchedAt": "2026-10-24T21:03:14.940Z"
   },
   {
+    "id": "d4b568c20a8e5dfa",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "scenario-labs/blender-plugin",
+    "url": "https://github.com/scenario-labs/blender-plugin",
+    "publishedAt": "2026-08-30T10:06:41Z",
+    "rawText": "Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents. Blender 5.0+ extension, GPL-3.0-or-later.",
+    "score": 836,
+    "lang": "Python",
+    "rank": 2,
+    "summaryKo": "Scenario의 Blender 확장(Blender 5.0+, GPL-3.0)으로 뷰포트 안에서 AI 이미지·영상·3D·PBR 머티리얼을 생성한다. 에이전트가 쓸 수 있는 로컬 MCP 서버도 포함한다.",
+    "tags": [
+      "3D",
+      "MCP",
+      "Blender"
+    ],
+    "entities": [
+      "Scenario",
+      "Blender"
+    ],
+    "cats": [
+      "멀티모달",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
+    "id": "6c5b89fb0ac8882a",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "RecursiveSI/flint",
+    "url": "https://huggingface.co/RecursiveSI/flint",
+    "publishedAt": "2026-10-21T14:20:58.000Z",
+    "rawText": "text-generation | transformers, safetensors, flint, text-generation, conversational, license:apache-2.0, endpoints_compatible, region:us",
+    "score": 815,
+    "rank": 2,
+    "summaryKo": "RecursiveSI의 flint는 Apache 2.0 라이선스의 대화형 텍스트 생성 모델로 Hugging Face에서 트렌딩 2위에 올랐다. 모델 카드에 구체적 설명은 없다.",
+    "tags": [
+      "LLM",
+      "오픈웨이트"
+    ],
+    "entities": [
+      "RecursiveSI",
+      "flint"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
     "id": "e7b2c4bb55dea757",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -110,31 +188,6 @@
     "fetchedAt": "2026-10-19T21:05:45.537Z"
   },
   {
-    "id": "6c5b89fb0ac8882a",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "RecursiveSI/flint",
-    "url": "https://huggingface.co/RecursiveSI/flint",
-    "publishedAt": "2026-10-21T14:20:58.000Z",
-    "rawText": "text-generation | transformers, safetensors, flint, text-generation, conversational, license:apache-2.0, endpoints_compatible, region:us",
-    "score": 735,
-    "rank": 2,
-    "summaryKo": "RecursiveSI가 Apache-2.0 라이선스의 텍스트 생성·대화형 모델 flint를 Hugging Face에 올렸다.",
-    "tags": [
-      "텍스트생성",
-      "오픈모델"
-    ],
-    "entities": [
-      "RecursiveSI",
-      "flint"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
     "id": "7cd1fb3eb9d9482c",
     "sourceType": "repo",
     "source": "GitHub",
@@ -160,6 +213,34 @@
     "fetchedAt": "2026-10-24T21:03:14.940Z"
   },
   {
+    "id": "0c49f71f40e435a3",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "blendi-remade/dioramas",
+    "url": "https://github.com/blendi-remade/dioramas",
+    "publishedAt": "2026-09-30T00:07:56Z",
+    "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
+    "score": 558,
+    "lang": "JavaScript",
+    "rank": 3,
+    "summaryKo": "AI 생성 에셋(Nano Banana 2 + Meshy 7.1, fal 경유)으로 시네마틱한 인터랙티브 3D 웹사이트를 만드는 무료 오픈소스 프레임워크다. 예제 사이트 20개를 제공한다.",
+    "tags": [
+      "3D 웹",
+      "생성형 에셋"
+    ],
+    "entities": [
+      "Nano Banana 2",
+      "Meshy 7.1",
+      "fal"
+    ],
+    "cats": [
+      "멀티모달",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
     "id": "5a9bda72c1d1f834",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -167,12 +248,12 @@
     "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
     "publishedAt": "2026-10-14T12:00:13.000Z",
     "rawText": "image-to-image | diffusion-single-file, comfyui, image-generation, image-editing, flux, flux-3, black-forest-labs, image-to-image",
-    "score": 553,
+    "score": 512,
     "rank": 3,
-    "summaryKo": "Black Forest Labs의 FLUX.3 계열 이미지 편집·생성 모델 klein의 ComfyUI용 단일 파일 버전이 Hugging Face에 올라왔다.",
+    "summaryKo": "Black Forest Labs의 flux-3-image-klein-comfy는 ComfyUI용 FLUX.3 이미지 생성·편집(image-to-image) 단일 파일 모델이다.",
     "tags": [
-      "이미지편집",
-      "ComfyUI"
+      "Diffusion",
+      "이미지 편집"
     ],
     "entities": [
       "Black Forest Labs",
@@ -182,7 +263,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "35eff775ba433a91",
@@ -208,29 +289,55 @@
     "fetchedAt": "2026-10-24T21:03:14.940Z"
   },
   {
-    "id": "92c1824269f45469",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Lightricks/LTX-2.5",
-    "url": "https://huggingface.co/Lightricks/LTX-2.5",
-    "publishedAt": "2026-07-23T07:55:24.000Z",
-    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 415,
+    "id": "304449f663f818da",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "modelscope/ms-cookbook",
+    "url": "https://github.com/modelscope/ms-cookbook",
+    "publishedAt": "2026-09-11T14:27:35Z",
+    "rawText": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
+    "score": 504,
+    "lang": "HTML",
     "rank": 4,
-    "summaryKo": "Lightricks의 LTX-2.5는 이미지·텍스트·비디오에서 영상으로, 오디오-비디오 변환까지 지원하는 영상 생성 모델이다. Hugging Face에 공개됐다.",
+    "summaryKo": "ModelScope Cookbook은 모델 선택, 추론, 파인튜닝, 평가, RAG, Agent, AIGC까지 다루는 개발자용 오픈소스 모델 활용 실전 가이드(중국어)다. 첫 모델 실행부터 실제 애플리케이션 구축까지 단계별로 안내한다.",
     "tags": [
-      "영상생성",
-      "Diffusion"
+      "RAG",
+      "파인튜닝",
+      "가이드"
     ],
     "entities": [
-      "Lightricks",
-      "LTX-2.5"
+      "ModelScope"
     ],
     "cats": [
-      "멀티모달"
+      "LLM·모델",
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
+    "id": "37ea901da6ec4d67",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "XHToken/Spark-X2.6-4B",
+    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+    "publishedAt": "2026-10-19T03:19:51.000Z",
+    "rawText": "text-generation | transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code",
+    "score": 447,
+    "rank": 4,
+    "summaryKo": "XHToken의 Spark-X2.6-4B는 커스텀 코드를 쓰는 4B 규모 대화형 텍스트 생성 모델이다. Hugging Face 트렌딩 목록에 올랐다.",
+    "tags": [
+      "소형 LLM"
+    ],
+    "entities": [
+      "XHToken",
+      "Spark-X2.6-4B"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "1e97fcf6e4c7f154",
@@ -259,29 +366,52 @@
     "fetchedAt": "2026-10-24T21:03:14.940Z"
   },
   {
-    "id": "d55e01a42324c233",
+    "id": "92c1824269f45469",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "OpenMOSS-Team/MOSS-Image-SFT",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-    "publishedAt": "2026-10-11T07:01:17.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, base_model:OpenMOSS-Team/MOSS-Image-Base",
-    "score": 411,
+    "title": "Lightricks/LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "publishedAt": "2026-07-23T07:55:24.000Z",
+    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
+    "score": 414,
     "rank": 5,
-    "summaryKo": "OpenMOSS-Team이 영어·중국어를 지원하는 텍스트-이미지 모델 MOSS-Image의 SFT 버전을 공개했다. 관련 논문(arXiv 2610.23374)이 있다.",
+    "summaryKo": "Lightricks의 LTX-2.5는 이미지·텍스트·비디오·오디오를 입력으로 영상과 소리를 생성하는 멀티모달 비디오 확산 모델이다. text-to-video, image-to-video, audio-to-video 등을 지원한다.",
     "tags": [
-      "텍스트투이미지",
-      "Diffusers"
+      "비디오 생성",
+      "Diffusion"
     ],
     "entities": [
-      "OpenMOSS-Team",
-      "MOSS-Image"
+      "Lightricks",
+      "LTX-2.5"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
+    "id": "762f94fe4084efbd",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "Eurekaleo/awesome-ai-for-games",
+    "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
+    "publishedAt": "2026-09-04T01:05:57Z",
+    "rawText": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
+    "score": 380,
+    "lang": "TeX",
+    "rank": 5,
+    "summaryKo": "게임 개발 전 과정에서 AI와 파운데이션 모델을 활용한 연구를 모아 검색할 수 있게 정리한 큐레이션 목록이다.",
+    "tags": [
+      "게임 AI",
+      "논문 모음"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "dcc411eb2d826755",
@@ -338,31 +468,6 @@
     "fetchedAt": "2026-10-22T21:03:25.025Z"
   },
   {
-    "id": "37ea901da6ec4d67",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "XHToken/Spark-X2.6-4B",
-    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
-    "publishedAt": "2026-10-19T03:19:51.000Z",
-    "rawText": "text-generation | transformers, safetensors, spark2_5, text-generation, llm, sparkx2_5, conversational, custom_code",
-    "score": 402,
-    "rank": 6,
-    "summaryKo": "XHToken의 Spark-X2.6-4B는 40억 파라미터급 대화형 텍스트 생성 LLM이며 custom code를 포함해 Hugging Face에 공개됐다.",
-    "tags": [
-      "소형LLM",
-      "텍스트생성"
-    ],
-    "entities": [
-      "XHToken",
-      "Spark-X2.6-4B"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
     "id": "07395aaab74e419c",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -386,6 +491,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-10-23T21:09:57.705Z"
+  },
+  {
+    "id": "d55e01a42324c233",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "OpenMOSS-Team/MOSS-Image-SFT",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+    "publishedAt": "2026-10-11T07:01:17.000Z",
+    "rawText": "text-to-image | diffusers, safetensors, moss-image, text-to-image, en, zh, arxiv:2610.23374, base_model:OpenMOSS-Team/MOSS-Image-Base",
+    "score": 353,
+    "rank": 6,
+    "summaryKo": "OpenMOSS-Team의 MOSS-Image-SFT는 영어·중국어를 지원하는 text-to-image 확산 모델로 MOSS-Image-Base를 SFT했다. 관련 논문(arXiv 2610.23374)이 함께 공개됐다.",
+    "tags": [
+      "Diffusion",
+      "이미지 생성"
+    ],
+    "entities": [
+      "OpenMOSS",
+      "MOSS-Image"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "c5324f23ea2e54f8",
@@ -471,6 +601,35 @@
     "fetchedAt": "2026-10-24T21:03:14.940Z"
   },
   {
+    "id": "2eb678169a42e513",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "MiniMaxAI/MiniMax-M3.1-Flash",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+    "publishedAt": "2026-10-17T06:37:50.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal, moe, agent, coding",
+    "score": 334,
+    "rank": 7,
+    "summaryKo": "MiniMax-M3.1-Flash는 MoE 구조의 멀티모달(이미지-텍스트) 모델로 에이전트와 코딩 용도를 겨냥한 경량 버전이다. Hugging Face에 공개됐다.",
+    "tags": [
+      "MoE",
+      "멀티모달",
+      "에이전트"
+    ],
+    "entities": [
+      "MiniMax",
+      "MiniMax-M3.1-Flash"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
+  },
+  {
     "id": "4b38a9bc87a3188d",
     "sourceType": "repo",
     "source": "GitHub",
@@ -549,55 +708,28 @@
     "fetchedAt": "2026-10-19T21:05:45.537Z"
   },
   {
-    "id": "ca26bca182f697df",
+    "id": "afc305b6db5c414f",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Qwen/Qwen3.8-27B",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-    "publishedAt": "2026-08-05T08:22:59.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
-    "score": 315,
+    "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "publishedAt": "2026-09-20T15:51:13.000Z",
+    "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4",
+    "score": 324,
     "rank": 8,
-    "summaryKo": "Qwen3.8-27B는 Apache-2.0 라이선스의 270억 파라미터 이미지-텍스트-투-텍스트 대화형 모델로, Hugging Face에 공개됐다.",
+    "summaryKo": "Qwen-Image-2.1의 검열 해제 버전을 GGUF·MLX·FP8·NVFP4 등으로 양자화해 ComfyUI에서 쓸 수 있게 한 커뮤니티 모델이다. 로컬 실행 중심의 이미지 생성용이다.",
     "tags": [
-      "Qwen",
-      "멀티모달LLM"
+      "양자화",
+      "이미지 생성"
     ],
     "entities": [
-      "Qwen",
-      "Qwen3.8-27B"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "ca82f9b3fbd0d05e",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Inkloom-art/inkloom",
-    "url": "https://github.com/Inkloom-art/inkloom",
-    "publishedAt": "2026-09-20T07:54:30Z",
-    "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "score": 2253,
-    "lang": "TypeScript",
-    "rank": 9,
-    "summaryKo": "Inkloom은 브랜드 분석 모델이 제약을 만들고 타이포·심볼 모델이 마크를 구성하며 조합 엔진이 실제 락업과 여백 규칙까지 내놓는 로고 디자인 특화 AI다. 얼리 액세스를 열었다.",
-    "tags": [
-      "로고디자인",
-      "특화모델"
-    ],
-    "entities": [
-      "Inkloom"
+      "Qwen-Image-2.1"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "fdfa7d470e108afa",
@@ -650,56 +782,29 @@
     "fetchedAt": "2026-10-23T21:09:57.705Z"
   },
   {
-    "id": "afc305b6db5c414f",
+    "id": "653d82f9a2953196",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "publishedAt": "2026-09-20T15:51:13.000Z",
-    "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4",
-    "score": 312,
+    "title": "Nanbeige/Nanbeige4.3-33B",
+    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "publishedAt": "2026-10-24T02:49:18.000Z",
+    "rawText": "text-generation | transformers, safetensors, llama, text-generation, llm, nanbeige, conversational, en",
+    "score": 318,
     "rank": 9,
-    "summaryKo": "Qwen-Image-2.1의 검열 해제 양자화 버전이 GGUF·fp8·nvfp4·MLX 형식으로 ComfyUI용으로 올라왔다.",
+    "summaryKo": "Nanbeige4.3-33B는 Llama 아키텍처 기반 33B 대화형 LLM이며 소형 에이전트의 교사 모델로 공개됐다. Hugging Face 트렌딩에 올랐다.",
     "tags": [
-      "양자화",
-      "이미지생성"
+      "LLM",
+      "오픈웨이트"
     ],
     "entities": [
-      "Qwen-Image-2.1"
+      "Nanbeige",
+      "Nanbeige4.3-33B"
     ],
     "cats": [
-      "멀티모달"
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "d4b568c20a8e5dfa",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "scenario-labs/blender-plugin",
-    "url": "https://github.com/scenario-labs/blender-plugin",
-    "publishedAt": "2026-08-30T10:06:41Z",
-    "rawText": "Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents. Blender 5.0+ extension, GPL-3.0-or-later.",
-    "score": 820,
-    "lang": "Python",
-    "rank": 10,
-    "summaryKo": "Scenario의 Blender 확장은 뷰포트 안에서 AI 이미지·영상·3D·PBR 재질을 만들고, 에이전트용 로컬 MCP 서버도 제공한다. Blender 5.0+ 대상, GPL-3.0 이상 라이선스다.",
-    "tags": [
-      "Blender",
-      "MCP",
-      "3D생성"
-    ],
-    "entities": [
-      "Scenario",
-      "Blender"
-    ],
-    "cats": [
-      "멀티모달",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   },
   {
     "id": "097c2ef4d87a406d",
@@ -752,110 +857,29 @@
     "fetchedAt": "2026-10-22T21:03:25.025Z"
   },
   {
-    "id": "2eb678169a42e513",
+    "id": "ca26bca182f697df",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "MiniMaxAI/MiniMax-M3.1-Flash",
-    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
-    "publishedAt": "2026-10-17T06:37:50.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, minimax_m3_vl, image-text-to-text, multimodal, moe, agent, coding",
-    "score": 294,
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "publishedAt": "2026-08-05T08:22:59.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
+    "score": 310,
     "rank": 10,
-    "summaryKo": "MiniMax의 MiniMax-M3.1-Flash는 이미지-텍스트 입력을 받는 멀티모달 MoE 모델로, 에이전트와 코딩 용도를 내세운다. Hugging Face에 공개됐다.",
+    "summaryKo": "Qwen3.8-27B는 Apache 2.0 라이선스의 27B 이미지-텍스트 대화 모델이다. 평가 결과가 모델 카드에 포함돼 있고 다른 신규 모델의 비교 기준으로 자주 쓰인다.",
     "tags": [
-      "MoE",
-      "멀티모달",
-      "에이전트"
+      "LLM",
+      "비전-언어"
     ],
     "entities": [
-      "MiniMax",
-      "MiniMax-M3.1-Flash"
+      "Qwen",
+      "Qwen3.8-27B"
     ],
     "cats": [
       "LLM·모델",
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "0c49f71f40e435a3",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "blendi-remade/dioramas",
-    "url": "https://github.com/blendi-remade/dioramas",
-    "publishedAt": "2026-09-30T00:07:56Z",
-    "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-    "score": 529,
-    "lang": "JavaScript",
-    "rank": 11,
-    "summaryKo": "AI 생성 에셋(Nano Banana 2 + fal의 Meshy 7.1)으로 영화적이고 인터랙티브한 3D 웹사이트를 만드는 무료 오픈소스 프레임워크다. 예제 사이트 20개가 포함됐다.",
-    "tags": [
-      "3D웹",
-      "생성에셋"
-    ],
-    "entities": [
-      "Nano Banana 2",
-      "Meshy 7.1",
-      "fal"
-    ],
-    "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "304449f663f818da",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "modelscope/ms-cookbook",
-    "url": "https://github.com/modelscope/ms-cookbook",
-    "publishedAt": "2026-09-11T14:27:35Z",
-    "rawText": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
-    "score": 503,
-    "lang": "HTML",
-    "rank": 12,
-    "summaryKo": "ModelScope Cookbook은 모델 선정·추론·파인튜닝·평가·RAG·Agent·AIGC를 다루는 개발자용 오픈소스 모델 응용 실전 가이드다. 첫 모델 실행부터 실제 애플리케이션 구축까지 안내한다.",
-    "tags": [
-      "RAG",
-      "파인튜닝",
-      "튜토리얼"
-    ],
-    "entities": [
-      "ModelScope"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "762f94fe4084efbd",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "Eurekaleo/awesome-ai-for-games",
-    "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
-    "publishedAt": "2026-09-04T01:05:57Z",
-    "rawText": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
-    "score": 380,
-    "lang": "TeX",
-    "rank": 13,
-    "summaryKo": "게임 개발 전 주기에 걸친 AI·파운데이션 모델 연구를 정리한 검색 가능한 큐레이션 목록이다.",
-    "tags": [
-      "게임AI",
-      "큐레이션"
-    ],
-    "entities": [
-      "Eurekaleo"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
+    "fetchedAt": "2026-10-25T21:03:00.164Z"
   }
 ]
