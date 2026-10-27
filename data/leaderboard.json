@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-27",
-  "windowLabel": "2026년 10월 21~27일 기준",
-  "updatedAt": "2026-10-26T21:05:21Z",
+  "asOf": "2026-10-28",
+  "windowLabel": "2026년 10월 22~28일 기준",
+  "updatedAt": "2026-10-28T06:00:00Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -187,37 +187,37 @@
       "ranks": [
         {
           "rank": 1,
-          "model": "Claude Fable 5",
-          "score": "Elo 1308",
-          "basis": "Vision Arena 1위, Elo 1308",
+          "model": "Claude Fable 5 (High)",
+          "score": "Elo 1309",
+          "basis": "Vision Arena 1위, Elo 1309",
           "source": "lmarena"
         },
         {
           "rank": 2,
           "model": "Qwen3.8 Max",
-          "score": "Elo 1301",
-          "basis": "Vision Arena Elo 1301",
+          "score": "Elo 1300",
+          "basis": "Vision Arena Elo 1300",
           "source": "lmarena"
         },
         {
           "rank": 3,
-          "model": "Claude Opus 4.6 (high)",
+          "model": "Claude Opus 4.6 (High)",
           "score": "Elo 1299",
-          "basis": "Vision Arena Elo 1299",
+          "basis": "Vision Arena Elo 1299, Opus 4.7과 동점",
           "source": "lmarena"
         },
         {
           "rank": 4,
           "model": "Claude Opus 4.7",
-          "score": "Elo 1298",
-          "basis": "Vision Arena Elo 1298, Opus 4.7 (high)와 동점",
+          "score": "Elo 1299",
+          "basis": "Vision Arena Elo 1299, Opus 4.6 (High)와 동점",
           "source": "lmarena"
         },
         {
           "rank": 5,
-          "model": "Claude Opus 4.7 (high)",
+          "model": "Claude Opus 4.7 (High)",
           "score": "Elo 1298",
-          "basis": "Vision Arena Elo 1298, Opus 4.7과 동점",
+          "basis": "Vision Arena Elo 1298",
           "source": "lmarena"
         }
       ]
@@ -501,7 +501,7 @@
     {
       "name": "LMSYS Chatbot Arena",
       "url": "https://arena.ai/leaderboard",
-      "updated": "2026년 10월 12일"
+      "updated": "2026년 10월 19일"
     },
     {
       "name": "Artificial Analysis",
@@ -516,7 +516,7 @@
     {
       "name": "BenchLM.ai",
       "url": "https://benchlm.ai/benchmarks/aime2026",
-      "updated": "2026년 10월 26일"
+      "updated": "2026년 10월 27일"
     },
     {
       "name": "Vellum LLM Leaderboard",
