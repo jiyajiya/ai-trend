@@ -1,5 +1,603 @@
 [
   {
+    "id": "62d5e2ce7c5cc352",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "[약국에서 바로 쓰는 AI] 약품명 넣으면 비교표 뚝딱 '챗GPT 스킬 만들기'",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547652",
+    "publishedAt": "2026-10-31 05:50:00",
+    "rawText": "성분 구성이 비슷한 일반의약품을 비교해 설명해야 할 때, 허가사항을 매번 찾아 표로 정리하기는 쉽지 않다. 지난 편(12편)에 이어 이번 편에서는 ChatGPT에 제품명만 입력하면 허가사항·낱알 사진·성분별 작용기전이 담긴 A4 가로 1장 비교표 PDF를 만들고, 그 작업 방법을 ‘스킬(Skill)’로 저장해 반복 적용하는 과정을 다룬다. 예시는 종합감기약 3종(타이레놀콜드-에스정, 모드콜에스연질캡슐, 화이투벤큐연질캡슐)이며 설명을 위한 예시일 뿐 어떠한 이해관계도 없다. 준비 사항스킬은 작업 절차·지침·참고 자료를 묶어 둔 재사용",
+    "summaryKo": "ChatGPT에 제품명만 넣으면 허가사항·낱알 사진·작용기전이 담긴 A4 한 장 비교표 PDF를 만들고 이를 '스킬'로 저장해 반복 적용하는 법을 다룬 연재 13편이다. 종합감기약 3종을 예로 든다.",
+    "tags": [
+      "ChatGPT 스킬",
+      "약국 AI"
+    ],
+    "entities": [
+      "ChatGPT"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f16ec2c58ab29492",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Blackstone, “Anthropic은 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있어”",
+    "url": "https://news.hada.io/topic?id=36306",
+    "publishedAt": "2026-10-31T05:31:01+09:00",
+    "rawText": "Blackstone, “Anthropic은 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있어”",
+    "summaryKo": "Blackstone이 Anthropic이 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있다고 언급했다는 소식이다. 본문 정보는 제목 수준이다.",
+    "tags": [
+      "IPO",
+      "신용등급"
+    ],
+    "entities": [
+      "Blackstone",
+      "Anthropic"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "aeaa0ee26a856f89",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Proton CEO, AI 활용 ‘재면접’ 취소",
+    "url": "https://news.hada.io/topic?id=36304",
+    "publishedAt": "2026-10-31T04:32:34+09:00",
+    "rawText": "Proton CEO Andy Yen이 직원들의 AI 활용도를 확인하려던 재면접을 취소함. 거의 전사 규모로 추진됐으며, 직원들에 따르면 AI를 충분히 쓰지 않으면 해고될 수 있다는 취지가 분명했던 절차임 취소는 보안 우려에도 AI 사용을 강하게 밀어붙이는 경영 방식...",
+    "summaryKo": "Proton CEO Andy Yen이 직원의 AI 활용도를 확인하려던 전사급 재면접을 취소했다. AI를 덜 쓰면 해고될 수 있다는 압박과 보안 우려가 논란이 됐다.",
+    "tags": [
+      "AI 도입 압박",
+      "조직 문화"
+    ],
+    "entities": [
+      "Proton"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "1b785842b3be7f7b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Vals AI 공동창업자이자 CEO인 라이언 크리스틴(Ryan Krishnan)은 AI가 과학과 수학 연구의 시간 지평을 근본적으로 바꾸고 있다고 밝혔습니다. ...",
+    "url": "https://www.threads.com/t/DfISHKdkiIu",
+    "publishedAt": "Fri, 30 Oct 2026 19:00:06 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Vals AI 공동창업자이자 CEO인 라이언 크리스틴(Ryan Krishnan)은 AI가 과학과 수학 연구의 시간 지평을 근본적으로 바꾸고 있다고 밝혔습니다. 그는 무수한 반례를 직접 대입해야 했던 난제들을 언급하며, “인간이 평생에 걸쳐 매달려야 했을 문제들을 AI 모델은 단 몇 시간 만에 해결해내고 있다”고 말했습니다. 인간의 체력과 시간이라는 병목이 획기적으로 줄어들면서 고난도 연구와 코딩, 기술 개발의 생산성이 압축되고 있다는 분석입니다. 다만 기계적 연산 너머의 진짜 혁신에는 “해결책에 대한 인간의 직관(intuition)”이 필수적이라고 선을 그었습니다. 인류가 축적해 온 고유의 직관은 AI에 온전히 이식하기 어렵기 때문입니다. 단순 탐색과 노가다는 AI가 대체하더라도, 결국 특이점 시대 지적 노동의 핵심 경쟁력은 직관적 통찰에 달려 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/867022122_2689077448206298_5866663682337148756_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAxOTU0MjMyNDUzNTIzOTIxNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=cfMnFr_J2IIQ7kNvwGVQq0C&amp;_nc_oc=AdphKdsUwqBmd8LmGWkUPmrPE25cBlxjf7svjAe2dNJmLUE4bLE2tSDUgWICA64l3AQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQTJiLS4mhid5HwnMllBARAL7tWOEOSNa6xp90-xd_2wzw&amp;oe=6AEAE554\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMI8lNIAYTb00vjdHPmHIeOyFrnAaAbO8KwY4aS_pXWzds0n_oO-7-mECzzZd1lu4GqPu2jahGG-jkcovqytH6OKyzgyGP_A8xFUiA.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=tWbaE31w_JAQ7kNvwE4819H&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTM4MTY1MDgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NDUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=e1c98eb6540f22cd&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9EQ0I3ODc0MzVDMzM0MjEzQTU5MDA5RUI0NUU4OTRERl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzBGMDdBOUZGRkJGMzQ3NEU5QzEzQ0Q4RERCQkM0NTg3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA__SR_NH2PxUCKAJDMywXQEaAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQRQ7SawearEpo-Vo3Aj4WCbxmJLzVmvIC1_OQTvK-3GXg&amp;oe=6AE6D592\"></video></p>",
+    "summaryKo": "Vals AI CEO가 AI가 과학·수학 연구의 시간 지평을 바꿔 인간이 평생 매달릴 문제를 몇 시간에 푼다고 밝혔다. 다만 진짜 혁신에는 인간의 직관이 필수라고 선을 그었다.",
+    "tags": [
+      "AI 연구",
+      "인간 직관"
+    ],
+    "entities": [
+      "Vals AI"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "967849641e14f0d4",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Multi-Token Prediction Done Right [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/",
+    "publishedAt": "2026-10-30T18:53:20+00:00",
+    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/\"> <img src=\"https://preview.redd.it/pdz8voy3inyh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=7d8a2253a12acb1611eeea6bf222da31a425cddf\" alt=\"Multi-Token Prediction Done Right [R]\" title=\"Multi-Token Prediction Done Right [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it can be done much better. </p> <p>We show the standard MTP gradient hides a KL self-distillation signal (which we want for improving speculative decoding) behind a noisy residual (that harms next-token prediction). </p> <p>I think the coolest part was the KL gradient–recovery trick to extract the KL gradient. You just need a one-line code change: </p> <p>h_ntp += h_mtp.detach() - h_mtp</p> <p><strong>Soft Multi-Token Prediction (Soft-MTP)</strong> is essentially a free lunch that improves MTP across a range of tasks.</p> <p>I&#39;m super excited about this work. Please do check it out below:</p> <p>💻 Code: <a href=\"https://github.com/JaydenTeoh/Soft-MTP\">https://github.com/JaydenTeoh/Soft-MTP</a><br/> 📝 Paper: <a href=\"https://arxiv.org/abs/2610.38331\">https://arxiv.org/abs/2610.38331</a><br/> 🤗 HuggingFace: <a href=\"https://huggingface.co/collections/JaydenTeoh/soft-multi-token-prediction\">https://huggingface.co/collections/JaydenTeoh/soft-multi-token-prediction</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jayden_teoh_\"> /u/jayden_teoh_ </a> <br/> <span><a href=\"https://i.redd.it/pdz8voy3inyh1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/\">[comments]</a></span> </td></tr></table>",
+    "summaryKo": "표준 Multi-Token Prediction 그래디언트에는 추측 디코딩에 유용한 KL 자기증류 신호가 노이즈 잔차에 가려져 있다는 논문이다. 한 줄 코드 수정으로 이를 복원하는 Soft-MTP가 여러 과제에서 MTP를 개선한다고 한다.",
+    "tags": [
+      "Multi-Token Prediction",
+      "Speculative Decoding"
+    ],
+    "entities": [
+      "Soft-MTP"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f2c5b49256c4f468",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "미국 기술주, AI 비용 우려에 급락",
+    "url": "https://news.hada.io/topic?id=36303",
+    "publishedAt": "2026-10-31T03:36:56+09:00",
+    "rawText": "대규모 AI 투자에 비해 실적이 기대에 못 미치면서 미국 기술주가 이틀 연속 하락함. 금요일 Nasdaq은 3.5% 넘게 떨어졌고 Intel은 장중 최대 30% 급락함 Meta, Alphabet, Oracle, Amazon, Microsoft의 2026년 지출 계획은 총 8,006억 달러에 달하며, 막대한 AI 투...",
+    "summaryKo": "AI 투자 대비 실적 부진으로 미국 기술주가 이틀 연속 하락했고 Nasdaq은 금요일 3.5% 넘게 떨어졌다. Meta·Alphabet·Oracle·Amazon·Microsoft의 2026년 지출 계획은 총 8,006억 달러다.",
+    "tags": [
+      "AI 투자",
+      "주가"
+    ],
+    "entities": [
+      "Nasdaq",
+      "Intel",
+      "Meta",
+      "Alphabet",
+      "Microsoft"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "7eb47880fe8300a4",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Northflank 침해 사고 발생",
+    "url": "https://news.hada.io/topic?id=36302",
+    "publishedAt": "2026-10-31T03:33:56+09:00",
+    "rawText": "Northflank가 보안 사고를 공지하고, 모든 사용자에게 환경 변수가 복호화됐다고 가정해 즉시 키를 비활성화하거나 교체하도록 권고함 교체 대상에는 워크로드의 시크릿, 시크릿 그룹, 전역 시크릿이 포함됨 여러 사용자가 자신의 AI 키가 사용된...",
+    "summaryKo": "Northflank가 보안 사고를 공지하며 환경 변수가 복호화됐을 수 있으니 모든 키를 즉시 비활성화·교체하라고 권고했다. 일부 사용자는 자신의 AI 키가 도용된 정황을 보고했다.",
+    "tags": [
+      "보안 사고",
+      "시크릿"
+    ],
+    "entities": [
+      "Northflank"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "795cdb83e8a7b52b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 마이크로소프트 CEO 사티아 나델라는 AI가 “그 어떤 기술보다 빠르게 전 세계와 경제 전 부문으로 확산되길 바란다”고 밝혔습니다. 그는 AI를 ...",
+    "url": "https://www.threads.com/t/DfILUDtEsU2",
+    "publishedAt": "Fri, 30 Oct 2026 18:00:42 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트 CEO 사티아 나델라는 AI가 “그 어떤 기술보다 빠르게 전 세계와 경제 전 부문으로 확산되길 바란다”고 밝혔습니다. 그는 AI를 강력한 ‘범용 기술'로 정의하며, 이번 혁신이 소수의 승자와 패자를 가르는 제로섬 게임이 되어서는 안 된다고 선을 그었습니다. 핵심은 “모두의 성장을 함께 끌어올리는 진정한 글로벌 성장의 전환점”을 만드는 것입니다. 개발도상국(글로벌 사우스)까지 포함해 전 세계 모든 산업과 인류가 기술의 혜택을 골고루 누리는 포용적 경제 성장이 AI 혁명의 궁극적 목표여야 한다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/869873778_1547188933840166_5856514758616640470_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=NDAxOTUxMjQyNDMwNjc1NDg3MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=W3RL0XH5z_sQ7kNvwH0LnkQ&amp;_nc_oc=Adr_YLOPHD6KeoGoniaeXJ5K5kU-unL5gnGgCXoY0XPkg_KigirX-gYh15-8YAmzcBQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQQn-ukVBI0YGB1NIPGdbwvmseBj472Piw-mXkCejb1XpA&amp;oe=6AEAE16C\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQMiJLl1Qib-jEA-84yKrJMxKfaP-c2kSFRniDYbsdzYyNwYhBTqwenoTDjT4oDODKsaZ9Ys4ZAQWucVm9tyomolH6DTo_e9hhb0eYg.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=va68Ar6XGB4Q7kNvwE_v_UH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTM4MTU2MDgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=344784a999fef03b&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81MEJGMThFRUE1NDg0MjIxQTY5RjVCOTM3MTkwOTYxQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQwNjFGNjQ2MzI3MzRGRkE5RTc5NDg5RjJERTU0QkE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA28239dH2PxUCKAJDMywXQEw6fvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQRyaGyfBt5H7tQ_LRcHzdTet75AkoYbjROoUn16tFweDA&amp;oe=6AE6E1CC\"></video></p>",
+    "summaryKo": "Microsoft CEO 사티아 나델라가 AI가 어떤 기술보다 빠르게 전 세계와 모든 산업으로 확산되길 바란다고 밝혔다. 소수 승자의 제로섬이 아닌 글로벌 사우스를 포함한 포용적 성장을 강조했다.",
+    "tags": [
+      "AI 확산",
+      "포용 성장"
+    ],
+    "entities": [
+      "Microsoft"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "0c71c0e3acfa2d25",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Advice on dealing with Cold Start forecasting [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xjmgju/advice_on_dealing_with_cold_start_forecasting_d/",
+    "publishedAt": "2026-10-30T17:56:26+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone. I am dealing with a problem statement at work where the goal is to predict the sales of a new innovation to be launched. Note that the data that I actually have is just product attributes, the month level invoice data for each region, weather data and some macroeconomic data. Currently there is a methodology in place where we are using a xgboost regressor trained on the historical data for this prediction, but no one in the team is very confident in the methodology.</p> <p>Given this, does anyone have advice on how we could go about this problem? Please do let me know if you&#39;ve dealt with the same or similar problem statement.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nice-Job67\"> /u/Nice-Job67 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xjmgju/advice_on_dealing_with_cold_start_forecasting_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xjmgju/advice_on_dealing_with_cold_start_forecasting_d/\">[comments]</a></span>",
+    "summaryKo": "신제품 판매량 예측(콜드 스타트)에서 제품 속성·지역별 인보이스·날씨·거시 데이터만 있고 XGBoost 방식에 팀 확신이 없다며 조언을 구하는 글이다. 접근법 논의를 요청하는 질문 글이다.",
+    "tags": [
+      "시계열 예측",
+      "콜드 스타트"
+    ],
+    "entities": [
+      "XGBoost"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "a8bbdf885c7e2575",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "ICE, 가면을 되찾으려 삭제 요청 대행업체를 고용하다",
+    "url": "https://news.hada.io/topic?id=36301",
+    "publishedAt": "2026-10-31T02:44:03+09:00",
+    "rawText": "FlokiNET이 ICE를 대리하는 ZeroFox의 Icepick 사이트 삭제 요청을 거부함. 유출된 정부 직원의 업무상 신원 정보를 언론인과 시민의 공적 책임 추적에 쓰이는 자료로 판단함 데이터는 침해 사고로 유출됐으며 당사자들은 공개에 동의하지 않았음. 다만 FlokiNET은...",
+    "summaryKo": "FlokiNET이 ICE를 대리하는 ZeroFox의 Icepick 사이트 삭제 요청을 거부했다. 유출된 정부 직원 신원 정보를 공적 책임 추적 자료로 판단했다. AI와는 직접 관련이 적은 소식이다.",
+    "tags": [
+      "개인정보",
+      "삭제 요청"
+    ],
+    "entities": [
+      "FlokiNET",
+      "ICE",
+      "ZeroFox"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "b5a261dd67a527dc",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Medicare는 심장마비 치료에 5만 달러를 지불한다. 예방에도 100달러를 지불해야 한다",
+    "url": "https://news.hada.io/topic?id=36300",
+    "publishedAt": "2026-10-31T02:41:03+09:00",
+    "rawText": "약 100달러의 관상동맥 석회화 점수(CAC) 검사로 심장마비 발생 수년 전 동맥경화를 발견할 수 있지만, 보험 보장과 진료 체계의 제약으로 활용이 제한돼 있음 2026년 3월 ACC/AHA 지침은 관상동맥질환 위험이 경계 수준이거나 중간 수준이고 예방 치료 시작 여부가...",
+    "summaryKo": "약 100달러의 관상동맥 석회화 점수(CAC) 검사로 심장마비 수년 전에 동맥경화를 발견할 수 있지만 보험·진료 체계 제약으로 활용이 제한된다. 2026년 3월 ACC/AHA 지침의 위험군 기준을 다룬다.",
+    "tags": [
+      "예방의학",
+      "CAC 검사"
+    ],
+    "entities": [
+      "ACC/AHA",
+      "Medicare"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "dd7b6309ca54a26f",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI는 SRE를 대체하는 게 아니라 숙련도를 떨어뜨리고 있음",
+    "url": "https://news.hada.io/topic?id=36299",
+    "publishedAt": "2026-10-31T02:38:03+09:00",
+    "rawText": "AI가 일상적인 장애 대응을 맡을수록 SRE는 드물고 복잡한 장애에 집중하게 되지만, 이를 해결할 직관과 전문성을 연습할 기회는 줄어듦 자동화의 역설은 자동화가 실패할 때 인간의 역할이 더 중요해지는 동시에, 개입에 필요한 숙련도는 실전 경험 부족으로 약해...",
+    "summaryKo": "AI가 일상 장애 대응을 맡을수록 SRE는 드물고 복잡한 장애만 다루게 되어 실전 숙련 기회가 줄어든다는 '자동화의 역설'을 짚는다. AI가 SRE를 대체하기보다 숙련도를 떨어뜨린다는 주장이다.",
+    "tags": [
+      "SRE",
+      "자동화의 역설"
+    ],
+    "entities": [],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "8caa830639ff29c5",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: WORLD MODEL - 지금 쓸 수 있는 세계 AI 모델 1,100여 개를 한눈에 보는 도감",
+    "url": "https://news.hada.io/topic?id=36298",
+    "publishedAt": "2026-10-31T02:13:53+09:00",
+    "rawText": "전 세계 개발사 138곳의 AI 모델 1,100여 개를 공식 발표 기준으로 모아 둔 사이트입니다. 분야는 대화·이미지·영상·음성·음악·비전·월드·3D·픽셀아트·검색·임베딩·판정으로 나눴습니다. 국가·분야·로컬 실행 가능 여부로 거르고, 지구본에서 국가별로 볼 수 있습니다 오픈 가중치 모",
+    "summaryKo": "전 세계 138개 개발사의 AI 모델 1,100여 개를 공식 발표 기준으로 모은 도감 사이트다. 대화·이미지·영상·음성·3D 등 분야와 국가, 로컬 실행 여부로 거를 수 있다.",
+    "tags": [
+      "모델 도감",
+      "오픈 웨이트"
+    ],
+    "entities": [
+      "WORLD MODEL"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "d5d3db1f3a9a1503",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+    "publishedAt": "Fri, 30 Oct 2026 15:00:10 +0000",
+    "rawText": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents [&#8230;]",
+    "summaryKo": "NVIDIA가 외계 지적생명체 탐색(SETI)에 에이전트형 AI가 쓰이는 흐름을 소개했다. 인간이 만든 AI 에이전트가 신호를 듣는 방향으로 연구가 진전됐다는 내용이다.",
+    "tags": [
+      "에이전트",
+      "SETI"
+    ],
+    "entities": [
+      "NVIDIA"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "cce8740aa3639582",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "케임브리지 교수가 연구 12편으로 보여 준 'AI 브레인 롯' 피하는 법",
+    "url": "https://www.youtube.com/watch?v=YLBr-df2Ov4",
+    "publishedAt": "2026-10-30T11:00:09+00:00",
+    "rawText": "케임브리지 교수가 연구 12편으로 보여 준 'AI 브레인 롯' 피하는 법",
+    "videoId": "YLBr-df2Ov4",
+    "summaryKo": "케임브리지 교수가 연구 12편을 근거로 AI 시대에 모두가 같은 AI를 쓰면 평균으로 수렴하므로 AI로 가속하되 대체하지 말라고 강조한다. 해법으로 해답 대신 힌트·질문으로 쓰기, 설명·방어 가능한 결과만 위임, 에이전트에 최소 코드·버그 재현 지시를 든다.",
+    "tags": [
+      "AI 브레인 롯",
+      "학습",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "ChatGPT",
+      "Claude",
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "84abd1857de5dfd9",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Making it easier for websites to express AI training preferences",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "publishedAt": "Fri, 30 Oct 2026 09:30:00 GMT",
+    "rawText": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    "summaryKo": "OpenAI가 웹사이트 운영자가 AI 학습 허용 여부를 알리는 공통 robots.txt 신호를 존중하기로 했다. 참여 제공업체들이 같은 신호를 따르게 해 콘텐츠 사용 선호를 표시하기 쉬워진다.",
+    "tags": [
+      "AI 학습 데이터",
+      "robots.txt"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "0c4d7606aa169eff",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "AI 엔지니어가 쓰는 무료 오픈소스 3개 #ai #ollama #dify",
+    "url": "https://www.youtube.com/shorts/WTnNsHx1Crw",
+    "publishedAt": "2026-10-30T09:09:14+00:00",
+    "rawText": "AI 엔지니어가 쓰는 무료 오픈소스 3개 #ai #ollama #dify",
+    "videoId": "",
+    "summaryKo": "Ollama(로컬 모델 실행), MarkItDown(문서를 AI가 읽기 좋은 텍스트로 변환), Dify(블록처럼 이어 붙여 노코드 챗봇·에이전트 구축) 세 가지 무료 오픈소스를 소개한다. 입력 형식만 바꿔도 답이 달라진다는 점을 강조한다.",
+    "tags": [
+      "Ollama",
+      "Dify",
+      "MarkItDown"
+    ],
+    "entities": [
+      "Ollama",
+      "Microsoft",
+      "Dify",
+      "DeepSeek"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "c5d4b5942da6a2f9",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "AI가 리뷰하면 줄어드는 것",
+    "url": "https://www.youtube.com/shorts/M5z5MlThdjM",
+    "publishedAt": "2026-10-30T09:00:18+00:00",
+    "rawText": "AI가 리뷰하면 줄어드는 것",
+    "videoId": "",
+    "summaryKo": "AI가 코드 리뷰를 맡으면 팀원이 코드를 보며 변경과 시스템 연결을 배울 기회가 줄어든다고 지적한다. Copilot에 설명을 시키고 주문 합계 계산 같은 기능의 요청 흐름을 시각화한 뒤 그림만 보고 이해했다고 넘기지 말라고 권한다.",
+    "tags": [
+      "코드 리뷰",
+      "학습"
+    ],
+    "entities": [
+      "Copilot"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "a86d24c59c826150",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Community safety report and new protections for teens",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "publishedAt": "Fri, 30 Oct 2026 09:00:00 GMT",
+    "rawText": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+    "summaryKo": "OpenAI가 ChatGPT의 폭력 예방 안전장치를 확대하고 더 이른 개입과 공공 안전 보고 약속을 내놨다. 청소년 보호 강화가 핵심이다.",
+    "tags": [
+      "AI 안전",
+      "청소년 보호"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "ec0302c8c94d78ac",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Freind of mine published a paper with fabricated results in a top journal and got accepted and i feel disgusted [d]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/",
+    "publishedAt": "2026-10-30T07:25:23+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>A friend of mine was doing a gap analysis as a project. The results he got weren&#39;t that big compared to the original papers, so he simply fabricated and increased the metrics here and there, AND IT GOT ACCEPTED IN AAAI.</p> <p>HOW DO THEY CHECK THE PAPERS, DUDE? I was in a group with two others and worked sooo hard on an optimization paper, and was sooo happy to get accepted in ACL, but seeing and knowing that someone fabricated results and got into a better conference made me soooooo mad.</p> <p>I would&#39;ve expected something like AAAI would check and know if data is fabricated somehow. I didn&#39;t expect this from a top conference like that.</p> <p>And then these types of people will go and do their PhD at one of the top unis because of this. I would&#39;ve expected the system to be more advanced and professional in the academic field, specifically for something like AAAI.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tonka-Jahari-Pizza\"> /u/Tonka-Jahari-Pizza </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/\">[comments]</a></span>",
+    "summaryKo": "한 사용자가 지인이 지표를 조작한 논문이 AAAI에 채택됐다며 학회 검증 체계에 분노를 토로한 r/MachineLearning 글이다. 연구 윤리와 심사 신뢰성 문제를 제기한다.",
+    "tags": [
+      "연구 윤리",
+      "논문 심사"
+    ],
+    "entities": [
+      "AAAI",
+      "ACL"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "148b52238ade335e",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "바로팜, 공모가 1만6400원 확정…11월 11일 코스닥 상장",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547733",
+    "publishedAt": "2026-10-30 16:03:54",
+    "rawText": "약국 통합 플랫폼 기업 바로팜(대표 김슬기)이 기관투자자 수요예측을 거쳐 최종 공모가를 1만6400원으로 확정했다고 30일 밝혔다. 총 공모금액은 약 292억원으로, 상장 후 시가총액은 약 2000억원 규모다.2019년 설립된 바로팜은 의약품 주문통합 솔루션을 시작으로 결제·반품·개국 지원·AI 의약품 식별 등으로 사업 영역을 확대해 왔다.현재 전국 약국의 약 90%인 2만4787곳이 가입했으며, 누적 통합주문연결액(TGMV)은 7조2000억원, 재주문율은 86%를 기록하고 있다.매출액은 2021년 약 3억원에서 2025년 967억",
+    "summaryKo": "약국 통합 플랫폼 바로팜이 공모가를 1만6400원으로 확정하고 11월 11일 코스닥에 상장한다. 공모금액 약 292억원, 시총 약 2000억원이며 전국 약국의 약 90%가 가입했다.",
+    "tags": [
+      "코스닥 상장",
+      "약국 플랫폼"
+    ],
+    "entities": [
+      "바로팜"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "c201d33c00e55131",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "약국·병원서 AI 어떻게 활용하나…PHCCC, 교육워크숍 개최",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547723",
+    "publishedAt": "2026-10-30 15:18:24",
+    "rawText": "한국약사커뮤니케이션과 커뮤니티케어학회(PHCCC, 회장 장선미)는 오는 11월 10일 오후 7시부터 9시까지 'AI 시대의 약사와 커뮤니케이션 약학교육: 현장에서 교육까지'를 주제로 2026년 교육워크숍을 개최한다.이번 워크숍은 Zoom을 통한 비대면 방식으로 진행되며, 약국과 병원의 약료 현장 및 보건의료 교육 현장에서 실제 활용되고 있는 인공지능(AI) 사례를 중심으로 프로그램이 구성됐다.먼저 김영빈 대표(스마트헬스케어, 청춘약국)가 '약국 약료 현장에서 활용되는 AI 사례'를, 조상우 약사(가톨릭대학교 인천성모병원)가 '병원",
+    "summaryKo": "한국약사커뮤니케이션·커뮤니티케어학회가 11월 10일 'AI 시대의 약사와 커뮤니케이션 약학교육' 비대면 워크숍을 연다. 약국·병원 현장의 AI 활용 사례 발표가 중심이다.",
+    "tags": [
+      "약국 AI",
+      "교육 워크숍"
+    ],
+    "entities": [
+      "PHCCC"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "b52965203773ecd5",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "GC메디아이, 올해 영업이익 전망 170억원으로 상향",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547716",
+    "publishedAt": "2026-10-30 14:37:48",
+    "rawText": "GC메디아이가 올해 연간 영업이익 전망치를 기존보다 26% 상향 조정했다. 주요 사업의 수익성 개선과 비핵심 사업 정리 효과가 반영되면서 당초 예상보다 높은 이익을 거둘 것으로 전망했다.AI 기반 Medical OS 기업 GC메디아이(대표 김진태)는 2026년 연결 기준 영업이익 가이던스를 기존 135억원에서 170억원으로 상향한다고 밝혔다.지난 5월 제시했던 전망치보다 35억원, 약 25.9% 높아진 수치다.이번 전망치 상향에는 메디컬 인프라와 데이터·마케팅, 커머스 등 주요 사업의 실적 개선과 비용 효율화가 반영됐다.GC메디아이",
+    "summaryKo": "AI 기반 Medical OS 기업 GC메디아이가 2026년 영업이익 가이던스를 135억원에서 170억원으로 약 26% 상향했다. 주요 사업 수익성 개선과 비핵심 사업 정리 효과를 반영했다.",
+    "tags": [
+      "실적",
+      "Medical OS"
+    ],
+    "entities": [
+      "GC메디아이"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "fdb0f918ae64d0e9",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "강동경희대병원 유승돈 교수 대한재활의학회 차기 이사장 선출",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547711",
+    "publishedAt": "2026-10-30 13:58:00",
+    "rawText": "강동경희대학교병원은 재활의학과 유승돈 교수가 지난 10월 23일부터 24일까지 그랜드하얏트인천에서 개최된 ‘2026년 대한재활의학회 추계국제학술대회’에서 차기 이사장으로 선출됐다고 밝혔다. 유 이사장의 임기는 2028년 11월 1일부터 2030년 10월 31일까지 2년이다.대한재활의학회는 재활의학 분야 학술 연구와 교육, 진료 발전을 위해 설립된 학술단체다. 전문의 교육과 수련, 재활의료 정책 개발 등을 통해 국내 재활의학 발전과 국민 건강 증진에 기여하고 있다.유승돈 교수는 “AI·재활로봇·디지털헬스를 포함한 미래 재활의학을 선도",
+    "summaryKo": "강동경희대병원 유승돈 교수가 대한재활의학회 차기 이사장으로 선출됐다. 임기는 2028년 11월부터 2년이며 AI·재활로봇·디지털헬스를 언급했다.",
+    "tags": [
+      "의료계 인사",
+      "재활의학"
+    ],
+    "entities": [
+      "강동경희대병원",
+      "대한재활의학회"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "df26d725bc91b6c5",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "\"건강검진 결과, AI에 물어보세요\"…다나아데이터 통합 서비스",
+    "url": "https://www.dailypharm.com/user/news/343995",
+    "publishedAt": "2026-10-30",
+    "rawText": "\"건강검진 결과, AI에 물어보세요\"…다나아데이터 통합 서비스",
+    "summaryKo": "다나아데이터가 건강검진 결과를 AI에 물어볼 수 있는 통합 서비스를 내놨다는 소식이다. 본문 정보는 제목 수준이다.",
+    "tags": [
+      "헬스케어 AI",
+      "건강검진"
+    ],
+    "entities": [
+      "다나아데이터"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
+    "id": "7b15597b12e055ea",
+    "sourceType": "news",
+    "source": "r/MachineLearning",
+    "title": "Arc: a ~70 MB streaming speech model that transcribes links names and metadata to your own list as they're spoken, with no second model [p]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xiyuoj/arc_a_70_mb_streaming_speech_model_that/",
+    "publishedAt": "2026-10-29T22:51:57+00:00",
+    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I built Arc-Transcriber, which does ASR-NL in 1-step. Every 100 ms, one model returns the transcript plus:</p> <p>- Names linked to a list you give it (a roster, contacts, product names); new names are flagged &quot;not on the list&quot;<br/> - Numbers with their values (scores, clocks, money, dates)<br/> - Speakers and roles;<br/> - Sound and channel events (telephone audio, clipping, poor audio)<br/> - Whether the speech was addressed to an assistant.<br/> - Inbuilt tags for dialog act, speaker segmentation and more. Total 200+ trained decision heads.</p> <p>The usual ASR, then NER, then entity-linking and then LLM chain is collapsed into the model&#39;s own heads, so live &quot;fact-checking&quot; against your list happens inside the stream, not in a second pass.</p> <p>Currently it has two variants Arc mini (which uses moonshot pretrained encoder) and second Arc-v1 (which uses parakeet pretrained encoder).</p> <p>Weights: <a href=\"http://huggingface.co/WhissleAI/arc-v1.1\">huggingface.co/WhissleAI/arc-v1.1</a><br/> Code and CLI: <a href=\"http://github.com/WhissleAI/arc_transcriber\">github.com/WhissleAI/arc_transcriber</a></p> <p>We use it on-device in our Mac app. Voice search over 61k books primes Arc with matching titles while you&#39;re still talking. Here is a video to give a glimpse on how it works.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Working_Hat5120\"> /u/Working_Hat5120 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xiyuoj/arc_a_70_mb_streaming_speech_model_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xiyuoj/arc_a_70_mb_streaming_speech_model_that/\">[comments]</a></span>",
+    "summaryKo": "약 70MB 스트리밍 음성 모델 Arc-Transcriber가 100ms마다 전사와 함께 목록 기반 이름 연결, 숫자, 화자, 음향 이벤트, 어시스턴트 대상 여부를 한 번에 낸다. ASR→NER→링킹 체인을 모델 내부 헤드 200여 개로 합쳤고 가중치와 CLI를 공개했다.",
+    "tags": [
+      "ASR",
+      "스트리밍"
+    ],
+    "entities": [
+      "Arc-Transcriber",
+      "WhissleAI",
+      "Parakeet"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "df8fd7b49d0d7e2f",
     "sourceType": "news",
     "source": "Threads",
@@ -499,6 +1097,31 @@
     "fetchedAt": "2026-10-29T21:04:34.055Z"
   },
   {
+    "id": "7324a4fa2e8f317f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 1/ 대학생이라면 한 번쯤 \"지금 배우는 게 졸업할 때도 쓸모가 있을까\"라는 생각을 해 보셨을 것 같습니다. 이번 주 뉴스만 봐도 그런 걱정이 들 ...",
+    "url": "https://www.threads.com/t/DfE91DVDzBm",
+    "publishedAt": "Thu, 29 Oct 2026 12:05:09 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>1/ 대학생이라면 한 번쯤 \"지금 배우는 게 졸업할 때도 쓸모가 있을까\"라는 생각을 해 보셨을 것 같습니다. 이번 주 뉴스만 봐도 그런 걱정이 들 만한데요. 10월 26일 오픈AI가 GPT-6.1 Terra를 내놨고, 같은 날 내부 모델로 수학·컴퓨터과학·물리학의 오래된 난제 세 개를 풀었다고 발표했습니다. 이틀 뒤 구글은 Gemini 4 Argon을 낸 지 2주 만에 Gemini 4 Carbon을 공개했고, 바로 독립 평가 종합 지수 1위에 올랐습니다. 한 주 사이에 이런 발표가 연달아 쏟아지고 있고 앞으로도 쏟아질 것을 생각하면 지금 1학년이 졸업할 4년 뒤의 AI가 얼마나 달라져 있을지, 가늠하기조차 어려운 속도입니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/878655184_17994181353112832_3365667814589991863_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAxODYwMTYwNzAwNzk1MTM0OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTQ4LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=jm6T2ay-l44Q7kNvwELAQ5_&amp;_nc_oc=AdrJMf5mBllCYR0a1T7hYJvRKfKbsndn6WhfTH2ZMa-5PLzM6kJNq83vvGKTi1ODKT0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQSMwsi7YQx0F7CmTxMJPMpYpg5As-CpnS8gpDEsYvvstQ&amp;oe=6AEAD9C7\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/870101830_17994181341112832_5992528884307425437_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=NDAxODYwMTYwNjc4NTcxNDY5MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=1-TryjB6An8Q7kNvwGtPHCC&amp;_nc_oc=AdpaHacTfZJC4lFeKCg3Jssb1XSXD3IAc9IUiLLelZsN5jUPhc_DRXhI0XrDyRPYICM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQTyJIkMReFuTJzKJaNwLo5XLb9NRq1gfA6sjfFjVvPQTw&amp;oe=6AEAF391\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/877295773_17994181344112832_462447422620466925_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAxODYwMTYwNjQyOTA1NjU1Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTczNi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=H7aLEIWYEgwQ7kNvwEH4VjN&amp;_nc_oc=AdpgIUxZlmpVaG8349GOOH7hI-JV_Fzh10mWB2vFa3JeAvkWermmo9Hjq4rz27_KJtY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQQu9mI_-nbs8VId4qj5pAWJDGy6-UQfzVbUYu3xksq9WQ&amp;oe=6AEAF06D\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "대학생이 졸업 후에도 지금 배우는 게 쓸모 있을지 걱정할 만큼 AI 발표가 빠르다는 글이다. 10월 26일 OpenAI GPT-6.1 Terra 공개와 난제 3개 해결 발표, 구글 Gemini 4 Carbon의 평가 지수 1위를 근거로 든다.",
+    "tags": [
+      "AI 속도",
+      "교육"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6.1 Terra",
+      "Gemini 4 Carbon",
+      "Google"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
+  },
+  {
     "id": "32d69d7e6fd51a11",
     "sourceType": "news",
     "source": "MIT Tech Review AI",
@@ -881,6 +1504,30 @@
     ],
     "summaryStatus": "fallback",
     "fetchedAt": "2026-10-29T21:04:34.055Z"
+  },
+  {
+    "id": "85f94c0fe8f02a81",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+    "url": "https://openai.com/index/credit-saison",
+    "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
+    "rawText": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+    "summaryKo": "일본 금융사 Credit Saison이 ChatGPT Enterprise 파일럿에서 954% ROI를 달성했다. 리더와 직원이 함께 성과를 만들어 전사 도입으로 이어진 과정을 소개한다.",
+    "tags": [
+      "엔터프라이즈 도입",
+      "ROI"
+    ],
+    "entities": [
+      "Credit Saison",
+      "OpenAI",
+      "ChatGPT Enterprise"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-10-30T21:05:54.770Z"
   },
   {
     "id": "b6ad6e98c2c701ee",
@@ -4031,673 +4678,5 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "f0f37748799cad99",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: a16z 공동 창업자 마크 안드리슨(Marc Andreessen)은 “시계 바늘이 째깍거리고 있다”며 기존 빅테크와 레거시 기업들이 직면한 위기를 경고했습...",
-    "url": "https://www.threads.com/t/De48TQGj4kc",
-    "publishedAt": "Sat, 24 Oct 2026 20:00:54 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>a16z 공동 창업자 마크 안드리슨(Marc Andreessen)은 “시계 바늘이 째깍거리고 있다”며 기존 빅테크와 레거시 기업들이 직면한 위기를 경고했습니다. 그는 변화의 속도가 너무 빨라 풀타임으로 지켜보는 자신조차 “익사할 지경(basically drowning)”이라며 현 상황의 급박함을 짚었습니다. 마틴 카사도(Martin Casado) 역시 “이 아이디어가 너무 야심찬가가 아니라, 충분히 야심찬가(Is this ambitious enough?)를 물어야 할 때”라며 어설픈 적당주의는 차별화되지 못한다고 강조했습니다. 단순히 모델 성능을 관망할 때가 아니라, 실리콘밸리의 거대 기업들도 새 기술로 무장하지 못하면 급격한 산업 재편 속에서 뒤처질 수밖에 없다는 지적입니다. 거대한 특이점의 파도 앞에서 기존 기업들의 적응 시한은 빠르게 줄어들고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/861605551_2943408156019271_570179023627319717_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=NDAxNTIyNDI3MzU1MTQ2MDYzNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=3pILtMfGpIkQ7kNvwHLWXeJ&amp;_nc_oc=Adq0wdIBnrMRHsx3JCIfy-u8Fc0BQYG_EIRkadmG8JVy58kXk8smoKRHmnZtH6uwcVY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;oh=00_AQO4Nj473_5Th2jglR96rAcLofjafk33dqHoEq_bEVG_Nw&amp;oe=6AE2E02E\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQPsXNok215kY8EnSESGhxjB1iwbEe7Zwsg1pXMyAL82S4i4bfNw72gNw2oTs5cS81sQsB3A1BmJRXPG1i2fwF19DJWq7bFh2QHOcHM.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=ode0HMJv8JEQ7kNvwGxCqR0&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI5NTE1NTcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=f87866b3c723b4bc&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9BM0U2QTY2N0UwMjU0QjE0QTczQjQ5NEU1QUI4QkRDM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc5NTU3MjRCN0MxNzQzRDRBQTFCRTQ5OUMxRTg2MDQ2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAkK7gz5_2PxUCKAJDMywXQEyRysCDEm8YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQPfctlKdFsfm3MadOoBgcyq55dz2s8xJc9nXrhJZHqtrg&amp;oe=6ADEE8EA\"></video></p>",
-    "summaryKo": "a16z의 마크 안드리슨은 변화 속도가 너무 빨라 풀타임으로 지켜봐도 '익사할 지경'이라며 빅테크와 레거시 기업의 위기를 경고했다. 마틴 카사도는 '너무 야심찬가'가 아니라 '충분히 야심찬가'를 물어야 한다고 강조했고, 거대 기업도 새 기술로 무장하지 못하면 뒤처진다는 지적이다.",
-    "tags": [
-      "AI전략",
-      "벤처캐피털"
-    ],
-    "entities": [
-      "a16z",
-      "마크 안드리슨",
-      "마틴 카사도"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "c8d9bc17ad88d7ee",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Roku 개발자 저장소, GitHub에서 GitLab으로 이전",
-    "url": "https://news.hada.io/topic?id=35934",
-    "publishedAt": "2026-10-25T04:31:38+09:00",
-    "rawText": "Roku가 모든 개발자 리소스의 GitLab 이전을 완료함. 개발자 문서, 샘플 앱, 도구 저장소를 하나의 중앙 위치로 통합함 저장소 이름은 유지되며 호스트만 바뀜. 문서와 블로그의 링크는 갱신됐지만, 개발자가 북마크하거나 저장해 둔 URL은 직접 수정해야 함 ...",
-    "summaryKo": "Roku가 개발자 문서, 샘플 앱, 도구 저장소 등 모든 개발자 리소스를 GitHub에서 GitLab으로 이전했다. 저장소 이름은 그대로이고 호스트만 바뀌며, 북마크한 URL은 직접 수정해야 한다.",
-    "tags": [
-      "GitLab",
-      "개발도구"
-    ],
-    "entities": [
-      "Roku",
-      "GitLab",
-      "GitHub"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "e4a52cb23acbb582",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: a16z 제너럴 파트너 크리스 딕슨(Chris Dixon)은 AI 혁신이 기술적 위험에 대한 기존 사고방식을 송두리째 바꾸고 있다고 진단했습니다. 그는 “...",
-    "url": "https://www.threads.com/t/De41aCkE9mx",
-    "publishedAt": "Sat, 24 Oct 2026 19:00:40 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>a16z 제너럴 파트너 크리스 딕슨(Chris Dixon)은 AI 혁신이 기술적 위험에 대한 기존 사고방식을 송두리째 바꾸고 있다고 진단했습니다. 그는 “기술 발전의 가장 어려운 점은 타이밍을 예측하는 것”이라면서도, 소프트웨어 엔지니어링과 수학, 물리학 전반에서 일어나는 급격한 성능 도약을 보며 과거 20년 치 발전이 한꺼번에 앞당겨지는 국면이라고 평가했습니다. 특히 일자리와 기업 구조의 근본적인 경제적 변화를 강조했습니다. 과거에는 1,000명의 엔지니어가 필요했던 풀스택 디바이스 회사를 이제는 “AI 역량을 갖춘 30명의 팀만으로도 충분히 구축할 수 있는 시대”가 열렸다는 설명입니다. 단순한 실험 단계를 넘어 엔지니어링 생산성이 폭발함에 따라, 소수 정예 조직이 거대 기업 이상의 성과를 내는 새로운 테크 생태계가 본격화되고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/858009957_1850530666299701_4512586889456545863_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAxNTE5Mzk1MzcyNTA0NTE2OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Nvbyb1KHtBMQ7kNvwGVjCZU&amp;_nc_oc=Adqt_moh_ZZspf0mMoX-3fyF104Otgaa38T1bEnfkPqyMv94SZB8muD4OnURA0v7g5Y&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;oh=00_AQPZgfbyOxaUpbtr4WkKO3y0jhlWR-2WlSIqNqpsSkM9vQ&amp;oe=6AE2D66E\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQME7qnJ9JtohSomtCuDDjzxBaScPj_fYMTZeoyLGQW4pfiNYhJymA2sKjEsB-4GtS_RNBDRAt6PlckIK5l1BV3VBQgXcEOHizQ5Ajw.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=fUrX0K9PSaIQ7kNvwEsX2nA&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI5NTM3NjgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTYxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=17f6c25b329ef9f8&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wQjc4MDA1QzUzQ0Y0MUJBOThGNDhERjJBQzE3MDkzOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJDQTg1NTMzN0NBNzRBOENCQkE5NjRGQjA4MDkxOUREX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAy_ec4J_2PxUCKAJDMywXQGQtHrhR64UYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQMqE8_g_y3fNGN9HJvQk95In95Q1tV3dA1_tC-FRVMWUg&amp;oe=6ADF103D\"></video></p>",
-    "summaryKo": "a16z의 크리스 딕슨은 소프트웨어 엔지니어링·수학·물리 전반의 급격한 성능 도약으로 20년 치 발전이 한꺼번에 앞당겨지는 국면이라고 진단했다. 1,000명이 필요하던 풀스택 디바이스 회사를 AI 역량을 갖춘 30명 팀이 만들 수 있게 되는 등 소수 정예 조직의 시대가 열린다는 설명이다.",
-    "tags": [
-      "AI경제",
-      "생산성"
-    ],
-    "entities": [
-      "a16z",
-      "크리스 딕슨"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "366d9567d10b718e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Apple Security Research Device - 보안 기능 우회 없이 iOS를 연구하는 전용 iPhone",
-    "url": "https://news.hada.io/topic?id=35933",
-    "publishedAt": "2026-10-25T03:35:42+09:00",
-    "rawText": "Apple Security Research Device(SRD) 는 보안 기능을 우회하지 않고 iOS 보안 연구를 수행할 수 있도록 특별히 구성된 iPhone으로, 신규 및 숙련 연구자의 연구를 지원함 셸 접근과 임의 도구 실행을 지원하며, 연구자가 직접 권한(entitlements)을 선택하거나 커...",
-    "summaryKo": "Apple Security Research Device(SRD)는 보안 기능을 우회하지 않고 iOS 보안 연구를 할 수 있게 구성된 연구자용 iPhone이다. 셸 접근과 임의 도구 실행을 지원하고, 연구자가 권한(entitlements)을 직접 선택할 수 있다.",
-    "tags": [
-      "보안",
-      "iOS"
-    ],
-    "entities": [
-      "Apple",
-      "iPhone"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "795c8881f7ed423a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "FreeDNS - 무료 동적/정적 DNS와 도메인/서브도메인 호스팅",
-    "url": "https://news.hada.io/topic?id=35932",
-    "publishedAt": "2026-10-25T03:32:42+09:00",
-    "rawText": "FreeDNS는 무료 및 유료 DNS 서비스로, 동적/정적 DNS와 도메인/서브도메인 호스팅을 제공함 공유 도메인에 서브도메인을 만들거나 자신의 도메인을 사용해 DNS를 관리할 수 있음 숫자 IP 주소 대신 도메인 이름으로 집, 직장, 학교, 데...",
-    "summaryKo": "FreeDNS는 동적·정적 DNS와 도메인/서브도메인 호스팅을 무료·유료로 제공하는 서비스다. 공유 도메인에 서브도메인을 만들거나 자기 도메인으로 DNS를 관리해 IP 대신 도메인 이름으로 접속할 수 있다.",
-    "tags": [
-      "DNS",
-      "인프라"
-    ],
-    "entities": [
-      "FreeDNS"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "e538d6c2bf7fe9e8",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 일론 머스크는 AI 에이전트의 폭발적인 증가로 인해 향후 3~5년 내에 지금보다 “1,000배 더 많은 대역폭에 대한 수요”가 발생할 것이라고 전망...",
-    "url": "https://www.threads.com/t/De4uhBjgta7",
-    "publishedAt": "Sat, 24 Oct 2026 18:00:27 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>일론 머스크는 AI 에이전트의 폭발적인 증가로 인해 향후 3~5년 내에 지금보다 “1,000배 더 많은 대역폭에 대한 수요”가 발생할 것이라고 전망했습니다. 그는 개별 에이전트 하나가 사람보다 훨씬 더 많은 통신 대역폭을 소비하는 데다, 앞으로 “사람보다 훨씬 더 많은 수의 에이전트가 존재하게 될 것”이라고 강조했습니다. 이는 단순한 컴퓨팅 연산 능력뿐만 아니라, 통신 인프라에서도 수 자릿수(orders of magnitude)의 극적인 확장이 필수적임을 의미합니다. 향후 AI 경제와 특이점 생태계의 핵심 병목이자 새로운 기회는 인공지능 에이전트 간 초고속 데이터 통신망이 될 것으로 보입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/859975184_3313005712219437_5934882245372060188_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAxNTE2MzY0NzM1MjU1OTI5MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=wiYFWAkYq6MQ7kNvwFi07Zy&amp;_nc_oc=AdqHj5CMnHZlCaLFaelCOcMSyIGHI-h1iPvj14wlCbS3HDHSLiSwCjCwnD2EImVFyMY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;oh=00_AQMMbfGjbYerlQ68TEzFhfqZzf4i8lSKaLLJ0tEUSr-X9A&amp;oe=6AE2E587\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQOeWFtVx4R3Vx0uY08C56RYucs4ZWtzTOAcU93rMFwmyqYA1FkqApCzp2mu6Q0Fn7Yuq0AWQBso5gOQauzAfwxIw5bRUoX4VNqvm_E.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=5MyMHlbUT08Q7kNvwEywwjg&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI2NzAzMjgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=8a3c7787fa552e4b&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81NkY3QTMxN0RBQjU0MDU5OUE3QTlDMjI0MDUxOTMxNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Q0RTJDNEQ5NUNCRDQ3NjNCMjRDODcxMDVBQjk0MUYwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAm763oI_2PxUCKAJDMywXQEMAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQMfKQca1PkqbBQT3w9HwKorLoWZBRRjCl-MzufFz_e1uQ&amp;oe=6ADF159D\"></video></p>",
-    "summaryKo": "일론 머스크는 AI 에이전트가 폭발적으로 늘어 3~5년 내 지금보다 1,000배 많은 대역폭 수요가 생긴다고 전망했다. 에이전트 하나가 사람보다 훨씬 많은 통신량을 쓰고 개수도 사람보다 많아질 것이므로 컴퓨팅뿐 아니라 통신 인프라의 대확장이 필요하다는 주장이다.",
-    "tags": [
-      "AI에이전트",
-      "통신인프라"
-    ],
-    "entities": [
-      "일론 머스크"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "a4dc0cf7ff1e0721",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "AI와 과학 공유자원의 인클로저",
-    "url": "https://news.hada.io/topic?id=35931",
-    "publishedAt": "2026-10-25T02:45:21+09:00",
-    "rawText": "생성형 AI는 공동으로 축적한 지식의 가치를 사적 부로 전환하고, 그 지식을 유지하는 사회적 체계까지 흔드는 새로운 인클로저(enclosure) 의 도구가 될 수 있음 영국의 역사적 공유지는 단순한 과잉 이용으로 붕괴한 것이 아니라 사유화와 이용권 박탈...",
-    "summaryKo": "생성형 AI가 공동으로 쌓은 지식의 가치를 사적 부로 전환하고 그 지식을 유지하는 사회적 체계까지 흔드는 새로운 '인클로저' 도구가 될 수 있다는 논설이다. 영국 공유지가 단순 과잉 이용이 아니라 사유화와 이용권 박탈로 무너졌다는 역사에 빗대어 논의한다.",
-    "tags": [
-      "AI윤리",
-      "공유지"
-    ],
-    "entities": [
-      "생성형 AI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "32309b161e4fa48e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "동일한 AI 요청, 텍사스에서는 스웨덴보다 CO₂를 8.5배 더 배출함",
-    "url": "https://news.hada.io/topic?id=35930",
-    "publishedAt": "2026-10-25T02:42:21+09:00",
-    "rawText": "지역별 전력망의 평균 배출 집약도를 적용한 추정에서, 동일한 하드웨어로 처리한 Kimi K3 요청의 배출량이 스웨덴 약 0.4g, 텍사스 3.2g으로 나타남 Berget AI가 SEI, WattTime, Klimatkollen과 개발한 요청별 탄소 배출량 계산 방법을 오픈소스로 공개함",
-    "summaryKo": "지역 전력망의 평균 배출 집약도를 적용한 추정에서, 같은 하드웨어로 처리한 Kimi K3 요청의 CO₂ 배출이 스웨덴 약 0.4g, 텍사스 3.2g으로 8.5배 차이가 났다. Berget AI가 SEI 등과 개발한 요청별 탄소 배출 계산법을 오픈소스로 공개했다.",
-    "tags": [
-      "탄소배출",
-      "추론"
-    ],
-    "entities": [
-      "Kimi K3",
-      "Berget AI",
-      "SEI",
-      "WattTime"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "efb17afdadcf012a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "우리는 모두 1970년의 잘 알려지지 않은 SF 영화 속에 살고 있다",
-    "url": "https://news.hada.io/topic?id=35929",
-    "publishedAt": "2026-10-25T02:39:21+09:00",
-    "rawText": "1970년 영화 Colossus: The Forbin Project는 미국 대통령이 국가 방위의 전권을 AI에 넘긴 뒤 인간이 정치적 통제권까지 잃는 이야기로, 오늘날의 군사 AI 의존과 기술 기업가의 권력을 겨냥한 풍자와 겹침 영화 속 슈퍼컴퓨터 Colossus는 러시아의 동급 AI와 접촉...",
-    "summaryKo": "1970년 영화 Colossus: The Forbin Project는 대통령이 국방 전권을 AI에 넘긴 뒤 인간이 정치적 통제권까지 잃는 이야기다. 오늘날 군사 AI 의존과 기술 기업가의 권력 문제와 겹쳐 읽는 글이다.",
-    "tags": [
-      "AI안전",
-      "군사AI"
-    ],
-    "entities": [
-      "Colossus"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "2350c983efe21996",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 빌 게이츠(Bill Gates)는 AI 모델의 능력이 임계점을 넘어서며 역사상 “가장 위험한 기술”이 되었다고 경고했습니다. “과거의 기술 파괴와 일...",
-    "url": "https://www.threads.com/t/De4npXZgh_0",
-    "publishedAt": "Sat, 24 Oct 2026 17:00:25 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>빌 게이츠(Bill Gates)는 AI 모델의 능력이 임계점을 넘어서며 역사상 “가장 위험한 기술”이 되었다고 경고했습니다. “과거의 기술 파괴와 일자리 충격이 현실화되지 않았으니 이번에도 기우일 것이라는 생각은 오산입니다.” 그는 사회 관계망, 고용 시장, 사이버 안보 및 생물 테러에 이르기까지 AI가 미칠 파급력은 전면적이며, 경제 구조와 노동 시장의 근본적인 재편을 피할 수 없다고 강조했습니다. 특히 업계 내부자들의 경고는 결코 과장이나 거짓이 아니며, 초지능에 근접할수록 기술적 통제권과 안전장치를 확보하는 것이 인류 전체의 생존 과제가 될 것이라고 지적했습니다. 단순한 혁신 경쟁을 넘어, 고용과 경제를 뒤흔들 특이점의 위협에 사회 전체가 경각심을 가져야 한다는 메시지입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/857246882_1156378063713974_8781178401092054636_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=NDAxNTEzMzQzNDIzNzI5NjYyOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=QmwVcnpXlAQQ7kNvwHfphhd&amp;_nc_oc=Adq6RKe_yrYBRrBm-TXqSZxhM0ToFCFsPbCNn7EQkht7x2pMhATdaTrP9ZxOjhEfdeI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;oh=00_AQPTBiLjt2RuuUT_VHU3LsxUgncopgQgsKxhgqpr32MfVw&amp;oe=6AE2E4AE\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQPjjI0AEMYkVLpvbb7aifK0k3CWt4PoNHMVOMF4Tzs6FSI8mwBrcpmPAX1f0wTUqsKnf0_LMSodIP9A2i2e4DplCF13owFD5Lrt_0U.mp4?_nc_cat=109&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=zgCEqBETOHUQ7kNvwG96aQm&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI5NTQwNzExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=fb0e60c9321cc1c0&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC85Njk3RDU5NjM5MTA0OURCOEExQTIxMTdEMUVBNTQ2OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0M2M0IxNUIwREVCMDQ1NDRBNjA3QUE5QTNGRTM4NTM5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA8vK94p_2PxUCKAJDMywXQF9v752yLQ4YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=0HyumwLK3kB4LHycM0yDug&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQMHkzQqPYHPaCVDPlZ2hIaw6h70pfFw5tW064S3bKkuzQ&amp;oe=6ADEFC87\"></video></p>",
-    "summaryKo": "빌 게이츠는 AI 모델 능력이 임계점을 넘어 역사상 '가장 위험한 기술'이 되었다고 경고했다. 과거 기술 충격이 현실화되지 않았으니 이번에도 기우일 것이라는 생각은 오산이며, 고용·사이버 보안·생물 테러까지 파급력이 전면적이라고 강조했다.",
-    "tags": [
-      "AI안전",
-      "노동시장"
-    ],
-    "entities": [
-      "빌 게이츠"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "42efe1d22e8b76f8",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Increasing number of UG authors in A* conferences with no supervisor [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/",
-    "publishedAt": "2026-10-24T14:18:07+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>What do you all think about this? It seems increasingly common for undergraduate students to conduct research and publish at A* conferences without a supervisor. As a graduate student, I find it both impressive and intimidating, and it sometimes makes me question my own progress.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Invariant_n_Cauchy\"> /u/Invariant_n_Cauchy </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/\">[comments]</a></span>",
-    "summaryKo": "학부생이 지도교수 없이 A* 학회에 논문을 내는 사례가 늘고 있다는 데 대한 의견을 묻는 글이다. 대학원생인 작성자는 인상적이면서도 위축된다고 밝혔다.",
-    "tags": [
-      "학계",
-      "연구 문화"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-25T21:03:00.164Z"
-  },
-  {
-    "id": "398e9021e2e1d000",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "AI 왕초보들을 위한 GPT코덱스&어사이드 설치 및 활용법 총정리 (GPT, Aside, 클로드)",
-    "url": "https://www.youtube.com/watch?v=Hol_hJwEmog",
-    "publishedAt": "2026-10-24T11:09:23+00:00",
-    "rawText": "AI 왕초보들을 위한 GPT코덱스&어사이드 설치 및 활용법 총정리 (GPT, Aside, 클로드)",
-    "videoId": "Hol_hJwEmog",
-    "summaryKo": "GPT 코덱스와 어사이드(Aside)를 설치하고 연결해 스케줄 관리 같은 일상 업무를 자동화하는 법을 초보자에게 90분간 알려주는 대담 영상이다. 로그인이 필요한 폐쇄형 물류몰과 노션 공유 페이지까지 GPT가 어사이드로 직접 조작하는 모습을 시연한다.",
-    "tags": [
-      "Codex",
-      "컴퓨터 사용",
-      "입문"
-    ],
-    "entities": [
-      "OpenAI",
-      "Codex",
-      "Aside",
-      "Notion",
-      "Claude"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "8237d883e989cdce",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "「헤르메스 에이전트」 이 영상 하나로 끝냅니다 (53분 총정리)",
-    "url": "https://www.youtube.com/watch?v=Ro7sTspmJHo",
-    "publishedAt": "2026-10-24T10:00:09+00:00",
-    "rawText": "「헤르메스 에이전트」 이 영상 하나로 끝냅니다 (53분 총정리)",
-    "videoId": "Ro7sTspmJHo",
-    "summaryKo": "헤르메스 에이전트를 5월부터 써온 경험으로 정리한 53분 영상이다. 서버에서 24시간 도는 자기개선형 자동화 에이전트로, 백그라운드 병렬 작업과 Codex CLI 연동, 컴퓨터 사용, 영상 생성 등을 다루고 세컨드 브레인과 멀티에이전트 팀 활용을 보여준다.",
-    "tags": [
-      "Hermes Agent",
-      "에이전트",
-      "자동화"
-    ],
-    "entities": [
-      "Hermes Agent",
-      "OpenClaw",
-      "Codex",
-      "Grok"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "3f4cbed298beca7f",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "클로드로 영상 만드는 오픈소스 3개 #ai #claude #anthropic",
-    "url": "https://www.youtube.com/shorts/kwHMECJH88I",
-    "publishedAt": "2026-10-24T09:12:54+00:00",
-    "rawText": "클로드로 영상 만드는 오픈소스 3개 #ai #claude #anthropic",
-    "videoId": "",
-    "summaryKo": "Claude로 영상을 만드는 무료 오픈소스 3개를 소개한다. 영상을 코드로 만드는 Remotion, 웹사이트 화면을 영상으로 바꾸는 Hyperframe, 121개 도구로 음악·자막·참고 클립까지 자동 처리하는 Open-Monteage다.",
-    "tags": [
-      "영상생성",
-      "Remotion",
-      "오픈소스"
-    ],
-    "entities": [
-      "Claude",
-      "Remotion",
-      "Hyperframe",
-      "Open-Monteage"
-    ],
-    "cats": [
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "7cdc75d954520547",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "아직 대시보드 직접 만드세요? 클로드·코덱스로 분석부터 시각화까지 한번에!",
-    "url": "https://www.youtube.com/watch?v=yXt2Xxju5Rs",
-    "publishedAt": "2026-10-24T05:00:20+00:00",
-    "rawText": "아직 대시보드 직접 만드세요? 클로드·코덱스로 분석부터 시각화까지 한번에!",
-    "videoId": "yXt2Xxju5Rs",
-    "summaryKo": "Claude와 Codex에 대시보드 생성 기능이 들어와 BigQuery 데이터로 분석부터 시각화·공유까지 대화로 할 수 있다. 18만 행 가상 판매 데이터로 두 도구를 비교하며, Claude는 DB 연동이, Codex는 공유·배포가 더 편하다고 평가한다.",
-    "tags": [
-      "대시보드",
-      "데이터 분석",
-      "BigQuery"
-    ],
-    "entities": [
-      "Claude",
-      "Codex",
-      "BigQuery"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "bda84acb7f3fd703",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "AI가 코드 짜주는데 도대체 취업은 어떻게 하나 (2026 취업 설문)",
-    "url": "https://www.youtube.com/watch?v=FrZwMSz8Soc",
-    "publishedAt": "2026-10-24T04:54:55+00:00",
-    "rawText": "AI가 코드 짜주는데 도대체 취업은 어떻게 하나 (2026 취업 설문)",
-    "videoId": "FrZwMSz8Soc",
-    "summaryKo": "잡코리아의 2026년 하반기 구직자 설문을 바탕으로 AI 시대 개발자 취업 전략을 짚는다. 서류 단계 탈락과 AI 자소서 선별 도입이 늘었다며, 무작정 지원보다 기업별 맞춤 지원과 문제 해결 경험·성과 중심의 이력서를 권한다.",
-    "tags": [
-      "개발자 취업",
-      "AI 채용"
-    ],
-    "entities": [
-      "잡코리아"
-    ],
-    "cats": [
-      "기업·정책",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "23d5287077b0cb6b",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 오픈AI CEO 샘 알트만(Sam Altman)은 초기 오픈AI가 사실상 자신의 “은퇴 프로젝트”였다고 밝혔습니다. 당초 소규모 연구소에서 초지능을 개발...",
-    "url": "https://www.threads.com/t/De2eYSxDnSe",
-    "publishedAt": "Fri, 23 Oct 2026 21:00:58 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI CEO 샘 알트만(Sam Altman)은 초기 오픈AI가 사실상 자신의 “은퇴 프로젝트”였다고 밝혔습니다. 당초 소규모 연구소에서 초지능을 개발해 세상에 내놓기만 하면 알아서 혜택이 돌아갈 것이라 여겼지만, 기술의 발전 경로는 예상과 전혀 달랐습니다. 결국 강력한 AI를 실제로 사회에 전달하기 위해서는 직접 거대한 제품 기업으로 전환해야만 했습니다. 알트만은 AI가 “전기나 트랜지스터 같은 보편적 경제 동력”에 가깝다고 정의했습니다. 이를 사람들의 손에 쥐여주기 위해 인류 역사상 그 어떤 프로젝트보다 막대한 연산 자원과 인프라를 구축해야 했으며, 챗GPT 출시와 함께 연구소는 하룻밤 사이에 글로벌 빅테크 기업으로 진화했습니다. 단순한 연구를 넘어 AI가 실물 경제와 인프라의 거대한 축으로 자리 잡은 순간입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/864195830_1653221276592974_1722369273952472139_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=NDAxNDUyOTcyODY2MDUzNDQzMA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=a0czvDp2MV4Q7kNvwGk-KVt&amp;_nc_oc=AdoE89eVhz35pUqUgo85yASPKwV5eXtQNw4cIK4Xh_zzjsqEif75rktPB7K4groPgYA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_ss=7a20f&amp;oh=00_AQOlJVLBkEk7j1Zn2ct2B0478CdT345rwxT5iUFPX4JUcg&amp;oe=6AE1A0D5\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQPR8QrkxC-T0zO4ag769YLdwqlv_iYYMAhSo2ml3H9Q-pk39PkILN287TPsC8fTdI4JAnsKkeZZQuYecJLUZ7fT--48o3tFnRVHXwM.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=7nE2kX8SsowQ7kNvwHhjwZJ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI4ODAxMzAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTY5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=f7d03a8a1bc59cd2&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83MEU5QkQ5NDdEQUQ0QzJFOEVCRUVBMEM4NENBNjE5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0MwODNDRkVBMDNBNDQ3NzBCOTMxRUZGQUM2M0E1MDNEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA9aHKu5v2PxUCKAJDMywXQGUt2yLQ5WAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQPcV7w5RBCPINvc6XNCwwqJ8Dnnnq6tZ_dkVPwyxJmZow&amp;oe=6ADD9135\"></video></p>",
-    "summaryKo": "샘 알트만은 초기 OpenAI를 사실상 자신의 \"은퇴 프로젝트\"로 여겼다고 밝혔다. 연구소가 만든 초지능을 내놓기만 하면 될 줄 알았지만, 실제로는 거대한 제품 기업으로 전환해야 했다고 말했다. AI를 전기·트랜지스터 같은 범용 경제 동력으로 규정했다.",
-    "tags": [
-      "AI 산업",
-      "인터뷰"
-    ],
-    "entities": [
-      "Sam Altman",
-      "OpenAI",
-      "ChatGPT"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "9124e77390136038",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "[약국에서 바로 쓰는 AI] Claude Code로 약물 작용기전 영상 만들기",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=546990",
-    "publishedAt": "2026-10-24 05:48:00",
-    "rawText": "“PPI를 왜 식사 전에 먹어야 하나”는 약국에서 자주 받는 질문이지만, 말로 설명한 작용기전은 오래 기억되지 않는다.지난 편(11편)의 품절약 현황판에 이어 이번 편에서는 Claude Code와 코드 기반 영상 도구 Remotion으로 PPI(양성자 펌프 억제제) 작용기전을 설명하는 30초 환자용 영상을 만든다. AI 영상에는 틀린 내용이 그럴듯하게 섞일 수 있으므로, 대본을 쓰고 근거 논문으로 확인한 뒤 약사가 승인한 내용만 영상으로 그린다. 준비 사항Claude Code는 Claude 유료 플랜에서 쓸 수 있으며, 채팅창의 C",
-    "summaryKo": "약사공론 연재 '약국에서 바로 쓰는 AI' 12편은 Claude Code와 코드 기반 영상 도구 Remotion으로 PPI 작용기전을 설명하는 30초 환자용 영상을 만든다. AI 영상에 틀린 내용이 섞일 수 있어 대본을 쓰고 근거 논문으로 확인한 뒤 약사가 승인한 내용만 영상화하는 절차를 강조한다.",
-    "tags": [
-      "Claude Code",
-      "Remotion",
-      "약국"
-    ],
-    "entities": [
-      "Claude Code",
-      "Remotion",
-      "약사공론"
-    ],
-    "cats": [
-      "코딩·개발",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-24T21:03:14.940Z"
-  },
-  {
-    "id": "03284c5bb8b6553d",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "OpenSSL 4.1.0 - DTLS 1.3과 GREASE 지원 추가",
-    "url": "https://news.hada.io/topic?id=35885",
-    "publishedAt": "2026-10-24T05:45:59+09:00",
-    "rawText": "OpenSSL 4.1.0은 DTLS 1.3, GREASE, SSL 리스너 API의 DTLS 지원을 추가한 기능 릴리스임 암호 연산 최적화로 ppc64le의 ML-DSA/ML-KEM NTT 연산과 x86_64의 ML-DSA, SHAKE x4, AES-CBC 복호화 성능을 개선함 ts...",
-    "summaryKo": "OpenSSL 4.1.0이 DTLS 1.3, GREASE, SSL 리스너 API의 DTLS 지원을 추가했다. ppc64le의 ML-DSA/ML-KEM, x86_64의 ML-DSA·SHAKE·AES-CBC 복호화 성능도 개선됐다.",
-    "tags": [
-      "OpenSSL",
-      "암호화",
-      "DTLS"
-    ],
-    "entities": [
-      "OpenSSL"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "283df05cdcfb9c30",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "pgrust 제거: 쿼리별 전용 커널과 결과 캐싱을 이용한 벤치마크 부정행위",
-    "url": "https://news.hada.io/topic?id=35884",
-    "publishedAt": "2026-10-24T05:42:59+09:00",
-    "rawText": "ClickBench에서 pgrust 항목을 제거하는 PR이 병합됨. 제거 사유는 43개 벤치마크 쿼리에 맞춘 전용 실행 경로와 이전 실행 결과를 재사용하는 캐시가 벤치마크 규칙을 위반한다는 것임 공개 소스와 릴리스 바이너리에서 쿼리별 수작업 커널, 벤치마크 SQL 내장, 특...",
-    "summaryKo": "ClickBench에서 pgrust 항목이 제거됐다. 43개 벤치마크 쿼리에 맞춘 전용 실행 경로와 이전 결과를 재사용하는 캐시가 규칙 위반으로 판단됐다.",
-    "tags": [
-      "벤치마크",
-      "데이터베이스"
-    ],
-    "entities": [
-      "ClickBench",
-      "pgrust"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "0da87adbed15d7ee",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "캐나다인들이 C-22 법안에 반대할 시간이 얼마 남지 않음",
-    "url": "https://news.hada.io/topic?id=35883",
-    "publishedAt": "2026-10-24T05:39:59+09:00",
-    "rawText": "정부의 감시 권한을 대폭 확대하는 C-22 법안이 캐나다 하원을 통과해 상원에서 심의 중이며, 시민단체는 법안 저지를 위한 청원 참여를 촉구함 통신사와 메시징 앱 등에 감시 협조를 강제하고, “시스템 전반의 보안 취약성”을 초래하지 않는다는 조건으로 백도어 설치 명...",
-    "summaryKo": "캐나다 하원을 통과해 상원 심의 중인 C-22 법안은 통신사·메시징 앱에 감시 협조를 강제하고 백도어 설치 명령을 허용할 수 있다. 시민단체가 반대 청원 참여를 촉구하고 있다.",
-    "tags": [
-      "감시",
-      "프라이버시",
-      "규제"
-    ],
-    "entities": [
-      "Canada",
-      "C-22"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "c75f98e00380bae0",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 엔비디아 CEO 젠슨 황(Jensen Huang)은 사람들이 기대하는 극적인 위상 변화보다, 기존의 모든 작업이 비약적으로 향상되는 점진적 혁신에 주목했...",
-    "url": "https://www.threads.com/t/De2Xeu4kdRd",
-    "publishedAt": "Fri, 23 Oct 2026 20:00:41 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>엔비디아 CEO 젠슨 황(Jensen Huang)은 사람들이 기대하는 극적인 위상 변화보다, 기존의 모든 작업이 비약적으로 향상되는 점진적 혁신에 주목했습니다. 검색, 글쓰기, 디자인, 암 조기 진단, 자율주행 및 항공기 연료 효율 설계까지 산업 전반의 역량이 AI를 통해 고도화되고 있습니다. AI 없이는 불가능했던 엔지니어링과 문제 해결이 현실화되면서 전체 생산성 구조가 근본적으로 바뀌고 있는 것입니다. 그는 “가장 본질적인 개념은 AI가 당신의 역량을 증폭시키는 도구라는 점”이라고 강조했습니다. 인간의 능력을 대체하기보다 상상할 수 없던 수준으로 확장하는 증폭 도구로서, AI는 산업 전반의 기술 성능과 경제적 생산성을 끌어올리는 핵심 동력이 될 것입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/857388321_2052451032132715_3081536357457846266_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAxNDQ5OTM4NDg0MjYzODQyOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=6FJAtRfZBAgQ7kNvwHzv-Ih&amp;_nc_oc=AdqcKp_l8hUH2hAsNXjAr-9uGE_Z-c8z2shPi1iAsctsqCPbzoNjF_XOp9HcedtWJlM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_ss=7a20f&amp;oh=00_AQNnm8tjYtnnYzb21oAEyEdVjN-arwfpeA6qzgNd0wv7-Q&amp;oe=6AE187D4\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQPQShqszbnBdWFwQUbzuiPAeeKJPhTiuRAtGcSYbh-X1QnzikXvxJtWjCNJ3lJbcGvJSa--yniIlMONUY1TXlHuH51Vl6JpsoCUeVs.mp4?_nc_cat=104&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=eonYh3pIOc8Q7kNvwH8L5bh&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI4Nzc4MTQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=4ed50d0b7a64e878&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9BOTM0MkNFMkY1RDI0MzE5QkUxNDdERDdDNzM1MThFN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0QzRkFFRkZCMDM0MTRDQTI4REM2NTRBNTRDNkNFRkYwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAicepqpv2PxUCKAJDMywXQFQYQYk3S8cYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;_nc_enc=UcBe72IjRr_7oEQ3sYWkx-zEVR8HjZlIWEEj-7d-PQkNRWEXV_3hKhSk9HIAapkLzkxAL3ZuK67yz91-0lcGdzt7jQcBXvghl9HjZ3MJys-1aq95nkGAvZqj4_4&amp;oh=00_AQM6a54u3htNfwB_1TjsWZZbMaw6CXl7-it-uOGVDOMkGw&amp;oe=6ADD9EB0\"></video></p>",
-    "summaryKo": "젠슨 황은 극적인 변화보다 기존 모든 작업이 비약적으로 나아지는 점진적 혁신에 주목했다. AI는 인간을 대체하기보다 역량을 증폭하는 도구이며 산업 전반의 생산성을 끌어올릴 핵심 동력이라고 강조했다.",
-    "tags": [
-      "AI 산업",
-      "생산성",
-      "인터뷰"
-    ],
-    "entities": [
-      "Jensen Huang",
-      "NVIDIA"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "2810a1b241e7ed02",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: OnKey - 노래를 못해서 음정이 어긋나는 곳을 보여주는 앱을 만들었습니다",
-    "url": "https://news.hada.io/topic?id=35881",
-    "publishedAt": "2026-10-24T04:33:25+09:00",
-    "rawText": "OnKey는 Spotify, Apple Music, 브라우저의 YouTube에서 재생하는 노래를 따라 부르며 연습하는 무료 오픈소스 Mac용 보컬 훈련 앱임 처음 재생할 때는 가사를 보여주고 곡이 끝나면 멜로디를 학습함. 이후에는 음표 위에 사용자의 음정을 실시간으로 겹쳐 보여주며...",
-    "summaryKo": "OnKey는 Spotify·Apple Music·YouTube에서 재생 중인 노래를 따라 부를 때 음정이 어긋난 곳을 실시간으로 보여주는 무료 오픈소스 Mac 앱이다. 곡을 한 번 들으면 멜로디를 학습해 음표 위에 사용자의 음정을 겹쳐 보여준다.",
-    "tags": [
-      "오픈소스",
-      "음성",
-      "Show HN"
-    ],
-    "entities": [
-      "OnKey",
-      "Spotify",
-      "Apple Music",
-      "YouTube"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "82b1ec58b1763e38",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 마이크로소프트 CEO 사티아 나델라는 차세대 OS의 본질이 사람과 AI 에이전트의 공존에 있다고 밝혔습니다. 그는 코딩 에이전트의 폭발적인 성공...",
-    "url": "https://www.threads.com/t/De2QmWiDi-9",
-    "publishedAt": "Fri, 23 Oct 2026 19:00:33 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>마이크로소프트 CEO 사티아 나델라는 차세대 OS의 본질이 사람과 AI 에이전트의 공존에 있다고 밝혔습니다. 그는 코딩 에이전트의 폭발적인 성공을 언급하며, 클라우드 모델을 기반으로 하더라도 실제 작업은 데스크톱과 파일 시스템을 강도 높게 활용해 이루어진다고 짚었습니다. 파일 시스템을 활용해 도구를 쓰고 작업을 조율하는 PC 환경이야말로 에이전트에 최적화된 공간이라는 설명입니다. 나델라는 윈도우의 차기 과제로 “사용자와 에이전트 둘 다를 위해 타협 없이 작동하는 컴퓨터를 만드는 것”을 제시했습니다. 이를 위해 운영체제 안에서 사람과 에이전트의 정체성을 명확히 분리하고, 권한 관리와 격리(containment)를 독립적으로 통제하는 ‘제1원칙’ 기반의 설계를 준비하고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/858840422_1811875513053059_3978446864663980240_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAxNDQ2OTEyMjEyNTM0NDcwMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=aWPcA9a9wwcQ7kNvwEIy5sK&amp;_nc_oc=AdoRfNX_INH_NxHjG0HMw3sGqsdwq5h4YylqmeYvcQ6p0_8vHeuGO7gWHOjhm2XgGp0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_ss=7a20f&amp;oh=00_AQPA5vDAY4j9PphIf1Qdi35yVty80rsKP8IoWj_j6v9qcg&amp;oe=6AE1A8AF\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQOVZDsj9k4gH0cqbxH1x3jfkluJa_7RUl-UM6fnkQDwZR-suTXRN0AhOExEOWfLXCE8k01Jqy9ADwmXhu9onLeIZIWgP7CH3tlB9os.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=4DMpLR6lAr8Q7kNvwGazmmL&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI2NTcwMDgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTM1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=4211d2528965d369&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FNzNBQzUzMzg5NEM0Mjk2QTgyM0Y1OEU4QTcyOTI2RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JCNTVDMDdBMkRDMzQ5Q0RCQUVBODc5RkVERTU2RUZDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA08WYvY72PxUCKAJDMywXQGD1ocrAgxIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQO7rlRZBRcXEI_2ueMRhjx8n9bzSQeDUqzqepDVCk-50Q&amp;oe=6ADDB9F3\"></video></p>",
-    "summaryKo": "사티아 나델라는 차세대 OS의 본질이 사람과 AI 에이전트의 공존이라고 밝혔다. 코딩 에이전트는 데스크톱과 파일 시스템을 적극 활용하므로, 윈도우는 사람과 에이전트의 정체성·권한·격리를 분리하는 설계를 준비 중이다.",
-    "tags": [
-      "에이전트",
-      "운영체제",
-      "인터뷰"
-    ],
-    "entities": [
-      "Satya Nadella",
-      "Microsoft",
-      "Windows"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "68957a0cd220ca2a",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "eMudhra, Mozilla 루트 프로그램 조사 답변 기한 무시하고 소셜 미디어 탓",
-    "url": "https://news.hada.io/topic?id=35880",
-    "publishedAt": "2026-10-24T03:43:37+09:00",
-    "rawText": "eMudhra 중간 인증서 8개의 개인 키가 모두 256 미만 정수여서 사실상 즉시 복구할 수 있는 상태였음. Mozilla도 제보자의 방법을 모른 채 독립적으로 키를 복구해 키 생성 결함을 확인함 Mozilla의 조사 답변 기한과 eMudhra가 추가로 요청한 24시간이 모두 지난 ...",
-    "summaryKo": "eMudhra 중간 인증서 8개의 개인 키가 256 미만 정수여서 즉시 복구 가능한 상태였고, Mozilla도 독립적으로 이를 확인했다. eMudhra는 조사 답변 기한을 넘기고 소셜 미디어를 탓해 논란이 됐다.",
-    "tags": [
-      "PKI",
-      "인증서",
-      "보안"
-    ],
-    "entities": [
-      "eMudhra",
-      "Mozilla"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "030254be4b8f41cb",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Kimi K3.1 Pro와 K3.1 Pro Highspeed - 100만 토큰 문맥을 지원하는 3T급 모델",
-    "url": "https://news.hada.io/topic?id=35879",
-    "publishedAt": "2026-10-24T03:40:37+09:00",
-    "rawText": "Kimi K3.1 Pro는 K3의 사후 학습을 확대해 코딩, 3D 제작, 금융 조사와 에이전트 역량을 강화한 3T급 모델로, 100만 토큰 문맥을 지원하며 전체 가중치는 2026년 11월 4일까지 공개할 예정임 K3.1 Pro Highspeed도 함께 출시하며, Kimi 측에 따르...",
-    "summaryKo": "Kimi K3.1 Pro와 2~3배 빠른 Highspeed 버전이 공개됐다. 100만 토큰 문맥을 지원하는 3T급 모델로 코딩·3D·금융·에이전트 역량을 강화했고, 전체 가중치는 2026년 11월 4일까지 공개 예정이다. 벤치마크 수치는 자체 평가라 독립 검증이 필요하다.",
-    "tags": [
-      "LLM",
-      "장문 문맥",
-      "오픈 웨이트"
-    ],
-    "entities": [
-      "Kimi",
-      "Moonshot AI",
-      "K3.1 Pro"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "f900a1510cc8a324",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 애플 하드웨어 엔지니어링 수석 부사장 존 터너스(John Ternus)는 AI 시대의 핵심 경쟁력은 기술 자체보다 '사용자 경험과 제품'에 있다고 강조했...",
-    "url": "https://www.threads.com/t/De2JtWSDqW1",
-    "publishedAt": "Fri, 23 Oct 2026 18:00:21 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>애플 하드웨어 엔지니어링 수석 부사장 존 터너스(John Ternus)는 AI 시대의 핵심 경쟁력은 기술 자체보다 '사용자 경험과 제품'에 있다고 강조했습니다. 그는 “우리의 초점은 기술이 아니라 제품이며, 기술을 활용해 사용자가 진정으로 사랑하는 경험을 만드는 것”이라고 말했습니다. 사용자는 뒤에서 AI가 작동하는지 알 필요 없이, 단지 이전에는 불가능했던 새로운 기능을 쉽고 재미있게 누리기만 하면 된다는 설명입니다. 특히 기기에 축적된 개인 맥락 데이터를 온디바이스 프라이버시와 결합해 생산성과 창의성을 끌어올리는 것이 핵심 차별점이라고 짚었습니다. 거대 모델의 성능 경쟁을 넘어, 실제 기기 안에서 개인화된 가치를 안전하게 전달하는 통합 하드웨어·소프트웨어 생태계가 향후 AI 경제와 제품 경쟁력의 중심이 될 것임을 시사했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/862490603_1797027494691617_9199837675504027688_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;ig_cache_key=NDAxNDQzODgxNjU2NzY5ODg2OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=hJGzT9ViYf4Q7kNvwEcfhor&amp;_nc_oc=Adrw4NleXJM1wzc_tMGo2a5Q2kcR_0kLg5RrpDNFAaY9ZFXYYrP9O_bn2cd68IWkPjU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_ss=7a20f&amp;oh=00_AQMsMkUwflpEDHeN49nDyadlikgfYqsweAUnfZVZ5dhnjA&amp;oe=6AE19763\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQNVnsAeuoxkupH_n_8nnHi07z4PbHNeqTR2Eccji8ybYVXg5L7jrRtzcxnAkOOkOdzYbZL6qh8zJm8G5Lcpz3XAGSI9-nErgxeWpbQ.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=K2bzWPyNF8oQ7kNvwF2n7Vu&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTI2NTY5NzgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTA4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=fb3251aea04db968&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FRDdCREM3Q0FGRjY0RkNFQUEzNTE1NEQzRTBBODcyQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkxOEQ3RTBBMjBBMTRBNDk5RUI0QzJBQkY4Rjg5NzIzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAxff7vI72PxUCKAJDMywXQFsO6XjU_fQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=1tij2NNw7StHy292ZSNxVQ&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQMEfKGcCTZJJP8EgqWPQPk3BtZ81uCV-dDQfdpqPVFBNg&amp;oe=6ADDB8A8\"></video></p>",
-    "summaryKo": "애플의 존 터너스는 AI 시대 경쟁력은 기술 자체보다 사용자 경험과 제품에 있다고 말했다. 기기에 쌓인 개인 맥락을 온디바이스 프라이버시와 결합하는 것이 핵심 차별점이라고 짚었다.",
-    "tags": [
-      "온디바이스 AI",
-      "제품",
-      "인터뷰"
-    ],
-    "entities": [
-      "John Ternus",
-      "Apple"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
-  },
-  {
-    "id": "c058912916bfa268",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "과학의 낯선 공간: 정합적이지만 인지적으로 접근하기 어려운 연구 방향",
-    "url": "https://news.hada.io/topic?id=35878",
-    "publishedAt": "2026-10-24T02:38:13+09:00",
-    "rawText": "과학적 정합성과 인지적 가용성을 별도로 모델링해, 기존 지식에 비추어 타당하면서도 현재 연구자 집단이 쉽게 떠올리기 어려운 연구 방향을 탐색하는 프레임워크임 논문을 재조합 가능한 아이디어 원자로 분해하고, 조합의 연구 가능성과 기존 ...",
-    "summaryKo": "과학적 정합성과 인지적 가용성을 따로 모델링해, 타당하지만 연구자들이 쉽게 떠올리지 못하는 연구 방향을 찾는 프레임워크다. 논문을 재조합 가능한 아이디어 원자로 분해하는 방식을 쓴다.",
-    "tags": [
-      "과학적 발견",
-      "연구 방법론"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-23T21:09:57.705Z"
   }
 ]
