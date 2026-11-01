@@ -1,0 +1,26 @@
+{
+  "points": [
+    "'How many r's are in strawberry?'는 o200k_base에서 8토큰이고 ' strawberry'는 단일 토큰(id 101830)이다.",
+    "글자 단위는 시퀀스가 4배쯤 길고 단어 단위는 어휘가 너무 커서 하위 단어 토큰을 쓴다.",
+    "BPE 병합을 거쳐 strawberry가 st|raw|berry로 쪼개진다.",
+    "'strawberry', ' strawberry', 'Strawberry'는 서로 다른 토큰열이다.",
+    "추론 모델은 글자를 풀어 쓴 뒤 세므로 글자 세기를 더 잘한다."
+  ],
+  "sections": [
+    {
+      "heading": "토큰화의 기본",
+      "body": "문장이 토큰 id로 바뀌므로 모델에게는 철자의 r이 보이지 않는다. 공백이 단어에 붙는 점이 대소문자·공백 변형마다 다른 토큰열을 만든다."
+    },
+    {
+      "heading": "BPE 시연",
+      "body": "가상의 텍스트에서 병합을 한 단계씩 적용해 strawberry가 조각으로 쪼개지는 과정을 보여 준다. 모든 분할은 tiktoken 0.14.0 실행 결과다."
+    },
+    {
+      "heading": "추론 모델과 다국어",
+      "body": "OpenAI의 논문 사례에서 DeepSeek-R1은 철자를 풀어 쓴 뒤 세고 V3는 2나 3으로 답했다. 같은 힌디어 문장이 GPT-4에선 21토큰, GPT-4o에선 5토큰이다."
+    }
+  ],
+  "quotes": [
+    "같은 힌디어 문장이 GPT-4 토크나이저로 21토큰, GPT-4o로 5토큰"
+  ]
+}
