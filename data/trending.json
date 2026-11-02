@@ -24,7 +24,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "cac24968e5aa0d5b",
@@ -49,7 +49,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -78,7 +78,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "8e0b9acadf5d4ff9",
@@ -103,7 +103,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "c5324f23ea2e54f8",
@@ -131,7 +131,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "029f4f6cd7936fd2",
@@ -157,7 +157,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -182,7 +182,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "653d82f9a2953196",
@@ -231,7 +231,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "da867975a5a80708",
@@ -256,7 +256,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "0337f1c85ce865c7",
@@ -306,7 +306,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "1e97fcf6e4c7f154",
@@ -356,7 +356,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "2eb678169a42e513",
@@ -440,7 +440,31 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
+  },
+  {
+    "id": "50a561c320a6e2b2",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "speridlabs/idol",
+    "url": "https://huggingface.co/speridlabs/idol",
+    "publishedAt": "2026-10-28T15:55:17.000Z",
+    "rawText": "image-to-3d | idol, gaussian-splatting, 3d, image-to-3d, license:apache-2.0, region:us",
+    "score": 387,
+    "rank": 7,
+    "summaryKo": "speridlabs의 idol은 이미지에서 3D 가우시안 스플랫을 만드는 image-to-3d 모델로 Apache-2.0 라이선스다. 메타데이터만 있어 제목과 태그 기준으로 정리했다.",
+    "tags": [
+      "3D",
+      "Gaussian Splatting"
+    ],
+    "entities": [
+      "speridlabs"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "92c1824269f45469",
@@ -465,7 +489,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "a3804748f741c48e",
@@ -494,7 +518,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "48f79bbc2fbf8c00",
@@ -548,7 +572,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "ca82f9b3fbd0d05e",
@@ -573,7 +597,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "37ea901da6ec4d67",
@@ -623,7 +647,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "d4b568c20a8e5dfa",
@@ -678,7 +702,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "6c5b89fb0ac8882a",
@@ -784,6 +808,30 @@
     "fetchedAt": "2026-10-26T21:05:30.225Z"
   },
   {
+    "id": "afc305b6db5c414f",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "publishedAt": "2026-09-20T15:51:13.000Z",
+    "rawText": "text-to-image | gguf, qwen, image-generation, comfyui, comfyui-gguf, mlx, fp8, nvfp4",
+    "score": 290,
+    "rank": 10,
+    "summaryKo": "Qwen-Image-2.1의 검열 해제 버전을 GGUF, MLX, FP8, NVFP4 등으로 양자화한 text-to-image 모델이며 ComfyUI에서 쓸 수 있다. 메타데이터만 있어 제목과 태그 기준으로 정리했다.",
+    "tags": [
+      "양자화",
+      "이미지 생성"
+    ],
+    "entities": [
+      "Qwen-Image"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
+  },
+  {
     "id": "5a9bda72c1d1f834",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -833,7 +881,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "86c71dfd3666e265",
@@ -858,7 +906,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   },
   {
     "id": "762f94fe4084efbd",
@@ -881,6 +929,6 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
+    "fetchedAt": "2026-11-02T21:03:13.330Z"
   }
 ]
