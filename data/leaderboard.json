@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "windowLabel": "2026년 10월 19일~11월 3일 기준",
-  "updatedAt": "2026-11-02T21:03:06Z",
+  "updatedAt": "2026-11-03T21:04:50Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -59,16 +59,16 @@
       "ranks": [
         {
           "rank": 1,
-          "model": "Claude Sonnet 5",
-          "score": "96.2%",
-          "basis": "GPQA Diamond 96.2% 1위 (Vellum)",
-          "source": "vellum"
+          "model": "GPT-6 Astra",
+          "score": "96.3%",
+          "basis": "GPQA Diamond 96.3% 1위 (Artificial Analysis 독립 평가)",
+          "source": "llmleaderboard"
         },
         {
           "rank": 2,
-          "model": "GPT-6 Astra",
-          "score": "96%",
-          "basis": "GPQA Diamond 96%",
+          "model": "Claude Sonnet 5",
+          "score": "96.2%",
+          "basis": "GPQA Diamond 96.2% 1위 (Vellum)",
           "source": "vellum"
         },
         {
@@ -233,8 +233,8 @@
         {
           "rank": 1,
           "model": "GPT Image 2.5 Sunburst (max)",
-          "score": "Elo 1222",
-          "basis": "Elo 1222, Arena 1위",
+          "score": "Elo 1223",
+          "basis": "Elo 1223, Arena 1위",
           "source": "artificialanalysis"
         },
         {
@@ -247,8 +247,8 @@
         {
           "rank": 3,
           "model": "GPT Image 2 (high)",
-          "score": "Elo 1186",
-          "basis": "Elo 1186",
+          "score": "Elo 1189",
+          "basis": "Elo 1189",
           "source": "artificialanalysis"
         },
         {
@@ -260,16 +260,16 @@
         },
         {
           "rank": 5,
-          "model": "MAI-Image-2.6",
-          "score": "Elo 1166",
-          "basis": "Elo 1166",
+          "model": "Grok Imagine Image 2.0",
+          "score": "Elo 1168",
+          "basis": "Elo 1168",
           "source": "artificialanalysis"
         },
         {
           "rank": 6,
-          "model": "Grok Imagine Image 2.0",
-          "score": "Elo 1166",
-          "basis": "Elo 1166",
+          "model": "MAI-Image-2.6",
+          "score": "Elo 1167",
+          "basis": "Elo 1167",
           "source": "artificialanalysis"
         },
         {
@@ -296,8 +296,8 @@
         {
           "rank": 10,
           "model": "MAI-Image-2.6-Flash",
-          "score": "Elo 1119",
-          "basis": "Elo 1119",
+          "score": "Elo 1120",
+          "basis": "Elo 1120",
           "source": "artificialanalysis"
         }
       ]
@@ -516,12 +516,12 @@
     {
       "name": "BenchLM.ai",
       "url": "https://benchlm.ai/benchmarks/aime2026",
-      "updated": "2026년 10월 27일"
+      "updated": "2026년 10월 29일"
     },
     {
-      "name": "Vellum LLM Leaderboard",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "updated": "2026년 10월 21일"
+      "name": "LLM Leaderboard (구 Vellum)",
+      "url": "https://llmleaderboard.com/",
+      "updated": "2026년 11월 3일"
     }
   ]
 }
