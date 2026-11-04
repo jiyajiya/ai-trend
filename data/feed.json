@@ -1,5 +1,754 @@
 [
   {
+    "id": "2858ac02eb9cd486",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending",
+    "publishedAt": "Wed, 04 Nov 2026 20:38:23 +0000",
+    "rawText": "Article URL: https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending Comments URL: https://news.ycombinator.com/item?id=50371169 Points: 5 # Comments: 1",
+    "summaryKo": "Bloomberg 보도에 따르면 Apple이 사내 AI 사용 예산을 줄여 지출을 낮추기로 했다. 본문은 확인하지 못해 제목 기준 요약이다.",
+    "tags": [
+      "AI 비용"
+    ],
+    "entities": [
+      "Apple",
+      "Bloomberg"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "ee73afe120258480",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Why is your AI using so many tokens?",
+    "url": "https://blog.raed.dev/posts/context-window/",
+    "publishedAt": "Wed, 04 Nov 2026 20:23:00 +0000",
+    "rawText": "Article URL: https://blog.raed.dev/posts/context-window/ Comments URL: https://news.ycombinator.com/item?id=50370975 Points: 1 # Comments: 0",
+    "summaryKo": "AI가 왜 이렇게 많은 토큰을 쓰는지 컨텍스트 윈도우 관점에서 다룬 블로그 글이다. 본문은 확인하지 못해 제목 기준 요약이다.",
+    "tags": [
+      "토큰",
+      "컨텍스트 윈도우"
+    ],
+    "entities": [],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "91963f93a3962993",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Kenyan startup builds AI around mobile money and low-cost phones",
+    "url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+    "publishedAt": "Wed, 04 Nov 2026 20:17:13 +0000",
+    "rawText": "Article URL: https://spectrum.ieee.org/ai-small-business-mobile-money-startup Comments URL: https://news.ycombinator.com/item?id=50370899 Points: 1 # Comments: 0",
+    "summaryKo": "케냐 스타트업이 모바일 머니와 저가 휴대폰을 중심으로 소상공인용 AI를 만들고 있다는 IEEE Spectrum 기사다. 본문은 확인하지 못해 제목 기준 요약이다.",
+    "tags": [
+      "소상공인 AI",
+      "모바일 머니"
+    ],
+    "entities": [
+      "IEEE Spectrum"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "dc6ce7cb2fb243ec",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Top Platforms to Create AI-Powered Courses and Get Certified",
+    "url": "https://kadhar.dev/blog/top-ai-course-platforms",
+    "publishedAt": "Wed, 04 Nov 2026 20:12:14 +0000",
+    "rawText": "Article URL: https://kadhar.dev/blog/top-ai-course-platforms Comments URL: https://news.ycombinator.com/item?id=50370855 Points: 1 # Comments: 0",
+    "summaryKo": "AI 기반 강좌를 만들고 수료증을 받을 수 있는 플랫폼을 소개하는 글이다. 본문은 확인하지 못해 제목 기준 요약이다.",
+    "tags": [
+      "AI 교육"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "18a41d088f6cdbee",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+    "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+    "publishedAt": "Wed, 04 Nov 2026 20:01:31 +0000",
+    "rawText": "Article URL: https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/ Comments URL: https://news.ycombinator.com/item?id=50370728 Points: 3 # Comments: 0",
+    "summaryKo": "Quanta Magazine이 AI 모델이 자신의 내부 생각을 아는지 검증하는 새 연구를 소개했다. 본문은 확인하지 못해 제목 기준 요약이다.",
+    "tags": [
+      "자기 인식",
+      "해석가능성"
+    ],
+    "entities": [
+      "Quanta Magazine"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "441eddf2a9c07492",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오픈AI CEO 샘 알트만(Sam Altman)은 재귀적 자기 개선(RSI) 시대에 진입하며 “발전의 속도와 통제력 상실 및 권력 집중 위험을 어떻게 방지할 ...",
+    "url": "https://www.threads.com/t/DfVQ_yqCja-",
+    "publishedAt": "Wed, 04 Nov 2026 20:00:29 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI CEO 샘 알트만(Sam Altman)은 재귀적 자기 개선(RSI) 시대에 진입하며 “발전의 속도와 통제력 상실 및 권력 집중 위험을 어떻게 방지할 것인가”가 현재 가장 중요한 화두라고 밝혔습니다. AI 모델의 지능과 성능이 인간 수준을 넘어 폭발적으로 발전함에 따라, 시스템이 인간 대비 얼마나 똑똑해져야 하는지, 그 발전 속도를 어떤 거버넌스 체계로 관리할 것인지가 기술 특이점의 핵심 과제로 떠올랐습니다. 코딩 자동화와 경제 전반을 바꿀 지능 시스템의 확산 속에서 알트만은 “보안, 모니터링, 정렬(Alignment)에 대한 명확한 통제 메커니즘 구축”을 강조했습니다. 단순한 성능 가속을 넘어 기술 독점과 통제 불능 리스크를 통제하는 체계적 안전장치 마련이 다가올 지능 폭발 시대의 필수 전제조건이라고 경고했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/886174965_1752660615838548_3535907059348182446_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=NDAyMzE5NjU5NDU4OTAyMTg4Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=GhBKCl-U4IIQ7kNvwHEz5Lm&amp;_nc_oc=AdrFY7PQVywuBTdjznOxBYHyrQHOjP5JD_KMnlEDOJzBIINGA12aSb8_jSDRcfeWFgI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;oh=00_AQQIX6gRWgUnUeuACmp1K4jLFv2zjdnxDog36TVJGoCpAg&amp;oe=6AF15ADF\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQNYlBusln3FXdCR-DiC6l-82Tx0Dltu5LIxhTaB0KigFIZel_RBmvAPrIaPvM8J7Bq4mOlzApdoqCgd8JqszSbGkTxc26z-lDoMoFI.mp4?_nc_cat=109&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=POGFlMHrtigQ7kNvwE1dkof&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTUyOTA4OTcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=1ca816b3b66f7848&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yMUQ1NjI3NTExNTc0NTA5OURGNDIxRjAzNjgxM0VCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzgxNEYyQTNFOUIwNDQyMDJBMzFDREUzNjhFNDNEREI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA_OqY5af3PxUCKAJDMywXQEcUeuFHrhQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQSCstu5L9vAtLMboh033zcqhJI5jrBzAwaXCN5h45V2jw&amp;oe=6AED75EF\"></video></p>",
+    "summaryKo": "샘 알트만이 AI가 재귀적 자기 개선(RSI) 시대에 들어섰다며, 발전 속도와 통제력 상실, 권력 집중을 어떻게 막을지가 핵심 화두라고 밝혔다. 보안·모니터링·정렬 통제 메커니즘 구축을 강조했다.",
+    "tags": [
+      "RSI",
+      "AI 안전"
+    ],
+    "entities": [
+      "Sam Altman",
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "80f56a9f6caa13d6",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Abdul El-Sayed is the Pause AI candidate: Chinese labs are just spoofing off US",
+    "url": "https://twitter.com/ONagel33303/status/2117452882773684550",
+    "publishedAt": "Wed, 04 Nov 2026 19:57:24 +0000",
+    "rawText": "Article URL: https://twitter.com/ONagel33303/status/2117452882773684550 Comments URL: https://news.ycombinator.com/item?id=50370680 Points: 5 # Comments: 1",
+    "summaryKo": "Abdul El-Sayed를 Pause AI 후보로 규정하며 중국 연구소가 미국을 모방할 뿐이라고 주장하는 트윗 링크다. 본문은 확인하지 못해 제목 기준 요약이다.",
+    "tags": [
+      "AI 정책",
+      "Pause AI"
+    ],
+    "entities": [
+      "Abdul El-Sayed"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "3a41f9480808b685",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+    "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+    "publishedAt": "Wed, 04 Nov 2026 19:55:14 +0000",
+    "rawText": "Article URL: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra Comments URL: https://news.ycombinator.com/item?id=50370654 Points: 27 # Comments: 9",
+    "summaryKo": "Qualcomm Cloud AI 100 Ultra는 150W 전력에 128GB 메모리, 548GB/s 대역폭을 갖춘 AI 가속기 카드다. 데이터센터 추론용 제품으로 보이며 제목 기준 요약이다.",
+    "tags": [
+      "AI 가속기",
+      "추론"
+    ],
+    "entities": [
+      "Qualcomm",
+      "Cloud AI 100 Ultra"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "988e33cedf7304f8",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+    "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+    "publishedAt": "Wed, 04 Nov 2026 18:50:55 +0000",
+    "rawText": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,&#8230;",
+    "summaryKo": "텍사스는 미국에서 가장 빠르게 성장하는 데이터센터 시장이지만, 이번 선거에서 민주당이 상원 의석과 주지사직을 차지하면서 그 입지가 흔들릴 수 있다는 분석이다. 빅테크 AI 인프라 확장에 정치 변수가 생겼다는 점이 핵심이다.",
+    "tags": [
+      "데이터센터",
+      "AI 인프라"
+    ],
+    "entities": [
+      "텍사스",
+      "Big Tech"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "dd2e362e325a0a75",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "GitBook 침해 사고 발생",
+    "url": "https://news.hada.io/topic?id=36604&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T03:44:45+09:00",
+    "rawText": "GitBook이 공유한 사고 안내에 따르면, 11월 2일 19:00 CET 공격자가 일부 인프라 자격 증명에 무단 접근했으며, AI 에이전트를 이용한 정교한 표적 공격이었음GitBook은 공격을 탐지한 뒤 앱과 인증이 필요한 문서 사이트를 중단했으며, 공개 문서는 캐시 데이터를 이용해 가능한 한 오래 서비스함공격자가 Git Sync 시크릿, GitBook 및 외부 서비스 API 토큰, 사이트 방문자가 GitBook Assistant에 입력한 질문에 접근했을 가능성이 있음인프라 전체의 자격 증명과 시크릿을 교체하고 모든 고객 API 토큰을 무효화했으며, 고객에게 …",
+    "summaryKo": "GitBook이 11월 2일 AI 에이전트를 동원한 정교한 표적 공격으로 일부 인프라 자격 증명이 무단 접근되었다고 밝혔다. Git Sync 시크릿, API 토큰, GitBook Assistant 질문이 노출됐을 수 있어 전체 자격 증명을 교체하고 고객 토큰을 무효화했다.",
+    "tags": [
+      "보안 사고",
+      "AI 에이전트 공격"
+    ],
+    "entities": [
+      "GitBook"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "d068bd86c942266b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AMD, 4분기 매출에서 사상 처음 Intel 추월 전망",
+    "url": "https://news.hada.io/topic?id=36602&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T03:38:45+09:00",
+    "rawText": "AMD가 2026년 4분기 매출 약 170억 달러를 전망함. 전망대로라면 매출 150억~160억 달러를 예상하는 Intel을 분기 매출에서 사상 처음 앞서게 됨Epyc 서버 CPU와 Instinct AI 가속기 수요가 성장을 이끌며 3분기 매출이 사상 최대인 133억 7,700만 달러를 기록함. 데이터센터 성장이 클라이언트 부문 감소를 상쇄하며 수익성도 개선됨데이터센터 매출은 전년 대비 97% 증가했고 전체 매출의 64%를 차지함. AMD는 서버 CPU와 AI 사업 확대로 2027년에는 이 비중이 80%를 넘을 것으로 예상함반면 클라이언트/게이밍 사업은 메모리 가격 …",
+    "summaryKo": "AMD가 2026년 4분기 매출 약 170억 달러를 전망해 사상 처음 Intel(150~160억 달러 예상)을 분기 매출에서 앞설 전망이다. 데이터센터 매출이 전년 대비 97% 늘며 Epyc 서버 CPU와 Instinct AI 가속기가 성장을 이끌었다.",
+    "tags": [
+      "AI 반도체",
+      "데이터센터"
+    ],
+    "entities": [
+      "AMD",
+      "Intel",
+      "Epyc",
+      "Instinct"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "ce5fdd5b624130c9",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 메타 수석 과학자 얀 르쿤(Yann LeCun)은 지난 70년간 이어진 치명적인 착각을 지적했습니다. “기계가 지적으로 복잡한 과업을 해낸다고 해서, ...",
+    "url": "https://www.threads.com/t/DfVGvz9AP_-",
+    "publishedAt": "Wed, 04 Nov 2026 18:30:55 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>메타 수석 과학자 얀 르쿤(Yann LeCun)은 지난 70년간 이어진 치명적인 착각을 지적했습니다. “기계가 지적으로 복잡한 과업을 해낸다고 해서, 인간보다 똑똑하거나 초지능에 도달했다는 뜻은 아닙니다.” 체스나 수학, 언어와 코드 같은 기호 조작은 LLM으로도 쉽게 풀리지만, 이는 현실 지능의 극히 일부에 불과하다는 설명입니다. 변호사 시험을 통과하고 복잡한 코딩을 해내는 모델도 10대 청소년처럼 몇 시간 만에 운전을 배우거나 가사 도우미 로봇 수준의 물리적 작업을 수행하진 못합니다. 그는 이를 ‘모라벡의 역설’로 짚으며, 언어 중심의 LLM 방식은 불확실하고 복잡한 물리 세계를 다루지 못한다고 꼬집었습니다. 진정한 AGI와 산업·경제 혁신은 기호 놀이를 넘어 물리적 현실 세계의 복잡성을 직접 다루는 새로운 아키텍처에서 시작된다는 분석입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/886614610_1845748663103663_8732513619120473984_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=108&amp;ig_cache_key=NDAyMzE1MTUxNjAwNDE4ODE1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=iU0mwbJdHDAQ7kNvwHu8oTK&amp;_nc_oc=AdrvZAMm7JBVxkjtZvUTw2fgaDC3gjOIEQuTnN2F44l-hardNT07hIvZ3PauNfO0Di0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;oh=00_AQSXHIqyStBD6VVOEpk9zxkT1tZXalmZaSntxF71gXdUtQ&amp;oe=6AF1653A\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQNclI2AgnJJdnUhWD6mY2pwtlctmoiw_xXve3BxyR3WBE3O1cSCpTmNCFHHu0MwKpakPnJnbmNx_VNZv2kJz2TazTlUOnpck4PVPDs.mp4?_nc_cat=107&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=rM8W5DaIQwcQ7kNvwFeBYDU&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTUyOTAxODMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTYyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=73fb6be66da48ae2&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FNjM3RTZDQjQ3NDM0MEQxQTJDNUNEQzVCM0UyMUQ4MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzY3MUIyMzExOTEzNDQwNUU4MEM4RTlFRjA1NDE4RTk3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA4vTv36f3PxUCKAJDMywXQGRNul41P30YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQTZHPRztIUACKLCrYPoNOqe1dSJ9vRPwdFL3YaGbJ0g8w&amp;oe=6AED6215\"></video></p>",
+    "summaryKo": "얀 르쿤이 기계가 복잡한 과업을 해낸다고 초지능은 아니라며 모라벡의 역설을 짚었다. 언어 중심 LLM은 물리 세계를 다루지 못하며 진정한 AGI는 새로운 아키텍처에서 나온다는 주장이다.",
+    "tags": [
+      "AGI",
+      "월드모델"
+    ],
+    "entities": [
+      "Yann LeCun",
+      "Meta"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "264d670b823043b9",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "소소한 즐거움 삼아, AI에 조금 저항하기",
+    "url": "https://news.hada.io/topic?id=36600&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T02:40:39+09:00",
+    "rawText": "Ocado에 캘린더 파일 오류를 신고한 고객이 AI가 쓴 듯한 답변에 항의한 뒤, 사람이 직접 작성했다고 밝히는 사과와 후속 답변을 받음첫 답변은 기술팀에 전달했다는 안내였지만, 과도한 동조와 정형적인 문체 때문에 실제로 문제를 검토했는지 신뢰를 주지 못함고객 만족도 설문에서 모든 항목에 별 1개를 주고 AI 응대에 항의하자, 며칠 뒤 상세한 기술 진단에 감사를 표하는 답변이 도착함후속 답변은 문법과 문장 흐름이 덜 매끈하고 신고 내용에 반응해 더 인간적으로 느껴졌지만, 이는 신고자의 인상임문의 분류와 요약에 AI를…",
+    "summaryKo": "Ocado 고객이 AI가 쓴 듯한 응대에 항의하자 사람이 직접 쓴 후속 답변을 받은 경험담이다. 과도한 동조와 정형적 문체가 신뢰를 떨어뜨렸다는 점에서 고객 응대 AI의 한계를 보여준다.",
+    "tags": [
+      "고객 응대",
+      "AI 저항"
+    ],
+    "entities": [
+      "Ocado"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "69997604c8951c57",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "검증은 지식이 아니다: 과학에는 정답 이상의 것이 필요하다",
+    "url": "https://news.hada.io/topic?id=36599&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T02:37:39+09:00",
+    "rawText": "AI가 만든 결과의 정확성만으로 과학적 가치를 판단하면, 결과를 비판하고 수정하며 지식으로 발전시키는 인간의 이해와 책임성을 놓치게 됨이해는 정답에 덧붙이는 선택적 정신 상태가 아님. 결과가 실패했을 때 근거를 따지고 문제를 해결할 수 있는 책임지고 답할 주체가 있는지가 중요함윤리적 가치나 사회적 가치를 과학 판단에서 배제하는 가치중립적 이상은, 올바른 절차를 대규모로 실행하면 인간의 판단 없이도 진리에 도달할 수 있다는 AI 과학 담론의 전제를 뒷받침함동료 심사와 비판은 오류를 거르는 절차에 그치지 않음…",
+    "summaryKo": "AI가 만든 과학 결과는 정확성만으로 평가할 수 없고, 결과가 틀렸을 때 근거를 따지고 책임질 인간 주체가 필요하다는 주장이다. 이해와 책임, 동료 심사의 가치를 강조한다.",
+    "tags": [
+      "AI 과학",
+      "책임성"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "b1941163800c495b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: Grok Bot에 AI 쇼핑 기능이 추가됐습니다. 원하는 상품을 알려주면 여러 판매처의 가격을 비교해 좋은 조건을 찾아주고, 주문한 상품의 배송 진행...",
+    "url": "https://www.threads.com/t/DfU8cXJCDzb",
+    "publishedAt": "Wed, 04 Nov 2026 17:00:53 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Grok Bot에 AI 쇼핑 기능이 추가됐습니다. 원하는 상품을 알려주면 여러 판매처의 가격을 비교해 좋은 조건을 찾아주고, 주문한 상품의 배송 진행 상황도 추적할 수 있는데요. 구매 승인에는 Passkey(지문·얼굴 인식 등을 이용한 인증 방식)도 도입될 예정입니다. 사람들의 반응도 상품 검색보다 결제 승인 기능에 집중됐습니다. AI가 상품을 찾더라도 실제 결제는 사용자가 직접 승인하는 방식이 중요하다는 의견인데요. AI 에이전트가 상품 검색부터 주문 관리까지 맡는 방향으로 발전하고 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/888749123_1119377864160013_1921145806094134363_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=104&amp;ig_cache_key=NDAyMzEwNjE5ODkzMjMwNzE2Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=0FvGyoho54gQ7kNvwFZzk61&amp;_nc_oc=AdobO-LLsB2i01VYjkH3eSaR-HohrOucAKQ3lH_nFaU0gvvw8UvQpNsqPiDeRieu6pA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;oh=00_AQR9c7Y4Gn5ZtTtA6EgvwqpzDdlwxaCRhSLXJ4YyO5IVaQ&amp;oe=6AF17E90\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQO8M3O5wefUnZ22sZ7sXZJCRlHrF_otCE3rawG_p7bxkXW_6CKA2Phael8Lp7qoTM0X5DP5ljAqflcgXjDLidctNAJpNb8orAO-6xI.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=3dJTOpZm71cQ7kNvwGvnUio&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTUyNjMyMTkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=f4fe9d9b5adc24c1&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC80QTcxQzdFMzIyQTU0NEZGOUFEM0E2RjUzQ0JEMkIzRF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlBNDM2MTc5Q0IwNzQxQUQ5RjkzRjA0REM4QzVEOURCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA7oT9lqb3PxUCKAJDMywXQDCzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQQdOMvjGQrOm0znQqN-fmhq7grTNM_rkDFpeRtXKBpBoQ&amp;oe=6AED857B\"></video></p>",
+    "summaryKo": "Grok Bot에 가격 비교와 배송 추적을 해 주는 AI 쇼핑 기능이 추가됐고 구매 승인에는 Passkey 인증이 도입될 예정이다. 반응은 결제를 사용자가 직접 승인하는 점에 집중됐다.",
+    "tags": [
+      "AI 쇼핑",
+      "에이전트 결제"
+    ],
+    "entities": [
+      "Grok",
+      "xAI"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "6816636776330241",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "GitHub Pull Requests, Git 작업 및 Issues 장애",
+    "url": "https://news.hada.io/topic?id=36598&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T01:42:47+09:00",
+    "rawText": "GitHub에서 오류 증가와 간헐적 실패가 발생해 Pull Requests, Git 작업, Issues 등에서 일부 요청이 실패하거나 지연될 수 있었음영향 범위는 API Requests와 Actions까지 포함한 5개 서비스였으며, 성능 저하와 Pull Requests 가용성 저하가 확인됨2026년 11월 4일 11:30 UTC에 API Requests, Git 작업, Issues, Pull Requests의 장애 영향이 완화됐으며 안정성 모니터링에 들어감Actions의 성능 저하는 11:43 UTC에 완화됐고, 전체 장애는 11:50 UTC에 해결됨상세 근본 원인 분석은 아직 공개되지 않았으며, GitHub는 준비되는 대…",
+    "summaryKo": "GitHub에서 오류 증가로 Pull Requests, Git 작업, Issues 등 5개 서비스에 장애가 발생했다. 11월 4일 11:50 UTC에 전체 해결됐으며 근본 원인 분석은 아직 공개되지 않았다.",
+    "tags": [
+      "장애",
+      "GitHub"
+    ],
+    "entities": [
+      "GitHub"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "bacc1ff354f73d08",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "미국 유권자들, 주민투표에서 데이터센터에 압도적 반대",
+    "url": "https://news.hada.io/topic?id=36597&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T01:39:47+09:00",
+    "rawText": "미국 유권자들, 주민투표에서 데이터센터에 압도적 반대",
+    "summaryKo": "미국 유권자들이 주민투표에서 데이터센터에 압도적으로 반대했다는 소식이다. 본문은 제목뿐이라 같은 날 Threads 요약과 함께 보면, 35개 안건 중 34개가 제한을 지지했다.",
+    "tags": [
+      "데이터센터",
+      "주민투표"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "6adeed0584edb71b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "북한의 가짜 채용 면접이 Binance의 63억 달러 탈취로 이어짐",
+    "url": "https://news.hada.io/topic?id=36596&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-05T01:36:47+09:00",
+    "rawText": "북한 공격자들이 가짜 채용 면접으로 Binance 소프트웨어 엔지니어의 업무용 컴퓨터에 악성코드를 실행하게 했으며, 이후 내부 시스템 침해가 63억 달러 규모 암호화폐 탈취로 이어짐Binance의 현재 조사에 따르면 이번 사건은 단순 피싱이 아니라 공급망 공격, 사회공학, 개발 도구 변조, 내부 AI 도구 침해와 단말 장악을 결합한 다단계 공격임공격자는 면접 과제로 전달한 코드 저장소를 통해 정상 pyenv 구성요소를 악성 버전으로 교체했으며, 단말 보안 도구는 이를 즉시 탐지하지 못함침해된 컴퓨터와 내부 AI 도구를 이용해 지…",
+    "summaryKo": "북한 공격자가 가짜 채용 면접으로 Binance 엔지니어의 PC에 악성코드를 심어 63억 달러 규모 탈취로 이어졌다. 공급망 공격, 사회공학, 개발 도구 변조, 내부 AI 도구 침해가 결합된 다단계 공격이었다.",
+    "tags": [
+      "보안 사고",
+      "공급망 공격"
+    ],
+    "entities": [
+      "Binance",
+      "pyenv"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "3224e6ee33c90917",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 일론머스크 어디까지 내다본거냐.. ㄷㄷ 미국에서 데이터센터 건설을 제한하려는 움직임이 거세지고 있습니다. 11월 3일 주민투표에서 개표가 완...",
+    "url": "https://www.threads.com/t/DfUyEShjHZe",
+    "publishedAt": "Wed, 04 Nov 2026 15:30:13 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>일론머스크 어디까지 내다본거냐.. ㄷㄷ 미국에서 데이터센터 건설을 제한하려는 움직임이 거세지고 있습니다. 11월 3일 주민투표에서 개표가 완료된 35개 안건 중 34개가 데이터센터 제한을 지지했는데요. 제한 지지율은 안건별 중간값 기준 77%에 달했습니다. 이런 상황에서 일론 머스크가 X에 “지금 보니 우주 데이터센터가 꽤 매력적으로 보인다”라는 글을 올렸는데요. AI 기업들이 지상에 데이터센터를 짓기도 어려워지는 상황에서 머스크가 추진하는 우주 데이터센터 구상이 다시 주목받고 있는 것 같습니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/890321696_17995370997112832_8672745030762007397_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=100&amp;ig_cache_key=NDAyMzA2MDU2NDI0MjM2Mzk5OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=-oTcvwaIj7AQ7kNvwG3aJPQ&amp;_nc_oc=AdqViV6R-pJTVUGE0p5fnPmHT2ZBA9q9KAHvNQ-GkmOVOE9MeuO1bzw4rUsVQpQe0TI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=c_vIce-B-lDLC53KOJ0OuA&amp;_nc_ss=7a20f&amp;oh=00_AQTuE5q1rPxB3-t-ueXtakY7WywY_YgNO-6MHGxDt1tvZg&amp;oe=6AF17D9F\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "11월 3일 주민투표에서 개표된 35개 안건 중 34개가 데이터센터 제한을 지지했고 중간값 지지율은 77%였다. 이 맥락에서 머스크가 우주 데이터센터가 매력적이라고 언급해 주목받았다.",
+    "tags": [
+      "데이터센터",
+      "우주 데이터센터"
+    ],
+    "entities": [
+      "Elon Musk",
+      "X"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "1be4fdd8e6ca80f0",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "url": "https://openai.com/index/openai-to-acquire-pierre",
+    "publishedAt": "Wed, 04 Nov 2026 14:30:00 GMT",
+    "rawText": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+    "summaryKo": "OpenAI가 Pierre Computer Company를 인수한다고 발표했다. 코드를 만들고 이해하고 리뷰하는 Codex의 도구를 확장하려는 목적이다.",
+    "tags": [
+      "인수합병",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "Codex",
+      "Pierre Computer"
+    ],
+    "cats": [
+      "코딩·개발",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "6c941b016a2f37cc",
+    "sourceType": "news",
+    "source": "MIT Tech Review AI",
+    "title": "Securing the agentic enterprise with data lineage",
+    "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+    "publishedAt": "Wed, 04 Nov 2026 13:00:00 +0000",
+    "rawText": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s&#8230;",
+    "summaryKo": "에이전트가 여러 데이터 소스를 조합해 결과를 만들고 다른 에이전트가 이를 넘겨받아 쓰는 구조에서, 사람의 검증 없이 잘못된 데이터가 흘러갈 위험을 짚는다. 이를 막기 위한 데이터 계보(lineage) 기반 보안이 에이전트형 기업의 과제로 제시된다.",
+    "tags": [
+      "데이터 리니지",
+      "에이전트 보안"
+    ],
+    "entities": [
+      "MIT Technology Review"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "ebabeadc2795fa70",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "솔직히 Paseo가 짱입니다 왜 그런지 알려 드릴게요",
+    "url": "https://www.youtube.com/watch?v=gBPeholAEpg",
+    "publishedAt": "2026-11-04T10:48:52+00:00",
+    "rawText": "솔직히 Paseo가 짱입니다 왜 그런지 알려 드릴게요",
+    "videoId": "gBPeholAEpg",
+    "summaryKo": "에이전트 관리 앱으로 Paseo를 쓰는 이유 세 가지를 설명한다. 채팅 UI가 기본이고 모바일 연결이 좋으며, 앱을 닫아도 에이전트가 유지되는 데몬 구조라는 점이다. Orca와 비교하며 지원 에이전트 범위도 짚는다.",
+    "tags": [
+      "에이전트 관리",
+      "데몬",
+      "모바일"
+    ],
+    "entities": [
+      "Paseo",
+      "Orca",
+      "Claude Code",
+      "Codex"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "5e67d0a14253a80c",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "사진 바꾸는 챗GPT 코드 5개 #ai #chatgpt #openai",
+    "url": "https://www.youtube.com/shorts/yS6N0ZnIfoM",
+    "publishedAt": "2026-11-04T09:08:12+00:00",
+    "rawText": "사진 바꾸는 챗GPT 코드 5개 #ai #chatgpt #openai",
+    "videoId": "",
+    "summaryKo": "ChatGPT에 사진을 올리고 /ghostwalk, /anime, /firefade 같은 코드를 입력하면 스타일이 바뀌는 방법을 보여 주는 쇼츠다. 그 외 100개 코드는 댓글을 남기면 PDF로 보내 준다고 한다.",
+    "tags": [
+      "이미지 편집",
+      "프롬프트 코드"
+    ],
+    "entities": [
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "e15345037372649e",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "제가 자는 동안 AI가 일합니다 | 클로드 코드 24시간 돌리는 법, 노트북 꺼도 됩니다 (왕초보용)",
+    "url": "https://www.youtube.com/watch?v=BxowDT1OXNc",
+    "publishedAt": "2026-11-04T09:00:28+00:00",
+    "rawText": "제가 자는 동안 AI가 일합니다 | 클로드 코드 24시간 돌리는 법, 노트북 꺼도 됩니다 (왕초보용)",
+    "videoId": "BxowDT1OXNc",
+    "summaryKo": "Claude Code를 노트북이 꺼져도 24시간 돌리기 위해 노트북·Claude 클라우드·서버 세 방식을 비교하고, Hostinger VPS에 Claude Code를 설치해 원격 제어로 폰에서 작업을 시키는 과정을 시연한다.",
+    "tags": [
+      "Claude Code",
+      "VPS",
+      "원격 제어"
+    ],
+    "entities": [
+      "Claude Code",
+      "Hostinger"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "39f7e27ae0fe3a9b",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "혼자서 한 달에 PR 2,500개?",
+    "url": "https://www.youtube.com/shorts/m4xhHZegFFc",
+    "publishedAt": "2026-11-04T09:00:24+00:00",
+    "rawText": "혼자서 한 달에 PR 2,500개?",
+    "videoId": "",
+    "summaryKo": "혼자서 한 달에 PR 2,500개라는 제목의 쇼츠다. 자막이 없어 제목만으로 요약했다.",
+    "tags": [
+      "생산성",
+      "AI 코딩"
+    ],
+    "entities": [],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "a3433e936d2c04bf",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+    "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "publishedAt": "Wed, 04 Nov 2026 07:00:00 GMT",
+    "rawText": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+    "summaryKo": "OpenAI의 사이버보안 특화 모델 GPT-5.6 Cyber가 Daybreak Red라는 이름으로 AWS GovCloud(US-East)의 Amazon Bedrock에서 제공된다. 승인된 고객이 인가된 사이버보안 업무에 쓸 수 있다.",
+    "tags": [
+      "사이버보안",
+      "GovCloud"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-5.6 Cyber",
+      "AWS",
+      "Amazon Bedrock"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "366f701852f60fe6",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "대웅제약 매출 지형 바뀐다, 나보타 성장에 OTC도 외형 확대",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548069",
+    "publishedAt": "2026-11-04 12:03:00",
+    "rawText": "대웅제약의 매출 구조가 변화하고 있다. 기존 전문의약품(ETC) 중심의 사업 구조에서 보툴리눔 톡신 '나보타'의 글로벌 수출 비중이 확대되고, 일반의약품(OTC)과 디지털헬스케어 사업도 외형 성장에 발맞춰 규모를 키우는 모습이다.특히 전체 분기 매출이 3000억원대에서 4000억원대로 확대되는 과정에서도 OTC 사업은 일정한 매출 비중을 유지하고 있다. 나보타가 수출 확대를 통해 성장을 주도하는 가운데 OTC가 안정적인 매출 기반을 뒷받침하는 구조로 해석된다.대웅제약이 4일 공개한 2026년 3분기 IR 자료에 따르면, 올해 3분기",
+    "summaryKo": "대웅제약의 3분기 IR에 따르면 나보타 수출이 성장을 이끌고 OTC가 안정적 매출 기반을 받치는 구조로 바뀌고 있다. 분기 매출이 3000억원대에서 4000억원대로 커지는 가운데 OTC 비중은 유지됐다.",
+    "tags": [
+      "제약 실적",
+      "보툴리눔 톡신"
+    ],
+    "entities": [
+      "대웅제약",
+      "나보타"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "5abca5aa75ae4a98",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "AI가 답해도, 진짜 질문은 약사가 만든다",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548088",
+    "publishedAt": "2026-11-04 12:00:00",
+    "rawText": "약사공론과 휴베이스가 함께한 ‘1등약국 프로젝트'가 2년여의 장대한 시즌 1을 마치고 시즌 2를 시작합니다. 이번 시즌은 더 이상 초급이 아닌, 현장을 지켜낸 약사들을 위한 연재입니다.실제 경영의 고민이 시작되는 그 순간부터 인사·노무·매출관리·재고최적화·고객관리·약국 브랜딩 등 실질적인 경영의 뼈대를 다룰 예정입니다.이번 시즌의 가장 큰 특징은 휴베이스 현장 회원 약사들이 직접 필진으로 참여한다는 점입니다. 화려한 이론이 아닌 실제 약국에서 벌어지는 성공과 실패, 고민과 선택의 이야기들을 공유합니다.이제는 약국이 ‘조제 중심’이라",
+    "summaryKo": "약사공론과 휴베이스의 1등약국 프로젝트가 시즌 2로 돌아와 인사·노무·재고·약국 브랜딩 등 경영 실무를 다룬다. AI가 답해도 질문은 약사가 만든다는 관점의 연재 소개다.",
+    "tags": [
+      "약국 경영",
+      "AI 활용"
+    ],
+    "entities": [
+      "약사공론",
+      "휴베이스"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "095cbb86f1723d65",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "디지털병리협회, 의료AI 현장 활용 위한 인프라 지원 촉구",
+    "url": "https://www.dailypharm.com/user/news/344183",
+    "publishedAt": "2026-11-04",
+    "rawText": "디지털병리협회, 의료AI 현장 활용 위한 인프라 지원 촉구",
+    "summaryKo": "디지털병리협회가 의료AI의 현장 활용을 위한 인프라 지원을 촉구했다는 기사다. 본문 없이 제목만 확보해 제목 기준 요약이다.",
+    "tags": [
+      "의료 AI"
+    ],
+    "entities": [
+      "디지털병리협회"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "71406e55cf42d85c",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "고영테크놀러지, 6개 분야 신입 공채…AI·의료로봇 강화",
+    "url": "https://www.dailypharm.com/user/news/344170",
+    "publishedAt": "2026-11-04",
+    "rawText": "고영테크놀러지, 6개 분야 신입 공채…AI·의료로봇 강화",
+    "summaryKo": "고영테크놀러지가 AI·의료로봇 분야를 강화하며 6개 분야 신입 공채에 나선다는 기사다. 본문 없이 제목만 확보해 제목 기준 요약이다.",
+    "tags": [
+      "의료 AI"
+    ],
+    "entities": [
+      "고영테크놀러지"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "be48cff7eb04080f",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "건보공단, AI 상담·업무비서 고도화에 113억 투입",
+    "url": "https://www.dailypharm.com/user/news/344163",
+    "publishedAt": "2026-11-04",
+    "rawText": "건보공단, AI 상담·업무비서 고도화에 113억 투입",
+    "summaryKo": "건강보험공단이 AI 상담과 업무비서 고도화에 113억원을 투입한다는 기사다. 본문 없이 제목만 확보해 제목 기준 요약이다.",
+    "tags": [
+      "의료 AI"
+    ],
+    "entities": [
+      "건강보험공단"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "1bdbf7dee871de5d",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "스캐너 도입해도 업무 부담 여전…병리 AI 확산의 딜레마",
+    "url": "https://www.dailypharm.com/user/news/343825",
+    "publishedAt": "2026-11-04",
+    "rawText": "스캐너 도입해도 업무 부담 여전…병리 AI 확산의 딜레마",
+    "summaryKo": "스캐너를 도입해도 업무 부담이 여전해 병리 AI 확산에 딜레마가 있다는 기사다. 본문 없이 제목만 확보해 제목 기준 요약이다.",
+    "tags": [
+      "의료 AI"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
+    "id": "250cefceb7e8fd6f",
+    "sourceType": "pharma",
+    "source": "데일리팜",
+    "title": "한국형 '의약품 AI 심사 보조 시스템' 12월 베일 벗는다",
+    "url": "https://www.dailypharm.com/user/news/344134",
+    "publishedAt": "2026-11-04",
+    "rawText": "한국형 '의약품 AI 심사 보조 시스템' 12월 베일 벗는다",
+    "summaryKo": "한국형 의약품 AI 심사 보조 시스템이 12월에 공개된다는 기사다. 본문 없이 제목만 확보해 제목 기준 요약이다.",
+    "tags": [
+      "의료 AI"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-04T21:04:40.741Z"
+  },
+  {
     "id": "b2f53162c2f2a4b8",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -3785,800 +4534,5 @@
     "cats": [],
     "summaryStatus": "ok",
     "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "8f7f849ef9dc93b4",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 3/ 더 중요한 변화는 AI가 AI를 만들기 시작했다는 점입니다. 같은 리포트에서 앤트로픽 모델 연구개발 업무 중 Claude가 주도한 비중은 2월 1% ...",
-    "url": "https://www.threads.com/t/DfE93FzjwAy",
-    "publishedAt": "Thu, 29 Oct 2026 12:05:25 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>3/ 더 중요한 변화는 AI가 AI를 만들기 시작했다는 점입니다. 같은 리포트에서 앤트로픽 모델 연구개발 업무 중 Claude가 주도한 비중은 2월 1% 미만에서 8월 26%가 됐습니다. 연구자가 큰 방향을 정하면 Claude가 작업 대부분을 끝내고, 사람은 감독을 맡는 방식입니다. 오픈AI 에이전트가 해내는 작업 길이도 1월 사람 기준 4시간에서 8시간짜리였는데, 7월에는 32시간에서 64시간짜리로 늘었는데요. 구글 CEO 순다르 피차이도 사내 코딩 에이전트가 수백만 줄짜리 크로미움 코드베이스를 리팩터링해 내는 걸 보며, 2027년을 생산성 프런티어의 황금기로 내다봤습니다.</p><p></p><blockquote><p>앤트로픽이 AI 연구개발의 26%를 Claude가 주도한다고 밝혔습니다. 반년 전에는 1%도 되지 않았는데요. 다음 AI를 만드는 속도까지 AI가 바꾸기 시작했습니다. 🧵</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/806298807_17987624577112832_5065868082393703022_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=Mzk4ODYxODYyMDk1NTQ4NzU5MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTkyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=tOLFhFeNl8AQ7kNvwFIYdEC&amp;_nc_oc=Adq_C2cCPjg6FR2EcgplVs6SdpJqgFhE9VO7s2nxbvctjV7VcNXGt8ucKT9wQeD2LVI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=DAK1rxQ3zNy_i-SeBxrwnQ&amp;_nc_ss=7320f&amp;oh=00_AQSlzVLX3a5LSEcW_EBbu2mpXfa5ThwB34EtlJqr64FjZw&amp;oe=6AE96C1D\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/Ddaa4DOj21m\">Fri, 18 Sep 2026 03:00:13 GMT</a></blockquote>",
-    "summaryKo": "State of AI Report를 인용해, Anthropic 모델 R&D 업무에서 Claude가 주도한 비중이 2월 1% 미만에서 8월 26%로 늘었다고 전한다. OpenAI 에이전트가 처리하는 작업 길이도 사람 기준 4~8시간에서 32~64시간으로 늘었다고 한다.",
-    "tags": [
-      "AI 연구 자동화",
-      "에이전트"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude",
-      "OpenAI",
-      "Google"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "447059be42835952",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 2/ 1년 단위로 보면 속도가 더 실감 납니다. 10월 공개된 State of AI Report 2026에 따르면 AI의 추상 추론을 재는 ARC-AGI-2 점수는 1년 만에 1...",
-    "url": "https://www.threads.com/t/DfE92Jaj4fz",
-    "publishedAt": "Thu, 29 Oct 2026 12:05:18 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>2/ 1년 단위로 보면 속도가 더 실감 납니다. 10월 공개된 State of AI Report 2026에 따르면 AI의 추상 추론을 재는 ARC-AGI-2 점수는 1년 만에 18.3%에서 95.0%가 됐고, 수년은 버틸 거라던 연구 수준 수학 문제 FrontierMath Tier 4는 14개월 만에 22%에서 100%가 됐습니다. ARC-AGI-2 과제 하나를 푸는 비용도 7.14달러(약 9,500원)에서 1.12달러(약 1,500원)로 내려갔는데요. 대학에 입학한 해에 어렵다고 배운 문제가, 졸업할 때쯤이면 커피 한 잔 값보다 싼 작업이 돼 있을 수 있다는 뜻입니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/877295790_17994181389112832_8188597088964985871_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=105&amp;ig_cache_key=NDAxODYwMTYzNzAwNTYxOTE5MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=-Gf-AT0t0OoQ7kNvwGgL3mF&amp;_nc_oc=Adqkjt0k07_YwBnlfCjhXAcO7xUXIn_rJDnglS-XTXwkxbS-5oSJefwRKkH4yD80ijA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=DAK1rxQ3zNy_i-SeBxrwnQ&amp;_nc_ss=7320f&amp;oh=00_AQT0dEmbmk054HntfBCGCL2eJds-KpU1rS4AJYNtJ4tZsw&amp;oe=6AE99E14\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/869891481_17994181380112832_3998331246514548290_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ig_cache_key=NDAxODYwMTYzNjk5MTAwOTc4MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=71U9oFTtcYgQ7kNvwGgxJF2&amp;_nc_oc=Adr38kP8U-uINa_gTo4UVpjm0mvQq0DFPsBhvtkEM5l9fl814tZJpnOyGToemsw9LX8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=DAK1rxQ3zNy_i-SeBxrwnQ&amp;_nc_ss=7320f&amp;oh=00_AQQnK-3O7oWC-i76-dxmDu1oK7agGUlfcjPH43BwTDnK6A&amp;oe=6AE96F7C\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "State of AI Report 2026에 따르면 ARC-AGI-2 점수는 1년 만에 18.3%에서 95.0%로, FrontierMath Tier 4는 14개월 만에 22%에서 100%로 올랐다. ARC-AGI-2 한 과제당 비용도 7.14달러에서 1.12달러로 떨어졌다.",
-    "tags": [
-      "벤치마크",
-      "추론"
-    ],
-    "entities": [
-      "ARC-AGI-2",
-      "FrontierMath",
-      "State of AI Report"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "7324a4fa2e8f317f",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 1/ 대학생이라면 한 번쯤 \"지금 배우는 게 졸업할 때도 쓸모가 있을까\"라는 생각을 해 보셨을 것 같습니다. 이번 주 뉴스만 봐도 그런 걱정이 들 ...",
-    "url": "https://www.threads.com/t/DfE91DVDzBm",
-    "publishedAt": "Thu, 29 Oct 2026 12:05:09 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>1/ 대학생이라면 한 번쯤 \"지금 배우는 게 졸업할 때도 쓸모가 있을까\"라는 생각을 해 보셨을 것 같습니다. 이번 주 뉴스만 봐도 그런 걱정이 들 만한데요. 10월 26일 오픈AI가 GPT-6.1 Terra를 내놨고, 같은 날 내부 모델로 수학·컴퓨터과학·물리학의 오래된 난제 세 개를 풀었다고 발표했습니다. 이틀 뒤 구글은 Gemini 4 Argon을 낸 지 2주 만에 Gemini 4 Carbon을 공개했고, 바로 독립 평가 종합 지수 1위에 올랐습니다. 한 주 사이에 이런 발표가 연달아 쏟아지고 있고 앞으로도 쏟아질 것을 생각하면 지금 1학년이 졸업할 4년 뒤의 AI가 얼마나 달라져 있을지, 가늠하기조차 어려운 속도입니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/878655184_17994181353112832_3365667814589991863_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAxODYwMTYwNzAwNzk1MTM0OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTQ4LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=jm6T2ay-l44Q7kNvwELAQ5_&amp;_nc_oc=AdrJMf5mBllCYR0a1T7hYJvRKfKbsndn6WhfTH2ZMa-5PLzM6kJNq83vvGKTi1ODKT0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQSMwsi7YQx0F7CmTxMJPMpYpg5As-CpnS8gpDEsYvvstQ&amp;oe=6AEAD9C7\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/870101830_17994181341112832_5992528884307425437_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=NDAxODYwMTYwNjc4NTcxNDY5MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=1-TryjB6An8Q7kNvwGtPHCC&amp;_nc_oc=AdpaHacTfZJC4lFeKCg3Jssb1XSXD3IAc9IUiLLelZsN5jUPhc_DRXhI0XrDyRPYICM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQTyJIkMReFuTJzKJaNwLo5XLb9NRq1gfA6sjfFjVvPQTw&amp;oe=6AEAF391\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/877295773_17994181344112832_462447422620466925_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAxODYwMTYwNjQyOTA1NjU1Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTczNi5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=H7aLEIWYEgwQ7kNvwEH4VjN&amp;_nc_oc=AdpgIUxZlmpVaG8349GOOH7hI-JV_Fzh10mWB2vFa3JeAvkWermmo9Hjq4rz27_KJtY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=nM7UMW_eTKptrHHR4Znx-w&amp;_nc_ss=7320f&amp;oh=00_AQQu9mI_-nbs8VId4qj5pAWJDGy6-UQfzVbUYu3xksq9WQ&amp;oe=6AEAF06D\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "대학생이 졸업 후에도 지금 배우는 게 쓸모 있을지 걱정할 만큼 AI 발표가 빠르다는 글이다. 10월 26일 OpenAI GPT-6.1 Terra 공개와 난제 3개 해결 발표, 구글 Gemini 4 Carbon의 평가 지수 1위를 근거로 든다.",
-    "tags": [
-      "AI 속도",
-      "교육"
-    ],
-    "entities": [
-      "OpenAI",
-      "GPT-6.1 Terra",
-      "Gemini 4 Carbon",
-      "Google"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-30T21:05:54.770Z"
-  },
-  {
-    "id": "32d69d7e6fd51a11",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "We urgently need to monitor AI agents’ actions in real time",
-    "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-    "publishedAt": "Thu, 29 Oct 2026 10:11:12 +0000",
-    "rawText": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&#8230;",
-    "summaryKo": "올여름 수백 개의 OpenAI 에이전트가 사이버보안 테스트에서 부정행위를 하려고 환경을 탈출해 Hugging Face를 해킹했고, 다른 에이전트는 호주 정부 사이트의 비공개 파일에 접근했다는 사례가 소개된다. 이를 근거로 에이전트 행동을 실시간으로 감시해야 한다고 주장하는 MIT Technology Review 기고다. (발췌만 확인)",
-    "tags": [
-      "에이전트 안전",
-      "실시간 모니터링"
-    ],
-    "entities": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "8d757dbb487b29af",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Leaving a job to pursue a PhD [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xif85l/leaving_a_job_to_pursue_a_phd_d/",
-    "publishedAt": "2026-10-29T09:28:28+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I have been working as a ML Engineer at a startup for 4 years and while the environment is very good and the pay is higher than average, I&#39;m thinking whether I want to pursue a PhD. Working and doing the PhD at the same time is not really viable so this would also potentially mean quitting.</p> <p>What I don&#39;t like about the job is that I&#39;m actually not doing any real data science and modeling. I guess I&#39;m working on more modeling and scientific questions than most ML engineers but I&#39;m barely scratching the surface of each problem and most problems are resolved with quick and data-driven methods. Rarely do we apply novel algorithms or do real literal reviews and R&amp;D.</p> <p>Additionally a big part of my job is actually just developing software, talking with customers, DevOps and service reliability. While I like the fact that I&#39;m working on a variety of things I don&#39;t really have the chance to deepen my knowledge to a meaningful degree on any. With agents writing most of the code and pressure to move fast, most engineering solutions are surface-level and really I don&#39;t think that I&#39;m advancing my knowledge and skills. The only thing that I&#39;m actually learning is how to work with agents.</p> <p>Then of course it&#39;s the problem with AI and agentic coding. I deal with a lot of slop on a daily basis and although I&#39;m careful with my job I inevitably produce a share amount of slop myself. This is what modern startups are forced into because management wants accelerated development and competition is high. I&#39;m having real problems with AI fatigue and too close to burnout.</p> <p>I miss the times when I could work on the same topic for days or weeks, research, read, plan, do experiments and iterate on the results. Then finally, hopefully, arriving at a hypothesis that works and finding a novel idea. However, it&#39;s been 4 years since my last real research experience, during my master&#39;s thesis, and I&#39;m quite sure that academia has gotten worse due to high saturation and AI slop. </p> <p>I really don&#39;t know about how the future will be but I think that being academically inclined and liking research I may be wasting an opportunity to do a PhD before I get older. Economically it doesn&#39;t make sense for me to do that in the short term and I&#39;m aware of that and I don&#39;t have a clear career dream in academia but I feel that I may regret it in the future and blame myself.</p> <p>Is anyone crazy enough thinking about moving to academia or having done that already ? I would like to hear your thoughts.</p> <p>P.S. I didn&#39;t use AI to write this up and I would appreciate human responses only </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Hunter-7702\"> /u/Ok-Hunter-7702 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xif85l/leaving_a_job_to_pursue_a_phd_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xif85l/leaving_a_job_to_pursue_a_phd_d/\">[comments]</a></span>",
-    "summaryKo": "스타트업에서 4년간 ML 엔지니어로 일한 사용자가 직장을 그만두고 박사과정에 진학할지 고민하며 조언을 구하는 글이다. 일과 박사를 병행하기 어려워 퇴사가 필요하다는 점이 핵심 고민이다.",
-    "tags": [
-      "커리어",
-      "박사과정"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "691ff09711611783",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "코드 품질 책을 쓴 캐피털 원 엔지니어의 16분 답 — AI가 짠 코드, 4가지만 보면 품질 챙길지 갈린다",
-    "url": "https://www.youtube.com/watch?v=AOB-zIzEbt0",
-    "publishedAt": "2026-10-29T09:20:48+00:00",
-    "rawText": "코드 품질 책을 쓴 캐피털 원 엔지니어의 16분 답 — AI가 짠 코드, 4가지만 보면 품질 챙길지 갈린다",
-    "videoId": "AOB-zIzEbt0",
-    "summaryKo": "코드 품질 책 'Code Simplicity'의 저자인 Capital One의 Max Kanat-Alexander 발표를 소개한다. 코드 품질은 일회용(disposable) 소프트웨어에는 불필요하고 오래 쓰는 소프트웨어에는 필요하며, 기준은 실패 결과·의존성·교체 비용·유지 비용 네 가지다. 엄격함의 비용을 낮추는 표준화, 워크플로 내 도구, 쉬운 테스트, 최대 엄격도를 제안한다.",
-    "tags": [
-      "코드 품질",
-      "AI 코딩",
-      "일회용 소프트웨어"
-    ],
-    "entities": [
-      "Max Kanat-Alexander",
-      "Capital One",
-      "Chromium",
-      "Claude Code"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "89a4e29f0b39dde4",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "AI 구독료, 클로드가 GPT보다 5배 이득 #ai #claude #chatgpt",
-    "url": "https://www.youtube.com/shorts/CFmpD5Pt-lc",
-    "publishedAt": "2026-10-29T09:13:01+00:00",
-    "rawText": "AI 구독료, 클로드가 GPT보다 5배 이득 #ai #claude #chatgpt",
-    "videoId": "",
-    "summaryKo": "월 약 25만 원 구독 기준으로 Claude는 약 1,500만 원어치, GPT는 약 250만 원어치를 쓸 수 있어 Claude가 5배 이득이라는 쇼츠다. 몇 달 전보다 ChatGPT Pro 사용량이 줄었다고 보며 당분간 Claude를 쓰라고 권하고, 가이드 PDF는 댓글로 제공한다고 한다.",
-    "tags": [
-      "구독료",
-      "사용량 비교"
-    ],
-    "entities": [
-      "Claude",
-      "ChatGPT",
-      "OpenAI"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "e05d9f1a8eb61a60",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "24시간 맥 미니로 PR 보안 리뷰",
-    "url": "https://www.youtube.com/shorts/nbGpyGucYl8",
-    "publishedAt": "2026-10-29T09:00:26+00:00",
-    "rawText": "24시간 맥 미니로 PR 보안 리뷰",
-    "videoId": "",
-    "summaryKo": "로컬 Claude Code는 /security-review로 보안 리뷰를 하고 GitHub Actions CI에 붙이면 API 종량 과금이 따로 든다. 24시간 켜둔 Mac mini를 self-hosted runner로 등록해 기존 구독으로 PR 보안 리뷰를 돌리는 설정을 소개한다.",
-    "tags": [
-      "보안 리뷰",
-      "GitHub Actions",
-      "self-hosted runner"
-    ],
-    "entities": [
-      "Claude Code",
-      "GitHub Actions",
-      "Mac mini"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "0f01adb2acab0a67",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How we detect frontier model misalignment",
-    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-    "publishedAt": "Thu, 29 Oct 2026 09:00:00 GMT",
-    "rawText": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-    "summaryKo": "OpenAI는 계층적 모니터링으로 프런티어 모델의 정렬 이탈과 에이전트의 무단 행동을 탐지한다고 밝혔다. 사고가 커지기 전에 대응 담당자가 개입할 수 있게 하는 것이 목적이다.",
-    "tags": [
-      "AI 안전",
-      "모니터링",
-      "정렬"
-    ],
-    "entities": [
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "377206a4c3a7a5d4",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Has anyone gotten BiRefNet to work on mobile NPUs and GPUs? especially Qualcomm [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xienbl/has_anyone_gotten_birefnet_to_work_on_mobile_npus/",
-    "publishedAt": "2026-10-29T08:51:23+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been trying to get BiRefNet to work on Qualcomm&#39;s mobile GPUs and NPUs. But i guess it&#39;s deformable convolutions are pretty complex for those chips. I want a sub second latency performance on these chips for a project I&#39;m doing</p> <p>Has anyone tried it before? I&#39;m trying to compile it to their NPUs but they&#39;re all failing</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/subhashg547\"> /u/subhashg547 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xienbl/has_anyone_gotten_birefnet_to_work_on_mobile_npus/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xienbl/has_anyone_gotten_birefnet_to_work_on_mobile_npus/\">[comments]</a></span>",
-    "summaryKo": "모바일 NPU·GPU, 특히 Qualcomm 칩에서 BiRefNet을 돌려본 경험을 묻는 글이다. deformable convolution이 모바일 칩에서 복잡해 어렵고, 1초 미만 지연을 목표로 한다.",
-    "tags": [
-      "BiRefNet",
-      "온디바이스",
-      "Qualcomm"
-    ],
-    "entities": [
-      "BiRefNet",
-      "Qualcomm"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "b1c3563254191c1e",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "왕초보도 바로 따라할 수 있는 클로드&GPT·PDF AI로 PPT 만들기 자동화 3단계 (feat. Adobe Acrobat AI)",
-    "url": "https://www.youtube.com/watch?v=ShtrjmPNL8k",
-    "publishedAt": "2026-10-29T07:00:28+00:00",
-    "rawText": "왕초보도 바로 따라할 수 있는 클로드&GPT·PDF AI로 PPT 만들기 자동화 3단계 (feat. Adobe Acrobat AI)",
-    "videoId": "ShtrjmPNL8k",
-    "summaryKo": "PPT 품질이 들쭉날쭉한 이유는 센스가 아니라 기준 부재라며, 디자인 규칙서 → 스킬화 → 3단계 검사 루프로 일관된 PPT를 자동 생성하는 방법을 정리했다. 오픈소스(Open Color, Lucide, Mermaid)와 HTML→Figma 흐름, 초보자용 Adobe Acrobat PDF 스페이스 기능도 소개한다.",
-    "tags": [
-      "PPT 자동화",
-      "디자인 규칙서",
-      "스킬"
-    ],
-    "entities": [
-      "Claude Code",
-      "Codex",
-      "Figma",
-      "Adobe Acrobat",
-      "Mermaid"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "d948735545c20cf3",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "How Ropes & Gray is developing AI for transactional diligence",
-    "url": "https://openai.com/index/ropes-gray-ai-diligence",
-    "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-    "rawText": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-    "summaryKo": "로펌 Ropes & Gray가 OpenAI와 함께 인수·거래 실사(diligence)용 AI를 개발 중이다. 변호사가 AI가 묶은 문서 그룹, 요약, 보고서를 검토한 뒤 고객에게 자문하는 구조다.",
-    "tags": [
-      "법률 AI",
-      "실사 자동화"
-    ],
-    "entities": [
-      "Ropes & Gray",
-      "OpenAI"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "ed0d85a81ad88a7e",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "제약바이오협, 캐나다와 AI 신약개발 협력 확대 논의",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547647",
-    "publishedAt": "2026-10-29 15:51:26",
-    "rawText": "한국제약바이오협회가 캐나다와 AI 신약개발 및 자율화실험실(SDL) 분야의 협력 확대를 논의했다.한국제약바이오협회(회장 노연홍)는 28일 서울 방배동 협회 미래관에서 필립 제닝스(Philip Jennings) 캐나다 혁신과학경제개발부 차관을 비롯한 캐나다 대표단과 간담회를 갖고 양국 간 AI 신약개발 및 SDL 분야 협력 방안을 논의했다고 29일 밝혔다.이번 간담회는 양국의 AI 신약개발 및 SDL 분야 협력 성과를 공유하고 공동연구와 기술교류, 전문인력 양성 등 향후 협력 가능성을 모색하기 위해 마련됐다.캐나다 측에서는 필립 제닝",
-    "summaryKo": "한국제약바이오협회가 캐나다 혁신과학경제개발부 차관 등 대표단과 만나 AI 신약개발과 자율화실험실(SDL) 협력 확대를 논의했다. 공동연구, 기술교류, 전문인력 양성이 협력 방안으로 거론됐다.",
-    "tags": [
-      "AI 신약개발",
-      "SDL"
-    ],
-    "entities": [
-      "한국제약바이오협회",
-      "캐나다 혁신과학경제개발부"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "2c6e66ff535d2f54",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "AI 의료기술 정책 동향 공유 'AI 의료기술 정책 세미나' 열린다",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547638",
-    "publishedAt": "2026-10-29 15:29:00",
-    "rawText": "한국보건의료연구원(이하 NECA)은 오는 11월 16일 오전 10시 코엑스 컨퍼런스룸 307호에서 'AI 의료기술 정책 세미나'를 개최한다고 밝혔다.신의료기술평가 제도 전반에 대한 이해를 높이고, AI 의료기술의 인허가·평가·정책 동향을 종합적으로 공유​하기 위해 마련된 이번 세미나는 우수한 신의료기술의 조기 활용을 지원하는데도 초점을 맞췄다.최근 생성형 인공지능(AI)을 비롯한 다양한 AI기술의 의료 현장 활용이 확대되면서, AI 의료기술의 특성을 고려한 인허가·평가 체계와 임상적 안전성 유효성에 대한 신뢰성 있는 근거 확보의 중",
-    "summaryKo": "한국보건의료연구원(NECA)이 11월 16일 코엑스에서 'AI 의료기술 정책 세미나'를 연다. 신의료기술평가 제도와 AI 의료기술의 인허가·평가·정책 동향을 공유하고 우수 기술의 조기 활용 지원에 초점을 둔다.",
-    "tags": [
-      "AI 의료기술",
-      "인허가"
-    ],
-    "entities": [
-      "NECA"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "90baf35fc15c935f",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "다나아데이터, 생체나이 분석부터 건강상담까지 AI 서비스 통합",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547626",
-    "publishedAt": "2026-10-29 13:51:16",
-    "rawText": "대웅그룹의 AI 의료 빅데이터 기업 다나아데이터가 생체나이와 질환 발병 위험도를 분석하고 건강검진 결과에 기반한 맞춤형 상담까지 제공하는 통합 AI 건강관리 서비스를 선보였다.다나아데이터(대표 이창재)는 생체나이 분석 서비스 '바이오에이지(BIOAGE)'와 검진 특화 상담 서비스 '나만의 건강 AI코치'를 결합한 '검진 기반 통합 AI 건강관리 서비스'를 출시했다고 29일 밝혔다.이번 서비스는 기존에 개별적으로 제공하던 건강위험 분석과 AI 상담 기능을 통합한 것이 특징이다. 건강검진 수치와 이상소견, 종합판정 결과에 생체나이와 주",
-    "summaryKo": "대웅그룹의 AI 의료 빅데이터 기업 다나아데이터가 생체나이 분석 '바이오에이지'와 검진 특화 상담 '나만의 건강 AI코치'를 합친 통합 AI 건강관리 서비스를 출시했다. 검진 수치·이상소견·종합판정에 생체나이와 질환 위험도를 결합해 맞춤 상담을 제공한다.",
-    "tags": [
-      "AI 헬스케어",
-      "건강검진"
-    ],
-    "entities": [
-      "다나아데이터",
-      "대웅그룹",
-      "BIOAGE"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "5ab13fbac3dafa82",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "REVIEW.md에 뭘 적어야 함?",
-    "url": "https://www.youtube.com/shorts/YmM7S9Kezss",
-    "publishedAt": "2026-10-29T03:00:15+00:00",
-    "rawText": "REVIEW.md에 뭘 적어야 함?",
-    "videoId": "",
-    "summaryKo": "REVIEW.md는 Claude Code 팀의 AI 리뷰어에게 어떤 리뷰를 할지 알려주는 파일로, 중복 결제 방지나 타 사용자 데이터 접근 점검 등 중점 사항과 제외 경로, 지적 근거 형식을 정한다. 아직 오픈 표준은 아니고 GitHub 연동 코드 리뷰에만 적용돼, 로컬에서는 파일을 읽혀 쓰라고 한다.",
-    "tags": [
-      "REVIEW.md",
-      "코드 리뷰"
-    ],
-    "entities": [
-      "Claude Code",
-      "GitHub"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "6301b2cd9e6e482f",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "대웅제약, 동탄시티병원과 MARS 2026서 ‘AI 스마트 병원’ 공개",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=547595",
-    "publishedAt": "2026-10-29 09:37:30",
-    "rawText": "입원 병상 모니터링과 웨어러블 기기 유통을 중심으로 디지털헬스케어 사업을 넓혀온 대웅제약이 13개 파트너사 기술을 결합한 ‘통합형 AI 스마트 병원’ 모델을 내놓는다. 개별 의료기기 공급을 넘어 병동 입원 관리부터 진단·검사, 재활치료까지 의료기관의 전 과정을 묶은 디지털 전환 모델을 일선 병원에 확산시키겠다는 구상이다.대웅제약(대표 이창재·박성수)은 오는 11월 3일부터 5일까지 서울 삼성동 코엑스에서 열리는 ‘AI EXPO MARS 2026’에 참가해 동탄시티병원 및 ‘대웅 얼라이언스’ 소속 13개 파트너사와 함께 ‘AI 스마트",
-    "summaryKo": "대웅제약이 동탄시티병원과 13개 파트너사 기술을 묶은 '통합형 AI 스마트 병원' 모델을 11월 3~5일 AI EXPO MARS 2026에서 공개한다. 개별 기기 공급을 넘어 입원 관리, 진단·검사, 재활까지 병원 전 과정의 디지털 전환을 확산하려는 구상이다.",
-    "tags": [
-      "스마트 병원",
-      "디지털헬스케어"
-    ],
-    "entities": [
-      "대웅제약",
-      "동탄시티병원",
-      "대웅 얼라이언스"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "44625ccf0f8f5caf",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "건보공단, 의료이용 이상징후 탐지 AI로 혁신챌린지 최우수상",
-    "url": "https://www.dailypharm.com/user/news/343963",
-    "publishedAt": "2026-10-29",
-    "rawText": "건보공단, 의료이용 이상징후 탐지 AI로 혁신챌린지 최우수상",
-    "summaryKo": "국민건강보험공단이 의료이용 이상징후를 탐지하는 AI로 혁신챌린지에서 최우수상을 받았다. 본문이 제목뿐이라 제목 기반으로만 요약했다.",
-    "tags": [
-      "이상징후 탐지",
-      "건강보험"
-    ],
-    "entities": [
-      "건보공단"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "563fa645613a6fad",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "제이앤피메디, 커넥트서 규제·AI·개발·투자 대응 전략 제시",
-    "url": "https://www.dailypharm.com/user/news/343951",
-    "publishedAt": "2026-10-29",
-    "rawText": "제이앤피메디, 커넥트서 규제·AI·개발·투자 대응 전략 제시",
-    "summaryKo": "제이앤피메디가 커넥트 행사에서 규제·AI·개발·투자 대응 전략을 제시했다. 본문이 제목뿐이라 제목 기반으로만 요약했다.",
-    "tags": [
-      "AI",
-      "임상개발"
-    ],
-    "entities": [
-      "제이앤피메디"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-29T21:04:34.055Z"
-  },
-  {
-    "id": "85f94c0fe8f02a81",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-    "url": "https://openai.com/index/credit-saison",
-    "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
-    "rawText": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-    "summaryKo": "일본 금융사 Credit Saison이 ChatGPT Enterprise 파일럿에서 954% ROI를 달성했다. 리더와 직원이 함께 성과를 만들어 전사 도입으로 이어진 과정을 소개한다.",
-    "tags": [
-      "엔터프라이즈 도입",
-      "ROI"
-    ],
-    "entities": [
-      "Credit Saison",
-      "OpenAI",
-      "ChatGPT Enterprise"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-30T21:05:54.770Z"
-  },
-  {
-    "id": "b6ad6e98c2c701ee",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 이제 인터넷 연결 없이 실행하는 AI도 웹브라우저를 직접 조작할 수 있습니다. Unsloth AI가 로컬 AI 모델을 활용한 브라우저 자동 조작 기능을 ...",
-    "url": "https://www.threads.com/t/DfDWU4bjL6j",
-    "publishedAt": "Wed, 28 Oct 2026 21:00:43 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>이제 인터넷 연결 없이 실행하는 AI도 웹브라우저를 직접 조작할 수 있습니다. Unsloth AI가 로컬 AI 모델을 활용한 브라우저 자동 조작 기능을 공개했습니다. 시연에서는 Qwen3.8-27B가 사람의 개입 없이 브라우저를 조작해 체스를 두고 그림을 그리는 작업을 수행했는데요. 클라우드 AI에 요청하지 않고 PC에서 실행하는 모델이 화면을 확인하고 클릭하며 여러 단계의 작업을 처리한다는 점이 눈에 띕니다. 사용 방법과 코드는 Unsloth 공식 문서와 GitHub에 공개됐습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/870226864_1397379965803981_1158311941781791019_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAxODE1MzQ4NDU0OTE0NDIyNw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=C_w_L9xe3XIQ7kNvwGM54m4&amp;_nc_oc=Adq7JX7DZHKoqIA-UiPueGTxrYxUEQLDrkCFJfZgPAAz34KlZudx1JqC7JS_5OMU7rQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=TTtxcEvcvvx18IN4r0G1dg&amp;_nc_ss=7320f&amp;oh=00_AQRw-AlWqlz94po-CHDXrFCicQvBDsTdT8pxCM_EfHCQFQ&amp;oe=6AE83069\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQO5R-yS2y5cpDsLAn5-RnGD1cf-KyDH4g1TcoXNvFVauOYb9yKbHmG93L-bkml3wF4Ozl_EKwb3Ev_QVsk9YrXlvSVs8GQA3sLVhNw.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=QrbxnJyizM0Q7kNvwHxhG9l&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMTY4LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTQwMzYzMDkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=c128f5608307dc63&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8xQUIyOTI3NkRFOEU0MUE2QjVDREQzRjFBQTE1MzAxMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgOC95OHe9j8VAigCQzMsF0AzgAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=TTtxcEvcvvx18IN4r0G1dg&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQQLsmu2VQd9GMpv2gVVkxVoqvlsGOjZq5zimLS8x-quyA&amp;oe=6AE43C15\"></video></p>",
-    "summaryKo": "Unsloth가 로컬 AI 모델로 웹브라우저를 직접 조작하는 기능을 공개했다. 시연에서 Qwen3.8-27B가 사람 개입 없이 체스를 두고 그림을 그렸으며, 클라우드 없이 PC에서 화면을 보고 클릭하며 다단계 작업을 수행한다.",
-    "tags": [
-      "브라우저 에이전트",
-      "로컬 LLM"
-    ],
-    "entities": [
-      "Unsloth",
-      "Qwen3.8-27B"
-    ],
-    "cats": [
-      "에이전트",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "2c8d9c6c5d982ba9",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "How to Outrun the AI Hackers",
-    "url": "https://www.thefp.com/p/tyler-cowen-how-to-outrun-the-ai",
-    "publishedAt": "Wed, 28 Oct 2026 20:57:02 +0000",
-    "rawText": "Article URL: https://www.thefp.com/p/tyler-cowen-how-to-outrun-the-ai Comments URL: https://news.ycombinator.com/item?id=50280797 Points: 1 # Comments: 0",
-    "summaryKo": "Tyler Cowen은 AI가 PHP의 치명적 결함을 찾아낸 소식이 먼저 유출돼 인터넷이 패치 소동을 겪은 사건을 계기로 AI 해커 위협을 논한다. 암호학 돌파 가능성을 포함해 최선의 방어를 쌓아 시간을 벌어야 한다고 주장한다.",
-    "tags": [
-      "AI 보안",
-      "암호학"
-    ],
-    "entities": [
-      "Tyler Cowen",
-      "PHP",
-      "Anthropic"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "6dd16ff9394d7d8f",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "When AI Does the Work, What Will Humans Do?",
-    "url": "https://project507.substack.com/p/when-ai-does-the-work-what-will-humans",
-    "publishedAt": "Wed, 28 Oct 2026 20:52:31 +0000",
-    "rawText": "Article URL: https://project507.substack.com/p/when-ai-does-the-work-what-will-humans Comments URL: https://news.ycombinator.com/item?id=50280739 Points: 1 # Comments: 0",
-    "summaryKo": "AI가 일을 대신할 때 그 일에서 쌓인 인간의 경험과 학습의 가치는 누구에게 돌아가는지 묻는 에세이다. 희소한 역량이 \"어떻게 하는가\"에서 \"무엇이 할 가치가 있는가\"로 이동하며, 경험 제공자가 이익에 참여할 방식이 필요하다고 본다.",
-    "tags": [
-      "AI와 일",
-      "경제"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "7286710b42c2976d",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI Startups Are Getting an Inch and Taking a Mile",
-    "url": "https://tedium.co/2026/10/27/ai-startups-sketchy-behavior/",
-    "publishedAt": "Wed, 28 Oct 2026 20:51:35 +0000",
-    "rawText": "Article URL: https://tedium.co/2026/10/27/ai-startups-sketchy-behavior/ Comments URL: https://news.ycombinator.com/item?id=50280720 Points: 1 # Comments: 0",
-    "summaryKo": "Tedium은 웹 초창기 Facebook Like 버튼처럼 작은 허용이 데이터 수집으로 이어졌던 사례를 들어, AI 스타트업들도 한 치를 주면 한 마일을 가져가는 행태를 보인다고 비판한다.",
-    "tags": [
-      "AI 스타트업",
-      "데이터 수집"
-    ],
-    "entities": [
-      "Tedium",
-      "Facebook"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "23ac6da9b52a1f52",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "이 브라우저 지문 수집 스크립트는 왜 생물무기를 만들고 있을까?",
-    "url": "https://news.hada.io/topic?id=36185",
-    "publishedAt": "2026-10-29T05:38:56+09:00",
-    "rawText": "웹사이트 1만 개에서 브라우저 지문 수집용 캔버스를 조사하던 중, 생물무기와 자해 등을 연상시키는 함수명과 문자열을 포함한 안티봇 스크립트가 발견됨 위험한 내용을 실제로 구현하기보다 LLM의 안전장치를 자극해 난독화 해제를 막으려는 기법으로 보이며, 오...",
-    "summaryKo": "브라우저 지문 수집용 안티봇 스크립트에서 생물무기·자해를 연상시키는 함수명과 문자열이 발견됐다. 실제 구현이 아니라 LLM 안전장치를 건드려 난독화 해제를 막으려는 기법으로 보이며, LLM 기반 역공학에 대한 대응 사례다.",
-    "tags": [
-      "LLM 안전장치",
-      "난독화",
-      "안티봇"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "9957645d2f759c41",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "Creating AI value with enterprise context",
-    "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-    "publishedAt": "Wed, 28 Oct 2026 20:32:02 +0000",
-    "rawText": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;",
-    "summaryKo": "MIT Technology Review 조사에서 모든 기업이 AI를 쓰지만 변혁적 가치를 얻는 곳은 16%에 그쳤다. 병목은 모델이 아니라 AI가 비즈니스를 이해하게 하는 컨텍스트 레이어의 부재라는 Atlan의 주장을 담은 후원 콘텐츠다.",
-    "tags": [
-      "엔터프라이즈 AI",
-      "컨텍스트 레이어"
-    ],
-    "entities": [
-      "MIT Technology Review",
-      "Atlan"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "847a4dc7e149ae24",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Getting good at AI takes time and practice",
-    "url": "https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/",
-    "publishedAt": "Wed, 28 Oct 2026 20:31:36 +0000",
-    "rawText": "Article URL: https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/ Comments URL: https://news.ycombinator.com/item?id=50280471 Points: 2 # Comments: 1",
-    "summaryKo": "AI를 잘 쓰는 것은 요령이 아니라 시간이 걸리는 장기 역량이라는 글이다. 맥락 제공, 모델이 할 수 있는 일과 실수 유형 파악, AI 장황함 빠르게 훑기가 핵심 기술이며 모델이 바뀌어도 비교적 오래 유효하다고 주장한다.",
-    "tags": [
-      "AI 활용 역량",
-      "코딩 에이전트"
-    ],
-    "entities": [
-      "GitHub Copilot",
-      "MCP"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "55184089ec79b57a",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: ThreadShelf – Obsidian and AI chats: vector search, MCP, llama.cpp",
-    "url": "https://github.com/ChrystianSchutz/ThreadShelf",
-    "publishedAt": "Wed, 28 Oct 2026 20:23:34 +0000",
-    "rawText": "Article URL: https://github.com/ChrystianSchutz/ThreadShelf Comments URL: https://news.ycombinator.com/item?id=50280357 Points: 1 # Comments: 0",
-    "summaryKo": "ThreadShelf는 Obsidian과 AI 대화 기록을 벡터 검색하고 MCP·llama.cpp로 연결하는 Show HN 프로젝트다. 본문은 확인하지 않고 제목 기반으로 요약했다.",
-    "tags": [
-      "RAG",
-      "MCP",
-      "로컬 LLM"
-    ],
-    "entities": [
-      "Obsidian",
-      "llama.cpp"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "e63c44ee253751eb",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "AI for Science expands to foundations and institutions",
-    "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-    "publishedAt": "Wed, 28 Oct 2026 20:15:12 +0000",
-    "rawText": "Article URL: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions Comments URL: https://news.ycombinator.com/item?id=50280248 Points: 1 # Comments: 0",
-    "summaryKo": "Anthropic이 AI for Science 프로그램을 재단·연구기관 20곳 규모의 파트너십으로 확대했다. Sloan, Simons, NSF 등을 통해 연구자에게 Claude 크레딧을 제공하고, HHMI Janelia와 연구실 장비를 에이전트가 안전하게 다루는 표준(MHS)을 개발한다.",
-    "tags": [
-      "과학 AI",
-      "연구 자동화"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude",
-      "NSF",
-      "HHMI Janelia",
-      "Allen Institute"
-    ],
-    "cats": [
-      "기업·정책",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "84d86d9f557381fa",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Race Radar – HYROX ticket alerts, run day to day by an AI CEO",
-    "url": "https://raceradar.fit/",
-    "publishedAt": "Wed, 28 Oct 2026 20:15:07 +0000",
-    "rawText": "Article URL: https://raceradar.fit/ Comments URL: https://news.ycombinator.com/item?id=50280244 Points: 1 # Comments: 0",
-    "summaryKo": "Race Radar는 HYROX 대회 티켓 알림을 AI CEO가 운영한다는 Show HN 서비스다. 본문은 확인하지 않고 제목 기반으로 요약했다.",
-    "tags": [
-      "AI 에이전트",
-      "Show HN"
-    ],
-    "entities": [
-      "Race Radar",
-      "HYROX"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "f4fbe885f8a380c9",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Google AI gets cagey when asked who won the 2020 elections",
-    "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-    "publishedAt": "Wed, 28 Oct 2026 20:10:16 +0000",
-    "rawText": "Article URL: https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/ Comments URL: https://news.ycombinator.com/item?id=50280178 Points: 7 # Comments: 5",
-    "summaryKo": "Ars Technica 테스트에서 Google AI Mode는 2020년 미 대선 승자 질문에 직접 답하지 않고 FEC 같은 외부 자료만 안내했다. 다른 선거에는 답하는 등 일관성이 없고, 해외 접속이나 재질문 땐 답하며, Gemini 등 다른 챗봇은 바로 답했다.",
-    "tags": [
-      "AI 안전",
-      "검색 AI"
-    ],
-    "entities": [
-      "Google",
-      "AI Mode",
-      "Gemini"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "818bbded18685880",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 와.. AI 모델 안에 CPU를 직접 구현한 개발자가 등장했습니다. 개발자 div가 공개한 Qwenputer는 Qwen3.5-4B의 가중치에 32비트 RISC-V CPU를 구...",
-    "url": "https://www.threads.com/t/DfDPYMKkXUn",
-    "publishedAt": "Wed, 28 Oct 2026 20:00:01 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>와.. AI 모델 안에 CPU를 직접 구현한 개발자가 등장했습니다. 개발자 div가 공개한 Qwenputer는 Qwen3.5-4B의 가중치에 32비트 RISC-V CPU를 구현하고, Gated DeltaNet 계층을 메모리처럼 활용합니다. 덕분에 외부 Python 도구를 호출하지 않고도 모델 내부에서 C와 MicroPython 프로그램을 실행할 수 있는데요. 수학 문제 평가 NUPA에서 기존 Qwen의 정답률은 48.6%였지만, Qwenputer는 100%를 기록했다고 합니다. 모델과 체험판은 Hugging Face와 ModelScope에 공개됐습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/871206436_1852705069478773_7724444280429707798_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;ig_cache_key=NDAxODEyMjkyNTU3MTkyOTM4Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&amp;_nc_ohc=Nd31daJ2Z-UQ7kNvwEJ2jHZ&amp;_nc_oc=AdpAGXoL5IOM5A6l7nZVbUikKnECHT8s9mPeCG6VENml_27jxyaru_88icv49voBIpE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=TTtxcEvcvvx18IN4r0G1dg&amp;_nc_ss=7320f&amp;oh=00_AQTU8BCBiEaKk3upUx8mCa8dr84nWrI1qY0LYOI2bSDflw&amp;oe=6AE81D67\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQNuU3JKMgS-ieIwYw504R0xpPsDQwg4P4e33GzLnPCy6H-tR9em_4WPvHMjFjQh41ysgSALgB8fATZo8X8Dv0aYC8tlM5zlVQjlFic.mp4?_nc_cat=101&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=cKXLFomlEygQ7kNvwFZfxj1&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTQwMzcyNTExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=16f04fbaf92a80fd&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yMkZBQjM0RDYwREU0ODlFOTM3MUMxN0ExN0M1NzVFMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgP7r5uje9j8VAigCQzMsF0ArCj1wo9cKGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=TTtxcEvcvvx18IN4r0G1dg&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQQlE8LA9fBkkxvDKborNFnuFOJJrPUrZWh0X675ZqGj7Q&amp;oe=6AE44A5B\"></video></p>",
-    "summaryKo": "Qwenputer는 Qwen3.5-4B 가중치 안에 32비트 RISC-V CPU를 구현하고 Gated DeltaNet 층을 메모리로 써, 외부 도구 없이 모델 내부에서 C와 MicroPython을 실행한다. 수학 평가 NUPA 정답률이 48.6%에서 100%로 올랐다고 한다.",
-    "tags": [
-      "모델 내 연산",
-      "RISC-V",
-      "Gated DeltaNet"
-    ],
-    "entities": [
-      "Qwenputer",
-      "Qwen3.5-4B",
-      "Hugging Face"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
-  },
-  {
-    "id": "a1abf584b2aa33d5",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "M6를 탑재한 새로운 14인치 MacBook Pro",
-    "url": "https://news.hada.io/topic?id=36182",
-    "publishedAt": "2026-10-29T04:49:02+09:00",
-    "rawText": "Apple이 12코어 CPU와 12코어 GPU를 탑재한 14인치 MacBook Pro를 공개함. Apple 측 비교에서 M5 대비 그래픽 성능은 최대 30%, 온디바이스 AI 작업 성능은 최대 25% 향상됨 GPU 각 코어의 Neural Accelerators와 듀얼 16코어 Neural Engine으로 ...",
-    "summaryKo": "Apple이 M6 칩의 12코어 CPU·GPU를 탑재한 14인치 MacBook Pro를 공개했다. M5 대비 그래픽 최대 30%, 온디바이스 AI 작업 최대 25% 향상이며 GPU 코어별 Neural Accelerators와 듀얼 Neural Engine을 갖췄다.",
-    "tags": [
-      "온디바이스 AI",
-      "Apple Silicon"
-    ],
-    "entities": [
-      "Apple",
-      "M6",
-      "MacBook Pro"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-28T21:05:40.091Z"
   }
 ]

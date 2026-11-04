@@ -1,0 +1,19 @@
+{
+  "points": [
+    "GitHub에서 오류 증가와 간헐적 실패가 발생했다.",
+    "Pull Requests, Git 작업, Issues 등에서 요청이 실패하거나 지연됐다.",
+    "영향은 API Requests와 Actions를 포함한 5개 서비스였다.",
+    "전체 장애는 2026년 11월 4일 11:50 UTC에 해결됐고 근본 원인 분석은 미공개다."
+  ],
+  "sections": [
+    {
+      "heading": "영향",
+      "body": "성능 저하와 Pull Requests 가용성 저하가 확인됐다."
+    },
+    {
+      "heading": "복구 타임라인",
+      "body": "11:30 UTC에 API, Git, Issues, PR 영향이 완화되고, 11:43 UTC에 Actions가 완화됐으며, 11:50 UTC에 전체 해결됐다."
+    }
+  ],
+  "quotes": []
+}
