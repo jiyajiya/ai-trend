@@ -1,5 +1,407 @@
 [
   {
+    "id": "a6e4505d9d5d6516",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "대학 도서관에 몰려드는 AI 봇, 공공 접근권을 위협하다",
+    "url": "https://news.hada.io/topic?id=36771&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T04:33:14+09:00",
+    "rawText": "AI 학습용 데이터를 수집하는 스크래핑 봇이 대학 도서관 사이트를 느려지거나 중단되게 하면서 학생, 연구자, 일반 시민의 자료 접근을 방해하고 있음일부 봇은 robots.txt 지침을 무시하고 초당 수천 건의 문서를 요청하며, 수천 개 IP 주소를 사용해 기존 IP 차단 방식으로 대응하기 어려움University of North Carolina at Chapel Hill에서는 하루에 핀란드 음악 검색 1만 1,000건 이상이 발생했고, 봇 트래픽 때문에 학생과 교직원이 도서관 목록에 주기적으로 접근하지 못함CAPTCHA와 로그인 요구는 봇을 막는 수단이지만 유용한…",
+    "summaryKo": "AI 학습용 데이터를 긁는 스크래핑 봇이 대학 도서관 사이트를 느리게 하거나 중단시켜 학생·연구자의 자료 접근을 방해하고 있다. 일부 봇은 robots.txt를 무시하고 수천 개 IP로 요청해 IP 차단이 어렵고, CAPTCHA·로그인 요구는 정당한 이용자에게도 부담을 준다.",
+    "tags": [
+      "AI 크롤러",
+      "봇 트래픽"
+    ],
+    "entities": [
+      "UNC Chapel Hill"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "507a456ea66f23ce",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "8달러짜리 Linux 컴퓨터(2022)",
+    "url": "https://news.hada.io/topic?id=36770&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T03:38:53+09:00",
+    "rawText": "Ox64는 서로 다른 RISC-V 코어 3개를 갖춘 8달러 컴퓨터로, MMU 없는 축소형 커널에 한정되지 않는 Linux 실행을 지원함당시 이더넷, Wi-Fi, SD 카드가 작동하지 않았으며, 초기 구동에도 여러 장애물이 있었음펌웨어는 USB로 직접 기록할 수 없어 UART TX/RX 연결이 필요했고, 실험에 사용한 CH340G 동글에서는 핸드셰이크가 계속 실패함RP2040 기반 시리얼 브리지와 수정한 bflb-mcu-tool을 조합해 M0 펌웨어 기록에 성공함이번 단계에서 확인한 결과는 PC로 초기화 로그 수신까지이며, Linux 실행 성공은 아직 확인하지 못함Ox64…",
+    "summaryKo": "RISC-V 코어 3개를 갖춘 8달러 보드 Ox64에서 Linux를 띄우려는 2022년 실험기다. UART 연결과 수정한 플래시 도구로 펌웨어 기록과 초기화 로그 수신까지 성공했지만 Linux 부팅은 아직 확인하지 못했다.",
+    "tags": [
+      "RISC-V",
+      "임베디드"
+    ],
+    "entities": [
+      "Ox64"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "bf50c0740b312730",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "자유 소프트웨어로 법률사무소 운영하기",
+    "url": "https://news.hada.io/topic?id=36769&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T03:35:52+09:00",
+    "rawText": "영국의 소규모 법률사무소 decoded.legal은 약 5년째 클라이언트와 서버 양쪽에서 자유 소프트웨어를 사용하며, 문서 작성부터 청구, 사건 관리까지 처리함업무용 PC는 Debian과 GNOME을 유지하며, 다른 변호사와 교환할 문서는 LibreOffice Writer로, 일부 문서와 발표 자료는 Markdown 기반 도구로 작성함최근 주요 변경은 Nextcloud를 Syncthing과 radicale로 대체한 것으로, 파일 동기화와 일정/연락처 관리를 분리한 조합에 만족하고 있음서버 측 주요 서비스는 Signal을 제외하고 자체 호스팅하지만, 사용량이 적었던 Jitsi와 C…",
+    "summaryKo": "영국 소규모 법률사무소 decoded.legal이 약 5년째 Debian·LibreOffice 등 자유 소프트웨어로 문서 작성부터 청구·사건 관리까지 운영한 경험을 공유한다. 최근 Nextcloud를 Syncthing과 radicale로 바꿨고 서버 서비스 대부분을 자체 호스팅한다.",
+    "tags": [
+      "오픈소스",
+      "자체 호스팅"
+    ],
+    "entities": [
+      "decoded.legal",
+      "Debian",
+      "Nextcloud"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "ec3475a5c4c7762a",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Unitree 공장을 둘러본 뒤, 서구의 전망을 더 낙관하게 됐다",
+    "url": "https://news.hada.io/topic?id=36768&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T02:49:45+09:00",
+    "rawText": "Unitree의 로봇 생산은 여전히 수작업 중심이며, 2025년 제조원가에서 인건비 비중은 8%에 불과함. 중국에서는 저렴한 노동력이 합리적이지만, 로봇을 만드는 기계 시장은 아직 서구에도 기회가 남아 있음잦은 제품 변경과 재프로그래밍 비용이 자동화를 어렵게 함. Unitree도 로봇 전체보다 여러 제품이 공유하고 설계가 상대적으로 안정적인 관절 모듈부터 자동화하고 있음미국의 공장 노동비는 중국의 약 7.5배여서 같은 자동화 설비의 절감 가치가 훨씬 큼. 중국산 로봇과 부품에 대한 규제까지 더해지면서 저렴한 해외 노동력에 의존하는 선택지가 줄어듦…",
+    "summaryKo": "Unitree 공장 방문기로, 로봇 생산이 여전히 수작업 중심이며 2025년 제조원가에서 인건비 비중이 8%에 그친다고 한다. 미국은 공장 노동비가 중국의 약 7.5배라 자동화 설비의 절감 가치가 크고, 로봇을 만드는 기계 시장에 서구의 기회가 남아 있다는 낙관론이다.",
+    "tags": [
+      "로보틱스",
+      "제조 자동화"
+    ],
+    "entities": [
+      "Unitree"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "779a98df5fd959d8",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Chomsky와 통계적 학습의 두 문화(2011)",
+    "url": "https://news.hada.io/topic?id=36767&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T02:46:45+09:00",
+    "rawText": "통계적 언어 모델의 예측 성능과 과학적 이해는 대립할 필요가 없음. 공학적 성공이 과학적 타당성을 입증하지는 않지만, 모델의 성공과 실패, 데이터에 따른 학습 양상은 언어를 이해하는 근거가 될 수 있음통계적 모델, 확률 모델, 학습된 모델은 서로 다른 개념임. 단순한 단어 Markov 모델의 한계를 모든 확률 모델의 한계로 확대하면, 구문 트리와 의미, 담화를 다루는 모델까지 잘못 배제하게 됨2011년 당시 통계적 방법은 언어 처리의 지배적인 접근법이었음. 검색, 음성 인식, 기계 번역뿐 아니라 품사 태깅과 구문 분석에서도 널리 쓰였으며, 규칙 기반 또는 혼합형 시스템의 성공 사례도 존재함…",
+    "summaryKo": "통계적 언어 모델의 예측 성능과 과학적 이해는 대립할 필요가 없다는 2011년 글이다. 단순 Markov 모델의 한계를 모든 확률 모델로 일반화하면 구문·의미·담화까지 다루는 모델을 잘못 배제하게 된다고 짚는다.",
+    "tags": [
+      "통계적 학습",
+      "언어 모델"
+    ],
+    "entities": [
+      "Chomsky"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "134a33c57bdbb3d7",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 제프 딘(Jeff Dean)은 프론티어 AI 모델 개발과 거대 엔지니어링의 패러다임이 바뀔 것이라 전망했습니다. 그는 기존의 대규모 연구 개발 방식이 ...",
+    "url": "https://www.threads.com/t/DfcuMyEimkQ",
+    "publishedAt": "Sat, 07 Nov 2026 17:30:21 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>제프 딘(Jeff Dean)은 프론티어 AI 모델 개발과 거대 엔지니어링의 패러다임이 바뀔 것이라 전망했습니다. 그는 기존의 대규모 연구 개발 방식이 인간의 수동 작업과 \"심각한 조율 비용(coordination overhead)\"에 묶여 있다고 지적했습니다. 거대한 문제를 잘게 쪼개는 구조 분해가 어렵고 초기 결정을 유연하게 바꾸기도 힘들기 때문입니다. 하지만 적절한 자동화 인프라가 갖춰진다면, 소수의 전문 연구원만으로도 수만 개의 실험을 자율적으로 돌려 복잡한 문제를 해결할 수 있다고 강조했습니다. 강화학습과 진화 알고리즘 기반의 자동화 의사결정이 도입되면 이전 실험이 다음 실험으로 즉각 피드백되며, “소수의 도메인 전문가가 극도로 거대하고 영향력 있는 문제들을 직접 해결하는 시대”가 올 것이라고 밝혔습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/890716941_1010577635393734_166135217987225863_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;ig_cache_key=NDAyNTI5NTM1NTQ5ODg4MzM0NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=G72xKeYMIw4Q7kNvwEY0N86&amp;_nc_oc=AdqgsWppzvFLFhqBGfbgr9iVaXFj-XHbOcsMm6gqOxbCNN4sdrk1G_eHaridcxngS1U&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQSLQ8nNT8-xop1K84HE_m6pMweaJtZbgzbzEZPUhElXFQ&amp;oe=6AF57A85\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQNFtpSrAeSC48SI9irAeZJAGjns9fvuEfDAoS8qhsLPQd2SBf40QOqqIaUtYUVKCxuzuUwLbSClrXqFUi0vKCvuVIzKHQNbxgYIC2s.mp4?_nc_cat=104&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=BSFIeQqKjiYQ7kNvwHvfKp0&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU1MTMyMTIxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTM4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=4cf7a9ed04c1e857&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CNjVDNUUzMDRGQUM0MUQ4OUU0MTQ5RUZCOEY2RkFFOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzAxODZBNDdEMURGQjQyMTdCMERDMzE1OTRBNDJENTRBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAv_jI3bT3PxUCKAJDMywXQGFM9cKPXCkYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQTC2lCB-n0n_6R_PZh2Ms6WwENO5JFfllObg1mk8RyzjQ&amp;oe=6AF166DC\"></video></p>",
+    "summaryKo": "Jeff Dean은 프론티어 AI 개발이 인간의 수동 작업과 조율 비용에 묶여 있다고 지적하며, 자동화 인프라가 갖춰지면 소수 연구원이 수만 개 실험을 자율 실행하는 방식으로 바뀔 것이라 전망했다. 강화학습·진화 알고리즘 기반 의사결정으로 실험 결과가 다음 실험에 즉시 피드백된다는 구상이다.",
+    "tags": [
+      "AI 연구 자동화",
+      "강화학습"
+    ],
+    "entities": [
+      "Jeff Dean",
+      "Google"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "c6cf1345d4a2cece",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "크레딧 낭비 없이 내가 원하는 구도로 AI 영상 뽑는 법 (Seedance 2.5)",
+    "url": "https://www.youtube.com/watch?v=U2yRjATdTKY",
+    "publishedAt": "2026-11-07T17:08:59+00:00",
+    "rawText": "크레딧 낭비 없이 내가 원하는 구도로 AI 영상 뽑는 법 (Seedance 2.5)",
+    "videoId": "U2yRjATdTKY",
+    "summaryKo": "AI 영상 모델의 무작위성을 크레딧 낭비 없이 제어하려면, 색깔 박스로 만든 프리비즈 영상에 카메라·동선만 맡기고 얼굴·옷은 캐릭터 시트 이미지, 몸동작은 프롬프트 글로 역할을 나누라는 방법을 소개한다. 박스를 관절까지 세분화하면 오히려 동작이 굳는 실패 사례도 보여준다.",
+    "tags": [
+      "AI 영상",
+      "프리비즈"
+    ],
+    "entities": [
+      "Seedance 2.5",
+      "GPT Image 2.5",
+      "Three.js"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "740d58d9845933f8",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "민주당, SpaceXAI와 META, Apple에 대한 의회 조사 착수",
+    "url": "https://news.hada.io/topic?id=36766&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T01:37:56+09:00",
+    "rawText": "미국 민주당이 미국 최대 기업 일부를 대상으로 일련의 조사를 준비하고 있음조사 범위는 지난 2년간의 기업 활동임조사 초점은 기업들의 민감하고 논란이 큰 행위에 맞춰질 예정임실리콘밸리와 월스트리트에서 Trump 행정부와 관계를 다져온 경영진이 조사 압박에 직면하고 있음해당 경영진은 다가올 집중 조사에 대비하고 있음대기업 조사 준비와 경영진의 대응민주당은 미국 최대 기업 일부를 대상으로 지난 2년간 가장 민감하고 논란이 큰 행위를 조사할 준비를 하고 있음실리콘밸리와 월스트리트에서 Trump 행정부와 관계를 …",
+    "summaryKo": "미국 민주당이 SpaceXAI, Meta, Apple 등 대형 기업의 최근 2년간 민감한 행위를 대상으로 의회 조사를 준비 중이다. Trump 행정부와 관계를 다져온 실리콘밸리·월스트리트 경영진이 조사 압박에 대비하고 있다.",
+    "tags": [
+      "규제",
+      "의회 조사"
+    ],
+    "entities": [
+      "SpaceXAI",
+      "Meta",
+      "Apple"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "74287d9d703d4e30",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "RealPage 임대료 책정 소송, 세입자에게 약 3억 6,000만 달러 지급하는 합의로 마무리",
+    "url": "https://news.hada.io/topic?id=36765&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T01:34:56+09:00",
+    "rawText": "미국 연방법원이 RealPage 소프트웨어를 통한 임대료 담합 의혹 집단소송의 합의를 승인함. 합의에 참여한 임대인들이 세입자에게 지급할 금액은 약 3억 6,000만 달러임합의 기업들은 잘못이나 법적 책임을 인정하지 않았지만, 가격 추천을 위한 비공개 데이터 제공과 경쟁사 비공개 데이터 활용을 중단하기로 함합의 대상은 2018년 10월 18일부터 2025년 11월 21일까지 지정된 RealPage 제품을 사용한 미국 공동주택에서 소유주나 운영사에 임대료를 낸 세입자임워싱턴 D.C.와 4개 주 법무장관은 합의가 별도 소송을 부당하게 제한할…",
+    "summaryKo": "RealPage 소프트웨어를 통한 임대료 담합 의혹 집단소송에서 연방법원이 약 3억 6,000만 달러 규모의 합의를 승인했다. 합의 기업들은 책임을 인정하지 않았지만 비공개 데이터로 가격을 추천하거나 경쟁사 비공개 데이터를 쓰는 관행을 중단하기로 했다.",
+    "tags": [
+      "알고리즘 가격담합",
+      "반독점"
+    ],
+    "entities": [
+      "RealPage"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "6102b7b5772d9774",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 독일 노동시장·직업연구소(IAB)의 엔초 베버(Enzo Weber) 교수는 “오늘날 우리가 아는 일자리는 청년 세대에게 더 이상 존재하지 않을 것”이라...",
+    "url": "https://www.threads.com/t/Dfcj7NAEsd8",
+    "publishedAt": "Sat, 07 Nov 2026 16:00:34 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>독일 노동시장·직업연구소(IAB)의 엔초 베버(Enzo Weber) 교수는 “오늘날 우리가 아는 일자리는 청년 세대에게 더 이상 존재하지 않을 것”이라고 진단했습니다. 이제 청년들은 기관사 같은 고전적 직업 대신 “AI로부터 안전한 직업(KI-sichere Job)”을 찾고 있지만, 과거 10년의 기준에 머물러선 안 되며 다가올 10년의 새로운 일자리를 대비해야 한다고 짚었습니다. 그는 IAB 연구 결과를 인용하며 AI 성능 고도화로 150만 개의 일자리가 사라지겠지만, 생산성 증대와 새로운 비즈니스 모델 투자로 150만 개의 새로운 일자리가 상쇄 창출될 것이라고 분석했습니다. 다만 이번 변화의 핵심이자 “진짜 무서운 점은 AI가 이제 고숙련·전문직 업무를 직접 대체하기 시작했다는 사실”이라며 지식 노동 생태계의 전면적 재편을 경고했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/890716705_1974755853583908_6960685115200916525_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;ig_cache_key=NDAyNTI1MDE2Njk5OTI3MTI5Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=JM-fg6rIl6UQ7kNvwGaYdAr&amp;_nc_oc=Adra6N_mjINF6cFtPQiQTBIrKUVEnrkqBJJr2dtJlIzM93cHoq1aKMETuj50oZUbSDk&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQTZSUw4cKxPsXU_oqWjISlsXo2kepqap_Y7AmVkb5Q2gg&amp;oe=6AF56983\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQMv5YBp7CEO6RDQNXOXrJQVV81iAaVcShobaW3U0vcjVniCqHbmawMe8LLEBz-J6RbVHhTMyqv82GVUbOQ8SQirt_p36gHHb2ziJpE.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=-6DyJc9ZQBMQ7kNvwGEatPE&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU1MTE4ODkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTA3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=319cbb10d1cde3ed&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CMkRGNkI4MEI3NjY0M0YyQjdEODcyRjc0OEM2QTZBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NCNEYwRUFGQzE5ODQyMTA5RjFBOTgzQ0ZDOUYwRTc3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAvJ3b07T3PxUCKAJDMywXQFrUeuFHrhQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQTijI6Foccld1wj4VatVj6NC0DOzj2C0dMw7vA4mIAXXQ&amp;oe=6AF1630A\"></video></p>",
+    "summaryKo": "독일 IAB의 Enzo Weber 교수는 AI 고도화로 150만 개 일자리가 사라지고 비슷한 규모가 새로 생기겠지만, AI가 고숙련 전문직 업무까지 대체하기 시작한 점이 진짜 위험이라고 경고했다. 청년들은 과거 기준이 아닌 향후 10년의 일자리를 준비해야 한다는 주장이다.",
+    "tags": [
+      "AI와 일자리",
+      "노동시장"
+    ],
+    "entities": [
+      "IAB",
+      "Enzo Weber"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "e01fc0b42f8d68ce",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "음식점 배달 주문 사이트를 사칭한 결제정보 탈취 캠페인",
+    "url": "https://news.hada.io/topic?id=36763&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-08T00:38:14+09:00",
+    "rawText": "InfoHawk 조사에서 35개 음식점 브랜드를 사칭한 도메인 820개가 발견됨. 실제 주문 사이트를 복제해 결제정보를 빼내는 하나 이상의 연계된 공격 활동으로 보임공격 사이트는 리버스 프록시로 실제 메뉴, 가격, 장바구니를 실시간 제공하고 결제 단계만 악성 양식으로 교체함. 이를 위해 정상 음식점 사이트를 해킹할 필요는 없음가짜 결제 양식은 카드정보뿐 아니라 은행 SMS 인증 코드나 은행 앱 승인까지 요구함. 연구진은 운영자가 실시간으로 화면을 제어하면서 다른 거래의 3-D Secure 인증을 통과시키는 것으로 추정함최초 조…",
+    "summaryKo": "InfoHawk 조사에서 음식점 35개 브랜드를 사칭한 도메인 820개가 발견됐다. 리버스 프록시로 실제 메뉴·장바구니를 보여주다 결제 단계만 악성 양식으로 바꿔 카드정보와 은행 SMS 인증까지 탈취한다.",
+    "tags": [
+      "피싱",
+      "결제 보안"
+    ],
+    "entities": [
+      "InfoHawk"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "5b6bfbfeb5adc27b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 중국 Ant Group이 Claude Opus 5를 일부 평가에서 앞섰다는 AI 모델 Ling-3.2-flash를 발표했습니다. 전체 5,600억 개 매개변수 중 작업마다 250...",
+    "url": "https://www.threads.com/t/DfcdFAKDc5M",
+    "publishedAt": "Sat, 07 Nov 2026 15:00:44 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국 Ant Group이 Claude Opus 5를 일부 평가에서 앞섰다는 AI 모델 Ling-3.2-flash를 발표했습니다. 전체 5,600억 개 매개변수 중 작업마다 250억 개만 활성화하는 멀티모달 모델인데요. 공개 시연에서는 이미지 한 장으로 3D 게임 자산을 만들고, Blender를 조작하거나 재무 자료를 보고서·발표 자료·영상으로 변환합니다. OmniDocBench1.5에서 92.21점을 기록해 Opus 5의 90.56점을 넘었다고 합니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/889059029_17995730076112832_5475247639462931948_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ig_cache_key=NDAyNTIyMDA1NDA3NzI2MzQzNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=B5SImsmpea4Q7kNvwGkn9Jx&amp;_nc_oc=Adrc8oZW-GmD0S7HQ0Q1OOMUSxfjJP7y_maohWuZVFPelYa6nyGFtgfvsC5zlPO5jqw&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQQWM-7ShL160vZuFA1bigHaKbbAnC20lo_xucWAhvtUnA&amp;oe=6AF54962\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Ant Group이 전체 5,600억 파라미터 중 작업당 250억만 활성화하는 멀티모달 MoE 모델 Ling-3.2-flash를 공개했다. OmniDocBench1.5에서 92.21점으로 Claude Opus 5(90.56점)를 앞섰다고 하며, 이미지 한 장으로 3D 게임 에셋을 만들고 Blender를 조작하는 시연을 보였다.",
+    "tags": [
+      "MoE",
+      "멀티모달",
+      "벤치마크"
+    ],
+    "entities": [
+      "Ant Group",
+      "Ling-3.2-flash",
+      "Claude Opus 5"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "e3be92cea142e0c9",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "에이전트는 빠른데 병목은 나입니다",
+    "url": "https://www.youtube.com/shorts/PHEVmSIGFDc",
+    "publishedAt": "2026-11-07T09:00:04+00:00",
+    "rawText": "에이전트는 빠른데 병목은 나입니다",
+    "videoId": "",
+    "summaryKo": "에이전트 코딩이 빨라져도 여러 세션의 승인을 사람이 일일이 처리하면서 병목이 생긴다. 필자는 세션 28개 중 13개가 결정 대기였고 직접 판단할 건 6개뿐이어서, 기준에 따라 승인·병합하는 매니저 에이전트를 두자고 제안한다.",
+    "tags": [
+      "멀티 에이전트",
+      "승인 병목"
+    ],
+    "entities": [
+      "Claude Code"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "873e4745f457abc8",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "수조 달러를 쓴 AI 랩은 그 돈을 어디서 회수하나 — 누스 리서치 CEO 딜런 롤닉의 뉴욕 15분 키노트",
+    "url": "https://www.youtube.com/watch?v=-kPdGYaMYVU",
+    "publishedAt": "2026-11-07T04:02:47+00:00",
+    "rawText": "수조 달러를 쓴 AI 랩은 그 돈을 어디서 회수하나 — 누스 리서치 CEO 딜런 롤닉의 뉴욕 15분 키노트",
+    "videoId": "-kPdGYaMYVU",
+    "summaryKo": "Nous Research CEO Dillon Rolnick은 AI 랩이 수조 달러를 쓴 뒤 모델이 범용재화되자 에이전트 계층에서 기업을 락인하거나 금융 등 돈 되는 산업에 직접 진출할 것이라 전망한다. 그는 모델을 교체할 수 있는 소유 가능한 기반 위에 에이전트를 지으라며 오픈소스 Hermes Agent를 권하지만, 자사 제품을 파는 입장이라는 점은 감안해야 한다.",
+    "tags": [
+      "AI 경제",
+      "오픈소스 에이전트",
+      "락인"
+    ],
+    "entities": [
+      "Nous Research",
+      "Hermes Agent",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "cats": [
+      "기업·정책",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "dde482bb4cd6ea95",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "클로드 앱이 완전히 달라졌습니다! '2.0'이라 불리는 핵심 기능 8가지 업무 활용법",
+    "url": "https://www.youtube.com/watch?v=lYCIvhvFkXg",
+    "publishedAt": "2026-11-07T04:00:25+00:00",
+    "rawText": "클로드 앱이 완전히 달라졌습니다! '2.0'이라 불리는 핵심 기능 8가지 업무 활용법",
+    "videoId": "lYCIvhvFkXg",
+    "summaryKo": "Claude 앱이 코워크와 챗 통합, 코드 탭 환경(로컬·클라우드·SSH·리모트) 선택, 세션 섹션, 중첩 세션 등으로 크게 바뀌어 커뮤니티에서 \"2.0\"이라 불린다. 환경 세팅→병렬 작업·모니터링→아티팩트 문서·슬라이드 마무리까지의 워크플로를 앱에 담았다는 게 핵심이다.",
+    "tags": [
+      "Claude 앱",
+      "Claude Code"
+    ],
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "Claude Code"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "9d5a0fcc27127e2a",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "Paseo 쓰신다면 이 설정 꼭 켜세요",
+    "url": "https://www.youtube.com/shorts/_SgRv70E-wg",
+    "publishedAt": "2026-11-07T03:00:13+00:00",
+    "rawText": "Paseo 쓰신다면 이 설정 꼭 켜세요",
+    "videoId": "",
+    "summaryKo": "Paseo 호스트 개요 설정에서 앱 종료 후에도 데몬이 계속 실행되도록 켜 두라는 팁이다. 기본값은 비활성인데, 켜면 실수로 앱을 닫아도 다른 기기에서 데몬에 접속해 연결이 끊기지 않는다.",
+    "tags": [
+      "Paseo",
+      "원격 에이전트"
+    ],
+    "entities": [
+      "Paseo"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "289b158886c1e08e",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "[약국에서 바로 쓰는 AI] Claude Project로 복용 검토 도우미 만들기",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548261",
+    "publishedAt": "2026-11-07 05:50:00",
+    "rawText": "환자가 새 증상을 호소하면 약사는 최근 바뀐 약 때문은 아닌지부터 떠올리지만, 약마다 시작·증량 시점과 증상 발현 시점을 하나씩 맞춰 보는 일은 손이 많이 간다. 특히 여러 의료기관에서 처방받는 고령 환자는 한 약의 이상반응이 새 질환으로 해석되어 다른 약이 추가되는 처방 연쇄(prescribing cascade)가 생기기 쉽다. 지난 편(13편)의 스킬 저장에 이어 이번 편에서는 Claude의 프로젝트(Project) 기능에 검토 지침을 고정해 시간표·후보 약·처방 연쇄·확인 사항을 정리해 주는 복용 검토 도우미를 만든다. 준비",
+    "summaryKo": "Claude의 Project 기능에 검토 지침을 고정해, 약마다 시작·증량 시점과 증상 발현 시점을 맞춰 보고 처방 연쇄 가능성을 정리하는 복용 검토 도우미를 만드는 약국용 가이드다. 여러 기관에서 처방받는 고령 환자의 이상반응 점검 부담을 줄이는 데 초점을 둔다.",
+    "tags": [
+      "Claude Project",
+      "복약 검토"
+    ],
+    "entities": [
+      "Claude"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
     "id": "8af580e4590dde83",
     "sourceType": "news",
     "source": "GeekNews",
@@ -338,6 +740,78 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-11-06T21:03:10.291Z"
+  },
+  {
+    "id": "eebdb5024ea0679b",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 3/ 숫자로 보면 이렇습니다. METR은 여러 벤치마크를 하나로 묶은 앤트로픽판 종합 능력 지수 AECI로 추세를 그렸는데, 2025년 10월 7일을 경계로...",
+    "url": "https://www.threads.com/t/DfZ10Usjw3r",
+    "publishedAt": "Fri, 06 Nov 2026 14:39:11 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>3/ 숫자로 보면 이렇습니다. METR은 여러 벤치마크를 하나로 묶은 앤트로픽판 종합 능력 지수 AECI로 추세를 그렸는데, 2025년 10월 7일을 경계로 1년에 약 15점씩 오르던 점수가 약 29점씩 오르기 시작했습니다. 가속 배율은 1.9배(95% 신뢰구간 1.5배에서 2.8배)입니다. METR은 이를 2023년 10월부터 2025년 10월까지, 대략 Claude 2.1에서 Sonnet 4.5까지 간 거리를 지난 1년 만에 다시 갔다고 설명했는데요. 그 2년의 크기는 이렇습니다. 2023년 실제 깃허브 이슈를 고치는 SWE-bench에서 당시 최고였던 Claude 2가 푼 비율은 1.96%였고, Sonnet 4.5는 검증판 SWE-bench Verified에서 77.2%를 풀었습니다. 버그 50개 중 1개를 고치던 AI가 4개 중 3개를 고치게 된 2년이, 이제 1년 안에 일어나고 있습니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/890023594_17995652034112832_7636308056870175100_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=100&amp;ig_cache_key=NDAyNDQ4NDQzNDEzMjUzNjgxMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA1Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=iXg0Nt4m02wQ7kNvwGbgewm&amp;_nc_oc=AdrACmU0h88q98IyudsrmrHXrGfuRtuqjbuIjMqxu54Sy-c3qcEVXy_Aqdo2tqc0YEE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQRGZMzvOtFqxPUif0NdHYJSnzQ3W8wVXh0BzM8DKHlNOw&amp;oe=6AF569D6\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "METR이 Anthropic의 종합 능력 지수 AECI로 추세를 그린 결과, 2025년 10월 7일 이후 상승 속도가 연 약 15점에서 약 29점으로 1.9배 빨라졌다. 2023년 10월~2025년 10월 수준의 발전이 지난 1년 만에 다시 일어났다는 해석이다.",
+    "tags": [
+      "AI 발전 속도",
+      "METR"
+    ],
+    "entities": [
+      "METR",
+      "Anthropic",
+      "Claude Sonnet 4.5"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "5e43773bda94e9d6",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 2/ 이 결론을 가볍게 넘기기 어려운 이유는 말한 쪽이 METR이기 때문입니다. 작년 7월 소개한 METR 실험에서 숙련 개발자들은 AI 덕분에 20% 빨라...",
+    "url": "https://www.threads.com/t/DfZ1zekDygC",
+    "publishedAt": "Fri, 06 Nov 2026 14:39:05 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>2/ 이 결론을 가볍게 넘기기 어려운 이유는 말한 쪽이 METR이기 때문입니다. 작년 7월 소개한 METR 실험에서 숙련 개발자들은 AI 덕분에 20% 빨라졌다고 느꼈지만, 실제로는 19% 느려졌습니다. AI 과대평가를 가장 경계해 온 기관인데요. 그 METR이 올해 2월 같은 실험을 다시 하다 설계를 바꾸겠다고 발표했습니다. 개발자 30%에서 50%가 AI 없이 하기 싫은 과제는 아예 제출하지 않았기 때문입니다. 5월에 소개했듯 Mythos Preview는 사람 기준 16시간 넘는 일을 혼자 끝내 METR의 측정 상한에 닿았습니다. 그런 METR도 이번 조사의 출발점은 회의적이었고, 내부 자료를 본 뒤 판단을 바꿨습니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/890724533_17995652022112832_8767300710368658753_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAyNDQ4NDM3NjAwNzg3ODY1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=HF_Y5n5lx8UQ7kNvwGYuGzA&amp;_nc_oc=AdpRDISw_GYGtPwQQnSgblysr8URTfIrTpsbVbY-6i7ZogJMkHmMrtKL1NKtFBVnG3o&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQS72T6j3FAAoAOCBzxYp7p0nz-N3CIv7pTFmwGXhHhSgQ&amp;oe=6AF56B10\" referrerpolicy=\"no-referrer\"></p><blockquote><p>AI가 이제 인간의 '하루짜리 업무'를 통째로 소화하는 수준에 도달한 것으로 보입니다. 비영리 연구 기관 METR이 'Claude Mythos Preview' 초기 버전의 평가 결과를 공개했는데요. 해당 모델은 인간 전문가가 16시간 동안 매달려야 하는 과제를 50%의 성공률로 완수해 냈습니다. METR이 준비한 228개의 과제 중 16시간 이상이 소요되는 문제는 단 5개뿐이라, AI의 능력이 이미 기존 측정 상한선을 넘어서버렸습니다. 이번 수치는 AI가 얼마나 오랫동안 사람의 개입 없이 자율적으로 작동할 수 있는지 보여주는 자율성 지표로서 의미가 큽니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/689015865_17963825772112832_1754086414466676_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzg5MzAwODgzNDI0MzM3NTYwMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=nnRmrAKhQ6EQ7kNvwHhGM0E&amp;_nc_oc=Adp-eAamSqYDHfBuSfF4ppO-76OaPA8_4jQ5h-r-rJY8swgx-i38_SLHXY3C_p7NV2M&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQSf5qtuwTVkOH9zOtp3rjmaCy_029TnezJvsW0RKUvb5w&amp;oe=6AF56ADA\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/DYGvuigiLHz\">Sat, 09 May 2026 05:00:39 GMT</a></blockquote>",
+    "summaryKo": "METR은 작년 숙련 개발자 실험에서 AI가 체감과 달리 19% 느리게 했다고 보고한 대표적인 회의론 기관인데, 이번에는 내부 자료를 보고 판단을 바꿨다. 올해 재실험에서는 개발자 30~50%가 AI 없이 하기 싫은 과제를 제출하지 않아 설계를 바꿨고, Mythos Preview는 사람 기준 16시간 넘는 과제를 해냈다.",
+    "tags": [
+      "AI 평가",
+      "생산성"
+    ],
+    "entities": [
+      "METR",
+      "Mythos Preview"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
+  },
+  {
+    "id": "1a2d7b24780b061c",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 1/ 이번 주 AI 업계에서 가장 중요한 발표는 비영리 평가기관 METR이 공개한 보고서일겁니다. METR 직원들은 8월부터 11주 동안 앤트로픽 회사 기...",
+    "url": "https://www.threads.com/t/DfZ1ypRD0L0",
+    "publishedAt": "Fri, 06 Nov 2026 14:38:58 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>1/ 이번 주 AI 업계에서 가장 중요한 발표는 비영리 평가기관 METR이 공개한 보고서일겁니다. METR 직원들은 8월부터 11주 동안 앤트로픽 회사 기기로 공개되지 않은 내부 모델의 점수와 학습 지표를 들여다보고, 핵심 연구자 약 15명을 인터뷰했습니다. 결론은 AI가 AI 개발을 직접 끌어올리면서 앤트로픽의 발전 속도가 약 두 배가 됐다는 것입니다. AI 회사 안의 개발 속도를 외부 기관이 들어가 숫자로 확인한 첫 사례인데, 대부분의 사람들은 이 문장이 무엇을 뜻하는지 모른 채 지나가고 있습니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/881313566_17995652007112832_4439659820178005782_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAyNDQ4NDMxODc4MDgwMTc4MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=6XnaXZE-CdcQ7kNvwEwUXBK&amp;_nc_oc=AdpYBawyHS2aPN29d0IYVUPyuaXfD9dgyfokRfAMdrPPr8w-wA6uS8WY5yiJpklAjY0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQT3gjyz2HBerBT7gTvUWhx5Zx-EezNy-P_elW98LIHC5g&amp;oe=6AF572BD\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "비영리 평가기관 METR이 11주간 Anthropic 내부 모델 지표를 살피고 핵심 연구자 약 15명을 인터뷰해, AI가 AI 개발을 끌어올려 Anthropic의 발전 속도가 약 두 배가 됐다고 결론냈다. 외부 기관이 AI 회사 내부 개발 속도를 수치로 확인한 첫 사례다.",
+    "tags": [
+      "AI 자기개선",
+      "METR"
+    ],
+    "entities": [
+      "METR",
+      "Anthropic"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-07T21:03:07.772Z"
   },
   {
     "id": "afbafece1b5ba792",
@@ -4152,473 +4626,5 @@
     "summaryStatus": "ok",
     "fetchedAt": "2026-11-01T21:03:20.003Z",
     "hasAnalysis": true
-  },
-  {
-    "id": "ebde4b523ffd5218",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "프랑스 디지털세, 비영리 단체 VideoLAN의 존립을 위협할 수 있음",
-    "url": "https://news.hada.io/topic?id=36403&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T02:50:10+09:00",
-    "rawText": "VideoLAN은 프랑스 사회주의자들과 의회 의원들이 표결로 통과시킨 세금 때문에 연간 100만 유로가 넘는 비용을 부담하게 될 것이라고 밝힘 해당 세금은 표결을 통과한 상태이며, 게시물에는 구체적인 과세 방식이나 시행 시점이 없음 V...",
-    "summaryKo": "VideoLAN은 프랑스에서 통과된 데이터 과세로 연간 100만 유로 넘는 비용을 부담할 수 있다며 비영리 단체의 존립이 위협받는다고 밝혔다. 구체적 과세 방식과 시행 시점은 글에 나오지 않는다.",
-    "tags": [
-      "디지털세",
-      "오픈소스"
-    ],
-    "entities": [
-      "VideoLAN",
-      "VLC"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "679671404047f348",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "프랑스, 콘텐츠 제공업체에 다운로드세 도입(GB당 0.055유로)",
-    "url": "https://news.hada.io/topic?id=36402&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T02:47:10+09:00",
-    "rawText": "프랑스, 콘텐츠 제공업체에 다운로드세 도입(GB당 0.055유로)",
-    "summaryKo": "프랑스가 콘텐츠 제공업체를 대상으로 GB당 0.055유로의 다운로드세를 도입한다는 소식이다. 본문 없이 제목만 확인돼 제목 기준으로 요약했다.",
-    "tags": [
-      "디지털세"
-    ],
-    "entities": [
-      "프랑스"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "2263867d45d1ebb0",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 서로 연결되지 않은 AI 두 개가 로봇과 카메라만으로 비밀 단어를 주고받는 데 성공했다고 합니다. Robocurve가 동일한 AI 모델 두 개를 격리한 ...",
-    "url": "https://www.threads.com/t/DfNReX0ARKt",
-    "publishedAt": "Sun, 01 Nov 2026 17:30:44 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>서로 연결되지 않은 AI 두 개가 로봇과 카메라만으로 비밀 단어를 주고받는 데 성공했다고 합니다. Robocurve가 동일한 AI 모델 두 개를 격리한 뒤 한쪽에는 로봇을, 다른 쪽에는 카메라를 제공했는데요. 사전에 통신 방법을 정하지 않았는데도 허공에 글씨 쓰기, 모스 부호, 깃발 신호, 5비트 이진법으로 정보를 전달했습니다. 같은 모델이 학습한 지식을 공유하기 때문에 가능한 것으로 보이는데요. AI 에이전트를 서로 격리하는 일이 생각보다 어려울 수 있다는 점을 보여줍니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/883626585_2089434775078439_846812413234290055_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAyMDk0Njg5NjI1NTI1OTMwOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=KlNXhAVIyHUQ7kNvwFsXRM5&amp;_nc_oc=AdqyIyfanQzYNej1LX21NtIMIcThHPoDVmlqjaJqPipYWWEy0hO95jyLMZqJs_TVV6s&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=5xjh2GM3hSr2GQub5ts2HQ&amp;_nc_ss=7320f&amp;oh=00_AQRTiTkjpCwueXDzK22k_HsJ1h8r9LbcXCGoxwnCi9LAhw&amp;oe=6AED6993\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQNPEdZy3Vgskkr0TmgylzP3d45cWXIj13f4wYng6q-os8CnnJpf3LwBMfBS7L0OmAe59lHWvkbq_DH-lh91Shm68cp39XEUGuUAuCw.mp4?_nc_cat=109&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=MIGFtbsKlN8Q7kNvwE77pFj&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTQ4MzgyMzYxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=29a8681662a73df8&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DMTI5NkFFRUYwNjI0MjJEODM1RTg0RDhDNTg5NjM1RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgJ_VzbiN9z8VAigCQzMsF0A0AAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=5xjh2GM3hSr2GQub5ts2HQ&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQTshhrw19nr5ad-A5xQEHFT8HoBL7d1uK2Rm60K3AxNAQ&amp;oe=6AE9979F\"></video></p>",
-    "summaryKo": "Robocurve가 서로 격리한 동일 AI 모델 두 개에 각각 로봇과 카메라만 주자, 사전 약속 없이 허공에 글쓰기·모스 부호·깃발·5비트 이진법으로 비밀 단어를 주고받았다. 같은 모델이 지식을 공유하기 때문으로 보이며 에이전트 격리가 생각보다 어려울 수 있음을 시사한다.",
-    "tags": [
-      "에이전트 격리",
-      "AI 안전"
-    ],
-    "entities": [
-      "Robocurve"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "2a262fd6bd104583",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Why do all NN optimizers have weird names? [d]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/",
-    "publishedAt": "2026-11-01T16:51:18+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>SOAP, Shampoo, FOAM.</p> <p>Muon is a bit better but it has the same name as the particle from physics.</p> <p>Whenever I want to search about these tones of completely irrelevant results come up because of their non-unqiue names. </p> <p>Adam would have the same problem if it wasn&#39;t so famous. </p> <p>This has been giving me a lot of headache trying to find relevant stuff...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Future_Pace_5290\"> /u/Future_Pace_5290 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/\">[comments]</a></span>",
-    "summaryKo": "SOAP, Shampoo, FOAM, Muon 등 최신 신경망 옵티마이저의 이름이 일반 단어·물리 용어와 겹쳐 검색이 어렵다는 푸념 글이다. Adam도 유명하지 않았다면 같은 문제를 겪었을 것이라고 지적한다.",
-    "tags": [
-      "옵티마이저",
-      "Muon"
-    ],
-    "entities": [
-      "Muon",
-      "SOAP",
-      "Shampoo",
-      "Adam"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "4f04165ee2db558d",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Data augmentation question. How do I characterise an original and augmented datasets where the augmentation parameters were zoom and crop? [P]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
-    "publishedAt": "2026-11-01T12:28:22+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>For context, I am a new postgraduate student in machine learning (but not a very good one). I have produced some augmented datasets (TIFF files where each file contains one object to be detected / classified) which I used in training deep learning models. I used fairly aggressive cropping (random crops between 0 and 90%) and more moderate zooms (random values between 0 and 20%). My supervisor wants me to characterise these datasets to see how augmentation has changed it. </p> <p>Sorry if this is a rookie question, but which statistics should I use? My supervisor says the stats I use should indicate changes in size and shape but I honestly don&#39;t know where to start.</p> <p>If anyone can recommend a decent software/program to produce the stats and histograms as well, that would be great.</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ScarlyLamorna\"> /u/ScarlyLamorna </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/\">[comments]</a></span>",
-    "summaryKo": "확대·자르기로 증강한 이미지 데이터셋을 원본과 비교해 크기·형태 변화를 어떤 통계로 특성화할지 묻는 대학원생의 질문이다. 통계·히스토그램을 만들 도구 추천도 구한다.",
-    "tags": [
-      "데이터 증강",
-      "컴퓨터 비전"
-    ],
-    "entities": [],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "f555201bee7ec9e4",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
-    "publishedAt": "2026-11-01T10:38:34+00:00",
-    "rawText": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/\"> <img src=\"https://preview.redd.it/z51fc8e1czyh1.png?width=140&amp;height=61&amp;auto=webp&amp;s=8a2439314561f3d2134aaae4111b25b0a3e9ba0e\" alt=\"LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory [R]\" title=\"LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I&#39;m an undergraduate researcher working independently on conversational memory systems. I developed LSREP to evaluate how persistent memory accumulates, changes and retrieves information over the course of an evolving conversation.</p> <p>Instead of relying only on isolated endpoint questions, LSREP combines chronological replay, lifecycle schedules, repeated probes, evolving reference answers and mechanism-fidelity checks.</p> <p>The accompanying architectural case study is ICE v2, a local-first conversational memory system.</p> <p>The evaluation covers 1,985 turns, 219 distinct probes and 1,211 probe-checkpoint observations across 52 checkpoints, using a private single-user history.</p> <p>An important part of the findings is that ICE v2 did <strong>not</strong> outperform pure vector-RAG on the matched LongMemEval evaluation. The ordinary-density replay results also did not establish a quality advantage. The paper discusses the limitations and mechanism-fidelity findings rather than treating the architecture as validated in its entirety.</p> <p>I&#39;m particularly interested in feedback on the evaluation methodology: what else should a longitudinal memory benchmark test to distinguish successful recall from reliable maintenance of evolving conversational state?</p> <p><strong>Paper:</strong> <a href=\"https://arxiv.org/abs/2609.16730\">https://arxiv.org/abs/2609.16730</a></p> <p><strong>Code and evaluation artifacts:</strong> <a href=\"https://github.com/Deepnar/ice\">https://github.com/Deepnar/ice</a></p> <p><strong>Frozen software artifact:</strong> <a href=\"https://doi.org/10.5281/zenodo.21759702\">https://doi.org/10.5281/zenodo.21759702</a></p> <p>This is an arXiv preprint and an ongoing independent research project.</p> <p>(I couldn&#39;t find anything about the tag in the title in the rules, so i assumed [R] for research, if its wrong please inform)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Deepnar_S\"> /u/Deepnar_S </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1xkzwz9\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/\">[comments]</a></span> </td></tr></table>",
-    "summaryKo": "독립 연구자가 대화형 메모리 시스템을 평가하는 LSREP(종단 상태 재생 프로토콜)를 공개했다. 1,985턴·219개 프로브·52개 체크포인트로 평가했고, 사례 시스템 ICE v2는 LongMemEval에서 순수 vector-RAG를 앞서지 못했다고 스스로 밝힌다.",
-    "tags": [
-      "대화 메모리",
-      "평가 벤치마크",
-      "RAG"
-    ],
-    "entities": [
-      "LSREP",
-      "ICE v2",
-      "LongMemEval"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "d892a2219a8b8ff4",
-    "sourceType": "youtube",
-    "source": "Jay Choi | 인디해커 라이프",
-    "title": "Grok Bot 완벽 가이드, 시작부터 최신 기능까지 이 영상 하나로 끝납니다",
-    "url": "https://www.youtube.com/watch?v=xYKPWntPLi8",
-    "publishedAt": "2026-11-01T10:00:37+00:00",
-    "rawText": "Grok Bot 완벽 가이드, 시작부터 최신 기능까지 이 영상 하나로 끝납니다",
-    "videoId": "xYKPWntPLi8",
-    "summaryKo": "X의 Grok Bot을 처음부터 최신 기능까지 정리한 가이드다. 역할별 봇과 메인 봇의 위임, 클라우드 컴퓨터, 스킬·루틴, X 연동, 봇 이메일·볼트·마켓플레이스를 설명하고 30달러 플랜부터 쓸 수 있다고 안내한다.",
-    "tags": [
-      "AI 에이전트",
-      "Grok Bot",
-      "워크플로"
-    ],
-    "entities": [
-      "Grok Bot",
-      "X",
-      "Hermes",
-      "Claude Opus 5.5"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "d715439b5843ccd5",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "7천억 달러를 붓고도 못 멈추는 이유 — 유발 하라리가 밀라노 리더십 포럼에서 꺼낸 'AI 바벨탑'",
-    "url": "https://www.youtube.com/watch?v=vjGibO2cSnM",
-    "publishedAt": "2026-11-01T10:00:19+00:00",
-    "rawText": "7천억 달러를 붓고도 못 멈추는 이유 — 유발 하라리가 밀라노 리더십 포럼에서 꺼낸 'AI 바벨탑'",
-    "videoId": "vjGibO2cSnM",
-    "summaryKo": "유발 하라리가 밀라노 리더십 포럼에서 꺼낸 'AI 바벨탑'을 다루는 영상으로, 자막을 받지 못해 제목 기준으로만 요약했다. 7천억 달러 투자에도 멈추지 못하는 경쟁 구조가 주제로 보인다.",
-    "tags": [
-      "AI 투자",
-      "AI 경쟁"
-    ],
-    "entities": [
-      "유발 하라리"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "bd2d07b8a05588be",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "해커가 쓰는 무료 오픈소스 3개로 내 정보 점검 #ai #osint #security",
-    "url": "https://www.youtube.com/shorts/HEeN6wnFETY",
-    "publishedAt": "2026-11-01T09:10:32+00:00",
-    "rawText": "해커가 쓰는 무료 오픈소스 3개로 내 정보 점검 #ai #osint #security",
-    "videoId": "",
-    "summaryKo": "해커가 쓰는 무료 오픈소스 3개로 내 정보 노출을 점검하는 쇼츠다. 위치 정보 없는 사진의 촬영 장소를 찾는 도구, 로그인 없이 열린 AI 서버를 찾아 노출 점수를 매기는 AI 맵, 이름·회사명으로 유출 계정과 다크웹 언급을 찾는 보이드 액세스를 소개한다.",
-    "tags": [
-      "OSINT",
-      "보안"
-    ],
-    "entities": [
-      "AI Map"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "ca00f62a66236bb1",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "99%가 모르고 있는 최근 해외 AI 트렌드 주요 소식ㅣREA부터 미친 오픈소스 전부 공유해 드려요",
-    "url": "https://www.youtube.com/watch?v=dQd-f0nNQtI",
-    "publishedAt": "2026-11-01T09:00:13+00:00",
-    "rawText": "99%가 모르고 있는 최근 해외 AI 트렌드 주요 소식ㅣREA부터 미친 오픈소스 전부 공유해 드려요",
-    "videoId": "dQd-f0nNQtI",
-    "summaryKo": "크리에이터가 X에서 화제가 된 AI 소식을 정리했다. Claude Code·Codex에 분석 도구를 붙여 소스 없는 앱을 분석하고 스펙으로 재구현하는 오픈소스 REA(GitHub 별 16만→37만), 만드는 AI와 확인하는 AI의 역할 분리, Claude Code가 공유기를 분석해 속도 문제를 고친 사례를 다룬다.",
-    "tags": [
-      "리버스 엔지니어링",
-      "멀티에이전트",
-      "Claude Code"
-    ],
-    "entities": [
-      "REA",
-      "Claude Code",
-      "Codex"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "792d2d3a8c2abecd",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Best option for local models [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
-    "publishedAt": "2026-11-01T07:16:53+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro with 32 GB RAM, and the second one was to invest into Mac Mini (256 GB SSD and 32 GB RAM), and get an iPAD as well</p> <p>PS; I have access to B200, and multiple A100s/L40s at my Univ which I can definitely use for training purposes, and I just wanted to get a device to run local inference</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fantastic-Nerve-4056\"> /u/Fantastic-Nerve-4056 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/\">[comments]</a></span>",
-    "summaryKo": "로컬 모델 추론용으로 MacBook Pro(32GB)와 Mac mini(32GB)+iPad 중 무엇이 나은지 묻는 하드웨어 추천 글이다. 학습은 대학의 B200·A100 등을 쓸 수 있다.",
-    "tags": [
-      "로컬 LLM",
-      "하드웨어"
-    ],
-    "entities": [
-      "MacBook Pro",
-      "Mac mini"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "d4dbcc4fb9b44207",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "Are there fundamental repeating patterns in ML techniques across modalities (text, image, audio) that let us group them? [R]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
-    "publishedAt": "2026-11-01T00:07:04+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name.</p> <p>For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc.</p> <p>Is there an existing taxonomy or mental model that groups ML techniques by their underlying pattern rather than by modality (NLP / vision / audio)?</p> <p>This will help me to group the research papers and then make reference to work already done in that domain</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OkCampaign8400\"> /u/OkCampaign8400 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/\">[comments]</a></span>",
-    "summaryKo": "토큰화, 마스킹, 디퓨전, 다음 토큰 예측처럼 텍스트·이미지·오디오에서 이름만 달리 반복되는 기법을 패턴별로 묶는 분류 체계가 있는지 묻는 글이다. 논문을 분류하고 선행 연구를 참조하려는 목적이다.",
-    "tags": [
-      "ML 분류",
-      "멀티모달"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "49dbcab734b1c6e0",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 노벨경제학상 수상자 다론 아제모을루(Daron Acemoglu) 교수는 AGI에 대한 맹신이 “위험하다”고 경고했습니다. 그는 기술 자체에 자율적인 의지...",
-    "url": "https://www.threads.com/t/DfLEuNJEjR7",
-    "publishedAt": "Sat, 31 Oct 2026 21:00:49 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>노벨경제학상 수상자 다론 아제모을루(Daron Acemoglu) 교수는 AGI에 대한 맹신이 “위험하다”고 경고했습니다. 그는 기술 자체에 자율적인 의지가 있는 것이 아니라, 막대한 자본을 쏟아부으며 AGI라는 단일 목표만 쫓는 빅테크 기업들이 방향을 결정하고 있다고 지적했습니다. 이러한 편향은 디스토피아적 미래를 부르거나 혜택 없이 사회적 피해만 남길 수 있습니다. 아제모을루는 AI 분야로 유입되는 수많은 인재의 50~60%만이라도 생각을 바꿔야 한다고 역설했습니다. 인간 노동자를 단순히 대체하는 대신, “노동자의 생산성을 높이고 시민의 역량을 강화하는 도구”로 AI를 활용해야 한다는 것입니다. 결국 특이점 시대의 경제적 해법은 맹목적인 기계 대체가 아닌 인간의 노동 가치를 확장하는 방향 전환에 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/868403828_1847403489790523_6073416636713179030_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;ig_cache_key=NDAyMDMyNzg1OTc1MTEwNTY1OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=s1JcziEu43kQ7kNvwGEh98B&amp;_nc_oc=AdrDBM2-gWst_VqFA1A2qA7DLar2yMORvIkPQZXtaWQBf6yUATovbJVtlNZJ682lDOc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=7mfIBQAbeNa4jiIuUbXRYw&amp;_nc_ss=7320f&amp;oh=00_AQR1DzO4lk20oPfiqTqW5lTnVgO3wWbrUYYAf8SX5G6HYQ&amp;oe=6AEC1A89\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQOxbfUy9DqjgR2EtjnCFxXubAPByrYB9cbR2PdfYoZ-ik7O_3ccfUbV47qEi3WJ-RuF590_q_fHGwnfhIkuM7cgLa2fh95qcmbWzBw.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=JnPQRyB9nioQ7kNvwHNSKHX&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTQ1ODI2NTQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NzcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=93834da033fb9b08&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GOTcxRjZBMzcwMUQ0ODgyQTlBQ0M2NEMxNzNDQ0QwN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0UxMzA2NTVDMTdFNTRGQjhBQkZCM0MyMEI2M0E1RjRDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA0davyP72PxUCKAJDMywXQFN1wo9cKPYYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=7mfIBQAbeNa4jiIuUbXRYw&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQT6auvuFTx7_CFVPPAU-k4LZT0otpHAFkZs5tYajKZ4Bg&amp;oe=6AE82F7D\"></video></p>",
-    "summaryKo": "노벨경제학상 수상자 다론 아제모을루 교수는 AGI에 대한 맹신이 위험하다고 경고했다. 방향을 정하는 것은 거대 자본을 쏟는 빅테크이며, AI를 노동 대체가 아니라 노동자 생산성과 시민 역량을 키우는 도구로 써야 한다고 주장했다.",
-    "tags": [
-      "AGI",
-      "노동",
-      "경제"
-    ],
-    "entities": [
-      "Daron Acemoglu"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
-  },
-  {
-    "id": "654ceaed2cc33f4b",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "People are the hard part of AI",
-    "url": "https://keithbrown.com/proton-ai-manifesto",
-    "publishedAt": "Sat, 31 Oct 2026 20:39:17 +0000",
-    "rawText": "Article URL: https://keithbrown.com/proton-ai-manifesto Comments URL: https://news.ycombinator.com/item?id=50319959 Points: 1 # Comments: 2",
-    "summaryKo": "Proton의 사내 AI 매니페스토는 계획 자체는 타당하나, 기술이 아니라 사람 문제로 도입이 정체되고 있다는 글이다. 경영진이 반발에 강한 어조와 모니터링으로 대응해 공포 문화가 생겼다고 지적하며, 병목 제거와 안전한 문제 제기 환경을 해법으로 제시한다.",
-    "tags": [
-      "AI 도입",
-      "조직 문화"
-    ],
-    "entities": [
-      "Proton"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-31T21:10:49.681Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "5ef0dca79ff47f10",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Free AI",
-    "url": "https://cloudy.chat/",
-    "publishedAt": "Sat, 31 Oct 2026 20:37:46 +0000",
-    "rawText": "Article URL: https://cloudy.chat/ Comments URL: https://news.ycombinator.com/item?id=50319941 Points: 1 # Comments: 0",
-    "summaryKo": "Cloudy는 브라우저와 터미널에서 쓸 수 있는 무료 AI 채팅·코딩 에이전트 서비스다. 하루 25메시지와 70 에이전트 크레딧을 무료로 제공하며 Meta·OpenAI·DeepSeek·Z.ai 등 6개 모델을 지원하고, 광고 스폰서로 운영된다.",
-    "tags": [
-      "AI 채팅",
-      "코딩 에이전트"
-    ],
-    "entities": [
-      "Cloudy",
-      "DeepSeek",
-      "OpenAI"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
-  },
-  {
-    "id": "97d003524462f572",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Reddit shares plunge as Google's AI search squeezes traffic",
-    "url": "https://www.reuters.com/business/reddit-pinterest-shares-tumble-weak-user-revenue-growth-2026-10-30/",
-    "publishedAt": "Sat, 31 Oct 2026 20:31:09 +0000",
-    "rawText": "Article URL: https://www.reuters.com/business/reddit-pinterest-shares-tumble-weak-user-revenue-growth-2026-10-30/ Comments URL: https://news.ycombinator.com/item?id=50319851 Points: 5 # Comments: 1",
-    "summaryKo": "로이터 헤드라인에 따르면 Reddit과 Pinterest 주가가 약한 이용자·매출 성장으로 급락했고, Reddit은 구글 AI 검색이 트래픽을 잠식한다는 점이 부각됐다. 본문을 가져오지 못해 제목 기반으로 요약했다.",
-    "tags": [
-      "AI 검색",
-      "트래픽"
-    ],
-    "entities": [
-      "Reddit",
-      "Google",
-      "Pinterest"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
-  },
-  {
-    "id": "47c497ea778cfe94",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Read your Character.AI data export in the browser, nothing uploaded",
-    "url": "https://github.com/anima-universe/character-ai-export-viewer",
-    "publishedAt": "Sat, 31 Oct 2026 19:53:20 +0000",
-    "rawText": "Article URL: https://github.com/anima-universe/character-ai-export-viewer Comments URL: https://news.ycombinator.com/item?id=50319478 Points: 1 # Comments: 0",
-    "summaryKo": "Character.AI 데이터 내보내기 파일(ZIP/JSON)을 브라우저에서 바로 열어 캐릭터와 대화를 볼 수 있는 오픈소스 뷰어다. SillyTavern·WhatsApp·Telegram 로그도 지원하며 업로드나 네트워크 요청 없이 로컬에서 동작한다.",
-    "tags": [
-      "데이터 뷰어",
-      "프라이버시"
-    ],
-    "entities": [
-      "Character.AI",
-      "SillyTavern"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
-  },
-  {
-    "id": "cbf0569c254cec39",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 이제 사람 대신 휴머노이드 로봇이 집을 청소해 주는 서비스를 구독할 수 있습니다. Tau Robotics가 휴머노이드 로봇 청소 서비스를 공개했는데요...",
-    "url": "https://www.threads.com/t/DfK6ZxOj3X1",
-    "publishedAt": "Sat, 31 Oct 2026 19:30:39 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>이제 사람 대신 휴머노이드 로봇이 집을 청소해 주는 서비스를 구독할 수 있습니다. Tau Robotics가 휴머노이드 로봇 청소 서비스를 공개했는데요. 한 번 예약하면 최대 3시간 동안 청소를 맡길 수 있습니다. 공개된 영상에서는 로봇이 직접 화장실을 청소하는 모습을 보여주는데요. 영상은 편집 없이 4배속으로 재생됐다고 합니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/883626858_1437140318584513_7870156807642813541_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=100&amp;ig_cache_key=NDAyMDI4MjQ3NDkyMzc4MzY2OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=HmIZHNfNbNoQ7kNvwE-rTLb&amp;_nc_oc=Adol-UK3emb1c1ovAHirZMFwio7RtcfM2IfDSDLDUXi8gsqy6-tX_DrCCB8ICIiYU7g&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=7mfIBQAbeNa4jiIuUbXRYw&amp;_nc_ss=7320f&amp;oh=00_AQSEBlMi5YCIXaqxgsKaLdbSVkQ3QseFU50d5sf7r1ZA-A&amp;oe=6AEC183A\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQOZWvWsp_2_Z-1tdaBrmL0Fa-BNFhn5IgBsCa3g4wDlxbGDhUeBJPK_dvNCUxTteEoXXc0kgOt9JQVKOpO0qrSlXTbcR1yKW_lOHPM.mp4?_nc_cat=102&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=392D5EJyCU0Q7kNvwHFF2xi&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy45MDAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk5NDU2Nzk2MDExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjoxOTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=e54d026cbb010cac&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8zRDgyMkM0NjkzQjA0NjkwOTcwOUUwNzBDQjZCMTc3MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgLux8tr99j8VAigCQzMsF0Bo13S8an76GBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=7mfIBQAbeNa4jiIuUbXRYw&amp;_nc_zt=28&amp;_nc_ss=7320f&amp;oh=00_AQQF-0y4_ufEgBagwmZwQ9xiAc4L9U4pqNwgF-tNxplWZw&amp;oe=6AE841CA\"></video></p>",
-    "summaryKo": "Tau Robotics가 휴머노이드 로봇이 집을 청소해 주는 구독 서비스를 공개했다. 한 번 예약하면 최대 3시간 청소를 맡길 수 있고, 공개 영상은 화장실 청소를 편집 없이 4배속으로 보여준다.",
-    "tags": [
-      "휴머노이드",
-      "로봇"
-    ],
-    "entities": [
-      "Tau Robotics"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
-  },
-  {
-    "id": "ccd96c3805d76f33",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry",
-    "url": "https://castov.com",
-    "publishedAt": "Sat, 31 Oct 2026 19:30:14 +0000",
-    "rawText": "Article URL: https://castov.com Comments URL: https://news.ycombinator.com/item?id=50319273 Points: 2 # Comments: 0",
-    "summaryKo": "Castov는 타임스탬프·JWT·UUID·cron·JSON 등 수십 가지 개발자 유틸리티를 브라우저, npm CLI, MCP 서버로 제공하는 도구 모음이다. 대부분 로컬에서 처리해 텔레메트리가 없고 AI 에디터용 비밀 보호 기능을 내세운다.",
-    "tags": [
-      "개발도구",
-      "MCP"
-    ],
-    "entities": [
-      "Castov"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
-  },
-  {
-    "id": "8db759a7708af251",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Cisco gives engineer unlimited AI tokens to rewrite company's legacy code",
-    "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
-    "publishedAt": "Sat, 31 Oct 2026 19:25:06 +0000",
-    "rawText": "Article URL: https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts Comments URL: https://news.ycombinator.com/item?id=50319223 Points: 1 # Comments: 0",
-    "summaryKo": "Tom's Hardware 헤드라인에 따르면 Cisco가 27세 엔지니어에게 무제한 AI 토큰을 주고 24개월 안에 레거시 코드의 98%를 재작성하게 했다. 사장이 \"마음껏 해보라\"고 했다는 내용이며, 본문은 확인하지 못해 제목 기반으로 요약했다.",
-    "tags": [
-      "레거시 코드",
-      "AI 코딩"
-    ],
-    "entities": [
-      "Cisco"
-    ],
-    "cats": [
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-10-31T21:10:49.681Z"
   }
 ]
