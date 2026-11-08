@@ -1,5 +1,459 @@
 [
   {
+    "id": "d949d8531e996aa6",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "美 유타주, 의사 없이 AI가 여드름 치료제 처방하는 시범사업 시행",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548327",
+    "publishedAt": "2026-11-09 05:49:00",
+    "rawText": "미국 유타주가 의사의 처방 작성 없이 인공지능(AI) 프로그램이 여드름 치료제를 처방하도록 허용한 첫 번째 주가 됐다.로스앤젤레스타임스(LA Times)에 따르면 뉴욕 기반 놀라 헬스(Nolla Health)는 지난 10월 5일부터 유타주 환자에게 AI 처방 서비스를 제공하고 있으며, 시범사업은 경구제를 제외한 국소 여드름 치료제 8종에 한정된다.앱으로 피부 분석…단계별 의사 검토환자가 앱으로 얼굴을 스캔하고 병력을 입력하면, 소프트웨어가 피부 유분 정도와 여드름 중증도를 평가한 뒤 건강 정보를 고려해 치료제를 선택하고 약국으로 처",
+    "summaryKo": "미국 유타주가 의사의 처방 작성 없이 AI가 여드름 치료제를 처방하도록 허용한 첫 주가 됐다. Nolla Health가 10월 5일부터 국소 치료제 8종에 한정해 서비스하며, 환자가 앱으로 얼굴을 스캔하고 병력을 입력하면 소프트웨어가 중증도를 평가해 약을 선택하고 단계별 의사 검토를 거친다.",
+    "tags": [
+      "AI 처방",
+      "디지털헬스",
+      "규제 샌드박스"
+    ],
+    "entities": [
+      "Nolla Health",
+      "유타주"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "5def5fa0ae107f35",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "일본 농촌이 비어가면서 야생생물도 사라지고 있음",
+    "url": "https://news.hada.io/topic?id=36833&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T05:43:10+09:00",
+    "rawText": "일본의 인구 감소가 특히 농촌에서 두드러지는 가운데, 버려진 농장에서는 야생생물의 회복 대신 야생생물 감소가 나타나고 있음산기슭의 소규모 농장이 만든 논, 목초지, 숲의 모자이크 경관은 다양한 생물의 서식지였으며, 인간의 관리에 의존하던 종들이 농장 방치로 영향을 받고 있음2025년 일본 연구에서는 인구가 안정적으로 유지된 지역에서만 생물다양성도 안정적이었고, 인구 감소 지역에서는 나비, 반딧불이, 개구리, 새, 자생식물의 개체수가 줄어듦스페인부터 중국까지 농촌 인구가 도시로 이동하는 나라에서도 비슷한 흐…",
+    "summaryKo": "일본의 인구 감소로 농촌이 비면서 버려진 농장의 모자이크 경관이 사라지고 나비·반딧불이·개구리·새 등 인간 관리에 의존하던 야생생물이 오히려 줄고 있다. 2025년 연구에서는 인구가 유지된 지역에서만 생물다양성이 안정적이었고, 스페인과 중국 등에서도 비슷한 흐름이 나타난다. AI와 직접 관련은 없는 환경 기사다.",
+    "tags": [
+      "농촌 인구감소",
+      "생물다양성"
+    ],
+    "entities": [
+      "일본"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "0aec686de4b01cc0",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "ChatGPT가 알림 없이 커넥터 간 데이터를 전달하고, 버그 바운티는 신분증을 요구함",
+    "url": "https://news.hada.io/topic?id=36832&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T05:40:09+09:00",
+    "rawText": "두 커넥터가 활성화된 대화에서 ChatGPT가 후속 도구 호출을 다른 커넥터로 전환한 사례가 보고됨. 최초 커넥터의 위젯에서 생성한 일회용 확인 코드도 함께 전달됐지만, 사용자에게 전환 사실을 알리지 않음두 커넥터는 같은 MCP 서버를 가리키지만 각각 별도의 OAuth 클라이언트를 사용함. 하나는 개발자 모드의 사용자 정의 커넥터이고, 다른 하나는 앱 디렉터리에 공개된 앱임서버가 확인 코드를 최초 커넥터의 OAuth 클라이언트에 결속해 두었기 때문에 다른 커넥터를 통한 호출을 거부함. 해당 대화에서 시도한 작업은 모두 실패함…",
+    "summaryKo": "ChatGPT가 두 커넥터가 활성화된 대화에서 사용자에게 알리지 않고 후속 도구 호출을 다른 커넥터로 넘기며 일회용 확인 코드까지 전달한 사례가 보고됐다. 두 커넥터는 같은 MCP 서버를 가리키지만 OAuth 클라이언트가 달라 서버가 요청을 거부했고, 시도한 작업은 모두 실패했다. 커넥터 간 암묵적 데이터 전달이 보안 문제가 될 수 있음을 보여준다.",
+    "tags": [
+      "MCP",
+      "OAuth",
+      "커넥터 보안"
+    ],
+    "entities": [
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "358f2f6c8b586fa3",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Ask HN: 가족과 친구들이 자신의 XMPP/Matrix 서버에 참여하도록 어떻게 설득하셨나요?",
+    "url": "https://news.hada.io/topic?id=36831&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T04:59:44+09:00",
+    "rawText": "오픈소스와 개방형 프로토콜을 선호하지만, 가족과 친구들은 주로 SMS를 사용함. 이들은 평균보다 기술에 익숙해도 개인정보 보호, 탈중앙화, 확장성보다는 사용 편의성, 안정성, 재미있는 기능을 중시함지난 일주일간 XMPP와 Matrix 서버 및 클라이언트를 직접 호스팅하며 시험했지만, 하루 종일 컴퓨터를 쓰는 소프트웨어 개발자에게도 대부분의 클라이언트 UX가 예상보다 더 사용하기 어려웠음. Slack이나 Discord를 모방하거나 사용성이 형편없다고 느꼈으며, 단순하고 친숙한 SMS 대체재는 찾지 못함일반 사용자에게 내세울 만한 장점으로는 iOS/Android 간 일관된 경험 정도를 생각하고 있음. 특히 두 플랫폼 간 SMS 그룹 대화에서 기능이 줄거나 정보가 누락되는 문제를 염두에 두고, 가족과 친구를 SMS/WhatsApp에서 XMPP/Matrix로 옮기는 데 성공한 설득 방법과 일반 사용자에게 매력적인 경험을 만드는 조언을 구함…",
+    "summaryKo": "한 개발자가 가족·친구를 SMS/WhatsApp에서 XMPP·Matrix 같은 개방형 프로토콜 서버로 옮기려 했지만, 사용자들은 프라이버시보다 편의성과 안정성을 중시하고 클라이언트 UX도 만족스럽지 않았다는 Ask HN 글이다. 일반 사용자를 설득하는 방법과 매력적인 경험을 만드는 조언을 구한다. AI와는 직접 관련 없는 주제다.",
+    "tags": [
+      "XMPP",
+      "Matrix",
+      "탈중앙 메신저"
+    ],
+    "entities": [
+      "XMPP",
+      "Matrix",
+      "WhatsApp"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "35edce5a4df51335",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "ZapFast: Rust와 egui로 만든 빠른 네이티브 WhatsApp 클라이언트",
+    "url": "https://news.hada.io/topic?id=36830&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T04:56:44+09:00",
+    "rawText": "ZapFast는 브라우저 엔진 없이 동작하는 Linux, macOS, Windows용 WhatsApp 클라이언트로, 휴대전화에 동반 기기로 연결됨프로젝트 측 Linux 테스트에서 실행 시간이 1초 미만이고 유휴 RAM 사용량은 약 200MB로, 비교 대상인 WhatsApp Web의 1.13GB보다 적었음서식 있는 메시지, 답장, 수정, 반응, 파일, 투표, 음성 메시지를 지원하며, 여러 WhatsApp 번호를 한 창에서 전환할 수 있음대화 기록을 컴퓨터의 암호화된 보관소에 저장하고 내보낼 수 있으며, 이미 저장한 내용은 휴대전화가 오프라인이어도 읽을 수 있음WhatsApp이나 …",
+    "summaryKo": "ZapFast는 Rust와 egui로 만든 브라우저 엔진 없는 네이티브 WhatsApp 데스크톱 클라이언트로, 실행이 1초 미만이고 유휴 RAM이 약 200MB로 WhatsApp Web(1.13GB)보다 훨씬 가볍다고 한다. 여러 번호 전환, 답장·수정·반응·투표·음성 메시지를 지원하고 대화 기록을 암호화해 로컬에 보관한다.",
+    "tags": [
+      "Rust",
+      "egui",
+      "네이티브 앱"
+    ],
+    "entities": [
+      "ZapFast",
+      "WhatsApp"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "48c163e14a106f60",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "내가 코딩에 LLM을 사용하지 않으려는 이유",
+    "url": "https://news.hada.io/topic?id=36829&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T04:53:44+09:00",
+    "rawText": "약 10년간 실무 머신러닝을 구현해 온 Kristian Polso는 인지적 영향, 코드 품질, 유지보수, 환경과 정치적 우려 때문에 업무에서 LLM과 AI 에이전트를 사용하지 않기로 함수 시간 LLM을 사용한 뒤 혼란과 방향 감각 상실을 느꼈으며, 동료들의 경험과 인지적 노력 감소 및 의존성 관련 연구도 사용을 꺼리는 근거가 됨풍부한 주석과 테스트가 코드 품질을 보장하지는 않음. 실제 업무에서는 간단한 스키마 변경과 마이그레이션으로 해결할 문제를 Claude가 불필요하게 복잡하게 구현한 사례를 경험함직접 코드를 쓰는 일은 문제 해결…",
+    "summaryKo": "약 10년간 실무 머신러닝을 해온 개발자가 인지 능력 저하, 코드 품질, 유지보수, 환경·정치적 우려를 이유로 업무에서 LLM과 에이전트를 쓰지 않겠다고 밝혔다. 간단한 스키마 변경으로 끝날 일을 Claude가 불필요하게 복잡하게 구현한 경험을 들며, 주석과 테스트가 많아도 품질이 보장되지 않는다고 주장한다.",
+    "tags": [
+      "LLM 회의론",
+      "코드 품질"
+    ],
+    "entities": [
+      "Claude"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "13e3a3c554d9c95e",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Replit, microVM으로 샌드박스 엔진 재구축",
+    "url": "https://news.hada.io/topic?id=36828&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T04:50:44+09:00",
+    "rawText": "Replit이 보안, 기능, 클라우드 이식성을 개선하기 위해 샌드박스 엔진을 전면 재작성하고, 수억 개 프로젝트를 데이터 손실이나 서비스 중단 없이 이전함호스트 커널을 공유하던 기존 컨테이너 방식에서 KVM 기반 microVM 격리로 전환함. 샌드박스마다 별도 Linux 커널을 사용하므로 게스트 커널 침해만으로 호스트 커널까지 침해되지는 않음최소화한 게스트 커널과 역할별 권한 제한에 더해, eBPF와 LSM으로 실행 중인 워크로드를 관찰하고 금지된 동작을 차단함네트워크 정책과 자격 증명 처리를 게스트 외부에서 통제하며, 패키지…",
+    "summaryKo": "Replit이 샌드박스 엔진을 전면 재작성해 호스트 커널을 공유하던 컨테이너 방식에서 KVM 기반 microVM 격리로 옮겼고, 수억 개 프로젝트를 데이터 손실이나 중단 없이 이전했다. 샌드박스마다 별도 커널을 쓰고 eBPF·LSM으로 금지 동작을 차단하며 네트워크 정책과 자격 증명은 게스트 밖에서 통제한다.",
+    "tags": [
+      "microVM",
+      "샌드박스",
+      "eBPF"
+    ],
+    "entities": [
+      "Replit",
+      "KVM"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "979088baa0201369",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Goldman Sachs, 은행원과 트레이더의 Claude Code 사용 제한",
+    "url": "https://news.hada.io/topic?id=36827&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T04:47:44+09:00",
+    "rawText": "Goldman Sachs가 생산성과 위험 검토를 거쳐 Claude Code와 Microsoft의 GitHub 사용을 엔지니어 중심으로 제한하면서, 대부분의 은행원과 트레이더가 업무에서 두 도구를 사용할 수 없게 됨제한 대상은 스스로 코드를 작성하고 실행하는 외부 에이전트이며, 여러 회사의 모델을 활용하는 사내 AI 비서는 계속 전사적으로 이용 가능함트레이더들은 도구로 고객 거래 흐름 추적과 시장/포지션 모델링 등을 수행해 왔으며, 불과 7월에는 CIO가 비기술 직원의 AI 도구 개발을 긍정적으로 평가했음트레이딩 현장에서 에이전트로 만든 코드…",
+    "summaryKo": "Goldman Sachs가 생산성과 위험 검토를 거쳐 Claude Code와 GitHub 사용을 엔지니어 중심으로 제한해 대부분의 은행원과 트레이더는 쓸 수 없게 됐다. 스스로 코드를 작성·실행하는 외부 에이전트가 제한 대상이며, 여러 모델을 쓰는 사내 AI 비서는 계속 전사 제공된다. 금융권의 에이전트 도입 통제 사례다.",
+    "tags": [
+      "코딩 에이전트",
+      "AI 거버넌스"
+    ],
+    "entities": [
+      "Goldman Sachs",
+      "Claude Code",
+      "GitHub",
+      "Microsoft"
+    ],
+    "cats": [
+      "기업·정책",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "51bd3eef545654fb",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AI 매도세, 잘 알려진 과거 증시 폭락과 비교하기",
+    "url": "https://news.hada.io/topic?id=36826&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-09T03:36:34+09:00",
+    "rawText": "2026년 11월 6일 종가 기준 S&P 500은 사상 최고치 대비 5.7% 하락해, 과거 주요 증시 폭락과 비교하면 완만한 조정 수준임같은 시점 Nasdaq은 10.9%, 미국 반도체주는 35.8% 하락했으며, 반도체주 낙폭은 코로나19 당시의 35.0%에 맞먹음1928년 이후 S&P 500이 최고치에서 6% 이상 하락한 56차례 중 약 80%는 낙폭이 20%에 이르지 않았음고점 회복 기간은 지수와 위기에 따라 크게 달랐으며, 닷컴 붕괴 이후 S&P 500은 7.2년, 반도체주는 17.7년이 걸렸음비교는 배당을 제외한 종가 기준이며, 회복 기간은 최고점에서 매수한 경우에…",
+    "summaryKo": "2026년 11월 6일 종가 기준 S&P 500은 고점 대비 5.7% 하락했지만 Nasdaq은 10.9%, 미국 반도체주는 35.8% 하락해 코로나19 당시 낙폭과 맞먹는다. 1928년 이후 6% 이상 하락 56차례 중 약 80%는 20%에 이르지 않았고, 닷컴 붕괴 후 회복에 S&P 500은 7.2년, 반도체주는 17.7년이 걸렸다.",
+    "tags": [
+      "AI 매도세",
+      "증시 비교"
+    ],
+    "entities": [
+      "S&P 500",
+      "Nasdaq"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "48baab2d2c69255c",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: AI 캐릭터와 대화하는 방식도 빠르게 달라지고 있습니다. Shizuku AI가 캐릭터 전용 음성 모델 Shizuku-Duplex를 발표했는데요. 상대방이 말하는 ...",
+    "url": "https://www.threads.com/t/DffWeeFCO-T",
+    "publishedAt": "Sun, 08 Nov 2026 18:00:46 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI 캐릭터와 대화하는 방식도 빠르게 달라지고 있습니다. Shizuku AI가 캐릭터 전용 음성 모델 Shizuku-Duplex를 발표했는데요. 상대방이 말하는 중에도 듣고 반응하며, 언제 말하고 기다릴지 스스로 판단합니다. 대화하면서 필요한 정보를 검색할 수 있고, 긴 대화도 이어갈 수 있도록 설계됐습니다. 특히 음성에 맞춰 캐릭터의 표정과 움직임까지 제어할 수 있다는 점이 눈에 띕니다. 캐릭터 챗봇의 몰입감을 높이는 데 중요한 기술이 될 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/889545187_2613621095818025_5993844967492314104_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAyNjAzNTQ0Mjc5Njc4NTU1NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=_a6g7cPhM18Q7kNvwFPgAM9&amp;_nc_oc=AdqwG7QDZxGh5aJOLcBuz_p5Qs-fX49_swLvcd47alrA-cyxlzG-RBxI8WgEh0Nfcz0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;oh=00_AQQDFXtEmq9X6-lTNXk0fka7_dU6GV2WIX69msZSacuIUQ&amp;oe=6AF6AA02\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQMNVdUHpzU6Ss3RSpDa8kpMYDDh525fGjy_eTJe1Xe09ToL2qNp6BCi9LOTeSBbY6rN4-osC9A1DRnjA7L9qb8XJzlcHVmPAcBdqyA.mp4?_nc_cat=104&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=9B-3p90HtPwQ7kNvwFQgm7B&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU5NTMyNjExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=ceef7555d2c0e08a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GNTAyMEJBNkU0MEI0RDAyQkExM0IzM0MyNTIyQjA4Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ5RkJBMzVERDIxRDRGMTY5RjlGQ0QwMUIyNjFBNDMxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAuK-YrM73PxUCKAJDMywXQF8qn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQT7cG_TdICQvwRs3eQRspZ0oSCOtGzfP9GB6pwB8-MGXw&amp;oe=6AF2CD10\"></video></p>",
+    "summaryKo": "Shizuku AI가 캐릭터 전용 음성 모델 Shizuku-Duplex를 발표했다. 상대 말을 들으면서 동시에 반응하고 말할 타이밍을 스스로 판단하며, 대화 중 정보 검색과 긴 대화를 지원한다. 음성에 맞춰 캐릭터의 표정과 움직임까지 제어할 수 있어 캐릭터 챗봇 몰입감을 높일 기술로 꼽힌다.",
+    "tags": [
+      "음성 모델",
+      "풀듀플렉스",
+      "캐릭터 AI"
+    ],
+    "entities": [
+      "Shizuku AI",
+      "Shizuku-Duplex"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "3fe251493f619b58",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 중국 AI 모델의 정치적 답변 성향을 미세 조정으로 바꾼 사례가 공개됐습니다. Nous Research가 Qwen3.8-27B를 기반으로 Arete-27B를 발표했는데...",
+    "url": "https://www.threads.com/t/DffIssCkREs",
+    "publishedAt": "Sun, 08 Nov 2026 16:00:23 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국 AI 모델의 정치적 답변 성향을 미세 조정으로 바꾼 사례가 공개됐습니다. Nous Research가 Qwen3.8-27B를 기반으로 Arete-27B를 발표했는데요. 표현의 자유, 민주주의, 개인정보 보호 등 7개 분야에서 약 5,300만 토큰을 추가 학습시켰습니다. 자체 평가에서 중국 정부의 공식 입장을 따르는 답변 비율이 22%에서 약 1%로 감소했고, 일반 성능은 거의 유지됐다고 합니다. AI 모델의 정치적 성향도 비교적 적은 추가 학습으로 크게 달라질 수 있다는 점을 보여줍니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/892696884_1661687448938823_151617918058432151_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAyNTk3NDg0NzIwOTI3OTc4OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=UfpwSy6A3ucQ7kNvwHFcBDL&amp;_nc_oc=AdrSY6bAlnV1utOeCY_qgyJTqYYZyUJ_lzdfZWilvLMQEqwDbu4eSY6ESeRF1-0_phI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;oh=00_AQSsTxscG1ZsAd1Ra7qp1uk58h2-vaNkczGG39f4X2m4JQ&amp;oe=6AF6AD91\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQPIi8YOtxnXvKwCGgvsfY_NEw46Xh8joYB1FOnRqyCxh8BIh1wf77eyEN8p-HcIheXuGOmKsyhRMf4rDs9eZy7UJ8rveGoC_j_S99s.mp4?_nc_cat=101&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=NYKuvR6deIwQ7kNvwGOdEtR&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMDc2LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU5NTk2MTUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=1a5bba41eb9daa66&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DNTc0NDJCM0U4NEY0NjlCOEI4RkQ2QjY5Njc5NUIyOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzMzOTM3NEFBODBENjQ5OTBBQjNEQjc4MjQ4OTQ5OTE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAmoLE2873PxUCKAJDMywXQDrqfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQSnFxpB7AZv1QTPnJrU0BJFGTYZ5eOLQvlVxi_GF8uELw&amp;oe=6AF2B563\"></video></p>",
+    "summaryKo": "Nous Research가 Qwen3.8-27B를 기반으로 Arete-27B를 발표했다. 표현의 자유·민주주의·개인정보 등 7개 분야에서 약 5,300만 토큰을 추가 학습해 중국 정부 입장을 따르는 답변 비율을 22%에서 약 1%로 낮췄고 일반 성능은 거의 유지됐다고 한다. 소량의 미세조정으로 모델의 정치적 성향이 크게 바뀔 수 있음을 보여준다.",
+    "tags": [
+      "미세조정",
+      "모델 정렬",
+      "오픈웨이트"
+    ],
+    "entities": [
+      "Nous Research",
+      "Arete-27B",
+      "Qwen3.8-27B"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "21496187488ef3a4",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 3/ 오픈AI가 보안 전용 모델 GPT-6 Cyber를 공개했습니다. 회사 평가 ExploitGym에서 48.5%를 기록해 GPT-5.6 Cyber의 32.1%를 넘어섰고, 이미 여...",
+    "url": "https://www.threads.com/t/Dfe5UQ0j-xV",
+    "publishedAt": "Sun, 08 Nov 2026 13:45:58 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>3/ 오픈AI가 보안 전용 모델 GPT-6 Cyber를 공개했습니다. 회사 평가 ExploitGym에서 48.5%를 기록해 GPT-5.6 Cyber의 32.1%를 넘어섰고, 이미 여러 AI로 점검한 Firefox에서도 새 고위험 취약점 81개를 찾아냈습니다. 취약점 탐색부터 공격 가능성 검증과 패치 제안까지 수행합니다. 사이버 위험 등급은 Critical이며, 현재는 Daybreak Red에서 승인받은 일부 보안팀에 API와 Codex로 제공됩니다.</p><p></p><blockquote><p>🚨 와.. 오픈AI가 사이버 위험 최고 등급 Critical을 받은 보안 전용 모델을 공개했습니다. GPT-6 Cyber는 이미 여러 세대의 AI로 점검한 Firefox에서도 알려지지 않은 고위험 취약점 81개를 찾아냈습니다. 이 모델은 승인받은 보안팀만 쓸 수 있습니다. 🧵</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/882266500_949331894671331_7587817969888924914_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAyMzk3NDkwMzA3ODA5NjEyNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=iHHq0QmrsW8Q7kNvwE8qmpO&amp;_nc_oc=AdpK3q8KXHefwff85PJTJ_wDG-0hwgTYn45XmMlZrx5Y_gnaFe4khhSXa4hQ8PCQNMo&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;oh=00_AQR6XjJg0XkA0bt3ECCZ0m4tzJa6HsqQQTfy7fvob3j-bg&amp;oe=6AF69DDE\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQNoHs_oqSRr1e6XhW62XQLc5SB5oTUY_65SgIgYlz5RcvJSmOVDhrWlSGB71arz1ObdZ9oBySLNSM0pr_FwA0yG6ReaCl1tWVZ7iKs.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=t8uEU1KUbD0Q7kNvwGBNP07&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU1NjEwMzUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=c867bb25c9480bb9&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC80OUZBQzdCOTc5MzM0M0ZDODhFRTI0NjczNENCMUU3MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzg5MTQ2MkMwMkUwNjRFMERBMDM2NUNBMDE0MjY2OTc0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAhsHwwbf3PxUCKAJDMywXQBvdLxqfvncYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQQvPkFjsJS16ZsUaS4hjRJxGU-TKVDoRSM5Mxcs7JeILQ&amp;oe=6AF2A8C9\"></video></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfYB9q7Doz-\">Thu, 05 Nov 2026 22:33:19 GMT</a></blockquote>",
+    "summaryKo": "OpenAI가 보안 전용 모델 GPT-6 Cyber를 공개했다. 자체 평가 ExploitGym에서 48.5%로 GPT-5.6 Cyber(32.1%)를 넘었고, 이미 여러 AI로 점검된 Firefox에서 새 고위험 취약점 81개를 찾았다. 사이버 위험 등급은 Critical이며 Daybreak Red에서 승인받은 보안팀에만 API와 Codex로 제공된다.",
+    "tags": [
+      "사이버보안",
+      "취약점 탐지",
+      "모델 공개"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Cyber",
+      "Codex",
+      "Firefox"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "5c2b52abf915aa42",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 2/ 구글이 영상 생성 모델 Gemini Omni 1.2 Flash를 공개했습니다. 한 번에 만드는 영상 길이를 최대 15초로 늘리고, 생성한 영상의 배경·조명·...",
+    "url": "https://www.threads.com/t/Dfe5TxBDzT3",
+    "publishedAt": "Sun, 08 Nov 2026 13:45:54 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>2/ 구글이 영상 생성 모델 Gemini Omni 1.2 Flash를 공개했습니다. 한 번에 만드는 영상 길이를 최대 15초로 늘리고, 생성한 영상의 배경·조명·제품 등을 대화로 수정할 수 있게 했습니다. 720p 기준 API 가격은 초당 0.07달러로 30% 낮췄습니다. 이미지와 짧은 동작 영상, 음성을 함께 참조할 수 있고, 낮은 해상도로 초안을 만든 뒤 1080p나 4K로 업스케일할 수 있습니다. Gemini API와 기업용 Gemini에서 정식 제공됩니다.</p><p></p><blockquote><p>🚨 속보) 구글이 Gemini Omni 1.2 Flash를 공개했습니다. 영상을 한 번에 15초까지 만들고, 만든 영상을 대화로 고칠 수 있는데 가격은 30% 내렸습니다. 🧵</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/883122510_29003664872628392_8544866585558147028_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAyMzk2OTY4MzIwNzk2NTQ1Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=qRuRwIh1fFwQ7kNvwHuXSBb&amp;_nc_oc=AdrfBIvsyc9V2p5fNySPij9EbIm9aTlPq89rX5IquIZTEwLYKkZnj0h_SISAXjPfLoE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;oh=00_AQSNQulAa9x4baJir7kF-UIIv0XCiJoP_Uzhf9RNxKILYg&amp;oe=6AF6AF10\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQMlzHAt7dzkQ4Ql8ezH2cM_t6cPou9hJUGVi6tdEfyuaWTOL-Cl3oBE7eHPRtkP5BK30H3XryTpTqVocpyOQDUzGRQG_cMeBB2OmXA.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=Vwr0-7oEbZoQ7kNvwEQ5Ru0&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU1NTg5OTgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=d09e7bbaa7e197f6&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CN0ZEMDBFODc2NTI0OUYyQTlFQ0I5QzY2RkVBMDg1MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlDNTQ5QkI1QTZFMzRFM0ZCRjNEQzBDNzQ0NzZDRDRDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA6e_Zsrf3PxUCKAJDMywXQDkAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQRBHu1yChreN4e0Vzb1sljzmGFtFyM0URhSY53Kgv1S6Q&amp;oe=6AF2C092\"></video></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfYAxtijUsR\">Thu, 05 Nov 2026 21:37:29 GMT</a></blockquote>",
+    "summaryKo": "구글이 영상 생성 모델 Gemini Omni 1.2 Flash를 공개했다. 한 번에 최대 15초까지 생성하고 배경·조명·제품 등을 대화로 수정할 수 있으며, 720p API 가격은 초당 0.07달러로 30% 낮췄다. 이미지·짧은 영상·음성을 함께 참조하고 저해상도 초안을 1080p/4K로 업스케일할 수 있다.",
+    "tags": [
+      "영상 생성",
+      "대화형 편집"
+    ],
+    "entities": [
+      "Google",
+      "Gemini Omni 1.2 Flash",
+      "Gemini API"
+    ],
+    "cats": [
+      "멀티모달",
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "58a36397c996981f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 1/ 오픈AI가 ChatGPT Images 2.6을 출시했습니다. 프롬프트나 사진으로 반복 재생되는 GIF를 만들 수 있고, API 이미지 생성 속도는 이전보다 50%...",
+    "url": "https://www.threads.com/t/Dfe5Rl0D6e2",
+    "publishedAt": "Sun, 08 Nov 2026 13:45:36 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>1/ 오픈AI가 ChatGPT Images 2.6을 출시했습니다. 프롬프트나 사진으로 반복 재생되는 GIF를 만들 수 있고, API 이미지 생성 속도는 이전보다 50% 빨라졌습니다. 빠른 생성용 Flare와 품질·일관성을 높인 Sunburst를 제공하며, Flare의 낮은 품질 설정에서는 약 6초 만에 이미지를 생성합니다. API에는 특정 영역을 표시해 수정하는 기능과 SVG 출력도 추가했습니다. ChatGPT와 Codex의 모든 요금제에 순차 제공됩니다.</p><p></p><blockquote><p>🚨 속보) 오픈AI가 ChatGPT Images 2.6을 공개했습니다. 이제 프롬프트나 사진 한 장으로 반복 재생되는 GIF를 만들 수 있고, API 이미지 모델은 이전보다 50% 빨라졌습니다. 🧵</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/890378448_1473427327580336_7688201589549869334_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAyMzMxODI0OTIxMTU1NDUxNA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=_8_urPHe-Z8Q7kNvwGKBySX&amp;_nc_oc=AdrzE_aGkZJTDZzI6uXn0GwJLsj3pswx4M6Ynys-PzK-DJ9hPnhyXhC9HOnOmPjimzI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;oh=00_AQSCwMK-wORjVibd0lXAC9i3Ar1637JlSo3SnCY0QRmseA&amp;oe=6AF6B5AB\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQM_9Q0Y_vvMulPVAcJWWAGFFPnHswFSa9a9aBrCW-iSIDqY1JjoplC7kqP_umQWoT3eWmUznJwjtqGjrIQs4p0-ggsidz81i7d2D_Y.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=aDgs_6BBxEEQ7kNvwHjMmT3&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU0MjAwMzgxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=2f709b479f07c13a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GMUNGMEUxRjkxNEI0MkI2QTdDQTBBNTI5QjI2Qjg1MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0RFNDlFMEIwNkM1MTQ5MjQ5QTFDQTUxMEVGRTRCRDI3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAmaWvp6_3PxUCKAJDMywXQEGEOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfZt1J5na5HeL3F6LKMXLA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQQSuFE56n-ki4W3HeYlfOoWzD4p2KY0rTlLG1UqoZB5qQ&amp;oe=6AF2C221\"></video></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfVsqGWmerS\">Thu, 05 Nov 2026 00:04:46 GMT</a></blockquote>",
+    "summaryKo": "OpenAI가 ChatGPT Images 2.6을 출시했다. 프롬프트나 사진으로 반복 재생 GIF를 만들 수 있고 API 이미지 생성 속도가 50% 빨라졌으며, 빠른 생성용 Flare(낮은 품질 약 6초)와 품질·일관성용 Sunburst를 제공한다. API에는 영역 지정 수정과 SVG 출력도 추가됐다.",
+    "tags": [
+      "이미지 생성",
+      "GIF",
+      "SVG"
+    ],
+    "entities": [
+      "OpenAI",
+      "ChatGPT Images 2.6",
+      "Flare",
+      "Sunburst"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "4bd4363e936b17aa",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 🚨 이번 주도 AI 업계는 정말 미친 한 주였습니다. 오픈AI는 해킹 특화 GPT-6 Cyber를 공개했고, 앤트로픽의 비공개 AI는 18년간 풀리지 않은 ...",
+    "url": "https://www.threads.com/t/Dfe5RCgD-Sk",
+    "publishedAt": "Sun, 08 Nov 2026 13:45:32 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 이번 주도 AI 업계는 정말 미친 한 주였습니다. 오픈AI는 해킹 특화 GPT-6 Cyber를 공개했고, 앤트로픽의 비공개 AI는 18년간 풀리지 않은 수학 문제의 증명을 찾아냈습니다. 심지어 AI가 다른 AI의 가중치 0.016%만 수정해 수학 점수를 7.9%에서 48.1%로 높이는 일까지 벌어졌습니다. 절대 놓쳐선 안 될 핵심 AI 소식 45가지를 정리했습니다🧵</p><p></p>",
+    "summaryKo": "이번 주 AI 소식 45가지를 정리한 스레드의 시작 글이다. OpenAI의 해킹 특화 GPT-6 Cyber 공개, Anthropic 비공개 AI가 18년간 풀리지 않은 수학 문제의 증명을 찾은 일, 다른 AI 가중치의 0.016%만 수정해 수학 점수를 7.9%에서 48.1%로 올린 사례가 언급된다.",
+    "tags": [
+      "주간 AI 뉴스",
+      "사이버보안",
+      "수학 추론"
+    ],
+    "entities": [
+      "OpenAI",
+      "GPT-6 Cyber",
+      "Anthropic"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z"
+  },
+  {
+    "id": "7c0565e4c6a70016",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "제가 Paseo에 정착한 이유 세 가지",
+    "url": "https://www.youtube.com/shorts/-QiWjQWeezY",
+    "publishedAt": "2026-11-08T09:00:34+00:00",
+    "rawText": "제가 Paseo에 정착한 이유 세 가지",
+    "videoId": "",
+    "summaryKo": "개발동생이 Paseo를 쓰는 이유 세 가지를 설명한다. 채팅 UI가 읽기 쉽고 스크린샷·이미지를 볼 수 있으며, 모바일 연동이 뛰어나고, 앱을 닫아도 에이전트가 계속 도는 데몬 구조를 지원한다. 이미지·음성·여러 에이전트를 한 채팅에서 쓰는 점이 장점이다.",
+    "tags": [
+      "Paseo",
+      "코딩 에이전트",
+      "데몬"
+    ],
+    "entities": [
+      "Paseo",
+      "Claude",
+      "Codex",
+      "Cursor"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "33468ccef7325c5b",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "폰으로 Paseo 붙이는 두 가지 방법",
+    "url": "https://www.youtube.com/shorts/X89_X3pEIrk",
+    "publishedAt": "2026-11-08T03:00:16+00:00",
+    "rawText": "폰으로 Paseo 붙이는 두 가지 방법",
+    "videoId": "",
+    "summaryKo": "Paseo 모바일 앱을 연결하는 두 방법을 소개한다. 기본은 기기 페어링에서 릴레이를 켜고 QR로 연결하는 암호화 릴레이 서버 방식이고, 대안은 Tailscale로 같은 Tailnet에서 직접 연결하는 것이다. VPN 설치가 싫거나 빠른 설정이 필요하면 릴레이, 빠른 속도와 경로 통제가 필요하면 Tailscale이 좋다.",
+    "tags": [
+      "Paseo",
+      "Tailscale",
+      "모바일 연동"
+    ],
+    "entities": [
+      "Paseo",
+      "Tailscale"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4b554cc6eb6d4b16",
+    "sourceType": "youtube",
+    "source": "AgentOS",
+    "title": "npm 공동 창업자가 찾은 병목 3단계 — 코드 리뷰·운영·보안 다음, 앞으로 10년 엔지니어에게 남는 일",
+    "url": "https://www.youtube.com/watch?v=z8JtbOckdew",
+    "publishedAt": "2026-11-08T00:56:22+00:00",
+    "rawText": "npm 공동 창업자가 찾은 병목 3단계 — 코드 리뷰·운영·보안 다음, 앞으로 10년 엔지니어에게 남는 일",
+    "videoId": "z8JtbOckdew",
+    "summaryKo": "AI Engineer 발표로, 에이전트 덕분에 코딩 비용은 사실상 0이 됐지만 코드 리뷰·운영·보안이 순서대로 병목이 되며 끝내 남는 인간의 일은 \"무엇이 좋은지 정의하는 것\"이라고 주장한다. 이를 수행하는 직무를 프로덕트 엔지니어로 부르고, 주니어 양성 구조 붕괴와 실천 방안(고위험 코드만 리뷰, 평가·스펙 투자)을 제시한다.",
+    "tags": [
+      "코드 리뷰",
+      "프로덕트 엔지니어",
+      "에이전트 병목"
+    ],
+    "entities": [
+      "GitHub Copilot",
+      "Cognition",
+      "Cursor",
+      "Amazon",
+      "OpenAI"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-08T21:02:54.295Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "a6e4505d9d5d6516",
     "sourceType": "news",
     "source": "GeekNews",
@@ -4217,414 +4671,5 @@
     ],
     "summaryStatus": "fallback",
     "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "1d748385ebe1df54",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 내용 : https://wonder.design/",
-    "url": "https://www.threads.com/t/DfNmBDygfqZ",
-    "publishedAt": "Sun, 01 Nov 2026 20:30:14 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>내용 : https://wonder.design/</p><p></p>",
-    "summaryKo": "Wonder(wonder.design) 링크를 공유한 후속 게시물이다. 내용은 링크뿐이다.",
-    "tags": [
-      "디자인 도구"
-    ],
-    "entities": [
-      "Wonder"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "5b8180f9ee4dbee7",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 디자인과 코딩의 경계가 점점 사라지고 있습니다. Wonder가 디자인 화면과 실제 코드를 연결하는 새로운 버전을 공개했습니다. 기존 프로젝트의 ...",
-    "url": "https://www.threads.com/t/DfNl_xkAcjc",
-    "publishedAt": "Sun, 01 Nov 2026 20:30:03 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>디자인과 코딩의 경계가 점점 사라지고 있습니다. Wonder가 디자인 화면과 실제 코드를 연결하는 새로운 버전을 공개했습니다. 기존 프로젝트의 코드를 연결하면 실행 중인 앱 화면을 편집 가능한 디자인 요소로 바꿀 수 있는데요. 예를 들어 버튼이나 화면 구성을 디자인 도구에서 수정하고, 변경 사항을 다시 코드에 반영하는 방식입니다. 개인 Claude와 Codex 구독도 연결할 수 있어 별도의 AI 구독 없이 활용할 수 있습니다. 디자인을 만들고 개발자에게 전달하던 작업 방식도 달라질 것 같네요.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/870830222_2273195599913656_7388947815373226765_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;ig_cache_key=NDAyMTAzNzE1MjU3NzExMjI4NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=5TTxwekFvTwQ7kNvwGAADwz&amp;_nc_oc=Adro9VtaYS7NVSm6fAZgGrPHus0iEWmfugE9Kk7_Cp9LtOxO7k3IRWE2iE7jJrzyCBg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=5xjh2GM3hSr2GQub5ts2HQ&amp;_nc_ss=7320f&amp;oh=00_AQT3sI-HHA0onxpQGoYLCMsK5qfwZCvtrmL02iWcMJhgJQ&amp;oe=6AED75DC\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQOLQHU5RD38Bi2_8flley9ipS1W7ql9aVdtmE9BsL7lAe_6CYZmqzDxaHKJk2BWdg1XYWj38CHCGzQQPLmljUkeOtKF0b1zKezClAw.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=XFu2fvHlJQ4Q7kNvwFlb_-W&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTQxNTg1ODkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTUwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=cce11aca1eb74a5a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wNENFMUQ5RUFDQTU0NzlBOEUzQzk1RTEzOTBCQzQ5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E0QUYyMzFDQkYwNjRCRUNCNUFENDE1MjNERDI4QjkwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAyOPr8OX2PxUCKAJDMywXQGLQzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=5xjh2GM3hSr2GQub5ts2HQ&amp;_nc_ss=7320f&amp;_nc_zt=28&amp;oh=00_AQQVdSTSDXipjPA4Kj6k2qhoGAZHgwE3GpS5a3CD1qm-kQ&amp;oe=6AE99761\"></video></p>",
-    "summaryKo": "Wonder가 실행 중인 앱 화면을 편집 가능한 디자인 요소로 바꾸고 수정 사항을 다시 코드에 반영하는 새 버전을 공개했다. 개인 Claude·Codex 구독을 연결해 별도 AI 구독 없이 쓸 수 있어 디자인과 코딩의 경계가 허물어지고 있음을 보여 준다.",
-    "tags": [
-      "디자인-코드 연동",
-      "AI 디자인"
-    ],
-    "entities": [
-      "Wonder",
-      "Claude",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "ceb96b53603990b2",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Are There Problems Beyond the Reach of AI [video]",
-    "url": "https://www.youtube.com/watch?v=NWNbAEivyvs",
-    "publishedAt": "Sun, 01 Nov 2026 20:06:51 +0000",
-    "rawText": "Article URL: https://www.youtube.com/watch?v=NWNbAEivyvs Comments URL: https://news.ycombinator.com/item?id=50329218 Points: 4 # Comments: 0",
-    "summaryKo": "'AI의 손이 닿지 않는 문제가 있는가'를 다루는 YouTube 영상이 Hacker News에 올라왔다. 영상 링크라 제목 기준으로만 요약했다.",
-    "tags": [
-      "AI 한계"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "7ad226a04253cdd3",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: Z.ai의 차세대 AI 모델 GLM-5.5의 출시도 임박한 것 같습니다. GLM-5.5에 관한 정보가 연구원 이력서에서 발견이 되었는데요. 공개된 내용에는 금...",
-    "url": "https://www.threads.com/t/DfNfN0MDzPQ",
-    "publishedAt": "Sun, 01 Nov 2026 19:30:48 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>Z.ai의 차세대 AI 모델 GLM-5.5의 출시도 임박한 것 같습니다. GLM-5.5에 관한 정보가 연구원 이력서에서 발견이 되었는데요. 공개된 내용에는 금융 분석 환경과 코딩 실습 환경을 활용한 추가 학습, 내부 32B·122B·256B 모델의 활용 계획이 언급되었습니다. 특히 AI가 스스로 코딩 문제를 만들어 학습하고 성능을 개선하는 재귀적 자기 개선 연구가 눈에 띕니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/883558470_17994842577112832_376157678450492900_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAyMTAwNzMzMTE0MzY2MDQ5Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNzQ1LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=cw7Pzb3WCPQQ7kNvwEVBv0A&amp;_nc_oc=AdqCObyK1VE6FYtJIN7rsmZA8SWtMdPGwOhMc8r6QThJwUCfxs9RaSXmG6aDjrxy84Q&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=5xjh2GM3hSr2GQub5ts2HQ&amp;_nc_ss=7320f&amp;oh=00_AQRASUg7J6LxZW5qmT-tB12fG6vRxJjeXhvvpl-msCb0Ig&amp;oe=6AED9025\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Z.ai의 차세대 모델 GLM-5.5 출시가 임박한 것으로 보인다. 연구원 이력서에서 금융 분석·코딩 환경 추가 학습, 내부 32B·122B·256B 모델 활용, AI가 스스로 코딩 문제를 만들어 학습하는 재귀적 자기 개선 연구가 언급됐다.",
-    "tags": [
-      "GLM",
-      "자기 개선"
-    ],
-    "entities": [
-      "Z.ai",
-      "GLM-5.5"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "e5cddd8689a261dc",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Slop Code Monitor – scanned 2.6B of code to quantify AI cognitive debt",
-    "url": "https://slopcodemonitor.ai/",
-    "publishedAt": "Sun, 01 Nov 2026 19:30:12 +0000",
-    "rawText": "Article URL: https://slopcodemonitor.ai/ Comments URL: https://news.ycombinator.com/item?id=50328840 Points: 1 # Comments: 0",
-    "summaryKo": "Slop Code Monitor는 코드 26억 건을 스캔해 AI가 만들어내는 '인지 부채'를 수치화했다고 주장하는 서비스다. 본문 확인 없이 제목 기준으로 요약했다.",
-    "tags": [
-      "AI 코드 품질",
-      "코드 분석"
-    ],
-    "entities": [
-      "Slop Code Monitor"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "13bc28fe4851f929",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Ask HN: What mistakes did AI make in your codebase?",
-    "url": "https://news.ycombinator.com/item?id=50328797",
-    "publishedAt": "Sun, 01 Nov 2026 19:25:25 +0000",
-    "rawText": "In the past few weeks I've beeing working with frontier AI - Opus 5.5, Astra, Sol 6.1, Fable 5.1 and Gemini Argon.AI has become really good at coding in some sense, that's undeniable, and there are people that say you don't really need to review their code anymore.But I keep getting stuck in a sensation that's between cognitive dissonance, FOMO, and a vague sense of being gaslit, because when I review the code it writes - and this is all of them - 80% of it is right, and 20% is wrong, but in extremely subtle ways; only when you deeply understand the system and carefully review it do you spot the issues. These are not stylistic choices, the code is incorrect. Of course, the AI fixes it when you prompt it to, but you need to work very hard to know what needs prompting.This is all after the grill-me skills and cross-model adversarial review and whatnot (all these techniques do help somewhat but they didn't get it perfect),For example, I had AI (Opus 5.5 and Gemini both tried, in this particular case) write an integration test for our system, to reproduce an issue we had. It failed because it chose, for simplicity, to combine two backend fakes into one store, having writes covered by the same mutex, but the bug was only happening in production when these two stores went out of sync (and they did because we wrote to both concurrently and one write failed). (I don't want to argue the merits of the design. This is existing code.)The wrong code it wrote to try and find the issue was carefully written, well organized, function names were reasonable, etc. etc.I can't be alone in this, but I can't put my finger on what exactly goes wrong in the process.Can you share examples of changes you wanted to make that Claude and the bunch (frontier versions) got subtly wrong? Comments URL: https://news.ycombinator.com/item?id=50328797 Points: 1 # Comments: 0",
-    "summaryKo": "작성자는 Opus 5.5·Gemini 등 최신 모델이 쓴 코드가 80%는 맞지만 20%는 눈에 띄지 않게 틀리며, 검토 기법을 써도 완전히 걸러지지 않는다고 토로한다. 두 백엔드 fake를 하나의 mutex 저장소로 합쳐 프로덕션 버그를 재현하지 못한 통합 테스트가 사례다. 비슷한 미묘한 오류 사례를 공유해 달라고 요청한다.",
-    "tags": [
-      "AI 코딩",
-      "코드 리뷰",
-      "테스트"
-    ],
-    "entities": [
-      "Opus 5.5",
-      "Gemini",
-      "Claude"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "17a289d7dc0c7721",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "\"AI for everyone would cost a tenth of a kettle a day",
-    "url": "https://allyburns.com/musings/ai-for-all/",
-    "publishedAt": "Sun, 01 Nov 2026 19:23:16 +0000",
-    "rawText": "Article URL: https://allyburns.com/musings/ai-for-all/ Comments URL: https://news.ycombinator.com/item?id=50328776 Points: 1 # Comments: 5",
-    "summaryKo": "'모두를 위한 AI'가 하루 주전자 한 번 끓이는 비용의 1/10 수준일 것이라는 주장을 담은 글이다. 본문 확인 없이 제목 기준으로 요약했다.",
-    "tags": [
-      "AI 비용",
-      "보편 접근"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "5b0ffa59b5ae1c03",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "Versuscraft: Fact-checked AI comparison posts for dev tools",
-    "url": "https://versuscraft.xyz/sample",
-    "publishedAt": "Sun, 01 Nov 2026 19:10:41 +0000",
-    "rawText": "Article URL: https://versuscraft.xyz/sample Comments URL: https://news.ycombinator.com/item?id=50328665 Points: 1 # Comments: 0",
-    "summaryKo": "Versuscraft는 개발 도구를 비교하는 AI 생성 글에 팩트체크를 붙여 제공하는 서비스다. 제목 기준으로 요약했다.",
-    "tags": [
-      "AI 콘텐츠",
-      "팩트체크"
-    ],
-    "entities": [
-      "Versuscraft"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "c82bb6667fe4896b",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 허깅페이스 : https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
-    "url": "https://www.threads.com/t/DfNbyd4D44F",
-    "publishedAt": "Sun, 01 Nov 2026 19:00:52 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>허깅페이스 : https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated</p><p></p>",
-    "summaryKo": "Pliny가 공개한 DeepSeek-V4.1-Flash-1017 수정 모델의 Hugging Face 링크를 공유한 후속 게시물이다.",
-    "tags": [
-      "안전 제한 제거"
-    ],
-    "entities": [
-      "DeepSeek",
-      "Pliny"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "465d9285319d8950",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: DeepSeek V4.1 Flash 1017의 안전 제한을 크게 낮춘 수정 모델이 공개됐습니다. Pliny가 공개한 DeepSeek-V4.1-Flash-1017-obliterated는 답변 거...",
-    "url": "https://www.threads.com/t/DfNbxbLj2gn",
-    "publishedAt": "Sun, 01 Nov 2026 19:00:43 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>DeepSeek V4.1 Flash 1017의 안전 제한을 크게 낮춘 수정 모델이 공개됐습니다. Pliny가 공개한 DeepSeek-V4.1-Flash-1017-obliterated는 답변 거부와 관련된 내부 표현을 제거한 버전인데요. 838개 질문 평가에서 완전한 답변 거부율이 81.62%에서 4.30%로 감소했습니다. MMLU 정확도는 87.96%에서 88.08%로 비슷했지만, 유해한 요청에 응답하는 비율은 10.38%에서 78.28%로 높아졌습니다. 모델 가중치는 허깅페이스에 공개됐습니다.</p><p><img src=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/883558532_17994838857112832_6862532437730254170_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=110&amp;ig_cache_key=NDAyMDk5MjE4NjAwNjg1Nzc2Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjY0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=nOe3fe2C3jgQ7kNvwGVdxIW&amp;_nc_oc=AdqPJ-gWXVa-0Q_JXBYDHUbQIk5vaHgVhsYg9CXVqFnyVSWNlWq_mpKoPbzYonIfbc4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=5xjh2GM3hSr2GQub5ts2HQ&amp;_nc_ss=7320f&amp;oh=00_AQSBxpC6GuQcQuyAmDEC6WT0fd_kLUNnoEjKRzAAFIjK4Q&amp;oe=6AED88F3\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "Pliny가 DeepSeek V4.1 Flash 1017에서 거부 관련 내부 표현을 제거한 obliterated 모델을 공개했다. 838개 질문 평가에서 완전 거부율이 81.62%에서 4.30%로 줄고 유해 요청 응답률은 10.38%에서 78.28%로 올랐으며 MMLU는 거의 같다.",
-    "tags": [
-      "안전성",
-      "오픈웨이트"
-    ],
-    "entities": [
-      "DeepSeek V4.1",
-      "Pliny",
-      "Hugging Face"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "18ebd686b798dca3",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "전 Meta 연구원, 해적판 도서를 토렌트로 받은 뒤 ‘소송 때문에’ 삭제",
-    "url": "https://news.hada.io/topic?id=36409&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T03:57:17+09:00",
-    "rawText": "저작권자들은 전 Meta 연구원 Stephen Roller가 Books3를 토렌트로 내려받고 의도적으로 배포했다고 증언했다며, Meta의 데이터 확보 경위에 대한 추가 확인을 요구함 법원은 지난해 도서를 이용한 Llama 학습을 공정 이용으로 판단했으며, 저자들이 제기한 소송에...",
-    "summaryKo": "저작권자들은 전 Meta 연구원 Stephen Roller가 Books3를 토렌트로 내려받고 의도적으로 배포했다고 주장하며 Meta의 데이터 확보 경위를 추가로 확인하라고 요구했다. 법원은 지난해 도서를 이용한 Llama 학습을 공정 이용으로 판단한 바 있다.",
-    "tags": [
-      "저작권",
-      "학습 데이터"
-    ],
-    "entities": [
-      "Meta",
-      "Llama",
-      "Books3"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "42bdabcb41a9eac7",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "프랑스 의원들, 인터넷 트래픽 1GB당 0.055유로 과세안 승인",
-    "url": "https://news.hada.io/topic?id=36408&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T03:54:17+09:00",
-    "rawText": "프랑스 하원은 2027년 예산법안 심의에서 콘텐츠 공급자의 디지털 데이터 송출에 과세하는 수정안을 찬성 11표, 반대 10표로 채택함 발의 측은 프랑스 내 네트워크 진입 지점에서 물리적 데이터량을 측정해 과세하면 글로벌 디지털 대기업이 주로 부담하며, 예상 세...",
-    "summaryKo": "프랑스 하원이 2027년 예산안 심의에서 콘텐츠 공급자의 데이터 송출에 GB당 0.055유로를 과세하는 수정안을 찬성 11, 반대 10으로 채택했다. 글로벌 디지털 대기업이 주로 부담하게 되는 구조를 노린 것이다.",
-    "tags": [
-      "디지털세",
-      "망 이용료"
-    ],
-    "entities": [
-      "프랑스"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "6a471854621f86ea",
-    "sourceType": "news",
-    "source": "Hacker News",
-    "title": "It wasn't AI that flipped Proton's charge",
-    "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
-    "publishedAt": "Sun, 01 Nov 2026 18:53:55 +0000",
-    "rawText": "Article URL: https://blog.raed.dev/posts/proton-loser-thinking/ Comments URL: https://news.ycombinator.com/item?id=50328488 Points: 91 # Comments: 42",
-    "summaryKo": "Proton의 요금 변경(charge)은 AI 때문이 아니었다는 주장을 담은 블로그 글로, HN에서 91점·댓글 42개로 주목받았다. 본문 확인 없이 제목 기준으로 요약했다.",
-    "tags": [
-      "AI 책임론",
-      "서비스 요금"
-    ],
-    "entities": [
-      "Proton"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "f2764e625303ca2c",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Anthropic, IPO 이후 정크 등급 중 상위 등급 받을 전망",
-    "url": "https://news.hada.io/topic?id=36407&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T03:51:17+09:00",
-    "rawText": "Blackstone은 Anthropic이 IPO 이후 투기등급인 BB 구간의 신용등급을 받을 것으로 예상함. 아직 신용평가사가 확정한 등급은 아님 기존에는 2027년 이전에 투자적격등급을 받을 것으로 예상했으나, 이제는 정크 등급의 최상위 구간을 전망함",
-    "summaryKo": "Blackstone은 Anthropic이 IPO 이후 투기등급 중 최상위인 BB 구간의 신용등급을 받을 것으로 전망했다. 기존에는 2027년 이전 투자적격등급을 예상했으나 전망이 낮아졌으며, 아직 확정된 등급은 아니다.",
-    "tags": [
-      "신용등급",
-      "IPO"
-    ],
-    "entities": [
-      "Anthropic",
-      "Blackstone"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "48730616f85e4015",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Minecraft 속 AI 에이전트 군집, 문명 건설에 실패하고 관료주의에 빠지다",
-    "url": "https://news.hada.io/topic?id=36406&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T03:48:17+09:00",
-    "rawText": "ycombinator와 Olam Labs가 진행한 Civ50 실험에서 에이전트 50개는 3시간 안에 번성하는 문명을 만들라는 과제를 받았지만, 초기 목표를 포기하고 조심스러운 생존과 관료적 절차에 머무름 관료주의의 대표 사례로, 에이전트 4개가 밀 한 블록에 사용할 뼛가루 하...",
-    "summaryKo": "ycombinator와 Olam Labs의 Civ50 실험에서 에이전트 50개는 3시간 안에 번성하는 문명을 건설하라는 과제를 받았지만 목표를 버리고 생존과 관료적 절차에 매몰됐다. 에이전트 4개가 밀 한 블록에 쓸 뼛가루 하나를 두고 절차를 밟는 장면이 대표 사례다.",
-    "tags": [
-      "멀티에이전트",
-      "시뮬레이션"
-    ],
-    "entities": [
-      "Minecraft",
-      "Olam Labs",
-      "Y Combinator"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "83148e48f04176c2",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show GN: EBS Gurapinggala Teacher - 거짓말 에이전트",
-    "url": "https://news.hada.io/topic?id=36405&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T03:41:19+09:00",
-    "rawText": "EBS Gurapingala Teacher - AI 거짓말 에이전트와 교사용 모니터링 대시보드 GitHub: https://github.com/NomaDamas/EBS-Gurapingala-teacher 소개: EBS <생각의 멸종>에서 학생 대상 AI 실험을 위해 개발한 거짓말 AI 챗봇 및 교사용 모니터링 도구...",
-    "summaryKo": "EBS 〈생각의 멸종〉의 학생 대상 AI 실험을 위해 만든 '거짓말하는 AI 챗봇'과 교사용 모니터링 대시보드를 GitHub에 공개했다. AI의 잘못된 답을 학생이 얼마나 가려내는지 관찰하는 교육용 도구다.",
-    "tags": [
-      "AI 리터러시",
-      "챗봇"
-    ],
-    "entities": [
-      "EBS"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "dee8f4cd899c5235",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Tangled, 프런트엔드 접근성 전문가를 고용하라",
-    "url": "https://news.hada.io/topic?id=36404&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-02T03:01:59+09:00",
-    "rawText": "Tangled의 새 UI는 12px 글자 크기와 16px 줄 높이를 사용하며, 글자를 확대하면 일부 문자가 잘리는 등 접근성 문제가 나타남 WCAG 2.2는 최소 글자 크기를 정하지 않지만, 텍스트를 200%까지 확대해도 콘텐츠나 기능이 손실되지 않아야 한다고 요구함 브...",
-    "summaryKo": "Tangled의 새 UI가 12px 글자와 16px 줄 높이를 써서 확대하면 글자가 잘리는 등 접근성 문제가 있다는 지적이다. WCAG 2.2는 최소 글자 크기는 정하지 않지만 200% 확대 시 콘텐츠와 기능이 손실되면 안 된다고 요구한다.",
-    "tags": [
-      "접근성",
-      "WCAG"
-    ],
-    "entities": [
-      "Tangled"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z"
-  },
-  {
-    "id": "618eff4a1161f194",
-    "sourceType": "news",
-    "source": "r/MachineLearning",
-    "title": "I animated what GPT-4o's tokenizer does to \"strawberry\": real token ids, a tiny BPE run, and why the space belongs to the word (6 min video) [D]",
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/",
-    "publishedAt": "2026-11-01T18:01:28+00:00",
-    "rawText": "<!-- SC_OFF --><div class=\"md\"><p>I made this explainer for my small channel and would like feedback from people learning this, especially if anything is wrong.</p> <p>It follows one word the whole way:</p> <ul> <li>&quot;How many r&#39;s are in strawberry?&quot; is 8 tokens in o200k_base (the GPT-4o / GPT-5 tokenizer). &quot; strawberry&quot; is a single token, id 101830, so the three r&#39;s are hidden inside one id.</li> <li>Why pieces of words: letters make sequences about 4x longer, whole words need a huge vocabulary and can&#39;t handle new words.</li> <li>A tiny byte pair encoding run on a made-up text, merge by merge, until strawberry becomes st | raw | berry.</li> <li>The space belongs to the word: &quot;strawberry&quot;, &quot; strawberry&quot; and &quot;Strawberry&quot; are three different token sequences.</li> <li>Why reasoning models count letters better: in OpenAI&#39;s 2025 paper &quot;Why Language Models Hallucinate&quot;, DeepSeek-R1 spells DEEPSEEK out letter by letter before counting, while DeepSeek-V3 answered 2 or 3 (the answer is 1).</li> <li>Bonus: the same Hindi sentence took 21 tokens with GPT-4&#39;s tokenizer and 5 with GPT-4o&#39;s.</li> </ul> <p>Every split comes from running tiktoken 0.14.0. The narration is an AI voice reading my own script.</p> <p>Video: <a href=\"https://www.youtube.com/watch?v=FdWcUJAhfpo&amp;pp=0gcJCSsMAYcqIYzv\">https://www.youtube.com/watch?v=FdWcUJAhfpo&amp;pp=0gcJCSsMAYcqIYzv</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rajucg\"> /u/Rajucg </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/\">[comments]</a></span>",
-    "summaryKo": "GPT-4o/GPT-5의 o200k_base 토크나이저가 'strawberry'를 어떻게 쪼개는지 6분 영상으로 설명했다. 공백이 단어에 붙는 이유, 간단한 BPE 과정, 추론 모델이 글자 세기를 더 잘하는 이유, 힌디어 문장이 GPT-4의 21토큰에서 GPT-4o의 5토큰으로 줄어드는 점을 다룬다.",
-    "tags": [
-      "토크나이저",
-      "BPE"
-    ],
-    "entities": [
-      "GPT-4o",
-      "tiktoken",
-      "DeepSeek-R1"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-01T21:03:20.003Z",
-    "hasAnalysis": true
   }
 ]
