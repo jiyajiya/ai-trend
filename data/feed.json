@@ -1,5 +1,697 @@
 [
   {
+    "id": "ef33c378530012f3",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "AI 쓰면 일 잘해도 상사 신뢰 못 받는다…신뢰도 차이가?",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548824",
+    "publishedAt": "2026-11-13 05:48:00",
+    "rawText": "직장에서 인공지능(AI)을 활용하면 업무 효율은 높아질 수 있지만, 정작 상사의 신뢰는 떨어질 수 있다는 연구 결과가 나왔다.AI를 사용하지 않고 직접 업무를 수행한 직원은 상사의 신뢰를 얻을 확률이 68%에 달한 반면, AI를 활용한 직원은 24%에 그쳤다.이스라엘 예루살렘 히브리대(Hebrew University of Jerusalem) 연구팀은 상사 역할을 맡은 실험 참가자들이 AI를 활용한 직원을 일관되게 덜 신뢰하는 경향을 확인했다고 학술지 '리더십 쿼털리(The Leadership Quarterly)' 12월호에 발표했다",
+    "summaryKo": "히브리대 연구에서 AI를 쓰지 않은 직원은 상사의 신뢰를 얻을 확률이 68%였지만 AI를 쓴 직원은 24%에 그쳤다. 업무 효율과 별개로 AI 활용이 평가·신뢰에 불리할 수 있음을 보여준다.",
+    "tags": [
+      "AI 업무활용",
+      "신뢰"
+    ],
+    "entities": [
+      "히브리대",
+      "The Leadership Quarterly"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "e2a45b4c25cdb7e1",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "AMD In-Depth에서 Mike Clark과 나눈 Zen 6 심층 대화",
+    "url": "https://news.hada.io/topic?id=37074&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T05:35:45+09:00",
+    "rawText": "Zen 6 제품군은 기존 설계를 고주파수 중심으로, 고밀도 설계인 Zen 6c를 높은 IPC 중심으로 발전시킴Zen 6c는 낮은 목표 주파수 덕분에 내부 큐를 키워 IPC와 SMT 활용도를 높이지만, 두 코어에 서로 다른 소프트웨어 최적화가 필요하지 않도록 설계함Zen 5의 듀얼 디코드 프런트엔드를 개선해 명령 전달 효율과 전력 효율을 높이고, 분기 예측 실패 후 복구 시간도 단축함실행부는 효과가 크지 않았던 정수 곱셈기를 3개에서 2개로 줄이는 대신, 추론 수요를 고려해 VNNI 파이프 2개를 추가함인터뷰어의 Zen 6c 실측에서는 낮은 클…",
+    "summaryKo": "AMD의 Mike Clark이 Zen 6 설계를 설명한다. Zen 6는 고주파수, Zen 6c는 높은 IPC 중심이며 프런트엔드 개선과 함께 추론 수요를 고려해 VNNI 파이프를 2개 추가했다.",
+    "tags": [
+      "CPU",
+      "Zen 6"
+    ],
+    "entities": [
+      "AMD",
+      "Zen 6",
+      "Zen 6c"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "1d16e4372adc6249",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Outlook과 Microsoft 상태 페이지 모두 접속 장애",
+    "url": "https://news.hada.io/topic?id=37073&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T05:32:45+09:00",
+    "rawText": "Outlook과 Microsoft 상태 페이지 모두 접속 장애",
+    "summaryKo": "Outlook과 Microsoft 상태 페이지가 모두 접속 장애를 겪었다는 GeekNews 글이다. AI와 직접 관련은 없는 서비스 장애 소식이다.",
+    "tags": [
+      "장애",
+      "클라우드"
+    ],
+    "entities": [
+      "Microsoft",
+      "Outlook"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "832c72d21365eab8",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 와.. 오픈AI가 아직 공개하지 않은 사이버 보안 AI 모델의 성능이 상당하다고 합니다. 오픈AI 내부 모델이 해킹 취약점 공격 능력을 평가하는 Exp...",
+    "url": "https://www.threads.com/t/Dfp6vJDju0S",
+    "publishedAt": "Thu, 12 Nov 2026 20:30:01 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>와.. 오픈AI가 아직 공개하지 않은 사이버 보안 AI 모델의 성능이 상당하다고 합니다. 오픈AI 내부 모델이 해킹 취약점 공격 능력을 평가하는 ExploitGym에서 77%를 기록했다는 소식인데요. 참고로 앤트로픽의 Mythos 5.2는 38.1%, 구글의 Gemini 4 Carbon은 54.8%를 기록했었습니다. Greg Brockman은 다음 모델이 성능을 한 단계 끌어올릴 것이라고 언급했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/903794131_907838915651925_8926241629708781191_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyOTAwOTY2Nzg5NjA0NDgxOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=aCTTPjYzMfMQ7kNvwG0mMHF&amp;_nc_oc=AdqweFLmRBYWVv4Mqm_RVh1slKti9czocFYJk8aS_tyzbGk_nQslCgSLAmh21WrnX9E&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQRlSD6RrubFNLhMwo3VVi1UzIFppZn7cYUsCL06uDpvJw&amp;oe=6AFC067B\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQOm5bf25Xe68vtSPk4vy2NI7doUOAH2CwxsIyPtW-AfNVt23-i1WRaTMsqtGYid1ZRAKgLIDsXOnJOrZ4eGwB_oHFuiLsSDogFmqE8.mp4?_nc_cat=104&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=cSfMrPtCmNkQ7kNvwG_T9uZ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjY4LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTY2OTA1OTUxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=38cd199072934e3&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DQ0I1RDlFRUYxNjc0OTY0QkY5NEEwNkU4QkIyOUJDOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzg4MjgxRkFDRTUwODRFQkQ5NEQ4OUEzQUIyQTJGMERCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAnu_gofn3PxUCKAJDMywXQDlu2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQTTtouvk1cWAsBH1HTU5VS9xf9C1HG0U9HcA8d5x8SXeA&amp;oe=6AF7F710\"></video></p>",
+    "summaryKo": "OpenAI의 미공개 사이버 보안 AI 모델이 취약점 공격 능력 평가 ExploitGym에서 77%를 기록했다고 한다. Anthropic Mythos 5.2는 38.1%, Gemini 4 Carbon은 54.8%였다.",
+    "tags": [
+      "AI 보안",
+      "벤치마크"
+    ],
+    "entities": [
+      "OpenAI",
+      "ExploitGym",
+      "Mythos 5.2",
+      "Gemini 4 Carbon"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "a491aa90d650ab2b",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "url": "https://openai.com/index/amplitude",
+    "publishedAt": "Thu, 12 Nov 2026 20:00:00 GMT",
+    "rawText": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "summaryKo": "Amplitude가 OpenAI 모델 기반의 선제적 제품 에이전트 'Wave'로 무엇을 만들지 찾고, 코딩 에이전트로 변경을 배포하며 효과까지 측정한다. 덕분에 제품 개선을 1~2일 만에 출시하는 사례를 소개한다.",
+    "tags": [
+      "에이전트",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "Amplitude",
+      "Wave"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "47760aca6d384c40",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Nintendo, 대규모 GitHub DMCA 삭제 조치로 에뮬레이터와 펌웨어 차단",
+    "url": "https://news.hada.io/topic?id=37072&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T04:55:37+09:00",
+    "rawText": "Nintendo가 GitHub에 DMCA 삭제 통지 4건을 보내 Switch 에뮬레이터 Yuzu와 Citron Neo, 모드칩 펌웨어를 겨냥함이번 조치는 모드칩 펌웨어에 초점을 맞춘 것으로 보이며, 해당 펌웨어를 담은 저장소 144개가 모두 삭제되고 DMCA 통지로 대체됨Picofly 같은 모드칩은 Switch 메인보드에 납땜한 뒤 해당 펌웨어를 설치해 Nintendo의 복제 방지 장치를 우회할 수 있음삭제 이후에도 같은 펌웨어가 GitHub 다른 곳에 남아 있는 것으로 보이며, Nintendo가 추가 조치를 취할 가능성도 있음AI로 만든 게임 복제물과 이식작에도 제한 조치가…",
+    "summaryKo": "Nintendo가 GitHub에 DMCA 삭제 통지 4건을 보내 Switch 에뮬레이터와 모드칩 펌웨어 저장소 144개를 삭제시켰다. AI로 만든 게임 복제물과 이식작에도 제한 조치가 이뤄지는 흐름이다.",
+    "tags": [
+      "DMCA",
+      "저작권"
+    ],
+    "entities": [
+      "Nintendo",
+      "GitHub",
+      "Yuzu"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "cb18ff0c38402f0b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "작고 오래된 기기에서도 LLM이 돌아가게 만들고 있습니다",
+    "url": "https://news.hada.io/topic?id=37071&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T04:52:37+09:00",
+    "rawText": "smolmaxxing은 TV 박스와 오래된 iPad에서 실행 가능한 최대 규모의 언어 모델을 찾고, 맞춤형 커널과 메모리 최적화, 가중치 스트리밍으로 성능을 끌어올리는 프로젝트임실사용 RAM이 약 1GB인 Xiaomi TV Box S 3세대에서 Qwen3.5-2B는 실제 채팅 기준 7.7 tok/s, 8B MoE 모델은 7.2 tok/s, 16B MoE 모델은 5.1 tok/s로 실행됨2013년형 iPad Air에서는 CPU만으로 Bonsai-1.7B가 23.7~25.8 tok/s에 도달함. 다만 iOS 12.5.7 탈옥이 필요하며, 긴 대화에서는 18~22 tok/s 수준임RAM보다 큰 모델은 플래시 대역폭이 속도를 제한함. MoE …",
+    "summaryKo": "smolmaxxing 프로젝트는 TV 박스와 2013년형 iPad Air 같은 구형 기기에서 LLM을 돌린다. 맞춤 커널·메모리 최적화·가중치 스트리밍으로 RAM 1GB급 기기에서도 Qwen3.5 계열 MoE 모델이 초당 5~8토큰 수준으로 동작한다.",
+    "tags": [
+      "온디바이스 LLM",
+      "MoE",
+      "양자화"
+    ],
+    "entities": [
+      "Qwen3.5",
+      "Bonsai",
+      "Xiaomi",
+      "iPad Air"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "bd41f2bcd1fd3d97",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Rust 1.100.0 - never 타입과 사용자 정의 메모리 할당자 안정화",
+    "url": "https://news.hada.io/topic?id=37070&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T04:49:36+09:00",
+    "rawText": "never 타입 ! 과 사용자 정의 메모리 할당자가 안정화됨. Infallible은 !의 타입 별칭이 되고, 모든 에디션에서 never 타입 폴백이 !로 변경됨Cargo 자체 린트 시스템이 도입되어 [lints.cargo]에서 일부 경고를 제어할 수 있으며, 사용하지 않는 의존성을 검사하는 내장 린트가 추가됨의존성 쿨다운 설정으로 게시 후 일정 시간이 지나지 않은 버전을 의존성 해결 대상에서 제외할 수 있음. 이미 Cargo.lock에 있는 버전은 예외임cargo install은 기본적으로 잠금 파일을 사용하며, 중간 빌드 산출물의 디렉터리 구조도 변경됨. 빌드…",
+    "summaryKo": "Rust 1.100.0이 never 타입 `!`과 사용자 정의 메모리 할당자를 안정화했다. Cargo 린트 시스템, 의존성 쿨다운 설정, cargo install 기본 lock 파일 사용 등도 추가됐다.",
+    "tags": [
+      "Rust",
+      "Cargo"
+    ],
+    "entities": [
+      "Rust",
+      "Cargo"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "06e898f310c0c0ef",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Ask HN: Microsoft/Azure 장애인가요?",
+    "url": "https://news.hada.io/topic?id=37069&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T04:46:36+09:00",
+    "rawText": "최근 5분 동안 사용 중인 Microsoft Cloud 연결이 모두 끊긴 상태이며, 다른 사람도 같은 문제를 겪는지 확인하고자 함상태 페이지조차 로드되지 않음",
+    "summaryKo": "Microsoft Cloud 연결이 5분간 모두 끊겼고 상태 페이지조차 열리지 않는다는 Ask HN 글이다. Microsoft/Azure 장애 여부를 확인하려는 내용이다.",
+    "tags": [
+      "장애",
+      "Azure"
+    ],
+    "entities": [
+      "Microsoft",
+      "Azure"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "d95900ac51374bcf",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Gemini 4 Hydrogen - 일상적인 코딩과 에이전트 작업을 위한 빠른 실행 모델",
+    "url": "https://news.hada.io/topic?id=37068&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T04:43:36+09:00",
+    "rawText": "Google이 Gemini 4 Hydrogen을 공개함. 깊고 장기적인 추론에 집중하는 Carbon과 Argon을 보완하면서, 일상적인 코딩과 다양한 에이전트 작업을 단독으로도 수행하도록 설계함기본 추론 설정에서 Artificial Analysis Intelligence Index 51점으로 Argon의 50점을 넘어섰으며, 100만 토큰 컨텍스트 전체에 입력 100만 토큰당 1.50달러, 출력 100만 토큰당 7.50달러의 동일 요금을 적용함Google Antigravity의 Orchestrator가 세션 안에서 Carbon과 Hydrogen 등을 자동 전환함. Terminal-Bench 4.0에서 Carbon에 가까운 성공률을 유지하면서 평균 할당량 소모를 24%, 완료 시간을 19% 줄임…",
+    "summaryKo": "Google이 일상적 코딩과 에이전트 작업용 빠른 실행 모델 Gemini 4 Hydrogen을 공개했다. Artificial Analysis 지수 51점으로 Argon(50점)을 넘었고, Antigravity Orchestrator가 Carbon·Hydrogen을 자동 전환해 할당량 소모를 24%, 시간을 19% 줄였다.",
+    "tags": [
+      "LLM",
+      "에이전트",
+      "코딩"
+    ],
+    "entities": [
+      "Google",
+      "Gemini 4 Hydrogen",
+      "Antigravity",
+      "Carbon",
+      "Argon"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "97cdfa4c6f9f063f",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 주소 : https://glasses.google/",
+    "url": "https://www.threads.com/t/Dfpwh4MDR4A",
+    "publishedAt": "Thu, 12 Nov 2026 19:00:50 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>주소 : https://glasses.google/</p><p></p>",
+    "summaryKo": "Google 스마트 안경 공식 페이지(glasses.google) 주소를 공유한 짧은 글이다.",
+    "tags": [
+      "스마트 글라스"
+    ],
+    "entities": [
+      "Google"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "02e0c7e5599bd463",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 오래 기다리셨습니다! 드디어 구글과 삼성의 AI 스마트 안경이 나왔습니다. 구글이 삼성전자, Gentle Monster, Warby Parker와 협력해 Gemini가 ...",
+    "url": "https://www.threads.com/t/DfpwgrCDc8q",
+    "publishedAt": "Thu, 12 Nov 2026 19:00:40 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오래 기다리셨습니다! 드디어 구글과 삼성의 AI 스마트 안경이 나왔습니다. 구글이 삼성전자, Gentle Monster, Warby Parker와 협력해 Gemini가 탑재된 스마트 안경을 공개하고 사전예약을 시작했는데요. 눈앞에 보이는 외국어를 번역하고, 길을 찾거나 사진을 찍는 것도 말로 요청할 수 있습니다. 12MP 카메라로 최대 3K 영상을 촬영하며, 배터리는 최대 9시간 사용할 수 있다고 합니다. 특히 한국 계정도 지원합니다. 이제 스마트폰을 꺼내지 않고 AI를 사용하는 시대가 가까워졌네요.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/905739947_1982580829794601_873728863414065406_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODk2NDY5MzEyMDc2NTczOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=rz_7KRPJ4nYQ7kNvwHM6hyJ&amp;_nc_oc=AdqANEOSp9Y2KJZNssd6wwPhDvQCaLueONUJPhUVH2Fy3tKaLjabQWajoczxeCYx_cY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQQYXb1iPiJt521b2cY5T950FBULd8Ad5Mv9lOvB_FhfSw&amp;oe=6AFBE359\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQORszGgZJkdGAkeTodwZ2jXxLgyqCKZT1AbFSlwcRPldCx0fD-VlLlFwA5CwjWz2i9F56NH--LLOXUnQNugaeCqLwkjQOVqNw4_RNQ.mp4?_nc_cat=110&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=wDtfVy9OTRsQ7kNvwEKAtfE&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTY2ODI1NjQxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=42bfd5fbff3d76b7&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9BQTJDNDA5OUI0Q0U0RTExODFBMTkwQTZBOTA1NDVEMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I1Q0UwRjIyRjgyQzQwNDRCNjhDMEE2QUU5RTZCQkM2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAx_T15fj3PxUCKAJDMywXQDyqfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQRQcXQPS7VI7nrI2J3DxsgDVk2cep2oFMJL8YLPGSLFxg&amp;oe=6AF81B8A\"></video></p>",
+    "summaryKo": "Google이 삼성전자·Gentle Monster·Warby Parker와 Gemini 탑재 AI 스마트 안경을 공개하고 사전예약을 시작했다. 번역·길 찾기·촬영을 음성으로 요청하고 12MP 카메라와 최대 9시간 배터리를 갖췄으며 한국 계정도 지원한다.",
+    "tags": [
+      "스마트 글라스",
+      "Gemini"
+    ],
+    "entities": [
+      "Google",
+      "삼성전자",
+      "Gentle Monster",
+      "Warby Parker",
+      "Gemini"
+    ],
+    "cats": [
+      "멀티모달",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "d2b5eb879a593a77",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 3/ 독립 평가 기관 Artificial Analysis의 종합 지수에서 Hydrogen은 기본 설정인 high로 51점, 가장 깊이 생각하는 xhigh 설정으로 54점을 받았...",
+    "url": "https://www.threads.com/t/DfpudtAj11K",
+    "publishedAt": "Thu, 12 Nov 2026 18:42:47 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>3/ 독립 평가 기관 Artificial Analysis의 종합 지수에서 Hydrogen은 기본 설정인 high로 51점, 가장 깊이 생각하는 xhigh 설정으로 54점을 받았습니다. 이 지수는 10월 27일 v5로 개편됐는데, 당시 Argon이 50점이었고 이튿날 나온 Carbon이 59점으로 1위에 올랐다고 전해드렸습니다. 빠른 실행용으로 내놓은 모델이 한 달 전 정식 출시된 상위 모델 Argon을 기본 설정으로 1점, 설정을 올리면 4점 넘은 건데요. 54점은 지수 개편 당시 3위였던 GPT-6.1 Sol(55점) 바로 아래입니다. 최상위 모델의 성능이 한 단계 아래 모델로 내려오는 데 걸리는 시간이 한 달 남짓으로 줄었습니다.</p><p><img src=\"https://scontent-dfw5-3.cdninstagram.com/v/t51.82787-15/900216330_17996692320112832_5782055833268375807_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=108&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODk1NTY5Mjk5MTczMzA2Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=oI3jQ3KwomUQ7kNvwFA7e4y&amp;_nc_oc=AdoLy_zfEWKYoiItyD6bgrk9HPXZHOQPaANAhe_hhDmjCUarMZWOZcnVuywpL9y86fI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-3.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQSe-GRO4nMp4X7utPfZ1_xPwRpbiosbRe9VAR5TJAwRww&amp;oe=6AFC06F7\" referrerpolicy=\"no-referrer\"></p><blockquote><p>🚨 AI 모델 성적표가 새로 바뀌었습니다. 독립 평가기관 Artificial Analysis가 종합 지수를 v5로 개편했는데, 1위 Claude Opus 5.5는 자리를 지켰고 GPT-6 Astra와 GPT-6.1 Sol이 2·3위로 치고 올라왔는데요. 폐쇄형 모델과 오픈웨이트의 격차는 더욱 벌어졌습니다. 무엇이 달라졌는지 정리했습니다 🧵</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/870226856_17993937072112832_3465263825749691596_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAxNzYwOTYzNTEwNDAxMjI5MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=FvByKtCy4SAQ7kNvwEVkDgY&amp;_nc_oc=AdohA8IK9roroaZ0_Axm8ZooDhgNE3NopwJtZZGDn32hhqf2iQrP5oIRFfAujIn32pg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQT-jVtsyXNf96zkz1niwjOGHM85xfubScQFQzX2fI3R6A&amp;oe=6AFC0B98\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfBaq1Kj7gD\">Wed, 28 Oct 2026 03:00:12 GMT</a></blockquote>",
+    "summaryKo": "Artificial Analysis 종합 지수에서 Gemini 4 Hydrogen은 기본 high 설정 51점, xhigh 54점을 받아 한 달 전 출시된 상위 모델 Argon을 넘었다. 최상위 성능이 하위 모델로 내려오는 시간이 한 달 남짓으로 줄었다는 분석이다.",
+    "tags": [
+      "LLM",
+      "벤치마크"
+    ],
+    "entities": [
+      "Google",
+      "Gemini 4 Hydrogen",
+      "Artificial Analysis",
+      "GPT-6.1 Sol"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "b6ce30fc8c5d37ae",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 2/ 구글은 Gemini 4를 역할에 따라 나눠서, Carbon과 Argon은 어려운 문제를 오래 붙들고 깊이 생각하는 모델로, Hydrogen은 정해진 일을 빠르게 ...",
+    "url": "https://www.threads.com/t/DfpubbBjwrp",
+    "publishedAt": "Thu, 12 Nov 2026 18:42:28 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>2/ 구글은 Gemini 4를 역할에 따라 나눠서, Carbon과 Argon은 어려운 문제를 오래 붙들고 깊이 생각하는 모델로, Hydrogen은 정해진 일을 빠르게 실행하는 모델로 내놨습니다. 식당 주방에 비유하면 Carbon은 메뉴와 조리법을 짜는 총괄 셰프, Hydrogen은 밀려드는 주문을 정확하고 빠르게 쳐내는 요리사에 가까운데요. 소프트웨어 개발에서도 시스템 설계나 찾기 어려운 버그는 상위 모델이 맡고, 코드 작성과 테스트 실행, 변경 사항 검증처럼 양이 많은 일은 빠른 모델이 맡습니다. 모델 카드에 따르면 Hydrogen은 Carbon을 바탕으로 조정해 만든 모델이고, 지식 기준 시점은 2026년 3월입니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/901867780_17996691801112832_5331676139713340782_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=109&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODk1NTUzNjI0MjE4Mjg4OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTg5MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=DJ5ALofs3FEQ7kNvwGrRH6t&amp;_nc_oc=AdpNGftSl9d3tx6z-lPlgzwVuhQNU-kgDOZcFP7gZU2kFMst4EEpI3pc64p0Oi5VmtE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQTMaXMMDAUQ003KuoySGVMxpptmsOw3x6BN7ko8co4-xw&amp;oe=6AFBF821\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Google은 Gemini 4를 역할별로 나눠 Carbon·Argon은 깊은 추론용, Hydrogen은 정해진 작업을 빠르게 실행하는 모델로 내놨다. 개발에서도 설계와 어려운 버그는 상위 모델이, 코드 작성·테스트·검증은 빠른 모델이 맡는 구도다.",
+    "tags": [
+      "LLM",
+      "모델 라우팅"
+    ],
+    "entities": [
+      "Google",
+      "Gemini 4",
+      "Hydrogen",
+      "Carbon"
+    ],
+    "cats": [
+      "LLM·모델",
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "1b4d9f1a322116e6",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 1/ 구글 딥마인드가 Gemini 4 Hydrogen을 공개했습니다. 9월 30일 Argon, 10월 28일 Carbon에 이어 나온 Gemini 4 시리즈의 세 번째 모델인데요. ...",
+    "url": "https://www.threads.com/t/Dfpt_W2o1P7",
+    "publishedAt": "Thu, 12 Nov 2026 18:42:20 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>1/ 구글 딥마인드가 Gemini 4 Hydrogen을 공개했습니다. 9월 30일 Argon, 10월 28일 Carbon에 이어 나온 Gemini 4 시리즈의 세 번째 모델인데요. 앞의 두 모델은 유료 등급에서만 쓸 수 있었고, Hydrogen은 무료 사용자까지 포함해 모두에게 열렸습니다. Gemini 앱과 구글 검색, AI Studio와 Gemini API의 무료 등급, 기업용 Gemini for business, 코딩 도구 Antigravity에 같은 날 들어갔습니다. 구글은 이 모델이 전작 격인 3.8 Flash보다 작업을 2.5배 빨리 끝내고, 독립 평가 지수에서 상위 모델 Argon을 넘었다고 밝혔습니다. 텍스트와 이미지, 음성, 영상을 입력으로 받고 입력과 출력을 합쳐 100만 토큰까지 다룹니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/899488183_1685007956322306_8200215273895667840_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODk1MzYwNzYxODY0NzAzNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=E5VdbN9HqtMQ7kNvwGzAjgZ&amp;_nc_oc=AdoywOcLlo4GMAaOI3YVNQayl1fOA_iN1VRqjZiEHUp2qsopIw3bOjgNXT4cA8aPX1s&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQQnvQ9RZS8sFJDz6Gaw-cBFjv6ltdkcAjeD8XJZSA3XWA&amp;oe=6AFBFB81\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQM3NIvEIGmqbg0k3gbnLxFAI2Dx16Hk5p_aPg1rJudU6mjNj-9zTIaekp2YHeQsYEeU0M5_azczvO_488mwoO8UZ6wpXgv_MkWt_Lw.mp4?_nc_cat=100&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=gUnchw5AUj4Q7kNvwE6fGr4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTY2OTE1NzkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=270d7fa8ef9f7828&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wQjIyNTRDN0MxRTc0OUUxQkFFMUI3MERGMzMxNTA4OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ExQzExMjlGMUFDMTQ1MDk5NTA5RjA1RkRCODg0RjQwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAtqSLqfn3PxUCKAJDMywXQCfMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQQYHQgQkooCveWY0CrDyuAi5zQMeNcitOoGAK_tGp96HA&amp;oe=6AF801BC\"></video></p>",
+    "summaryKo": "Google DeepMind가 Gemini 4 시리즈 세 번째 모델 Hydrogen을 공개했다. 무료 사용자까지 포함해 Gemini 앱·검색·AI Studio·Antigravity 등에 동시 적용됐고, 3.8 Flash보다 2.5배 빠르며 100만 토큰 멀티모달 입력을 지원한다.",
+    "tags": [
+      "LLM",
+      "멀티모달"
+    ],
+    "entities": [
+      "Google DeepMind",
+      "Gemini 4 Hydrogen",
+      "Antigravity"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "2f1a999c8e9d237b",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "CPU를 새로 설계하기 위해 약 390억원 투자 유치",
+    "url": "https://news.hada.io/topic?id=37067&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-13T03:37:56+09:00",
+    "rawText": "Tendrils가 범용 컴퓨팅을 재설계하기 위해 Benchmark 주도로 3,000만 달러($30m) 투자를 유치함순차 실행 설계에서 출발하는 대신, 수천 개 코어가 병렬로 동작하는 프로세서를 개발 중임Tendrils는 기존 CPU가 순차 실행 단일 코어 칩과의 하위 호환성에 묶여 있으며, 복잡한 캐시 일관성 프로토콜과 재정렬 버퍼가 확장의 병목이라고 봄새로운 설계는 공유 가변 메모리와 선형 명령어 시퀀스라는 개념을 넘어서는 것을 지향함병렬 우선 아키텍처를 처음부터 대상으로 설계한 오픈소스 언어 Vine을 프로세서와 함께 개발 중임기존…",
+    "summaryKo": "Tendrils가 Benchmark 주도로 3,000만 달러를 투자받아 수천 코어가 병렬 동작하는 새 CPU를 설계 중이다. 병렬 우선 아키텍처용 오픈소스 언어 Vine도 함께 개발한다.",
+    "tags": [
+      "CPU",
+      "병렬 컴퓨팅"
+    ],
+    "entities": [
+      "Tendrils",
+      "Benchmark",
+      "Vine"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "f19cddd04797ae7d",
+    "sourceType": "news",
+    "source": "Google AI",
+    "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "publishedAt": "Thu, 12 Nov 2026 18:00:00 +0000",
+    "rawText": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp\">We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+    "summaryKo": "Google이 Gemini 4 Hydrogen을 Google 검색에 전 세계로 도입해 더 시각적이고 직관적인 답변을 제공한다. 새 모델 기반으로 검색 경험이 대폭 업그레이드된다.",
+    "tags": [
+      "LLM",
+      "검색"
+    ],
+    "entities": [
+      "Google",
+      "Gemini 4 Hydrogen",
+      "Google Search"
+    ],
+    "cats": [
+      "LLM·모델",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "0ff3392252ea2b77",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 🚨 속보) 구글 Gemini 4 Hydrogen 출시.",
+    "url": "https://www.threads.com/t/DfpnNoujyDV",
+    "publishedAt": "Thu, 12 Nov 2026 17:39:25 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>🚨 속보) 구글 Gemini 4 Hydrogen 출시.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/904750922_17996684736112832_6389655044295547328_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=104&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODkyMzgwMjU1NzU1NDkwMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTUzMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=wW0BlfsOynMQ7kNvwFLHpVg&amp;_nc_oc=Adr8WvWOxG9SzRAMzFizx1DyajucZtWjpVuFfAGyzH5Jv0dK3RFxDdM62H8jer5WDtQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQQs2usHZBQNzz4D8A7vHMAUKH3cSyce6zeSNaZoZGbgUg&amp;oe=6AFC151C\" referrerpolicy=\"no-referrer\"></p>",
+    "summaryKo": "Google의 Gemini 4 Hydrogen 출시를 알리는 속보 글이다. 이미지 한 장과 한 줄 코멘트로 구성돼 있다.",
+    "tags": [
+      "LLM"
+    ],
+    "entities": [
+      "Google",
+      "Gemini 4 Hydrogen"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "202df6c012857c45",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 3/ 매출 순위도 이미 뒤집혔습니다. 오픈AI가 투자자들에게 밝힌 연환산 매출은 9월 말 기준 약 500억 달러이고, 앤트로픽은 10월 말 약 810억 달...",
+    "url": "https://www.threads.com/t/DfpkTJZj_7O",
+    "publishedAt": "Thu, 12 Nov 2026 17:13:58 GMT",
+    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>3/ 매출 순위도 이미 뒤집혔습니다. 오픈AI가 투자자들에게 밝힌 연환산 매출은 9월 말 기준 약 500억 달러이고, 앤트로픽은 10월 말 약 810억 달러인데요. 1년 전만 해도 상상하기 어려웠던 역전입니다. 앤트로픽은 2분기에 처음으로 영업이익을 냈고 3분기 매출은 168억 달러였던 반면, 오픈AI는 1조 4,000억 달러 가치에 300억 달러를 모으려던 투자 유치를 1조 2,500억 달러에 150억 달러에서 200억 달러 규모로 줄였습니다. 상장 시장에서 먼저 가격표를 받는 쪽도 앤트로픽입니다. 2년 동안 이 산업의 중심은 오픈AI였는데, 매출과 수익성과 기업가치의 세 항목에서 순서가 바뀐 채로 새 의회가 시작됩니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/906816987_17996678853112832_2719716127099647656_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=100&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODkxMDk4NzA5NjYyMDc1MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTU2NC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=buBKiHgZXI0Q7kNvwHMJexy&amp;_nc_oc=AdoIYXFr8x_1nCLLK6_GsQ8FDf5USbVasE8zXlaNkvao2d8bIOz4wfmxSgKuxqoCRF8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQR4PRfXcXNYAdsLK3t-NxSBwMMchIVtjAMlZOw36hCdOA&amp;oe=6AFBF03D\" referrerpolicy=\"no-referrer\"></p><blockquote><p>🚨 꼭 한 번 읽어주세요. 앤트로픽이 드디어 나스닥 상장을 신청했습니다. 이번에 공개된 재무제표가 충격적입니다. 상반기 매출만 약 23조 원, 순손실은 무려 114조 원에 달합니다. 그런데 2분기에는 첫 영업흑자까지 기록했고, 기업가치는 약 1조 달러로 추산되는데요. 하지만, 중요한 내용은 따로 있습니다. 앤트로픽의 상장 신고서에서 드러난 AI 시장과 흐름 그리고 차기 모델까지 정리했습니다. 🧵</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/866016591_17993636970112832_3337267777178410525_n.webp?_nc_cat=105&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAxNjUxNzQxNTcwMTU0NzA4OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=uMNaH127u6QQ7kNvwHbnrKK&amp;_nc_oc=Adr11Nmlq8RAkWEHwRyqA-lKKPI3oALx5Oi8SvdEtsUKetHlC8saJtuCA7bWgNEwIsM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=PJzNedg5UX7Q-nUw6neNAw&amp;_nc_ss=7a20f&amp;oh=00_AQT98pjROivRZAiXBTjLil3Hj5fLNQoVfFe_GDVX5AM-Mw&amp;oe=6AFBE7AD\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/De9iU8lD4hQ\">Mon, 26 Oct 2026 14:50:09 GMT</a></blockquote>",
+    "summaryKo": "연환산 매출에서 Anthropic(약 810억 달러)이 OpenAI(약 500억 달러)를 앞섰고 Anthropic은 2분기에 첫 영업이익을 냈다. OpenAI는 투자 유치 규모를 줄인 반면 Anthropic은 나스닥 상장을 신청해, 매출·수익성·기업가치 순위가 바뀌었다는 분석이다.",
+    "tags": [
+      "AI 산업",
+      "IPO"
+    ],
+    "entities": [
+      "Anthropic",
+      "OpenAI",
+      "나스닥"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "ed8dc20742e8870d",
+    "sourceType": "news",
+    "source": "NVIDIA AI Blog",
+    "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+    "publishedAt": "Thu, 12 Nov 2026 14:00:59 +0000",
+    "rawText": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales [&#8230;]",
+    "summaryKo": "GeForce NOW에 'Warhammer 40,000: Dawn of War IV'가 추가되고, NVIDIA DLSS 5가 War Thunder 등에 적용될 예정이다. AI 개발보다는 클라우드 게이밍 소식이다.",
+    "tags": [
+      "클라우드 게이밍",
+      "DLSS"
+    ],
+    "entities": [
+      "NVIDIA",
+      "GeForce NOW",
+      "DLSS 5"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "8acff8b5ab6012e6",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "요즘 꽂혀서 맨날 쓰는 앱 개조음 | Typeless",
+    "url": "https://www.youtube.com/watch?v=SfPsR0CD5Do",
+    "publishedAt": "2026-11-12T11:00:15+00:00",
+    "rawText": "요즘 꽂혀서 맨날 쓰는 앱 개조음 | Typeless",
+    "videoId": "SfPsR0CD5Do",
+    "summaryKo": "키보드 입력은 컨텍스트를 줄이므로 음성 입력 앱 Typeless로 'voice coding'을 하자는 영상이다. Mac 기본 받아쓰기와 비교해 맥락 정리·앱 전환 중 지속 입력·번역·사전 기능의 이점을 보여준다. 유료 광고가 포함돼 있다.",
+    "tags": [
+      "음성 입력",
+      "바이브 코딩"
+    ],
+    "entities": [
+      "Typeless",
+      "Claude Code",
+      "Andrej Karpathy"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "4922ca6fb0dd9299",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Holiday Extras is rethinking what it can build with Codex",
+    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "publishedAt": "Thu, 12 Nov 2026 09:30:00 GMT",
+    "rawText": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+    "summaryKo": "여행 서비스 기업 Holiday Extras가 Codex로 고객 전문성을 앱 개발에 녹여내고 있다. 예약 전환율 개선과 새로운 성장 가능성을 얻었다는 OpenAI 고객 사례다.",
+    "tags": [
+      "Codex",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "Codex",
+      "Holiday Extras"
+    ],
+    "cats": [
+      "코딩·개발",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "e2ee148fdb6ed610",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "클로드코드 미친 플러그인 TOP 5 #ai #claude #anthropic",
+    "url": "https://www.youtube.com/shorts/tBIIqWMZbjQ",
+    "publishedAt": "2026-11-12T09:09:25+00:00",
+    "rawText": "클로드코드 미친 플러그인 TOP 5 #ai #claude #anthropic",
+    "videoId": "",
+    "summaryKo": "Claude Code 플러그인 5종(Claude Code Setup, Hookify, Commit Command, Playwright, Live Loop)을 소개하는 숏츠다. 프로젝트 자동화 탐색, 규칙 설정, 커밋·PR 일괄 처리, 브라우저 검증, 자는 동안 반복 작업까지 다룬다.",
+    "tags": [
+      "Claude Code",
+      "플러그인"
+    ],
+    "entities": [
+      "Claude Code",
+      "Hookify",
+      "Playwright"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "634f20f5333036d5",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "“힉스필드 자동화 하세요” 이렇게 하면 힉스필드로 영상 자동화 할 수 있습니다. 힉스필드 X ego lite 활용법",
+    "url": "https://www.youtube.com/watch?v=HTZ9mxo8DRg",
+    "publishedAt": "2026-11-12T09:08:50+00:00",
+    "rawText": "“힉스필드 자동화 하세요” 이렇게 하면 힉스필드로 영상 자동화 할 수 있습니다. 힉스필드 X ego lite 활용법",
+    "videoId": "HTZ9mxo8DRg",
+    "summaryKo": "Higgsfield 이미지·영상 생성 기능과 모델 선택 팁을 정리하고, Claude를 MCP·Ego Lite 브라우저로 연결해 Meta 광고 소재 제작까지 자동화하는 방법을 시연한다. 경쟁사 광고 영상을 레퍼런스로 삼아 제품만 바꿔 대량 생산하는 워크플로가 핵심이다.",
+    "tags": [
+      "Higgsfield",
+      "MCP",
+      "영상 자동화"
+    ],
+    "entities": [
+      "Higgsfield",
+      "Claude",
+      "Seedance 2.5",
+      "Ego Lite"
+    ],
+    "cats": [
+      "멀티모달",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "5117a380589471ad",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "AI한테 아이폰 홈 화면 정리를 시켰더니",
+    "url": "https://www.youtube.com/shorts/N2FBNtfTfpk",
+    "publishedAt": "2026-11-12T09:00:11+00:00",
+    "rawText": "AI한테 아이폰 홈 화면 정리를 시켰더니",
+    "videoId": "",
+    "summaryKo": "AI 에이전트에게 iPhone 홈 화면 앱 정리를 시킨 숏츠로, 내부 API 대신 길게 눌러 '홈 화면 편집'을 쓰는 사람 같은 방식으로 앱을 카테고리 폴더로 옮긴다.",
+    "tags": [
+      "에이전트",
+      "모바일 UI 자동화"
+    ],
+    "entities": [
+      "iPhone"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "3d60aaf97ee4934f",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "휴베이스, AI 시대 약사 상담 역량 강화 교육",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548811",
+    "publishedAt": "2026-11-12 15:59:48",
+    "rawText": "AI와 검색 서비스의 발달로 소비자가 약국을 방문하기 전부터 의약품과 건강기능식품의 성분, 기능성, 제품별 차이를 파악하는 사례가 늘고 있다. 제품 추천까지 AI에 의존하는 환경에서 약사에게는 단순한 정보 전달을 넘어 소비자의 건강 상태와 필요에 맞는 선택을 돕는 상담 역량이 중요해지고 있다.휴베이스는 최근 진행한 11월 약사 교육에서 소비자의 제품 탐색 방식 변화에 대응하는 약국 상담 및 운영 전략을 다뤘다. 고객이 이미 여러 제품을 비교하고 약국을 찾는 상황에서 약사가 전문성을 발휘할 수 있는 지점과 실제 매장 운영에 적용할 수",
+    "summaryKo": "AI와 검색으로 소비자가 약국 방문 전에 제품을 비교하는 일이 늘며, 휴베이스가 11월 약사 교육에서 상담·운영 전략을 다뤘다. 단순 정보 전달을 넘어 개인 맞춤 선택을 돕는 상담 역량이 중요해졌다는 내용이다.",
+    "tags": [
+      "약국",
+      "AI 영향"
+    ],
+    "entities": [
+      "휴베이스"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "6033f730025f37be",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "희귀 신장암 진단 정확도 높인 AI…의사 수용 성향 따라 효과 달랐다",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548776",
+    "publishedAt": "2026-11-12 11:45:11",
+    "rawText": "희귀 신장암 진단에 인공지능(AI)을 활용하면 진단 정확도를 높일 수 있지만, 실제 효과는 의료진이 AI의 판단을 얼마나 수용하느냐에 따라 달라지는 것으로 나타났다. 특히 AI를 적극적으로 활용하는 의료진일수록 진단 개선 효과가 컸지만, 잘못된 판단까지 받아들일 가능성도 높아 적절한 활용 전략이 필요하다는 분석이다.12일 서울아산병원 융합의학과 김남국·병리과 조영미 교수팀은 희귀 신장암인 '푸마르산 수화효소 결핍 신세포암(FHdRCC)'을 선별하는 딥러닝 AI를 개발하고, 의사 21명을 대상으로 활용 효과를 분석한 결과 진단 정확도",
+    "summaryKo": "서울아산병원 연구팀이 희귀 신장암(FHdRCC)을 선별하는 딥러닝 AI를 개발하고 의사 21명으로 효과를 분석했다. 진단 정확도는 올랐지만 효과는 AI 수용 성향에 좌우됐고, 적극 수용할수록 잘못된 판단도 따를 위험이 커졌다.",
+    "tags": [
+      "의료 AI",
+      "딥러닝"
+    ],
+    "entities": [
+      "서울아산병원",
+      "FHdRCC"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
+    "id": "b5a7132ad3f62e22",
+    "sourceType": "pharma",
+    "source": "약사공론",
+    "title": "식약처, 유럽과 의료기기 규제정보 공유…국내 기업 수출 지원",
+    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548769",
+    "publishedAt": "2026-11-12 11:17:38",
+    "rawText": "식품의약품안전처가 유럽과 의료기기 규제정보 교류를 확대하고 국내 의료기기 기업의 해외시장 진출 지원에 나선다. 국내 의료기기 제조 및 품질관리기준(GMP)과 한국·유럽의 의료기기 고유식별코드(UDI) 제도 등을 공유해 수출기업의 해외 규제 대응 역량을 높인다는 취지다.12일 식품의약품안전처(처장 오유경)는 한국의료기기산업협회(KMDIA)와 유럽의료기기산업협회(MedTech Europe)가 공동 개최하는 온라인 웨비나에 참여해 국내 의료기기 GMP 제도를 소개한다고 밝혔다.이번 웨비나는 지난해 개최된 '국제 인공지능 의료제품 규제 심",
+    "summaryKo": "식약처가 한국의료기기산업협회와 MedTech Europe의 웨비나에서 국내 의료기기 GMP·UDI 제도를 소개하며 유럽과 규제정보 교류를 확대한다. 국내 기업의 수출 대응 역량을 높이는 것이 목적이다.",
+    "tags": [
+      "의료기기",
+      "규제"
+    ],
+    "entities": [
+      "식약처",
+      "MedTech Europe",
+      "KMDIA"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
+  },
+  {
     "id": "65b96c238445cded",
     "sourceType": "news",
     "source": "OpenAI",
@@ -21,6 +713,28 @@
     ],
     "summaryStatus": "fallback",
     "fetchedAt": "2026-11-11T21:03:14.007Z"
+  },
+  {
+    "id": "d7c1da8cb7dc41da",
+    "sourceType": "news",
+    "source": "OpenAI",
+    "title": "Supporting research on AI and children’s safety",
+    "url": "https://openai.com/index/children-first-declaration",
+    "publishedAt": "Thu, 12 Nov 2026 00:00:00 GMT",
+    "rawText": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+    "summaryKo": "OpenAI가 AI와 아동 안전 연구에 200만 달러를 지원하기로 했다. 청소년에 대한 위험과 기회를 측정하는 공동 도구 개발을 뒷받침한다.",
+    "tags": [
+      "AI 안전",
+      "아동 보호"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-12T21:04:46.145Z"
   },
   {
     "id": "724b2d2a4b518b97",
@@ -3974,697 +4688,5 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "47b292a5d1f7f3dd",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-    "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-    "publishedAt": "Fri, 06 Nov 2026 16:00:35 +0000",
-    "rawText": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
-    "summaryKo": "NVIDIA가 1년 전 오픈소스로 공개한 Aerial 무선 소프트웨어와 Sionna 등 도구로 6G 연구자들이 시뮬레이션·AI 학습·실제 무선 실험을 연결하는 방식을 소개한다.",
-    "tags": [
-      "6G",
-      "오픈소스"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Aerial",
-      "Sionna"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "eebdb5024ea0679b",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 3/ 숫자로 보면 이렇습니다. METR은 여러 벤치마크를 하나로 묶은 앤트로픽판 종합 능력 지수 AECI로 추세를 그렸는데, 2025년 10월 7일을 경계로...",
-    "url": "https://www.threads.com/t/DfZ10Usjw3r",
-    "publishedAt": "Fri, 06 Nov 2026 14:39:11 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>3/ 숫자로 보면 이렇습니다. METR은 여러 벤치마크를 하나로 묶은 앤트로픽판 종합 능력 지수 AECI로 추세를 그렸는데, 2025년 10월 7일을 경계로 1년에 약 15점씩 오르던 점수가 약 29점씩 오르기 시작했습니다. 가속 배율은 1.9배(95% 신뢰구간 1.5배에서 2.8배)입니다. METR은 이를 2023년 10월부터 2025년 10월까지, 대략 Claude 2.1에서 Sonnet 4.5까지 간 거리를 지난 1년 만에 다시 갔다고 설명했는데요. 그 2년의 크기는 이렇습니다. 2023년 실제 깃허브 이슈를 고치는 SWE-bench에서 당시 최고였던 Claude 2가 푼 비율은 1.96%였고, Sonnet 4.5는 검증판 SWE-bench Verified에서 77.2%를 풀었습니다. 버그 50개 중 1개를 고치던 AI가 4개 중 3개를 고치게 된 2년이, 이제 1년 안에 일어나고 있습니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/890023594_17995652034112832_7636308056870175100_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=100&amp;ig_cache_key=NDAyNDQ4NDQzNDEzMjUzNjgxMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA1Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=iXg0Nt4m02wQ7kNvwGbgewm&amp;_nc_oc=AdrACmU0h88q98IyudsrmrHXrGfuRtuqjbuIjMqxu54Sy-c3qcEVXy_Aqdo2tqc0YEE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQRGZMzvOtFqxPUif0NdHYJSnzQ3W8wVXh0BzM8DKHlNOw&amp;oe=6AF569D6\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "METR이 Anthropic의 종합 능력 지수 AECI로 추세를 그린 결과, 2025년 10월 7일 이후 상승 속도가 연 약 15점에서 약 29점으로 1.9배 빨라졌다. 2023년 10월~2025년 10월 수준의 발전이 지난 1년 만에 다시 일어났다는 해석이다.",
-    "tags": [
-      "AI 발전 속도",
-      "METR"
-    ],
-    "entities": [
-      "METR",
-      "Anthropic",
-      "Claude Sonnet 4.5"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-07T21:03:07.772Z"
-  },
-  {
-    "id": "5e43773bda94e9d6",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 2/ 이 결론을 가볍게 넘기기 어려운 이유는 말한 쪽이 METR이기 때문입니다. 작년 7월 소개한 METR 실험에서 숙련 개발자들은 AI 덕분에 20% 빨라...",
-    "url": "https://www.threads.com/t/DfZ1zekDygC",
-    "publishedAt": "Fri, 06 Nov 2026 14:39:05 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>2/ 이 결론을 가볍게 넘기기 어려운 이유는 말한 쪽이 METR이기 때문입니다. 작년 7월 소개한 METR 실험에서 숙련 개발자들은 AI 덕분에 20% 빨라졌다고 느꼈지만, 실제로는 19% 느려졌습니다. AI 과대평가를 가장 경계해 온 기관인데요. 그 METR이 올해 2월 같은 실험을 다시 하다 설계를 바꾸겠다고 발표했습니다. 개발자 30%에서 50%가 AI 없이 하기 싫은 과제는 아예 제출하지 않았기 때문입니다. 5월에 소개했듯 Mythos Preview는 사람 기준 16시간 넘는 일을 혼자 끝내 METR의 측정 상한에 닿았습니다. 그런 METR도 이번 조사의 출발점은 회의적이었고, 내부 자료를 본 뒤 판단을 바꿨습니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/890724533_17995652022112832_8767300710368658753_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAyNDQ4NDM3NjAwNzg3ODY1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=HF_Y5n5lx8UQ7kNvwGYuGzA&amp;_nc_oc=AdpRDISw_GYGtPwQQnSgblysr8URTfIrTpsbVbY-6i7ZogJMkHmMrtKL1NKtFBVnG3o&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQS72T6j3FAAoAOCBzxYp7p0nz-N3CIv7pTFmwGXhHhSgQ&amp;oe=6AF56B10\" referrerpolicy=\"no-referrer\"></p><blockquote><p>AI가 이제 인간의 '하루짜리 업무'를 통째로 소화하는 수준에 도달한 것으로 보입니다. 비영리 연구 기관 METR이 'Claude Mythos Preview' 초기 버전의 평가 결과를 공개했는데요. 해당 모델은 인간 전문가가 16시간 동안 매달려야 하는 과제를 50%의 성공률로 완수해 냈습니다. METR이 준비한 228개의 과제 중 16시간 이상이 소요되는 문제는 단 5개뿐이라, AI의 능력이 이미 기존 측정 상한선을 넘어서버렸습니다. 이번 수치는 AI가 얼마나 오랫동안 사람의 개입 없이 자율적으로 작동할 수 있는지 보여주는 자율성 지표로서 의미가 큽니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/689015865_17963825772112832_1754086414466676_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzg5MzAwODgzNDI0MzM3NTYwMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=nnRmrAKhQ6EQ7kNvwHhGM0E&amp;_nc_oc=Adp-eAamSqYDHfBuSfF4ppO-76OaPA8_4jQ5h-r-rJY8swgx-i38_SLHXY3C_p7NV2M&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQSf5qtuwTVkOH9zOtp3rjmaCy_029TnezJvsW0RKUvb5w&amp;oe=6AF56ADA\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/DYGvuigiLHz\">Sat, 09 May 2026 05:00:39 GMT</a></blockquote>",
-    "summaryKo": "METR은 작년 숙련 개발자 실험에서 AI가 체감과 달리 19% 느리게 했다고 보고한 대표적인 회의론 기관인데, 이번에는 내부 자료를 보고 판단을 바꿨다. 올해 재실험에서는 개발자 30~50%가 AI 없이 하기 싫은 과제를 제출하지 않아 설계를 바꿨고, Mythos Preview는 사람 기준 16시간 넘는 과제를 해냈다.",
-    "tags": [
-      "AI 평가",
-      "생산성"
-    ],
-    "entities": [
-      "METR",
-      "Mythos Preview"
-    ],
-    "cats": [
-      "LLM·모델",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-07T21:03:07.772Z"
-  },
-  {
-    "id": "1a2d7b24780b061c",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 1/ 이번 주 AI 업계에서 가장 중요한 발표는 비영리 평가기관 METR이 공개한 보고서일겁니다. METR 직원들은 8월부터 11주 동안 앤트로픽 회사 기...",
-    "url": "https://www.threads.com/t/DfZ1ypRD0L0",
-    "publishedAt": "Fri, 06 Nov 2026 14:38:58 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>1/ 이번 주 AI 업계에서 가장 중요한 발표는 비영리 평가기관 METR이 공개한 보고서일겁니다. METR 직원들은 8월부터 11주 동안 앤트로픽 회사 기기로 공개되지 않은 내부 모델의 점수와 학습 지표를 들여다보고, 핵심 연구자 약 15명을 인터뷰했습니다. 결론은 AI가 AI 개발을 직접 끌어올리면서 앤트로픽의 발전 속도가 약 두 배가 됐다는 것입니다. AI 회사 안의 개발 속도를 외부 기관이 들어가 숫자로 확인한 첫 사례인데, 대부분의 사람들은 이 문장이 무엇을 뜻하는지 모른 채 지나가고 있습니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/881313566_17995652007112832_4439659820178005782_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ig_cache_key=NDAyNDQ4NDMxODc4MDgwMTc4MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=6XnaXZE-CdcQ7kNvwEwUXBK&amp;_nc_oc=AdpYBawyHS2aPN29d0IYVUPyuaXfD9dgyfokRfAMdrPPr8w-wA6uS8WY5yiJpklAjY0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=_CDhl_L-4_6NdaHMp0TNIg&amp;_nc_ss=7a20f&amp;oh=00_AQT3gjyz2HBerBT7gTvUWhx5Zx-EezNy-P_elW98LIHC5g&amp;oe=6AF572BD\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "비영리 평가기관 METR이 11주간 Anthropic 내부 모델 지표를 살피고 핵심 연구자 약 15명을 인터뷰해, AI가 AI 개발을 끌어올려 Anthropic의 발전 속도가 약 두 배가 됐다고 결론냈다. 외부 기관이 AI 회사 내부 개발 속도를 수치로 확인한 첫 사례다.",
-    "tags": [
-      "AI 자기개선",
-      "METR"
-    ],
-    "entities": [
-      "METR",
-      "Anthropic"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-07T21:03:07.772Z"
-  },
-  {
-    "id": "afbafece1b5ba792",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "미국 상위 회계법인 30%가 쓴다는 AI 회사 베이시스 공동창업자의 19분 답 — 회사가 AI 에이전트를 믿고 맡기게 만드는 법",
-    "url": "https://www.youtube.com/watch?v=Bbhe9Pdiix8",
-    "publishedAt": "2026-11-06T13:46:34+00:00",
-    "rawText": "미국 상위 회계법인 30%가 쓴다는 AI 회사 베이시스 공동창업자의 19분 답 — 회사가 AI 에이전트를 믿고 맡기게 만드는 법",
-    "videoId": "Bbhe9Pdiix8",
-    "summaryKo": "회계 AI 스타트업 Basis의 공동창업자가 AI 엔지니어 행사에서, 회사가 에이전트를 믿고 맡기려면 일하는 방식에 대한 의견(규칙)을 정하고 궤적으로 검증해야 한다고 발표했다. 은행 대사 사례로 작은 업무부터 신뢰를 쌓는 접근을 설명한다.",
-    "tags": [
-      "AI 에이전트",
-      "신뢰성"
-    ],
-    "entities": [
-      "Basis",
-      "AI Engineer"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "01d1046875c656fe",
-    "sourceType": "youtube",
-    "source": "실용주의 개발",
-    "title": "개발자 취업준비 하시는분들 지금이 기회 입니다",
-    "url": "https://www.youtube.com/watch?v=4vO_5b7HO2Y",
-    "publishedAt": "2026-11-06T12:04:50+00:00",
-    "rawText": "개발자 취업준비 하시는분들 지금이 기회 입니다",
-    "videoId": "4vO_5b7HO2Y",
-    "summaryKo": "삼성 SSAFY(사피) 모집 안내다. 지원 마감은 11월 9일이며 교육 지원금 월 100만 원, 비전공자 지원 가능, 12개월 AI 커리큘럼과 GPU 환경을 제공한다. 면접 준비 팁도 함께 다룬다.",
-    "tags": [
-      "취업",
-      "AI 교육"
-    ],
-    "entities": [
-      "삼성",
-      "SSAFY"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "1ca94b52e709b2f5",
-    "sourceType": "news",
-    "source": "MIT Tech Review AI",
-    "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-    "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-    "publishedAt": "Fri, 06 Nov 2026 10:00:00 +0000",
-    "rawText": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
-    "summaryKo": "MIT Tech Review 기자가 샌프란시스코의 휴머노이드 로봇 청소 서비스를 직접 체험한 후기다. 로봇이 집안일을 대신하는 미래의 단면을 보여준다.",
-    "tags": [
-      "휴머노이드",
-      "로봇"
-    ],
-    "entities": [
-      "MIT Technology Review"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "a1f4611e0518fff1",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "클로드 모션그래픽 무료 자료 3가지 #ai #claude #anthropic",
-    "url": "https://www.youtube.com/shorts/YLQnYQQCgjY",
-    "publishedAt": "2026-11-06T09:12:11+00:00",
-    "rawText": "클로드 모션그래픽 무료 자료 3가지 #ai #claude #anthropic",
-    "videoId": "",
-    "summaryKo": "클로드로 만든 결과물을 전문가 수준으로 끌어올려 주는 무료 자료 3가지를 소개한다. 프롬프트 703개 영상 모음, 홈페이지용 소스 모음 바이브 프롬프트, 인터랙션 모음 모션인이다.",
-    "tags": [
-      "Claude",
-      "웹 디자인"
-    ],
-    "entities": [
-      "Claude",
-      "Anthropic"
-    ],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "2946edf9bf41d487",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "이 스킬 꼭 돌려보세요 pstack /correct",
-    "url": "https://www.youtube.com/shorts/RKnU6f6s_BI",
-    "publishedAt": "2026-11-06T09:00:16+00:00",
-    "rawText": "이 스킬 꼭 돌려보세요 pstack /correct",
-    "videoId": "",
-    "summaryKo": "pstack의 /correct 스킬은 에이전트의 과거 실수를 유형별로 묶고 자주 나오는 것을 CI 검사로 승격시킨다. 커밋 1,054개와 리뷰 777개를 분석해 13개 유형을 뽑고 2개를 검사로 올려 16분 뒤 같은 실수를 실제로 잡았다.",
-    "tags": [
-      "Claude Code",
-      "CI"
-    ],
-    "entities": [
-      "pstack"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "a9e2991bd97440de",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "\"초보도 30분이면 가능\" AI가 만들어준 릴스로 월 1,000만원 찍은 방법",
-    "url": "https://www.youtube.com/watch?v=BBGz03RZG0Y",
-    "publishedAt": "2026-11-06T09:00:00+00:00",
-    "rawText": "\"초보도 30분이면 가능\" AI가 만들어준 릴스로 월 1,000만원 찍은 방법",
-    "videoId": "BBGz03RZG0Y",
-    "summaryKo": "AI로 만든 릴스로 월 1,000만 원 수익을 낸 크리에이터 대담이다. 팔로워 3,500명 시점에 첫 광고 협업 35만 원을 받았고, 릴스 한 편 단가가 100만 원을 넘으며 양으로 밀어붙이는 전략을 권한다.",
-    "tags": [
-      "AI 콘텐츠",
-      "수익화"
-    ],
-    "entities": [
-      "Instagram"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "a0a44ed09dc9a108",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-    "url": "https://openai.com/index/partnering-with-hacktron",
-    "publishedAt": "Fri, 06 Nov 2026 08:00:00 GMT",
-    "rawText": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-    "summaryKo": "OpenAI가 보안 기업 Hacktron과 협력해 자사 시스템의 취약점을 찾고 서드파티 서비스 연동을 점검한다. 프런티어 AI를 활용해 방어 체계를 강화하려는 시도다.",
-    "tags": [
-      "AI 보안",
-      "취약점 탐지"
-    ],
-    "entities": [
-      "OpenAI",
-      "Hacktron"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "bdb8944045670f38",
-    "sourceType": "youtube",
-    "source": "AUTOP 오톱",
-    "title": "OpenAI Dots 활용법 총정리｜AI 에이전트 실전 활용법 6가지",
-    "url": "https://www.youtube.com/watch?v=2FP2MGYwDbQ",
-    "publishedAt": "2026-11-06T07:12:59+00:00",
-    "rawText": "OpenAI Dots 활용법 총정리｜AI 에이전트 실전 활용법 6가지",
-    "videoId": "2FP2MGYwDbQ",
-    "summaryKo": "ChatGPT 안에서 항상 작동하는 개인 AI 에이전트 'Dots'의 활용법 6가지를 시연한다. 음성 통화, 여러 업무 동시 위임, 예약 작업, Claude Code·Cowork 환경 가져오기, 선제 제안, 권한 규칙 설정을 다룬다.",
-    "tags": [
-      "AI 에이전트",
-      "업무 자동화"
-    ],
-    "entities": [
-      "OpenAI",
-      "ChatGPT",
-      "Dots",
-      "Claude Code"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "bbdfc3f25744b83c",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "한미약품, 삼성증권과 바이오벤처 투자 연결 '두 번째 BID 개최'",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548361",
-    "publishedAt": "2026-11-06 14:54:10",
-    "rawText": "한미약품이 삼성증권과 손잡고 신약 및 인공지능(AI) 헬스케어 분야 유망 바이오벤처의 투자 유치와 사업 협력을 지원한다.한미약품은 오는 27일 서울 송파구 한미 C&C 스퀘어에서 삼성증권과 공동으로 '한미×삼성증권 Bio Innovation Day(BID)'를 개최한다고 6일 밝혔다.지난 7월 키움증권과 함께 진행한 첫 행사에 이어 두 번째로 열리는 이번 행사는 '신약과 AI가 여는 헬스케어의 내일'을 주제로 마련됐다.행사에는 혁신신약과 AI 헬스케어 분야 바이오벤처 4개사가 참여한다.AI 수면 중재 디지털 치료기기를 개발하는 '슬",
-    "summaryKo": "한미약품이 삼성증권과 27일 두 번째 'Bio Innovation Day'를 열어 신약·AI 헬스케어 바이오벤처 4개사의 투자 유치와 협력을 지원한다. 7월 키움증권과의 첫 행사에 이은 후속이다.",
-    "tags": [
-      "AI 헬스케어",
-      "바이오 투자"
-    ],
-    "entities": [
-      "한미약품",
-      "삼성증권"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "1885b3281e8d376e",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "노원구약, 하반기 연수교육서 임상·AI·환자안전 역량 강화",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548344",
-    "publishedAt": "2026-11-06 14:06:28",
-    "rawText": "노원구약사회가 최신 임상 지견과 인공지능(AI) 기술 동향, 환자안전 및 만성질환 복약상담 등 약국 현장에서 활용할 수 있는 실무 중심 교육을 통해 회원 약사들의 전문성 강화에 나섰다.노원구약은 지난 11월 1일 오후 1시부터 7시까지 노원구청 6층 소강당에서 '2026년도 하반기 연수교육'을 개최했다. 이날 교육에는 관내 회원 약사 230여명이 참석했으며, 총 6시간 동안 4개 강좌가 진행됐다.첫 강의는 을지대학교 김병건 교수가 맡아 '두통에 관한 최신 지견'을 주제로 진행했다. 김 교수는 약국에서 자주 접하는 두통 질환의 감별",
-    "summaryKo": "노원구약사회가 11월 1일 하반기 연수교육을 열어 약사 230여 명이 임상 지견, AI 기술 동향, 환자안전, 만성질환 복약상담 4개 강좌를 들었다.",
-    "tags": [
-      "약사 교육",
-      "AI"
-    ],
-    "entities": [
-      "노원구약사회"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "0fab936603374253",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "Paseo로 6시간 중 2시간은 걸으면서 일하기",
-    "url": "https://www.youtube.com/shorts/06GEvMZ0Y8Y",
-    "publishedAt": "2026-11-06T03:00:08+00:00",
-    "rawText": "Paseo로 6시간 중 2시간은 걸으면서 일하기",
-    "videoId": "",
-    "summaryKo": "Paseo는 데몬이 어느 기기에서든 붙어 에이전트를 어디서나 다룰 수 있게 하는 앱이다. 6시간 중 2시간을 걸으며 일하는 사용 후기를 공유한다.",
-    "tags": [
-      "에이전트",
-      "원격 개발"
-    ],
-    "entities": [
-      "Paseo"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "1a80641151231ff5",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "태전그룹, 현업 맞춤 AI 도입 박차",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548303",
-    "publishedAt": "2026-11-06 09:57:18",
-    "rawText": "태전그룹이 약국별 출고 데이터를 분석해 PB 상품을 추천하고 거래처 발주 이력을 조회하는 AI 업무 도구를 도입한다. 영업·관리 현장의 직원들이 직접 개발한 도구를 그룹 업무 플랫폼에 연계해 임직원이 활용하도록 했다.태전그룹은 지난 10월 22일 '제4기 희망-실천 컨설턴트 양성과정' 수료식을 열고 약 5개월간 진행한 AI 기반 업무 개선 프로젝트를 마무리했다고 밝혔다.이번 과정에는 각 계열사 부장·과장급 차세대 리더 32명이 참여했다. 참가자들은 6개 팀을 구성해 현장에서 발생하는 업무 과제를 발굴하고, 이를 해결할 AI 에이전트",
-    "summaryKo": "태전그룹이 약국별 출고 데이터를 분석해 PB 상품을 추천하고 발주 이력을 조회하는 AI 업무 도구를 도입한다. 차세대 리더 32명이 5개월간 현업 과제를 AI 에이전트로 해결한 프로젝트의 결과물이다.",
-    "tags": [
-      "AI 에이전트",
-      "업무 자동화"
-    ],
-    "entities": [
-      "태전그룹"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "288b8719a4c2d3f6",
-    "sourceType": "pharma",
-    "source": "약사공론",
-    "title": "SK바이오팜, AI 신약개발 실증 마무리…TR-AX 본격화",
-    "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=548300",
-    "publishedAt": "2026-11-06 09:29:26",
-    "rawText": "SK바이오팜이 인공지능(AI)을 활용한 신약개발 연구 역량 강화에 나선다. 정부 주도의 AI 특화 파운데이션 모델 개발 프로젝트에서 신약개발 데이터 구축과 모델 검증을 마친 데 이어, 자체 AI 인프라를 기반으로 후보물질 발굴부터 임상개발까지 연구 전반에 AI 적용을 확대한다는 구상이다.SK바이오팜(대표이사 사장 이동훈)은 과학기술정보통신부가 주관한 'AI 특화 파운데이션 모델 프로젝트'가 약 10개월간의 개발 및 실증 과정을 마무리했다고 밝혔다.이번 프로젝트에는 SK바이오팜을 비롯해 루닛, 트릴리온랩스, 아이젠사이언스, 카카오헬스",
-    "summaryKo": "SK바이오팜이 과기정통부 'AI 특화 파운데이션 모델 프로젝트'에서 신약개발 데이터 구축과 모델 검증을 약 10개월 만에 마쳤다. 자체 AI 인프라로 후보물질 발굴부터 임상개발까지 AI 적용을 확대할 계획이다.",
-    "tags": [
-      "AI 신약개발",
-      "파운데이션 모델"
-    ],
-    "entities": [
-      "SK바이오팜",
-      "루닛",
-      "트릴리온랩스"
-    ],
-    "cats": [
-      "기업·정책",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "5f721228af3682c2",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Measuring how AI agents handle everyday wet-lab science",
-    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-    "publishedAt": "Fri, 06 Nov 2026 00:00:00 GMT",
-    "rawText": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-    "summaryKo": "OpenAI가 AI 에이전트의 일상적인 습식 실험(wet-lab) 과학 수행 능력을 재는 100개 과제 벤치마크 BioBasicsBench를 공개했다. 원시 실험 데이터를 해석하는 능력을 평가한다.",
-    "tags": [
-      "벤치마크",
-      "생명과학"
-    ],
-    "entities": [
-      "OpenAI",
-      "BioBasicsBench"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "655a5083a5c25247",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "원희목 \"AI·바이오 융합으로 한국 바이오 퀀텀점프 이뤄야\"",
-    "url": "https://www.dailypharm.com/user/news/344283",
-    "publishedAt": "2026-11-06",
-    "rawText": "원희목 \"AI·바이오 융합으로 한국 바이오 퀀텀점프 이뤄야\"",
-    "summaryKo": "원희목이 AI와 바이오의 융합으로 한국 바이오가 퀀텀점프를 이뤄야 한다고 강조했다는 기사다(제목 기반 요약).",
-    "tags": [
-      "AI 바이오"
-    ],
-    "entities": [
-      "원희목"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "2042d9aac4680305",
-    "sourceType": "pharma",
-    "source": "데일리팜",
-    "title": "루닛, 의료 AI '러닝유닛 2.0' 공개…병원서 실증",
-    "url": "https://www.dailypharm.com/user/news/344265",
-    "publishedAt": "2026-11-06",
-    "rawText": "루닛, 의료 AI '러닝유닛 2.0' 공개…병원서 실증",
-    "summaryKo": "루닛이 의료 AI '러닝유닛 2.0'을 공개하고 병원에서 실증에 들어간다는 기사다(제목 기반 요약).",
-    "tags": [
-      "의료 AI"
-    ],
-    "entities": [
-      "루닛",
-      "러닝유닛 2.0"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "a9170a7f6cbbdd20",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 오픈AI 회장 그렉 브록만(Greg Brockman)은 올해 초 앤트로픽의 추격을 보며 코딩 시장에서 위기감을 느꼈던 순간을 회상했습니다. 그는 “1분기...",
-    "url": "https://www.threads.com/t/DfX5NF0kgYx",
-    "publishedAt": "Thu, 05 Nov 2026 20:30:18 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>오픈AI 회장 그렉 브록만(Greg Brockman)은 올해 초 앤트로픽의 추격을 보며 코딩 시장에서 위기감을 느꼈던 순간을 회상했습니다. 그는 “1분기와 2분기는 꽤 거칠었고, 코딩 분야에서는 대화에 끼지도 못하는 수준으로 보였다”고 털어놓았습니다. 코덱스를 보유했음에도 시장의 주목을 받지 못했지만, 묵묵히 실행과 집중을 이어갔다고 밝혔습니다. 그 결과 3분기에는 분위기가 완전히 반전되었습니다. 기업 부문 매출이 두 배로 뛰며 연환산 매출이 분기 기준 70% 급증했습니다. “이것은 우연이 아니며, 그동안 축적해 온 대규모 투자의 결실”이라며, 차세대 프런티어 모델과 엔터프라이즈 환경에 맞춘 기술 혁신이 폭발적인 수익과 시장 지배력으로 이어졌다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/886772732_1123168303457568_7114185850299284709_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;ig_cache_key=NDAyMzkzNjM4MDMzMzg1MjIwOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=hQM26T-cpD4Q7kNvwE4u44k&amp;_nc_oc=AdpbqIvD56LS8d9l8SccYi6BwtGhejjgR9ETgQiuXxkrsl76qScFMwgo6YT57Sr34_w&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=cjn-8ISq72CzFY-f7zgGXA&amp;_nc_ss=7a20f&amp;oh=00_AQRbDadpMoPtr0vDBJRGMJgzAMoXoQQlAXx6prXCgpJbrQ&amp;oe=6AF2B8A1\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMdG6HCeyxFV3QkugbX6y6TIqn8Eq70a0GyLsqp0UaAFug4myZbZBw0ph1JVJmlRClfMU9O-oolX0VIJyW8y4WLUMuRCn7o0MeIdD8.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=foGLqWJx154Q7kNvwGgWdTN&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU1MDc4MzYxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=c87cfa834ed4875a&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CMzA3QzUzRDA5NDM0N0JCODJFQkY0RURBMzNENUJCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzM0NjIxMkM5NzEyRTRGNDE4RDUyREM5QTFCMDkyRDU2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAv_7BtbT3PxUCKAJDMywXQFFZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=cjn-8ISq72CzFY-f7zgGXA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQQhc_Rm6h9JeiEsdDD-vK4Qe6SEB9RsJlz-4HLK_KdRcw&amp;oe=6AEED7AD\"></video></p>",
-    "summaryKo": "오픈AI의 그렉 브록만은 올해 1·2분기에 코딩 시장에서 앤트로픽에 밀렸지만 3분기에 기업 매출이 두 배로 뛰며 반전했다고 밝혔다. 연환산 매출이 분기 기준 70% 급증했고 대규모 투자의 결실이라고 강조했다.",
-    "tags": [
-      "코딩 시장",
-      "엔터프라이즈"
-    ],
-    "entities": [
-      "OpenAI",
-      "Greg Brockman",
-      "Anthropic",
-      "Codex"
-    ],
-    "cats": [
-      "기업·정책",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "fe0ec1920d266596",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 구글이 EmbeddingGemma 2의 재미있는 활용 사례를 공유했습니다. Matt Mastracci가 EmbeddingGemma 2를 활용한 오픈소스 프로젝트 hunch인데요. ...",
-    "url": "https://www.threads.com/t/DfX5MZ6jBbt",
-    "publishedAt": "Thu, 05 Nov 2026 20:30:13 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>구글이 EmbeddingGemma 2의 재미있는 활용 사례를 공유했습니다. Matt Mastracci가 EmbeddingGemma 2를 활용한 오픈소스 프로젝트 hunch인데요. 큰 AI 모델의 판단을 학습해 텍스트와 이미지를 빠르게 분류하는 방식입니다. 텍스트는 약 20ms, 이미지는 약 100ms 만에 처리하며 GPU 없이 CPU에서도 실행됩니다. 예를 들어 고객 문의를 유형별로 분류하거나 사진에 자동으로 태그를 붙일 수 있습니다. AI가 반복적으로 처리하는 작업은 작고 빠른 모델에 맡기는 방식이 점점 중요해질 것 같습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/890048069_2321714065434640_7467803271171438545_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=103&amp;ig_cache_key=NDAyMzkzNjMzMzE4OTQ4NjMxNw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=zV5_Zf26OPQQ7kNvwGGq_r2&amp;_nc_oc=AdrPRcXokfgHoNc-8L_l84pT4-9vHbRJgEUTuLvawFdkiw7z2vnqrHgayW0UfZLPLFo&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=cjn-8ISq72CzFY-f7zgGXA&amp;_nc_ss=7a20f&amp;oh=00_AQS0EI40TktiIv9FPXjLCPtk21nMfoKFDjqezMXMVnJDtA&amp;oe=6AF2C0C8\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQN1HA8LjrGKj6_E66oP4CC5M-BRUzH_Ig0SyHw88Q_CjMwJADGT1ScWpCANiyE4RTXw2aIEpWYPQs0RRoaiQKPTGk8VlgWjL3C3WgQ.mp4?_nc_cat=101&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=6PDV-YSmBOUQ7kNvwFLoO2p&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTU0MzQzNjkxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=16a6a52831d60129&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9ERjdEQTcxRjExQjA0MjExOEQ3RTY2OTFERUVGN0NBOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmgOyykpKw9z8VAigCQzMsF0A-ZmZmZmZmGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=cjn-8ISq72CzFY-f7zgGXA&amp;_nc_ss=7a20f&amp;_nc_zt=28&amp;oh=00_AQQUxV5uX6XzWtxVHWu6fBrKPGQJM1xCNz8ORZlgS-XsTg&amp;oe=6AEECD0B\"></video></p>",
-    "summaryKo": "구글이 EmbeddingGemma 2 활용 사례로 오픈소스 hunch를 소개했다. 큰 모델의 판단을 학습해 텍스트는 약 20ms, 이미지는 약 100ms에 GPU 없이 CPU에서 분류한다.",
-    "tags": [
-      "임베딩",
-      "분류",
-      "경량 모델"
-    ],
-    "entities": [
-      "Google",
-      "EmbeddingGemma 2",
-      "hunch"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "b1feafc8620ed538",
-    "sourceType": "news",
-    "source": "NVIDIA AI Blog",
-    "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-    "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-    "publishedAt": "Thu, 05 Nov 2026 20:00:41 +0000",
-    "rawText": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those [&#8230;]",
-    "summaryKo": "NVIDIA는 에이전트가 GPU 추론과 CPU 실행을 오가며 일하는 만큼 CPU 성능이 중요하다며 Vera CPU를 소개했다. 높은 처리량과 빠른 에이전트 실행을 함께 노린다.",
-    "tags": [
-      "AI 인프라",
-      "CPU",
-      "에이전트"
-    ],
-    "entities": [
-      "NVIDIA",
-      "Vera"
-    ],
-    "cats": [
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "bbd492caba72ca54",
-    "sourceType": "news",
-    "source": "OpenAI",
-    "title": "Cult.fit builds operational muscle with Codex",
-    "url": "https://openai.com/index/cultfit-builds-with-codex",
-    "publishedAt": "Thu, 05 Nov 2026 20:00:00 GMT",
-    "rawText": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-    "summaryKo": "인도 피트니스 기업 Cult.fit이 Codex로 여러 부서가 직접 도구를 만들고 업무 속도를 높이고 있다는 도입 사례다.",
-    "tags": [
-      "Codex",
-      "업무 자동화"
-    ],
-    "entities": [
-      "Cult.fit",
-      "OpenAI",
-      "Codex"
-    ],
-    "cats": [
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
-  },
-  {
-    "id": "df120d4dc2e85189",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "테크 기업들이 나에 대해 좀 더 잘 알았으면 좋겠다",
-    "url": "https://news.hada.io/topic?id=36667&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-06T04:40:24+09:00",
-    "rawText": "수많은 개인정보가 추적, 저장, 판매된다는 점은 의심하지 않지만, 실제 서비스에서는 이미 아는 정보조차 활용하지 못하는 개인화를 경험함구매한 제품을 다시 광고하고, 특정 가전의 설치 영상을 본 뒤 다른 오븐까지 추천하는 등 일회성 행동을 지속적인 관심사로 취급하는 사례가 이어짐수년간 보컬이 들어간 전자음악을 건너뛰어도 Spotify와 YouTube Music은 반복되는 선호 패턴을 반영하지 못함계정과 기기를 영어로 설정해도 현재 위치에 따라 핀란드어나 독일어로 바뀌는 등 명시적인 언어 설정보다 위치가 앞서는 경험이 있…",
-    "summaryKo": "이미 수집한 개인정보에도 불구하고 기술 기업의 개인화가 일회성 행동을 지속적 관심사로 오인하거나 명시적 언어 설정보다 위치를 우선하는 등 엉성하다는 비판글이다.",
-    "tags": [
-      "개인화",
-      "추천"
-    ],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "8d152b6106a564a0",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "좋아하는 YouTube 영상을 다운로드하자",
-    "url": "https://news.hada.io/topic?id=36666&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-06T04:37:24+09:00",
-    "rawText": "YouTube의 오래된 ‘좋아요 표시한 동영상’ 중에는 더 이상 볼 수 없는 영상이 있으므로, 소중한 콘텐츠를 직접 다운로드해 보관할 것을 권함대부분은 yt-dlp나 이를 감싼 앱으로 영상을 내려받고 대용량 드라이브 또는 NAS의 폴더에 저장하는 것만으로 충분함TV 재생과 기존 NAS 연동, 수백 개 영상의 자동 관리를 위해 Jellyfin과 ytdl-sub를 결합한 개인 구축 사례가 있음Jellyfin은 재생목록을 주된 정리 단위로 쓰기 어려워 TV 프로그램 구조를 활용했으며, ytdl-sub의 시즌 메타데이터를 조정해 재생목록별 분류 문제를 해결함…",
-    "summaryKo": "유튜브 '좋아요' 영상이 사라질 수 있으니 yt-dlp로 내려받아 보관하자는 글이다. Jellyfin과 ytdl-sub를 조합해 재생목록별로 정리하는 홈서버 구축 사례를 소개한다.",
-    "tags": [
-      "yt-dlp",
-      "홈서버"
-    ],
-    "entities": [
-      "YouTube",
-      "yt-dlp",
-      "Jellyfin"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "17de609cfdf21d1e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "MCP Explained - AI 앱과 도구를 연결하는 Model Context Protocol의 작동 방식",
-    "url": "https://news.hada.io/topic?id=36665&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-06T03:40:48+09:00",
-    "rawText": "MCP(Model Context Protocol) 는 AI 앱을 도구와 데이터에 연결하는 개방형 표준으로, 서버가 제공하는 기능을 앱이 모델에 전달하고 실행 결과를 돌려주는 방식으로 작동함호스트는 Claude, Cursor, ChatGPT 같은 AI 앱이며, 서버는 도구와 데이터 또는 프롬프트를 제공하는 작은 프로그램임모델은 서버와 직접 통신하지 않으며, 사용할 도구를 결정하면 앱이 서버를 호출하고 결과를 모델에 전달함통신에는 JSON-RPC를 사용하며, 표준 입력/출력 또는 하나의 HTTP 엔드포인트로 메시지를 주고받음. REST와 달리 서버도 앱에 메시지를…",
-    "summaryKo": "MCP는 AI 앱을 도구·데이터에 연결하는 개방형 표준으로, 호스트 앱이 서버를 호출하고 결과를 모델에 전달한다. 통신은 JSON-RPC 기반이며 stdio 또는 HTTP 엔드포인트를 쓴다.",
-    "tags": [
-      "MCP",
-      "JSON-RPC"
-    ],
-    "entities": [
-      "MCP",
-      "Claude",
-      "Cursor",
-      "ChatGPT"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "fc2f1d1cb8372311",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Motorola Signature 27, GrapheneOS 지원",
-    "url": "https://news.hada.io/topic?id=36664&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-06T03:37:48+09:00",
-    "rawText": "motorola signature 27은 Motorola 최초로 GrapheneOS를 지원할 예정인 플래그십 스마트폰으로, GrapheneOS Foundation과 협력해 개발됨ARM Memory Tagging Extension의 고성능 구현을 탑재하고, GrapheneOS가 요구하는 하드웨어 및 업데이트 요건을 충족하도록 설계됨Snapdragon 8 Elite Extreme Gen 6와 탠덤 AMOLED 화면을 탑재하며, 최대 12,000니트 밝기는 특정 실험 조건에서의 피크 수치임Gemini Intelligence로 앱을 넘나드는 다단계 작업, 음성 문장 정리, 맞춤 위젯 생성 등을 지원할 예정이며, 국가와 언어별로 기능 제공 …",
-    "summaryKo": "Motorola Signature 27은 Motorola 최초로 GrapheneOS를 지원할 예정인 플래그십으로, ARM MTE 고성능 구현을 탑재한다. Gemini Intelligence 기반 다단계 작업 기능도 예고됐다.",
-    "tags": [
-      "온디바이스 AI",
-      "보안"
-    ],
-    "entities": [
-      "Motorola",
-      "GrapheneOS",
-      "Gemini"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
-  },
-  {
-    "id": "ee4918d43fee7c7a",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 중국 바이두가 새로운 오픈소스 AI 모델 ERNIE 5.5 Flash Base를 공개했습니다. 전체 매개변수는 2,800억 개지만, 실제 작동할 때는 140억 개만 ...",
-    "url": "https://www.threads.com/t/DfXrb9kDRbX",
-    "publishedAt": "Thu, 05 Nov 2026 18:30:00 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>중국 바이두가 새로운 오픈소스 AI 모델 ERNIE 5.5 Flash Base를 공개했습니다. 전체 매개변수는 2,800억 개지만, 실제 작동할 때는 140억 개만 사용해 연산 부담을 줄였는데요. 33.5조 토큰으로 사전 학습했으며 최대 100만 토큰의 긴 문맥을 처리할 수 있습니다. 바이두에 따르면 비슷한 규모의 기본 모델 중 여러 평가에서 최고 수준의 성능을 기록했습니다. 특히 추가 학습을 거치지 않은 기본 모델을 공개해 개발자들이 직접 미세 조정하거나 산업별 AI를 만들 수 있습니다.</p><p><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/888844559_17995511058112832_5881208223792503367_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=NDAyMzg3NTgyMzYyNjcwMTg4OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=DIUlitRjByQQ7kNvwE_Y8R0&amp;_nc_oc=Adqoq-ULX2aIDXdd862I9Wtwo3360FCr2ERDEk9Lvexoe74fFqCPkJWBoNMGcVbC7PA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=cjn-8ISq72CzFY-f7zgGXA&amp;_nc_ss=7a20f&amp;oh=00_AQQs9-aT2FDS0GJ-EZFHrK70WEvqeIFF_v2j6_eyGRNX6g&amp;oe=6AF2CD36\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/882224095_17995511097112832_4388511516466560057_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ig_cache_key=NDAyMzg3NTgyMzcwMjE5MjQ3Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE5My5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=eCo9vN0GFJ8Q7kNvwE-Ob07&amp;_nc_oc=AdrPVMYjys2lbMVD7kCN0R5F_bu4YH4eeupryfq4wVLl_QqeynYrF8CAL-AhzL_pzYU&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=cjn-8ISq72CzFY-f7zgGXA&amp;_nc_ss=7a20f&amp;oh=00_AQRSsw6N3ATkBHxomUhaIoUapEHNOk1dLX3sJBgWgmDlkA&amp;oe=6AF2B643\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "바이두가 오픈소스 ERNIE 5.5 Flash Base를 공개했다. 총 2,800억 파라미터 중 140억만 활성화하고 33.5조 토큰으로 사전학습했으며 최대 100만 토큰 문맥을 지원한다.",
-    "tags": [
-      "MoE",
-      "오픈소스",
-      "긴 컨텍스트"
-    ],
-    "entities": [
-      "Baidu",
-      "ERNIE 5.5 Flash Base"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
   }
 ]

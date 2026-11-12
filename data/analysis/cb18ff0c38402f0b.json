@@ -1,0 +1,23 @@
+{
+  "points": [
+    "smolmaxxing은 구형 TV 박스·iPad에서 돌릴 수 있는 최대 LLM을 찾는 프로젝트다.",
+    "RAM 약 1GB인 Xiaomi TV Box S에서 Qwen3.5-2B가 7.7 tok/s, 8B MoE가 7.2 tok/s, 16B MoE가 5.1 tok/s로 동작한다.",
+    "2013년형 iPad Air는 CPU만으로 Bonsai-1.7B가 23.7~25.8 tok/s에 도달한다.",
+    "iPad 쪽은 iOS 12.5.7 탈옥이 필요하고 긴 대화에서는 18~22 tok/s로 떨어진다.",
+    "RAM보다 큰 모델은 플래시 대역폭이 속도를 제한한다."
+  ],
+  "sections": [
+    {
+      "heading": "접근법",
+      "body": "맞춤 커널, 메모리 최적화, 가중치 스트리밍으로 성능을 끌어올린다. RAM을 넘는 모델도 스트리밍으로 구동하려는 시도다."
+    },
+    {
+      "heading": "실측 결과",
+      "body": "TV 박스에서는 2B~16B MoE가 초당 5~8토큰이다. 구형 iPad Air는 1.7B 모델로 초당 20토큰대를 낸다."
+    }
+  ],
+  "quotes": [
+    "Xiaomi TV Box S: Qwen3.5-2B 7.7 tok/s",
+    "iPad Air(2013): Bonsai-1.7B 23.7~25.8 tok/s"
+  ]
+}
