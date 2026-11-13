@@ -7,7 +7,7 @@
     "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
     "publishedAt": "2026-09-24T16:17:19Z",
     "rawText": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "score": 71273,
+    "score": 72732,
     "lang": "JavaScript",
     "rank": 1,
     "summaryKo": "dsh에 플러그인을 설치하면 로그인·API 키 없이 DeepSeek V4.1 Flash, Kimi K3 등 최신 모델을 무제한 무료로 쓸 수 있다고 주장하는 저장소다.",
@@ -25,7 +25,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "5137eafbc9498b9f",
@@ -35,7 +35,7 @@
     "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
     "publishedAt": "2026-10-30T10:21:29.000Z",
     "rawText": "text-generation | transformers, safetensors, qwen3_5, image-text-to-text, text-generation-inference, unsloth, reasoning, distillation",
-    "score": 2889,
+    "score": 3189,
     "rank": 1,
     "summaryKo": "DeepSeek-V4-Pro와 Qwen3.5-9B를 증류·결합한 검열 해제(heretic) 텍스트 생성 모델이다. 이미지-텍스트 입력과 추론 태그를 지원한다.",
     "tags": [
@@ -50,7 +50,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -60,7 +60,7 @@
     "url": "https://github.com/yetone/magpie",
     "publishedAt": "2026-09-23T16:22:35Z",
     "rawText": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "score": 35386,
+    "score": 36083,
     "lang": "Go",
     "rank": 2,
     "summaryKo": "magpie는 메뉴바에서 에이전트별 모델을 한곳에서 바꾸는 도구로, Codex를 DeepSeek에, Claude Code를 Kimi에 연결할 수 있다.",
@@ -79,7 +79,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "f841d7a6d6b4d1e3",
@@ -89,7 +89,7 @@
     "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
     "publishedAt": "2026-11-03T06:34:36.000Z",
     "rawText": "text-to-image | minimax-h3, diffusers, safetensors, text-to-image, image-to-image, image-editing, image-generation, en",
-    "score": 810,
+    "score": 923,
     "rank": 2,
     "summaryKo": "MiniMax의 이미지 생성·편집 모델 MiniMax-H3-Image가 diffusers 형식으로 공개됐다.",
     "tags": [
@@ -104,7 +104,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "52ed5fcd54e4c7b1",
@@ -114,7 +114,7 @@
     "url": "https://github.com/ccch1mneyyy/dsh-Go",
     "publishedAt": "2026-10-25T08:09:52Z",
     "rawText": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "score": 20677,
+    "score": 21764,
     "lang": "Dart",
     "rank": 3,
     "summaryKo": "dsh-go는 DeepSeek Harness를 휴대폰에서 로컬로 실행하고 PC까지 원격 제어하는 Dart 기반 앱이다.",
@@ -130,7 +130,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "f4e8ce6220df06e6",
@@ -140,7 +140,7 @@
     "url": "https://huggingface.co/NousResearch/Arete-27B",
     "publishedAt": "2026-11-06T19:31:28.000Z",
     "rawText": "text-generation | safetensors, qwen3_5, nous-research, arete, supervised-fine-tuning, value-alignment, text-generation, conversational",
-    "score": 448,
+    "score": 481,
     "rank": 3,
     "summaryKo": "Nous Research가 Qwen3.5 기반으로 지도 미세조정과 가치 정렬을 적용한 27B 대화 모델 Arete-27B를 공개했다.",
     "tags": [
@@ -156,32 +156,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
-  },
-  {
-    "id": "0ae524ee7a4c5e73",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Pika-Labs/Pika-H3-Flex",
-    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
-    "publishedAt": "2026-10-29T17:08:44.000Z",
-    "rawText": "image-to-video | diffusers, safetensors, video-generation, audio-video-generation, lora, image-to-video, base_model:MiniMaxAI/MiniMax-H3, base_model:adapter:MiniMaxAI/MiniMax-H3",
-    "score": 384,
-    "rank": 3,
-    "summaryKo": "Pika-H3-Flex는 MiniMax-H3 기반 LoRA로, 이미지-투-비디오와 오디오·비디오 생성을 지원하는 diffusers 모델이다.",
-    "tags": [
-      "영상 생성",
-      "LoRA"
-    ],
-    "entities": [
-      "Pika Labs",
-      "MiniMax-H3"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "5b77ba33d5d838fc",
@@ -217,7 +192,7 @@
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
     "publishedAt": "2026-09-26T10:10:41Z",
     "rawText": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
-    "score": 15267,
+    "score": 15682,
     "lang": "JavaScript",
     "rank": 4,
     "summaryKo": "Claude Code용 영상 스타일 도구 모음으로, 영상 모델 없이 Claude Opus 5.5가 코드만으로 만든 데모 영상과 스타일 프롬프트 99종을 제공한다.",
@@ -235,57 +210,32 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
-    "id": "f4a904d03d800a16",
+    "id": "92c1824269f45469",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "moonshotai/Kimi-K3.1-Pro",
-    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-    "publishedAt": "2026-11-02T04:13:51.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, kimi_k31, text-generation, compressed-tensors, conversational, image-text-to-text, custom_code",
-    "score": 434,
+    "title": "Lightricks/LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "publishedAt": "2026-07-23T07:55:24.000Z",
+    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
+    "score": 407,
     "rank": 4,
-    "summaryKo": "Moonshot AI의 멀티모달(이미지+텍스트) 모델 Kimi-K3.1-Pro가 Hugging Face에 공개됐다.",
+    "summaryKo": "Lightricks의 LTX-2.5는 이미지·텍스트·영상·오디오 입력을 받아 영상과 오디오를 생성하는 영상 생성 모델이다.",
     "tags": [
-      "Multimodal LLM"
+      "영상 생성",
+      "Diffusion"
     ],
     "entities": [
-      "Moonshot AI",
-      "Kimi-K3.1-Pro"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-11T21:03:14.007Z"
-  },
-  {
-    "id": "50a561c320a6e2b2",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "speridlabs/idol",
-    "url": "https://huggingface.co/speridlabs/idol",
-    "publishedAt": "2026-10-28T15:55:17.000Z",
-    "rawText": "image-to-3d | idol, gaussian-splatting, 3d, image-to-3d, license:apache-2.0, region:us",
-    "score": 432,
-    "rank": 4,
-    "summaryKo": "이미지 한 장을 가우시안 스플래팅 기반 3D로 변환하는 Apache-2.0 모델 idol이 공개됐다.",
-    "tags": [
-      "3D",
-      "Gaussian Splatting"
-    ],
-    "entities": [
-      "speridlabs",
-      "idol"
+      "Lightricks",
+      "LTX-2.5"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -295,7 +245,7 @@
     "url": "https://github.com/KKKKhazix/AIHOT",
     "publishedAt": "2026-09-28T23:40:05Z",
     "rawText": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-    "score": 10490,
+    "score": 10621,
     "lang": "TypeScript",
     "rank": 5,
     "summaryKo": "신뢰할 소스와 선별 기준만 바꾸면 스스로 핫이슈를 찾아 일일 리포트를 쓰는 업종별 핫이슈 사이트 프레임워크다.",
@@ -310,58 +260,32 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
-    "id": "92c1824269f45469",
+    "id": "50a561c320a6e2b2",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Lightricks/LTX-2.5",
-    "url": "https://huggingface.co/Lightricks/LTX-2.5",
-    "publishedAt": "2026-07-23T07:55:24.000Z",
-    "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 405,
+    "title": "speridlabs/idol",
+    "url": "https://huggingface.co/speridlabs/idol",
+    "publishedAt": "2026-10-28T15:55:17.000Z",
+    "rawText": "image-to-3d | idol, gaussian-splatting, 3d, image-to-3d, license:apache-2.0, region:us",
+    "score": 387.5,
     "rank": 5,
-    "summaryKo": "Lightricks의 LTX-2.5는 이미지·텍스트·영상·오디오 입력을 받아 영상과 오디오를 생성하는 영상 생성 모델이다.",
+    "summaryKo": "이미지 한 장을 가우시안 스플래팅 기반 3D로 변환하는 Apache-2.0 모델 idol이 공개됐다.",
     "tags": [
-      "영상 생성",
-      "Diffusion"
+      "3D",
+      "Gaussian Splatting"
     ],
     "entities": [
-      "Lightricks",
-      "LTX-2.5"
+      "speridlabs",
+      "idol"
     ],
     "cats": [
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
-  },
-  {
-    "id": "da867975a5a80708",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "mistralai/Mistral-Large-4-1T-A52B",
-    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-    "publishedAt": "2026-09-30T18:35:13.000Z",
-    "rawText": "image-text-to-text | transformers, mistral_large4, image-text-to-text, vLLM, SGLang, llama.cpp, conversational, en",
-    "score": 372,
-    "rank": 5,
-    "summaryKo": "Mistral-Large-4-1T-A52B가 공개됐다. 이름상 총 1조·활성 520억 파라미터 규모의 MoE로, 이미지-텍스트 입력과 vLLM·SGLang·llama.cpp를 지원한다.",
-    "tags": [
-      "MoE",
-      "멀티모달"
-    ],
-    "entities": [
-      "Mistral AI",
-      "Mistral-Large-4"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-05T21:04:48.026Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "1e03415a592fab86",
@@ -371,7 +295,7 @@
     "url": "https://github.com/wangzan101/Mika",
     "publishedAt": "2026-10-29T14:34:07Z",
     "rawText": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-    "score": 8387,
+    "score": 8514,
     "lang": "Kotlin",
     "rank": 6,
     "summaryKo": "Mika는 앱과 웹을 직접 조작해 일을 처리해 주는 안드로이드용 온디바이스 AI 에이전트다.",
@@ -387,34 +311,33 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
-    "id": "73e1243414bd6b3f",
+    "id": "ca26bca182f697df",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-    "publishedAt": "2026-09-01T07:01:09.000Z",
-    "rawText": "image-text-to-text | gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants",
-    "score": 350,
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "publishedAt": "2026-08-05T08:22:59.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
+    "score": 385,
     "rank": 6,
-    "summaryKo": "Qwen3.8-27B를 튜닝한 검열 해제·코딩 특화 GGUF 양자화 모델로, MTP 지원을 내세운 커뮤니티 파인튜닝이다.",
+    "summaryKo": "Qwen이 Apache-2.0 라이선스의 27B 이미지-텍스트 모델 Qwen3.8-27B를 공개했다. 대화형 멀티모달 입력을 지원한다.",
     "tags": [
       "LLM",
-      "GGUF",
-      "코딩"
+      "멀티모달"
     ],
     "entities": [
-      "Qwen3.8-27B",
-      "DavidAU"
+      "Qwen",
+      "Qwen3.8-27B"
     ],
     "cats": [
       "LLM·모델",
-      "코딩·개발"
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "e345e1e0e83d199b",
@@ -424,7 +347,7 @@
     "url": "https://github.com/Louis-CFM/coucou",
     "publishedAt": "2026-09-27T21:54:12Z",
     "rawText": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-    "score": 7151,
+    "score": 7173,
     "lang": "Swift",
     "rank": 7,
     "summaryKo": "Mac 노치와 iPhone에서 Claude Code·Codex·Cursor·Gemini CLI 등 코딩 에이전트를 감시하고 잠금 화면에서 승인할 수 있는 작은 앱이다.",
@@ -443,33 +366,34 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
-    "id": "ca26bca182f697df",
+    "id": "73e1243414bd6b3f",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "Qwen/Qwen3.8-27B",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-    "publishedAt": "2026-08-05T08:22:59.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, qwen3_5, image-text-to-text, conversational, license:apache-2.0, eval-results, endpoints_compatible",
-    "score": 347,
+    "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+    "publishedAt": "2026-09-01T07:01:09.000Z",
+    "rawText": "image-text-to-text | gguf, unsloth, fine tune, heretic, uncensored, abliterated, ara, MTP GGUF Quants",
+    "score": 342,
     "rank": 7,
-    "summaryKo": "Qwen이 Apache-2.0 라이선스의 27B 이미지-텍스트 모델 Qwen3.8-27B를 공개했다. 대화형 멀티모달 입력을 지원한다.",
+    "summaryKo": "Qwen3.8-27B를 튜닝한 검열 해제·코딩 특화 GGUF 양자화 모델로, MTP 지원을 내세운 커뮤니티 파인튜닝이다.",
     "tags": [
       "LLM",
-      "멀티모달"
+      "GGUF",
+      "코딩"
     ],
     "entities": [
-      "Qwen",
-      "Qwen3.8-27B"
+      "Qwen3.8-27B",
+      "DavidAU"
     ],
     "cats": [
       "LLM·모델",
-      "멀티모달"
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "be88e8f6a7ec1636",
@@ -503,7 +427,7 @@
     "url": "https://github.com/Oldcircle/geo-sleuth",
     "publishedAt": "2026-09-18T08:51:34Z",
     "rawText": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
-    "score": 6915,
+    "score": 6967,
     "lang": "Python",
     "rank": 8,
     "summaryKo": "사진이 찍힌 장소를 OpenStreetMap 지형·고도 스카이라인·위성/거리뷰로 추적하고 근거를 보여주는 에이전트 스킬이다. Claude Code, Codex, Cursor 등에서 쓸 수 있다.",
@@ -522,34 +446,34 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
-    "id": "c09e79a65e08da52",
+    "id": "f4a904d03d800a16",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "ccore/Qwen3.5-4B-3D-Coder",
-    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-    "publishedAt": "2026-10-25T05:43:34.000Z",
-    "rawText": "safetensors, gguf, qwen3_5, code, threejs, 3d, preview, dataset:ccore/ThreeJS-3D-Scenes",
-    "score": 303,
+    "title": "moonshotai/Kimi-K3.1-Pro",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "publishedAt": "2026-11-02T04:13:51.000Z",
+    "rawText": "image-text-to-text | transformers, safetensors, kimi_k31, text-generation, compressed-tensors, conversational, image-text-to-text, custom_code",
+    "score": 339,
     "rank": 8,
-    "summaryKo": "Qwen3.5-4B를 Three.js 3D 장면 데이터셋으로 미세조정한 3D 코딩 특화 소형 모델의 프리뷰다.",
+    "summaryKo": "Moonshot AI가 이미지·텍스트를 함께 다루는 Kimi K3.1 Pro 모델을 Hugging Face에 공개했다. transformers·safetensors와 compressed-tensors 양자화 형식을 지원하는 멀티모달 대화 모델이다.",
     "tags": [
       "LLM",
-      "코드 생성",
-      "3D"
+      "멀티모달",
+      "양자화"
     ],
     "entities": [
-      "Qwen3.5-4B",
-      "Three.js"
+      "Moonshot AI",
+      "Kimi K3.1 Pro"
     ],
     "cats": [
       "LLM·모델",
-      "코딩·개발"
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "da239c8e6d7d7a07",
@@ -559,7 +483,7 @@
     "url": "https://github.com/kuafuai/andee",
     "publishedAt": "2026-09-17T13:20:59Z",
     "rawText": "Andee lives on your phone or Mac and uses any app like you do—no integrations, no root, any model; memory and passwords never leave your device | Andee 住进你的手机或 Mac，像你一样操作任何 App——无需集成、无需 Root、支持任意模型，记忆和密码绝不离开设备。",
-    "score": 5188,
+    "score": 6107,
     "lang": "Kotlin",
     "rank": 9,
     "summaryKo": "Andee는 폰·Mac에서 사람처럼 어떤 앱이든 조작하는 에이전트로, 통합·루트 없이 임의 모델을 지원하고 기억과 비밀번호는 기기 밖으로 나가지 않는다.",
@@ -574,7 +498,32 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
+  },
+  {
+    "id": "f8b99a0f63453db1",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "Comfy-Org/MiniMax-H3-Image",
+    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+    "publishedAt": "2026-11-08T20:37:23.000Z",
+    "rawText": "text-to-image | diffusion-single-file, comfyui, text-to-image, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:finetune:MiniMaxAI/MiniMax-H3-Image, license:other, region:us",
+    "score": 310,
+    "rank": 9,
+    "summaryKo": "MiniMax-H3-Image를 ComfyUI용 단일 파일 형식으로 변환해 올린 Comfy-Org 배포본이다.",
+    "tags": [
+      "이미지 생성",
+      "ComfyUI"
+    ],
+    "entities": [
+      "Comfy-Org",
+      "MiniMax-H3-Image"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "bbf2ecda52605a9f",
@@ -602,31 +551,6 @@
     "fetchedAt": "2026-11-08T21:02:54.295Z"
   },
   {
-    "id": "f8b99a0f63453db1",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Comfy-Org/MiniMax-H3-Image",
-    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
-    "publishedAt": "2026-11-08T20:37:23.000Z",
-    "rawText": "text-to-image | diffusion-single-file, comfyui, text-to-image, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:finetune:MiniMaxAI/MiniMax-H3-Image, license:other, region:us",
-    "score": 273,
-    "rank": 9,
-    "summaryKo": "MiniMax-H3-Image를 ComfyUI용 단일 파일 형식으로 변환해 올린 Comfy-Org 배포본이다.",
-    "tags": [
-      "이미지 생성",
-      "ComfyUI"
-    ],
-    "entities": [
-      "Comfy-Org",
-      "MiniMax-H3-Image"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
-  },
-  {
     "id": "ca82f9b3fbd0d05e",
     "sourceType": "repo",
     "source": "GitHub",
@@ -634,7 +558,7 @@
     "url": "https://github.com/Inkloom-art/inkloom",
     "publishedAt": "2026-09-20T07:54:30Z",
     "rawText": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "score": 3244,
+    "score": 3239,
     "lang": "TypeScript",
     "rank": 10,
     "summaryKo": "로고 디자인 전용 모델 묶음으로, 브랜드 분석 모델이 제약을 만들고 타이포·심볼 모델이 마크를 구성하며 조합 엔진이 로크업을 만든다. 얼리 액세스 중이다.",
@@ -649,32 +573,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
-  },
-  {
-    "id": "222e4fed91b3804a",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-    "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-    "publishedAt": "2026-10-28T04:48:45.000Z",
-    "rawText": "text-generation | gguf, atomic-chat, deepseek, deepseek41, gsq, rco, strata, abliteration",
-    "score": 292,
-    "rank": 10,
-    "summaryKo": "DeepSeek-V4.1-Flash를 abliteration(검열 해제)하고 GGUF로 양자화한 비공식 변형 모델이다. 로컬 텍스트 생성용으로 배포됐다.",
-    "tags": [
-      "GGUF",
-      "양자화"
-    ],
-    "entities": [
-      "DeepSeek",
-      "DeepSeek-V4.1-Flash"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-06T21:03:10.291Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "029f4f6cd7936fd2",
@@ -753,6 +652,33 @@
     "fetchedAt": "2026-11-09T21:03:52.963Z"
   },
   {
+    "id": "c09e79a65e08da52",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "ccore/Qwen3.5-4B-3D-Coder",
+    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+    "publishedAt": "2026-10-25T05:43:34.000Z",
+    "rawText": "safetensors, gguf, qwen3_5, code, threejs, 3d, preview, dataset:ccore/ThreeJS-3D-Scenes",
+    "score": 243,
+    "rank": 10,
+    "summaryKo": "Qwen3.5-4B를 Three.js 3D 장면 데이터셋으로 미세조정한 3D 코딩 특화 소형 모델의 프리뷰다.",
+    "tags": [
+      "LLM",
+      "코드 생성",
+      "3D"
+    ],
+    "entities": [
+      "Qwen3.5-4B",
+      "Three.js"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
+  },
+  {
     "id": "0c49f71f40e435a3",
     "sourceType": "repo",
     "source": "GitHub",
@@ -760,7 +686,7 @@
     "url": "https://github.com/blendi-remade/dioramas",
     "publishedAt": "2026-09-30T00:07:56Z",
     "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-    "score": 909,
+    "score": 919,
     "lang": "JavaScript",
     "rank": 11,
     "summaryKo": "AI 생성 에셋(Nano Banana 2 + Meshy 7.1)으로 영화 같은 인터랙티브 3D 웹사이트를 만드는 오픈소스 프레임워크이며 예제 사이트 20개를 제공한다.",
@@ -778,7 +704,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "86c71dfd3666e265",
@@ -788,7 +714,7 @@
     "url": "https://github.com/patch-gg/anymove",
     "publishedAt": "2026-10-27T08:00:42Z",
     "rawText": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
-    "score": 581,
+    "score": 588,
     "lang": "Python",
     "rank": 12,
     "summaryKo": "AI 영상 한 장면에서 두 카메라 뷰와 DINOv2 관절 인식으로 임의 생물의 모션을 캡처해 GLB로 내보내는 도구다.",
@@ -803,7 +729,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "304449f663f818da",
@@ -839,7 +765,7 @@
     "url": "https://github.com/beckettharriman/openfill",
     "publishedAt": "2026-10-14T20:51:20Z",
     "rawText": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
-    "score": 284,
+    "score": 286,
     "lang": "Python",
     "rank": 13,
     "summaryKo": "PhotoCraft와 GIMP 3에서 생성 채우기·객체 제거·확장·텍스트→이미지를 로컬 GPU의 ComfyUI로 무료로 쓰게 하는 플러그인이다.",
@@ -856,7 +782,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   },
   {
     "id": "ec57f0dfb5b140dc",
@@ -893,7 +819,7 @@
     "url": "https://github.com/Yzmblog/DMAD",
     "publishedAt": "2026-09-29T04:47:19Z",
     "rawText": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-    "score": 259,
+    "score": 260,
     "lang": "Python",
     "rank": 14,
     "summaryKo": "DMAD는 분포 매칭을 적대적 증류로 해석해 빠른 시각 생성을 가능케 하는 연구 코드 저장소다.",
@@ -908,6 +834,6 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-12T21:04:46.145Z"
+    "fetchedAt": "2026-11-13T21:03:15.423Z"
   }
 ]
