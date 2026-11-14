@@ -1,0 +1,33 @@
+{
+  "points": [
+    "Anthropic은 5월 하루 약 2,500건이던 PR 머지가 9월 3만 건 이상으로 늘었고 CI에서 코드 fetch는 하루 2,500만 회에 달한다.",
+    "OpenAI도 Codex 병렬 처리로 저장소 신뢰도가 자주 90% 아래로 떨어지는 문제를 겪었다.",
+    "Git은 전체 데이터 복제·로컬 계산·순차 push 구조라 클라우드 에이전트가 매번 저장소를 새로 받는 환경에 맞지 않는다.",
+    "Anthropic의 Scion은 필요한 폴더·파일만 요청하고 서버가 계산·커밋을 맡으며 캐시로 99% 이상 요청을 앞단에서 처리한다.",
+    "OpenAI의 Pando는 Git 명령은 그대로 두고 GitHub 같은 서버 쪽을 새로 만드는 접근이다.",
+    "대부분의 팀에는 아직 불필요하며 worktree 분리, CI 중복 취소, 의도 기반 리뷰가 현실적 대응이다."
+  ],
+  "sections": [
+    {
+      "heading": "왜 Git이 한계에 부딪혔나",
+      "body": "Anthropic은 Claude Code로 코드를 작성하며 PR 머지가 4개월 만에 10배 이상 늘었다. CI의 fetch가 하루 2,500만 회(초당 약 290회)에 이르고, OpenAI는 push/pull 지연과 머지 실패를 겪었다. 문제는 Git 결함이 아니라 규모 변화다."
+    },
+    {
+      "heading": "Git의 세 가지 약점과 다이어트 기능",
+      "body": "Git은 모든 데이터를 로컬에 복제하고, 계산을 로컬에서 하며, 서버는 push를 순차 반영한다. shallow clone·sparse checkout·partial clone으로 줄일 수 있지만 각각 이력 상실, 다운로드량 미감소, 서버 재요청 부담 같은 한계가 있다."
+    },
+    {
+      "heading": "Anthropic의 Scion",
+      "body": "온라인 전제로 설계해 필요한 폴더만 한 단계씩 가져오고, 내용 기반 주소를 쓰는 불변 데이터라 캐시가 낡지 않는다. blame 등 계산과 커밋도 서버가 하며 전체 사본이 어디에도 없다. 복제 서버 대비 CPU·메모리는 1/200, 코드 pull은 분에서 초로 줄었고 7명이 5개월 걸려 만들었다."
+    },
+    {
+      "heading": "OpenAI의 Pando와 우리의 대응",
+      "body": "Pando는 Git 클라이언트를 유지하고 서버를 새로 만들어 fetch 때 매번 맞춤 포장하는 비효율을 줄인다. 일반 팀에는 에이전트별 git worktree, 같은 PR의 중복 CI 취소, 줄 단위가 아닌 의도 기반 리뷰가 먼저라고 제안한다."
+    }
+  ],
+  "quotes": [
+    "하루 3만 건 PR 머지 = 3초에 한 건",
+    "\"No full copy of the repository exists anywhere.\"",
+    "CPU·메모리 사용량 1/200, pull 시간 분 → 초"
+  ]
+}
