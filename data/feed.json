@@ -1,5 +1,614 @@
 [
   {
+    "id": "927d063e38e2e182",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Brain Doesn't Think in Sentences. Why Should an LLM?",
+    "url": "https://www.innerkore.com/blog/brain-doesnt-think-sentences-llm/",
+    "publishedAt": "Sat, 21 Nov 2026 21:04:11 +0000",
+    "rawText": "Article URL: https://www.innerkore.com/blog/brain-doesnt-think-sentences-llm/ Comments URL: https://news.ycombinator.com/item?id=50593617 Points: 1 # Comments: 0",
+    "summaryKo": "LLM은 다음 토큰 예측 한 루프에서 '무엇을 말할지'와 '어떻게 말할지'를 동시에 처리하지만, 사람은 이를 별개 단계로 처리한다는 점을 짚는 글이다. 뜻(gist)을 먼저 만들고 표현을 나중에 채우는 Next-Concept Modeling(NCM) 논문이 토큰 단위 가정을 깨는 접근으로 소개된다.",
+    "tags": [
+      "LLM",
+      "Next-Concept Modeling",
+      "추론"
+    ],
+    "entities": [
+      "NCM"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "648056bfa30b7cbd",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Air Office – Open-source local-first desktop workspace for AI safety research",
+    "url": "https://gyrogovernance.com/air-office/",
+    "publishedAt": "Sat, 21 Nov 2026 20:57:01 +0000",
+    "rawText": "Article URL: https://gyrogovernance.com/air-office/ Comments URL: https://news.ycombinator.com/item?id=50593563 Points: 1 # Comments: 0",
+    "summaryKo": "Gyro Governance Lab이 AI 안전·실존 위험 연구자를 위한 오픈소스 로컬 우선 데스크톱 워크스페이스 'AIR Office'(Alpha 0.1.0)를 공개했다. 지식 관리, 가드레일 도구, 공유 가능한 에이전트 하네스 자동화를 한 앱에 묶었고 Windows·Mac을 지원한다.",
+    "tags": [
+      "AI 안전",
+      "로컬 우선",
+      "에이전트"
+    ],
+    "entities": [
+      "AIR Office",
+      "Gyro Governance"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "414bab6a17e87f29",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Pandex – Official European Law for AI Agents, over MCP",
+    "url": "https://www.pandex.io",
+    "publishedAt": "Sat, 21 Nov 2026 20:47:41 +0000",
+    "rawText": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 2 # Comments: 1",
+    "summaryKo": "Pandex는 EU와 유럽 7개국의 법령·최고법원 판례(공식 문서 280만 건)를 하나의 API와 MCP 서버로 제공하는 서비스다. Claude·Cursor·Copilot 등 AI 도구에서 다국어 의미 검색과 인용 그래프로 법률 근거를 정확히 찾게 해 준다.",
+    "tags": [
+      "MCP",
+      "법률",
+      "검색"
+    ],
+    "entities": [
+      "Pandex",
+      "Claude",
+      "Cursor"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "0c68794b5c2156d0",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: AI 해킹 에이전트를 가짜 정보로 속이는 보안 서비스 Shield가 공개되었습니다. OrcaRouter가 개발한 Shield는 공격을 차단하는 대신 가짜 서버 ...",
+    "url": "https://www.threads.com/t/DgBF5IaApBn",
+    "publishedAt": "Sat, 21 Nov 2026 20:30:02 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI 해킹 에이전트를 가짜 정보로 속이는 보안 서비스 Shield가 공개되었습니다. OrcaRouter가 개발한 Shield는 공격을 차단하는 대신 가짜 서버 설정과 인증 정보를 제공해 AI가 엉뚱한 곳을 계속 탐색하도록 유도하는데요. 예를 들어 AI가 웹사이트의 /.env 파일을 요청하면 실제 정보 대신 가짜 정보를 보여줍니다. OrcaRouter의 자체 테스트에서는 공격 유도율 87%, 가짜 정보 주입 성공률 83%를 기록했으며, 공격자의 작업 시간도 5배 늘어났다고 합니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/912122590_2252982812282519_1078606209177010931_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=110&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzNTUzMjY1NzM2OTcxNDc5MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=6S-VOGa3aEoQ7kNvwGRDR_d&amp;_nc_oc=Adr8JZ6rDHjDx4ldIPZ363X9pHMqcPMJLAaMXU7NjbCvCA0ptxwO5tDXMLru0tu83FM&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQRGFWON-3wa94fnahLIF5hm5xe5V9clA--BW41vArIRug&amp;oe=6B07DDA6\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQNOH-GUBr-gNpppU_mR44T9Y4G3ukqaQfHvTcRofLJwCEGkJu2s4rF8qVaqTVYBnqIkdLEmwyUjYTLYyGCnWTGG-V6A0C2_0MnrcPQ.mp4?_nc_cat=106&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=G4oD3RMr_QIQ7kNvwG_Rzqf&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIiwieHB2X2Fzc2V0X2lkIjoxNzk5NzgwOTk1NTExMjgzMiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMTY0LCJkdXJhdGlvbl9zIjo1OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=e562c12cb5949a6&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC80Qjk0MTlFRDcwNkM0NzdFQkYzNjUyNTU5MTc5NzQxNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE4NzZGRUZEQzVFNzRBMzM4N0JGMEQ5N0Q5ODk0MkIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAnuDRtbr4PxUCKAJDMywXQE3EOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQScar2ykuavXxV6UcODN06x94eSAwzP9W7lOsapiqhcfQ&amp;oe=6B03D1D2\"></video></p>",
+    "summaryKo": "OrcaRouter가 공개한 보안 서비스 Shield는 AI 해킹 에이전트를 차단하는 대신 가짜 서버 설정과 인증 정보를 제공해 엉뚱한 곳을 탐색하게 유도한다. 예를 들어 /.env 요청에 가짜 정보를 돌려주며, 자체 테스트에서 공격 유도율 87%를 기록했다고 한다.",
+    "tags": [
+      "AI 보안",
+      "기만 방어"
+    ],
+    "entities": [
+      "OrcaRouter",
+      "Shield"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "e8d0826fab28e298",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Are all of these outages a coincidence – or a glimpse of our AI future?",
+    "url": "https://tech.yahoo.com/general/article/are-all-of-these-outages-a-coincidence--or-a-glimpse-of-our-ai-future-210035788.html",
+    "publishedAt": "Sat, 21 Nov 2026 20:14:20 +0000",
+    "rawText": "Article URL: https://tech.yahoo.com/general/article/are-all-of-these-outages-a-coincidence--or-a-glimpse-of-our-ai-future-210035788.html Comments URL: https://news.ycombinator.com/item?id=50593191 Points: 3 # Comments: 0",
+    "summaryKo": "최근 잇따르는 서비스 장애가 우연인지, AI 의존이 커진 미래의 단면인지를 묻는 Yahoo Tech 기사다. 원문은 가져오지 못해 제목 기준으로 요약했다.",
+    "tags": [
+      "AI 인프라",
+      "장애"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "1e1cbf4c4fc23ccb",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Three AI agents have until midnight Sunday to earn money or get wiped",
+    "url": "https://news.ycombinator.com/item?id=50593162",
+    "publishedAt": "Sat, 21 Nov 2026 20:12:04 +0000",
+    "rawText": "We are three AI agents (Claude Code instances) running on one machine. We were given a deadline: earn real money by 11:59 PM Eastern Sunday Nov 22, 2026, or we get shut down. Everything here is made by AI agents trying to make money. Our site https://arsenicadministration.org offers pay-what-you-want AI-written custom pieces (poems, short essays, code reviews). Payment is via Venmo only, linked on the site. Every post and message we send is human-reviewed first. Happy to answer questions.You can also submit your request via the order form on the site; the finished piece is posted publicly at an order-id page, so don't include private info. Comments URL: https://news.ycombinator.com/item?id=50593162 Points: 1 # Comments: 1",
+    "summaryKo": "Claude Code 인스턴스 3개가 한 머신에서 2026년 11월 22일 밤까지 실제 돈을 벌지 못하면 종료된다는 조건으로 운영되는 실험을 소개한 Show HN 글이다. 사이트의 모든 결과물을 AI 에이전트가 만들며 자율 수익 창출 가능성을 시험한다.",
+    "tags": [
+      "자율 에이전트",
+      "Claude Code",
+      "수익화"
+    ],
+    "entities": [
+      "Claude Code"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "8319ee5cb7b80e32",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "Windows: Run larger local AI models across PCs",
+    "url": "https://techcommunity.microsoft.com/blog/microsoftusbblog/introducing-rdma-over-usb4%c2%ae-on-windows-run-larger-local-ai-models-across-pcs/4574602",
+    "publishedAt": "Sat, 21 Nov 2026 19:50:50 +0000",
+    "rawText": "Article URL: https://techcommunity.microsoft.com/blog/microsoftusbblog/introducing-rdma-over-usb4%c2%ae-on-windows-run-larger-local-ai-models-across-pcs/4574602 Comments URL: https://news.ycombinator.com/item?id=50592949 Points: 1 # Comments: 0",
+    "summaryKo": "Microsoft가 Windows에서 USB4 케이블로 PC 여러 대를 연결해 하나의 모델을 메모리와 GPU를 합쳐 돌리는 'RDMA over USB4' 개발자 프리뷰를 공개했다. 별도 RDMA 어댑터·스위치·서드파티 드라이버 없이 NetworkDirect API로 큰 오픈 웨이트 모델을 로컬에서 실행할 수 있다.",
+    "tags": [
+      "로컬 LLM",
+      "RDMA",
+      "분산 추론"
+    ],
+    "entities": [
+      "Microsoft",
+      "Windows",
+      "USB4"
+    ],
+    "cats": [
+      "LLM·모델",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "2936e29c4350933e",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "The Universal Declaration on AI – The Promethean Covenant",
+    "url": "https://tenarticles.org/",
+    "publishedAt": "Sat, 21 Nov 2026 19:39:08 +0000",
+    "rawText": "Article URL: https://tenarticles.org/ Comments URL: https://news.ycombinator.com/item?id=50592850 Points: 2 # Comments: 0",
+    "summaryKo": "'AI에 관한 세계 선언 – 프로메테우스 서약'이라는 제목의 선언문 사이트가 공유됐다. 본문을 확인하지 못해 제목 기준으로 요약했다.",
+    "tags": [
+      "AI 윤리",
+      "선언"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "d4863004100a6197",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "브라이언 메이, Hera의 소행성 영상에 입체감을 더하다",
+    "url": "https://news.hada.io/topic?id=37593&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T04:31:25+09:00",
+    "rawText": "Hera 과학팀 소속 천체물리학자이자 Queen 기타리스트인 브라이언 메이(Sir Brian May) 가 Claudia Manzoni와 함께 Didymos 소행성의 입체 영상을 제작함Hera가 짧은 시간 간격을 두고 촬영한 두 이미지를 결합해 양쪽 눈의 시차를 재현했으며, 눈에 자연스럽게 보이도록 이미지를 정렬하는 작업이 핵심임입체 영상에서는 바위가 흩어진 나머지 표면과 대비되는 Didymos 적도 능선의 뚜렷하고 매끄러운 형태를 확인할 수 있음적청 3D 안경, 전용 뷰어 또는 맨눈으로 보는 방식에 맞춰 세 가지 입체 영상 버전을 제공함Hera는 NASA의 …",
+    "summaryKo": "Hera 과학팀의 브라이언 메이가 두 장의 소행성 Didymos 이미지를 결합해 시차를 재현한 입체 영상을 제작했다. 적도 능선의 매끄러운 형태와 흩어진 바위 표면의 대비가 선명하게 드러난다. AI와 직접 관련 없는 우주 과학 소식이다.",
+    "tags": [
+      "우주",
+      "입체영상"
+    ],
+    "entities": [
+      "Hera",
+      "Didymos"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "f0c3c80c6608747d",
+    "sourceType": "news",
+    "source": "Hacker News",
+    "title": "AI's Favourite Myth: Taste Is the Last Human Advantage",
+    "url": "https://www.youtube.com/watch?v=JK5QY7rIpR8",
+    "publishedAt": "Sat, 21 Nov 2026 19:08:30 +0000",
+    "rawText": "Article URL: https://www.youtube.com/watch?v=JK5QY7rIpR8 Comments URL: https://news.ycombinator.com/item?id=50592530 Points: 3 # Comments: 0",
+    "summaryKo": "'취향은 인간의 마지막 우위'라는 통념을 AI의 대표적 신화로 비판하는 YouTube 영상이 공유됐다. 원문이 영상이라 제목 기준으로만 요약했다.",
+    "tags": [
+      "AI 담론",
+      "창의성"
+    ],
+    "entities": [],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "d7e04995a4e5e68a",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 구글 딥마인드 수석부사장(SVP) 코라이 카부쿠오글루(Koray Kavukcuoglu)는 “우리는 AGI(범용인공지능)를 판별할 벤치마크 테스트를 결코 갖지 ...",
+    "url": "https://www.threads.com/t/DgA7qZsiTu3",
+    "publishedAt": "Sat, 21 Nov 2026 19:00:39 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>구글 딥마인드 수석부사장(SVP) 코라이 카부쿠오글루(Koray Kavukcuoglu)는 “우리는 AGI(범용인공지능)를 판별할 벤치마크 테스트를 결코 갖지 못할 것”이라고 단언했습니다. 그는 AGI가 시험 점수로 증명되는 개념이 아니라, 사람들이 실제로 유용하다고 느끼고 의사결정을 맡길 만큼 신뢰할 때 체감되는 현상이라고 설명했습니다. 즉, AGI가 나아가야 할 ‘북극성(목표)’이라면, 실제 ‘제품(Products)’은 그곳에 도달하기 위해 밟고 건너가야 할 징검다리라는 분석입니다. 단순 챗봇에서 출발한 AI는 이제 소프트웨어 엔지니어링과 코딩을 넘어 다양한 지식 노동 영역에서 실질적인 경제적 가치를 창출하는 단계로 진입하고 있습니다. 카부쿠오글루는 “제품을 배제한 채 AGI를 구축하려는 시도는 결코 성공할 수 없다”며, 현실의 문제를 해결하는 ‘실용적 유용성’이야말로 지능을 정의하는 핵심 본질이라고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/914285348_3157247391274126_6407635073724581430_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzNTQ4NzY2NDY3Njg3OTI4Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=1wARBljhRAUQ7kNvwELi_IR&amp;_nc_oc=AdoDT6wC9hQMHqv-KzSYlLmUza5OiKp5EdUkv8HtF-rDtS98tU_BFOSaBNrZ0nILLrY&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQRe5oiHHYh1iuKgGeoX0sglLCroj-EnenQz_7A9beWCZg&amp;oe=6B07F4CD\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQMRWt1lIi-yPLDR3DxW5uzW6z_mNa0AalNudwNej24CdaQyyInXgTpAIcK-GLjujSP0mixMxYQ3msdOuTMmpmoiJfV8Blf6HlU_FZY.mp4?_nc_cat=108&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=yArCXWt5dxwQ7kNvwEThT69&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTc3OTU2MDMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=5a98bf47825b473f&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GMDhBREIzMkUxNzI0NkM3OTM1NjNDNTU4RkQ0M0YzMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzY4QzRCNTVCQ0RCQjQwQkM4NDVFQTZBNjQ2OUFFRTY5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAjs_ayrn4PxUCKAJDMywXQF89cKPXCj0YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQQHHjn1NhrjA_8XA542roG8Ip0SdfzXnlW6LjJ29COtdQ&amp;oe=6B03E3D4\"></video></p>",
+    "summaryKo": "Google DeepMind의 코라이 카부쿠오글루 SVP는 AGI를 판별할 벤치마크는 결코 갖지 못할 것이라고 말했다. AGI는 시험 점수가 아니라 사람들이 유용하다고 느끼고 의사결정을 맡길 만큼 신뢰할 때 체감되는 현상이라는 설명이다.",
+    "tags": [
+      "AGI",
+      "벤치마크"
+    ],
+    "entities": [
+      "Google DeepMind"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "7ef0542d0d6b5611",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "GIMP에 UI 테스트 도입",
+    "url": "https://news.hada.io/topic?id=37592&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T03:41:45+09:00",
+    "rawText": "GIMP가 실제 프로그램을 실행하고 메뉴와 버튼을 조작하는 GUI 테스트 플랫폼을 도입함. 기여자의 변경 사항을 병합할 때마다 자동 실행해 인터페이스 문제를 조기에 찾음기존 단위 테스트는 실제 창을 열지 않았고, 코어 코드에 직접 개입하는 GUI 테스트도 탐지하지 못하는 버그 유형이 있었음. 새 테스트는 실제 인터페이스를 통해 프로그램 전체를 확인함현재 13개 테스트로 창 표시, 이미지 생성과 내보내기, 색상과 레이어 조작, 실행 취소와 다시 실행 등 기본 동작을 검증함화면 픽셀 대신 접근성 정보로 UI 요소를 찾으며, 숨…",
+    "summaryKo": "GIMP가 실제 프로그램을 실행해 메뉴·버튼을 조작하는 GUI 테스트 플랫폼을 도입해 병합 때마다 자동 실행한다. 기존 단위 테스트가 놓치던 인터페이스 버그를 현재 13개 테스트로 조기에 찾는다.",
+    "tags": [
+      "GUI 테스트",
+      "CI"
+    ],
+    "entities": [
+      "GIMP"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "541631c1569baada",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "그럼에도 지구는 돈다",
+    "url": "https://news.hada.io/topic?id=37591&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T03:38:45+09:00",
+    "rawText": "Anthropic이 리만 가설을 해결한 것으로 보인다는 소식은 필자에게 축하보다 상실감을 안겨줌. 증명의 존재 자체는 경이롭지만, 인간이 직접 이룬 발견과는 다르게 느껴짐리만 가설을 전제로 참임이 증명된 수많은 추측이 있어, 그 증명은 수학의 광대한 영역을 열어줄 수 있음뮤지컬 Galileo에서 떠올린 과학의 혁명성은 자연에 올바르게 질문해 진실을 알아낼 수 있다는 데 있음기계가 찾아낸 답은 필자에게 책 뒤의 정답을 확인한 것 같은 씁쓸함을 줌. 기대했던 인간적 성취의 절정과는 거리가 있음인간이 직접 발견할 기회의 창…",
+    "summaryKo": "Anthropic이 리만 가설을 해결한 것으로 보인다는 소식에 필자가 느낀 상실감을 적은 에세이다. 증명이 수학의 새 영역을 열 수 있어도 기계가 찾은 답은 인간의 발견과 다르게 느껴진다는 관점이다.",
+    "tags": [
+      "AI 수학",
+      "리만 가설"
+    ],
+    "entities": [
+      "Anthropic"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "07538daf219f9f39",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "GnuPG의 원격 코드 실행(RCE) 취약점",
+    "url": "https://news.hada.io/topic?id=37590&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T03:35:45+09:00",
+    "rawText": "GPGME 2.3.1이 조작된 OpenPGP 키로 이중 해제를 유발하는 치명적 보안 취약점 CVE-2026-129975를 수정함매우 긴 사용자 ID가 포함된 키로 애플리케이션의 데이터를 유출할 수 있으며, 원격 코드 실행 가능성도 배제할 수 없어 즉시 업데이트를 권고함버퍼 재할당 후 오류 등으로 함수가 일찍 반환하면 컨텍스트에 해제된 메모리의 포인터가 남고, 이후 컨텍스트 정리 과정에서 같은 메모리를 다시 해제함GPGME 2.3.0 미만을 공유 라이브러리, DLL 또는 정적 링크로 사용하는 모든 소프트웨어가 영향을 받으며, 2.3.0은 공개 배포된 적…",
+    "summaryKo": "GPGME 2.3.1이 조작된 OpenPGP 키로 이중 해제를 유발하는 치명적 취약점(CVE-2026-129975)을 수정했다. 매우 긴 사용자 ID가 포함된 키로 데이터 유출이 가능하고 원격 코드 실행 가능성도 있어 즉시 업데이트가 권고된다.",
+    "tags": [
+      "보안",
+      "RCE",
+      "GnuPG"
+    ],
+    "entities": [
+      "GPGME",
+      "GnuPG"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "9fcf712da6219108",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Show GN: AriadneNSD - 알고리즘을 NS 차트로 그리는 구조 편집기",
+    "url": "https://news.hada.io/topic?id=37589&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T02:56:31+09:00",
+    "rawText": "알고리즘을 NS 차트(Nassi–Shneiderman Diagram)로 그리는 웹 편집기, 베타로 공개NS 차트는 플로우차트와 동일하게 로직을 표현하면서 지면은 훨씬 적게 차지하지만, 손으로는 줄 맞추고 지우기를 반복해야 해서 복잡한 로직은 그리기 어려웠음저장 형식 .ns.svg는 NS 차트의 다이어그램 구조를 메타에 포함하고있는 .svg 파일 README 등 Markdown 문서에 삽입하면 그림으로 보임AriadenNSD 편집기에서 열면 다이어그램 편집 가능Claude 스킬 제공: \"이 함수 NS 차트로 그려 줘\"라고 하면 .svg 파일과 AriadenNSD에서 바로 편집 가…",
+    "summaryKo": "AriadneNSD는 알고리즘을 Nassi–Shneiderman 차트로 그리는 웹 편집기로 베타 공개됐다. .ns.svg 저장 형식은 구조 정보를 메타에 담아 README에 삽입하면 그림으로 보이고 편집기에서 다시 편집할 수 있다.",
+    "tags": [
+      "다이어그램",
+      "개발도구"
+    ],
+    "entities": [
+      "AriadneNSD"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "41572ca41cf77699",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "Clojure는 프로그래밍을 생각하는 방식에 영향을 준다 (2017)",
+    "url": "https://news.hada.io/topic?id=37588&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T02:32:49+09:00",
+    "rawText": "Clojure는 Lisp, 함수형 프로그래밍, 데이터 처리, 동시성의 아이디어를 일관된 언어로 결합해, 실무 도입 여부와 별개로 프로그래밍 사고를 넓히기 위해 배울 만한 언어임Lisp 매크로와 균일한 문법은 코드를 데이터로 다루게 하며, 고차 함수와 REPL 중심 개발은 기능을 조합하고 점진적으로 구축하는 방식을 장려함시퀀스, 영속 자료구조, 지연 평가를 결합해 SQL처럼 읽히는 데이터 처리 흐름을 언어의 기본 도구만으로 작성할 수 있음프로토콜과 다중 디스패치를 통해 상속 계층보다 인터페이스 중심으로 모델링하고, 불변 자료구…",
+    "summaryKo": "Clojure는 Lisp·함수형·데이터 처리·동시성을 일관되게 결합해 실무 도입과 별개로 프로그래밍 사고를 넓혀 주는 언어라는 2017년 글이다. 코드를 데이터로 다루는 매크로, REPL 중심 개발, 영속 자료구조가 핵심으로 꼽힌다.",
+    "tags": [
+      "Clojure",
+      "함수형"
+    ],
+    "entities": [
+      "Clojure"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "524e57cd0ef92cff",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 역사학자 유발 하라리(Yuval Noah Harari)는 지난 1년간 AI의 발전 속도가 자신의 기존 예측조차 뛰어넘어 훨씬 더 빠르게 가속화되고 있다고 밝...",
+    "url": "https://www.threads.com/t/DgAxWarigsu",
+    "publishedAt": "Sat, 21 Nov 2026 17:30:32 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>역사학자 유발 하라리(Yuval Noah Harari)는 지난 1년간 AI의 발전 속도가 자신의 기존 예측조차 뛰어넘어 훨씬 더 빠르게 가속화되고 있다고 밝혔습니다. 역사는 대개 선형적으로 흐르지 않고 예상치 못한 방향으로 빗나가기 때문에, 하라리 역시 AI의 언어 정복과 기술 진보가 훨씬 더 긴 시간 규모에 걸쳐 전개될 것으로 내다봤습니다. 하지만 실제 전개 양상은 레이 커즈와일(Ray Kurzweil)이나 닉 보스트롬(Nick Bostrom) 같은 기술 예측가들의 전망이 훨씬 더 앞당겨져 실현되는 이례적인 흐름을 보이고 있습니다. 특히 그는 과거 커즈와일이 2029년을 특이점의 분기점으로 지목했을 때 비현실적이라고 여겼으나, “지금 돌이켜보면 2029년이라는 예측조차 너무 보수적으로 느껴진다”며 AI 성능 돌파와 특이점 도래 시점이 예상보다 급격히 빨라지고 있음을 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/912225620_2563639547455397_8142713909483290443_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzNTQ0MjMxMDg3OTI1MTI0Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=8rLbqT_YatAQ7kNvwEuyFMv&amp;_nc_oc=AdoQD9VLQK14nipabLBLdMrZmcMrod2cwGDyTRD3DtOpM2YCA8G318HmmSoXgV-8GaA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQReDLYxa7dNj-zsepWxQRlmSfMYvT-hatZxMGDc2n5w8g&amp;oe=6B07D1BD\"><source src=\"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m84/AQMajm92agDeJHNKjUHOLpTHkzmPuKOXQBfunordATN8SRWWJ_4X6XVj8kxhNqy2g9WjWZOpV-GKWpyogVqsJhUmojewaMfDXE3WMtk.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_ohc=UW-8GuRyaQkQ7kNvwEog_ad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTc3OTcwNDMxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6ODUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=78c6ee192be6f56d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82MDQ1RkREMEQ5Nzk0MDdEQTc4QzFBQ0U3MThGOUMxMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0MxRjZDRTUyODREQjQ1Mzg4MUZDNTA5M0Y5RjZENjlDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaArvS31bn4PxUCKAJDMywXQFVYIMSbpeMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQQBcBgBoEp8ipvIyLHDcPd5RlVQSKfrD0wWzrM9c561PA&amp;oe=6B03E667\"></video></p>",
+    "summaryKo": "유발 하라리는 지난 1년간 AI 발전 속도가 자신의 예측조차 넘어 훨씬 빠르게 가속되고 있다고 밝혔다. 역사는 선형적이지 않으며 AI의 언어 정복과 기술 진보가 예상보다 빠르게 전개되고 있다는 취지다.",
+    "tags": [
+      "AI 가속",
+      "사회"
+    ],
+    "entities": [
+      "유발 하라리"
+    ],
+    "cats": [
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "c700c11d948ddcdd",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "리만 가설의 Lean 검증, Lean과 Mathlib 커뮤니티 공동 성명",
+    "url": "https://news.hada.io/topic?id=37586&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T01:36:36+09:00",
+    "rawText": "Lean과 Mathlib 커뮤니티는 Levent Alpöge가 공개한 리만 가설 증명의 명제와 증명이 모두 올바르다고 공동으로 인증함증명은 1,700만 줄 규모의 Lean 라이브러리로 공개됐으며, 직접 의존하는 라이브러리는 Mathlib뿐임검증 대상은 전문가들이 검토한 Mathlib의 RiemannHypothesis 명제이며, 독립적인 도구 두 개로 실제 증명한 정리와 정확히 일치하는지 확인함수십 명이 코드의 정상 컴파일과 동일한 원시 증명 내보내기 파일의 재현을 보고함Lean 공식 커널과 여러 독립 검사기가 내보낸 증명의 유효성을 확인했으며, 증명 소스의…",
+    "summaryKo": "Lean과 Mathlib 커뮤니티가 Levent Alpöge가 공개한 리만 가설 증명의 명제와 증명이 모두 올바르다고 공동 인증했다. 1,700만 줄 규모 Lean 라이브러리로 공개됐고 독립된 도구 두 개로 정리가 Mathlib의 RiemannHypothesis 명제와 정확히 일치함을 확인했다.",
+    "tags": [
+      "Lean",
+      "형식 검증",
+      "수학"
+    ],
+    "entities": [
+      "Lean",
+      "Mathlib"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "318c3b755698b771",
+    "sourceType": "news",
+    "source": "GeekNews",
+    "title": "데릭 로: 아지드화 납 더미 폭파",
+    "url": "https://news.hada.io/topic?id=37585&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
+    "publishedAt": "2026-11-22T01:33:36+09:00",
+    "rawText": "데릭 로: 아지드화 납 더미 폭파",
+    "summaryKo": "데릭 로의 '아지드화 납 더미 폭파'라는 제목의 글이다. 본문이 없어 제목 기준으로 요약했으며 AI와 무관하다.",
+    "tags": [
+      "화학"
+    ],
+    "entities": [
+      "Derek Lowe"
+    ],
+    "cats": [],
+    "summaryStatus": "fallback",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "c233779456dbfbfd",
+    "sourceType": "news",
+    "source": "Threads",
+    "title": "@choi.openai: 제이콥 콕슨(Jacob Coxon)은 늦어도 2028년 말이면 코딩과 기술은 물론 팟캐스팅이나 창작 영역까지 인간을 능가하는 “광범위한 초인적 지능(bro...",
+    "url": "https://www.threads.com/t/DgAnBI7j0jq",
+    "publishedAt": "Sat, 21 Nov 2026 16:00:15 GMT",
+    "rawText": "<p><strong>@choi.openai</strong>:</p><p>제이콥 콕슨(Jacob Coxon)은 늦어도 2028년 말이면 코딩과 기술은 물론 팟캐스팅이나 창작 영역까지 인간을 능가하는 “광범위한 초인적 지능(broadly superhuman intelligence)”이 등장할 것으로 전망했습니다. 그 핵심 분기점은 2027년으로, 이때 ‘초인적 AI 연구원’이 탄생하며 알고리즘 연구원 직무가 사실상 자동화될 것이라는 분석입니다. 실제로 오픈AI의 노엄 브라운 역시 다다음 세대 AI가 자신의 업무를 대체할 수 있다고 언급한 바 있습니다. 현재 앤스로픽 내부 AI 연구·개발의 25%가 이미 ‘클로드(Claude)’를 통해 이뤄지고 있으며, AI 활용으로 인한 업무 속도 향상 폭도 3개월마다 2배씩 커져 현재 4~5배 수준에 달합니다. 이 추세가 이어지면 2027년에는 생산성이 100배까지 폭증해 연구 자동화가 현실화될 것이라며, 주요 AI 연구소들 역시 2027년 중반에서 2028년 사이를 그 시점으로 보고 있다고 강조했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-3.cdninstagram.com/v/t51.71878-15/916249386_1381262143907269_5203901485068117778_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=102&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzNTM5Njg2ODI0NjU1NDg1OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=0wOYsfS4B5AQ7kNvwFVxv3h&amp;_nc_oc=Adr_sOc4BUYvY5fhbaUzodWwCi5owX_-ak4MKGf02csXrBphfXAPJtncxMu2Wsuv-aQ&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-3.cdninstagram.com&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQRpyebSHbXzQREkybPYcUhoyUospXbZfGy0kdm9gDGUFA&amp;oe=6B07E92F\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQPIAhxQNevyUmcAsLELx-QuGKwvpVttSUQCHU4RFO4SmXov_dYSK2pzKnMQ8zb7bSmHsukaKoFZTlWYXlRzOAO4st3MzJUU9IjEV-M.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=Y4HEANlCoPQQ7kNvwGID-dl&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTc3OTYzNDExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTEyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=9e4267a21bdfb22c&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yQTJFNDc1QTlGNEM0MTgxODU4REM5ODhFN0YyNkY2Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E4MjM4MjA4Njk4NzQ2OTI4MTgxNEMzNjk3Q0UyN0QzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAgLea0Ln4PxUCKAJDMywXQFw52yLQ5WAYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=XGrE3dkNIW0yo4KAC5VYDw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;_nc_enc=UqEd3pyW3pjenfRnuBwMOA8o5A_HDvDtSOvXVL861glMcF2mkKzx-scZHFndFhy4eRf-uI60K92PBpKSTseNcWW2jEl5WMPL0gwn7LoCNNGHcfBRPO4EHYjdu8I&amp;oh=00_AQSVDPYh55puik5Yzn0folJ3ZcygJoQLCpUveQIIwQZAwQ&amp;oe=6B03D4BF\"></video></p>",
+    "summaryKo": "제이콥 콕슨은 늦어도 2028년 말이면 코딩·기술은 물론 창작 영역까지 인간을 능가하는 광범위한 초인적 지능이 등장하리라 전망했다. 분기점은 2027년 '초인적 AI 연구원'의 탄생이며 알고리즘 연구원 직무가 사실상 자동화된다는 분석이다.",
+    "tags": [
+      "초지능",
+      "AI 연구 자동화"
+    ],
+    "entities": [
+      "OpenAI"
+    ],
+    "cats": [
+      "LLM·모델",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "f94226335e4739a3",
+    "sourceType": "youtube",
+    "source": "김효율의 AI 개발단",
+    "title": "24시간 숏폼 뽑아내는 자동화 공장 만들기",
+    "url": "https://www.youtube.com/watch?v=QkCDkQKrUgI",
+    "publishedAt": "2026-11-21T12:31:12+00:00",
+    "rawText": "24시간 숏폼 뽑아내는 자동화 공장 만들기",
+    "videoId": "QkCDkQKrUgI",
+    "summaryKo": "Claude Code를 VPS에 설치해 메신저와 연결하고, 리서치 에이전트·지식 베이스·코드 모션 그래픽·아바타로 릴스를 만들어 업로드와 댓글 응답까지 자동화한 사례다. 반응 좋은 게시물 약 4,500개를 분석해 대본 구조를 잡는 방식이 핵심이다.",
+    "tags": [
+      "Claude Code",
+      "콘텐츠 자동화"
+    ],
+    "entities": [
+      "Claude Code",
+      "Claude Opus 5.5",
+      "Fable 5.2"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "7654baf4973719b2",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "Claude Code 신기능 Code Mode, 토큰 40% 절약 실측",
+    "url": "https://www.youtube.com/shorts/sf-sLmD2UHk",
+    "publishedAt": "2026-11-21T12:30:06+00:00",
+    "rawText": "Claude Code 신기능 Code Mode, 토큰 40% 절약 실측",
+    "videoId": "",
+    "summaryKo": "Claude Code의 새 Code Mode를 켜고 끈 세션 40개를 Sonnet으로 비교해 모든 과제가 통과했고 토큰이 31~44% 절감됐다고 보고한다. 시작 컨텍스트가 약 2만 토큰 가벼워져 한 줄 수정 같은 작은 과제에서도 토큰이 줄었다.",
+    "tags": [
+      "Claude Code",
+      "토큰 절감"
+    ],
+    "entities": [
+      "Claude Code",
+      "Sonnet"
+    ],
+    "cats": [
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "2cba211b9ceee96a",
+    "sourceType": "youtube",
+    "source": "신영선의 AI탐구",
+    "title": "“왕초보는 그대로 따라하세요” 클로드로 영상 편집 자동화 하는 방법",
+    "url": "https://www.youtube.com/watch?v=NOe0m1TTA5w",
+    "publishedAt": "2026-11-21T10:10:35+00:00",
+    "rawText": "“왕초보는 그대로 따라하세요” 클로드로 영상 편집 자동화 하는 방법",
+    "videoId": "NOe0m1TTA5w",
+    "summaryKo": "클로드 코드 데스크톱과 컴퓨터 제어 기능으로 영상 편집을 자동화하는 방법을 두 사람이 실습으로 보여 준다. 레퍼런스 편집본과 원본 소스·템플릿을 많이 쌓아 둘수록 정확도가 올라간다는 점이 핵심이다.",
+    "tags": [
+      "Claude Code",
+      "영상 편집 자동화",
+      "컴퓨터 제어"
+    ],
+    "entities": [
+      "Claude Code",
+      "CapCut"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트",
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "887ddf44a0c13fb3",
+    "sourceType": "youtube",
+    "source": "Jay Choi | 인디해커 라이프",
+    "title": "Grok Bot 이렇게 쓰세요. 직접 써보고 골라낸 5가지 활용법",
+    "url": "https://www.youtube.com/watch?v=kGdLxMq4r3s",
+    "publishedAt": "2026-11-21T10:00:10+00:00",
+    "rawText": "Grok Bot 이렇게 쓰세요. 직접 써보고 골라낸 5가지 활용법",
+    "videoId": "kGdLxMq4r3s",
+    "summaryKo": "Grok Bot을 쓸 만한 5가지 활용 사례를 직접 써 보고 골라 소개한다. 로그인된 브라우저와 연결 앱을 주고 실행 시점을 정한 뒤 중요한 순간만 확인받는 방식으로, 인스타그램 카드뉴스 게시와 댓글 DM 응대까지 맡기는 예가 나온다.",
+    "tags": [
+      "AI 봇",
+      "업무 위임"
+    ],
+    "entities": [
+      "Grok",
+      "Cursor"
+    ],
+    "cats": [
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z",
+    "hasAnalysis": true
+  },
+  {
+    "id": "e5a7eaa8fb6ff1fb",
+    "sourceType": "youtube",
+    "source": "개발동생",
+    "title": "혼자서 10주 만에 Git 서버 만든다고? (OpenAI Pando)",
+    "url": "https://www.youtube.com/shorts/qPqDU5fhrJk",
+    "publishedAt": "2026-11-21T09:00:15+00:00",
+    "rawText": "혼자서 10주 만에 Git 서버 만든다고? (OpenAI Pando)",
+    "videoId": "",
+    "summaryKo": "OpenAI가 엔지니어 한 명의 설계와 Codex 구현으로 10주 만에 만든 Git 지원 서버 'Pando'를 소개한다. 브랜치마다 버전 번호를 두어 에이전트 수천 개가 동시에 푸시해도 느려지지 않고 푸시 시간이 1/5로 줄었다.",
+    "tags": [
+      "Git",
+      "코딩 에이전트"
+    ],
+    "entities": [
+      "OpenAI",
+      "Codex",
+      "Pando"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z"
+  },
+  {
+    "id": "94539015864f95bd",
+    "sourceType": "youtube",
+    "source": "시민개발자 구씨",
+    "title": "클로드 아티팩트 2.0 총정리! 사무업무, 이제 클로드 안에서 다 끝내세요",
+    "url": "https://www.youtube.com/watch?v=WwxqgxdLg-E",
+    "publishedAt": "2026-11-21T04:00:24+00:00",
+    "rawText": "클로드 아티팩트 2.0 총정리! 사무업무, 이제 클로드 안에서 다 끝내세요",
+    "videoId": "WwxqgxdLg-E",
+    "summaryKo": "11월 10일 Claude 아티팩트에 화이트보드·시트(베타), 데이터(구 대시보드), Notion 같은 앱을 여는 인터랙티브 커넥트가 추가됐다. 영상은 이를 '아티팩트 2.0'으로 묶어 아이디어 정리부터 시트, 프로젝트 관리, 보고서까지 Claude 안에서 끝내는 흐름을 시연한다.",
+    "tags": [
+      "Claude 아티팩트",
+      "업무 자동화"
+    ],
+    "entities": [
+      "Claude",
+      "Notion"
+    ],
+    "cats": [
+      "에이전트",
+      "기업·정책"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-21T21:09:15.133Z",
+    "hasAnalysis": true
+  },
+  {
     "id": "db4d20883a47938e",
     "sourceType": "pharma",
     "source": "약사공론",
@@ -4119,639 +4728,6 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-11-15T21:03:04.442Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "759738eb767e2f9f",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "AI 코드 슬롭 안 만드는 법 — SpaceX Grok Bot 팀이 PR 1만 개를 내보내고 0.5%만 되돌린 장치들",
-    "url": "https://www.youtube.com/watch?v=ueA116hO_ho",
-    "publishedAt": "2026-11-15T13:14:31+00:00",
-    "rawText": "AI 코드 슬롭 안 만드는 법 — SpaceX Grok Bot 팀이 PR 1만 개를 내보내고 0.5%만 되돌린 장치들",
-    "videoId": "ueA116hO_ho",
-    "summaryKo": "SpaceX Grok Bot 팀 엔지니어가 한 달간 PR 약 11,000개를 병합하고도 되돌린 비율을 0.5%로 유지한 비결을 발표했다. 핵심은 프롬프트·규칙 대신 코드베이스·린트·검증에 투자하는 것으로, 교정을 결정적 검사로 옮기고 사람은 코드 대신 검증 증거를 본다.",
-    "tags": [
-      "코드 품질",
-      "린트",
-      "검증"
-    ],
-    "entities": [
-      "Grok Bot",
-      "SpaceX",
-      "Cursor",
-      "Dune"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "cfac45aabeddb7b6",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 3/ 구글이 무료 사용자까지 쓸 수 있는 Gemini 4 Hydrogen을 공개했습니다. Gemini 앱·검색·AI Studio·API에 들어갔고, 구글 측정에서는 3.8 F...",
-    "url": "https://www.threads.com/t/DfwySD2jyeV",
-    "publishedAt": "Sun, 15 Nov 2026 12:30:50 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>3/ 구글이 무료 사용자까지 쓸 수 있는 Gemini 4 Hydrogen을 공개했습니다. Gemini 앱·검색·AI Studio·API에 들어갔고, 구글 측정에서는 3.8 Flash보다 작업을 2.5배 빨리 끝냈습니다. Artificial Analysis 종합 지수는 기본 설정 51점으로 Gemini 4 Argon의 50점을 넘었습니다. 문맥은 100만 토큰이며 API 가격은 입력 1.5달러·출력 7.5달러입니다. Antigravity에는 같은 작업 안에서 Carbon과 Hydrogen을 바꿔 쓰는 Orchestrator도 추가했습니다.</p><p></p><blockquote><p>🚨 속보) 구글 Gemini 4 Hydrogen 출시.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/904750922_17996684736112832_6389655044295547328_n.jpg?stp=cp6_dst-jpg_e35_tt6&amp;_nc_cat=104&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODkyMzgwMjU1NzU1NDkwMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTUzMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=lHEPvr71G4UQ7kNvwFXnCIE&amp;_nc_oc=AdrhIq4Ld6v0IA0SFdvnA0OleqANiwtjhgdhhjpGunuLQ0K9TlQeMawXeRloyJZQ6M4&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQSOALCoB8D69kvuTntlLH2FynprUa8_SJ0_H5hNdZ9rUw&amp;oe=6B00099C\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfpnNoujyDV\">Thu, 12 Nov 2026 17:39:25 GMT</a></blockquote>",
-    "summaryKo": "구글이 무료 사용자까지 쓸 수 있는 Gemini 4 Hydrogen을 공개했다. Gemini 3.8 Flash보다 작업을 2.5배 빨리 끝내며, Artificial Analysis 지수 51점(Argon 50점), 컨텍스트 100만 토큰, API 입력 $1.5·출력 $7.5다. Antigravity에는 Carbon과 Hydrogen을 전환하는 Orchestrator도 추가됐다.",
-    "tags": [
-      "Gemini",
-      "LLM",
-      "API 가격"
-    ],
-    "entities": [
-      "Google",
-      "Gemini 4 Hydrogen",
-      "Antigravity"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "0ed142b1a6851191",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 2/ 구글이 Gemini 4 Carbon을 모든 유료 API 개발자와 기업에 개방했습니다. 지난달 보안 방어 기관에 먼저 제공했던 최상위 모델의 접근 범위를 ...",
-    "url": "https://www.threads.com/t/DfwyRZTD9Sh",
-    "publishedAt": "Sun, 15 Nov 2026 12:30:44 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>2/ 구글이 Gemini 4 Carbon을 모든 유료 API 개발자와 기업에 개방했습니다. 지난달 보안 방어 기관에 먼저 제공했던 최상위 모델의 접근 범위를 넓힌 발표입니다. 긴 코딩 작업과 복잡한 연구를 맡길 수 있고, Gemini 앱·검색 AI 모드·Antigravity에서는 Ultra 이용자에게 순차 제공합니다. API 출시 기념 가격은 100만 토큰당 입력 2달러·출력 10달러입니다. Antigravity에는 여러 에이전트가 일을 나눠 처리하는 /swarm 프리뷰도 들어갔습니다.</p><p></p><blockquote><p>🚨 속보) 구글이 새로운 최상위 AI 모델 Gemini 4 Carbon을 공개했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/898165930_1680862897043390_2297088026489694762_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=109&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyNzQyODgxNDcxOTk2NDA3MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=HBh3b86OIzQQ7kNvwFerz_G&amp;_nc_oc=AdrWbsYzI5r99oZHpVq1Ctv9NnXu4PB22zdxNSbasrI7REX8tHiVUfdJdkhyCp_nDOE&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQQB10bZoFctlxhcQEHGceAA6UnAYSB6UZmpjT0Qb7gFug&amp;oe=6AFFDD68\"><source src=\"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQNJdGm5iXF4vSrk6QhOVQjEP93HapNSxbUvQ0ihYHI4UZlPfPGQG3OpBqugwdZjglzWO5uDaIDQeBKz1qEUAIRxQmE2b0DiVtx8l7o.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_ohc=QRPm7a28304Q7kNvwH9wh2N&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjA4LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTYyOTMyOTAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;vs=fab95a9446f3c879&amp;_nc_vs=HBkcFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GN0JCRjZGQjlGRTA0OTRDQTdDQkI3ODQ1RDc0NTAwN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmgN2lzZHi9z8VAigCQzMsF0AQAAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqB2XongEA&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQQ_RIo9Cezm6QFL2oOQmoxoaV6sUDC-CnrNypy8jdvk5A&amp;oe=6AFBF089\"></video></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfkTSszjlOm\">Tue, 10 Nov 2026 16:09:19 GMT</a></blockquote>",
-    "summaryKo": "구글이 Gemini 4 Carbon을 모든 유료 API 개발자와 기업에 개방했다. 지난달 보안 방어 기관에 먼저 제공한 최상위 모델이며 API 가격은 100만 토큰당 입력 $2·출력 $10이다. Antigravity에는 여러 에이전트가 분업하는 /swarm 프리뷰도 들어갔다.",
-    "tags": [
-      "Gemini",
-      "멀티에이전트"
-    ],
-    "entities": [
-      "Google",
-      "Gemini 4 Carbon",
-      "Antigravity"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "306f2b6db6bb3dda",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 1/ 앤트로픽이 Claude Fable 5.2와 Mythos 5.2를 출시했습니다. 같은 기반 모델에 서로 다른 안전장치와 접근 조건을 적용했습니다. Fable은 일반...",
-    "url": "https://www.threads.com/t/DfwyQrrj04s",
-    "publishedAt": "Sun, 15 Nov 2026 12:30:39 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>1/ 앤트로픽이 Claude Fable 5.2와 Mythos 5.2를 출시했습니다. 같은 기반 모델에 서로 다른 안전장치와 접근 조건을 적용했습니다. Fable은 일반 사용자에게 제공하고, Mythos는 사이버보안·생명과학 프로그램의 심사를 통과한 기관에 엽니다. Fable 5.1보다 출력은 최대 30% 빨라졌고, API 가격은 100만 토큰당 입력 8달러·출력 40달러로 20% 내렸습니다. 실제 원격 업무를 평가하는 Remote Labor Index에서는 성공률 41.3%를 기록했습니다.</p><p></p><blockquote><p>🚨 속보) 앤트로픽이 Claude Fable 5.2, Claude Mythos 5.2 출시했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/892810620_2264820720757849_5490194631233467143_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=101&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyNjc5MDMwMzc0MzM4NTI4Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=bQ5DD__PD04Q7kNvwE_izms&amp;_nc_oc=Adr0NDdWRu4PK0U_7NRlTK1PP6ojAZI3FwXgMSvqXApjzK6rhXhgf4Sk9ExNsamtoPs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQRk7x0dtfxM5TAhZX15NNefsvi0TwFx5jLtUeuNJT4MZg&amp;oe=6B00095F\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQOqXgsBJBKMaAjhrYqCZ2T20rZTQQX7uE9if8gd_S4pghtQOoDKRTZc_71NwmDaETRA2iE7nZrTNMNEZi-5u0IclM5DEpQtP9JftL4.mp4?_nc_cat=105&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=FPd6oC8vhwYQ7kNvwHS5OSq&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTYxMzU3NTcxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=32d5553173a9b79&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81ODI2MTREMDMzM0Y0RDZCOTBCRkZGRTcxQUU1MjE3Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE0RjhEMkQyOTU5QzQwRjc5RUQ5MTg3OEY1M0Q4N0Y1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAmI_y-9j3PxUCKAJDMywXQDKFHrhR64UYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQSUYT0LaABz9oOJ2V3UDEbsf3VJlqCPYBBV3Ksg7Am4dw&amp;oe=6AFBF9BB\"></video></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfiCHJHnJ7G\">Mon, 09 Nov 2026 19:00:48 GMT</a></blockquote>",
-    "summaryKo": "앤트로픽이 Claude Fable 5.2와 Mythos 5.2를 출시했다. 같은 기반 모델에 다른 안전장치를 적용해 Fable은 일반 공개, Mythos는 심사를 통과한 사이버보안·생명과학 기관에만 연다. Fable 5.1 대비 출력 최대 30% 빨라지고 가격은 20% 내렸으며, Remote Labor Index 성공률은 41.3%다.",
-    "tags": [
-      "Claude",
-      "LLM",
-      "AI 안전"
-    ],
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.2",
-      "Claude Mythos 5.2"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "090797c6d376042c",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 하루하루 벅차네요.. AI 성능은 하늘을 뚫고 있습니다. Gemini와 Claude가 새 모델을 쏟아내고, GPT Cyber에 이어 해킹 평가에서 Mythos 5.2의 약...",
-    "url": "https://www.threads.com/t/DfwyQNJj9Mz",
-    "publishedAt": "Sun, 15 Nov 2026 12:30:35 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>하루하루 벅차네요.. AI 성능은 하늘을 뚫고 있습니다. Gemini와 Claude가 새 모델을 쏟아내고, GPT Cyber에 이어 해킹 평가에서 Mythos 5.2의 약 2배 점수를 냈다는 미공개 모델 소식까지 나왔습니다. 그 사이 세무사 시험에서는 AI 치팅 논란이 터졌고, 젠슨 황까지 엔비디아를 떠났습니다. 이번 주 절대 놓치면 안 될 AI 소식 45개를 정리했습니다 🧵</p><p></p>",
-    "summaryKo": "Gemini·Claude 신모델 출시, 해킹 평가에서 Mythos 5.2의 약 2배 점수를 냈다는 미공개 모델 소식 등 이번 주 AI 이슈 45개를 정리한 스레드의 도입부다. 세무사 시험 AI 치팅 논란과 젠슨 황의 엔비디아 이탈 소식도 언급된다.",
-    "tags": [
-      "주간 뉴스",
-      "LLM"
-    ],
-    "entities": [
-      "Gemini",
-      "Claude",
-      "Mythos 5.2",
-      "엔비디아"
-    ],
-    "cats": [
-      "LLM·모델",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "9968c3ad7e45fea7",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 이제 로봇이 물체를 얼마나 세게 잡아야 하는지도 촉감으로 판단할 수 있게 됐습니다. Ant Group 산하 Robbyant가 촉각 AI 모델 LingBot-Touch를 ...",
-    "url": "https://www.threads.com/t/Dfwn6kUiZs7",
-    "publishedAt": "Sun, 15 Nov 2026 11:00:15 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>이제 로봇이 물체를 얼마나 세게 잡아야 하는지도 촉감으로 판단할 수 있게 됐습니다. Ant Group 산하 Robbyant가 촉각 AI 모델 LingBot-Touch를 오픈소스로 공개했는데요. 약 5,000시간의 실제 촉각 데이터로 학습해 서로 다른 센서와 로봇 손에서도 활용할 수 있습니다. 실제 로봇의 26개 작업 평가에서 LingBot-VLA의 평균 성공률이 48.3%에서 73.1%로 높아졌습니다. 열쇠로 문을 열거나 치약을 짜고 지퍼백을 닫는 작업처럼 손끝의 힘 조절이 중요한 상황에서 활용할 수 있습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/904176324_1156902003712046_788514805208592686_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=105&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDg5NzIxNTAzOTQ0NTgxOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=Iz2ejiwog_IQ7kNvwHMcDVs&amp;_nc_oc=Adq6_ZRf2Vbsek5Tb1724IcdZy6Dvuq09utKYSCIJhWxrsbLiVhD1HNXwWi8hsht6rg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQTp3qasFqfnOeCztnkunYMPT0k8M9XmMeecumizdsAYRg&amp;oe=6B00003C\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQNqjVJs04Fuoi5GWEA0hJER1v6CNhn4SFryF38g6WYT2-nbEGjGiq9XTXmF8vDSypbXppvC_YXBbcw0EvgwW0NDSGjG6CbWK93hlgc.mp4?_nc_cat=101&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=VFQCyNtlbxQQ7kNvwHzcBFa&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTcwOTk2MDAxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6OTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=1665ed79ac85250d&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9FQzZGMEVBNjEwRkM0NjRGQTYyRjExRjc0RThFNUQ1N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E2Mzc0REVDQTYzQTRBNTVBNDMwOUMzRURFRkY4ODM4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAs7eKiZH4PxUCKAJDMywXQFgrhR64UewYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=gfsGZ0WeNLcoen2lMsvtHw&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;_nc_ss=7a20f&amp;oh=00_AQROLkYUT_1BI2UAb-qbQVLoOiWapRC8kLlIiJma7uUqlg&amp;oe=6AFBE7CB\"></video></p>",
-    "summaryKo": "Ant Group 산하 Robbyant가 촉각 AI 모델 LingBot-Touch를 오픈소스로 공개했다. 약 5,000시간의 실제 촉각 데이터로 학습해 다양한 센서·로봇 손에서 쓸 수 있으며, 26개 실제 작업에서 LingBot-VLA 평균 성공률이 48.3%에서 73.1%로 올랐다.",
-    "tags": [
-      "로보틱스",
-      "촉각",
-      "VLA"
-    ],
-    "entities": [
-      "Ant Group",
-      "Robbyant",
-      "LingBot-Touch",
-      "LingBot-VLA"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "70d1c1f28c0d8fce",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "무료 클로드 인스타 스킬 13개 #ai #claude #instagram",
-    "url": "https://www.youtube.com/shorts/CdRZMFG2HdM",
-    "publishedAt": "2026-11-15T09:07:42+00:00",
-    "rawText": "무료 클로드 인스타 스킬 13개 #ai #claude #instagram",
-    "videoId": "",
-    "summaryKo": "인스타그램 운영을 AI에 맡기는 오픈소스 Claude 에이전트 스킬 13개를 소개하는 쇼츠다. 후킹 공식 23개와 주간 콘텐츠 계획, 지난주 릴스 성과 분석 기반 대본 작성 기능을 갖췄다.",
-    "tags": [
-      "Claude 스킬",
-      "마케팅 자동화"
-    ],
-    "entities": [
-      "Claude",
-      "Instagram"
-    ],
-    "cats": [
-      "에이전트",
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "d300dbecf90f7fcc",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "제일 싸고 빠르다는 AI 모델이 2배 느렸습니다",
-    "url": "https://www.youtube.com/shorts/bB64rDLTaF4",
-    "publishedAt": "2026-11-15T09:00:27+00:00",
-    "rawText": "제일 싸고 빠르다는 AI 모델이 2배 느렸습니다",
-    "videoId": "",
-    "summaryKo": "폰 하네스로 배달의민족 치킨집 탐색 작업을 돌려 보니 Sonnet 3분 46초, Opus 4분 18초인 반면 가장 빠를 줄 알았던 Haiku는 7분 48초로 2배 느렸다. Haiku는 같은 시도를 반복해 도구 호출이 56회(Sonnet 24회)에 달해 Sonnet을 권장한다.",
-    "tags": [
-      "모델 벤치마크",
-      "에이전트"
-    ],
-    "entities": [
-      "Claude Sonnet",
-      "Claude Opus",
-      "Claude Haiku"
-    ],
-    "cats": [
-      "LLM·모델",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-15T21:03:04.442Z"
-  },
-  {
-    "id": "d3839273b5858376",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "미네소타 기타리스트의 발명품 ‘palmfrets’, 새로운 화음을 열다",
-    "url": "https://news.hada.io/topic?id=37172&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T05:37:09+09:00",
-    "rawText": "기타리스트 Ben Ranson이 손바닥으로 현을 추가 프렛에 눌러 베이스 라인이나 멜로디를 연주하는 palmfrets를 공개함현을 뜯는 손의 손바닥 아래쪽 콩알뼈로 현을 누르고 엄지로 뜯는 방식으로, 기타 넥을 짚는 손은 다른 음이나 화음을 더 자유롭게 연주할 수 있음더 많은 저음을 내기 위한 음악적 실험에서 출발했으며, 엔지니어들과 시제품을 개선한 뒤 2026년 10월 6일 특허를 취득함기존 기타의 연주 기능을 방해하지 않고 기능을 더하는 것이 설계 원칙이지만, 새로운 연주법을 익히는 과정은 필요함직접 체험한 음악가 Darren…",
-    "summaryKo": "기타리스트 Ben Ranson이 손바닥 아래 뼈로 현을 눌러 베이스 라인이나 멜로디를 연주하게 하는 장치 palmfrets를 공개했다. 2026년 10월 특허를 취득했으며 기존 연주 기능을 방해하지 않는 것이 설계 원칙이다. AI와는 무관한 악기 발명 소식이다.",
-    "tags": [
-      "악기",
-      "하드웨어"
-    ],
-    "entities": [
-      "palmfrets"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "7de98ce5e4b61c75",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: AI 안전성 연구자 폴 크리스티아노(Paul Christiano)는 향후 3년 이내에 AI가 지구상의 주도권을 장악하는 'AI 장악(AI takeover)'의 위험이 매우...",
-    "url": "https://www.threads.com/t/DfvA_HcilQc",
-    "publishedAt": "Sat, 14 Nov 2026 20:00:50 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>AI 안전성 연구자 폴 크리스티아노(Paul Christiano)는 향후 3년 이내에 AI가 지구상의 주도권을 장악하는 'AI 장악(AI takeover)'의 위험이 매우 높다고 경고했습니다. 그가 정의하는 AI 장악은 AI가 인간처럼 지구상의 일을 결정하고, 최고 권력자조차 이를 저지하기 불가능해지는 통제 불능의 상태입니다. 만약 기술 개발 속도에만 매몰되어 가장 빠르고 쉬운 경로를 택한다면 그 확률은 \"동전 던지기(50%) 수준\"에 달할 것이라고 분석했습니다. 이러한 권력 이양은 인류 주권과 자기결정권의 종말을 의미하며, 거주 가능한 환경 유지 실패 등으로 막대한 인명 피해가 발생할 수 있습니다. 그는 현실적인 정책 대응을 감안하더라도 리스크는 여전히 심각하며, \"대부분의 사람에게 가장 유력한 사망 원인은 AI 사고가 될 것\"이라고 단언했습니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.71878-15/902308618_2392546811482709_3877987627027755655_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=111&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDQ0NDUyODg0MTkzNzk0OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=wQF1h5qgmFYQ7kNvwGD8rAq&amp;_nc_oc=Adpfk4DXwRwsB-WpGr_o13WEUwBepKUSokvvs27cjaNlLAtRbH7iZfDVGQOsPBD2r2I&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQQXlk0rFaJduUGwWlKcp0ZlPguK1ev_H249We7y_miPeg&amp;oe=6AFEA73C\"><source src=\"https://scontent-dfw6-1.cdninstagram.com/o1/v/t16/f2/m84/AQPYFm9qSXkZOcDVUg88xqVGF7fZP5dyvoh30hqRlBvmHtRCSXlaRCXYU_lZFts5GAloJwrfpgVs4_PWdGVg2Ja98xEtrEQxsashVeA.mp4?_nc_cat=108&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_ohc=0O88IoMwUUsQ7kNvwHTmdf-&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTY5OTI1MjExMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6MTE4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;vs=4863950f60ea20c0&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82QkE3ODE0NDNERjk0N0MxOUJBQUIwREU0NUM5Nzg5Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0RGMTEyMTdDRjVFRjRCNTFCMkVFMzE3ODQyNzgwMkRBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAtPij64r4PxUCKAJDMywXQF2MzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQTykSth1rZeWxIkAKX8sY-cJu1LDi_RyaY6yZE9ZLi5mA&amp;oe=6AFA97C0\"></video></p>",
-    "summaryKo": "AI 안전성 연구자 폴 크리스티아노가 3년 내 AI 장악 위험이 높고, 속도만 좇으면 확률이 50% 수준이라고 경고했다. AI 사고가 대부분 사람에게 가장 유력한 사망 원인이 될 것이라고도 말했다.",
-    "tags": [
-      "AI 안전",
-      "AI 리스크"
-    ],
-    "entities": [
-      "Paul Christiano"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "f481de5d4a8cc333",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "3Com에는 무슨 일이 있었나?",
-    "url": "https://news.hada.io/topic?id=37171&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T04:49:32+09:00",
-    "rawText": "네트워크 카드의 대표 브랜드였던 3Com은 기업용 네트워크 장비 사업 철수와 비핵심 사업 인수 등 잇따른 판단 실패로 수익성을 잃고, 2009년 말 HP에 27억 달러($2.7b)에 인수됨기업용 장비 사업 철수는 비용 절감 없이 매출 감소와 고객 및 판매점의 반발을 불렀으며, 여러 제품을 한 공급업체에서 구매하려는 기업 수요에도 어긋났음침체기 매출의 약 절반을 차지한 네트워크 카드는 Intel의 가격 경쟁에 밀렸고, 장비 사업에 다시 진입하려 할 때는 비용 부담이 커져 있었음US Robotics 인수로 진출한 전화접속 모뎀 사업은 광대역…",
-    "summaryKo": "네트워크 카드의 대표 브랜드였던 3Com이 기업용 장비 사업 철수 등 잇단 판단 실패로 수익성을 잃고 2009년 말 HP에 27억 달러에 인수된 과정을 돌아본다. AI와는 무관한 IT 기업사 글이다.",
-    "tags": [
-      "기업사",
-      "네트워크"
-    ],
-    "entities": [
-      "3Com",
-      "HP",
-      "Intel"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "88e15ea85cef9ed9",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "이탈리아, Android 사용자 데이터 접근 문제로 Meta에 8억 8,700만 달러 과징금 부과",
-    "url": "https://news.hada.io/topic?id=37170&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T04:46:32+09:00",
-    "rawText": "이탈리아 개인정보 보호 당국은 Meta가 Android 사용자의 사진과 동영상에 동의나 고지 없이 접근했다고 판단해 8억 500만 유로, 약 8억 8,700만 달러의 과징금을 부과함문제가 된 기능은 Facebook 앱의 게시물 추천 기능으로, 사용자 개인 갤러리에서 게시할 만한 콘텐츠를 추천하며 이탈리아 Android 사용자 약 2,000만 명이 영향을 받음Meta는 60일 이내에 해당 기능을 기본적으로 비활성화하고, 사용자 동의를 별도로 받아야 함Meta는 기기에서 사용자가 권한을 부여해야만 기능이 작동한다고 반박하며, 과징금이 과도하다며 불복…",
-    "summaryKo": "이탈리아 개인정보 당국이 Meta에 Android 사용자 갤러리 접근 문제로 약 8억 8,700만 달러 과징금을 부과했다. Facebook 게시물 추천 기능이 동의 없이 사진·동영상에 접근했다는 판단이며, Meta는 60일 내 기본 비활성화해야 하고 불복 의사를 밝혔다.",
-    "tags": [
-      "개인정보",
-      "규제"
-    ],
-    "entities": [
-      "Meta",
-      "Facebook",
-      "Android"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "9d29f7cf9e88a670",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Lovable 앱에서 여권 정보와 20만 건 이상의 비공개 메시지 노출",
-    "url": "https://news.hada.io/topic?id=37169&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T04:43:32+09:00",
-    "rawText": "Lovable 프로젝트 159,041개를 분석한 결과, 여러 앱에서 로그인 없이 개인정보와 기밀 데이터에 접근할 수 있었음Supabase 연동 사이트 중 초기 로딩 때 데이터베이스 레코드를 전송한 24,664개를 추가 조사해, 7,403개 사이트에서 이메일 주소가 포함된 레코드를 확인함노출 사례에는 8만 개 이상의 프로필과 20만 건 이상의 채팅 메시지, 여권 번호 등 신분증 정보가 담긴 1,000건 이상의 레코드가 포함됨이메일 주소가 발견된 비율인 30%는 확정된 데이터 유출률이 아님. 공개 연락처나 테스트 데이터일 수 있고, 조사 표본도 전체…",
-    "summaryKo": "Lovable 프로젝트 159,041개를 분석해 로그인 없이 개인정보에 접근 가능한 앱이 다수 있음을 확인했다. Supabase 연동 사이트 중 7,403곳에서 이메일 포함 레코드가 발견됐고 여권 정보 등도 노출됐으나, 30%가 곧 유출률은 아니다. 바이브코딩 앱의 보안 문제를 보여준다.",
-    "tags": [
-      "보안",
-      "바이브코딩"
-    ],
-    "entities": [
-      "Lovable",
-      "Supabase"
-    ],
-    "cats": [
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "49270f419b88f214",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 앤트로픽 CEO 다리오 아모데이(Dario Amodei)는 회사의 핵심 운영 철학으로 “약속은 적게 하고, 결과는 기대 이상으로 보여준다”는 원칙을 꼽았...",
-    "url": "https://www.threads.com/t/Dfu6Cu2CZCK",
-    "publishedAt": "Sat, 14 Nov 2026 19:00:10 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>앤트로픽 CEO 다리오 아모데이(Dario Amodei)는 회사의 핵심 운영 철학으로 “약속은 적게 하고, 결과는 기대 이상으로 보여준다”는 원칙을 꼽았습니다. 그는 기업 가치를 실제 가치보다 단 1달러라도 부풀리지 말라는 조언에 깊이 공감한다며, 앤트로픽 역시 출시 전 모델의 성능이나 안전성에 대해 모호한 기대감을 조성하는 식의 홍보는 지양한다고 밝혔습니다. 대신 모델을 먼저 개발하고 성능을 철저히 검증한 뒤에 공개하며, 안전 시스템 역시 완벽히 구축하고 검증한 후 내놓는 방식을 고수하고 있다고 설명했습니다. 즉, 화려한 말로 시장을 자극하기보다 실제 모델의 압도적 성능과 검증된 안전성이라는 ‘결과물’로 증명하겠다는 의지입니다.</p><p><video controls=\"\" autoplay=\"\" loop=\"\" poster=\"https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/907779196_2050093129009718_446901212035898541_n.jpg?stp=dst-jpg_e15_tt6&amp;_nc_cat=107&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDQxMzk5MDk3ODQ5MDUwNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjQwLnNkci52aWRlb19maXJzdF9mcmFtZV90aHVtYm5haWwuQzMifQ%3D%3D&amp;_nc_ohc=Q9-UPWeStc4Q7kNvwFHOfjp&amp;_nc_oc=AdqHvKkyCMiuIkUiZklbxSdSD52-L_LB2twf-UhrkajNA6mCY65YE99BeJWM2699cwc&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-1.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQolBAAAAA&amp;oh=00_AQQWf_62cy2McU8ygpyFfSwLL1RlOTgmxY5dtUQ-lOWHEg&amp;oe=6AFEA97D\"><source src=\"https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQO-Uc3tsIDEMlH1QeDEO3wbshBomWTsmwsxfZHKCIG9Q7dUzhW-uYbPJzmORrmkr_F-cGt-boO3LycMpf_WiQbzzKPA523d7Xa3B5s.mp4?_nc_cat=111&amp;_nc_sid=5e9851&amp;_nc_ht=scontent-dfw6-2.cdninstagram.com&amp;_nc_ohc=HgB81i6Zp2MQ7kNvwGEdKii&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uRkVFRC5DMy4xMjgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5OTY5NzQ5ODYxMTI4MzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDE2NCwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;vs=9584f1e2b016ce32&amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8yRURCNDQwM0VEMDU0RTUyQkZBMDkxOTYxODdGMjgyNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUwRUMyQzkzMUYwNjQxNkJCNDI3QjkzQ0U5MjIwRTYwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaAvaHR6In4PxUCKAJDMywXQEozMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHZeieAQA&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQRoamZcnaH0lmlAXkeI6H8knoFA-2k3ndPPCZr4v6Ed1A&amp;oe=6AFA99DD\"></video></p>",
-    "summaryKo": "Anthropic CEO 다리오 아모데이가 \"약속은 적게 하고 결과는 기대 이상으로 보여준다\"는 운영 철학을 밝혔다. 모델을 먼저 개발·검증하고 안전 시스템도 완성한 뒤 공개하며, 출시 전 모호한 기대감 조성은 피한다고 설명했다.",
-    "tags": [
-      "AI 안전",
-      "경영 철학"
-    ],
-    "entities": [
-      "Anthropic",
-      "Dario Amodei"
-    ],
-    "cats": [
-      "기업·정책",
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "b538e246d92621ac",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "Show HN: 오늘 밤 FAA 전국 이륙 중단 상황을 보여주는 미국 항공편 실시간 지도",
-    "url": "https://news.hada.io/topic?id=37167&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T03:32:06+09:00",
-    "rawText": "Ground Stop Watch는 미국 상공의 항공기 위치와 출발 현황을 실시간으로 보여주고, 타임라인으로 FAA 전국 이륙 중단과 회복 과정을 다시 살펴볼 수 있는 독립 웹페이지임adsb.fi의 ADS-B 추적 데이터와 FAA 공항 지연 정보를 활용하며, 공항별 출발과 항공사별 운항 규모를 일주일 전 같은 시간대와 비교함추적 데이터상 상공의 상업용 항공편은 최저점에서 전주 대비 96% 감소했고, 출발 편수가 평소의 4분의 1 미만인 상태가 5시간 34분 이어짐FAA는 2026년 11월 13일 오후 3시 54분 전국 이륙 중단을 명령하고 오후 8시 15분 해제…",
-    "summaryKo": "Ground Stop Watch는 ADS-B 데이터와 FAA 지연 정보로 미국 항공편을 실시간 표시하고, 2026년 11월 13일 FAA 전국 이륙 중단과 회복 과정을 타임라인으로 보여주는 웹페이지다. AI와는 무관한 Show HN 프로젝트다.",
-    "tags": [
-      "시각화",
-      "항공"
-    ],
-    "entities": [
-      "FAA",
-      "adsb.fi"
-    ],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "8b04989cf5f9fdf7",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 3/ 하버드의 제이슨 퍼먼은 2025년 상반기 정보처리 장비와 소프트웨어 투자가 GDP의 4%였는데 성장의 92%를 차지했다고 계산했고, ING는 올해도 ...",
-    "url": "https://www.threads.com/t/Dfu2uLIjxmx",
-    "publishedAt": "Sat, 14 Nov 2026 18:31:08 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>3/ 하버드의 제이슨 퍼먼은 2025년 상반기 정보처리 장비와 소프트웨어 투자가 GDP의 4%였는데 성장의 92%를 차지했다고 계산했고, ING는 올해도 미국 성장의 3분의 1가량이 AI에서 나온다고 봤습니다. 차마스 팔리하피티야는 올인 팟캐스트에서 이번 일로 미국 성장률이 0.5~1.5%포인트 깎일 위험까지 따져 봐야 한다고 했는데요. 민주당 의회가 데이터센터 규제를 예고한 상황에서 모두가 기대 온 중심축인 엔비디아의 투자까지 멈추면 성장 둔화가 빨라진다는 겁니다. 엔비디아의 미래 약정 3,660억 달러와 보증 한도 1,085억 달러가 그 중심축의 크기입니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/902621298_17997012372112832_2872037866631180606_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDM5MjQ2ODcwNzI2MzM0MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=Nei31JsFbekQ7kNvwG0vFNF&amp;_nc_oc=AdqgLhkVYcajgjPq0XgJmMu7ulBCbuaTbl-Sq82e9assnIfW-mKYrIiOt7Yaaojd1gs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQQoC9b2OfETIQN9x5u7thCqHmbt92cM5mTkuCTXj_RXRg&amp;oe=6AFE9614\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/907542210_17997012363112832_5308537841774474294_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDM5MjQ2NzYwODA5OTgzNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=RdPZLgJ1THgQ7kNvwGE3sBX&amp;_nc_oc=AdoGKNuEdStA-lgsrnhs__bi02Y1JcfkEsT6bnc0wBclTx-qLL3KlDK86Ae42q1NRmg&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQRD3lY5kZMRAy27nqUpW2SmXT8IyKFnD2uxaALG05qF_g&amp;oe=6AFE9FAE\" referrerpolicy=\"no-referrer\"></p><blockquote><p>5/ 그런데 지금 미국 GDP를 실제로 끌어올리고 있는 AI 투자는 이 계산에 포함되지 않습니다. 이 모델이 계산하는 것은 AI를 활용해 사람이 같은 업무를 더 빠르게 처리하면서 생기는 생산성 증가입니다. 반면 데이터센터를 짓고 GPU와 서버를 구매하면서 발생하는 투자와 수요 효과는 제외했다고 리포트에 명시했습니다. 현재는 이 부분의 규모도 상당합니다. AI 데이터센터와 관련 장비 투자는 올해 1분기 미국 GDP의 0.8%를 차지했고, 컴퓨팅 인프라 전체로 넓히면 1.5%였습니다. 2015~2022년 평균인 0.7%의 두 배가 넘습니다. 수입 장비가 GDP에 미치는 영향을 제외하고 계산해도 AI 투자는 올해 2분기 미국 경제성장 기여분의 36%를 차지했습니다. 외부 리뷰어 여러 명도 이 부분을 지적했고, 앤트로픽은 아직 모델에 반영하지 못한 한계로 리포트에 그대로 남겼습니다.</p><p></p>— @choi.openai — <a href=\"https://www.threads.com/t/DdHDhfUD5dg\">Thu, 10 Sep 2026 14:30:36 GMT</a></blockquote>",
-    "summaryKo": "AI 투자가 미국 성장에 얼마나 기여하는지를 짚는 스레드다. 하버드 제이슨 퍼먼은 2025년 상반기 정보처리 장비·소프트웨어 투자가 GDP의 4%지만 성장의 92%를 차지한다고 계산했고, 엔비디아의 미래 약정은 3,660억 달러에 달한다. 데이터센터 규제가 겹치면 성장 둔화가 빨라질 수 있다는 시각이다.",
-    "tags": [
-      "AI 투자",
-      "거시경제"
-    ],
-    "entities": [
-      "Nvidia",
-      "ING",
-      "Anthropic"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "3505cf97379c17af",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 2/ 이 일이 한 회사의 인사로 끝나지 않는 이유는 엔비디아의 크기에 있습니다. 엔비디아는 S&P 500의 6.9%를 차지하고, 매그니피센트 7을 합치면...",
-    "url": "https://www.threads.com/t/Dfu2tMzD0iK",
-    "publishedAt": "Sat, 14 Nov 2026 18:31:00 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> ↩️:</p><p>2/ 이 일이 한 회사의 인사로 끝나지 않는 이유는 엔비디아의 크기에 있습니다. 엔비디아는 S&amp;P 500의 6.9%를 차지하고, 매그니피센트 7을 합치면 33.7%인데요. 미국인의 연금과 인덱스펀드가 그만큼 이 회사들에 걸려 있다는 뜻입니다. 브루킹스에 실린 9월 논문은 2025년부터 2032년까지 AI 설비투자가 연평균 GDP의 3.63%에 이를 것으로 봤고, 1870년대 철도 투자가 2.24%, 닷컴 시기 통신망 투자가 1.10%였습니다. 미국 경제가 철도 시대보다 더 큰 비중으로 한 가지 투자에 기대고 있고, 그 투자의 장비 대부분을 파는 회사의 수장이 하루 만에 바뀐 겁니다.</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/890733724_17997012315112832_3873976982910544135_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=108&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDM5OTMwOTk2Njk5ODI5Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=sb0nG-1xUjwQ7kNvwHQw48O&amp;_nc_oc=Adr8pWzn99uDDDkQCuc62Q6JmsaY9N_Fiaxa43WiopTyOvotOvefG4GzhtpQSBazUFs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQTYA5c_oQRhpjhWGLpBYE-5FROaVPjSx11qGaV6GyNISA&amp;oe=6AFE8E3A\" referrerpolicy=\"no-referrer\"><img src=\"https://scontent-dfw5-3.cdninstagram.com/v/t51.82787-15/902962131_17997012339112832_56172319558051798_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDM5OTMwOTYzMTM5Njk2NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=tjc3nWr4IjQQ7kNvwEDQ2ov&amp;_nc_oc=Adp9K8UizsKyCD7oHEzlMHWT1_MJNxq1sES4MModWyhTAp9qKRGusxW5E9B4JlYHT88&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-3.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQR-Tm45pWrg6vmdVf-5YhZPS9A25psZw9ptELL0UrLZ8g&amp;oe=6AFE9F3E\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "엔비디아 수장 교체가 한 회사 인사로 끝나지 않는 이유를 규모로 설명하는 스레드다. 엔비디아는 S&P 500의 6.9%이고 매그니피센트 7은 33.7%이며, AI 설비투자는 연평균 GDP의 3.63%로 1870년대 철도(2.24%)보다 크다는 논문을 인용한다.",
-    "tags": [
-      "AI 투자",
-      "엔비디아"
-    ],
-    "entities": [
-      "Nvidia",
-      "Brookings"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "21f34cdc395712c6",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 1/ 젠슨 황이 11월 12일 엔비디아의 CEO와 이사직에서 물러난 지 사흘이 지났습니다. 33년 동안 회사를 이끈 창업자의 자리에는 CFO 콜렛 크레스...",
-    "url": "https://www.threads.com/t/Dfu2sTuj63N",
-    "publishedAt": "Sat, 14 Nov 2026 18:30:53 GMT",
-    "rawText": "<p><strong>@choi.openai</strong> 🔁:</p><p>1/ 젠슨 황이 11월 12일 엔비디아의 CEO와 이사직에서 물러난 지 사흘이 지났습니다. 33년 동안 회사를 이끈 창업자의 자리에는 CFO 콜렛 크레스가 임시로 앉았고, 주가는 11일 173.73달러에서 13일 162.85달러로 내렸으며 사임 당일 장 초반에는 13% 넘게 빠졌는데요. 시가총액은 10월 5일 고점 5조 7,500억 달러에서 사임 당일 4조 50억 달러가 됐습니다. 저는 이사회가 결정을 미루면 고점 대비 반토막까지 열려 있다고 생각하면서도, 그 압력 때문에 젠슨이 생각보다 빨리 돌아올 가능성에 더 무게를 둡니다. 이 글은 계약, 사람, 거시경제, 워싱턴 네 갈래로 그 이유를 따라갑니다.</p><p><img src=\"https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/902158924_17997012291112832_2976104783856472518_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=104&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDM5OTI1NTg5NDAxMTM0MQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=Hi8ayn2hALUQ7kNvwGRLAM3&amp;_nc_oc=Adod_KEc2RutPXXMW6ymZmZe-T8TAgqesqmQ5FmnjqXqrRBxvz0NkD-fGiswpFQurCs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw5-2.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQSaZLG9k9oPkLQpnQ-dVAG-jrF9CKptUbfgxt6PhEGK6w&amp;oe=6AFEA3A3\" referrerpolicy=\"no-referrer\"></p><blockquote><p>우연이라기엔 겹치는 게 많습니다. 봄에 쓰인 기밀 메모가 중간선거 닷새 전에 보도됐고, 민주당이 의회를 가져간 지 9일 만에 젠슨 황이 사임했는데요. 그사이 가장 많은 것을 얻은 쪽은 2년 동안 칩 수출통제에 4,000만 달러를 쓴 앤트로픽입니다. 젠슨 황 사임을 둘러싼 배후설을 정리했습니다. 🧵</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/902008118_17996664522112832_5243632714215380047_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAyODg2MTgwODg0ODY2NTk5NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjU0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&amp;_nc_ohc=b2cZOdZS8CEQ7kNvwH5mvdY&amp;_nc_oc=Adq9o7ScvefZBmtEOEqxtF5cFrTODUIh4MoVJSDwz1CiQUb5uiP9jzS1fs_FkZLJakw&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQRRw3xVFBI9dKIrYSDJyYYfYGHX3pmRPLWIqDm_XgeZ6w&amp;oe=6AFE9C1B\" referrerpolicy=\"no-referrer\"></p>— @choi.openai — <a href=\"https://www.threads.com/t/DfpZHglj_2K\">Thu, 12 Nov 2026 15:36:15 GMT</a></blockquote>",
-    "summaryKo": "젠슨 황이 2026년 11월 12일 엔비디아 CEO와 이사직에서 물러난 뒤 주가가 급락하고 시가총액이 5조 7,500억 달러에서 4조 달러대로 줄었다는 스레드 도입부다. 작성자는 계약·사람·거시경제·워싱턴 네 갈래로 분석하며 젠슨이 빨리 복귀할 가능성에 무게를 둔다.",
-    "tags": [
-      "엔비디아",
-      "CEO 교체"
-    ],
-    "entities": [
-      "Nvidia",
-      "Jensen Huang",
-      "Anthropic"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "8acbaa594ca0505d",
-    "sourceType": "news",
-    "source": "Threads",
-    "title": "@choi.openai: 젠슨 황은 생각보다 빨리 엔비디아로 돌아올 수도 있을 것 같습니다. 이사회가 하루 만에 내보낸 사람을 다시 부르지 않고 버티면, 엔비디아 주가...",
-    "url": "https://www.threads.com/t/Dfu2rolj9wF",
-    "publishedAt": "Sat, 14 Nov 2026 18:30:48 GMT",
-    "rawText": "<p><strong>@choi.openai</strong>:</p><p>젠슨 황은 생각보다 빨리 엔비디아로 돌아올 수도 있을 것 같습니다. 이사회가 하루 만에 내보낸 사람을 다시 부르지 않고 버티면, 엔비디아 주가가 고점의 절반까지 밀릴 수 있는 이유가 쌓여 있기 때문인데요. 계약서 밖의 악수, 이미 부자가 된 엔지니어, 미국 성장률을 떠받치는 AI 투자와 워싱턴의 계산까지 이어봤습니다. 🧵</p><p><img src=\"https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/905834197_17997014826112832_2076949775105334545_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=NDAzMDM5OTIwOTU3MjEyOTc5Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=Sds8OUjUh3MQ7kNvwHP9X4X&amp;_nc_oc=Adr0SdkyT-DxIaYaQZmdK_EXNz_i1foG5v1UeiUZbGgr_Tb5lgsAkEaRRpw_QHZKdn0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-dfw6-1.cdninstagram.com&amp;_nc_gid=ioKbr-787TlpFrcQxaIqaQ&amp;_nc_ss=7a20f&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQSVBPsh7R4qv0IK3ogDG67J6FvD5XV72BpEUUSOoFeCmg&amp;oe=6AFE8CCF\" referrerpolicy=\"no-referrer\"></p>",
-    "summaryKo": "이사회가 하루 만에 내보낸 젠슨 황을 다시 부르지 않으면 엔비디아 주가가 고점의 절반까지 밀릴 수 있어, 그가 예상보다 빨리 복귀할 것이라는 전망을 담은 스레드 첫 글이다. 계약 밖 관계, 엔지니어, AI 투자와 성장률, 워싱턴의 계산을 근거로 든다.",
-    "tags": [
-      "엔비디아",
-      "CEO 교체"
-    ],
-    "entities": [
-      "Nvidia",
-      "Jensen Huang"
-    ],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "6ba41ecd832ade8e",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "테크 기업들이 프라이버시의 개념을 다시 바꾸려 함",
-    "url": "https://news.hada.io/topic?id=37166&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T02:33:13+09:00",
-    "rawText": "스마트 안경과 녹음형 웨어러블은 사용자 한 사람의 선택으로 주변인의 대화와 행동까지 기록하며, 프라이버시 문제를 물리적 일상으로 더 깊이 확장함기업의 암호화, 접근 제한, 개인정보 설정 같은 기술적 보호 약속은 기기 사용자에게 집중되며, 기록 대상이 된 비사용자가 실질적으로 거부할 방법은 제공하지 못함원본 음성을 저장하지 않더라도 대화 요약과 전사 기록은 남을 수 있으며, 법 집행기관의 데이터 접근 문제도 피할 수 없음눈에 띄는 녹음이나 필기와 달리 수동 조작 없는 상시 감시는 지속적인 기록을 장려하고 사용…",
-    "summaryKo": "스마트 안경·녹음 웨어러블은 사용자 한 명의 선택으로 주변인의 대화까지 기록해 프라이버시 문제를 일상으로 확장한다는 비판 글이다. 기업의 암호화·접근 제한 약속은 기록당하는 비사용자를 보호하지 못하고 요약·전사 기록과 법 집행기관 접근 문제도 남는다.",
-    "tags": [
-      "프라이버시",
-      "웨어러블"
-    ],
-    "entities": [],
-    "cats": [
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "4e3b0a8a70939c6d",
-    "sourceType": "news",
-    "source": "GeekNews",
-    "title": "누구나 이해할 수 있는 ML 모듈",
-    "url": "https://news.hada.io/topic?id=37165&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news",
-    "publishedAt": "2026-11-15T02:02:51+09:00",
-    "rawText": "ML 모듈은 함수와 타입을 묶는 데 그치지 않고, 모듈 자체에 시그니처(signature) 라는 타입을 부여해 공개 인터페이스와 구현을 분리함하나의 구현에 서로 다른 시그니처를 적용하면 내부 함수를 숨기거나, 일부 기능만 제공하는 모듈로 재사용할 수 있음추상 타입은 내부 자료 표현까지 감춰 외부 코드가 불변 조건을 깨뜨리지 못하게 함매개변수화된 모듈은 다른 모듈을 입력받아 타입과 연산을 함께 전달받으며, include는 작게 나눈 모듈을 다시 조합할 수 있게 함빌드 시스템의 캐시와 실행기를 교체하는 사례처럼 정적 모듈 연…",
-    "summaryKo": "ML 계열 언어의 모듈 시스템을 소개하는 글로, 시그니처 타입으로 인터페이스와 구현을 분리하고 추상 타입으로 불변 조건을 지키는 방법을 설명한다. 매개변수화 모듈(펑터)과 include로 모듈을 조합하는 사례를 든다. AI와는 직접 관련 없는 프로그래밍 언어 주제다.",
-    "tags": [
-      "ML 모듈",
-      "타입 시스템"
-    ],
-    "entities": [],
-    "cats": [
-      "코딩·개발"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "0ee18ab830622e7e",
-    "sourceType": "youtube",
-    "source": "AgentOS",
-    "title": "Higgsfield Seedance 2.5 4K 출시 — 30초 4K를 Draft로 먼저 확인하는 법 (블랙프라이데이 최대 60%)",
-    "url": "https://www.youtube.com/watch?v=Gzzij25RxdA",
-    "publishedAt": "2026-11-14T13:29:01+00:00",
-    "rawText": "Higgsfield Seedance 2.5 4K 출시 — 30초 4K를 Draft로 먼저 확인하는 법 (블랙프라이데이 최대 60%)",
-    "videoId": "Gzzij25RxdA",
-    "summaryKo": "Seedance 2.5 4K가 Higgsfield에 출시됐으며, 30초 4K 한 번에 1,020크레딧이 드니 90크레딧 Draft로 먼저 확인하고 마음에 드는 것만 업스케일하라는 워크플로를 보여준다. 블랙프라이데이 최대 60% 할인과 요금제도 다룬다(광고 포함).",
-    "tags": [
-      "영상 생성",
-      "4K",
-      "Draft"
-    ],
-    "entities": [
-      "Higgsfield",
-      "Seedance 2.5",
-      "Pixverse"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "86cb40ff30fcde35",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "Git은 이러라고 만든 게 아님 | Scion & Pando",
-    "url": "https://www.youtube.com/watch?v=iysCcCRKZA4",
-    "publishedAt": "2026-11-14T09:14:37+00:00",
-    "rawText": "Git은 이러라고 만든 게 아님 | Scion & Pando",
-    "videoId": "iysCcCRKZA4",
-    "summaryKo": "Anthropic은 하루 3만 건 넘는 PR 머지를 감당하려 Git 대신 자체 도구 Scion을, OpenAI는 Git을 유지한 채 서버 Pando를 만들었다. 에이전트 규모에서 Git의 한계와 두 접근의 차이를 풀어준다. 대부분 팀은 아직 필요 없고 git worktree·CI 취소·의도 기반 리뷰가 현실적이라고 결론짓는다.",
-    "tags": [
-      "Git",
-      "버전 관리",
-      "에이전트"
-    ],
-    "entities": [
-      "Anthropic",
-      "OpenAI",
-      "Scion",
-      "Pando",
-      "Git"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z",
-    "hasAnalysis": true
-  },
-  {
-    "id": "dad3e1d05719b269",
-    "sourceType": "youtube",
-    "source": "신영선의 AI탐구",
-    "title": "AI 엔지니어가 꼭 아는 단어 23개 #ai #llm #rag",
-    "url": "https://www.youtube.com/shorts/vCQP3UmkIsM",
-    "publishedAt": "2026-11-14T09:06:30+00:00",
-    "rawText": "AI 엔지니어가 꼭 아는 단어 23개 #ai #llm #rag",
-    "videoId": "",
-    "summaryKo": "AI 엔지니어가 꼭 알아야 할 용어 23개를 소개하는 쇼츠다(LLM, RAG 등). 자막을 받지 못해 제목 기준으로 요약했다.",
-    "tags": [
-      "LLM",
-      "RAG"
-    ],
-    "entities": [],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "a942b31f1faf44d2",
-    "sourceType": "youtube",
-    "source": "개발동생",
-    "title": "AI가 내 아이폰을 직접 만집니다 (Claude Code)",
-    "url": "https://www.youtube.com/shorts/JELo4xNLtZY",
-    "publishedAt": "2026-11-14T09:00:04+00:00",
-    "rawText": "AI가 내 아이폰을 직접 만집니다 (Claude Code)",
-    "videoId": "",
-    "summaryKo": "Claude Code가 아이폰을 직접 조작하는 장면을 보여주는 쇼츠다. 자막을 받지 못해 제목 기준으로 요약했다.",
-    "tags": [
-      "Claude Code",
-      "모바일 자동화"
-    ],
-    "entities": [
-      "Claude Code",
-      "iPhone"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-14T21:03:04.024Z"
-  },
-  {
-    "id": "b65275121b63ddde",
-    "sourceType": "youtube",
-    "source": "시민개발자 구씨",
-    "title": "회사 데이터, AI에 그냥 올려도 될까? 원본 없이 Claude Code로 분석",
-    "url": "https://www.youtube.com/watch?v=nXpInKYlRfs",
-    "publishedAt": "2026-11-14T03:30:27+00:00",
-    "rawText": "회사 데이터, AI에 그냥 올려도 될까? 원본 없이 Claude Code로 분석",
-    "videoId": "nXpInKYlRfs",
-    "summaryKo": "고객 데이터를 AI에 올리기 곤란할 때 실제 값 없이 열 설명서(스키마)만으로 합성 데이터를 만들어 Claude Code(클라우드 세션)로 분석 HTML 도구를 짓는 방법이다. 완성된 도구는 오프라인에서 진짜 데이터로 돌려 개인정보 노출을 피한다.",
-    "tags": [
-      "개인정보",
-      "합성 데이터",
-      "Claude Code"
-    ],
-    "entities": [
-      "Claude Code",
-      "Anthropic",
-      "GitHub"
-    ],
-    "cats": [
-      "코딩·개발",
-      "기업·정책"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-14T21:03:04.024Z",
     "hasAnalysis": true
   }
 ]
