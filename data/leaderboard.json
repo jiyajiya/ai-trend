@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-11-22",
-  "windowLabel": "2026년 10월 19일~11월 3일 기준",
-  "updatedAt": "2026-11-21T21:09:06Z",
+  "asOf": "2026-11-23",
+  "windowLabel": "2026년 10월 19일~11월 23일 기준",
+  "updatedAt": "2026-11-22T21:03:11Z",
   "intro": "LMSYS Chatbot Arena · Artificial Analysis · Hugging Face · LLM Stats · Vellum 등 주요 리더보드를 종합한 영역별 추천 모델입니다.\n약사·전문 업무(💊)와 개발 업무(⚙️)에 유용한 순서로 정리했습니다.",
   "categories": [
     {
@@ -14,37 +14,37 @@
       "ranks": [
         {
           "rank": 1,
-          "model": "Gemini 4 Carbon (high)",
-          "score": "Index 59",
-          "basis": "Intelligence Index 59점 1위",
+          "model": "Claude Fable 5.2 (Max)",
+          "score": "Index 65",
+          "basis": "Intelligence Index 65점 1위",
           "source": "artificialanalysis"
         },
         {
           "rank": 2,
-          "model": "Claude Opus 5.5 (max)",
-          "score": "Index 58",
-          "basis": "Intelligence Index 58점 2위, Gemini 4 Carbon (medium)과 동점",
+          "model": "GPT-6.2 Astra (Max)",
+          "score": "Index 62",
+          "basis": "Intelligence Index 62점 2위",
           "source": "artificialanalysis"
         },
         {
           "rank": 3,
-          "model": "Gemini 4 Carbon (medium)",
-          "score": "Index 58",
-          "basis": "Intelligence Index 58점, Opus 5.5 (max)와 동점 (신규 진입)",
+          "model": "Gemini 4 Neon (xhigh)",
+          "score": "Index 61",
+          "basis": "Intelligence Index 61점",
           "source": "artificialanalysis"
         },
         {
           "rank": 4,
-          "model": "Claude Opus 5.5 (xhigh)",
-          "score": "Index 57",
-          "basis": "Intelligence Index 57점, GPT-6 Astra (max)와 동점",
+          "model": "Gemini 4 Carbon (high)",
+          "score": "Index 60",
+          "basis": "Intelligence Index 60점",
           "source": "artificialanalysis"
         },
         {
           "rank": 5,
-          "model": "GPT-6 Astra (max)",
-          "score": "Index 57",
-          "basis": "Intelligence Index 57점, Opus 5.5 (xhigh)와 동점",
+          "model": "Claude Opus 5.5 (Max)",
+          "score": "Index 59",
+          "basis": "Intelligence Index 59점",
           "source": "artificialanalysis"
         }
       ]
@@ -312,58 +312,23 @@
       "ranks": [
         {
           "rank": 1,
-          "model": "MiMo-V2.6-Pro",
+          "model": "Kimi K3.1 Pro",
           "score": "Index 46",
-          "basis": "Intelligence Index 46, 오픈웨이트 1위 (신규 진입, Xiaomi)",
+          "basis": "Intelligence Index 46, 오픈웨이트 1위",
           "source": "artificialanalysis"
         },
         {
           "rank": 2,
-          "model": "GLM-5.3 (max)",
-          "score": "Index 45",
-          "basis": "Intelligence Index 45 (max)",
+          "model": "Tencent Hy4",
+          "score": "Index 35",
+          "basis": "Intelligence Index 35",
           "source": "artificialanalysis"
         },
         {
           "rank": 3,
-          "model": "Kimi K3 (max)",
-          "score": "Index 44",
-          "basis": "Intelligence Index 44 (max)",
-          "source": "artificialanalysis"
-        },
-        {
-          "rank": 4,
-          "model": "GLM-5.3-Flash",
-          "score": "Index 42",
-          "basis": "Intelligence Index 42",
-          "source": "artificialanalysis"
-        },
-        {
-          "rank": 5,
-          "model": "DeepSeek V4.1 Flash",
-          "score": "Index 39",
-          "basis": "Intelligence Index 39",
-          "source": "artificialanalysis"
-        },
-        {
-          "rank": 6,
-          "model": "Qwen3.8 27B",
-          "score": "Index 34",
-          "basis": "Intelligence Index 34",
-          "source": "artificialanalysis"
-        },
-        {
-          "rank": 7,
-          "model": "K2 Horizon 375B A23B",
-          "score": "Index 31",
-          "basis": "Intelligence Index 31, MBZUAI Institute of Foundation Models 오픈웨이트",
-          "source": "artificialanalysis"
-        },
-        {
-          "rank": 8,
-          "model": "MiniMax-M3",
-          "score": "Index 29",
-          "basis": "Intelligence Index 29 (신규 진입)",
+          "model": "DeepSeek V4.1 Flash (Max)",
+          "score": "Index 33",
+          "basis": "Intelligence Index 33",
           "source": "artificialanalysis"
         }
       ]
@@ -506,7 +471,7 @@
     {
       "name": "Artificial Analysis",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updated": "2026년 10월 21일"
+      "updated": "2026년 11월 23일"
     },
     {
       "name": "Text-to-Image Arena",
