@@ -36,13 +36,13 @@
     "url": "https://github.com/ccch1mneyyy/dsh-Go",
     "publishedAt": "2026-10-25T08:09:52Z",
     "rawText": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "score": 30734,
+    "score": 31315,
     "lang": "Dart",
     "rank": 1,
-    "summaryKo": "DeepSeek 하네스를 휴대폰에서 로컬로 실행하고 PC도 원격 제어할 수 있게 하는 dsh-go 저장소다.",
+    "summaryKo": "DeepSeek Harness를 휴대폰에서 로컬로 돌리고 원격으로 PC까지 제어하게 해 주는 dsh-go 저장소다.",
     "tags": [
       "DeepSeek",
-      "원격 제어"
+      "모바일 에이전트"
     ],
     "entities": [
       "DeepSeek"
@@ -51,7 +51,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "1e52228e1c5c3f80",
@@ -60,13 +60,13 @@
     "title": "thinkingmachines/Inkling-2-Mini",
     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
     "publishedAt": "2026-11-17T00:26:57.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, inkling2_loop, image-text-to-text, conversational, moe, license:apache-2.0, endpoints_compatible",
-    "score": 1100.5,
+    "rawText": "image-text-to-text | transformers, safetensors, inkling2_loop, image-text-to-text, conversational, moe, license:apache-2.0, eval-results",
+    "score": 1224,
     "rank": 1,
-    "summaryKo": "Thinking Machines가 Apache-2.0 라이선스의 멀티모달(이미지-텍스트) MoE 모델 Inkling-2-Mini를 공개했다.",
+    "summaryKo": "Thinking Machines가 공개한 Apache-2.0 라이선스 MoE 이미지-텍스트 모델 Inkling-2-Mini다. transformers와 safetensors로 제공되며 평가 결과가 포함됐다.",
     "tags": [
       "MoE",
-      "멀티모달"
+      "비전-언어"
     ],
     "entities": [
       "Thinking Machines",
@@ -77,7 +77,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -115,25 +115,24 @@
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
     "publishedAt": "2026-09-26T10:10:41Z",
     "rawText": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
-    "score": 20262,
+    "score": 20646,
     "lang": "JavaScript",
     "rank": 2,
-    "summaryKo": "Claude Code용 영상 스타일 도구상자로, 99개의 스타일 프롬프트와 Claude Opus 5.5가 코드만으로 만든 데모 영상을 제공한다. 영상 모델 없이 코드로 영화를 만드는 접근이다.",
+    "summaryKo": "Claude Code용 영화 스타일 도구 모음으로, 영상 모델 없이 Claude Opus 5.5가 코드만으로 만든 데모 필름이 있는 99개 스타일을 제공한다.",
     "tags": [
-      "코드 영상",
-      "스타일"
+      "코드 기반 영상",
+      "Claude Code"
     ],
     "entities": [
       "Claude Code",
-      "Claude Opus 5.5",
-      "Lemomo"
+      "Claude Opus 5.5"
     ],
     "cats": [
-      "멀티모달",
-      "코딩·개발"
+      "코딩·개발",
+      "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "7bbde4382a9fd7e8",
@@ -143,12 +142,12 @@
     "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
     "publishedAt": "2026-11-20T13:09:48.000Z",
     "rawText": "image-text-to-text | gguf, conversational, image-text-to-text, moe, unsloth, base_model:thinkingmachines/Inkling-2-Mini, base_model:quantized:thinkingmachines/Inkling-2-Mini, license:apache-2.0",
-    "score": 957,
+    "score": 1079,
     "rank": 2,
-    "summaryKo": "Unsloth가 Inkling-2-Mini의 GGUF 양자화판을 공개해 로컬 실행을 쉽게 했다.",
+    "summaryKo": "Unsloth가 Inkling-2-Mini를 GGUF로 양자화해 로컬 추론이 가능하게 한 버전이다.",
     "tags": [
-      "GGUF",
-      "양자화"
+      "양자화",
+      "GGUF"
     ],
     "entities": [
       "Unsloth",
@@ -158,7 +157,7 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "d613713582a82efc",
@@ -167,11 +166,11 @@
     "title": "BaaRai/ARTEX",
     "url": "https://github.com/BaaRai/ARTEX",
     "publishedAt": "2026-10-08T21:14:39Z",
-    "rawText": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
-    "score": 17554,
+    "rawText": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
+    "score": 19060,
     "lang": "Go",
     "rank": 3,
-    "summaryKo": "AI 자율 침투 테스트 시스템 ARTEX의 영문 번역판 저장소다(원본 Autumn-27/ARTEX, AGPL-3.0).",
+    "summaryKo": "셀프호스팅 가능한 모델 비종속 AI 자율 침투 테스트 시스템 ARTEX의 커뮤니티 유지보수 버전(AGPL-3.0)으로, 증거 기반 결과를 제공한다.",
     "tags": [
       "침투 테스트",
       "보안"
@@ -183,7 +182,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "552aaf9e335058e0",
@@ -193,12 +192,12 @@
     "url": "https://huggingface.co/inworld/voice-isolator",
     "publishedAt": "2026-11-14T02:14:35.000Z",
     "rawText": "audio-to-audio | inworld-voice-isolation, audio, speech, speech-enhancement, speech-denoising, noise-suppression, voice-isolation, 48khz",
-    "score": 548,
+    "score": 620,
     "rank": 3,
-    "summaryKo": "Inworld의 48kHz 음성 분리·노이즈 억제 모델 voice-isolator로, 오디오에서 목소리만 추출한다.",
+    "summaryKo": "Inworld의 48kHz 음성 분리·노이즈 제거 모델 voice-isolator다.",
     "tags": [
-      "음성 분리",
-      "노이즈 억제"
+      "음성",
+      "노이즈 제거"
     ],
     "entities": [
       "Inworld"
@@ -207,7 +206,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -217,13 +216,13 @@
     "url": "https://github.com/KKKKhazix/AIHOT",
     "publishedAt": "2026-09-28T23:40:05Z",
     "rawText": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-    "score": 11294,
+    "score": 11351,
     "lang": "TypeScript",
     "rank": 4,
-    "summaryKo": "신호원과 선별 기준만 바꾸면 업계별 핫이슈 사이트가 되는 프레임워크로, 스스로 핫이슈를 찾아 일일 리포트를 쓴다.",
+    "summaryKo": "신호원과 선별 기준을 바꿔 끼우면 스스로 핫이슈를 찾고 일일 리포트를 쓰는 산업별 핫토픽 사이트 프레임워크다.",
     "tags": [
-      "뉴스 자동화",
-      "프레임워크"
+      "뉴스 큐레이션",
+      "자동화"
     ],
     "entities": [
       "AIHOT"
@@ -232,7 +231,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "d4687905ee9aa345",
@@ -242,22 +241,22 @@
     "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
     "publishedAt": "2026-11-20T20:42:23.000Z",
     "rawText": "image-text-to-text | gguf, llama.cpp, inkling2, uncensored, lora, image-text-to-text, base_model:thinkingmachines/Inkling-2-Mini, base_model:adapter:thinkingmachines/Inkling-2-Mini",
-    "score": 376.59999999999997,
+    "score": 429.09999999999997,
     "rank": 4,
-    "summaryKo": "AtomicChat이 Inkling-2-Mini에 LoRA를 적용한 비검열(Uncensored) GGUF 변형을 공개했다.",
+    "summaryKo": "Inkling-2-Mini에 LoRA로 제약을 푼 비검열 GGUF 파생 모델이며 llama.cpp로 실행할 수 있다.",
     "tags": [
       "LoRA",
       "GGUF"
     ],
     "entities": [
-      "AtomicChat",
-      "Inkling-2-Mini"
+      "Inkling-2-Mini",
+      "AtomicChat"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "1e03415a592fab86",
@@ -267,10 +266,10 @@
     "url": "https://github.com/wangzan101/Mika",
     "publishedAt": "2026-10-29T14:34:07Z",
     "rawText": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-    "score": 9758,
+    "score": 9863,
     "lang": "Kotlin",
     "rank": 5,
-    "summaryKo": "앱과 웹을 직접 조작해 일을 처리하는 Android 온디바이스 AI 에이전트 Mika 저장소다.",
+    "summaryKo": "앱과 웹을 직접 조작해 일을 처리해 주는 안드로이드 온디바이스 AI 에이전트 Mika 저장소다.",
     "tags": [
       "온디바이스",
       "모바일 에이전트"
@@ -283,7 +282,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "92c1824269f45469",
@@ -318,9 +317,9 @@
     "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
     "publishedAt": "2026-11-16T06:52:31.000Z",
     "rawText": "image-text-to-text | peft, safetensors, trl, grpo, async-grpo, lora, agents, harbor",
-    "score": 346.5,
+    "score": 326.5,
     "rank": 5,
-    "summaryKo": "Qwen3.8-27B를 GRPO 강화학습 LoRA로 에이전트용에 맞춘 어댑터 harness-hub/Qwen3.8-27B-pi-adapted다.",
+    "summaryKo": "Qwen3.8-27B를 GRPO(async)와 LoRA로 에이전트 용도에 맞게 적응시킨 어댑터다.",
     "tags": [
       "GRPO",
       "LoRA"
@@ -334,7 +333,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "f841d7a6d6b4d1e3",
@@ -369,49 +368,24 @@
     "url": "https://github.com/microsoft/TokenEconomizer",
     "publishedAt": "2026-10-13T04:16:50Z",
     "rawText": "Experience-Driven Black-Box Cost Control for Coding Agents",
-    "score": 8017,
+    "score": 8073,
     "lang": "Python",
     "rank": 6,
-    "summaryKo": "마이크로소프트의 TokenEconomizer는 경험 기반으로 코딩 에이전트의 비용을 블랙박스 방식으로 통제하는 프로젝트다.",
+    "summaryKo": "Microsoft가 공개한 TokenEconomizer는 경험 기반으로 코딩 에이전트의 비용을 블랙박스 방식으로 제어하는 도구다.",
     "tags": [
-      "비용 절감",
+      "비용 최적화",
       "코딩 에이전트"
     ],
     "entities": [
-      "Microsoft"
+      "Microsoft",
+      "TokenEconomizer"
     ],
     "cats": [
       "코딩·개발",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
-  },
-  {
-    "id": "0f2a3986db5a5792",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "apple/FastFrames-L",
-    "url": "https://huggingface.co/apple/FastFrames-L",
-    "publishedAt": "2026-11-16T17:21:04.000Z",
-    "rawText": "text-to-video | safetensors, text-to-video, arxiv:2611.23226, base_model:Wan-AI/Wan2.1-T2V-14B, base_model:finetune:Wan-AI/Wan2.1-T2V-14B, license:apple-amlr, region:us",
-    "score": 335,
-    "rank": 6,
-    "summaryKo": "Apple의 FastFrames-L은 Wan2.1-T2V-14B를 파인튜닝한 텍스트-투-비디오 모델이다(arXiv 2611.23226).",
-    "tags": [
-      "비디오 생성",
-      "Diffusion"
-    ],
-    "entities": [
-      "Apple",
-      "Wan2.1",
-      "FastFrames-L"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-21T21:09:15.133Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "bb6e58f548947f8d",
@@ -446,50 +420,47 @@
     "url": "https://huggingface.co/higurashi-ai/Haru-4B",
     "publishedAt": "2026-11-12T11:05:59.000Z",
     "rawText": "audio-to-audio | safetensors, haru, speech, full-duplex, speech-to-speech, audio-to-audio, en, es",
-    "score": 252,
+    "score": 234,
     "rank": 6,
-    "summaryKo": "higurashi-ai의 Haru-4B는 영어·스페인어를 지원하는 전이중(full-duplex) 음성-음성 변환 모델이다.",
+    "summaryKo": "영어·스페인어를 지원하는 4B 규모의 풀듀플렉스 음성-음성 모델 Haru-4B다.",
     "tags": [
       "음성-음성",
-      "전이중"
+      "풀듀플렉스"
     ],
     "entities": [
       "Haru-4B"
     ],
     "cats": [
-      "멀티모달"
+      "멀티모달",
+      "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
-    "id": "e345e1e0e83d199b",
+    "id": "66c6c22e7581c7e2",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "Louis-CFM/coucou",
-    "url": "https://github.com/Louis-CFM/coucou",
-    "publishedAt": "2026-09-27T21:54:12Z",
-    "rawText": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-    "score": 7414,
-    "lang": "Swift",
+    "title": "mdiri-ai/SoduWork",
+    "url": "https://github.com/mdiri-ai/SoduWork",
+    "publishedAt": "2026-10-29T02:43:14Z",
+    "rawText": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+    "score": 7599,
+    "lang": "JavaScript",
     "rank": 7,
-    "summaryKo": "Mac 노치와 iPhone에서 Claude Code, Codex, Cursor, Gemini CLI 등 코딩 에이전트를 감시하고 잠금화면에서 승인할 수 있는 앱이다.",
+    "summaryKo": "팀과 에이전트를 위한 AI 네이티브 엔진으로, 멀티 하네스·멀티 에이전트를 지원하는 셀프호스팅 SoduWork 저장소다.",
     "tags": [
-      "에이전트 모니터링",
-      "macOS"
+      "멀티에이전트",
+      "셀프호스팅"
     ],
     "entities": [
-      "Claude Code",
-      "Codex",
-      "Cursor",
-      "Gemini CLI"
+      "SoduWork"
     ],
     "cats": [
-      "코딩·개발",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "f8b99a0f63453db1",
@@ -517,31 +488,6 @@
     "fetchedAt": "2026-11-17T21:04:22.895Z"
   },
   {
-    "id": "1376e40b20c31bdd",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "apple/DepthPro2",
-    "url": "https://huggingface.co/apple/DepthPro2",
-    "publishedAt": "2026-11-03T16:55:03.000Z",
-    "rawText": "depth-estimation | depth-pro-2, depth-estimation, metric-depth, monocular-depth, video-depth, arxiv:2611.26603, license:other, region:us",
-    "score": 221,
-    "rank": 7,
-    "summaryKo": "애플이 단안 메트릭 깊이 추정과 영상 깊이를 지원하는 DepthPro2 모델을 공개했다.",
-    "tags": [
-      "깊이 추정",
-      "비전"
-    ],
-    "entities": [
-      "Apple",
-      "DepthPro2"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-22T21:03:20.416Z"
-  },
-  {
     "id": "364859f834c86602",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -549,9 +495,9 @@
     "url": "https://huggingface.co/tencent/Hy4-flash",
     "publishedAt": "2026-11-17T03:44:46.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, hy_v4_flash, text-generation, hunyuan, hy4-flash, moe, multimodal",
-    "score": 219.5,
+    "score": 230.5,
     "rank": 7,
-    "summaryKo": "텐센트가 Hunyuan 계열의 멀티모달 MoE 모델 Hy4-flash를 Hugging Face에 공개했다.",
+    "summaryKo": "Tencent가 공개한 Hunyuan 계열 MoE 멀티모달 모델 Hy4-flash다.",
     "tags": [
       "MoE",
       "멀티모달"
@@ -566,7 +512,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "aa761416b31101fe",
@@ -593,29 +539,57 @@
     "fetchedAt": "2026-11-18T21:02:59.850Z"
   },
   {
-    "id": "66c6c22e7581c7e2",
+    "id": "e345e1e0e83d199b",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "mdiri-ai/SoduWork",
-    "url": "https://github.com/mdiri-ai/SoduWork",
-    "publishedAt": "2026-10-29T02:43:14Z",
-    "rawText": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-    "score": 7049,
-    "lang": "JavaScript",
+    "title": "Louis-CFM/coucou",
+    "url": "https://github.com/Louis-CFM/coucou",
+    "publishedAt": "2026-09-27T21:54:12Z",
+    "rawText": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+    "score": 7445,
+    "lang": "Swift",
     "rank": 8,
-    "summaryKo": "팀과 에이전트를 위한 AI 네이티브 엔진 SoduWork로, 멀티 하네스·멀티 에이전트를 지원하고 자체 호스팅이 가능하다.",
+    "summaryKo": "Mac 노치와 iPhone에서 Claude Code·Codex·Cursor·Gemini CLI 등 코딩 에이전트를 감시하고 노치나 잠금화면에서 승인하게 해 주는 앱 coucou다.",
     "tags": [
-      "멀티 에이전트",
-      "셀프호스팅"
+      "에이전트 모니터링",
+      "macOS"
     ],
     "entities": [
-      "SoduWork"
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Gemini CLI"
     ],
     "cats": [
+      "코딩·개발",
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
+  },
+  {
+    "id": "8215948b632d1ee9",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "SulphurAI/Sulphur-3",
+    "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+    "publishedAt": "2026-10-31T20:31:01.000Z",
+    "rawText": "minimax-h3, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
+    "score": 229,
+    "rank": 8,
+    "summaryKo": "MiniMax-H3를 파인튜닝한 Sulphur-3 모델이다.",
+    "tags": [
+      "파인튜닝"
+    ],
+    "entities": [
+      "SulphurAI",
+      "MiniMax-H3"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "5a9bda72c1d1f834",
@@ -643,30 +617,6 @@
     "fetchedAt": "2026-11-17T21:04:22.895Z"
   },
   {
-    "id": "8215948b632d1ee9",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "SulphurAI/Sulphur-3",
-    "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-    "publishedAt": "2026-10-31T20:31:01.000Z",
-    "rawText": "minimax-h3, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
-    "score": 209,
-    "rank": 8,
-    "summaryKo": "SulphurAI가 MiniMax-H3를 파인튜닝한 Sulphur-3를 공개했다. 라이선스는 other로 표기되어 있다.",
-    "tags": [
-      "파인튜닝"
-    ],
-    "entities": [
-      "SulphurAI",
-      "MiniMax-H3"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
-  },
-  {
     "id": "74baf14775c2ec67",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -691,13 +641,13 @@
     "url": "https://github.com/KKKKhazix/agent-autoloop",
     "publishedAt": "2026-11-03T08:02:11Z",
     "rawText": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-    "score": 6388,
+    "score": 6484,
     "lang": "TypeScript",
     "rank": 9,
-    "summaryKo": "CLI 에이전트가 백그라운드에서 일을 맡아 끝까지 추적하고, 판단이 필요할 때만 카드로 사용자에게 결정을 요청하는 agent-autoloop 저장소다.",
+    "summaryKo": "명령줄 에이전트가 백그라운드에서 스스로 작업을 받아 끝까지 추적하고, 판단이 애매할 때만 카드로 사용자 결정을 요청하는 agent-autoloop이다.",
     "tags": [
-      "자율 루프",
-      "CLI 에이전트"
+      "자율 에이전트",
+      "CLI"
     ],
     "entities": [
       "agent-autoloop"
@@ -706,7 +656,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "73ed0421c08d5b2e",
@@ -784,6 +734,31 @@
     "fetchedAt": "2026-11-23T21:03:31.433Z"
   },
   {
+    "id": "0f2a3986db5a5792",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "apple/FastFrames-L",
+    "url": "https://huggingface.co/apple/FastFrames-L",
+    "publishedAt": "2026-11-16T17:21:04.000Z",
+    "rawText": "text-to-video | safetensors, text-to-video, arxiv:2611.23226, base_model:Wan-AI/Wan2.1-T2V-14B, base_model:finetune:Wan-AI/Wan2.1-T2V-14B, license:apple-amlr, region:us",
+    "score": 195.5,
+    "rank": 9,
+    "summaryKo": "Apple이 Wan2.1-T2V-14B를 기반으로 파인튜닝해 공개한 텍스트-비디오 모델 FastFrames-L이다.",
+    "tags": [
+      "텍스트-비디오",
+      "Diffusion"
+    ],
+    "entities": [
+      "Apple",
+      "Wan2.1"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
+  },
+  {
     "id": "ca82f9b3fbd0d05e",
     "sourceType": "repo",
     "source": "GitHub",
@@ -816,13 +791,13 @@
     "url": "https://github.com/blendi-remade/dioramas",
     "publishedAt": "2026-09-30T00:07:56Z",
     "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-    "score": 958,
+    "score": 960,
     "lang": "JavaScript",
     "rank": 10,
-    "summaryKo": "Nano Banana 2와 Meshy 7.1(fal)로 생성한 AI 에셋을 쓰는 영화적 3D 인터랙티브 웹사이트용 오픈소스 프레임워크다. 예제 사이트 20개를 포함한다.",
+    "summaryKo": "Nano Banana 2와 Meshy 7.1(fal)로 만든 AI 생성 자산 기반의 시네마틱 인터랙티브 3D 웹사이트용 무료 오픈소스 프레임워크이며 예제 20개를 포함한다.",
     "tags": [
       "3D 웹",
-      "에셋 생성"
+      "생성 자산"
     ],
     "entities": [
       "Nano Banana 2",
@@ -834,7 +809,7 @@
       "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "73e1243414bd6b3f",
@@ -887,6 +862,31 @@
     ],
     "summaryStatus": "ok",
     "fetchedAt": "2026-11-23T21:03:31.433Z"
+  },
+  {
+    "id": "1376e40b20c31bdd",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "apple/DepthPro2",
+    "url": "https://huggingface.co/apple/DepthPro2",
+    "publishedAt": "2026-11-03T16:55:03.000Z",
+    "rawText": "depth-estimation | depth-pro-2, depth-estimation, metric-depth, monocular-depth, video-depth, arxiv:2611.26603, license:other, region:us",
+    "score": 186.5,
+    "rank": 10,
+    "summaryKo": "Apple의 단안(monocular) 메트릭 깊이 추정 모델 DepthPro2로 비디오 깊이도 지원한다.",
+    "tags": [
+      "깊이 추정",
+      "비전"
+    ],
+    "entities": [
+      "Apple",
+      "DepthPro2"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "0679810bb8b1faa3",
@@ -971,13 +971,13 @@
     "url": "https://github.com/patch-gg/anymove",
     "publishedAt": "2026-10-27T08:00:42Z",
     "rawText": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
-    "score": 657,
+    "score": 662,
     "lang": "Python",
     "rank": 11,
-    "summaryKo": "AI 영상 하나에서 두 카메라 시점과 DINOv2 관절 인식으로 리그를 맞춰 어떤 생명체든 모션 캡처 GLB를 뽑는 anymove 저장소다.",
+    "summaryKo": "AI 영상 한 편에서 두 카메라 뷰와 DINOv2 관절 리더로 리그를 맞춰 임의 생물의 모션 캡처 GLB를 만드는 anymove다.",
     "tags": [
-      "모션 캡처",
-      "DINOv2"
+      "모션캡처",
+      "컴퓨터 비전"
     ],
     "entities": [
       "DINOv2"
@@ -986,7 +986,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-23T21:03:31.433Z"
+    "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
     "id": "6407ee6b0c4ea0b7",

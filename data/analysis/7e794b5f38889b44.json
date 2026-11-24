@@ -1,0 +1,24 @@
+{
+ "points": [
+  "Code Mode는 토큰 효율을 높이는 Claude Code 실험 기능이다.",
+  "기본 비활성이라 환경 변수를 추가해야 한다.",
+  "Claude Code 2.1.323 이상이 필요하다.",
+  "터미널 CLI에서만 적용되며 데스크탑 앱·SDK는 제외다.",
+  "settings.json의 env에 CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1로 영구 활성화한다."
+ ],
+ "sections": [
+  {
+   "heading": "요건",
+   "body": "버전 2.1.323 이상, CLI 환경."
+  },
+  {
+   "heading": "영구 활성화",
+   "body": "settings.json의 env 객체에 값을 1로 설정한다."
+  },
+  {
+   "heading": "일회성 활성화",
+   "body": "실행 명령 앞에 환경 변수를 붙여 한 번만 켠다."
+  }
+ ],
+ "quotes": []
+}
