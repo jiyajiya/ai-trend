@@ -36,23 +36,23 @@
     "url": "https://github.com/ccch1mneyyy/dsh-Go",
     "publishedAt": "2026-10-25T08:09:52Z",
     "rawText": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "score": 32633,
+    "score": 33278,
     "lang": "Dart",
     "rank": 1,
-    "summaryKo": "dsh-Go는 DeepSeek 하네스를 휴대폰에서 로컬 실행하고 PC도 원격 제어하는 Dart 기반 앱이다. GitHub 트렌딩 1위다.",
+    "summaryKo": "DeepSeek Harness를 휴대폰에서 로컬로 실행하고 PC도 원격 제어할 수 있게 하는 dsh-Go 프로젝트다.",
     "tags": [
-      "모바일 에이전트",
-      "Dart"
+      "에이전트",
+      "모바일",
+      "DeepSeek"
     ],
     "entities": [
       "DeepSeek"
     ],
     "cats": [
-      "에이전트",
-      "코딩·개발"
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "1e52228e1c5c3f80",
@@ -62,15 +62,16 @@
     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
     "publishedAt": "2026-11-17T00:26:57.000Z",
     "rawText": "image-text-to-text | transformers, safetensors, inkling2_loop, image-text-to-text, conversational, moe, license:apache-2.0, eval-results",
-    "score": 1394.5,
+    "score": 1407.5,
     "rank": 1,
-    "summaryKo": "Thinking Machines의 Inkling-2-Mini는 Apache-2.0 라이선스의 MoE 이미지-텍스트 대화 모델이다. HF 트렌딩 1위다.",
+    "summaryKo": "thinkingmachines의 Inkling-2-Mini는 Apache-2.0 라이선스의 이미지·텍스트 입력 MoE 모델로 transformers에서 쓸 수 있다.",
     "tags": [
       "MoE",
-      "멀티모달 LLM"
+      "멀티모달",
+      "오픈모델"
     ],
     "entities": [
-      "Thinking Machines",
+      "thinkingmachines",
       "Inkling-2-Mini"
     ],
     "cats": [
@@ -78,7 +79,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "4683cd570ef39deb",
@@ -116,11 +117,12 @@
     "url": "https://github.com/BaaRai/ARTEX",
     "publishedAt": "2026-10-08T21:14:39Z",
     "rawText": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
-    "score": 22109,
+    "score": 23416,
     "lang": "Go",
     "rank": 2,
-    "summaryKo": "ARTEX는 자체 호스팅·모델 비종속의 AI 자율 침투 테스트 시스템이다. 근거 기반 결과를 제공하며 원 프로젝트를 AGPL-3.0으로 이어받은 커뮤니티 버전이다.",
+    "summaryKo": "ARTEX는 셀프호스팅·모델 비종속의 AI 자율 침투 테스트 시스템으로, 근거 기반 결과를 낸다. Autumn-27/ARTEX를 커뮤니티가 이어가는 AGPL-3.0 프로젝트다.",
     "tags": [
+      "에이전트",
       "침투 테스트",
       "보안"
     ],
@@ -131,7 +133,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "c5324f23ea2e54f8",
@@ -168,22 +170,23 @@
     "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
     "publishedAt": "2026-11-20T13:09:48.000Z",
     "rawText": "image-text-to-text | gguf, conversational, image-text-to-text, moe, unsloth, base_model:thinkingmachines/Inkling-2-Mini, base_model:quantized:thinkingmachines/Inkling-2-Mini, license:apache-2.0",
-    "score": 1227,
+    "score": 1248,
     "rank": 2,
-    "summaryKo": "Unsloth가 Inkling-2-Mini를 GGUF로 양자화해 로컬 실행을 쉽게 했다.",
+    "summaryKo": "unsloth가 Inkling-2-Mini를 GGUF로 양자화해 로컬 실행용으로 공개했다(Apache-2.0).",
     "tags": [
+      "GGUF",
       "양자화",
-      "GGUF"
+      "MoE"
     ],
     "entities": [
-      "Unsloth",
+      "unsloth",
       "Inkling-2-Mini"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "7cd1fb3eb9d9482c",
@@ -212,30 +215,6 @@
     "fetchedAt": "2026-11-26T21:03:03.470Z"
   },
   {
-    "id": "552aaf9e335058e0",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "inworld/voice-isolator",
-    "url": "https://huggingface.co/inworld/voice-isolator",
-    "publishedAt": "2026-11-14T02:14:35.000Z",
-    "rawText": "audio-to-audio | inworld-voice-isolation, audio, speech, speech-enhancement, speech-denoising, noise-suppression, voice-isolation, 48khz",
-    "score": 513,
-    "rank": 3,
-    "summaryKo": "Inworld의 voice-isolator는 48kHz 음성 분리·노이즈 억제 모델이다.",
-    "tags": [
-      "음성 분리",
-      "노이즈 억제"
-    ],
-    "entities": [
-      "Inworld"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
-  },
-  {
     "id": "1e03415a592fab86",
     "sourceType": "repo",
     "source": "GitHub",
@@ -243,13 +222,14 @@
     "url": "https://github.com/wangzan101/Mika",
     "publishedAt": "2026-10-29T14:34:07Z",
     "rawText": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-    "score": 10072,
+    "score": 10132,
     "lang": "Kotlin",
-    "rank": 4,
-    "summaryKo": "Mika는 앱과 웹을 직접 조작해 일을 처리하는 안드로이드 온디바이스 AI 에이전트다.",
+    "rank": 3,
+    "summaryKo": "Mika는 앱과 웹을 직접 조작해 일을 처리해 주는 안드로이드용 온디바이스 AI 에이전트다.",
     "tags": [
+      "에이전트",
       "온디바이스",
-      "모바일 에이전트"
+      "Android"
     ],
     "entities": [
       "Mika"
@@ -258,84 +238,7 @@
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
-  },
-  {
-    "id": "d4687905ee9aa345",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-    "publishedAt": "2026-11-20T20:42:23.000Z",
-    "rawText": "image-text-to-text | gguf, llama.cpp, inkling2, uncensored, lora, image-text-to-text, base_model:thinkingmachines/Inkling-2-Mini, base_model:adapter:thinkingmachines/Inkling-2-Mini",
-    "score": 499.79999999999995,
-    "rank": 4,
-    "summaryKo": "AtomicChat이 Inkling-2-Mini를 LoRA로 무검열 튜닝해 GGUF로 공개했다.",
-    "tags": [
-      "LoRA",
-      "GGUF",
-      "무검열"
-    ],
-    "entities": [
-      "AtomicChat",
-      "Inkling-2-Mini"
-    ],
-    "cats": [
-      "LLM·모델"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
-  },
-  {
-    "id": "66c6c22e7581c7e2",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "mdiri-ai/SoduWork",
-    "url": "https://github.com/mdiri-ai/SoduWork",
-    "publishedAt": "2026-10-29T02:43:14Z",
-    "rawText": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-    "score": 8219,
-    "lang": "JavaScript",
-    "rank": 5,
-    "summaryKo": "SoduWork는 팀과 에이전트를 위한 AI 네이티브 엔진이다. 멀티 하네스와 멀티 에이전트를 지원하고 자체 호스팅한다.",
-    "tags": [
-      "멀티 에이전트",
-      "협업"
-    ],
-    "entities": [
-      "SoduWork"
-    ],
-    "cats": [
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
-  },
-  {
-    "id": "886299adc4b73faf",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "microsoft/TokenEconomizer",
-    "url": "https://github.com/microsoft/TokenEconomizer",
-    "publishedAt": "2026-10-13T04:16:50Z",
-    "rawText": "Experience-Driven Black-Box Cost Control for Coding Agents",
-    "score": 8112,
-    "lang": "Python",
-    "rank": 5,
-    "summaryKo": "Microsoft의 TokenEconomizer는 코딩 에이전트의 비용을 경험 기반으로 블랙박스 방식으로 줄이는 연구형 저장소다.",
-    "tags": [
-      "비용 절감",
-      "코딩 에이전트"
-    ],
-    "entities": [
-      "Microsoft"
-    ],
-    "cats": [
-      "코딩·개발",
-      "에이전트"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-25T21:11:15.561Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "8215948b632d1ee9",
@@ -345,10 +248,11 @@
     "url": "https://huggingface.co/SulphurAI/Sulphur-3",
     "publishedAt": "2026-10-31T20:31:01.000Z",
     "rawText": "minimax-h3, base_model:MiniMaxAI/MiniMax-H3, base_model:finetune:MiniMaxAI/MiniMax-H3, license:other, region:us",
-    "score": 476,
-    "rank": 5,
-    "summaryKo": "SulphurAI의 Sulphur-3는 MiniMax-H3를 파인튜닝한 모델이다.",
+    "score": 566,
+    "rank": 3,
+    "summaryKo": "SulphurAI의 Sulphur-3는 MiniMax-H3를 파인튜닝한 모델이다(라이선스 other).",
     "tags": [
+      "LLM",
       "파인튜닝"
     ],
     "entities": [
@@ -359,60 +263,85 @@
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
-    "id": "f841d7a6d6b4d1e3",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "MiniMaxAI/MiniMax-H3-Image",
-    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-    "publishedAt": "2026-11-03T06:34:36.000Z",
-    "rawText": "text-to-image | minimax-h3, diffusers, safetensors, text-to-image, image-to-image, image-editing, image-generation, en",
-    "score": 175,
-    "rank": 5,
-    "summaryKo": "MiniMax가 텍스트-이미지 생성과 이미지 편집을 지원하는 MiniMax-H3-Image를 diffusers 형식으로 공개했다.",
-    "tags": [
-      "이미지 생성",
-      "Diffusion"
-    ],
-    "entities": [
-      "MiniMax",
-      "MiniMax-H3-Image"
-    ],
-    "cats": [
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-20T21:09:27.140Z"
-  },
-  {
-    "id": "0c49f71f40e435a3",
+    "id": "66c6c22e7581c7e2",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "blendi-remade/dioramas",
-    "url": "https://github.com/blendi-remade/dioramas",
-    "publishedAt": "2026-09-30T00:07:56Z",
-    "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
-    "score": 964,
+    "title": "mdiri-ai/SoduWork",
+    "url": "https://github.com/mdiri-ai/SoduWork",
+    "publishedAt": "2026-10-29T02:43:14Z",
+    "rawText": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+    "score": 8740,
     "lang": "JavaScript",
-    "rank": 6,
-    "summaryKo": "dioramas는 AI 생성 에셋(Nano Banana 2, Meshy 7.1)으로 영화적 인터랙티브 3D 웹사이트를 만드는 오픈소스 프레임워크다. 예제 사이트 20개를 포함한다.",
+    "rank": 4,
+    "summaryKo": "SoduWork는 팀과 에이전트를 위한 AI 네이티브 엔진으로 멀티 하네스·멀티 에이전트를 지원하며 셀프호스팅이 가능하다.",
     "tags": [
-      "3D 웹",
-      "생성 에셋"
+      "멀티에이전트",
+      "셀프호스팅"
     ],
     "entities": [
-      "Nano Banana 2",
-      "Meshy",
-      "fal"
+      "SoduWork"
     ],
     "cats": [
-      "멀티모달",
-      "코딩·개발"
+      "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
+    "id": "d4687905ee9aa345",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+    "publishedAt": "2026-11-20T20:42:23.000Z",
+    "rawText": "image-text-to-text | gguf, llama.cpp, inkling2, uncensored, lora, image-text-to-text, base_model:thinkingmachines/Inkling-2-Mini, base_model:adapter:thinkingmachines/Inkling-2-Mini",
+    "score": 547.4,
+    "rank": 4,
+    "summaryKo": "AtomicChat이 Inkling-2-Mini에 LoRA를 적용한 비검열(uncensored) GGUF 버전을 공개했다.",
+    "tags": [
+      "GGUF",
+      "LoRA",
+      "llama.cpp"
+    ],
+    "entities": [
+      "AtomicChat",
+      "Inkling-2-Mini"
+    ],
+    "cats": [
+      "LLM·모델"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
+    "id": "886299adc4b73faf",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "microsoft/TokenEconomizer",
+    "url": "https://github.com/microsoft/TokenEconomizer",
+    "publishedAt": "2026-10-13T04:16:50Z",
+    "rawText": "Experience-Driven Black-Box Cost Control for Coding Agents",
+    "score": 8167,
+    "lang": "Python",
+    "rank": 5,
+    "summaryKo": "TokenEconomizer는 코딩 에이전트의 비용을 경험 기반으로 블랙박스 방식으로 제어하는 Microsoft의 프로젝트다.",
+    "tags": [
+      "코딩 에이전트",
+      "비용 제어"
+    ],
+    "entities": [
+      "Microsoft",
+      "TokenEconomizer"
+    ],
+    "cats": [
+      "코딩·개발",
+      "에이전트"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "fb828fc93bb9d0c8",
@@ -422,22 +351,74 @@
     "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
     "publishedAt": "2026-11-24T16:32:20.000Z",
     "rawText": "text-generation | llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda, metal, on-device",
-    "score": 436,
-    "rank": 6,
-    "summaryKo": "prism-ml의 Ternary-Bonsai-2.5-27B는 2비트 터너리 양자화 27B 모델의 GGUF 버전이다. llama.cpp로 CUDA와 Metal 온디바이스 실행을 노린다.",
+    "score": 527,
+    "rank": 5,
+    "summaryKo": "prism-ml의 Ternary-Bonsai-2.5-27B-GGUF는 2비트 터너리 양자화 27B 텍스트 생성 모델로 llama.cpp(CUDA·Metal) 온디바이스 실행을 지원한다.",
     "tags": [
-      "터너리 양자화",
-      "온디바이스"
+      "양자화",
+      "온디바이스",
+      "GGUF"
     ],
     "entities": [
       "prism-ml",
-      "llama.cpp"
+      "Ternary-Bonsai"
     ],
     "cats": [
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
+    "id": "d51d4d67577c8a7a",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "KKKKhazix/agent-autoloop",
+    "url": "https://github.com/KKKKhazix/agent-autoloop",
+    "publishedAt": "2026-11-03T08:02:11Z",
+    "rawText": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "score": 6715,
+    "lang": "TypeScript",
+    "rank": 6,
+    "summaryKo": "agent-autoloop은 CLI 에이전트가 백그라운드에서 스스로 일을 받아 끝까지 처리하고, 판단이 어려울 때만 카드로 사용자 결정을 요청하게 하는 도구다.",
+    "tags": [
+      "에이전트",
+      "자율 워크플로",
+      "CLI"
+    ],
+    "entities": [
+      "agent-autoloop"
+    ],
+    "cats": [
+      "에이전트",
+      "코딩·개발"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
+    "id": "552aaf9e335058e0",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "inworld/voice-isolator",
+    "url": "https://huggingface.co/inworld/voice-isolator",
+    "publishedAt": "2026-11-14T02:14:35.000Z",
+    "rawText": "audio-to-audio | inworld-voice-isolation, audio, speech, speech-enhancement, speech-denoising, noise-suppression, voice-isolation, 48khz",
+    "score": 421,
+    "rank": 6,
+    "summaryKo": "inworld/voice-isolator는 48kHz 오디오에서 음성을 분리하고 노이즈를 억제하는 audio-to-audio 모델이다.",
+    "tags": [
+      "음성 분리",
+      "노이즈 제거"
+    ],
+    "entities": [
+      "Inworld"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "e345e1e0e83d199b",
@@ -469,29 +450,29 @@
     "fetchedAt": "2026-11-25T21:11:15.561Z"
   },
   {
-    "id": "86c71dfd3666e265",
+    "id": "46ccbfc5e65bd167",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "patch-gg/anymove",
-    "url": "https://github.com/patch-gg/anymove",
-    "publishedAt": "2026-10-27T08:00:42Z",
-    "rawText": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
-    "score": 668,
+    "title": "Leonxlnx/earshot",
+    "url": "https://github.com/Leonxlnx/earshot",
+    "publishedAt": "2026-10-15T06:52:46Z",
+    "rawText": "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
+    "score": 5944,
     "lang": "Python",
     "rank": 7,
-    "summaryKo": "anymove는 AI 생성 영상 하나로 모든 생명체의 모션 캡처를 얻는 도구다. 한 프레임의 두 카메라 뷰와 DINOv2 관절 리더로 리그를 맞춰 GLB를 출력한다.",
+    "summaryKo": "earshot은 코딩 에이전트에 말로 요청하면 효과음을 코드로 렌더링해 주는 오픈소스 도구로, CPU만 쓰고 오디오 모델이 필요 없다.",
     "tags": [
-      "모션 캡처",
-      "비전"
+      "코딩 에이전트",
+      "오디오"
     ],
     "entities": [
-      "DINOv2"
+      "earshot"
     ],
     "cats": [
-      "멀티모달"
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "92c1824269f45469",
@@ -501,9 +482,9 @@
     "url": "https://huggingface.co/Lightricks/LTX-2.5",
     "publishedAt": "2026-07-23T07:55:24.000Z",
     "rawText": "image-to-video | diffusion-single-file, image-to-video, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio",
-    "score": 327,
+    "score": 337,
     "rank": 7,
-    "summaryKo": "Lightricks의 LTX-2.5는 텍스트·이미지·오디오 입력을 받는 영상 생성 모델로 영상-오디오 생성도 지원한다.",
+    "summaryKo": "Lightricks의 LTX-2.5는 이미지·텍스트·비디오·오디오 입력으로 영상(및 오디오)을 생성하는 디퓨전 모델이다.",
     "tags": [
       "영상 생성",
       "Diffusion"
@@ -516,7 +497,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "364859f834c86602",
@@ -546,53 +527,32 @@
     "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
-    "id": "d51d4d67577c8a7a",
+    "id": "73ed0421c08d5b2e",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "KKKKhazix/agent-autoloop",
-    "url": "https://github.com/KKKKhazix/agent-autoloop",
-    "publishedAt": "2026-11-03T08:02:11Z",
-    "rawText": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-    "score": 6545,
+    "title": "vAPI-Network/vapi-network",
+    "url": "https://github.com/vAPI-Network/vapi-network",
+    "publishedAt": "2026-10-02T13:05:19Z",
+    "rawText": "Buyer-controlled client for x402 API payments in USDC on Base.",
+    "score": 5931,
     "lang": "TypeScript",
     "rank": 8,
-    "summaryKo": "agent-autoloop는 명령줄 에이전트가 백그라운드에서 작업을 이어가다 판단이 필요할 때만 카드로 사용자에게 알리게 하는 도구다.",
+    "summaryKo": "vapi-network는 Base 체인에서 USDC로 x402 API 결제를 할 때 구매자가 통제하는 클라이언트다.",
     "tags": [
-      "에이전트",
-      "자동화"
+      "x402",
+      "결제",
+      "API"
     ],
     "entities": [
-      "agent-autoloop"
+      "x402",
+      "USDC",
+      "Base"
     ],
     "cats": [
       "에이전트"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-25T21:11:15.561Z"
-  },
-  {
-    "id": "6407ee6b0c4ea0b7",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
-    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-    "publishedAt": "2026-11-15T16:48:18Z",
-    "rawText": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-    "score": 454,
-    "lang": "Makefile",
-    "rank": 8,
-    "summaryKo": "Google AI Studio와 Gemini 접속이 가능한 프록시 설정을 찾는 지역 스캐너 저장소다. 동일 이름의 복제 저장소가 여럿 올라온 형태다.",
-    "tags": [
-      "Gemini 접속",
-      "프록시"
-    ],
-    "entities": [
-      "Google AI Studio",
-      "Gemini"
-    ],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "c4766e997cf55369",
@@ -602,9 +562,9 @@
     "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
     "publishedAt": "2026-11-03T21:44:40.000Z",
     "rawText": "image-to-text | liteparse, onnx, ocr, pdf, markdown, document-parsing, tables, layout",
-    "score": 218,
+    "score": 251,
     "rank": 8,
-    "summaryKo": "LlamaIndex의 OCRia-nano-1은 PDF를 표와 레이아웃을 보존한 Markdown으로 파싱하는 소형 ONNX OCR 모델이다.",
+    "summaryKo": "llamaindex의 OCRia-nano-1은 PDF의 표·레이아웃을 마크다운으로 변환하는 경량 ONNX OCR 모델(liteparse)이다.",
     "tags": [
       "OCR",
       "문서 파싱"
@@ -617,7 +577,7 @@
       "멀티모달"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "dbede62d4d711d8c",
@@ -647,71 +607,58 @@
     "fetchedAt": "2026-11-25T21:11:15.561Z"
   },
   {
-    "id": "74baf14775c2ec67",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "Sentinel7/h3",
-    "url": "https://huggingface.co/Sentinel7/h3",
-    "publishedAt": "2026-08-06T04:13:52.000Z",
-    "rawText": "region:us",
-    "score": 165,
-    "rank": 8,
-    "summaryKo": "설명 없이 이름만 있는 Hugging Face 저장소(Sentinel7/h3)로 내용을 확인할 수 없다.",
-    "tags": [],
-    "entities": [],
-    "cats": [],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-20T21:09:27.140Z"
-  },
-  {
-    "id": "73ed0421c08d5b2e",
+    "id": "0c49f71f40e435a3",
     "sourceType": "repo",
     "source": "GitHub",
-    "title": "vAPI-Network/vapi-network",
-    "url": "https://github.com/vAPI-Network/vapi-network",
-    "publishedAt": "2026-10-02T13:05:19Z",
-    "rawText": "Buyer-controlled client for x402 API payments in USDC on Base.",
-    "score": 5866,
-    "lang": "TypeScript",
+    "title": "blendi-remade/dioramas",
+    "url": "https://github.com/blendi-remade/dioramas",
+    "publishedAt": "2026-09-30T00:07:56Z",
+    "rawText": "A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). 20 example sites.",
+    "score": 969,
+    "lang": "JavaScript",
     "rank": 9,
-    "summaryKo": "vapi-network는 Base 체인의 USDC로 x402 API 결제를 하는, 구매자가 통제하는 클라이언트다.",
+    "summaryKo": "dioramas는 Nano Banana 2와 Meshy 7.1(fal)로 생성한 AI 에셋을 쓰는 인터랙티브 3D 웹사이트용 오픈소스 프레임워크로 예제 20종을 제공한다.",
     "tags": [
-      "x402",
-      "결제"
+      "3D",
+      "생성형 에셋",
+      "웹"
     ],
     "entities": [
-      "USDC",
-      "Base"
+      "Nano Banana 2",
+      "Meshy",
+      "fal"
     ],
     "cats": [
-      "에이전트"
+      "멀티모달",
+      "코딩·개발"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-25T21:11:15.561Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
-    "id": "118578aba2345ae4",
-    "sourceType": "repo",
-    "source": "GitHub",
-    "title": "weightcashiercupola/Gemini-Config-Checker-",
-    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
-    "publishedAt": "2026-11-15T16:47:11Z",
-    "rawText": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-    "score": 452,
-    "lang": "Makefile",
+    "id": "5df172f386475ca1",
+    "sourceType": "model",
+    "source": "HuggingFace",
+    "title": "nvidia/Nemotron-Labs-Image-30B-A3B",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+    "publishedAt": "2026-09-24T21:13:25.000Z",
+    "rawText": "text-to-image | transformers, safetensors, nemotron_h, text-generation, nvidia, nemotron, image-generation, nvidia-license",
+    "score": 244,
     "rank": 9,
-    "summaryKo": "Google AI Studio와 Gemini 접속이 가능한 프록시 설정을 찾는 지역 스캐너 저장소다. 동일 이름의 복제 저장소가 여럿 올라온 형태다.",
+    "summaryKo": "nvidia의 Nemotron-Labs-Image-30B-A3B는 nemotron_h 기반의 텍스트-이미지 생성 모델이다.",
     "tags": [
-      "Gemini 접속",
-      "프록시"
+      "이미지 생성",
+      "Nemotron"
     ],
     "entities": [
-      "Google AI Studio",
-      "Gemini"
+      "NVIDIA",
+      "Nemotron"
     ],
-    "cats": [],
-    "summaryStatus": "fallback",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "31d0562891dc2c67",
@@ -813,6 +760,32 @@
     "fetchedAt": "2026-11-24T21:03:37.624Z"
   },
   {
+    "id": "86c71dfd3666e265",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "patch-gg/anymove",
+    "url": "https://github.com/patch-gg/anymove",
+    "publishedAt": "2026-10-27T08:00:42Z",
+    "rawText": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+    "score": 671,
+    "lang": "Python",
+    "rank": 10,
+    "summaryKo": "anymove는 하나의 AI 영상에서 두 카메라 뷰와 DINOv2 관절 추정으로 리깅을 맞춰 어떤 생물이든 모션을 캡처해 GLB로 출력한다.",
+    "tags": [
+      "모션캡처",
+      "비전",
+      "3D"
+    ],
+    "entities": [
+      "DINOv2"
+    ],
+    "cats": [
+      "멀티모달"
+    ],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
     "id": "2b6655c907ad4b96",
     "sourceType": "repo",
     "source": "GitHub",
@@ -837,30 +810,30 @@
     "fetchedAt": "2026-11-26T21:03:03.470Z"
   },
   {
-    "id": "5df172f386475ca1",
+    "id": "85f6a5f9c6ffac94",
     "sourceType": "model",
     "source": "HuggingFace",
-    "title": "nvidia/Nemotron-Labs-Image-30B-A3B",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
-    "publishedAt": "2026-09-24T21:13:25.000Z",
-    "rawText": "text-to-image | transformers, safetensors, nemotron_h, text-generation, nvidia, nemotron, image-generation, nvidia-license",
-    "score": 208,
+    "title": "strata-engine/Inkling-2-Mini-Strata",
+    "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+    "publishedAt": "2026-11-21T18:46:06.000Z",
+    "rawText": "image-text-to-text | inkling2_loop, strata, inkling-2-mini, moe, quantization, looped-transformer, dspark, image-text-to-text",
+    "score": 211,
     "rank": 10,
-    "summaryKo": "NVIDIA의 Nemotron-Labs-Image-30B-A3B는 nemotron_h 구조의 텍스트-이미지 생성 모델이다.",
+    "summaryKo": "strata-engine의 Inkling-2-Mini-Strata는 Inkling-2-Mini를 루프형 트랜스포머 구조로 양자화한 변형이다.",
     "tags": [
-      "이미지 생성",
-      "MoE"
+      "양자화",
+      "MoE",
+      "looped transformer"
     ],
     "entities": [
-      "NVIDIA",
-      "Nemotron"
+      "strata-engine",
+      "Inkling-2-Mini"
     ],
     "cats": [
-      "멀티모달",
       "LLM·모델"
     ],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-26T21:03:03.470Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   },
   {
     "id": "ca26bca182f697df",
@@ -889,32 +862,6 @@
     "fetchedAt": "2026-11-23T21:03:31.433Z"
   },
   {
-    "id": "0679810bb8b1faa3",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "thinkingmachines/Inkling-2-Small",
-    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
-    "publishedAt": "2026-11-04T19:51:05.000Z",
-    "rawText": "image-text-to-text | transformers, safetensors, inkling2, image-text-to-text, conversational, moe, license:apache-2.0, eval-results",
-    "score": 185,
-    "rank": 10,
-    "summaryKo": "Thinking Machines의 Inkling-2-Small은 Apache-2.0 라이선스의 MoE 이미지-텍스트 대화 모델이다.",
-    "tags": [
-      "MoE",
-      "멀티모달"
-    ],
-    "entities": [
-      "Thinking Machines",
-      "Inkling-2"
-    ],
-    "cats": [
-      "LLM·모델",
-      "멀티모달"
-    ],
-    "summaryStatus": "ok",
-    "fetchedAt": "2026-11-19T21:05:36.309Z"
-  },
-  {
     "id": "5419a8b213cd4f4a",
     "sourceType": "model",
     "source": "HuggingFace",
@@ -940,27 +887,75 @@
     "fetchedAt": "2026-11-25T21:11:15.561Z"
   },
   {
-    "id": "73107a4be91e4a58",
-    "sourceType": "model",
-    "source": "HuggingFace",
-    "title": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-    "publishedAt": "2026-11-03T16:13:25.000Z",
-    "rawText": "text-to-image | diffusers, safetensors, gguf, qwen-image, qwen-image-2.1, text-to-image, image-editing, fp8",
-    "score": 160,
-    "rank": 10,
-    "summaryKo": "Qwen-Image-2.1을 기반으로 한 무검열 옴니 모델의 양자화(fp8/GGUF) 버전이다. 텍스트-이미지 생성과 이미지 편집을 지원하는 커뮤니티 파생 모델이다.",
+    "id": "6407ee6b0c4ea0b7",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "publishedAt": "2026-11-15T16:48:18Z",
+    "rawText": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "score": 454,
+    "lang": "Makefile",
+    "rank": 11,
+    "summaryKo": "Google AI Studio·Gemini 접속이 가능한 프록시 설정을 찾아주는 체인 리전 스캐너(로그인 브라우저 확인, anti-DPI, 다중 OS 지원)다.",
     "tags": [
-      "이미지 생성",
-      "양자화"
+      "프록시",
+      "지역 우회"
     ],
     "entities": [
-      "Qwen-Image-2.1"
+      "Google AI Studio",
+      "Gemini"
     ],
-    "cats": [
-      "멀티모달"
-    ],
+    "cats": [],
     "summaryStatus": "ok",
-    "fetchedAt": "2026-11-20T21:09:27.140Z"
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
+    "id": "118578aba2345ae4",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "weightcashiercupola/Gemini-Config-Checker-",
+    "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+    "publishedAt": "2026-11-15T16:47:11Z",
+    "rawText": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "score": 453,
+    "lang": "Makefile",
+    "rank": 12,
+    "summaryKo": "Google AI Studio·Gemini 접속이 가능한 프록시 설정을 찾아주는 체인 리전 스캐너(로그인 브라우저 확인, anti-DPI, 다중 OS 지원)다.",
+    "tags": [
+      "프록시",
+      "지역 우회"
+    ],
+    "entities": [
+      "Google AI Studio",
+      "Gemini"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
+  },
+  {
+    "id": "440f48ed4c2355be",
+    "sourceType": "repo",
+    "source": "GitHub",
+    "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+    "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+    "publishedAt": "2026-11-15T16:46:04Z",
+    "rawText": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+    "score": 451,
+    "lang": "Makefile",
+    "rank": 13,
+    "summaryKo": "Google AI Studio·Gemini 접속이 가능한 프록시 설정을 찾아주는 체인 리전 스캐너(로그인 브라우저 확인, anti-DPI, 다중 OS 지원)다.",
+    "tags": [
+      "프록시",
+      "지역 우회"
+    ],
+    "entities": [
+      "Google AI Studio",
+      "Gemini"
+    ],
+    "cats": [],
+    "summaryStatus": "ok",
+    "fetchedAt": "2026-11-27T21:12:04.609Z"
   }
 ]

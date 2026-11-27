@@ -1,0 +1,18 @@
+{
+ "points": [
+  "배포 사이트를 외부에서 점검해 노출 위험을 찾는 웹 도구다.",
+  "공개 JS 번들 속 키 패턴, 열린 /.env, 익명 읽기 가능한 Supabase 테이블을 점검한다.",
+  "가입 없이 도메인 또는 lock 파일 붙여넣기로 바로 사용한다."
+ ],
+ "sections": [
+  {
+   "heading": "만든 이유",
+   "body": "바이브 코딩 서비스에서 Supabase RLS 미설정과 번들 내 service_role 키 노출 사례가 계속 나와서 만들었다."
+  },
+  {
+   "heading": "점검 항목",
+   "body": "service_role JWT, sk-, AKIA, sk_live_ 등 키 패턴을 공개 번들에서 찾는다."
+  }
+ ],
+ "quotes": []
+}
